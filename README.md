@@ -39,7 +39,7 @@ Gender-Medizin (sex- and gender-sensitive medicine) is a cross-cutting editorial
 
 ## Platform Architecture
 
-```
+```text
 GitHub (source of truth)
     │
     ├── content/         ← Markdown articles, templates, consent modules
@@ -90,7 +90,7 @@ Innere Medizin · Kardiologie · Pneumologie · Gastroenterologie · Nephrologie
 
 All content follows a structured lifecycle:
 
-```
+```text
 Draft → Peer Review → Editorial Review → Medical Advisor Sign-off → Published
 ```
 

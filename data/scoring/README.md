@@ -72,7 +72,7 @@ Measures how broadly relevant the publication is across Wikimedica specialties.
 
 ## Scoring Formula
 
-```
+```text
 AMPIS = (Clinical_Relevance × 0.30) +
         (Evidence_Quality   × 0.25) +
         (Update_Urgency     × 0.25) +
@@ -100,6 +100,7 @@ AMPIS values range from **0** (no editorial relevance) to **100** (maximum urgen
 The current AMPIS implementation in `scripts/pubmed/pubmed-daily-search.py` is a **stub** that approximates the score using proxy signals available from PubMed metadata (publication type, journal, title keywords). The full scoring rubric above requires editorial input that is not always available from API data alone.
 
 **Planned improvements:**
+
 1. **Semi-automated scoring**: Editorial team provides dimension scores for HIGH-relevance records via a GitHub issue comment command (e.g., `/score clinical=85 evidence=90 urgency=70 coverage=40`).
 2. **ML-assisted scoring**: Train a model on manually scored records to predict AMPIS scores automatically.
 3. **Guideline integration**: Automatically pull guideline level from AWMF registry API when available.
@@ -109,6 +110,7 @@ The current AMPIS implementation in `scripts/pubmed/pubmed-daily-search.py` is a
 ## Use in Prioritisation
 
 AMPIS scores are used in:
+
 - `scripts/pubmed/pubmed-daily-search.py`: classifies each PubMed record and dispatches actions.
 - `scripts/reporting/monthly-guideline-report.py`: orders guidelines for review by urgency.
 - Monthly editorial dashboard (future): visualises content update queue sorted by AMPIS.

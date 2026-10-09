@@ -76,7 +76,7 @@ Gender-Medizin uses the following extended PubMed search strategy (also maintain
 
 ### Core MeSH Terms
 
-```
+```text
 "Sex Factors"[MeSH]
 "Gender and Health"[MeSH]
 "Women's Health"[MeSH]
@@ -92,7 +92,7 @@ Gender-Medizin uses the following extended PubMed search strategy (also maintain
 
 ### Condition-Specific Terms
 
-```
+```text
 ("myocardial infarction"[MeSH] OR "acute coronary syndrome"[MeSH]) AND ("sex factors"[MeSH] OR "women"[MeSH])
 ("pharmacokinetics"[MeSH] OR "drug metabolism"[MeSH]) AND "sex factors"[MeSH]
 ("pain"[MeSH] OR "chronic pain"[MeSH]) AND "sex factors"[MeSH]
@@ -136,6 +136,7 @@ Given the interdisciplinary nature of Gender-Medizin, reviewers and authors may 
 ### Gender-Medizin Editor
 
 The designated Gender-Medizin editor:
+
 - Coordinates PubMed alert responses for the specialty.
 - Assigns authors and reviewers for planned articles.
 - Performs cross-specialty gender-relevance tagging for articles in other specialties.

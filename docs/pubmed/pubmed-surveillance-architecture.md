@@ -14,7 +14,7 @@ Wikimedica operates a fully automated daily PubMed surveillance pipeline to iden
 
 ## 2. Daily Workflow Architecture
 
-```
+```text
 06:00 UTC — GitHub Actions: pubmed-daily.yml
      │
      ▼
@@ -91,6 +91,7 @@ The current relevance classifier is a rule-based heuristic:
 | Article is German-language (relevant to DE context) | +5 |
 
 **Classification thresholds:**
+
 - Score ≥ 60 → **HIGH**
 - Score 30–59 → **MEDIUM**
 - Score < 30 → **LOW**
@@ -117,6 +118,7 @@ The stub classifier is designed to be replaced with a fine-tuned classification 
 ### GitHub Issue Format for PubMed Alerts
 
 Issues are created using the template `.github/ISSUE_TEMPLATE/pubmed-alert.yml`. Key fields:
+
 - PMID and direct PubMed URL
 - Article title and authors
 - Abstract excerpt (first 300 characters)
