@@ -162,6 +162,72 @@ $wgGroupPermissions['*']['edit'] = false;
 ## Allow users to read all pages.
 $wgGroupPermissions['*']['read'] = true;
 
+# -----------------------------------------------------------------------------
+# Roles and rights  (see docs/editorial/roles-and-permissions.md)
+# -----------------------------------------------------------------------------
+## GitHub is the source of truth: article pages are WRITTEN BY THE IMPORT BOT
+## ONLY. A manual wiki edit of an article would be overwritten by the next
+## import, so human accounts get no write access to content namespaces.
+
+## Anonymous: read-only.
+$wgGroupPermissions['*']['createpage'] = false;
+$wgGroupPermissions['*']['createtalk'] = false;
+
+## Registered but unprivileged accounts: read-only as well.
+foreach ( [ 'user', 'autoconfirmed' ] as $group ) {
+    foreach ( [
+        'edit', 'createpage', 'createtalk', 'minoredit',
+        'move', 'move-subpages', 'move-rootuserpages', 'movefile',
+        'upload', 'reupload', 'reupload-own', 'reupload-shared', 'upload_by_url',
+    ] as $right ) {
+        $wgGroupPermissions[$group][$right] = false;
+    }
+}
+
+## Content namespaces need the custom right `wm-edit-content`, held only by the
+## import bot and administrators.
+$wgAvailableRights[] = 'wm-edit-content';
+foreach ( [ NS_MAIN, NS_TEMPLATE, NS_CATEGORY, NS_HELP, NS_PROJECT ] as $ns ) {
+    $wgNamespaceProtection[$ns] = [ 'wm-edit-content' ];
+}
+
+## wm-editor: editorial staff may discuss on talk and user pages (feedback),
+## but cannot touch content namespaces.
+$wgGroupPermissions['wm-editor']['edit']       = true;
+$wgGroupPermissions['wm-editor']['createtalk'] = true;
+$wgGroupPermissions['wm-editor']['minoredit']  = true;
+
+## wm-uploader: media upload is granted case by case (SVG/PDF/WebP are risky).
+$wgGroupPermissions['wm-uploader']['upload']       = true;
+$wgGroupPermissions['wm-uploader']['reupload-own'] = true;
+
+## importbot: service account of scripts/publishing/import_to_mediawiki.py.
+## Authenticate with a BotPassword (Special:BotPasswords) limited to these rights.
+$wgGroupPermissions['importbot'] = [
+    'read'            => true,
+    'edit'            => true,
+    'createpage'      => true,
+    'minoredit'       => true,
+    'bot'             => true,
+    'apihighlimits'   => true,
+    'wm-edit-content' => true,
+];
+
+## Administrators keep standard rights plus the content right.
+$wgGroupPermissions['sysop']['wm-edit-content'] = true;
+$wgGroupPermissions['sysop']['createaccount']   = true;
+
+## Restrictive group management: bureaucrats may only manage editorial groups.
+## NOTE: $wgAddGroups / $wgRemoveGroups apply ONLY to users WITHOUT the
+## `userrights` right, so it must be removed from the bureaucrat group.
+## sysop/bureaucrat are assigned on the command line only:
+##   php maintenance/createAndPromote.php --bureaucrat --sysop <user>
+$wgGroupPermissions['bureaucrat']['userrights'] = false;
+$wgAddGroups['bureaucrat']    = [ 'wm-editor', 'wm-uploader' ];
+$wgRemoveGroups['bureaucrat'] = [ 'wm-editor', 'wm-uploader' ];
+$wgAddGroups['sysop']    = [];
+$wgRemoveGroups['sysop'] = [];
+
 ## Email confirmation required for editing.
 $wgEmailConfirmToEdit = true;
 
