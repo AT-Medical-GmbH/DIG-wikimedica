@@ -187,6 +187,11 @@ foreach ( [ 'user', 'autoconfirmed' ] as $group ) {
 ## Content namespaces need the custom right `wm-edit-content`, held only by the
 ## import bot and administrators.
 $wgAvailableRights[] = 'wm-edit-content';
+## IMPORTANT: bot passwords intersect the user's rights with their GRANTS. A custom right
+## that belongs to no grant is silently dropped, and the import bot would be refused with
+## "protectednamespace" (verified on MediaWiki 1.43.11). So attach it to the `editpage` grant.
+$wgGrantPermissions['editpage']['wm-edit-content'] = true;
+$wgGrantPermissionGroups['wm-edit-content'] = 'page-interaction';
 foreach ( [ NS_MAIN, NS_TEMPLATE, NS_CATEGORY, NS_HELP, NS_PROJECT ] as $ns ) {
     $wgNamespaceProtection[$ns] = [ 'wm-edit-content' ];
 }
@@ -213,9 +218,20 @@ $wgGroupPermissions['importbot'] = [
     'wm-edit-content' => true,
 ];
 
-## Administrators keep standard rights plus the content right.
+## Administrators keep their working rights plus the content right.
+## IMPORTANT: sysops normally inherit edit/upload/move from the 'user' group. Because those
+## rights were removed from 'user' above, they must be granted to sysop EXPLICITLY — otherwise
+## not even an administrator can edit the main page, MediaWiki:Common.css or system pages
+## (verified on MediaWiki 1.43.11).
 $wgGroupPermissions['sysop']['wm-edit-content'] = true;
 $wgGroupPermissions['sysop']['createaccount']   = true;
+foreach ( [
+    'edit', 'createpage', 'createtalk', 'minoredit',
+    'move', 'move-subpages', 'move-rootuserpages', 'movefile',
+    'upload', 'reupload', 'reupload-own', 'reupload-shared',
+] as $right ) {
+    $wgGroupPermissions['sysop'][$right] = true;
+}
 
 ## Restrictive group management: bureaucrats may only manage editorial groups.
 ## NOTE: $wgAddGroups / $wgRemoveGroups apply ONLY to users WITHOUT the
@@ -284,7 +300,12 @@ wfLoadExtension( 'VisualEditor' );        # WYSIWYG editor
 wfLoadExtension( 'CategoryTree' );        # Interactive category trees
 wfLoadExtension( 'ParserFunctions' );     # Template logic functions
 wfLoadExtension( 'Cite' );               # Footnote/reference system
-wfLoadExtension( 'TemplateStyles' );      # Per-template CSS
+## NOT bundled: TemplateStyles is missing from the MediaWiki 1.43 tarball and from the
+## official Docker image — loading it here is a FATAL ERROR ("cannot be loaded") that takes
+## the whole site down (verified on MediaWiki 1.43.11). It is optional (articles use no
+## templates); enable it only in a custom image that installs the extension pinned to a
+## REL1_43 commit (see docs/architecture/version-policy.md).
+# wfLoadExtension( 'TemplateStyles' );      # Per-template CSS
 
 ## Code display
 wfLoadExtension( 'SyntaxHighlight_GeSHi' );  # Syntax highlighting

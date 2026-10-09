@@ -17,7 +17,7 @@ $wgFileExtensions=['png','jpg']; $wgProhibitedFileExtensions=[]; $wgMimeTypeExcl
 $wgGroupPermissions=['*'=>['read'=>true,'edit'=>true,'createaccount'=>true],
   'user'=>['edit'=>true,'upload'=>true,'move'=>true],'autoconfirmed'=>[],
   'sysop'=>['createaccount'=>false],'bureaucrat'=>['userrights'=>true]];
-$wgNamespaceProtection=[]; $wgAvailableRights=[]; $wgAddGroups=[]; $wgRemoveGroups=[];
+$wgNamespaceProtection=[]; $wgGrantPermissions=[]; $wgGrantPermissionGroups=[]; $wgAvailableRights=[]; $wgAddGroups=[]; $wgRemoveGroups=[];
 $wgNamespacesWithSubpages=[]; $wgDefaultUserOptions=[]; $wgCaptchaTriggers=[];
 $wgUploadDirectory='/x';
 require $argv[1];
@@ -33,6 +33,8 @@ $checks = [
  'wm-editor lacks content right' => !$can('wm-editor','wm-edit-content'),
  'importbot has content right'   =>  $can('importbot','wm-edit-content') && $can('importbot','bot'),
  'sysop has content right'       =>  $can('sysop','wm-edit-content'),
+ 'sysop can edit (not inherited)' =>  $can('sysop','edit') && $can('sysop','createpage') && $can('sysop','upload'),
+ 'bot grant maps content right'  => ($wgGrantPermissions['editpage']['wm-edit-content'] ?? false) === true,
  'main ns protected'             => ($wgNamespaceProtection[0] ?? null) === ['wm-edit-content'],
  'template ns protected'         => ($wgNamespaceProtection[10] ?? null) === ['wm-edit-content'],
  'talk ns NOT protected'         => !isset($wgNamespaceProtection[1]),
