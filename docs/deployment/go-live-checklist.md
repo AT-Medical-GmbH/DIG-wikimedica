@@ -5,11 +5,13 @@ Engineering cannot tick the first block; the scripts refuse production while the
 
 ## A. Owner decisions (blocking)
 
-- [ ] **DEC-2 License**: decide repository licence vs. article licence (`docs/legal/license-decision-needed.md`); then set `licence` in articles/schema and align README.
+- [ ] **DEC-2 License** (entschieden: Artikel CC BY-SA 4.0, Code proprietär — siehe `docs/architecture/decision-log.md`; Umsetzung offen): decide repository licence vs. article licence (`docs/legal/license-decision-needed.md`); then set `licence` in articles/schema and align README.
 - [ ] **Legal review** of `data/legal/disclaimers.yaml` → `review_status: approved` (production render of system pages and import are blocked until then).
 - [ ] **Impressum / Datenschutz**: fill all placeholders in `docs/legal/page-drafts/` (production bootstrap refuses while any `REPLACE_WITH` remains); data-protection officer named.
 - [ ] **DEC-1 Edge topology**, **DEC-3 Redis/search**, **DEC-4 CAPTCHA**, **DEC-5 tracking** (proposal: none), **DEC-7 backup target** decided.
 - [ ] **Medical Advisor** and qualified reviewers named per specialty (`docs/editorial/roles-and-permissions.md`).
+
+> Entscheidungen vom 2026-10-09 stehen im [Entscheidungsprotokoll](../architecture/decision-log.md); die Punkte unten sind weiterhin Gates.
 
 ## B. GitHub
 
