@@ -213,3 +213,10 @@ import-output/
 
 # Pinned documentation tooling must be reproducible
 !package-lock.json
+
+# Server-side deployment state (never committed)
+deployed-version
+deploy-summary.md
+deploy.log
+.deploy.lock
+backups/

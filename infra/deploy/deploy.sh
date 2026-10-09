@@ -1,212 +1,230 @@
-# Parse deployment arguments. Support both:
-#   ./deploy.sh --tag vX.Y.Z
-# and the legacy positional form:
-#   ./deploy.sh vX.Y.Z
-usage() {
-  echo "Usage: $0 [--tag <ref>] [<ref>]" >&2
-}
-
-DEPLOY_TAG=""
-
-while [ "$#" -gt 0 ]; do
-  case "$1" in
-    --tag)
-      if [ "$#" -lt 2 ] || [ -z "$2" ]; then
-        echo "Error: --tag requires a git ref." >&2
-        usage
-        exit 1
-      fi
-      if [ -n "$DEPLOY_TAG" ]; then
-        echo "Error: deployment ref specified more than once." >&2
-        usage
-        exit 1
-      fi
-      DEPLOY_TAG="$2"
-      shift 2
-      ;;
-    -h|--help)
-      usage
-      exit 0
-      ;;
-    -*)
-      echo "Error: unknown option: $1" >&2
-      usage
-      exit 1
-      ;;
-    *)
-      if [ -n "$DEPLOY_TAG" ]; then
-        echo "Error: deployment ref specified more than once." >&2
-        usage
-        exit 1
-      fi
-      DEPLOY_TAG="$1"
-      shift
-      ;;
-  esac
-done
 #!/usr/bin/env bash
 # =============================================================================
-# deploy.sh — Wikimedica Production Deploy Script
+# deploy.sh — deploy a Wikimedica RELEASE TAG on the server
 # =============================================================================
-# Pulls the latest release from GitHub, updates Docker containers,
-# performs a health check, and notifies on failure.
+# Production deploys exactly one thing: a release tag vX.Y.Z that lies on main.
+# No branches, no "latest", no commits.
 #
-# Usage (on VPS):
-#   ./infra/deploy/deploy.sh [--tag v1.2.3]
+#   DEPLOY_ENV=production infra/deploy/deploy.sh --tag v1.2.3
+#   DEPLOY_ENV=staging    infra/deploy/deploy.sh --tag my-feature-branch     (any ref on staging)
 #
-# Environment variables (set in infra/env/.env or exported before running):
-#   DEPLOY_DIR      — Absolute path to the cloned repository on the VPS
-#                     Default: /opt/wikimedica
-#   COMPOSE_FILE    — Path to docker-compose.yml
-#                     Default: ${DEPLOY_DIR}/infra/docker/docker-compose.yml
-#   ALERT_EMAIL     — Email to notify on failure (optional)
-#   HEALTHCHECK_URL — Healthchecks.io / Uptime Kuma ping URL (optional)
+# Sequence (every step aborts the deploy; once the checkout happened, a failure triggers
+# an automatic rollback to the previous version):
+#   1  lock, .env complete (no REPLACE_WITH placeholders), working tree clean
+#   2  fetch, tag exists, tag is on origin/main (production)
+#   3  BACKUP of database + uploads (skipped on a first deployment without a database)
+#   4  checkout the tag, validate the compose config, pull images, start the stack
+#   5  wait for the database/app containers, run update.php
+#   6  health check (real MediaWiki API answer, not just a proxy 200)
+#   7  record the deployed version; notify
+#
+# Result for the caller (GitHub Actions): the LAST line printed is
+#   DEPLOY_RESULT=success | failed | rolled-back | rollback-failed
+# and ${DEPLOY_DIR}/deploy-summary.md holds a Markdown report for the job summary / issue.
+#
+# Options:
+#   --tag REF        what to deploy (a positional REF works as well)
+#   --skip-backup    first deployment only; there is nothing to back up yet
+#   --no-rollback    leave a failed deployment in place for inspection
 # =============================================================================
+set -Eeuo pipefail
 
-set -euo pipefail
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=infra/deploy/lib.sh
+source "${SCRIPT_DIR}/lib.sh"
+LOG_PREFIX="DEPLOY "
 
-# ---------------------------------------------------------------------------
-# Configuration
-# ---------------------------------------------------------------------------
+REF=""
+SKIP_BACKUP=0
+NO_ROLLBACK=0
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    --tag)         [ -n "${2:-}" ] || die "--tag needs a value"; REF="$2"; shift 2 ;;
+    --skip-backup) SKIP_BACKUP=1; shift ;;
+    --no-rollback) NO_ROLLBACK=1; shift ;;
+    -h|--help)     sed -n '2,32p' "$0"; exit 0 ;;
+    -*)            die "unknown option: $1" ;;
+    *)             [ -z "${REF}" ] || die "deployment ref given twice"; REF="$1"; shift ;;
+  esac
+done
+[ -n "${REF}" ] || die "usage: deploy.sh --tag vX.Y.Z"
 
-DEPLOY_DIR="${DEPLOY_DIR:-/opt/wikimedica}"
-COMPOSE_FILE="${COMPOSE_FILE:-${DEPLOY_DIR}/infra/docker/docker-compose.yml}"
-ENV_FILE="${DEPLOY_DIR}/infra/env/.env"
-LOG_FILE="${DEPLOY_DIR}/deploy.log"
-DEPLOY_TAG="${1:-}"  # Optional: --tag v1.2.3
+if [ "${DEPLOY_ENV}" = "production" ] && ! [[ "${REF}" =~ ${TAG_RE} ]]; then
+  die "production deploys release tags only (vX.Y.Z). Refusing '${REF}'."
+fi
 
-# Health check settings
-HEALTH_MAX_RETRIES=12
-HEALTH_SLEEP_SECONDS=10
-MEDIAWIKI_HEALTH_URL="${MEDIAWIKI_HEALTH_URL:-http://localhost:80/api.php?action=query&format=json}"
+SUMMARY="${DEPLOY_DIR}/deploy-summary.md"
+CHANGED=0
+DB_MIGRATED=0
+PREV_DESC=""
+RESULT="failed"
+STARTED="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+HEALTH_REPORT=""
 
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-
-log() {
-  echo "[$(date -u '+%Y-%m-%dT%H:%M:%SZ')] $*" | tee -a "${LOG_FILE}"
+write_summary() {  # write_summary DETAIL
+  {
+    echo "## Wikimedica deployment — \`${DEPLOY_ENV}\`"
+    echo
+    echo "| | |"
+    echo "|---|---|"
+    echo "| Requested | \`${REF}\` |"
+    echo "| Previous | \`${PREV_DESC:-none}\` |"
+    echo "| Result | **${RESULT}** |"
+    echo "| Started | ${STARTED} |"
+    echo "| Finished | $(date -u '+%Y-%m-%dT%H:%M:%SZ') |"
+    echo
+    echo "$1"
+    if [ -n "${HEALTH_REPORT}" ]; then
+      echo
+      echo '```text'
+      echo "${HEALTH_REPORT}"
+      echo '```'
+    fi
+  } > "${SUMMARY}" 2>/dev/null || true
 }
 
-fail() {
-  log "ERROR: $*"
-  notify_failure "$*"
+on_failure() {
+  local msg="$1" detail
+  trap - ERR
+  log "ERROR: ${msg}"
+  detail="**What happened:** ${msg}"
+  if [ "${CHANGED}" = "1" ] && [ "${NO_ROLLBACK}" != "1" ] && [ -n "${PREV_DESC}" ]; then
+    log "Rolling back to ${PREV_DESC}..."
+    if WM_DEPLOY_LOCK_HELD=1 "${SCRIPT_DIR}/rollback.sh" "${PREV_DESC}" --reason "deployment of ${REF} failed"; then
+      RESULT="rolled-back"
+      detail="${detail}"$'\n\n'"The previous version \`${PREV_DESC}\` is running again."
+    else
+      RESULT="rollback-failed"
+      detail="${detail}"$'\n\n'"**The automatic rollback FAILED. The site may be down — follow docs/operations/runbook.md (incident: failed deployment).**"
+    fi
+    if [ "${DB_MIGRATED}" = "1" ]; then
+      detail="${detail}"$'\n\n'"update.php had already migrated the database. Patch releases are schema-compatible; for a schema change restore the pre-deployment backup (docs/operations/backup-restore-runbook.md)."
+    fi
+  elif [ "${CHANGED}" = "0" ]; then
+    detail="${detail}"$'\n\n'"Nothing was changed on the server."
+  fi
+  write_summary "${detail}"
+  notify_failure "deploy ${REF} (${DEPLOY_ENV}): ${RESULT} — ${msg}"
+  echo "DEPLOY_RESULT=${RESULT}"
   exit 1
 }
 
-notify_failure() {
-  local message="$1"
-  if [[ -n "${ALERT_EMAIL:-}" ]]; then
-    echo "Wikimedica deployment failed: ${message}" \
-      | mail -s "[Wikimedica] Deploy FAILED" "${ALERT_EMAIL}" 2>/dev/null || true
-  fi
-  if [[ -n "${HEALTHCHECK_URL:-}" ]]; then
-    curl -fsS --max-time 10 "${HEALTHCHECK_URL}/fail" -d "message=${message}" \
-      2>/dev/null || true
-  fi
-}
-
-notify_success() {
-  if [[ -n "${HEALTHCHECK_URL:-}" ]]; then
-    curl -fsS --max-time 10 "${HEALTHCHECK_URL}" 2>/dev/null || true
-  fi
-}
+fail() { on_failure "$*"; }
+trap 'on_failure "command failed at line ${LINENO}"' ERR
 
 # ---------------------------------------------------------------------------
-# Pre-flight checks
+# 1. Pre-flight
 # ---------------------------------------------------------------------------
+log "=== Deploy ${REF} to ${DEPLOY_ENV} ==="
+[ -d "${DEPLOY_DIR}/.git" ] || fail "${DEPLOY_DIR} is not a git checkout"
+command -v docker >/dev/null 2>&1 || fail "docker not found"
+command -v git >/dev/null 2>&1 || fail "git not found"
 
-log "=== Wikimedica Deploy Started ==="
-log "Deploy directory: ${DEPLOY_DIR}"
-log "Compose file: ${COMPOSE_FILE}"
-
-[[ -d "${DEPLOY_DIR}" ]] || fail "Deploy directory not found: ${DEPLOY_DIR}"
-[[ -f "${COMPOSE_FILE}" ]] || fail "Docker Compose file not found: ${COMPOSE_FILE}"
-[[ -f "${ENV_FILE}" ]] || fail ".env file not found: ${ENV_FILE}"
-
-command -v docker &>/dev/null || fail "docker not found in PATH"
-command -v git &>/dev/null || fail "git not found in PATH"
-
-# Load environment
-set -a
-# shellcheck disable=SC1090
-source "${ENV_FILE}"
-set +a
-
-# ---------------------------------------------------------------------------
-# Update repository
-# ---------------------------------------------------------------------------
-
-log "Changing to deploy directory..."
-cd "${DEPLOY_DIR}"
-
-log "Fetching latest changes from origin..."
-git fetch origin --tags --prune
-
-if [[ -n "${DEPLOY_TAG}" ]]; then
-  log "Checking out tag: ${DEPLOY_TAG}"
-  git checkout "${DEPLOY_TAG}" || fail "Failed to checkout tag ${DEPLOY_TAG}"
-else
-  log "Pulling latest main branch..."
-  git checkout main
-  git pull origin main --ff-only || fail "git pull failed"
+if [ "${WM_DEPLOY_LOCK_HELD:-0}" != "1" ]; then
+  exec 9>"${DEPLOY_DIR}/.deploy.lock"
+  flock -n 9 || fail "another deployment or rollback is running"
 fi
 
-CURRENT_COMMIT=$(git rev-parse --short HEAD)
-log "Current commit: ${CURRENT_COMMIT}"
+REQUIRED=(DOMAIN MEDIAWIKI_DB_NAME MEDIAWIKI_DB_USER MEDIAWIKI_DB_PASSWORD MEDIAWIKI_DB_ROOT_PASSWORD
+          MEDIAWIKI_SECRET_KEY MEDIAWIKI_UPGRADE_KEY)
+if [ "${COMPOSE_FILES}" = "${COMPOSE_FILES%gateway-target.yml}" ]; then
+  REQUIRED+=(TRAEFIK_ACME_EMAIL CLOUDFLARE_API_TOKEN)
+fi
+( assert_env_keys "${REQUIRED[@]}" ) || fail ".env is incomplete or still contains REPLACE_WITH placeholders"
+
+cd "${DEPLOY_DIR}"
+[ -z "$(git status --porcelain --untracked-files=no)" ] || fail "the working tree has local modifications; refusing to deploy over them"
 
 # ---------------------------------------------------------------------------
-# Pull updated Docker images
+# 2. Resolve the ref
 # ---------------------------------------------------------------------------
+PREV_COMMIT="$(git rev-parse HEAD)"
+PREV_DESC="$(git describe --tags --exact-match HEAD 2>/dev/null || echo "${PREV_COMMIT}")"
+log "Currently deployed: ${PREV_DESC}"
 
-log "Pulling updated Docker images..."
-docker compose \
-  -f "${COMPOSE_FILE}" \
-  --env-file "${ENV_FILE}" \
-  pull \
-  || fail "docker compose pull failed"
+# A tag must never move: if the remote tag differs from the local one, fetch refuses and we stop.
+git fetch --quiet origin --tags --prune || fail "git fetch failed (a moved tag also causes this — tags must be immutable)"
+# Production: a tag (checked below). Staging may name a branch; use the remote tip, not a stale local branch.
+TARGET_COMMIT="$(git rev-parse -q --verify "origin/${REF}^{commit}" 2>/dev/null || git rev-parse -q --verify "${REF}^{commit}" || true)"
+if [ "${DEPLOY_ENV}" = "production" ]; then
+  TARGET_COMMIT="$(git rev-parse -q --verify "refs/tags/${REF}^{commit}" || true)"
+fi
+[ -n "${TARGET_COMMIT}" ] || fail "ref '${REF}' not found in the repository"
+if [ "${DEPLOY_ENV}" = "production" ]; then
+  git rev-parse -q --verify "refs/tags/${REF}" >/dev/null || fail "'${REF}' is not a tag"
+  git merge-base --is-ancestor "${TARGET_COMMIT}" origin/main || fail "tag ${REF} is not on main; production deploys only what was merged to main"
+fi
+log "Target: ${REF} = ${TARGET_COMMIT:0:12}"
 
 # ---------------------------------------------------------------------------
-# Start/restart services
+# 3. Backup first
 # ---------------------------------------------------------------------------
-
-log "Starting services with docker compose up..."
-docker compose \
-  -f "${COMPOSE_FILE}" \
-  --env-file "${ENV_FILE}" \
-  up -d --remove-orphans \
-  || fail "docker compose up failed"
+if [ "${SKIP_BACKUP}" = "1" ]; then
+  log "Backup skipped (--skip-backup)."
+elif ! docker inspect "${DB_CONTAINER}" >/dev/null 2>&1; then
+  log "No database container yet: this is a first deployment, nothing to back up."
+else
+  log "Creating the pre-deployment backup..."
+  rc=0
+  "${SCRIPT_DIR}/backup.sh" --no-rotate || rc=$?
+  case "${rc}" in
+    0) ;;
+    3) log "WARNING: local backup is fine, the offsite upload failed. Continuing; fix the upload." ;;
+    *) fail "the pre-deployment backup failed (exit ${rc}); nothing was changed" ;;
+  esac
+fi
 
 # ---------------------------------------------------------------------------
-# Health check
+# 4. Switch version
 # ---------------------------------------------------------------------------
+CHANGED=1
+git checkout --quiet --detach "${TARGET_COMMIT}"
+log "Checked out ${REF}."
 
-log "Waiting for MediaWiki to become healthy..."
-RETRIES=0
-until curl -fsS --max-time 5 "${MEDIAWIKI_HEALTH_URL}" &>/dev/null; do
-  RETRIES=$((RETRIES + 1))
-  if [[ ${RETRIES} -ge ${HEALTH_MAX_RETRIES} ]]; then
-    # Log container status for debugging
-    docker compose -f "${COMPOSE_FILE}" ps >> "${LOG_FILE}" 2>&1 || true
-    docker compose -f "${COMPOSE_FILE}" logs --tail=50 mediawiki >> "${LOG_FILE}" 2>&1 || true
-    fail "Health check failed after $((HEALTH_MAX_RETRIES * HEALTH_SLEEP_SECONDS)) seconds"
+compose config -q || fail "docker compose configuration of ${REF} is invalid"
+log "Pulling images..."
+compose pull --quiet || fail "docker compose pull failed"
+log "Starting the stack..."
+compose up -d --remove-orphans || fail "docker compose up failed"
+
+# ---------------------------------------------------------------------------
+# 5. Database schema
+# ---------------------------------------------------------------------------
+log "Waiting for the containers..."
+for _ in $(seq 1 30); do
+  if docker exec "${DB_CONTAINER}" healthcheck.sh --connect --innodb_initialized >/dev/null 2>&1 \
+     && [ "$(docker inspect -f '{{.State.Running}}' "${APP_CONTAINER}" 2>/dev/null || echo false)" = "true" ]; then
+    break
   fi
-  log "Health check attempt ${RETRIES}/${HEALTH_MAX_RETRIES} — waiting ${HEALTH_SLEEP_SECONDS}s..."
-  sleep "${HEALTH_SLEEP_SECONDS}"
+  sleep "${HEALTH_SLEEP_SECONDS:-5}"
 done
-
-log "✅ MediaWiki is healthy."
-
-# ---------------------------------------------------------------------------
-# Verify container status
-# ---------------------------------------------------------------------------
-
-log "Container status:"
-docker compose -f "${COMPOSE_FILE}" ps | tee -a "${LOG_FILE}"
+if [ -f "${DEPLOY_DIR}/infra/mediawiki/LocalSettings.php" ]; then
+  log "Running update.php (schema migrations)..."
+  docker exec "${APP_CONTAINER}" php maintenance/run.php update --quick || fail "update.php failed"
+  DB_MIGRATED=1
+else
+  log "No LocalSettings.php yet: skipping update.php (initial installation, see docs/deployment/staging-first-deployment.md)."
+fi
 
 # ---------------------------------------------------------------------------
-# Done
+# 6. Health
 # ---------------------------------------------------------------------------
+log "Health check..."
+if ! HEALTH_REPORT="$("${SCRIPT_DIR}/healthcheck.sh" --only core --wait "${HEALTH_WAIT_SECONDS:-180}" 2>&1)"; then
+  echo "${HEALTH_REPORT}"
+  docker logs --tail 40 "${APP_CONTAINER}" 2>&1 | sed 's/^/  app: /' || true
+  fail "the health check failed after the deployment"
+fi
+echo "${HEALTH_REPORT}"
 
+# ---------------------------------------------------------------------------
+# 7. Record and report
+# ---------------------------------------------------------------------------
+printf 'ref=%s\ncommit=%s\ndeployed_at=%s\nenvironment=%s\nprevious=%s\n' \
+  "${REF}" "${TARGET_COMMIT}" "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "${DEPLOY_ENV}" "${PREV_DESC}" > "${DEPLOY_DIR}/deployed-version"
+RESULT="success"
+write_summary "Deployed \`${REF}\` (\`${TARGET_COMMIT:0:12}\`). Health check passed."
 notify_success
-log "=== Wikimedica Deploy Completed Successfully (commit: ${CURRENT_COMMIT}) ==="
+trap - ERR
+log "=== Deploy of ${REF} complete ==="
+echo "DEPLOY_RESULT=success"
