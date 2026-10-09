@@ -287,17 +287,24 @@ def check_required_sections(fm: dict, body: str) -> CheckResult:
 
 
 def check_no_todo_markers(body: str) -> CheckResult:
-    """Check that no TODO/FIXME/XXX markers or HTML comments remain in the article body."""
-    # Find TODO/FIXME/XXX outside of code blocks and HTML comments
-    todos_found = TODO_RE.findall(body)
-    # Filter out HTML comments that are part of the template instructions
-    # (We only care about non-template-style comments)
-    actual_todos = [t for t in todos_found if re.match(r"TODO|FIXME|XXX", t, re.I)]
-    passed = len(actual_todos) == 0
+    """Check that no TODO/FIXME/XXX markers or HTML comments remain in the article body.
+
+    Template guidance lives in HTML comments; an article that still contains
+    them is not finished. Text inside fenced code blocks is ignored.
+    """
+    prose = re.sub(r"(```|~~~).*?\1", "", body, flags=re.DOTALL)
+    comments = re.findall(r"<!--.*?-->", prose, flags=re.DOTALL)
+    without_comments = re.sub(r"<!--.*?-->", "", prose, flags=re.DOTALL)
+    todos = re.findall(r"\b(?:TODO|FIXME|XXX)\b", without_comments)
+    problems = []
+    if comments:
+        problems.append(f"{len(comments)} HTML comment(s) (template guidance must be removed)")
+    if todos:
+        problems.append(f"{len(todos)} TODO/FIXME/XXX marker(s)")
     return CheckResult(
-        "No TODO/FIXME markers",
-        passed,
-        f"Found {len(actual_todos)} TODO/FIXME marker(s) in article body." if not passed else "",
+        "No TODO markers or leftover comments",
+        not problems,
+        "Found " + " and ".join(problems) + " in article body." if problems else "",
     )
 
 

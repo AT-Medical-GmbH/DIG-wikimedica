@@ -207,3 +207,6 @@ backups/
 *.pid.lock
 .sass-cache/
 connect.lock
+
+# Importer output (rendered wikitext, logs)
+import-output/

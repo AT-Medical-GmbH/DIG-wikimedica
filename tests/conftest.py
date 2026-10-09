@@ -17,6 +17,8 @@ REPO = Path(__file__).resolve().parent.parent
 FIXTURES = REPO / "tests" / "fixtures" / "articles"
 SCHEMA_PATH = REPO / "data" / "metadata" / "article-schema.yaml"
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts" / "publishing"))
+
 DELETE = object()  # sentinel: remove a key from the frontmatter
 
 
