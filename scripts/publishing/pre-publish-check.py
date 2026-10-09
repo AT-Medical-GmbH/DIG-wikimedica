@@ -89,6 +89,21 @@ REQUIRED_SECTIONS: dict[str, list[str]] = {
     ],
 }
 
+# Sections required for a content_kind; takes precedence over article_type.
+REQUIRED_SECTIONS_BY_KIND: dict[str, list[str]] = {
+    "guideline-summary": [
+        "übersicht",
+        "kernempfehlungen",
+        "literatur",
+    ],
+    "qr-media-reference": [
+        "medium",
+        "transkript",
+    ],
+}
+
+HEADING_RE = re.compile(r"^#{1,6}[ \t]+(.+?)[ \t]*$", re.MULTILINE)
+
 # Minimum required fields for publication (in addition to all schema required fields)
 PUBLISH_REQUIRED: list[str] = [
     "title", "specialty", "article_type", "status",
@@ -243,9 +258,15 @@ def check_updated_not_future(fm: dict) -> CheckResult:
 
 
 def check_required_sections(fm: dict, body: str) -> CheckResult:
-    """Check that all required sections for the article_type are present in the body."""
+    """Check that all required sections are present as HEADINGS in the body.
+
+    The content_kind (guideline-summary, qr-media-reference) takes precedence
+    over the article_type; matching is done against heading lines only, so a
+    word in running text can no longer satisfy a required section.
+    """
     article_type = fm.get("article_type", "professional")
-    required = REQUIRED_SECTIONS.get(article_type, [])
+    content_kind = fm.get("content_kind", "article")
+    required = REQUIRED_SECTIONS_BY_KIND.get(content_kind) or REQUIRED_SECTIONS.get(article_type, [])
 
     if not required:
         return CheckResult(
@@ -254,8 +275,8 @@ def check_required_sections(fm: dict, body: str) -> CheckResult:
             f"No section requirements defined for article_type '{article_type}'.",
         )
 
-    body_lower = body.lower()
-    missing = [section for section in required if section not in body_lower]
+    headings = [h.lower() for h in HEADING_RE.findall(body)]
+    missing = [section for section in required if not any(section in h for h in headings)]
 
     passed = len(missing) == 0
     return CheckResult(
