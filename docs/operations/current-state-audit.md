@@ -49,7 +49,7 @@ PR #1 already merged). No assumptions were made about files that were not read.
 
 ### 3.1 Top-level layout (verified present)
 
-```
+```text
 content/         articles, consent-modules, discharge-modules, drafts,
                  patient-info, pharmaka, published, review-queue,
                  specialties/ (+ gender-medizin/), templates/, therapies/

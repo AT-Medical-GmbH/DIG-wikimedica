@@ -63,7 +63,7 @@ professional article, dedicated metadata).
 
 ### 2.1 Logical layers
 
-```
+```text
  GitHub (single source of truth)
    content/ docs/ data/ scripts/ infra/  ──►  CI (GitHub Actions)
                                                 │
@@ -281,7 +281,7 @@ The core missing capability. 🛠️ **ENG** build `scripts/publishing/import_to
 
 CLI contract (as per handover):
 
-```
+```text
 python scripts/publishing/import_to_mediawiki.py --env staging --dry-run
 python scripts/publishing/import_to_mediawiki.py --env staging --status approved
 python scripts/publishing/import_to_mediawiki.py --env production --status published --release-tag vX.Y.Z

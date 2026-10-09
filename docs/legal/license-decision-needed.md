@@ -43,6 +43,7 @@ So the repo simultaneously implies "proprietary, all rights reserved" **and**
 ## 3. Options for the owner
 
 ### Option 1 — Proprietary source-available for everything
+
 Keep `LICENSE` as-is for code **and** content. Simple, maximally protective,
 grants no rights away.
 *Trade-off:* incompatible with a "freely accessible / wiki-style reusable
@@ -50,12 +51,14 @@ knowledge" positioning and with the schema's CC BY-SA default; external
 contribution/reuse is effectively blocked.
 
 ### Option 2 — Apache-2.0 (code) + CC BY-SA 4.0 (content)
+
 Standard open split: permissive code license, share-alike content license.
 *Trade-off:* this is an **open-source / open-content** switch — it grants broad
 reuse and redistribution rights that cannot be revoked later. Matches a "free
 public knowledge" vision but gives up proprietary control.
 
 ### Option 3 — Split: proprietary/source-available code + CC content
+
 Code stays proprietary/source-available; **content** is CC BY-SA 4.0 **or**
 CC BY-NC-SA 4.0 (NC = non-commercial).
 *Trade-off:* keeps platform/code control while allowing (optionally
@@ -94,4 +97,4 @@ reusable) — but that is an owner decision, not an engineering one.
 
 | Date | Decision | Decided by |
 |---|---|---|
-| _pending_ | _Option 1 / 2 / 3_ | AT Medical GmbH |
+| *pending* | *Option 1 / 2 / 3* | AT Medical GmbH |
