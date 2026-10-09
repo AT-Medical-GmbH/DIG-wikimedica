@@ -479,6 +479,11 @@ fields:
     required: false
     description: Filled in by the clinic at deployment time.
 
+  clinic_phone:
+    type: str
+    required: false
+    description: Filled in by the clinic at deployment time (discharge modules).
+
   clinic_logo_url:
     type: str
     required: false

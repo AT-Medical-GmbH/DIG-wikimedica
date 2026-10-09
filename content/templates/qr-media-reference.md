@@ -1,8 +1,8 @@
 ---
 # =============================================================================
-# Wikimedica — Patientenartikel-Vorlage (Patient Article Template)
+# Wikimedica — QR-Medien-Referenz (QR Media Reference Template)
 # =============================================================================
-# Für Patienten und Angehörige. Einfache Sprache (B1–B2), kein Fachjargon ohne Erklärung.
+# Datensatz für QR-verknüpfte Medien (Video, Audio, Animation, FAQ) einer Patienten-/Aufklärungs-/Entlassstrecke.
 # Platzhalter {{ ... }} im Text werden beim Import aus den Metadaten ersetzt
 # (siehe content/templates/README.md). Alle HTML-Kommentare vor der Freigabe entfernen.
 # =============================================================================
@@ -12,14 +12,12 @@ slug: ""                         # (Pflicht) = Dateiname ohne .md; Kleinbuchstab
 specialty: ""                    # (Pflicht) Exakter kanonischer Fachgebietsname (siehe content/specialties/README.md)
 secondary_specialties: []        # Optional: weitere Fachgebiete (kanonische Namen)
 article_type: "patient"          # (Pflicht) Festgelegt
-content_kind: "article"          # article | guideline-summary | qr-media-reference
+content_kind: "qr-media-reference"  # article | guideline-summary | qr-media-reference
 status: "draft"                  # draft | in-review | advisor-review | approved | published | archived (siehe docs/editorial/content-lifecycle.md)
 
 # Versionierung
 version: "0.1.0"                 # SemVer; veröffentlichte Artikel >= 1.0.0
 change_summary: ""               # Ab "in-review" Pflicht: 1–2 Sätze, was diese Version ändert
-
-related_professional_article: "" # Optional: slug des zugehörigen Fachartikels
 
 # Autorenschaft und Review
 authors:                         # (Pflicht) Erste Person = Hauptautor/in
@@ -49,6 +47,12 @@ sex_gender_notes: ""             # Pflicht bei "relevant": geschlechtsspezifisch
 safety_hold: false               # true = Sicherheitsprüfung läuft; Artikel kann dann nicht freigegeben werden
 language: "de"                   # ISO 639-1
 language_level: "simple"         # professional | simplified | layperson | simple
+
+# Medium
+media_type: ""                   # (Pflicht) video | audio | animation | faq | document
+parent_slug: ""                  # (Pflicht) slug des zugehörigen Artikels/Moduls
+qr_media_url: ""                 # (Pflicht) Ziel-URL — nur HTTPS
+media_transcript: false          # Pflicht true ab "approved" bei audio/video/animation (Barrierefreiheit)
 
 # Klassifikation
 icd10: []                        # z. B. ["I50.0", "I50.1"]
@@ -85,118 +89,68 @@ corrections: []                  # Korrekturen nach Veröffentlichung
 
 # {{ title }}
 
-<!-- Patiententexte sind ALLGEMEINE Information, keine individuelle ärztliche Anweisung:
-     keine Dosierungen, keine Formulierungen wie "Nehmen Sie ..." oder "Setzen Sie ... ab".
-     Niveau B1–B2, kurze Sätze. Verständlichkeitsprüfung: forms/reviewer-checklists/patient-comprehensibility-checklist.md -->
-
-> Dieser Artikel ist für Patienten und Angehörige geschrieben. Er verwendet einfache Sprache und soll Ihnen helfen, Ihre Erkrankung besser zu verstehen.
+> **Zugehörig zu:** {{ parent_slug }}
+> **Status:** {{ status }} · **Version:** {{ version }} · **Zuletzt aktualisiert:** {{ updated }}
 
 ---
 
-## Was ist das?
+## Medium
 
-<!-- Was ist diese Erkrankung / dieser Zustand?
-     Erklärung in 3–5 einfachen Sätzen.
-     Medizinische Fachbegriffe in Klammern erklären.
-     Beispiel: "Die Herzinsuffizienz (Herzschwäche) bedeutet, dass das Herz
-     nicht mehr so gut pumpen kann wie ein gesundes Herz."
--->
-
----
-
-## Wie entsteht es?
-
-<!-- Ursachen und Risikofaktoren in verständlicher Sprache.
-     Was kann die Erkrankung auslösen?
-     Was macht manche Menschen anfälliger dafür?
-     Beispiel: "Herzinsuffizienz kann durch verschiedene Ursachen entstehen:
-     - Ein früherer Herzinfarkt
-     - Dauerhaft hoher Blutdruck
-     - ..."
--->
+| Eigenschaft | Angabe |
+|---|---|
+| Titel |  |
+| Art (Video / Audio / Animation / FAQ / Dokument) |  |
+| Dauer / Umfang |  |
+| Sprache |  |
+| Anbieter / Hosting |  |
+| Ziel-URL (HTTPS) | {{ qr_media_url }} |
 
 ---
 
-## Wie häufig ist es?
-
-<!-- Kurze, verständliche Angabe zur Häufigkeit.
-     Beispiel: "In Deutschland leben etwa 1,8 Millionen Menschen mit Herzinsuffizienz."
-     Optional, wenn epidemiologische Daten für Patienten relevant sind.
--->
+## Zweck und Zielgruppe
 
 ---
 
-## Wie wird es festgestellt?
+## Inhaltliche Zusammenfassung
 
-<!-- Diagnoseweg in Patientensprache:
-     - Welche Fragen stellt der Arzt?
-     - Welche Untersuchungen werden gemacht?
-     - Was sucht der Arzt dabei?
-     Kein technischer Jargon ohne Erklärung.
-     Beispiel: "Der Arzt wird zuerst fragen, ob Sie kurzatmig oder erschöpft sind.
-     Dann hört er Ihr Herz und Ihre Lunge ab..."
--->
+<!-- Kurze Beschreibung des Inhalts in einfacher Sprache (B1–B2). -->
 
 ---
 
-## Wie wird es behandelt?
+## Transkript
 
-<!-- Behandlungsmöglichkeiten in einfacher Sprache:
-     - Medikamente (Wirkung und Nutzen — keine genauen Dosierungen, da nicht individualisierbar)
-     - Lebensstiländerungen
-     - Operationen / Eingriffe (falls relevant)
-     - Was kann ich selbst tun?
-     Beispiel: "Die Behandlung zielt darauf ab, das Herz zu entlasten und
-     Ihre Symptome zu verbessern. Ihr Arzt wird Ihnen Medikamente verschreiben,
-     die dem Herzen helfen, besser zu arbeiten..."
--->
-
-### Medikamente
-
-### Lebensstiländerungen
-
-### Eingriffe und Operationen
+<!-- Vollständiges Transkript bzw. Untertitel-Text. Pflicht bei Audio/Video/Animation. -->
 
 ---
 
-## Was muss ich beachten?
+## Zugriff und QR-Code
 
-<!-- Praktische Hinweise für den Alltag:
-     - Warnsymptome (wann sofort zum Arzt)
-     - Verhaltenstipps
-     - Was sollte ich meinem Arzt mitteilen?
-     Beispiel: "Rufen Sie sofort den Notarzt (112), wenn Sie..."
--->
-
-### Wann sofort zum Arzt?
-
-<!-- Klare rote Fahnen:
-     - Starke Schmerzen
-     - Plötzliche Luftnot
-     - Usw.
--->
-
-### Hinweise für den Alltag
+<!-- Ziel-URL ausschließlich über HTTPS. Keine Tracking-Parameter. Gültigkeit und Zuständigkeit für den Link nennen. -->
 
 ---
 
-## Weiterführende Informationen
+## Barrierefreiheit
 
-<!-- Links zu seriösen Patientenselbsthilfeorganisationen, AWMF-Patientenleitlinien, etc.
-     Nur verifizierte, qualitätsgesicherte Quellen.
-     Kein Verweis auf nicht-verifizierte Websites oder Gesundheitsforen.
--->
-
-- [Patientenleitlinie der AWMF](https://www.awmf.org/patientenleitlinien)
-- [Gesundheitsinformation.de (IQWiG)](https://www.gesundheitsinformation.de)
-- [Deutsche Herzstiftung](https://www.herzstiftung.de) *(Beispiel — nur wenn fachlich passend)*
+<!-- Untertitel, Audiodeskription, einfache Sprache, Kontrast, Alternativtext. -->
 
 ---
 
-## Quellen und Grundlagen
+## Datenschutz und Hosting
 
-<!-- Verständliche Angabe der Grundlagen, z. B. "Dieser Text beruht auf der Patientenleitlinie ...".
-     Die vollständigen Quellen stehen in den Metadaten (references, pubmed_ids, guidelines). -->
+<!-- Kein Einbetten von Drittanbieter-Playern ohne Einwilligung — nur verlinken.
+     Hosting-Standort und Auftragsverarbeitung klären (siehe docs/legal/privacy-notes.md). -->
+
+---
+
+## Pflege
+
+<!-- Wer prüft den Link und die Aktualität wie oft? Das Medium unterliegt demselben Review-Zyklus. -->
+
+---
+
+## Literatur
+
+1. <!-- Quelle der medizinischen Aussagen des Mediums -->
 
 ---
 
@@ -216,7 +170,7 @@ corrections: []                  # Korrekturen nach Veröffentlichung
 |  |  | Redaktion |  |  |
 |  |  | Medical Advisor (Hochrisiko) |  |  |
 |  |  | Gender-Check |  |  |
-|  |  | Verständlichkeitsprüfung |  |  |
+|  |  | Barrierefreiheitsprüfung |  |  |
 
 ---
 

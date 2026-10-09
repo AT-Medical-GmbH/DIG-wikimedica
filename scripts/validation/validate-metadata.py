@@ -522,6 +522,10 @@ def validate_cross_field(article: Article, fm: dict[str, Any], schema: dict[str,
         if not ICD10_RE.match(str(code)):
             add("icd10", f"'{code}' does not look like an ICD-10-GM code.")
 
+    # ---- guideline summaries -----------------------------------------------
+    if fm.get("content_kind") == "guideline-summary" and is_blank(fm.get("guidelines")):
+        add("guidelines", "A guideline summary must list the summarised guideline in 'guidelines'.")
+
     # ---- QR media records --------------------------------------------------
     if fm.get("content_kind") == "qr-media-reference":
         for key in ("media_type", "parent_slug", "qr_media_url"):

@@ -1,8 +1,8 @@
 ---
 # =============================================================================
-# Wikimedica — Patientenartikel-Vorlage (Patient Article Template)
+# Wikimedica — Pharmaka-Vorlage (Drug Monograph Template)
 # =============================================================================
-# Für Patienten und Angehörige. Einfache Sprache (B1–B2), kein Fachjargon ohne Erklärung.
+# Strukturierte Wirkstoffinformation für Fachpersonal. HOCHRISIKO: jede Dosisangabe braucht Quelle + Stand.
 # Platzhalter {{ ... }} im Text werden beim Import aus den Metadaten ersetzt
 # (siehe content/templates/README.md). Alle HTML-Kommentare vor der Freigabe entfernen.
 # =============================================================================
@@ -11,15 +11,13 @@ title: ""                        # (Pflicht) Vollständiger Titel auf Deutsch
 slug: ""                         # (Pflicht) = Dateiname ohne .md; Kleinbuchstaben + Bindestriche; nach Veröffentlichung nie ändern
 specialty: ""                    # (Pflicht) Exakter kanonischer Fachgebietsname (siehe content/specialties/README.md)
 secondary_specialties: []        # Optional: weitere Fachgebiete (kanonische Namen)
-article_type: "patient"          # (Pflicht) Festgelegt
+article_type: "pharmaka"         # (Pflicht) Festgelegt
 content_kind: "article"          # article | guideline-summary | qr-media-reference
 status: "draft"                  # draft | in-review | advisor-review | approved | published | archived (siehe docs/editorial/content-lifecycle.md)
 
 # Versionierung
 version: "0.1.0"                 # SemVer; veröffentlichte Artikel >= 1.0.0
 change_summary: ""               # Ab "in-review" Pflicht: 1–2 Sätze, was diese Version ändert
-
-related_professional_article: "" # Optional: slug des zugehörigen Fachartikels
 
 # Autorenschaft und Review
 authors:                         # (Pflicht) Erste Person = Hauptautor/in
@@ -42,13 +40,17 @@ updated: ""                      # (Pflicht) YYYY-MM-DD; bei jeder Änderung akt
 next_review: ""                  # Pflicht ab "approved": YYYY-MM-DD, spätestens 12 Monate nach "updated"
 
 # Risiko, Zielgruppe, Geschlechtersensibilität
-risk_level: ""                   # (Pflicht) low | moderate | high — high ist Pflicht für Pharmaka, Therapieprotokolle, Notfall-/Intensivmedizin, Onkologie
-target_audience: [patients, relatives]  # (Pflicht) physicians | nursing | emergency-services | pharmacists | medical-professionals | patients | relatives | clinical-teams
+risk_level: "high"               # (Pflicht) low | moderate | high — high ist Pflicht für Pharmaka, Therapieprotokolle, Notfall-/Intensivmedizin, Onkologie
+target_audience: [physicians, pharmacists]  # (Pflicht) physicians | nursing | emergency-services | pharmacists | medical-professionals | patients | relatives | clinical-teams
 sex_gender_relevance: "not_assessed"  # (Pflicht) not_assessed | none | relevant — vor "approved" abschließen
 sex_gender_notes: ""             # Pflicht bei "relevant": geschlechtsspezifische Aspekte kurz zusammenfassen
 safety_hold: false               # true = Sicherheitsprüfung läuft; Artikel kann dann nicht freigegeben werden
 language: "de"                   # ISO 639-1
-language_level: "simple"         # professional | simplified | layperson | simple
+language_level: "professional"   # professional | simplified | layperson | simple
+
+# Pharmaka
+active_substances: []            # Pflicht ab "approved": Wirkstoffe (INN), z. B. ["Metoprolol"]
+atc_codes: []                    # Pflicht ab "approved": ATC-Codes, z. B. ["C07AB02"]
 
 # Klassifikation
 icd10: []                        # z. B. ["I50.0", "I50.1"]
@@ -85,118 +87,107 @@ corrections: []                  # Korrekturen nach Veröffentlichung
 
 # {{ title }}
 
-<!-- Patiententexte sind ALLGEMEINE Information, keine individuelle ärztliche Anweisung:
-     keine Dosierungen, keine Formulierungen wie "Nehmen Sie ..." oder "Setzen Sie ... ab".
-     Niveau B1–B2, kurze Sätze. Verständlichkeitsprüfung: forms/reviewer-checklists/patient-comprehensibility-checklist.md -->
-
-> Dieser Artikel ist für Patienten und Angehörige geschrieben. Er verwendet einfache Sprache und soll Ihnen helfen, Ihre Erkrankung besser zu verstehen.
+> **Fachgebiet:** {{ specialty }}
+> **Status:** {{ status }} · **Version:** {{ version }} · **Zuletzt aktualisiert:** {{ updated }}
+> **Risikoklasse: Hoch** — Dosierungs- und Anwendungshinweise ausschließlich mit Quelle und Stand.
 
 ---
 
-## Was ist das?
+## Übersicht
 
-<!-- Was ist diese Erkrankung / dieser Zustand?
-     Erklärung in 3–5 einfachen Sätzen.
-     Medizinische Fachbegriffe in Klammern erklären.
-     Beispiel: "Die Herzinsuffizienz (Herzschwäche) bedeutet, dass das Herz
-     nicht mehr so gut pumpen kann wie ein gesundes Herz."
--->
+<!-- Wirkstoff (INN), Wirkstoffklasse, ATC-Code, Zulassungsstatus in Deutschland/EU und Kernaussage in 3–5 Sätzen. -->
 
 ---
 
-## Wie entsteht es?
+## Wirkmechanismus und Pharmakokinetik
 
-<!-- Ursachen und Risikofaktoren in verständlicher Sprache.
-     Was kann die Erkrankung auslösen?
-     Was macht manche Menschen anfälliger dafür?
-     Beispiel: "Herzinsuffizienz kann durch verschiedene Ursachen entstehen:
-     - Ein früherer Herzinfarkt
-     - Dauerhaft hoher Blutdruck
-     - ..."
--->
+### Wirkmechanismus
+
+### Pharmakokinetik
+
+<!-- Resorption, Verteilung, Metabolisierung (CYP-Enzyme), Elimination, Halbwertszeit. -->
 
 ---
 
-## Wie häufig ist es?
+## Indikationen
 
-<!-- Kurze, verständliche Angabe zur Häufigkeit.
-     Beispiel: "In Deutschland leben etwa 1,8 Millionen Menschen mit Herzinsuffizienz."
-     Optional, wenn epidemiologische Daten für Patienten relevant sind.
--->
+### Zugelassene Indikationen
 
----
+<!-- Gemäß aktueller Fachinformation (SmPC). -->
 
-## Wie wird es festgestellt?
+### Off-Label-Anwendung
 
-<!-- Diagnoseweg in Patientensprache:
-     - Welche Fragen stellt der Arzt?
-     - Welche Untersuchungen werden gemacht?
-     - Was sucht der Arzt dabei?
-     Kein technischer Jargon ohne Erklärung.
-     Beispiel: "Der Arzt wird zuerst fragen, ob Sie kurzatmig oder erschöpft sind.
-     Dann hört er Ihr Herz und Ihre Lunge ab..."
--->
+<!-- Nur mit belegter Evidenz und deutlich als Off-Label gekennzeichnet. -->
 
 ---
 
-## Wie wird es behandelt?
+## Dosierung und Anwendung
 
-<!-- Behandlungsmöglichkeiten in einfacher Sprache:
-     - Medikamente (Wirkung und Nutzen — keine genauen Dosierungen, da nicht individualisierbar)
-     - Lebensstiländerungen
-     - Operationen / Eingriffe (falls relevant)
-     - Was kann ich selbst tun?
-     Beispiel: "Die Behandlung zielt darauf ab, das Herz zu entlasten und
-     Ihre Symptome zu verbessern. Ihr Arzt wird Ihnen Medikamente verschreiben,
-     die dem Herzen helfen, besser zu arbeiten..."
--->
+<!-- Dosisangaben NUR mit Quelle (Fachinformation, Leitlinie) und Stand (Monat/Jahr).
+     Keine individuellen Empfehlungen. Vier-Augen-Prüfung der Dosisangaben (Autor/in + Pharmazeut/in). -->
 
-### Medikamente
+| Indikation | Population | Dosierung | Quelle | Stand |
+|---|---|---|---|---|
+|  |  |  |  |  |
 
-### Lebensstiländerungen
+### Dosisanpassung bei Organinsuffizienz und im Alter
 
-### Eingriffe und Operationen
+### Anwendungshinweise
+
+<!-- Einnahme/Applikation, Therapiedauer, Beendigung. -->
 
 ---
 
-## Was muss ich beachten?
-
-<!-- Praktische Hinweise für den Alltag:
-     - Warnsymptome (wann sofort zum Arzt)
-     - Verhaltenstipps
-     - Was sollte ich meinem Arzt mitteilen?
-     Beispiel: "Rufen Sie sofort den Notarzt (112), wenn Sie..."
--->
-
-### Wann sofort zum Arzt?
-
-<!-- Klare rote Fahnen:
-     - Starke Schmerzen
-     - Plötzliche Luftnot
-     - Usw.
--->
-
-### Hinweise für den Alltag
+## Kontraindikationen
 
 ---
 
-## Weiterführende Informationen
-
-<!-- Links zu seriösen Patientenselbsthilfeorganisationen, AWMF-Patientenleitlinien, etc.
-     Nur verifizierte, qualitätsgesicherte Quellen.
-     Kein Verweis auf nicht-verifizierte Websites oder Gesundheitsforen.
--->
-
-- [Patientenleitlinie der AWMF](https://www.awmf.org/patientenleitlinien)
-- [Gesundheitsinformation.de (IQWiG)](https://www.gesundheitsinformation.de)
-- [Deutsche Herzstiftung](https://www.herzstiftung.de) *(Beispiel — nur wenn fachlich passend)*
+## Warnhinweise und Vorsichtsmaßnahmen
 
 ---
 
-## Quellen und Grundlagen
+## Nebenwirkungen
 
-<!-- Verständliche Angabe der Grundlagen, z. B. "Dieser Text beruht auf der Patientenleitlinie ...".
-     Die vollständigen Quellen stehen in den Metadaten (references, pubmed_ids, guidelines). -->
+<!-- Nach Häufigkeit gemäß Fachinformation gliedern; schwerwiegende Nebenwirkungen hervorheben.
+     Geschlechtsspezifische Unterschiede in Häufigkeit und Schweregrad angeben, soweit belegt. -->
+
+---
+
+## Wechselwirkungen
+
+---
+
+## Besondere Patientengruppen
+
+### Schwangerschaft und Stillzeit
+
+### Kinder und Jugendliche
+
+### Ältere Patientinnen und Patienten
+
+### Nieren- und Leberinsuffizienz
+
+### Geschlechtsspezifische Aspekte
+
+<!-- Pharmakokinetik, Dosierung und Nebenwirkungen bei Frauen und Männern (sex/gender). -->
+
+---
+
+## Überwachung und Monitoring
+
+---
+
+## Überdosierung und Vergiftung
+
+<!-- Symptome und Sofortmaßnahmen mit Quelle; Verweis auf die regional zuständige Giftinformationszentrale.
+     Keine ungeprüften Antidot-Dosierungen. -->
+
+---
+
+## Literatur
+
+1. <!-- Fachinformation (SmPC), Stand: MM/JJJJ -->
+2. <!-- Quelle 2 -->
 
 ---
 
@@ -216,7 +207,7 @@ corrections: []                  # Korrekturen nach Veröffentlichung
 |  |  | Redaktion |  |  |
 |  |  | Medical Advisor (Hochrisiko) |  |  |
 |  |  | Gender-Check |  |  |
-|  |  | Verständlichkeitsprüfung |  |  |
+|  |  | Pharmazeutische Prüfung |  |  |
 
 ---
 

@@ -96,6 +96,7 @@ CASES = [
     ("consent-needs-procedure", CONSENT, {"procedure": ""}, "procedure", "requires a 'procedure'"),
     ("module-type-mismatch", CONSENT, {"module_type": "discharge"}, "module_type", "must equal"),
     ("qr-must-be-https", CONSENT, {"qr_media_url": "http://example.org/x"}, "qr_media_url", "pattern"),
+    ("guideline-summary-needs-guideline", PROFESSIONAL, {"content_kind": "guideline-summary"}, "guidelines", "summarised guideline"),
     ("qr-media-needs-fields", CONSENT, {"content_kind": "qr-media-reference"}, "media_type", "required for content_kind"),
     ("status-invalid", PROFESSIONAL, {"status": "live"}, "status", "not in allowed"),
     ("article-type-invalid", PROFESSIONAL, {"article_type": "blog"}, "article_type", "not in allowed"),
