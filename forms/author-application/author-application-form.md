@@ -26,11 +26,13 @@
 ## 2. Medical Qualifications
 
 **Medical degree (Approbation / equivalent):**
+
 - Degree type:
 - Issuing institution:
 - Year obtained:
 
 **Specialty certification (Facharzt or equivalent), if applicable:**
+
 - Specialty:
 - Issuing Ärztekammer or equivalent:
 - Year obtained:
@@ -112,12 +114,14 @@
 *Please provide two professional references who can attest to your medical qualifications and writing ability. References may be contacted by the Editorial Board.*
 
 **Reference 1:**
+
 - Name:
 - Title:
 - Relationship to applicant:
 - Email:
 
 **Reference 2:**
+
 - Name:
 - Title:
 - Relationship to applicant:
