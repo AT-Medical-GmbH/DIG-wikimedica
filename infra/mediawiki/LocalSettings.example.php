@@ -82,12 +82,25 @@ $wgUpgradeKey = getenv('MEDIAWIKI_UPGRADE_KEY') ?: "REPLACE_WITH_16_CHAR_UPGRADE
 # =============================================================================
 
 ## Shared memory settings.
+## Default: APCu (CACHE_ACCEL) for the main cache; DB for the parser cache.
 $wgMainCacheType = CACHE_ACCEL;  # Use APCu/opcache if available
 $wgMessageCacheType = CACHE_ACCEL;
-$wgParserCacheType = CACHE_DB;   # Or CACHE_MEMCACHED if Memcached is configured
+$wgParserCacheType = CACHE_DB;   # Or CACHE_REDIS if the Redis service is enabled
+
+## OPTIONAL — Redis object cache & job queue (see version-policy.md DEC-3).
+## Enable together with the `redis` service in docker-compose.yml.
+# $wgObjectCaches['redis'] = [
+#     'class'   => 'RedisBagOStuff',
+#     'servers' => [ getenv('REDIS_HOST') ?: 'redis:6379' ],
+# ];
+# $wgMainCacheType   = 'redis';
+# $wgParserCacheType = 'redis';
+# $wgJobTypeConf['default'] = [ 'class' => 'JobQueueRedis', 'redisServer' => getenv('REDIS_HOST') ?: 'redis:6379', 'redisConfig' => [] ];
 
 ## Specify a different path for cache files.
-$wgFileCacheDirectory = "{$wgUploadDirectory}/cache";
+## NOTE: use a literal path — do NOT reference $wgUploadDirectory here, it is
+## defined further below and would be empty at this point.
+$wgFileCacheDirectory = "/var/www/html/images/cache";
 
 # =============================================================================
 # Images and File Uploads
@@ -106,6 +119,34 @@ $wgFileExtensions = array_merge(
 
 ## Max upload file size (in bytes) — 10 MB default.
 $wgMaxUploadSize = 10 * 1024 * 1024;
+
+## --- Upload security hardening (REQUIRED because svg/pdf/webp are allowed) ---
+## Verify the real MIME type of every upload; never trust the extension alone.
+$wgVerifyMimeType  = true;
+$wgCheckFileExtensions   = true;
+$wgStrictFileExtensions  = true;
+$wgDisableUploadScriptChecks = false;
+
+## Hard block of dangerous / executable types regardless of the allow-list.
+$wgProhibitedFileExtensions = array_merge(
+    $wgProhibitedFileExtensions ?? [],
+    ['html', 'htm', 'xhtml', 'xml', 'js', 'php', 'phtml', 'phar', 'exe', 'sh']
+);
+$wgMimeTypeExclusions = array_merge(
+    $wgMimeTypeExclusions ?? [],
+    ['text/html', 'application/x-php', 'application/xhtml+xml', 'image/svg']
+);
+
+## SVG safety: rasterise/sanitise via a converter and forbid scripts/titles in SVG.
+$wgAllowTitlesInSVG = false;
+$wgSVGConverter = 'rsvg';   # ensure librsvg2-bin is present in the image/host
+$wgSVGConverters = [
+    'rsvg' => '$path/rsvg-convert -w $width -h $height -o $output $input',
+];
+
+## Antivirus scanning of uploads (enable where ClamAV is available).
+# $wgAntivirus = 'clamav';
+# $wgAntivirusSetup = [ 'clamav' => [ 'command' => 'clamscan --no-summary ', ... ] ];
 
 # =============================================================================
 # User Account Policies
@@ -126,6 +167,26 @@ $wgEmailConfirmToEdit = true;
 
 ## Require email address for account creation.
 $wgEmailAuthentication = true;
+
+# =============================================================================
+# Email / SMTP
+# =============================================================================
+## Email must work for the "confirm email to edit" policy above. Configure an
+## SMTP relay via environment variables (see .env.example SMTP_* block).
+$wgEnableEmail = true;
+$wgEnableUserEmail = true;
+$wgEmailConfirmToEdit = true;
+
+if ( getenv('SMTP_HOST') ) {
+    $wgSMTP = [
+        'host'     => getenv('SMTP_HOST'),
+        'IDHost'   => getenv('SMTP_IDHOST') ?: 'wikimedica.de',
+        'port'     => (int)( getenv('SMTP_PORT') ?: 587 ),
+        'auth'     => true,
+        'username' => getenv('SMTP_USER'),
+        'password' => getenv('SMTP_PASSWORD'),
+    ];
+}
 
 # =============================================================================
 # Content Namespace Configuration
@@ -168,7 +229,10 @@ wfLoadExtension( 'TitleBlacklist' );      # Prevent unwanted page titles
 ## User notifications
 wfLoadExtension( 'Echo' );               # Notification system
 
-## Anti-spam (important for a public wiki)
+## Anti-spam (important for a public wiki).
+## 🧭 DEC-4: reCAPTCHA is wired below. A privacy-friendlier alternative is
+## hCaptcha (ConfirmEdit/hCaptcha) — preferred for a German/EU audience; switch
+## by loading that module instead and setting $wgHCaptchaSiteKey/SecretKey.
 wfLoadExtension( 'ConfirmEdit' );
 wfLoadExtension( 'ConfirmEdit/ReCaptchaNoCaptcha' );
 
@@ -176,15 +240,26 @@ wfLoadExtension( 'ConfirmEdit/ReCaptchaNoCaptcha' );
 $wgReCaptchaSiteKey = getenv('RECAPTCHA_SITE_KEY') ?: "REPLACE_WITH_RECAPTCHA_SITE_KEY";
 $wgReCaptchaSecretKey = getenv('RECAPTCHA_SECRET_KEY') ?: "REPLACE_WITH_RECAPTCHA_SECRET_KEY";
 
+## Require the CAPTCHA on the actions that matter for a moderated public wiki.
+$wgCaptchaTriggers['edit']          = false;  # editing is restricted to approved users
+$wgCaptchaTriggers['createaccount'] = true;
+$wgCaptchaTriggers['badlogin']      = true;
+
 # =============================================================================
 # VisualEditor Configuration
 # =============================================================================
+#
+# IMPORTANT (MediaWiki 1.43): Parsoid ships INSIDE MediaWiki core and
+# VisualEditor talks to it directly. The old standalone-Parsoid / RESTBase
+# setup ($wgVirtualRestConfig['modules']['parsoid'] = [...localhost:8142...])
+# is obsolete and MUST NOT be used — it has been removed here on purpose.
+# No separate Parsoid container/service is required.
 
-$wgVirtualRestConfig['modules']['parsoid'] = [
-    'url' => 'http://localhost:8142',  # Parsoid service URL
-    'domain' => 'wikimedica.de',
-    'prefix' => 'wikimedica',
-];
+## Enable VisualEditor for all namespaces it is configured for by default.
+$wgDefaultUserOptions['visualeditor-enable'] = 1;
+
+## Allow switching to the source (wikitext) editor from VisualEditor.
+$wgVisualEditorEnableWikitext = true;
 
 # =============================================================================
 # Search Configuration
@@ -201,12 +276,23 @@ $wgDisableInternalSearch = false;
 ## Compress stored revision text.
 $wgCompressRevisions = true;
 
-## Use gzip for stored revisions.
-$wgRevisionStoreType = 'FileStore';
+## NOTE: the former `$wgRevisionStoreType = 'FileStore';` line was removed —
+## it is NOT a valid MediaWiki configuration variable and had no effect.
 
-## Enable CDN/Squid support (Cloudflare acts as CDN).
-$wgUseSquid = true;
-$wgSquidServers = [];  # Cloudflare handles this transparently
+## Enable CDN support (Cloudflare acts as the CDN / reverse cache).
+## $wgUseSquid / $wgSquidServers were deprecated (<=1.34); use the modern names.
+$wgUseCdn = true;
+
+## MediaWiki runs behind Traefik/Cloudflare, so the client IP arrives via
+## X-Forwarded-For. Trust the local reverse proxy; Cloudflare's own ranges are
+## handled at the edge. Keep this list tight — only trusted proxies.
+$wgCdnServersNoPurge = [
+    '127.0.0.1',
+    '10.0.0.0/8',
+    '172.16.0.0/12',
+    '192.168.0.0/16',
+];
+$wgUsePrivateIPs = false;
 
 # =============================================================================
 # Logging
@@ -218,6 +304,15 @@ $wgShowDBErrorBacktrace = false;  # IMPORTANT: false in production
 
 error_reporting( E_ERROR );
 ini_set( 'display_errors', '0' );
+
+# =============================================================================
+# Job Queue
+# =============================================================================
+## Do NOT run jobs on web requests in production (keeps page loads fast).
+## Run them from cron instead, e.g. every minute on the VPS:
+##   * * * * * docker exec wikimedica_app php maintenance/runJobs.php --maxtime=50 >/dev/null 2>&1
+## (When the Redis job queue above is enabled, runJobs.php drains that queue.)
+$wgJobRunRate = 0;
 
 # =============================================================================
 # Additional Notes
