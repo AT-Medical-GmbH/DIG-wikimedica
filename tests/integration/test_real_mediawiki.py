@@ -269,6 +269,63 @@ def test_a_non_mediawiki_bot_password_fails_misleadingly(wiki):
     assert result["login"]["result"] == "Failed" and "Incorrect username or password" in result["login"]["reason"]
 
 
+# -- system pages (bootstrap) ---------------------------------------------------
+
+@pytest.fixture(scope="module")
+def bootstrapped(wiki):
+    """Run infra/deploy/bootstrap-wiki.sh against the test wiki (edit.php, no API credentials)."""
+    env = {**os.environ, "EDIT_CMD": "php maintenance/run.php edit"}
+    result = subprocess.run(["bash", str(REPO / "infra/deploy/bootstrap-wiki.sh"), "--env", "staging"],
+                            cwd=wiki.root, env=env, capture_output=True, text=True, timeout=600)
+    assert result.returncode == 0, result.stdout + result.stderr
+    return result.stdout
+
+
+def page_text(wiki, title):
+    pages = wiki.session().call(action="query", prop="revisions", titles=title, rvprop="content",
+                                rvslots="main")["query"]["pages"][0]
+    return None if pages.get("missing") else pages["revisions"][0]["slots"]["main"]["content"]
+
+
+def test_bootstrap_creates_all_system_pages(wiki, bootstrapped):
+    assert "bootstrap complete" in bootstrapped
+    for title in ("Category:Gender-Medizin", "Category:Endokrinologie/Diabetologie", "Category:Risikoklasse: hoch",
+                  "MediaWiki:Common.css", "Wikimedica:Haftungsausschluss", "Wikimedica:Impressum", "Hauptseite"):
+        assert page_text(wiki, title), title
+    assert "Im Notfall" in page_text(wiki, "Hauptseite")
+
+
+def test_footer_links_and_css_are_served(wiki, bootstrapped):
+    with urllib.request.urlopen(f"{wiki.base}/index.php?title=Hauptseite", timeout=30) as resp:
+        html = resp.read().decode()
+    for target in ("Wikimedica:Impressum", "Wikimedica:Datenschutz", "Wikimedica:Haftungsausschluss"):
+        assert target in html, target
+    css_url = f"{wiki.base}/load.php?lang=de&modules=site.styles&only=styles&skin=vector-2022"
+    with urllib.request.urlopen(css_url, timeout=30) as resp:
+        assert ".wm-notice" in resp.read().decode()
+
+
+def test_disclaimer_page_is_generated_from_the_approved_source(wiki, bootstrapped):
+    import yaml
+    data = yaml.safe_load((REPO / "data/legal/disclaimers.yaml").read_text("utf-8"))
+    text = page_text(wiki, "Wikimedica:Haftungsausschluss")
+    assert data["blocks"]["emergency"]["text"].split(".")[0] in text and "116 117" in text
+
+
+def test_bootstrap_is_idempotent(wiki, bootstrapped):
+    env = {**os.environ, "EDIT_CMD": "php maintenance/run.php edit"}
+    again = subprocess.run(["bash", str(REPO / "infra/deploy/bootstrap-wiki.sh"), "--env", "staging"],
+                           cwd=wiki.root, env=env, capture_output=True, text=True, timeout=600)
+    assert again.returncode == 0
+
+
+def test_bootstrap_for_production_is_refused_until_legal_has_approved(wiki):
+    env = {**os.environ, "EDIT_CMD": "false"}          # would fail loudly if it were ever reached
+    result = subprocess.run(["bash", str(REPO / "infra/deploy/bootstrap-wiki.sh"), "--env", "production"],
+                            cwd=wiki.root, env=env, capture_output=True, text=True)
+    assert result.returncode != 0 and "GATE" in result.stderr
+
+
 # -- importer end to end ------------------------------------------------------
 
 @pytest.fixture
@@ -308,11 +365,12 @@ def test_import_end_to_end_and_idempotent(wiki, content, tmp_path, monkeypatch):
     assert second["testartikel-professional"] == second["testartikel-patient"] == second["testartikel-pharmaka"] == "unchanged"
 
 
-def test_real_parser_output_is_safe_and_complete(wiki, content, tmp_path, monkeypatch):
+def test_real_parser_output_is_safe_and_complete(wiki, bootstrapped, content, tmp_path, monkeypatch):
     run_import(wiki, content, tmp_path / "o", monkeypatch)
     for title in (PRO, PAT, PHA):
         p = parse(wiki, title)
         assert p["templates"] == [], title                       # nothing transcluded
+        assert 'class="new"' not in p["text"], f"red link on {title} (missing category page?)"
         assert "<script" not in p["text"] and not p["parsewarnings"]
     assert {c["category"] for c in parse(wiki, PRO)["categories"]} == {"Innere_Medizin", "Artikeltyp:_Fachartikel"}
     assert "Gender-Medizin" in {c["category"] for c in parse(wiki, PHA)["categories"]}
