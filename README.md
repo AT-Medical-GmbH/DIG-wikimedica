@@ -66,6 +66,7 @@ single required status check.
 - Concept and decisions: [`docs/architecture/production-readiness-concept.md`](docs/architecture/production-readiness-concept.md)
 - Go-live checklist: [`docs/deployment/go-live-checklist.md`](docs/deployment/go-live-checklist.md)
 - Staging first: [`docs/deployment/staging-first-deployment.md`](docs/deployment/staging-first-deployment.md)
+- Server handover (ATMED-core): [`docs/deployment/handover-atmed-core.md`](docs/deployment/handover-atmed-core.md)
 - Operations: [`runbook`](docs/operations/runbook.md) · [`backup & restore`](docs/operations/backup-restore-runbook.md) · [`disaster recovery`](docs/operations/disaster-recovery.md) · [`monitoring`](docs/operations/monitoring.md) · [`maintenance`](docs/operations/maintenance.md) · [`updates`](docs/operations/update-policy.md) · [`security response`](docs/operations/security-response.md)
 - Editorial: [`docs/editorial/`](docs/editorial/editorial-governance.md)
 
