@@ -152,6 +152,30 @@ def test_published_frontmatter_is_frozen(repo, capsys):
     assert code == 1 and "frozen" in out
 
 
+def test_safety_hold_can_be_set_on_published_article(repo, capsys):
+    """Emergency brake of the peer-review policy: must never be blocked by the freeze."""
+    write(repo, "publiziert", status="published", safety_hold=True)
+    code, out = run(repo, capsys)
+    assert code == 0, out
+
+
+def test_safety_hold_plus_other_change_is_still_frozen(repo, capsys):
+    write(repo, "publiziert", status="published", safety_hold=True, change_summary="Heimlich")
+    code, out = run(repo, capsys)
+    assert code == 1 and "frozen" in out
+
+
+def test_moving_published_article_to_another_directory_keeps_slug(repo, capsys):
+    (repo / "content" / "archiv").mkdir(parents=True)
+    git(repo, "mv", "content/patient-info/publiziert.md", "content/archiv/publiziert.md")
+    assert run(repo, capsys)[0] == 0
+
+
+def test_published_to_retracted_is_allowed_with_notice(repo, capsys):
+    write(repo, "publiziert", status="retracted", retraction_notice="Zurückgezogen wegen Fehler.")
+    assert run(repo, capsys)[0] == 0
+
+
 def test_deleting_published_article_is_blocked(repo, capsys):
     (repo / "content" / "patient-info" / "publiziert.md").unlink()
     code, out = run(repo, capsys)

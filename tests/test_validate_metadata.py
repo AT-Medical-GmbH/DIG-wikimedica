@@ -98,6 +98,7 @@ CASES = [
     ("qr-must-be-https", CONSENT, {"qr_media_url": "http://example.org/x"}, "qr_media_url", "pattern"),
     ("guideline-summary-needs-guideline", PROFESSIONAL, {"content_kind": "guideline-summary"}, "guidelines", "summarised guideline"),
     ("qr-media-needs-fields", CONSENT, {"content_kind": "qr-media-reference"}, "media_type", "required for content_kind"),
+    ("retracted-needs-notice", PROFESSIONAL, {"status": "retracted"}, "retraction_notice", "required for status"),
     ("status-invalid", PROFESSIONAL, {"status": "live"}, "status", "not in allowed"),
     ("article-type-invalid", PROFESSIONAL, {"article_type": "blog"}, "article_type", "not in allowed"),
     ("licence-and-license-differ", PROFESSIONAL, {"licence": "OTHER"}, "licence", "different values"),

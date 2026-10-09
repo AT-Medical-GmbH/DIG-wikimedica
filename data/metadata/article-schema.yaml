@@ -524,8 +524,16 @@ fields:
     description: Optional slug of the corresponding professional article (patient articles).
 
   # ---------------------------------------------------------------------------
-  # Correction history
+  # Retraction and correction history
   # ---------------------------------------------------------------------------
+
+  retraction_notice:
+    type: str
+    required: false
+    required_for_status: [retracted]
+    description: >
+      Public retraction notice (reason, without patient or confidential data).
+      Mandatory for status `retracted` (docs/editorial/peer-review-policy.md).
 
   corrections:
     type: list

@@ -13,9 +13,11 @@ data/metadata/article-schema.yaml (`lifecycle.transitions`):
   * a NEW article may only be introduced as draft / in-review
     (nobody can slip a brand-new file in as `published`)
   * approved / published content is FROZEN: any change to body or frontmatter
-    requires a status change first (the sign-off covered the old text)
+    requires a status change first (the sign-off covered the old text).
+    Exception: `safety_hold` can be toggled at any time (patient-safety brake)
   * approved / published articles are never deleted (archive or retract them)
-  * the slug of an approved / published article is immutable (renames blocked)
+  * the slug (= file name) of an approved / published article is immutable;
+    moving it to another directory with the same file name is fine
 
 Usage:
     python scripts/validation/check-status-transitions.py [--base-ref origin/main] [paths...]
@@ -36,6 +38,10 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 FROZEN_STATUSES = {"approved", "published"}
+# Keys that may change on frozen content without a status change. safety_hold is
+# the emergency brake of the peer-review policy (section "Urgent Patient Safety
+# Concerns") and must be settable on a published article at any time.
+FREEZE_EXEMPT_KEYS = {"safety_hold"}
 
 
 def load_validator():
@@ -68,6 +74,12 @@ def check_transition(old: str | None, new: str | None, lifecycle: dict) -> str |
         opts = ", ".join(allowed) if allowed else "none (terminal status)"
         return f"transition '{old}' -> '{new}' is not allowed (allowed from '{old}': {opts})"
     return None
+
+
+def frozen_view(parsed):
+    """(frontmatter without exempt keys, body) — what the sign-off covered."""
+    fm, body = parsed
+    return {k: v for k, v in fm.items() if k not in FREEZE_EXEMPT_KEYS}, body
 
 
 def check_new_article(new: str | None, lifecycle: dict) -> str | None:
@@ -185,14 +197,16 @@ def main(argv: list[str] | None = None) -> int:
                 problems.append(f"{path}: {msg}")
             continue
 
-        if letter == "R" and old_status in FROZEN_STATUSES:
+        if letter == "R" and old_status in FROZEN_STATUSES \
+                and Path(path).stem != Path(old_ref_path).stem:
             problems.append(f"{path}: renaming a '{old_status}' article changes its slug "
                             f"(was {old_ref_path}); slugs of approved/published articles are immutable.")
 
         msg = check_transition(old_status, new_status, lifecycle)
         if msg:
             problems.append(f"{path}: {msg}")
-        elif old_status == new_status and old_status in FROZEN_STATUSES and old != new:
+        elif old_status == new_status and old_status in FROZEN_STATUSES \
+                and frozen_view(old) != frozen_view(new):
             problems.append(f"{path}: '{old_status}' content is frozen — changing it requires "
                             "setting status to 'in-review' (with a version bump) and a new review.")
 
