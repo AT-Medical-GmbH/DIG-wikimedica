@@ -1,137 +1,73 @@
 #!/usr/bin/env bash
 # =============================================================================
-# rollback.sh — Wikimedica Deployment Rollback Script
+# rollback.sh — return to a previously deployed version
 # =============================================================================
-# Stops the current containers, checks out a previous tag or commit,
-# and restarts services.
+#   infra/deploy/rollback.sh v1.1.0 [--reason "text"] [--restore-db wikimedica_20261009_020000]
 #
-# Usage:
-#   ./infra/deploy/rollback.sh <tag-or-commit>
-#   ./infra/deploy/rollback.sh v1.1.0
-#   ./infra/deploy/rollback.sh abc1234
-#
-# Environment variables (loaded from infra/env/.env):
-#   DEPLOY_DIR    — Absolute path to the repository on the VPS
-#   COMPOSE_FILE  — Path to docker-compose.yml
+# * the target must be a release tag (production) or a commit that lies on origin/main
+# * the stack is updated in place (`up -d`) — no `down` first, so the downtime is only
+#   the container swap
+# * the exit code tells the truth: 0 only if the health check passes afterwards
+# * update.php is NOT run: older code cannot downgrade a database schema
+# * the database is not touched unless you pass --restore-db (which restores that backup
+#   set, see restore.sh; use it when a schema change made the old version unusable)
 # =============================================================================
+set -Eeuo pipefail
 
-set -euo pipefail
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=infra/deploy/lib.sh
+source "${SCRIPT_DIR}/lib.sh"
+LOG_PREFIX="ROLLBACK "
 
-# ---------------------------------------------------------------------------
-# Configuration
-# ---------------------------------------------------------------------------
+TARGET=""
+REASON="manual rollback"
+RESTORE_DB=""
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    --reason)     REASON="${2:-}"; shift 2 ;;
+    --restore-db) RESTORE_DB="${2:-}"; shift 2 ;;
+    -h|--help)    sed -n '2,15p' "$0"; exit 0 ;;
+    -*)           die "unknown option: $1" ;;
+    *)            [ -z "${TARGET}" ] || die "target given twice"; TARGET="$1"; shift ;;
+  esac
+done
+[ -n "${TARGET}" ] || die "usage: rollback.sh <tag-or-commit> [--reason TEXT] [--restore-db PREFIX]"
 
-DEPLOY_DIR="${DEPLOY_DIR:-/opt/wikimedica}"
-COMPOSE_FILE="${COMPOSE_FILE:-${DEPLOY_DIR}/infra/docker/docker-compose.yml}"
-ENV_FILE="${DEPLOY_DIR}/infra/env/.env"
-LOG_FILE="${DEPLOY_DIR}/deploy.log"
-
-TARGET="${1:-}"
-
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-
-log() {
-  echo "[$(date -u '+%Y-%m-%dT%H:%M:%SZ')] $*" | tee -a "${LOG_FILE}"
-}
-
-fail() {
-  log "ERROR: $*"
-  exit 1
-}
-
-# ---------------------------------------------------------------------------
-# Pre-flight checks
-# ---------------------------------------------------------------------------
-
-[[ -n "${TARGET}" ]] || fail "Usage: rollback.sh <tag-or-commit>"
-[[ -d "${DEPLOY_DIR}" ]] || fail "Deploy directory not found: ${DEPLOY_DIR}"
-[[ -f "${COMPOSE_FILE}" ]] || fail "Docker Compose file not found: ${COMPOSE_FILE}"
-[[ -f "${ENV_FILE}" ]] || fail ".env file not found: ${ENV_FILE}"
-
-command -v docker &>/dev/null || fail "docker not found in PATH"
-command -v git &>/dev/null || fail "git not found in PATH"
-
-# Load environment
-set -a
-# shellcheck disable=SC1090
-source "${ENV_FILE}"
-set +a
-
-# ---------------------------------------------------------------------------
-# Rollback
-# ---------------------------------------------------------------------------
-
-log "=== Wikimedica Rollback Started ==="
-log "Rolling back to: ${TARGET}"
-
-cd "${DEPLOY_DIR}"
-
-# Verify the target exists in the repository
-git rev-parse "${TARGET}" &>/dev/null || fail "Target '${TARGET}' not found in repository"
-
-# ---------------------------------------------------------------------------
-# Stop running services
-# ---------------------------------------------------------------------------
-
-log "Stopping running containers..."
-docker compose \
-  -f "${COMPOSE_FILE}" \
-  --env-file "${ENV_FILE}" \
-  down \
-  || log "WARNING: docker compose down failed — containers may already be stopped"
-
-# ---------------------------------------------------------------------------
-# Checkout target
-# ---------------------------------------------------------------------------
-
-log "Checking out ${TARGET}..."
-git checkout "${TARGET}" || fail "git checkout ${TARGET} failed"
-
-CURRENT_COMMIT=$(git rev-parse --short HEAD)
-log "Repository at: ${CURRENT_COMMIT}"
-
-# ---------------------------------------------------------------------------
-# Pull images for this version and restart
-# ---------------------------------------------------------------------------
-
-log "Pulling Docker images for this version..."
-docker compose \
-  -f "${COMPOSE_FILE}" \
-  --env-file "${ENV_FILE}" \
-  pull \
-  || log "WARNING: docker compose pull failed — using cached images"
-
-log "Starting services..."
-docker compose \
-  -f "${COMPOSE_FILE}" \
-  --env-file "${ENV_FILE}" \
-  up -d \
-  || fail "docker compose up failed during rollback"
-
-# ---------------------------------------------------------------------------
-# Health check
-# ---------------------------------------------------------------------------
-
-log "Waiting 30 seconds for services to initialise..."
-sleep 30
-
-MEDIAWIKI_HEALTH_URL="${MEDIAWIKI_HEALTH_URL:-http://localhost:80/api.php?action=query&format=json}"
-if curl -fsS --max-time 10 "${MEDIAWIKI_HEALTH_URL}" &>/dev/null; then
-  log "✅ MediaWiki is healthy after rollback."
-else
-  log "⚠️  WARNING: Health check did not pass. Review container logs:"
-  docker compose -f "${COMPOSE_FILE}" logs --tail=50 mediawiki | tee -a "${LOG_FILE}" || true
+[ -d "${DEPLOY_DIR}/.git" ] || die "${DEPLOY_DIR} is not a git checkout"
+if [ "${WM_DEPLOY_LOCK_HELD:-0}" != "1" ]; then
+  exec 9>"${DEPLOY_DIR}/.deploy.lock"
+  flock -n 9 || die "another deployment or rollback is running"
 fi
 
-# ---------------------------------------------------------------------------
-# Container status
-# ---------------------------------------------------------------------------
+cd "${DEPLOY_DIR}"
+log "=== Rollback to ${TARGET} (${REASON}) ==="
+git fetch --quiet origin --tags --prune || log "WARNING: git fetch failed; using local objects only"
 
-log "Container status after rollback:"
-docker compose -f "${COMPOSE_FILE}" ps | tee -a "${LOG_FILE}"
+COMMIT="$(git rev-parse -q --verify "${TARGET}^{commit}" || true)"
+[ -n "${COMMIT}" ] || die "'${TARGET}' not found in the repository"
+if [ "${DEPLOY_ENV}" = "production" ]; then
+  if ! [[ "${TARGET}" =~ ${TAG_RE} ]] && ! [[ "${TARGET}" =~ ^[0-9a-f]{40}$ ]]; then
+    die "production rolls back to a release tag (vX.Y.Z) or a full commit hash, not '${TARGET}'"
+  fi
+  git merge-base --is-ancestor "${COMMIT}" origin/main || die "${TARGET} is not on main"
+fi
 
-log "=== Rollback to ${TARGET} (commit: ${CURRENT_COMMIT}) Complete ==="
-log "NOTE: If the rollback required a database schema downgrade, manual database"
-log "      restore from backup may be required. See docs/deployment/deployment-model.md"
+git checkout --quiet --detach "${COMMIT}"
+log "Repository at ${COMMIT:0:12}."
+compose config -q || die "docker compose configuration of ${TARGET} is invalid"
+compose up -d --remove-orphans || die "docker compose up failed during the rollback"
+
+if [ -n "${RESTORE_DB}" ]; then
+  log "Restoring the database from ${RESTORE_DB}..."
+  "${SCRIPT_DIR}/restore.sh" --prefix "${RESTORE_DB}" --db-only --yes-overwrite || die "database restore failed"
+fi
+
+log "Health check..."
+if "${SCRIPT_DIR}/healthcheck.sh" --only core --wait "${HEALTH_WAIT_SECONDS:-180}"; then
+  printf 'ref=%s\ncommit=%s\ndeployed_at=%s\nenvironment=%s\nrollback_reason=%s\n' \
+    "${TARGET}" "${COMMIT}" "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "${DEPLOY_ENV}" "${REASON}" > "${DEPLOY_DIR}/deployed-version"
+  log "=== Rollback to ${TARGET} complete and healthy ==="
+else
+  docker logs --tail 40 "${APP_CONTAINER}" 2>&1 | sed 's/^/  app: /' || true
+  die "the stack is NOT healthy after the rollback. If a schema change is the cause, restore the database: rollback.sh ${TARGET} --restore-db <backup prefix>"
+fi

@@ -1,6 +1,6 @@
 # Medical Content Review Checklist — Wikimedica
 
-**Version:** 1.0
+**Version:** 1.1
 **Use this checklist when reviewing a submitted article PR.**
 **Complete all applicable sections. Add comments in the PR for any item marked ❌ or ⚠️.**
 
@@ -99,7 +99,22 @@
 
 ---
 
-## Section 8: Overall Assessment
+## Section 8: Cross-Cutting Checks
+
+*These checks have their own forms. Mark which apply and attach the completed form to the PR.*
+
+| # | Check | Applies when | Form | Status |
+|---|---|---|---|---|
+| 8.1 | Sex/gender cross-check | **Always** for professional, therapy, pharmaka, guideline summary (short check for patient-facing types) | `gender-medizin-checklist.md` | ☐ done ☐ N/A |
+| 8.2 | Patient comprehensibility | Patient article, consent, discharge, QR media | `patient-comprehensibility-checklist.md` | ☐ done ☐ N/A |
+| 8.3 | High-risk source verification | `risk_level: high` | `high-risk-checklist.md` | ☐ done ☐ N/A |
+| 8.4 | Medical Advisor sign-off | `risk_level: high` | `../editorial-review/medical-advisor-signoff.md` | ☐ done ☐ N/A |
+| 8.5 | Reviewer independence: I am **not** the main author and have no undeclared conflict of interest | Always | — | ☐ confirmed |
+| 8.6 | `risk_level` is appropriate (pharmaka, therapy, emergency, intensive care, oncology are always `high`) | Always | — | ☐ ✅ ☐ ❌ |
+
+---
+
+## Section 9: Overall Assessment
 
 **Summary of findings:**
 

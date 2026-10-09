@@ -1,27 +1,104 @@
-# Wikimedica Article Metadata Schema
+# Wikimedica Article Metadata Schema  (schema_version 2.0)
 # =============================================================================
 # YAML schema definition for Wikimedica article frontmatter.
-# Used by scripts/validation/validate-metadata.py for automated validation.
+# Used by scripts/validation/validate-metadata.py and
+# scripts/validation/check-status-transitions.py.
 #
-# Field format:
-#   field_name:
-#     type:        Python type name (str, int, list, bool, dict)
-#     required:    true | false
-#     description: Human-readable description
-#     values:      (optional) list of allowed values for enum fields
-#     default:     (optional) default value if not specified
+# This file is the SINGLE SOURCE OF TRUTH for:
+#   - the field catalogue (`fields`)
+#   - the lifecycle / allowed status transitions (`lifecycle`)
+#   - the high-risk classification lists (`risk`)
+#
+# Field spec keys understood by the validator:
+#   type:                str | int | list | bool | dict
+#   required:            true  -> key must be present (and non-blank for `str`
+#                                 unless allow_blank is true)
+#   required_for_status: [..]  -> field must be NON-BLANK once the article's
+#                                 status is one of the listed statuses
+#   allow_blank:         true  -> empty string allowed where `required: true`
+#   values:              allowed values (enum)
+#   min_length:          minimum list length
+#   format:              "YYYY-MM-DD" for ISO dates
+#   pattern:             regular expression the (string) value must match
+#   item_type:           element type for lists: str | pmid | dict
+#   item_required:       required keys for dict elements
+#   item_values:         allowed values for list elements (enum)
+#   deprecated:          true -> accepted but produces a warning
+#   alias_of:            name of the canonical field
+#   description:         human-readable description
 # =============================================================================
+
+schema_version: "2.0"
+
+# -----------------------------------------------------------------------------
+# Lifecycle
+# -----------------------------------------------------------------------------
+# Allowed status transitions between the base branch and a change set.
+# Handover rules: draft->in-review, in-review->approved, approved->published,
+# published->archived, published->in-review (update needed).
+# Additionally permitted: revision loops back to draft/in-review, the optional
+# advisor-review stage for high-risk content, and published->retracted for the
+# retraction process (docs/editorial/peer-review-policy.md).
+# `archived` and `retracted` are terminal.
+lifecycle:
+  statuses:
+    - draft
+    - in-review
+    - advisor-review
+    - approved
+    - published
+    - archived
+    - retracted
+  # A NEW article file may only enter the repository in one of these statuses.
+  initial_statuses:
+    - draft
+    - in-review
+  # From these statuses on, `required_for_status` fields are enforced.
+  transitions:
+    draft:          [in-review]
+    in-review:      [draft, advisor-review, approved]
+    advisor-review: [draft, in-review, approved]
+    approved:       [published, in-review]
+    published:      [archived, in-review, retracted]
+    archived:       []
+    retracted:      []
+
+# -----------------------------------------------------------------------------
+# Risk classification
+# -----------------------------------------------------------------------------
+# Content in these categories MUST carry risk_level: high and therefore needs a
+# Medical Advisor sign-off before approval (handover: Pharmaka, Dosierungen,
+# Notfallmedizin, Onkologie, Intensivmedizin are high-risk). Therapy protocols
+# contain dosing and are treated as high-risk (see peer-review-policy.md).
+# The Editorial Board may extend these lists; extending is a reviewed change.
+risk:
+  high_risk_article_types:
+    - pharmaka
+    - therapy
+  high_risk_specialties:
+    - Notfallmedizin
+    - Intensivmedizin
+    - "Hämatologie/Onkologie"
 
 fields:
 
   # ---------------------------------------------------------------------------
-  # Core Identity Fields (Required)
+  # Core identity
   # ---------------------------------------------------------------------------
 
   title:
     type: str
     required: true
     description: Full article title in German. Must be non-empty.
+
+  slug:
+    type: str
+    required: true
+    pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+    description: >
+      URL/page key, lowercase ASCII with hyphens. MUST equal the file name
+      without extension. It is the idempotency key of the MediaWiki importer,
+      so it must never change after first publication.
 
   specialty:
     type: str
@@ -55,6 +132,13 @@ fields:
       - "Prävention/Public Health"
       - "Gender-Medizin"
 
+  secondary_specialties:
+    type: list
+    required: false
+    item_type: str
+    description: Additional specialty tags for cross-specialty articles. Values must match canonical specialty names.
+    default: []
+
   article_type:
     type: str
     required: true
@@ -67,10 +151,26 @@ fields:
       - pharmaka
       - therapy
 
+  content_kind:
+    type: str
+    required: false
+    description: >
+      Refines article_type. `guideline-summary` is a professional article that
+      summarises (never copies) a guideline; `qr-media-reference` is a record
+      for QR-linked media that belongs to a patient/consent/discharge journey.
+    default: article
+    values:
+      - article
+      - guideline-summary
+      - qr-media-reference
+
   status:
     type: str
     required: true
-    description: Current lifecycle status of the article.
+    description: >
+      Current lifecycle status. Core model: draft, in-review, approved,
+      published, archived. `advisor-review` is the optional Medical Advisor
+      stage for high-risk content; `retracted` marks withdrawn content.
     values:
       - draft
       - in-review
@@ -87,28 +187,48 @@ fields:
   version:
     type: str
     required: true
-    description: Semantic version string (MAJOR.MINOR.PATCH, e.g., "1.0.0").
+    description: Semantic version string (MAJOR.MINOR.PATCH, e.g., "1.0.0"). Published articles must be >= 1.0.0.
+
+  change_summary:
+    type: str
+    required: true
+    allow_blank: true
+    required_for_status: [in-review, advisor-review, approved, published]
+    description: One or two sentences describing what changed in this version (shown in the version box).
 
   # ---------------------------------------------------------------------------
-  # Authorship
+  # Authorship and review
   # ---------------------------------------------------------------------------
 
   authors:
     type: list
     required: true
-    description: List of authors. At least one required. Each entry is a dict with name (required), email, orcid, affiliation.
     min_length: 1
+    item_type: dict
+    item_required: [name]
+    description: List of authors; the first entry is the main author. Each entry is a dict with name (required), email, orcid, affiliation.
 
   reviewers:
     type: list
-    required: false
-    description: List of reviewers. Each entry is a dict with name, specialty, reviewed_date. Required before status moves past in-review.
-    default: []
+    required: true
+    required_for_status: [advisor-review, approved, published]
+    item_type: dict
+    item_required: [name]
+    description: >
+      Reviewers (name required; specialty, reviewed_date). A reviewer must never
+      be the main author, and at least one reviewer must be independent of all
+      authors.
 
   medical_advisor:
     type: str
     required: false
-    description: Name of Medical Advisor (required for high-risk articles; enforced by CODEOWNERS).
+    description: Name of the Medical Advisor. Mandatory for risk_level high from approval on. Must not be an author.
+
+  medical_advisor_signoff_date:
+    type: str
+    required: false
+    format: "YYYY-MM-DD"
+    description: Date of the Medical Advisor sign-off. Mandatory for risk_level high from approval on.
 
   # ---------------------------------------------------------------------------
   # Dates
@@ -117,63 +237,131 @@ fields:
   created:
     type: str
     required: true
-    description: ISO 8601 creation date (YYYY-MM-DD).
     format: "YYYY-MM-DD"
+    description: ISO 8601 creation date (YYYY-MM-DD).
 
   updated:
     type: str
     required: true
-    description: ISO 8601 date of last update (YYYY-MM-DD). Must be updated on every revision.
     format: "YYYY-MM-DD"
+    description: ISO 8601 date of last update (YYYY-MM-DD). Must be updated on every revision.
 
   next_review:
     type: str
     required: false
-    description: ISO 8601 date when article should next be reviewed (YYYY-MM-DD).
+    required_for_status: [approved, published]
     format: "YYYY-MM-DD"
+    description: >
+      ISO 8601 date when the article must next be reviewed. Mandatory from
+      approval on; drives stale-content detection.
 
   # ---------------------------------------------------------------------------
-  # Classification
+  # Classification and risk
   # ---------------------------------------------------------------------------
 
-  secondary_specialties:
+  risk_level:
+    type: str
+    required: true
+    description: >
+      Medical risk classification. `high` = content where an error can directly
+      harm a patient (dosing, emergency, oncology, intensive care, therapy
+      protocols) and requires Medical Advisor sign-off. See `risk` section.
+    values:
+      - low
+      - moderate
+      - high
+
+  target_audience:
     type: list
+    required: true
+    min_length: 1
+    item_type: str
+    item_values:
+      - physicians
+      - nursing
+      - emergency-services
+      - pharmacists
+      - medical-professionals
+      - patients
+      - relatives
+      - clinical-teams
+    description: Intended audience(s). Patient articles must include `patients`.
+
+  sex_gender_relevance:
+    type: str
+    required: true
+    description: >
+      Result of the cross-cutting sex/gender review (Gender-Medizin flagship).
+      `not_assessed` is only allowed before approval. `relevant` requires
+      sex_gender_notes. Articles whose specialty is Gender-Medizin must be
+      `relevant`.
+    values:
+      - not_assessed
+      - none
+      - relevant
+
+  sex_gender_notes:
+    type: str
     required: false
-    description: Additional specialty tags for cross-specialty articles. Values must match canonical specialty names.
-    default: []
+    description: Summary of sex- and gender-specific aspects (epidemiology, presentation, pharmacology, outcomes).
 
   icd10:
     type: list
     required: false
-    description: List of relevant ICD-10-GM codes (strings, e.g., ["I50.0", "I50.1"]).
+    item_type: str
+    description: Relevant ICD-10-GM codes (strings, e.g., ["I50.0", "I50.1"]).
     default: []
 
   ops:
     type: list
     required: false
-    description: List of relevant OPS procedure codes.
+    item_type: str
+    description: Relevant OPS procedure codes.
     default: []
 
   # ---------------------------------------------------------------------------
-  # Evidence
+  # Evidence and sourcing
   # ---------------------------------------------------------------------------
 
   pubmed_ids:
     type: list
     required: false
-    description: List of supporting PubMed IDs (integers or strings).
+    item_type: pmid
+    description: Supporting PubMed IDs (digits only; integers or strings).
     default: []
 
   guidelines:
     type: list
     required: false
+    item_type: dict
+    item_required: [title]
     description: >
-      List of referenced clinical guidelines. Each entry is a dict with:
+      Referenced clinical guidelines. Each entry is a dict with
       title (required), issuer, awmf_register, year, url.
     default: []
 
+  references:
+    type: list
+    required: true
+    item_type: dict
+    item_required: [citation]
+    description: >
+      Structured literature list rendered into the "Literatur" section. Each
+      entry: citation (required), pmid, doi, url. Together with pubmed_ids and
+      guidelines at least one source is required from approval on.
+
+  source_notes:
+    type: str
+    required: true
+    allow_blank: true
+    required_for_status: [approved, published]
+    description: >
+      Sourcing statement for the editorial/legal record: how the text was
+      produced from the sources (own summary, no verbatim copying of protected
+      full texts) and any permission obtained. See copyright-and-sourcing-policy.md.
+
   # ---------------------------------------------------------------------------
-  # Language and Content Metadata
+  # Language and audience-level
   # ---------------------------------------------------------------------------
 
   language:
@@ -189,7 +377,7 @@ fields:
   language_level:
     type: str
     required: false
-    description: Target reading level for the article.
+    description: Target reading level. Patient articles must use `simple` or `layperson`.
     default: professional
     values:
       - professional
@@ -198,19 +386,25 @@ fields:
       - simple
 
   # ---------------------------------------------------------------------------
-  # Policy and Legal
+  # Policy and legal
   # ---------------------------------------------------------------------------
 
   ai_assisted:
     type: bool
+    required: true
+    description: Must be declared explicitly. true if AI tools contributed to the draft in any substantial way.
+
+  ai_assistance_description:
+    type: str
     required: false
-    description: Set to true if AI tools contributed substantially to the initial draft.
-    default: false
+    description: >
+      Mandatory when ai_assisted is true: which tool, for which task, and how
+      the output was verified by a human. See ai-assistance-policy.md.
 
   safety_hold:
     type: bool
     required: false
-    description: Set to true if article is under patient safety review.
+    description: true if the article is under patient-safety review. An article on hold cannot be approved.
     default: false
 
   wikimedica_credit:
@@ -220,25 +414,51 @@ fields:
     values:
       - true
 
+  license:
+    type: str
+    required: false
+    required_for_status: [approved, published]
+    description: >
+      Content licence identifier (e.g. an SPDX-like name). Intentionally has NO
+      default: the licence model is an open owner decision
+      (docs/legal/license-decision-needed.md). Mandatory from approval on.
+
   licence:
     type: str
     required: false
-    description: Content licence.
-    default: "CC BY-SA 4.0"
+    deprecated: true
+    alias_of: license
+    description: Deprecated British spelling of `license`; still accepted, produces a warning.
 
   # ---------------------------------------------------------------------------
-  # Consent / Discharge Module Specific Fields
+  # Pharmaka-specific
+  # ---------------------------------------------------------------------------
+
+  active_substances:
+    type: list
+    required: false
+    item_type: str
+    description: Active substance names (INN). Mandatory for article_type pharmaka from approval on.
+
+  atc_codes:
+    type: list
+    required: false
+    item_type: str
+    description: ATC codes (e.g. "C09AA05"). Mandatory for article_type pharmaka from approval on.
+
+  # ---------------------------------------------------------------------------
+  # Consent / discharge / media specific
   # ---------------------------------------------------------------------------
 
   procedure:
     type: str
     required: false
-    description: Name of the medical procedure (for consent and discharge modules).
+    description: Name of the medical procedure (mandatory for consent and discharge modules).
 
   module_type:
     type: str
     required: false
-    description: Subtype for modular content.
+    description: Subtype for modular content; must equal article_type when present.
     values:
       - consent
       - discharge
@@ -249,18 +469,77 @@ fields:
     description: Whether the module supports clinic-specific branding in header/footer.
     default: false
 
+  clinic_name:
+    type: str
+    required: false
+    description: Filled in by the clinic at deployment time, never by Wikimedica.
+
+  clinic_address:
+    type: str
+    required: false
+    description: Filled in by the clinic at deployment time.
+
+  clinic_phone:
+    type: str
+    required: false
+    description: Filled in by the clinic at deployment time (discharge modules).
+
+  clinic_logo_url:
+    type: str
+    required: false
+    pattern: "^(https://.+)?$"
+    description: HTTPS URL to the clinic logo.
+
   qr_media_url:
     type: str
     required: false
-    description: URL to QR-code-linked multimedia explanation (video, animation).
+    pattern: "^(https://.+)?$"
+    description: HTTPS URL to QR-code-linked multimedia (video, animation, audio). HTTPS only.
+
+  media_type:
+    type: str
+    required: false
+    description: Media kind for content_kind qr-media-reference.
+    values:
+      - video
+      - audio
+      - animation
+      - faq
+      - document
+
+  media_transcript:
+    type: bool
+    required: false
+    description: true if a text transcript / captions exist (accessibility). Required for audio/video media from approval on.
+
+  parent_slug:
+    type: str
+    required: false
+    pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+    description: Slug of the article/module this media record belongs to (qr-media-reference).
+
+  related_professional_article:
+    type: str
+    required: false
+    description: Optional slug of the corresponding professional article (patient articles).
 
   # ---------------------------------------------------------------------------
-  # Correction History
+  # Retraction and correction history
   # ---------------------------------------------------------------------------
+
+  retraction_notice:
+    type: str
+    required: false
+    required_for_status: [retracted]
+    description: >
+      Public retraction notice (reason, without patient or confidential data).
+      Mandatory for status `retracted` (docs/editorial/peer-review-policy.md).
 
   corrections:
     type: list
     required: false
+    item_type: dict
+    item_required: [date, description]
     description: >
-      List of post-publication corrections. Each entry: date, description, version_after.
+      Post-publication corrections. Each entry: date, description, version_after.
     default: []

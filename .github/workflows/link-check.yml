@@ -29,6 +29,9 @@ jobs:
             --exclude "mailto:"
             --exclude "localhost"
             --exclude "wikimedica.de"
+            --exclude "example.org"
+            --exclude-path tests/fixtures
+            --exclude-path node_modules
             --timeout 30
             --max-retries 3
             "**/*.md"

@@ -2,7 +2,8 @@
 
 **Document version:** 1.0
 **Owner:** AT Medical Digital Solutions — Editorial Operations
-**Last updated:** 2025-01-01
+**Last updated:** 2026-10-09
+**Document version (revised):** 1.1
 
 ---
 
@@ -14,7 +15,7 @@ This document describes the complete lifecycle of a Wikimedica article — from 
 
 ## 2. Lifecycle Stages
 
-```
+```text
 PROPOSAL
     │  GitHub Issue: new-article template
     ▼
@@ -49,7 +50,7 @@ APPROVED
     │  Status: approved
     ▼
 PUBLICATION
-    │  [Future] Import script pushes to MediaWiki
+    │  Import script pushes to MediaWiki (scripts/publishing/import_to_mediawiki.py, Phase 4)
     │  Status: published
     ▼
 MAINTENANCE
@@ -62,6 +63,39 @@ ARCHIVED
     │  Status: archived
     │  Content preserved in Git history
 ```
+
+---
+
+## 2a. Formal Status Transitions
+
+The `status` field is the single source of truth for the lifecycle position. Only the transitions
+below are allowed; `scripts/validation/check-status-transitions.py` compares every pull request with
+`main` and rejects anything else. The table is defined in `data/metadata/article-schema.yaml`
+(`lifecycle.transitions`).
+
+| From | To | Condition |
+|---|---|---|
+| *(new file)* | `draft` / `in-review` | A new article can never enter the repository as `approved` or `published` |
+| `draft` | `in-review` | Author requests review; `change_summary` filled |
+| `in-review` | `draft` | Revision requested |
+| `in-review` | `advisor-review` | High-risk content after peer review |
+| `in-review` / `advisor-review` | `approved` | All required reviews passed; `reviewers`, `next_review`, `license`, `source_notes` set; high risk ⇒ advisor sign-off |
+| `advisor-review` | `in-review` / `draft` | Advisor requests changes |
+| `approved` | `published` | Release/import step (never directly from `draft` or `in-review`) |
+| `approved` | `in-review` | Re-opened before publication |
+| `published` | `in-review` | **Update needed** (guideline change, PubMed alert, correction); bump the version |
+| `published` | `archived` | Superseded or obsolete content |
+| `published` | `retracted` | Retraction process; `retraction_notice` mandatory |
+| `archived`, `retracted` | — | Terminal |
+
+**Frozen content.** Once an article is `approved` or `published`, its text and metadata cannot change
+while the status stays the same — the sign-off covered exactly that text. Any edit starts with
+`published → in-review` (or `approved → in-review`). **Exception:** `safety_hold` can be set or
+cleared at any time (patient-safety brake, see the peer-review policy).
+
+**Never deleted, never renamed.** Approved/published articles are archived or retracted, not
+deleted. The file name is the slug and is immutable; moving a file to another directory with the
+same file name is permitted.
 
 ---
 
@@ -89,6 +123,7 @@ An article may enter a new revision cycle for the following reasons:
 
 - A guideline referenced in the article has been updated or superseded.
 - Detected via: monthly guideline registry review (`scripts/reporting/monthly-guideline-report.py`).
+- Response: the published article moves `published → in-review` in an update PR (version bump).
 - Response time: 30 days (high priority) or next quarterly cycle (standard priority), per AMPIS score.
 
 ### 4.2 PubMed Alert
@@ -128,7 +163,7 @@ An article is archived when:
 ### Archival Process
 
 1. Editor changes `status` to `archived` in frontmatter.
-2. Article is moved to `content/archived/` (future: Git branching strategy).
+2. The file **stays at its path** (the slug is immutable; moving it would break links and history).
 3. MediaWiki page is updated with an archival notice pointing to any replacement article.
 4. Git history is preserved; content is never deleted from the repository.
 

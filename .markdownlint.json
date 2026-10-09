@@ -13,7 +13,7 @@
   "MD022": true,
   "MD023": true,
   "MD024": false,
-  "MD025": true,
+  "MD025": { "front_matter_title": "" },
   "MD026": false,
   "MD029": { "style": "ordered" },
   "MD030": true,
@@ -35,6 +35,7 @@
   "MD046": { "style": "fenced" },
   "MD047": true,
   "MD048": { "style": "backtick" },
-  "MD049": { "style": "underscore" },
-  "MD050": { "style": "asterisk" }
+  "MD049": { "style": "asterisk" },
+  "MD050": { "style": "asterisk" },
+  "MD060": false
 }

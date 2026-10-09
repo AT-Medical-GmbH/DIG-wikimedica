@@ -1,0 +1,124 @@
+# Wikimedica Disclaimer Blocks
+# =============================================================================
+# Single machine-readable source for all medical disclaimers and the emergency
+# notice. The MediaWiki importer (scripts/publishing/import_to_mediawiki.py,
+# Phase 4) assembles the notice of an article from `profiles` + `rules` and
+# renders it into the page. Policy: docs/legal/medical-disclaimer.md
+#
+# REVIEW GATE
+#   review_status: pending-legal-review  -> drafted by the editorial team; NOT yet
+#                                           approved by the Legal Reviewer
+#   review_status: approved              -> approved; production import allowed
+# The production import MUST refuse to run while review_status != approved.
+# Changing any text below is a reviewed change (CODEOWNERS: editorial board +
+# legal) and resets review_status to pending-legal-review.
+# =============================================================================
+
+version: "0.1"
+review_status: pending-legal-review   # pending-legal-review | approved
+approved_by: ""                       # name of the Legal Reviewer (when approved)
+approved_on: ""                       # YYYY-MM-DD (when approved)
+language: de
+
+blocks:
+
+  emergency:
+    title: "Im Notfall"
+    css_class: wm-emergency
+    text: >-
+      Im Notfall wählen Sie sofort den Notruf 112. Außerhalb der Sprechzeiten
+      erreichen Sie den ärztlichen Bereitschaftsdienst unter 116 117.
+
+  general:
+    title: "Wichtiger Hinweis"
+    css_class: wm-disclaimer
+    text: >-
+      Diese Seite dient ausschließlich der allgemeinen Information. Sie ersetzt
+      keine ärztliche Untersuchung, Diagnose oder Behandlung und keine
+      individuelle ärztliche Beratung. Trotz sorgfältiger redaktioneller Prüfung
+      können Inhalte unvollständig oder nicht mehr aktuell sein; maßgeblich ist
+      der im Artikel angegebene Stand.
+
+  patient:
+    title: "Hinweis für Patientinnen und Patienten"
+    css_class: wm-disclaimer
+    text: >-
+      Diese Informationen sind allgemein gehalten und berücksichtigen Ihre
+      persönliche Situation nicht. Ändern Sie Ihre Behandlung oder Medikation nie
+      ohne Rücksprache mit Ihrer Ärztin oder Ihrem Arzt.
+
+  professional:
+    title: "Hinweis für Fachpersonal"
+    css_class: wm-disclaimer
+    text: >-
+      Dieser Artikel richtet sich an medizinisches Fachpersonal. Er ersetzt weder
+      die eigene klinische Beurteilung noch die Prüfung der aktuellen
+      Fachinformation und der gültigen Leitlinien. Die Anwendung im Einzelfall
+      liegt in der Verantwortung der behandelnden Person.
+
+  dosing:
+    title: "Hinweis zu Dosierungen und Anwendungshinweisen"
+    css_class: wm-disclaimer
+    text: >-
+      Dosierungs- und Anwendungshinweise sind mit Quelle und Stand angegeben.
+      Prüfen Sie sie vor jeder Anwendung anhand der aktuellen Fachinformation.
+      Zulassungsstatus, Dosierung und Warnhinweise können sich ändern.
+
+  consent:
+    title: "Hinweis zum Aufklärungsmodul"
+    css_class: wm-disclaimer
+    text: >-
+      Dieses Modul ist eine Informationsgrundlage. Es ersetzt nicht das
+      persönliche Aufklärungsgespräch mit der behandelnden Ärztin oder dem
+      behandelnden Arzt und wird durch die Aufklärung der jeweiligen Einrichtung
+      ergänzt.
+
+  discharge:
+    title: "Hinweis zur Entlassinformation"
+    css_class: wm-disclaimer
+    text: >-
+      Diese Informationen ergänzen die individuellen Anweisungen Ihres
+      Behandlungsteams. Bei Abweichungen gelten die Anweisungen Ihres
+      Behandlungsteams.
+
+  guideline_summary:
+    title: "Hinweis zur Leitlinien-Zusammenfassung"
+    css_class: wm-disclaimer
+    text: >-
+      Dies ist eine eigene Zusammenfassung der genannten Leitlinie. Maßgeblich
+      ist ausschließlich der Wortlaut der Original-Leitlinie.
+
+  media:
+    title: "Hinweis zum verlinkten Medium"
+    css_class: wm-disclaimer
+    text: >-
+      Das verlinkte Medium ergänzt den Text und ersetzt keine ärztliche Beratung.
+      Es wird auf einer externen Adresse bereitgestellt; beim Aufruf können Daten
+      an den Anbieter übertragen werden.
+
+  ai_assisted:
+    title: "Transparenzhinweis zur Erstellung"
+    css_class: wm-disclaimer
+    text: >-
+      Bei der Erstellung dieses Artikels wurden KI-gestützte Werkzeuge
+      unterstützend eingesetzt. Der Inhalt wurde vollständig durch qualifizierte
+      Fachpersonen geprüft und freigegeben.
+
+# Blocks per article_type, in display order.
+profiles:
+  professional: [general, professional]
+  pharmaka:     [general, professional, dosing]
+  therapy:      [general, professional, dosing]
+  patient:      [emergency, general, patient]
+  consent:      [emergency, general, consent]
+  discharge:    [emergency, general, discharge]
+
+# Additional blocks, appended in this order, without duplicates.
+rules:
+  by_content_kind:
+    guideline-summary: [guideline_summary]
+    qr-media-reference: [media]
+  by_risk_level:
+    high: [dosing]
+  by_ai_assisted:
+    true: [ai_assisted]

@@ -90,6 +90,7 @@ For most procedures, risks are presented as a structured checklist in the consen
 ```
 
 The checklist approach:
+
 - Is easier for patients to read and process.
 - Allows the physician to check off risks discussed in the verbal consent session.
 - Provides a clear audit trail.
@@ -109,11 +110,13 @@ Clinic-brandable templates include:
 - A **footer block** with the Wikimedica credit, CC BY-SA 4.0 licence notice, document version, and date.
 
 Clinics may:
+
 - Add their logo and contact details.
 - Translate risk descriptions to other languages (but must retain the German original alongside, unless a full reviewed translation exists in the Wikimedica system).
 - Print on clinic letterhead.
 
 Clinics may **not**:
+
 - Remove the Wikimedica credit.
 - Modify clinical content without the changes being reviewed and approved via the Wikimedica editorial process.
 - Remove or alter risk information.
@@ -124,7 +127,7 @@ Clinics may **not**:
 
 Every consent and discharge module carries the following credit, both in YAML metadata and in the rendered document footer:
 
-```
+```text
 Erstellt auf Basis von Wikimedica (wikimedica.de) — AT Medical Digital Solutions
 Lizenz: CC BY-SA 4.0 | Version: [version] | Letzte Aktualisierung: [updated]
 ```
