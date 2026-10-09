@@ -336,6 +336,7 @@ works:
   area_note: null
   size_mb: 4.0
   status: candidate
+  used_in: [geschichte-der-palliativmedizin, serotoninsyndrom-palliativmedizin, symptommanagement-palliativmedizin]
 - title: Beratung und Therapie in Trauerfällen
   folder: Palliativmedizin
   specialty: Palliativmedizin
@@ -439,6 +440,7 @@ works:
   area_note: Methodik
   size_mb: 2.5
   status: candidate
+  used_in: [guetekriterien-diagnostischer-tests, roc-analyse-schwellenwert]
 - title: Anhang
   folder: Physiologie
   specialty: null
@@ -491,12 +493,14 @@ works:
   - chapter: 5
     title: Effect of Renal Disease on Pharmacokinetics
     size_mb: 0.4
+    used_in: [niereninsuffizienz-pharmakokinetik]
   - chapter: 6
     title: Pharmacokinetics in Patients Requiring Renal Replacement Therapy
     size_mb: 0.3
   - chapter: 7
     title: Effect of Liver Disease on Pharmacokinetics
     size_mb: 0.3
+    used_in: [hepatische-clearance-extraktionsrate, leberinsuffizienz-pharmakokinetik]
   - chapter: 8
     title: Non Compartmental and Compartmental Approaches to Pharmacokinetic Data Analysis
     size_mb: 0.4
@@ -515,12 +519,14 @@ works:
   - chapter: 13
     title: Clinical Pharmacogenetics
     size_mb: 2.4
+    used_in: [cyp2d6-polymorphismus, pharmakogenetik]
   - chapter: 14
     title: Mechanisms and Genetics of Drug Transport
     size_mb: 1.4
   - chapter: 15
     title: Drug Interactions
     size_mb: 0.5
+    used_in: [arzneimittelinteraktionen-pharmakokinetik]
   - chapter: 16
     title: Biochemical Mechanisms of Drug Toxicity
     size_mb: 1.0
@@ -545,18 +551,23 @@ works:
   - chapter: 23
     title: Pharmacological Differences between Men and Women
     size_mb: 0.2
+    used_in: [arzneimittelinduzierte-qt-verlaengerung, frauen-in-klinischen-studien, geschlechtsunterschiede-analgetika, geschlechtsunterschiede-pharmakologie]
   - chapter: 24
     title: Drug Therapy in Pregnant and Nursing Women
     size_mb: 0.6
+    used_in: [arzneimitteltherapie-schwangerschaft, arzneimitteltherapie-stillzeit, plazentatransfer-arzneistoffe, teratogenese-arzneistoffe]
   - chapter: 25
     title: Pediatric Clinical Pharmacology and Therapeutics
     size_mb: 0.7
+    used_in: [kinder-arzneiformen-adhaerenz, kinder-pharmakodynamik-arzneimittelentwicklung, ontogenese-arzneistoffmetabolismus, pharmakokinetik-im-kindesalter]
   - chapter: 26
     title: Drug Therapy in the Elderly
     size_mb: 0.4
+    used_in: [arzneimitteltherapie-im-alter, chemotherapie-im-alter, nierenfunktion-alter-arzneimittel, osteoporose-pharmakotherapie-alter, polypharmazie-im-alter]
   - chapter: 27
     title: Clinical Analysis of Adverse Drug Reactions
     size_mb: 0.2
+    used_in: [arzneimittelsicherheit-risikominimierung, kausalitaetsbewertung-arzneimittelnebenwirkungen, unerwuenschte-arzneimittelwirkungen]
   - chapter: 28
     title: Quality Assessment of Drug Therapy
     size_mb: 0.5

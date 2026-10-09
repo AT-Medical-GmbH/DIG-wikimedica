@@ -222,5 +222,15 @@
     "@cspell/dict-medicalterms/cspell-ext.json"
   ],
   "caseSensitive": false,
-  "allowCompoundWords": true
+  "allowCompoundWords": true,
+  "dictionaryDefinitions": [
+    {
+      "name": "medizin-de",
+      "path": "./data/dictionaries/medizin-de.txt",
+      "addWords": false
+    }
+  ],
+  "dictionaries": [
+    "medizin-de"
+  ]
 }
