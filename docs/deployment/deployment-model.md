@@ -24,7 +24,7 @@ This document describes the complete deployment infrastructure for Wikimedica, f
 | Reverse Proxy | Traefik | v3.x |
 | TLS | Let's Encrypt (DNS-01 via Cloudflare) | — |
 | DNS / CDN / WAF | Cloudflare | — |
-| Application | MediaWiki | Latest LTS (1.42.x) |
+| Application | MediaWiki | 1.43 LTS (pinned) |
 | Database | MariaDB | 10.11 LTS |
 
 ---
@@ -32,19 +32,19 @@ This document describes the complete deployment infrastructure for Wikimedica, f
 ## 3. GitHub → CI/CD → VPS Flow
 
 ```text
-Developer pushes tag to main (e.g., v1.2.3)
+Release tag vX.Y.Z on main  (push, or manual dispatch with the tag)
     │
     ▼
-GitHub Actions: deploy.yml
-    ├── Checkout repository at tag
-    ├── SSH to VPS using SSH_PRIVATE_KEY secret
-    └── Execute infra/deploy/deploy.sh on VPS
-             │
-             ├── git pull origin main (or checkout tag)
-             ├── docker compose pull
-             ├── docker compose up -d --remove-orphans
-             ├── docker compose ps (health check)
-             └── Notify on failure (email / GitHub issue)
+GitHub Actions: deploy.yml  (environment "production" → required reviewers)
+    ├── tag format + "tag is on main" check
+    ├── SSH to the server (pinned host key)
+    └── infra/deploy/deploy.sh --tag vX.Y.Z
+             ├── lock, .env complete, clean checkout
+             ├── backup (database + uploads), verified
+             ├── checkout tag, compose config / pull / up
+             ├── update.php, health check (real MediaWiki API answer)
+             ├── failure → automatic rollback.sh to the previous version
+             └── DEPLOY_RESULT=… + deploy-summary.md → job summary, incident issue on failure
 ```
 
 All deployments are triggered by **git tags** on `main`, not by every commit. This ensures only explicitly versioned releases reach production.

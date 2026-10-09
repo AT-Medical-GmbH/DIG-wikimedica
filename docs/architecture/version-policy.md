@@ -86,3 +86,20 @@ mediawiki:
 Reviewed on every MediaWiki LTS point release, on any relevant CVE, and at least
 **annually**. Next scheduled review: see repository guideline/maintenance
 reminders.
+
+---
+
+## 7. Findings from tests against a real MediaWiki 1.43.11
+
+The importer and settings were exercised on a real MediaWiki 1.43.11 (`tests/integration/`, opt-in `WM_REAL_MW=1`).
+Defects found there and fixed in this repository:
+
+- **TemplateStyles is not bundled** with the 1.43 tarball; loading it is a fatal error → it stays commented out.
+- **Custom edit right**: `wm-edit-content` must also be granted to bot passwords
+  (`$wgGrantPermissions['editpage']`), otherwise the bot cannot edit protected namespaces.
+- **Sysop** needs explicit edit/create/move/upload rights once `$wgNamespaceProtection` is used.
+- **Bot password format**: 32+ characters from `[0-9a-w]`; the importer checks this.
+- **E-mail confirmation** applies to the bot account too; confirm its address.
+- `$wgAddGroups`/`$wgRemoveGroups` only apply when `userrights` is removed from bureaucrats.
+
+Pins: the MediaWiki tarball is pinned by SHA-256; the GPG signature was not verified yet (open item, check at the next upgrade).
