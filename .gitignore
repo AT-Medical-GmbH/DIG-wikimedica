@@ -210,3 +210,6 @@ connect.lock
 
 # Importer output (rendered wikitext, logs)
 import-output/
+
+# Pinned documentation tooling must be reproducible
+!package-lock.json
