@@ -8,6 +8,10 @@
 # The last matching rule takes precedence.
 # =============================================================================
 
+# NOTE: the teams below could not be found in the GitHub organisation (checked
+# 2026-10-09). Names are intentionally unchanged until the owner decides —
+# see docs/operations/github-teams-needed.md.
+#
 # Default owner for everything not matched below
 *                               @atmedical-wikimedica/editors
 
@@ -63,6 +67,12 @@ scripts/pubmed/                 @atmedical-wikimedica/devops @atmedical-wikimedi
 # ---------------------------------------------------------------------------
 data/registries/                @atmedical-wikimedica/editorial-board
 data/metadata/                  @atmedical-wikimedica/devops @atmedical-wikimedica/editorial-board
+
+# Machine-readable legal texts (disclaimers) — legal review required
+data/legal/                     @atmedical-wikimedica/editorial-board @atmedical-wikimedica/legal
+
+# Tests for the governance rules — rules and tests must change together
+tests/                          @atmedical-wikimedica/devops @atmedical-wikimedica/editorial-board
 
 # ---------------------------------------------------------------------------
 # Forms

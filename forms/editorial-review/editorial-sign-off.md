@@ -1,6 +1,6 @@
 # Editorial Sign-Off Form — Wikimedica
 
-**Version:** 1.0
+**Version:** 1.1
 **Complete this form when providing editorial sign-off on a reviewed article.**
 **Attach as a comment to the relevant Pull Request, or include as part of the PR approval.**
 
@@ -13,6 +13,10 @@
 **Article file path (e.g., content/specialties/kardiologie/herzinsuffizienz.md):**
 
 **Article type:** ☐ Professional ☐ Patient ☐ Consent module ☐ Discharge module ☐ Pharmaka ☐ Therapy
+
+**Content kind:** ☐ Article ☐ Guideline summary ☐ QR media reference
+
+**Risk level (frontmatter):** ☐ low ☐ moderate ☐ high
 
 **PR number:**
 
@@ -53,6 +57,13 @@
 | E12 | Article version has been incremented correctly | ☐ ✅ ☐ ❌ |
 | E13 | `updated` date in frontmatter is current | ☐ ✅ ☐ ❌ |
 | E14 | `wikimedica_credit: true` is set in frontmatter | ☐ ✅ ☐ ❌ |
+| E15 | No reviewer is the main author; at least one reviewer is independent of all authors | ☐ ✅ ☐ ❌ |
+| E16 | `risk_level` is correct; high risk has Medical Advisor name **and** sign-off date (form attached) | ☐ ✅ ☐ ❌ |
+| E17 | Sex/gender cross-check completed (`sex_gender_relevance` is `none` or `relevant`, notes present if `relevant`) | ☐ ✅ ☐ ❌ |
+| E18 | Patient-facing content: separate comprehensibility review attached | ☐ ✅ ☐ ❌ ☐ N/A |
+| E19 | **AI assistance:** `ai_assisted` matches the reviewers' findings; if `true`, `ai_assistance_description` is specific and every statement was human-verified | ☐ ✅ ☐ ❌ |
+| E20 | `license`, `source_notes`, `change_summary` and `next_review` (≤ 12 months) are set | ☐ ✅ ☐ ❌ |
+| E21 | Status transition is allowed (`check-status-transitions.py` passed); no leftover HTML comments (`pre-publish-check.py` passed) | ☐ ✅ ☐ ❌ |
 
 ---
 

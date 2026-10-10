@@ -49,9 +49,11 @@ jobs:
           if [ -f /tmp/guideline-report.md ]; then
             REPORT=$(cat /tmp/guideline-report.md)
           fi
-          echo "content<<HEREDOC" >> "$GITHUB_OUTPUT"
-          echo "$REPORT" >> "$GITHUB_OUTPUT"
-          echo "HEREDOC" >> "$GITHUB_OUTPUT"
+          {
+            echo "content<<HEREDOC"
+            echo "$REPORT"
+            echo "HEREDOC"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Create GitHub Issue with report
         if: steps.report.outputs.exit_code != '0'

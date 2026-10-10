@@ -1,0 +1,62 @@
+# =============================================================================
+# Wikimedica — Staging Overlay
+# =============================================================================
+# Staging is production-like (Traefik + TLS + Cloudflare DNS-01) but fully
+# ISOLATED from production: distinct project name, container names, volume
+# names and network names so it can run on a separate staging host — or
+# temporarily alongside — without colliding with production resources.
+#
+# Usage (staging host):
+#   cp infra/env/.env.example infra/env/.env   # staging values; DOMAIN=staging.wikimedica.de
+#   docker compose \
+#     -f infra/docker/docker-compose.yml \
+#     -f infra/docker/docker-compose.staging.yml \
+#     --project-name wikimedica_staging up -d
+#
+# IMPORTANT (staging-first principle):
+#   - Build, test and verify here BEFORE any production promotion.
+#   - Capture the verified mediawiki image digest here, then pin it in
+#     docker-compose.yml for production (see version-policy.md).
+#   - Tear staging down cleanly when done; leave no stray containers/volumes.
+#
+# The staging DOMAIN (e.g. staging.wikimedica.de) is provided via the staging
+# .env file, NOT hard-coded here.
+# =============================================================================
+
+services:
+
+  traefik:
+    container_name: wikimedica_traefik_staging
+    networks:
+      - traefik_net
+
+  mediawiki:
+    container_name: wikimedica_app_staging
+    networks:
+      - traefik_net
+      - internal_net
+    labels:
+      # Route the staging router on the staging network name.
+      - "traefik.docker.network=wikimedica_staging_traefik_net"
+
+  mariadb:
+    container_name: wikimedica_db_staging
+    networks:
+      - internal_net
+
+volumes:
+  db_data:
+    name: wikimedica_staging_db_data
+  mediawiki_images:
+    name: wikimedica_staging_images
+  traefik_certs:
+    name: wikimedica_staging_certs
+
+networks:
+  traefik_net:
+    name: wikimedica_staging_traefik_net
+    driver: bridge
+  internal_net:
+    name: wikimedica_staging_internal_net
+    driver: bridge
+    internal: true

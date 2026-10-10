@@ -1,10 +1,11 @@
-version: "3.9"
-
 # =============================================================================
 # Wikimedica — Production Docker Compose
 # =============================================================================
 # Usage: docker compose -f infra/docker/docker-compose.yml up -d
 # Requires: infra/env/.env (copy from infra/env/.env.example and fill in values)
+#
+# NOTE: The obsolete top-level `version:` key has been removed intentionally.
+#       Docker Compose v2 ignores it and emits a deprecation warning.
 # =============================================================================
 
 services:
@@ -46,7 +47,12 @@ services:
   # MediaWiki — Application
   # ---------------------------------------------------------------------------
   mediawiki:
-    image: mediawiki:1.42
+    # MediaWiki 1.43 LTS — see docs/architecture/version-policy.md.
+    # PRODUCTION: pin to an immutable digest verified on staging, e.g.
+    #   image: mediawiki:1.43@sha256:<digest-from-staging>
+    # The digest is intentionally NOT hard-coded here because it must be
+    # captured from the registry during the staging-first rollout, not invented.
+    image: mediawiki:1.43
     container_name: wikimedica_app
     restart: unless-stopped
     env_file:
@@ -76,8 +82,12 @@ services:
       - "traefik.http.routers.mediawiki-http.middlewares=redirect-to-https@file"
       # Service
       - "traefik.http.services.mediawiki.loadbalancer.server.port=80"
+    # The official mediawiki image is PHP+Apache and ships NO curl/wget, so a
+    # curl-based healthcheck can never pass. Use the bundled PHP CLI to open a
+    # TCP connection to the local Apache — a dependency-free liveness check.
+    # (End-to-end HTTP health is verified externally by infra/deploy/deploy.sh.)
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost/api.php?action=query&format=json"]
+      test: ["CMD-SHELL", "php -r '$$f=@fsockopen(\"127.0.0.1\",80);exit($$f?0:1);'"]
       interval: 30s
       timeout: 10s
       retries: 5
@@ -118,6 +128,31 @@ services:
       retries: 5
       start_period: 30s
 
+  # ---------------------------------------------------------------------------
+  # Redis — Object Cache & Job Queue  [OPTIONAL — see version-policy DEC-3]
+  # ---------------------------------------------------------------------------
+  # Disabled by default. Enable together with the matching $wgObjectCaches /
+  # $wgMainCacheType = CACHE_REDIS block in LocalSettings.php when the editorial
+  # volume justifies it. Redis stays on the internal network only.
+  #
+  # redis:
+  #   image: redis:7.4-alpine
+  #   container_name: wikimedica_redis
+  #   restart: unless-stopped
+  #   command: ["redis-server", "--save", "", "--maxmemory", "256mb", "--maxmemory-policy", "allkeys-lru"]
+  #   volumes:
+  #     - redis_data:/data
+  #   networks:
+  #     - internal_net
+  #   expose:
+  #     - "6379"
+  #   healthcheck:
+  #     test: ["CMD", "redis-cli", "ping"]
+  #     interval: 20s
+  #     timeout: 5s
+  #     retries: 5
+  #     start_period: 10s
+
 # ---------------------------------------------------------------------------
 # Named Volumes
 # ---------------------------------------------------------------------------
@@ -128,6 +163,8 @@ volumes:
     name: wikimedica_images
   traefik_certs:
     name: wikimedica_certs
+  # redis_data:                 # uncomment together with the redis service above
+  #   name: wikimedica_redis_data
 
 # ---------------------------------------------------------------------------
 # Networks

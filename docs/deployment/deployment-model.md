@@ -24,27 +24,27 @@ This document describes the complete deployment infrastructure for Wikimedica, f
 | Reverse Proxy | Traefik | v3.x |
 | TLS | Let's Encrypt (DNS-01 via Cloudflare) | — |
 | DNS / CDN / WAF | Cloudflare | — |
-| Application | MediaWiki | Latest LTS (1.42.x) |
+| Application | MediaWiki | 1.43 LTS (pinned) |
 | Database | MariaDB | 10.11 LTS |
 
 ---
 
 ## 3. GitHub → CI/CD → VPS Flow
 
-```
-Developer pushes tag to main (e.g., v1.2.3)
+```text
+Release tag vX.Y.Z on main  (push, or manual dispatch with the tag)
     │
     ▼
-GitHub Actions: deploy.yml
-    ├── Checkout repository at tag
-    ├── SSH to VPS using SSH_PRIVATE_KEY secret
-    └── Execute infra/deploy/deploy.sh on VPS
-             │
-             ├── git pull origin main (or checkout tag)
-             ├── docker compose pull
-             ├── docker compose up -d --remove-orphans
-             ├── docker compose ps (health check)
-             └── Notify on failure (email / GitHub issue)
+GitHub Actions: deploy.yml  (environment "production" → required reviewers)
+    ├── tag format + "tag is on main" check
+    ├── SSH to the server (pinned host key)
+    └── infra/deploy/deploy.sh --tag vX.Y.Z
+             ├── lock, .env complete, clean checkout
+             ├── backup (database + uploads), verified
+             ├── checkout tag, compose config / pull / up
+             ├── update.php, health check (real MediaWiki API answer)
+             ├── failure → automatic rollback.sh to the previous version
+             └── DEPLOY_RESULT=… + deploy-summary.md → job summary, incident issue on failure
 ```
 
 All deployments are triggered by **git tags** on `main`, not by every commit. This ensures only explicitly versioned releases reach production.
@@ -56,22 +56,26 @@ All deployments are triggered by **git tags** on `main`, not by every commit. Th
 ### Production Compose (`infra/docker/docker-compose.yml`)
 
 Services:
+
 - **traefik**: Reverse proxy. Reads dynamic config from `infra/traefik/dynamic/`. Stores Let's Encrypt certificates in a named volume.
 - **mediawiki**: The MediaWiki application. PHP-FPM + Apache. Mounts `LocalSettings.php` and uploads directory.
 - **mariadb**: Database. Uses a named volume for data persistence. Only accessible on the internal Docker network.
 
 Named volumes:
+
 - `db_data`: MariaDB data files
 - `mediawiki_images`: MediaWiki uploaded images
 - `traefik_certs`: Let's Encrypt certificate storage
 
 Networks:
+
 - `traefik_net`: External-facing; Traefik + MediaWiki
 - `internal_net`: Internal-only; MediaWiki ↔ MariaDB
 
 ### Dev Override (`infra/docker/docker-compose.override.yml`)
 
 Used for local development:
+
 - Ports exposed directly (no Traefik TLS)
 - Local volume mounts for MediaWiki source
 - TLS disabled
@@ -98,6 +102,7 @@ Used for local development:
 ### Container Labels (in docker-compose.yml)
 
 MediaWiki container carries Traefik labels that:
+
 - Enable Traefik routing for the `websecure` entrypoint
 - Attach the `cloudflare-dns` certificate resolver
 - Apply the `redirect-to-https` and `security-headers` middlewares
@@ -184,6 +189,7 @@ If a deployment causes an issue, roll back using `infra/deploy/rollback.sh`:
 ```
 
 The rollback script:
+
 1. Stops all running containers.
 2. Checks out the specified previous tag or commit.
 3. Restarts the Docker Compose stack.

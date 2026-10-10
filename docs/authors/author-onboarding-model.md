@@ -14,7 +14,7 @@ The Wikimedica author community is the foundation of the platform's quality and 
 
 ## 2. Application Workflow
 
-```
+```text
 1. Candidate submits Author Application Form
          │  forms/author-application/author-application-form.md
          ▼
@@ -109,6 +109,7 @@ Approved contributors receive an AT Medical email address in the format:
 `firstname.lastname@wikimedica.de`
 
 This address is used for:
+
 - GitHub organisation membership (the GitHub account should be associated with this email)
 - Nextcloud access
 - Editorial communications
@@ -137,6 +138,7 @@ Nextcloud access uses SSO with the AT Medical identity provider. Credentials are
 ### GitHub Organisation
 
 Contributors are added to the `atmedical-wikimedica` GitHub organisation and assigned to:
+
 - A **specialty team** (e.g., `team-kardiologie`) that has CODEOWNERS write access to the relevant specialty content directory
 - A **role team** (`contributors`, `reviewers`, or `editors`) that controls PR approval permissions
 

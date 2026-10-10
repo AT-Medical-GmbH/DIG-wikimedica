@@ -100,6 +100,7 @@ PubMed IDs and guideline references are also recorded in the article YAML frontm
 Articles, patient information, consent modules, and discharge modules **authored for Wikimedica** are published under the **Creative Commons Attribution–ShareAlike 4.0 International Licence** ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 This means:
+
 - **Attribution (BY)**: Anyone reproducing Wikimedica content must credit "Wikimedica / AT Medical Digital Solutions" with a link to the original.
 - **ShareAlike (SA)**: Any adapted or derived works must be distributed under the same CC BY-SA 4.0 licence.
 - Commercial use is permitted under these terms.
@@ -136,4 +137,4 @@ Anyone who believes a Wikimedica article contains content that infringes a third
 
 **editorial@wikimedica.de**
 
-Reports are investigated within **10 business days**. If an infringement is confirmed, the content is removed or corrected immediately and the affected article enters the retraction process (see `docs/governance/review-policy.md`).
+Reports are investigated within **10 business days**. If an infringement is confirmed, the content is removed or corrected immediately and the affected article enters the retraction process (see `docs/editorial/peer-review-policy.md`).

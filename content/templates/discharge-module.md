@@ -1,46 +1,96 @@
 ---
 # =============================================================================
-# Wikimedica — Entlassbrief-Vorlage (Discharge Module Template)
+# Wikimedica — Entlassmodul-Vorlage (Discharge Module Template)
 # =============================================================================
-# Patientenfreundliche Entlassinformationen nach medizinischem Eingriff
-# oder Krankenhausaufenthalt.
+# Patientenfreundliche Entlass-, Nachsorge- und Wundversorgungsinformation. Klinik-brandbar.
+# Platzhalter {{ ... }} im Text werden beim Import aus den Metadaten ersetzt
+# (siehe content/templates/README.md). Alle HTML-Kommentare vor der Freigabe entfernen.
 # =============================================================================
 
-title: ""                        # (required) Titel des Entlassbriefs
-procedure: ""                    # Durchgeführter Eingriff / Diagnose (optional)
-specialty: ""                    # (required) Kanonisches Fachgebiet
-module_type: "discharge"         # (required) Festgelegt: discharge
+title: ""                        # (Pflicht) Vollständiger Titel auf Deutsch
+slug: ""                         # (Pflicht) = Dateiname ohne .md; Kleinbuchstaben + Bindestriche; nach Veröffentlichung nie ändern
+specialty: ""                    # (Pflicht) Exakter kanonischer Fachgebietsname (siehe content/specialties/README.md)
+secondary_specialties: []        # Optional: weitere Fachgebiete (kanonische Namen)
+article_type: "discharge"        # (Pflicht) Festgelegt
+content_kind: "article"          # article | guideline-summary | qr-media-reference
+status: "draft"                  # draft | in-review | advisor-review | approved | published | archived (siehe docs/editorial/content-lifecycle.md)
 
-version: "1.0.0"
-status: "draft"
+# Versionierung
+version: "0.1.0"                 # SemVer; veröffentlichte Artikel >= 1.0.0
+change_summary: ""               # Ab "in-review" Pflicht: 1–2 Sätze, was diese Version ändert
 
-language: "de"
+# Modul
+module_type: "discharge"         # (Pflicht) Festgelegt: discharge
+procedure: ""                    # (Pflicht) Durchgeführter Eingriff / Diagnose
 
+# Autorenschaft und Review
+authors:                         # (Pflicht) Erste Person = Hauptautor/in
+  - name: ""
+    email: ""
+    orcid: ""
+    affiliation: ""
+
+reviewers: []                    # Pflicht ab "advisor-review". Nie die Hauptautor/in; mind. 1 Person unabhängig von allen Autor/innen
+  # - name: ""
+  #   specialty: ""
+  #   reviewed_date: YYYY-MM-DD
+
+medical_advisor: ""              # Pflicht ab "approved" bei risk_level high (darf nicht Autor/in sein)
+medical_advisor_signoff_date: "" # Pflicht ab "approved" bei risk_level high (YYYY-MM-DD)
+
+# Datum
+created: ""                      # (Pflicht) YYYY-MM-DD
+updated: ""                      # (Pflicht) YYYY-MM-DD; bei jeder Änderung aktualisieren
+next_review: ""                  # Pflicht ab "approved": YYYY-MM-DD, spätestens 12 Monate nach "updated"
+
+# Risiko, Zielgruppe, Geschlechtersensibilität
+risk_level: ""                   # (Pflicht) low | moderate | high — high ist Pflicht für Pharmaka, Therapieprotokolle, Notfall-/Intensivmedizin, Onkologie
+target_audience: [patients, relatives, clinical-teams]  # (Pflicht) physicians | nursing | emergency-services | pharmacists | medical-professionals | patients | relatives | clinical-teams
+sex_gender_relevance: "not_assessed"  # (Pflicht) not_assessed | none | relevant — vor "approved" abschließen
+sex_gender_notes: ""             # Pflicht bei "relevant": geschlechtsspezifische Aspekte kurz zusammenfassen
+safety_hold: false               # true = Sicherheitsprüfung läuft; Artikel kann dann nicht freigegeben werden
+language: "de"                   # ISO 639-1
+language_level: "simple"         # professional | simplified | layperson | simple
+
+# Klinik-Branding (wird durch die Klinik befüllt — NICHT durch Wikimedica)
 clinic_brandable: true
 clinic_name: ""
 clinic_address: ""
 clinic_phone: ""
-clinic_logo_url: ""
+clinic_logo_url: ""              # nur HTTPS
+qr_media_url: ""                 # Optional: HTTPS-URL zu weiterführenden Medien (siehe qr-media-reference)
 
-qr_media_url: ""                 # Optional: URL zu weiterführenden Medien
+# Klassifikation
+icd10: []                        # z. B. ["I50.0", "I50.1"]
+ops: []                          # OPS-Prozedurencodes
 
-wikimedica_credit: true
-licence: "CC BY-SA 4.0"
+# Quellen (nur Verweise und eigene Zusammenfassungen — keine Volltextübernahme geschützter Quellen)
+pubmed_ids: []                   # nur Ziffern, z. B. [12345678]
+guidelines: []                   # Leitlinien
+  # - title: ""
+  #   issuer: ""
+  #   awmf_register: ""          # z. B. "019-013"
+  #   year: 2024
+  #   url: ""
+references: []                   # (Pflicht) strukturierte Literatur; ab "approved" mind. 1 Quelle in references/pubmed_ids/guidelines
+  # - citation: ""
+  #   pmid: ""
+  #   doi: ""
+  #   url: ""
+source_notes: ""                 # Pflicht ab "approved": Wie entstand der Text? Eigene Zusammenfassung; ggf. eingeholte Genehmigungen
 
-authors:
-  - name: ""
-    email: ""
+# KI-Deklaration (docs/editorial/ai-assistance-policy.md)
+ai_assisted: false               # (Pflicht) explizit deklarieren
+ai_assistance_description: ""    # Pflicht bei ai_assisted: true — Tool, Aufgabe und menschliche Verifikation
 
-reviewers: []
+# Recht
+wikimedica_credit: true          # Pflichtfeld, immer true
+license: ""                      # Pflicht ab "approved". Bewusst ohne Vorgabe: Lizenzmodell ist offene Eigentümerentscheidung (docs/legal/license-decision-needed.md)
 
-icd10: []
-ops: []
-
-created: ""
-updated: ""
-next_review: ""
-
-ai_assisted: false
+corrections: []                  # Korrekturen nach Veröffentlichung
+  # - date: YYYY-MM-DD
+  #   description: ""
+  #   version_after: ""
 ---
 
 <!-- =========================================================================
@@ -199,8 +249,39 @@ Bitte vereinbaren Sie bei Ihrem Hausarzt einen Nachsorgetermin innerhalb von **_
 
 ---
 
-<!-- =========================================================================
-     WIKIMEDICA-CREDIT-FOOTER
-     ========================================================================= -->
+## Quellen und Grundlagen
 
-*Erstellt auf Basis von Wikimedica (wikimedica.de) — AT Medical Digital Solutions · Lizenz: CC BY-SA 4.0 · Version: {{ version }} · Aktualisiert: {{ updated }}*
+<!-- Fachliche Grundlagen der Verhaltens- und Wundversorgungshinweise in verständlicher Form nennen.
+     Das Modul ersetzt NICHT die individuellen Anweisungen des behandelnden Teams. -->
+
+---
+
+## Hinweise und Haftungsausschluss
+
+<!-- Wird bei der Veröffentlichung automatisch aus data/legal/disclaimers.yaml ergänzt
+     (Profil nach article_type und risk_level, inkl. Notfallhinweis).
+     Hier nur artikelspezifische Zusatzhinweise eintragen; der Abschnitt darf leer bleiben. -->
+
+---
+
+## Review-Historie
+
+| Datum | Version | Rolle | Name | Ergebnis / Anmerkung |
+|---|---|---|---|---|
+|  |  | Fachreview |  |  |
+|  |  | Redaktion |  |  |
+|  |  | Medical Advisor (Hochrisiko) |  |  |
+|  |  | Gender-Check |  |  |
+|  |  | Verständlichkeitsprüfung |  |  |
+
+---
+
+## Änderungsverlauf
+
+| Version | Datum | Autor/in | Änderung |
+|---|---|---|---|
+| 0.1.0 |  |  | Erstentwurf |
+
+---
+
+*{{ title }} · Version {{ version }} · Aktualisiert {{ updated }} · Wikimedica / AT Medical Digital Solutions · [wikimedica.de](https://wikimedica.de) · Lizenz: {{ license }}*

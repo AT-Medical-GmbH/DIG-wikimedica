@@ -14,7 +14,7 @@ This document describes the overall system architecture of Wikimedica (wikimedic
 
 ## 2. High-Level Architecture
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                     INTERNET / USERS                        │
 └─────────────────────────┬───────────────────────────────────┘
@@ -114,7 +114,7 @@ MediaWiki is the public-facing content platform at `wikimedica.de`. Key configur
 
 ## 4. Content Flow
 
-```
+```text
 Author (GitHub PR)
     │
     ├── validate-metadata.py  ─────→ fails → PR blocked

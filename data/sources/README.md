@@ -21,7 +21,7 @@ Every external source referenced in a Wikimedica article must be registered here
 
 ### File Structure
 
-```
+```text
 data/sources/
 ├── README.md             ← this file
 ├── guidelines.yaml       ← Clinical guidelines (AWMF, ESC, NICE, etc.)
@@ -53,6 +53,7 @@ data/sources/
 These proprietary sources are subject to strict restrictions. See `docs/legal/copyright-and-sourcing-policy.md` for the full policy.
 
 In summary:
+
 - **DocCheck Flexikon**: Reference (link) only; no reproduction.
 - **UpToDate**: Background research only; no reproduction of any content.
 - **Amboss**: Background research only; no reproduction.

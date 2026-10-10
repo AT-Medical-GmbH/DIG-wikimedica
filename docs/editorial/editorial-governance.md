@@ -1,8 +1,8 @@
 # Editorial Governance — Wikimedica
 
-**Document version:** 1.0
+**Document version:** 1.1
 **Owner:** AT Medical Digital Solutions — Editorial Board
-**Last updated:** 2025-01-01
+**Last updated:** 2026-10-09
 
 ---
 
@@ -14,17 +14,26 @@ This document defines the editorial governance framework for Wikimedica. It desc
 
 ## 2. Editorial Roles
 
+> **Authoritative role matrix:** [`roles-and-permissions.md`](roles-and-permissions.md) defines the
+> eleven roles (Reader, Registered Author, Medical Author, Reviewer, Specialty Editor,
+> Gender-Medizin Editor, Editorial Board, Medical Advisor, Legal Reviewer, DevOps,
+> Admin/Bureaucrat), who may trigger which status transition, and the MediaWiki rights. The
+> role descriptions below remain valid and are mapped there (Contributor = Medical Author,
+> Editor = Specialty Editor, Medical Director = Editorial Board member with final clinical authority).
+
 ### 2.1 Contributor (Author)
 
 A **Contributor** creates initial article drafts, proposes new topics, and submits content via GitHub Pull Requests.
 
 **Requirements:**
+
 - Medical degree (MD, DO, or equivalent) or equivalent qualification (pharmacist, nurse practitioner, medical scientist) appropriate to the content area.
 - Specialty qualification for articles classified within a clinical specialty.
 - Signed author agreement and declaration of conflicts of interest.
 - AT Medical contributor account (email: `firstname.lastname@wikimedica.de`).
 
 **Permissions:**
+
 - Create and edit articles in `content/` via PR.
 - Propose new topics via GitHub Issues.
 - Access Nextcloud collaboration workspace (read/write).
@@ -34,11 +43,13 @@ A **Contributor** creates initial article drafts, proposes new topics, and submi
 A **Reviewer** performs peer review of submitted articles within their declared specialty area.
 
 **Requirements:**
+
 - Meets all Contributor requirements.
 - Minimum 3 years of post-qualification clinical or academic experience in the specialty.
 - Approved by the Editorial Board.
 
 **Permissions:**
+
 - All Contributor permissions.
 - Approve PRs in their designated specialty area (CODEOWNERS enforcement).
 - Assign labels (`reviewed`, `needs-revision`) on PRs.
@@ -48,11 +59,13 @@ A **Reviewer** performs peer review of submitted articles within their declared 
 An **Editor** manages the editorial pipeline, coordinates reviewers, and has final approval authority for content readiness.
 
 **Requirements:**
+
 - Meets all Reviewer requirements.
 - Demonstrated editorial experience (academic publishing, clinical guideline committees, or equivalent).
 - Appointed by the Medical Director / AT Medical Editorial Board.
 
 **Permissions:**
+
 - All Reviewer permissions.
 - Merge approved PRs to `main`.
 - Assign and manage reviewer assignments.
@@ -64,11 +77,13 @@ An **Editor** manages the editorial pipeline, coordinates reviewers, and has fin
 A **Medical Advisor** provides final sign-off for high-risk content categories: medication dosing, emergency protocols, oncology treatment, surgical procedures, and any content directly guiding clinical decision-making.
 
 **Requirements:**
+
 - Board-certified physician (Facharzt) in the relevant specialty.
 - Active clinical or academic practice.
 - Formal advisory agreement with AT Medical Digital Solutions.
 
 **Permissions:**
+
 - All Editor permissions in their specialty.
 - Mandatory co-reviewer on high-risk articles (enforced via CODEOWNERS).
 - Authority to place a clinical hold on any article pending safety review.
@@ -83,7 +98,7 @@ The **Medical Director** has ultimate editorial authority across the platform. R
 
 All content passes through the following stages, tracked via the `status` field in article frontmatter.
 
-```
+```text
 ┌────────┐    ┌───────────┐    ┌──────────────────┐    ┌──────────┐    ┌───────────┐
 │ draft  │───►│ in-review │───►│ advisor-review   │───►│ approved │───►│ published │
 └────────┘    └───────────┘    │ (high-risk only) │    └──────────┘    └───────────┘
@@ -93,6 +108,11 @@ All content passes through the following stages, tracked via the `status` field 
                                                      │    archived     │
                                                      └─────────────────┘
 ```
+
+> **Formal transitions:** the allowed status transitions (including `published → in-review` for
+> updates, `published → archived` and `published → retracted`) and the rule that approved/published
+> content is frozen are defined in [`content-lifecycle.md`](content-lifecycle.md) §2a and enforced
+> by `scripts/validation/check-status-transitions.py`.
 
 ### Stage Descriptions
 
@@ -168,6 +188,11 @@ A correction notice is appended to the article frontmatter and displayed on the 
 ---
 
 ## 7. AI Usage Policy
+
+> **The authoritative policy is [`ai-assistance-policy.md`](ai-assistance-policy.md)** (v1.0,
+> 2026-10-09). The summary below is kept for orientation; where it differs, the policy document wins.
+> New in the policy: `ai_assistance_description` is mandatory when `ai_assisted: true`, the validator
+> enforces the declaration, and no AI is part of the publishing pipeline.
 
 ### Permitted Uses
 

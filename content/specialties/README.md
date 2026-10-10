@@ -6,7 +6,7 @@ This directory contains all medical articles organised by specialty. Each specia
 
 ## Specialty Directory Structure
 
-```
+```text
 content/specialties/
 ├── README.md                          ← this file
 ├── innere-medizin/
@@ -132,7 +132,7 @@ When articles are imported to MediaWiki, the `specialty` frontmatter value maps 
 
 Article files are named using lowercase, hyphenated ASCII transliterations of the German title:
 
-```
+```text
 content/specialties/kardiologie/herzinsuffizienz-chron.md
 content/specialties/gender-medizin/herzinfarkt-bei-frauen.md
 ```

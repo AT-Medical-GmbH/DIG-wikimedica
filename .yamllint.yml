@@ -1,0 +1,16 @@
+# YAML lint for infrastructure, workflows and data files.
+extends: default
+rules:
+  colons:
+    max-spaces-after: -1       # aligned values (e.g. lifecycle.transitions) stay readable
+  line-length: disable          # long URLs and descriptions are common
+  document-start: disable       # compose / workflow files do not use '---'
+  comments:
+    min-spaces-from-content: 1
+  comments-indentation: disable
+  truthy:
+    allowed-values: ["true", "false"]
+    check-keys: false           # GitHub Actions uses the key `on:`
+  indentation:
+    spaces: consistent
+    indent-sequences: consistent
