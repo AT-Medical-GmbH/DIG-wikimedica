@@ -1,0 +1,3 @@
+WikiMedica – GitHub-zu-MediaWiki-Übertragungstest.
+Diese Datei ist bewusst kein medizinischer Artikel.
+Ein erfolgreicher Test bestätigt: Git-Pull, MediaWiki-Bot-Anmeldung, Schreiben und unmittelbares Zurücklesen der Seite.
