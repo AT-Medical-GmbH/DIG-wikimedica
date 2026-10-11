@@ -1,5 +1,8 @@
 # WikiMedica: täglicher GitHub → MediaWiki-Beta-Import ohne GitHub Actions
 
+> **WICHTIG: HISTORISCHE API-VARIANTE – Stand 11.10.2026:** Der unten dokumentierte `beta-import`-Weg via öffentlicher MediaWiki-API ist auf wikimedica.info an HTTP 403 gescheitert und **nicht** der produktive Standard. Seit PR #268 ist der erfolgreich getestete Modus **`beta-local`** aktiv (MediaWiki-Wartungsskripte im Docker-Container, **kein BotPassword erforderlich**). Für korrekte Befehle, betriebliche Zuständigkeiten, Sicherheitsregeln, den Live-Nachweis und die Vault-Migration gilt **[Session-Handover 11.10.2026](session-handover-2026-10-11.md)**. Den ursprünglichen Text unten nur als historische Implementationsbeschreibung verwenden.
+
+
 **Stand:** 11.10.2026. **Einsatz:** auf dem Server der produktiven MediaWiki-Installation.
 
 ## Prinzip
