@@ -19,7 +19,7 @@ chmod 0700 "$ENV_DIR" /var/lib/wikimedica-pull
 if [ -f "$ENV_FILE" ]; then
   echo "Using existing $ENV_FILE (not replacing secrets)."
 else
-  API_URL="https://wikimedica.de/api.php"
+  API_URL="https://wikimedica.info/api.php"
   printf 'Production MediaWiki API URL [%s]: ' "$API_URL"
   read -r input_api
   [ -z "$input_api" ] || API_URL="$input_api"
@@ -98,6 +98,6 @@ set +a
   --env production --mode beta-import --only arterielle-hypertonie
 
 echo
-echo "Success. Check the article at https://wikimedica.de/wiki/Arterielle_Hypertonie"
+echo "Success. Check the article at https://wikimedica.info/index.php?title=Arterielle_Hypertonie"
 echo "Future schedules: systemctl list-timers wikimedica-beta-sync.timer"
 echo "Logs: journalctl -u wikimedica-beta-sync.service --no-pager -n 80"
