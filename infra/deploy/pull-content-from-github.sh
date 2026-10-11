@@ -5,7 +5,8 @@
 #   probe              fetch merged main and write/read-back ONE harmless system test page
 #   staging-import     fetch merged main and import eligible approved/published articles to staging
 #   production-release fetch latest release tag on main and import published articles to production
-#   beta-import       fetch merged main and import only changed medical articles, visibly labelled BETA
+#   beta-import       import through the external MediaWiki Action API
+#   beta-local        import through local docker exec / MediaWiki maintenance CLI
 #
 # Never modifies the running MediaWiki containers, GitHub main, or an existing
 # application checkout. Uses a separate source checkout and an exclusive lock.
@@ -15,7 +16,7 @@ umask 077
 usage() {
   cat >&2 <<'EOF'
 Usage: pull-content-from-github.sh --env staging|production \
-       --mode probe|staging-import|production-release|beta-import [--tag vX.Y.Z] \
+       --mode probe|staging-import|production-release|beta-import|beta-local [--tag vX.Y.Z] \
        [--only article-slug] [--dry-run]
 
 Environment:
@@ -23,6 +24,7 @@ Environment:
   WIKIMEDICA_GIT_URL     Repository Git URL (default public HTTPS)
   WIKIMEDICA_OUTPUT_DIR  Writable logs/results directory (default /var/lib/wikimedica-pull)
   WIKI_STAGING_API_URL, WIKI_STAGING_BOT_USER, WIKI_STAGING_BOT_PASSWORD
+  beta-local: no BotPassword or external API access needed
   WIKI_PRODUCTION_API_URL, WIKI_PRODUCTION_BOT_USER, WIKI_PRODUCTION_BOT_PASSWORD
 
 This script does NOT interpret a plain PR merge as permission to import a
@@ -56,7 +58,7 @@ while [ "$#" -gt 0 ]; do
 done
 
 case "$ENVIRONMENT:$MODE" in
-  staging:probe|production:probe|staging:staging-import|production:production-release|production:beta-import) ;;
+  staging:probe|production:probe|staging:staging-import|production:production-release|production:beta-import|production:beta-local) ;;
   *) usage; die "Unsupported env/mode combination: $ENVIRONMENT/$MODE" ;;
 esac
 
@@ -130,7 +132,7 @@ case "$MODE" in
     if [ -n "$ONLY" ]; then ARGS+=(--only "$ONLY"); fi
     python3 "$SOURCE_DIR/scripts/publishing/import_to_mediawiki.py" "${ARGS[@]}"
     ;;
-  beta-import)
+  beta-import|beta-local)
     STATE_FILE="$OUTPUT_DIR/beta-last-successful-sha"
     FILES=()
     if [ -n "$ONLY" ]; then
@@ -168,13 +170,22 @@ case "$MODE" in
       done
     fi
 
-    ARGS=(--env production)
+    ARGS=()
+    if [ "$MODE" = beta-import ]; then ARGS=(--env production); fi
     for file in "${FILES[@]}"; do
       ARGS+=(--file "$file")
     done
     if [ "$DRY_RUN" -eq 1 ]; then ARGS+=(--dry-run); fi
     log "Beta import of ${#FILES[@]} changed article(s)"
-    python3 "$SOURCE_DIR/scripts/publishing/import_merged_beta.py" "${ARGS[@]}"
+    if [ "$MODE" = beta-local ]; then
+      if [ "${#FILES[@]}" -gt 0 ]; then
+        python3 "$SOURCE_DIR/scripts/publishing/import_merged_beta_local.py" "${ARGS[@]}"
+      else
+        log "No new medical articles to import"
+      fi
+    else
+      python3 "$SOURCE_DIR/scripts/publishing/import_merged_beta.py" "${ARGS[@]}"
+    fi
     if [ "$DRY_RUN" -eq 0 ]; then
       python3 "$SOURCE_DIR/scripts/review/evidence_review_tracker.py" scan \
         --ledger "$OUTPUT_DIR/evidence-reviews.jsonl" \
