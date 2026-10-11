@@ -25,7 +25,7 @@ Completed successfully: beta-local at 45dba4873b64038583a658116e0f9b7ecddc6daa
 
 Danach lieferte `docker exec wikimedica_app php maintenance/run.php getText "Arterielle Hypertonie"` den auf dem Wiki gespeicherten Text einschließlich verwaltetem Marker und deutlichem BETA-Hinweis zurück. Der Betreiber hat zusätzlich bestätigt: **Der Artikel ist auf der öffentlichen Website sichtbar.**
 
-**Noch nicht als erfolgreich nachgewiesen:** Ein späterer geänderter PR, der nach Merge durch einen unbeaufsichtigten systemd-Lauf eine bestehende Seite aktualisiert. Dies ist der nächste End-to-End-Test.
+**Zusätzlich am 11.10.2026 um 03:15 CEST tatsächlich nachgewiesen:** Der operator-gesteuerte systemd-Dienst wurde erfolgreich ausgeführt. Die Baseline-Datei `/var/lib/wikimedica-pull/beta-last-successful-sha` **war bereits vorhanden** und enthielt exakt `45dba4873b64038583a658116e0f9b7ecddc6daa`; sie wurde nicht überschrieben. `sudo systemctl start wikimedica-beta-sync.service` endete erfolgreich (systemd: `Deactivated successfully`, `Finished`) mit `Beta import of 0 changed article(s)` und `No new medical articles to import`. Damit ist der `0 changes`-Lauf durch systemd belegt. **Weiterhin offen:** Automatischer Timerlauf zur planmäßigen Uhrzeit und E2E-Update einer bestehenden Seite nach einem neu gemergten Artikel-PR.
 
 ## 2. Installationsstand / Systemgrenzen
 
@@ -86,7 +86,7 @@ Keinen Neustart des gesamten Servers und keine Änderung der vier Wiki-Container
 
 ## 5. Zwingende nächsten Prüfungen / Betrieb
 
-Der manuelle Pilotimport `--only arterielle-hypertonie` hat **nicht zwangsläufig** den allgemeinen Baseline-SHA gespeichert. Bei der vorangehenden Diagnose war die Datei **nicht vorhanden**; nach dem erfolgreichen manuellen Import wurde dies nicht wieder kontrolliert. **Zuerst prüfen, nicht blind überschreiben.**
+**Baseline inzwischen kontrolliert und bestätigt:** Nach erfolgreichem Pilotimport lag die Datei `/var/lib/wikimedica-pull/beta-last-successful-sha` vor und enthielt `45dba4873b64038583a658116e0f9b7ecddc6daa`. Der Betreiber beließ sie unverändert. Am 11.10.2026, 03:15 CEST, lief `systemctl start wikimedica-beta-sync.service` erfolgreich durch und zeigte erwartungsgemäß **0 geänderte Artikel**. Beim nächsten Lauf einfach neuen SHA/Journal prüfen; keine manuelle Baseline-Initialisierung mehr erforderlich.
 
 ```bash
 # auf dem Produktionshost:
@@ -97,9 +97,7 @@ sudo systemctl list-timers wikimedica-beta-sync.timer
 sudo journalctl -u wikimedica-beta-sync.service -n 100 --no-pager
 ```
 
-Wenn noch keine Datei vorhanden ist und **keine späteren in main gemergten Artikeländerungen übersehen werden**, nach sorgfältigem Abgleich als Startwert den verifizierten Pilotcommit `45dba4873b64038583a658116e0f9b7ecddc6daa` setzen. Besser ist vorab festzustellen, ob es bereits neuere Main-Commits mit medizinischen Inhaltsänderungen gibt; diese müssen dann beim ersten inkrementellen Sync importiert werden.
-
-Dann Test über `sudo systemctl start wikimedica-beta-sync.service`; Logs und SHA prüfen. Nächster echte Regressionstest: einen kontrollierten PR mit kleiner Änderung an `arterielle-hypertonie.md` mergen, systemd-Dienst starten, Erfolg `updated` und `verified: true` prüfen, Wikitext und öffentliche Darstellung vergleichen. Sicherheitsfall: manuell geänderte Wiki-Seiten werden absichtlich nicht überschrieben.
+Den erfolgreichen `0 changes`-Dienstetest nicht mit einem nach neuen inhaltlichen PRs erfolgreichen Delta-Import verwechseln. **Nächster echter Regressionstest:** einen kontrollierten PR mit kleiner Änderung an `arterielle-hypertonie.md` mergen, systemd-Dienst starten, Erfolg `updated` und `verified: true` prüfen, Wikitext und öffentliche Darstellung vergleichen. Sicherheitsfall: manuell geänderte Wiki-Seiten werden absichtlich nicht überschrieben.
 
 Regelbetrieb:
 
@@ -118,13 +116,13 @@ Die dauerhafte Qualität umfasst Monitoring auf Nichtausführung, Fehler im Jour
 
 **Aktuell bereits vorhanden, historischer Speicherort auf dem WikiMedica-Produktivhost:** `/etc/wikimedica/github-pull.env`, Variable `WIKI_PRODUCTION_BOT_PASSWORD`, root-only 0600. Die alte Env-Datei enthält außerdem API-Konfiguration. Nur Root lesen lassen, niemals `cat` in Terminal-Logs.
 
-**Vom Betreiber gesondert angelegter lokaler Secret-Speicherort (erst nach gesondertem Terminalbefehl und dessen Erfolg vorhanden):**
+**Vom Betreiber am 11.10.2026 erfolgreich angelegter lokaler Secret-Speicherort (Terminalbestätigung liegt vor):**
 
 ```text
 /etc/wikimedica/secrets/mediawiki-import-botpassword
 ```
 
-- Auf dem **produktiven WikiMedica-Host**, root:root, **Datei 0600**, übergeordnetes Verzeichnis **0700**.
+- Auf dem **produktiven WikiMedica-Host**, root:root, **Datei 0600**, übergeordnetes Verzeichnis **0700**. Terminalprotokoll: `Secret erfolgreich geschützt hinterlegt.`, `root:root 700 /etc/wikimedica/secrets`, `root:root 600 /etc/wikimedica/secrets/mediawiki-import-botpassword`. **Speicherung bestätigt, Tresor-Migration noch nicht ausgeführt.**
 - Enthält **ausschließlich den Tokenwert**, mit einem abschließenden Zeilenumbruch. Keinesfalls in Git, PR, Ticket, Issue, Wiki-Seite oder gewöhnliche Logs übernehmen.
 - **Codex-Auftrag nach bestätigtem Anlegen:** **Diesen Secret-Wert vom produktiven WikiMedica-Server auf den anderen Server übertragen, auf dem die zentrale Passwortverwaltung läuft, und ihn dort in dessen Passworttresor als eigenständigen Eintrag „WikiMedica / MediaWiki Import BotPassword“ importieren.** Ziel ist der zentrale Tresor des Betreiber-Ökosystems, nicht irgendein beliebiger Server, Nextcloud-Shares oder Klartext-Dateiverzeichnis.
 - **Der exakte Zielhost, Tresortyp, Zugriff, Autorisierung und API/CLI sind in dieser Session NICHT ermittelt.** Codex muss die vorhandene IT-Dokumentation/gesicherten Infrastrukturkonfigurationen dazu befragen und vor Transfers das richtige Ziel, die Identität und die Berechtigungen bestätigen. **Keine Zieladresse raten oder erfinden.**
@@ -142,8 +140,8 @@ Das Konzept: pro Artikel mindestens alle **12 Monate** ein *echter* KI-unterstü
 
 ## 8. Konkreter Codex-Backlog
 
-1. **Sicherheitsrelevant:** Admin-Startpasswort-Rotation bestätigen, BotPassword in den **zentralen Tresor auf separatem Server migrieren** (Abschnitt 6), lokale Alt-Kopien erst nach bestätigtem Transfer beseitigen; systemd-Unit keine unnötigen Secrets mehr laden lassen.
-2. **Sync-Baseline** `beta-last-successful-sha` kontrollieren/korrigieren, ohne gemergte Änderungen zu überspringen.
+1. **Sicherheitsrelevant:** Admin-Startpasswort-Rotation bestätigen, das **nachweislich bereits unter /etc/wikimedica/secrets/mediawiki-import-botpassword gespeicherte** BotPassword in den **zentralen Tresor auf separatem Server migrieren** (Abschnitt 6), lokale Alt-Kopien erst nach bestätigtem Transfer beseitigen; systemd-Unit keine unnötigen Secrets mehr laden lassen. **Das Secret existiert bereits, aber der Vault-Transfer ist NICHT bestätigt.**
+2. **Sync-Baseline bestätigt:** `beta-last-successful-sha` enthält den verifizierten Pilot-Commit. Der systemd-Test am 11.10.2026, 03:15 CEST lief mit `0 changed article(s)` erfolgreich. Weitere neue inhaltliche Merges müssen inkrementell importiert werden.
 3. **Zweiter E2E-Test:** Änderung an bestehendem Hypertonieartikel via GitHub PR mergen → `beta-local` → `updated` / `verified: true` / sichtbarer Wiki-Stand.
 4. **Branding:** doppelte BETA-Auszeichnung im Logo beheben, ältere hochgestellte BETA-Variante vereinheitlichen. Medizinischen BETA-Warnhinweis auf Artikel unbedingt beibehalten.
 5. **Doku modernisieren:** `README.md`, `docs/operations/server-sync-beta.md`, weitere altdomain-Links und alte Preproduction-Aussagen mit belegten Befunden aktualisieren, ohne das reguläre Release-Verfahren zu verwässern.
