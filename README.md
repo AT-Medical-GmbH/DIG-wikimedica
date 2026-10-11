@@ -36,6 +36,24 @@ GitHub (single source of truth)
 - **AI assistance** is allowed for drafting only, must be declared in the metadata, and never
   replaces human review (`docs/editorial/ai-assistance-policy.md`).
 
+## Einstieg für externe Autorinnen, Autoren und Fachreviewer
+
+**Neu bei WikiMedica?** Der deutschsprachige [Onboarding-Leitfaden für Autoren und Fachreviewer](docs/authors/START-HIER-AUTOREN-UND-REVIEWER.md) beschreibt den gesamten Weg vom ersten Zugang über Recherche, Artikelerstellung, Metadaten und Quellen bis zum unabhängigen Fachreview, der redaktionellen Freigabe und dem kontrollierten MediaWiki-Import. Er enthält getrennte Checklisten für Autoren, Reviewer und Editoren.
+
+**Der Ablauf in Kürze:**
+
+1. **Bewerben und qualifizieren:** Kontakt zu [editorial@wikimedica.de](mailto:editorial@wikimedica.de); Qualifikationen und Interessenkonflikte vertraulich nachweisen, GitHub-Zugang mit 2FA erhalten.
+2. **Thema und Vorlage wählen:** bestehende Artikel prüfen, ggf. Issue eröffnen, eine Vorlage aus [`content/templates/`](content/templates/) und das [Metadatenschema](data/metadata/article-schema.yaml) verwenden.
+3. **Artikel schreiben:** Markdown-Datei mit YAML-Frontmatter im passenden `content/`-Pfad, eigene Formulierungen, aktuelle Primärquellen, überprüfbare Fußnoten und bei häufigen Erkrankungen verständliche Patienteninformation. KI-Unterstützung nur gemäß [KI-Richtlinie](docs/editorial/ai-assistance-policy.md) und deklariert.
+4. **Pull Request eröffnen:** `draft` → `in-review`, automatische Prüfungen durchlaufen lassen, offene Fragen und Quellen transparent machen.
+5. **Fachreview durchführen:** unabhängiger fachlich qualifizierter Reviewer; bei Hochrisiko zusätzlich Medical Advisor, bei Arzneimitteln Apotheker **und** ärztlicher Fachreview sowie Advisor. Änderungen nachprüfen.
+6. **Redaktionell freigeben:** Specialty Editor/Editorial Board prüfen Sign-offs, Metadaten, Lizenzen und Sicherheit. Ein grüner CI-Check ersetzt keine medizinische Prüfung.
+7. **Veröffentlichen:** nur freigegebene Versionen werden nach erfüllten Go-live-Gates über den kontrollierten GitHub-Release und `scripts/publishing/` in MediaWiki importiert. **Keine direkte Artikelbearbeitung im Wiki.**
+
+**Für Fachreviewer:** Bitte zunächst die [Review-Policy](docs/editorial/peer-review-policy.md), [Rollen- und Rechte-Matrix](docs/editorial/roles-and-permissions.md) sowie die Reviewer-Checkliste im Onboarding lesen. Fachliche Freigaben müssen unabhängig, nachvollziehbar und quellenbasiert erfolgen.
+
+**GitHub-Rollen:** Die erforderlichen Teams und Berechtigungen sind im [Einrichtungsplan](docs/operations/github-role-setup.md) beschrieben. Die Teams müssen von der GitHub-Organisationsverwaltung tatsächlich angelegt und in CODEOWNERS sowie den Branch-Regeln verifiziert werden. Bis dahin sind CODEOWNERS-Freigaben **nicht** als wirksam nachgewiesen.
+
 ## Repository map
 
 | Path | Content |
