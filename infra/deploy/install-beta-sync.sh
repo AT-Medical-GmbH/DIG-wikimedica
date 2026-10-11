@@ -16,37 +16,13 @@ REPO_URL=https://github.com/AT-Medical-GmbH/DIG-wikimedica.git
 mkdir -p -m 0700 "$ENV_DIR" /var/lib/wikimedica-pull
 chmod 0700 "$ENV_DIR" /var/lib/wikimedica-pull
 
+# The local maintenance importer runs inside the existing production container.
+# It does NOT require API credentials. Keep any older BotPassword file untouched.
 if [ -f "$ENV_FILE" ]; then
-  echo "Using existing $ENV_FILE (not replacing secrets)."
-else
-  API_URL="https://wikimedica.info/api.php"
-  printf 'Production MediaWiki API URL [%s]: ' "$API_URL"
-  read -r input_api
-  [ -z "$input_api" ] || API_URL="$input_api"
-  [[ "$API_URL" == https://* ]] || { echo "HTTPS API URL required" >&2; exit 1; }
-  printf 'MediaWiki BotPassword username (Account@BotName): '
-  read -r BOT_USER
-  [[ "$BOT_USER" == *@* ]] || { echo "Use the BotPassword login in Account@BotName format" >&2; exit 1; }
-  printf 'MediaWiki BotPassword token (hidden): '
-  read -r -s BOT_PASS
-  printf '\n'
-  [[ "$BOT_PASS" =~ ^[0-9a-w]{32,}$ ]] || {
-    echo "BotPassword token must contain 32+ characters from [0-9a-w]" >&2; exit 1;
-  }
-  # Avoid shell-interpreting the secret: systemd EnvironmentFile is not sourced as code.
-  # Restrict the accepted API URL and bot name to safe printable characters.
-  [[ "$API_URL" =~ ^https://[A-Za-z0-9._:/?-]+$ ]] || {
-    echo "Unexpected characters in API URL" >&2; exit 1;
-  }
-  [[ "$BOT_USER" =~ ^[A-Za-z0-9_.@-]+$ ]] || {
-    echo "Unexpected characters in BotPassword username" >&2; exit 1;
-  }
-  printf 'WIKIMEDICA_SOURCE_DIR=%s\nWIKIMEDICA_OUTPUT_DIR=%s\nWIKIMEDICA_GIT_URL=%s\nWIKI_PRODUCTION_API_URL=%s\nWIKI_PRODUCTION_BOT_USER=%s\nWIKI_PRODUCTION_BOT_PASSWORD=%s\n' \
-    "$SOURCE_DIR" /var/lib/wikimedica-pull "$REPO_URL" \
-    "$API_URL" "$BOT_USER" "$BOT_PASS" > "$ENV_FILE"
-  chmod 0600 "$ENV_FILE"
-  unset BOT_PASS
+  echo "Existing configuration retained in $ENV_FILE (not used for local CLI access)."
 fi
+docker inspect --format '{{.State.Running}}' wikimedica_app | grep -qx true ||
+  { echo "Production MediaWiki container wikimedica_app is not running" >&2; exit 1; }
 
 if [ ! -d "$SOURCE_DIR/.git" ]; then
   [ ! -e "$SOURCE_DIR" ] || { echo "$SOURCE_DIR exists but is not a repository" >&2; exit 1; }
@@ -63,9 +39,9 @@ Type=oneshot
 User=root
 Group=root
 UMask=0077
-EnvironmentFile=/etc/wikimedica/github-pull.env
+EnvironmentFile=-/etc/wikimedica/github-pull.env
 WorkingDirectory=/opt/wikimedica-source
-ExecStart=/bin/bash /opt/wikimedica-source/infra/deploy/pull-content-from-github.sh --env production --mode beta-import
+ExecStart=/bin/bash /opt/wikimedica-source/infra/deploy/pull-content-from-github.sh --env production --mode beta-local
 TimeoutStartSec=1800
 NoNewPrivileges=true
 ProtectHome=true
@@ -89,15 +65,10 @@ systemctl enable --now wikimedica-beta-sync.timer
 
 echo
 echo "Timer installed. First run imports only the hypertension pilot from merged main:"
-set -a
-# Contains only validated BotPassword credentials and fixed source directory.
-# shellcheck disable=SC1090
-source "$ENV_FILE"
-set +a
 /bin/bash "$SOURCE_DIR/infra/deploy/pull-content-from-github.sh" \
-  --env production --mode beta-import --only arterielle-hypertonie
+  --env production --mode beta-local --only arterielle-hypertonie
 
 echo
-echo "Success. Check the article at https://wikimedica.info/index.php?title=Arterielle_Hypertonie"
+echo "First local import finished. Confirm page in browser: https://wikimedica.info/index.php?title=Arterielle_Hypertonie"
 echo "Future schedules: systemctl list-timers wikimedica-beta-sync.timer"
 echo "Logs: journalctl -u wikimedica-beta-sync.service --no-pager -n 80"
