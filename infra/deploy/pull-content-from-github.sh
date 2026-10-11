@@ -4,7 +4,8 @@
 # Modes:
 #   probe              fetch merged main and write/read-back ONE harmless system test page
 #   staging-import     fetch merged main and import eligible approved/published articles to staging
-#   production-release fetch latest release tag on main and import published articles to production\n#   beta-import       fetch merged main and import only changed medical articles, visibly labelled BETA
+#   production-release fetch latest release tag on main and import published articles to production
+#   beta-import       fetch merged main and import only changed medical articles, visibly labelled BETA
 #
 # Never modifies the running MediaWiki containers, GitHub main, or an existing
 # application checkout. Uses a separate source checkout and an exclusive lock.
@@ -131,60 +132,54 @@ case "$MODE" in
     ;;
   beta-import)
     STATE_FILE="$OUTPUT_DIR/beta-last-successful-sha"
+    FILES=()
     if [ -n "$ONLY" ]; then
-      mapfile -t MATCHED < <(find "$SOURCE_DIR/content" -type f -name "$ONLY.md" |
-        grep -E '/(specialties|articles|patient-info|pharmaka|therapies|published)/' || true)
+      # Owner explicitly selects the article on the first successful import.
+      mapfile -t MATCHED < <(
+        find "$SOURCE_DIR/content" -type f -name "$ONLY.md" |
+          grep -E '/content/(specialties|articles|patient-info|pharmaka|therapies|published)/' || true
+      )
       [ "${#MATCHED[@]}" -eq 1 ] ||
-        die "--only $ONLY must identify exactly one article, got ${#MATCHED[@]}"
+        die "--only $ONLY must identify exactly one article, found ${#MATCHED[@]}"
       FILES=("${MATCHED[0]}")
     elif [ ! -s "$STATE_FILE" ]; then
-      # First timer run deliberately establishes a baseline to prevent a
-      # sudden mass import of legacy drafts. The pilot is manually imported
-      # once with --only.
+      # First timer run only seeds state; old drafts are not bulk published.
       if [ "$DRY_RUN" -eq 0 ]; then
-        printf '%s\n' "$CURRENT_SHA" >"$STATE_FILE"
+        printf '%s\n' "$CURRENT_SHA" > "$STATE_FILE"
       fi
-      log "Initialised beta baseline at $CURRENT_SHA; no historical bulk import."
+      log "Initialised beta baseline; no historic bulk import."
       exit 0
     else
       LAST_SHA="$(cat "$STATE_FILE")"
-      [[ "$LAST_SHA" =~ ^[0-9a-f]{40}$ ]] || die "Invalid beta sync state"
+      [[ "$LAST_SHA" =~ ^[0-9a-f]{40}$ ]] || die "Invalid last synced SHA"
       git -C "$SOURCE_DIR" cat-file -e "$LAST_SHA^{commit}" ||
-        die "Prior sync revision is missing; do not reset state automatically"
+        die "Prior sync commit is missing; refusing to skip articles"
       git -C "$SOURCE_DIR" merge-base --is-ancestor "$LAST_SHA" "$CURRENT_SHA" ||
-        die "Git main was rewritten; refusing to skip or replay unknown revisions"
+        die "Git main history was rewritten; refusing automatic import"
       mapfile -t RELATIVE_FILES < <(
-        git -C "$SOURCE_DIR" diff --name-only --diff-filter=ACMR "$LAST_SHA" "$CURRENT_SHA"           -- content/specialties content/articles content/patient-info content/pharmaka              content/therapies content/published |
-          grep -E '^content/.+\.md(--env production --status published --release-tag "$TAG"
-          --content-dir "$SOURCE_DIR/content"
-          --schema "$SOURCE_DIR/data/metadata/article-schema.yaml"
-          --disclaimers "$SOURCE_DIR/data/legal/disclaimers.yaml"
-          --output-dir "$OUTPUT_DIR/production")
-    if [ "$DRY_RUN" -eq 1 ]; then ARGS+=(--dry-run); fi
-    if [ -n "$ONLY" ]; then ARGS+=(--only "$ONLY"); fi
-    python3 "$SOURCE_DIR/scripts/publishing/import_to_mediawiki.py" "${ARGS[@]}"
-    ;;
-esac
-
-log "Completed successfully: $MODE at $CURRENT_SHA"
- || true
+        git -C "$SOURCE_DIR" diff --name-only --diff-filter=ACMR \
+          "$LAST_SHA" "$CURRENT_SHA" -- \
+          content/specialties content/articles content/patient-info \
+          content/pharmaka content/therapies content/published |
+          grep -E '^content/(specialties|articles|patient-info|pharmaka|therapies|published)/.*\.md$' || true
       )
-      FILES=()
       for rel in "${RELATIVE_FILES[@]}"; do
-        FILES+=("$SOURCE_DIR/$rel")
+        [ -f "$SOURCE_DIR/$rel" ] && FILES+=("$SOURCE_DIR/$rel")
       done
     fi
+
     ARGS=(--env production)
     for file in "${FILES[@]}"; do
       ARGS+=(--file "$file")
     done
     if [ "$DRY_RUN" -eq 1 ]; then ARGS+=(--dry-run); fi
+    log "Beta import of ${#FILES[@]} changed article(s)"
     python3 "$SOURCE_DIR/scripts/publishing/import_merged_beta.py" "${ARGS[@]}"
     if [ "$DRY_RUN" -eq 0 ]; then
       python3 "$SOURCE_DIR/scripts/review/evidence_review_tracker.py" scan \
         --ledger "$OUTPUT_DIR/evidence-reviews.jsonl" \
         --out "$OUTPUT_DIR/evidence-review-queue.json"
-      printf '%s\n' "$CURRENT_SHA" >"$STATE_FILE.tmp"
+      printf '%s\n' "$CURRENT_SHA" > "$STATE_FILE.tmp"
       mv -f -- "$STATE_FILE.tmp" "$STATE_FILE"
     fi
     ;;
