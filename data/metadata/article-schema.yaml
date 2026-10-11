@@ -103,7 +103,7 @@ fields:
   specialty:
     type: str
     required: true
-    description: Primary Wikimedica specialty. Must match one of the 26 canonical specialty names.
+    description: Primary Wikimedica specialty. Must match one of the canonical specialty names.
     values:
       - "Innere Medizin"
       - "Kardiologie"
@@ -130,6 +130,7 @@ fields:
       - "Pharmakologie"
       - "Palliativmedizin"
       - "Prävention/Public Health"
+      - "Ernährungsmedizin"
       - "Gender-Medizin"
 
   secondary_specialties:

@@ -1,0 +1,22 @@
+[Unit]
+Description=WikiMedica editorial queue dispatcher (no model executor)
+Documentation=file:///opt/wikimedica-editorial-agent/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=wikieditorial
+Group=wikieditorial
+WorkingDirectory=/opt/wikimedica-editorial-agent
+UMask=0027
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/wikimedica-editorial-agent /var/log/wikimedica-editorial-agent
+ExecStart=/usr/bin/python3 /opt/wikimedica-editorial-agent/scripts/editorial/wikimedica_editorial_agent.py run --state-dir /var/lib/wikimedica-editorial-agent --plan /opt/wikimedica-editorial-agent/data/editorial/article-plan.json
+ExecStartPost=/usr/bin/python3 /opt/wikimedica-editorial-agent/scripts/editorial/wikimedica_editorial_agent.py report --state-dir /var/lib/wikimedica-editorial-agent --plan /opt/wikimedica-editorial-agent/data/editorial/article-plan.json --report /var/lib/wikimedica-editorial-agent/status.md
+TimeoutStartSec=15min
+CPUQuota=20%
+MemoryMax=512M
