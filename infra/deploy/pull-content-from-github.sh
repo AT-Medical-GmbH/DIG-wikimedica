@@ -4,7 +4,7 @@
 # Modes:
 #   probe              fetch merged main and write/read-back ONE harmless system test page
 #   staging-import     fetch merged main and import eligible approved/published articles to staging
-#   production-release fetch latest release tag on main and import published articles to production
+#   production-release fetch latest release tag on main and import published articles to production\n#   beta-import       fetch merged main and import only changed medical articles, visibly labelled BETA
 #
 # Never modifies the running MediaWiki containers, GitHub main, or an existing
 # application checkout. Uses a separate source checkout and an exclusive lock.
@@ -14,7 +14,7 @@ umask 077
 usage() {
   cat >&2 <<'EOF'
 Usage: pull-content-from-github.sh --env staging|production \
-       --mode probe|staging-import|production-release [--tag vX.Y.Z] \
+       --mode probe|staging-import|production-release|beta-import [--tag vX.Y.Z] \
        [--only article-slug] [--dry-run]
 
 Environment:
@@ -55,7 +55,7 @@ while [ "$#" -gt 0 ]; do
 done
 
 case "$ENVIRONMENT:$MODE" in
-  staging:probe|production:probe|staging:staging-import|production:production-release) ;;
+  staging:probe|production:probe|staging:staging-import|production:production-release|production:beta-import) ;;
   *) usage; die "Unsupported env/mode combination: $ENVIRONMENT/$MODE" ;;
 esac
 
@@ -128,6 +128,62 @@ case "$MODE" in
     if [ "$DRY_RUN" -eq 1 ]; then ARGS+=(--dry-run); fi
     if [ -n "$ONLY" ]; then ARGS+=(--only "$ONLY"); fi
     python3 "$SOURCE_DIR/scripts/publishing/import_to_mediawiki.py" "${ARGS[@]}"
+    ;;
+  beta-import)
+    STATE_FILE="$OUTPUT_DIR/beta-last-successful-sha"
+    if [ -n "$ONLY" ]; then
+      mapfile -t MATCHED < <(find "$SOURCE_DIR/content" -type f -name "$ONLY.md" |
+        grep -E '/(specialties|articles|patient-info|pharmaka|therapies|published)/' || true)
+      [ "${#MATCHED[@]}" -eq 1 ] ||
+        die "--only $ONLY must identify exactly one article, got ${#MATCHED[@]}"
+      FILES=("${MATCHED[0]}")
+    elif [ ! -s "$STATE_FILE" ]; then
+      # First timer run deliberately establishes a baseline to prevent a
+      # sudden mass import of legacy drafts. The pilot is manually imported
+      # once with --only.
+      if [ "$DRY_RUN" -eq 0 ]; then
+        printf '%s\n' "$CURRENT_SHA" >"$STATE_FILE"
+      fi
+      log "Initialised beta baseline at $CURRENT_SHA; no historical bulk import."
+      exit 0
+    else
+      LAST_SHA="$(cat "$STATE_FILE")"
+      [[ "$LAST_SHA" =~ ^[0-9a-f]{40}$ ]] || die "Invalid beta sync state"
+      git -C "$SOURCE_DIR" cat-file -e "$LAST_SHA^{commit}" ||
+        die "Prior sync revision is missing; do not reset state automatically"
+      git -C "$SOURCE_DIR" merge-base --is-ancestor "$LAST_SHA" "$CURRENT_SHA" ||
+        die "Git main was rewritten; refusing to skip or replay unknown revisions"
+      mapfile -t RELATIVE_FILES < <(
+        git -C "$SOURCE_DIR" diff --name-only --diff-filter=ACMR "$LAST_SHA" "$CURRENT_SHA"           -- content/specialties content/articles content/patient-info content/pharmaka              content/therapies content/published |
+          grep -E '^content/.+\.md(--env production --status published --release-tag "$TAG"
+          --content-dir "$SOURCE_DIR/content"
+          --schema "$SOURCE_DIR/data/metadata/article-schema.yaml"
+          --disclaimers "$SOURCE_DIR/data/legal/disclaimers.yaml"
+          --output-dir "$OUTPUT_DIR/production")
+    if [ "$DRY_RUN" -eq 1 ]; then ARGS+=(--dry-run); fi
+    if [ -n "$ONLY" ]; then ARGS+=(--only "$ONLY"); fi
+    python3 "$SOURCE_DIR/scripts/publishing/import_to_mediawiki.py" "${ARGS[@]}"
+    ;;
+esac
+
+log "Completed successfully: $MODE at $CURRENT_SHA"
+ || true
+      )
+      FILES=()
+      for rel in "${RELATIVE_FILES[@]}"; do
+        FILES+=("$SOURCE_DIR/$rel")
+      done
+    fi
+    ARGS=(--env production)
+    for file in "${FILES[@]}"; do
+      ARGS+=(--file "$file")
+    done
+    if [ "$DRY_RUN" -eq 1 ]; then ARGS+=(--dry-run); fi
+    python3 "$SOURCE_DIR/scripts/publishing/import_merged_beta.py" "${ARGS[@]}"
+    if [ "$DRY_RUN" -eq 0 ]; then
+      printf '%s\n' "$CURRENT_SHA" >"$STATE_FILE.tmp"
+      mv -f -- "$STATE_FILE.tmp" "$STATE_FILE"
+    fi
     ;;
   production-release)
     ARGS=(--env production --status published --release-tag "$TAG"
