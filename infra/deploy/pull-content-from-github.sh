@@ -181,6 +181,9 @@ log "Completed successfully: $MODE at $CURRENT_SHA"
     if [ "$DRY_RUN" -eq 1 ]; then ARGS+=(--dry-run); fi
     python3 "$SOURCE_DIR/scripts/publishing/import_merged_beta.py" "${ARGS[@]}"
     if [ "$DRY_RUN" -eq 0 ]; then
+      python3 "$SOURCE_DIR/scripts/review/evidence_review_tracker.py" scan \
+        --ledger "$OUTPUT_DIR/evidence-reviews.jsonl" \
+        --out "$OUTPUT_DIR/evidence-review-queue.json"
       printf '%s\n' "$CURRENT_SHA" >"$STATE_FILE.tmp"
       mv -f -- "$STATE_FILE.tmp" "$STATE_FILE"
     fi
