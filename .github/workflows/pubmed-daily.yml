@@ -67,17 +67,23 @@ jobs:
           fi
           python scripts/pubmed/pubmed-daily-search.py ${DRY_RUN_FLAG}
 
-      - name: Commit PubMed output files
+      - name: Rebuild canonical literature index and article backlog
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          python scripts/pubmed/build-article-backlog.py --top 100 --min-publications 2
+          echo "Literature index and article backlog rebuilt from the complete PubMed corpus." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit PubMed and literature output files
         if: github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "Wikimedica Bot"
           git config user.email "bot@wikimedica.de"
-          git add data/pubmed/
+          git add data/pubmed/ data/literature/ reports/generated/literature-article-backlog.md
           if git diff --staged --quiet; then
-            echo "No new PubMed data to commit."
+            echo "No new PubMed or literature-index data to commit."
           else
             DATE=$(date -u '+%Y-%m-%d')
-            git commit -m "chore(pubmed): daily surveillance results ${DATE} [skip ci]"
+            git commit -m "chore(pubmed): daily surveillance and literature index ${DATE} [skip ci]"
             git push
           fi
 
