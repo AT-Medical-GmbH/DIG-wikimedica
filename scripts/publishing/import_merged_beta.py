@@ -38,6 +38,33 @@ BETA_HEADER = (
     "Bei einem medizinischen Notfall die 112 wählen."
     "</div>"
 )
+PUBLIC_BETA_INTERNAL_SECTIONS = {
+    "Hinweise und Haftungsausschluss",
+    "Review-Historie",
+    "Änderungsverlauf",
+    "Redaktionelle Prüfaufträge vor fachlicher Freigabe",
+    "Offene redaktionelle Qualitätsprüfung",
+}
+
+
+def public_beta_body(body: str) -> str:
+    """Hide duplicate internal drafting notices from the public BETA rendering.
+
+    The source file remains unchanged and auditable in Git.  The mandatory
+    site-wide BETA notice above the article remains the sole public preliminary
+    status notice, while editorial/review history stays in repository metadata.
+    """
+    body = re.sub(
+        r"(?m)^>[ \t]+\*\*(?:Redaktioneller Status|Medizinisch nicht freigegebener KI-Entwurf).*?(?:\n|\Z)",
+        "",
+        body,
+    )
+    pattern = re.compile(r"(?ms)^##[ \t]+(?P<title>[^\n#]+?)[ \t]*#*[ \t]*\n.*?(?=^##[ \t]+|\Z)")
+
+    def keep_or_remove(match: re.Match) -> str:
+        return "" if match.group("title").strip() in PUBLIC_BETA_INTERNAL_SECTIONS else match.group(0)
+
+    return pattern.sub(keep_or_remove, body)
 
 
 def git_revision() -> str:
@@ -82,7 +109,7 @@ def build_page(path: Path, revision: str) -> tuple[str, str, str]:
     if len(m.group(0)) >= len(path.read_text(encoding="utf-8")):
         raise ValueError("empty body")
     body = path.read_text(encoding="utf-8")[m.end():]
-    converted = md2wiki.convert(body, md2wiki.ConvertContext(title=title))
+    converted = md2wiki.convert_medical_article(public_beta_body(body), md2wiki.ConvertContext(title=title))
     note = (
         "\n\n----\n"
         "'''BETA-Hinweis:''' aus dem gemergten GitHub-Hauptbranch. "

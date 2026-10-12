@@ -18,7 +18,10 @@ Design goals (in this order):
    idempotent import).
 
 Not supported on purpose: raw HTML (escaped), images (replaced by their
-alternative text; uploads are restricted), footnotes, Setext headings.
+alternative text; uploads are restricted), generic Markdown footnotes, Setext
+headings.  Medical articles use the narrowly scoped ``convert_medical_article``
+adapter below: it converts the repository's numbered literature list plus
+Unicode superscript source markers into controlled MediaWiki ``<ref>`` tags.
 """
 
 from __future__ import annotations
@@ -38,6 +41,15 @@ LIST_RE = re.compile(r"^(?P<indent>[ \t]*)(?P<marker>[-*+]|\d+[.)])[ \t]+(?P<tex
 TABLE_SEP_RE = re.compile(r"^[ \t]*\|?[ \t]*:?-{1,}:?[ \t]*(\|[ \t]*:?-{1,}:?[ \t]*)*\|?[ \t]*$")
 QUOTE_RE = re.compile(r"^[ \t]{0,3}>[ \t]?(.*)$")
 TASK_RE = re.compile(r"^\[([ xX])\][ \t]+(.*)$")
+REFERENCE_SECTION_RE = re.compile(
+    r"(?ms)^#{1,6}[ \t]+(?:Literatur(?:[ \t]+und[ \t]+Quellen)?|Quellen|Einzelnachweise)[ \t]*#*[ \t]*\n"
+    r"(?P<body>.*?)(?=^#{1,6}[ \t]+|\Z)"
+)
+NUMBERED_REFERENCE_RE = re.compile(r"^[ \t]*(?P<number>\d+)[.)][ \t]+(?P<citation>\S.*)$")
+SUPERSCRIPT_REFERENCE_RE = re.compile(r"[\u2070\u00b9\u00b2\u00b3\u2074\u2075\u2076\u2077\u2078\u2079]+(?:[ \t,;]+[\u2070\u00b9\u00b2\u00b3\u2074\u2075\u2076\u2077\u2078\u2079]+)*")
+BRACKET_REFERENCE_RE = re.compile(r"\[(?P<numbers>\d+(?:[ \t,;]+\d+)*)\]")
+REFERENCE_TOKEN_RE = re.compile(r"@@WIKIMEDICA_REF_(?P<number>\d+)@@")
+SUPERSCRIPT_DIGITS = str.maketrans("\u2070\u00b9\u00b2\u00b3\u2074\u2075\u2076\u2077\u2078\u2079", "0123456789")
 
 # Characters that make a *line start* meaningful in wikitext.
 LINE_START_SPECIAL = " *#:;=-"
@@ -53,6 +65,10 @@ class ConvertContext:
     warnings: list[str] = field(default_factory=list)
     drop_first_h1: bool = True
     _h1_seen: bool = False
+    # Filled only by convert_medical_article from a controlled repository
+    # bibliography.  Plain Markdown conversion continues to escape <ref> tags.
+    references: dict[int, str] = field(default_factory=dict)
+    emitted_references: set[int] = field(default_factory=set)
 
 
 # ---------------------------------------------------------------------------
@@ -119,7 +135,8 @@ def substitute_placeholders(text: str, values: dict[str, str]) -> tuple[str, lis
 
 _INLINE = re.compile(
     r"""
-      (?P<code>(?P<tick>`+)(?P<codetext>.+?)(?P=tick))
+      (?P<reference>@@WIKIMEDICA_REF_(?P<refnumber>\d+)@@)
+    | (?P<code>(?P<tick>`+)(?P<codetext>.+?)(?P=tick))
     | (?P<image>!\[(?P<alt>[^\]]*)\]\((?P<imgurl>[^)\s]*)(?:\s+"[^"]*")?\))
     | (?P<link>\[(?P<ltext>[^\]]*)\]\((?P<lurl>[^)\s]*)(?:\s+"[^"]*")?\))
     | (?P<auto><(?P<autourl>https?://[^>\s]+)>)
@@ -140,7 +157,19 @@ def inline(text: str, ctx: ConvertContext) -> str:
     for m in _INLINE.finditer(text):
         out.append(esc(text[pos:m.start()]))
         pos = m.end()
-        if m.group("code"):
+        if m.group("reference"):
+            number = int(m.group("refnumber"))
+            citation = ctx.references.get(number)
+            if citation is None:
+                # This branch is defensive; tokens are generated locally only.
+                ctx.warnings.append(f"reference marker {number} has no bibliography entry")
+                out.append(esc(m.group("reference")))
+            elif number in ctx.emitted_references:
+                out.append(f'<ref name="wm-ref-{number}" />')
+            else:
+                ctx.emitted_references.add(number)
+                out.append(f'<ref name="wm-ref-{number}">' + inline(citation, ctx) + "</ref>")
+        elif m.group("code"):
             out.append("<code>" + esc(m.group("codetext").strip()) + "</code>")
         elif m.group("image"):
             alt = m.group("alt").strip()
@@ -327,6 +356,71 @@ def convert(markdown: str, ctx: ConvertContext | None = None) -> str:
 
     flush_para()
     return "\n".join(out).strip("\n") + "\n"
+
+
+def _parse_numbered_references(text: str) -> dict[int, str]:
+    """Read the repository's conservative ``1. Citation`` bibliography form."""
+    references: dict[int, str] = {}
+    current: int | None = None
+    for raw in text.splitlines():
+        match = NUMBERED_REFERENCE_RE.match(raw)
+        if match:
+            current = int(match.group("number"))
+            if current not in references:
+                references[current] = match.group("citation").strip()
+            continue
+        if current is not None and raw.strip():
+            references[current] += " " + raw.strip()
+    return references
+
+
+def _reference_tokens(match: re.Match, references: dict[int, str], ctx: ConvertContext) -> str:
+    numbers = [int(part.translate(SUPERSCRIPT_DIGITS)) for part in re.findall(
+        r"[\u2070\u00b9\u00b2\u00b3\u2074\u2075\u2076\u2077\u2078\u2079]+", match.group(0)
+    )]
+    if not numbers or any(number not in references for number in numbers):
+        unknown = sorted({number for number in numbers if number not in references})
+        ctx.warnings.append(f"unresolved superscript reference(s): {unknown}")
+        return match.group(0)
+    return "".join(f"@@WIKIMEDICA_REF_{number}@@" for number in numbers)
+
+
+def _bracket_reference_tokens(match: re.Match, references: dict[int, str], ctx: ConvertContext) -> str:
+    numbers = [int(part) for part in re.findall(r"\d+", match.group("numbers"))]
+    if not numbers or any(number not in references for number in numbers):
+        unknown = sorted({number for number in numbers if number not in references})
+        ctx.warnings.append(f"unresolved bracket reference(s): {unknown}")
+        return match.group(0)
+    return "".join(f"@@WIKIMEDICA_REF_{number}@@" for number in numbers)
+
+
+def convert_medical_article(markdown: str, ctx: ConvertContext | None = None) -> str:
+    """Render medical Markdown with Wikipedia-style in-text references.
+
+    Source files retain their portable numbered bibliography and Unicode source
+    markers.  This renderer turns only those controlled forms into MediaWiki
+    references, yielding superscript, bracketed, linked numbers and a single
+    ``Einzelnachweise`` list.  It never accepts arbitrary raw ``<ref>`` input.
+    """
+    ctx = ctx or ConvertContext()
+    section = REFERENCE_SECTION_RE.search(markdown)
+    if not section:
+        return convert(markdown, ctx)
+    references = _parse_numbered_references(section.group("body"))
+    if not references:
+        ctx.warnings.append("bibliography section has no numbered references")
+        return convert(markdown, ctx)
+    ctx.references = references
+    ctx.emitted_references.clear()
+    without_bibliography = markdown[:section.start()] + markdown[section.end():]
+    marked = SUPERSCRIPT_REFERENCE_RE.sub(
+        lambda match: _reference_tokens(match, references, ctx), without_bibliography
+    )
+    marked = BRACKET_REFERENCE_RE.sub(
+        lambda match: _bracket_reference_tokens(match, references, ctx), marked
+    )
+    rendered = convert(marked, ctx).rstrip()
+    return rendered + "\n\n== Einzelnachweise ==\n<references />\n"
 
 
 def _quote(lines: list[str], ctx: ConvertContext) -> list[str]:

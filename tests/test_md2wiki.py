@@ -244,6 +244,38 @@ def test_empty_input():
     assert conv("") == "\n"
 
 
+def test_medical_article_uses_controlled_wikipedia_style_references():
+    markdown = (
+        "# Test\n\n"
+        "Eine Aussage.\u00b9 \u00b2\n\n"
+        "Noch eine Aussage.\u00b9\n\n"
+        "## Literatur\n\n"
+        "1. Erste Quelle. https://example.org/one\n"
+        "2. Zweite Quelle. https://example.org/two\n"
+    )
+    out = m2w.convert_medical_article(markdown)
+    assert '<ref name="wm-ref-1">Erste Quelle. https://example.org/one</ref>' in out
+    assert '<ref name="wm-ref-2">Zweite Quelle. https://example.org/two</ref>' in out
+    assert '<ref name="wm-ref-1" />' in out
+    assert "== Einzelnachweise ==\n<references />" in out
+    assert "== Literatur ==" not in out
+
+
+def test_medical_article_keeps_unknown_reference_marker_inert_and_warns():
+    ctx = m2w.ConvertContext()
+    out = m2w.convert_medical_article("# T\n\nAussage.\u00b2\n\n## Literatur\n\n1. Eine Quelle\n", ctx)
+    assert "\u00b2" in out
+    assert any("unresolved superscript" in warning for warning in ctx.warnings)
+
+
+def test_medical_article_converts_numeric_bracket_references_and_literatur_und_quellen():
+    markdown = "# T\n\nAussage. [1, 2]\n\n## Literatur und Quellen\n\n1. Eine Quelle\n2. Zweite Quelle\n"
+    out = m2w.convert_medical_article(markdown)
+    assert '<ref name="wm-ref-1">Eine Quelle</ref>' in out
+    assert '<ref name="wm-ref-2">Zweite Quelle</ref>' in out
+    assert "[1, 2]" not in out
+
+
 def test_every_template_body_converts_without_markup_leaks(tmp_path):
     """The real templates (after placeholder substitution) convert cleanly."""
     from conftest import REPO
