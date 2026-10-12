@@ -44,3 +44,27 @@ ATMED-core verfügt über 12 CPU-Kerne, 22 GiB RAM, keine feststellbare GPU- ode
 4. Erst nach positiver Abnahme eine lokale Generation als Entwurfsquelle zulassen. Medizinisch hochriskante Artikel bleiben `safety_hold: true` und erhalten externe KI-QK sowie menschliche medizinisch-pharmazeutische Freigabe.
 
 Die lokale Verarbeitung reduziert externe Kontingente, ersetzt aber weder evidenzbasierte Recherche noch menschliche Verantwortung.
+
+## Entscheidungsvorlage: eigener WikiMedica-Research-Server
+
+### Ergebnis
+
+Ein dedizierter Server ist **langfristig sinnvoll**, sobald der kontinuierliche Quellenabgleich und die Artikelproduktion über einen kleinen Pilotbestand hinausgehen. Er entkoppelt die daten- und rechenintensiven Aufgaben vom produktiven Wiki, hält Quellenkorpora lokal vor und vermeidet fortlaufenden Verbrauch externer KI-Kontingente für die Entwurfsphase. Er ersetzt jedoch keine lizenzpflichtigen Datenquellen, kein medizinisches Review und keine externe Qualitätssicherung bei Hochrisikoinhalten.
+
+Auf ATMED-core sollte dieser Betrieb nicht stattfinden: kein GPU-Befund, nur 22 GiB RAM, bereits 81 % Root-Dateisystembelegung und produktive Dienste. Ein CPU-Modell dort wäre ein enger, störanfälliger Pilot und kein belastbarer Dauerbetrieb.
+
+### Zielprofil des getrennten Servers
+
+- Dedizierte GPU-Inferenz mit ausreichend VRAM für ein in der medizinischen Quellensynthese evaluiertes, quantisiertes Open-Weights-Modell; die konkrete Modell- und GPU-Auswahl erfolgt erst nach Benchmark und Lizenzprüfung.
+- 64–128 GiB RAM, verschlüsselter NVMe-Speicher mit getrenntem Quellen- und Modellbereich, Netzsegmentierung und kein direkter Schreibzugriff auf MediaWiki-Produktion.
+- Unprivilegierte Container: Downloader, Parser, Suchindex, Inferenz, Orchestrator und QK-Gate getrennt; nur der kontrollierte Git/PR-Worker darf Ergebnisse ausgeben.
+- Stündliche/daily Feeds und Signatur-/Checksum-Checks für offizielle Quellen; gestaffelte Crawl-Raten, Quellenlizenzen und robots.txt strikt einhalten.
+- Nachvollziehbare Evidence Cards: Original-URL, Abrufzeit, Hash, Textausschnitt, Katalogversion, Modellversion, Prompt-/Retriever-Version und Entwurfs-Commit.
+- Read-only-Zugriff auf Produktionsdaten nur wenn erforderlich; Veröffentlichungen bleiben über den bestehenden Git- und Beta-Importprozess kontrolliert.
+
+### Abnahme vor Dauerbetrieb
+
+1. Isolierter Pilot mit einer repräsentativen, medizinisch reviewten Goldstandard-Stichprobe.
+2. Messung von Quellenabdeckung, Zitatzutrefflichkeit, nicht belegten Aussagen, Laufzeit, Strom-/Hostingkosten und Wiederanlauf nach Fehlern.
+3. Sicherheits- und Lizenzfreigabe der Modelle sowie jeder Datenquelle.
+4. Erst danach Produktionsbetrieb mit Ressourcenlimits, Alerting, Backups und regelmäßigem menschlichem Stichprobenreview.
