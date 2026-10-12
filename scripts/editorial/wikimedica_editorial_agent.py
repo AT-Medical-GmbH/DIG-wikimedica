@@ -21,6 +21,8 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from pubmed_connector import PubMedConnector, PubMedError, cached_search
+
 STATUS = {
     "planned", "researching", "sources-verified", "drafted", "validated",
     "pr-created", "beta-publication-queued", "live-beta-verified",
@@ -137,6 +139,7 @@ def ensure_items(state: dict[str, Any], plan: list[dict[str, Any]]) -> None:
             "branch": None,
             "pr": None,
             "mediawiki_revision": None,
+            "source_snapshot": None,
             "updated_at": now(),
         })
         if record["status"] not in STATUS:
@@ -186,6 +189,39 @@ def command_run(store: Store, state: dict[str, Any], plan: list[dict[str, Any]],
     return 0
 
 
+def command_research(store: Store, state: dict[str, Any], plan: list[dict[str, Any]], article_id: str, contact_email: str, dry_run: bool) -> int:
+    if state.get("stopped") or state.get("paused"):
+        print("Kein Quellenabruf: Agent ist gestoppt oder pausiert.")
+        return 0
+    item = state["items"].get(article_id)
+    configured = next((candidate for candidate in plan if candidate["article_id"] == article_id), None)
+    if item is None or configured is None:
+        raise ValueError("research benötigt eine bekannte --article-id")
+    query = str(configured.get("research_query") or "").strip()
+    if not query:
+        raise ValueError("Für diesen Artikel ist keine research_query hinterlegt")
+    if dry_run:
+        print(json.dumps({"article_id": article_id, "query": query, "connector": "PubMed", "would_fetch": True}, ensure_ascii=False))
+        return 0
+    cache = store.state_dir / "sources"
+    try:
+        snapshot = cached_search(PubMedConnector(contact_email), article_id, query, cache)
+    except PubMedError as exc:
+        item["error"] = str(exc)
+        item["updated_at"] = now()
+        event(state, "source-retrieval-failed", str(exc), article_id)
+        print(f"Quellenabruf fehlgeschlagen: {exc}", file=sys.stderr)
+        return 1
+    item["status"] = "researching"
+    item["source_snapshot"] = str(snapshot)
+    item["last_successful_step"] = "pubmed-metadata-retrieved"
+    item["error"] = None
+    item["updated_at"] = now()
+    event(state, "source-retrieved", "PubMed-Metadaten abgerufen; fachliche Prüfung weiterhin offen", article_id)
+    print(json.dumps({"article_id": article_id, "source_snapshot": str(snapshot), "status": item["status"]}, ensure_ascii=False))
+    return 0
+
+
 def render_report(state: dict[str, Any], plan: list[dict[str, Any]]) -> str:
     counts = Counter(item["status"] for item in state["items"].values())
     lines = ["# WikiMedica Editorial-Agent – Status", "", f"Erstellt: {now()}", "",
@@ -202,10 +238,11 @@ def render_report(state: dict[str, Any], plan: list[dict[str, Any]]) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["init", "run", "status", "health", "pause", "resume", "stop", "dry-run", "report", "retry", "verify-publication"])
+    parser.add_argument("command", choices=["init", "run", "status", "health", "pause", "resume", "stop", "dry-run", "research", "report", "retry", "verify-publication"])
     parser.add_argument("--state-dir", type=Path, default=Path("/var/lib/wikimedica-editorial-agent"))
     parser.add_argument("--plan", type=Path, default=Path("data/editorial/article-plan.json"))
     parser.add_argument("--article-id")
+    parser.add_argument("--contact-email", default=os.environ.get("WIKIMEDICA_NCBI_CONTACT_EMAIL", ""))
     parser.add_argument("--report", type=Path, default=Path("docs/editorial/wikimedica-agent-status.md"))
     args = parser.parse_args()
     store = Store(args.state_dir, args.plan)
@@ -236,6 +273,14 @@ def main() -> int:
                 if not item.get("mediawiki_revision"):
                     raise ValueError("Keine verifizierte MediaWiki-Revision im Statusregister")
                 print(json.dumps({"article_id": args.article_id, "mediawiki_revision": item["mediawiki_revision"], "verified": True}))
+            elif args.command == "research":
+                if not args.article_id:
+                    raise ValueError("research benötigt --article-id")
+                if not args.contact_email:
+                    raise ValueError("research benötigt eine dienstliche NCBI-Kontaktadresse über --contact-email oder WIKIMEDICA_NCBI_CONTACT_EMAIL")
+                rc = command_research(store, state, plan, args.article_id, args.contact_email, False)
+                store.write(state)
+                return rc
             elif args.command in {"run", "dry-run"}:
                 rc = command_run(store, state, plan, args.command == "dry-run")
                 store.write(state)

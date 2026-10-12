@@ -45,3 +45,25 @@ separater Quell-Snapshot, der Dienstbenutzer und die Zielrechte eingerichtet
 sind. Ein künftiger Recherche-Executor benötigt einen eigenen Dienstzugang,
 harte Kosten-/Zeitlimits, Quellen- und Sicherheitsgates; er darf den
 Systemzugang des Codex-CLI nicht übernehmen.
+
+## Quellenrecherche ohne Modellkapazität
+
+Der lokale `PubMedConnector` verwendet die offizielle NCBI-E-Utilities-
+Schnittstelle ausschließlich für bibliographische Metadaten. Er begrenzt sich
+ohne API-Schlüssel auf höchstens zwei HTTP-Anfragen je Sekunde, ruft pro
+Thema höchstens zwanzig Treffer ab und speichert einen atomaren JSON-Snapshot
+unter `state/sources/`. Dadurch werden wiederholte Abfragen vermieden.
+
+Vor dem Abruf muss eine dienstliche NCBI-Kontaktadresse geschützt als
+`WIKIMEDICA_NCBI_CONTACT_EMAIL` hinterlegt sein. Sie ist keine medizinische
+Freigabe und gehört nicht in Git. Beispiel für einen kontrollierten Abruf:
+
+```text
+python3 scripts/editorial/wikimedica_editorial_agent.py research \
+  --article-id WM-DIS-0012 \
+  --contact-email "$WIKIMEDICA_NCBI_CONTACT_EMAIL"
+```
+
+Der Abruf setzt den Artikel nur auf `researching`. Metadaten, Abstracts oder
+Trefferlisten gelten niemals als `sources-verified`; insbesondere dürfen
+Therapieempfehlungen nicht allein darauf beruhen.

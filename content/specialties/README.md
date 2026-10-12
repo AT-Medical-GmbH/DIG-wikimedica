@@ -34,7 +34,8 @@ content/specialties/
 ├── pharmakologie/
 ├── palliativmedizin/
 ├── praevention-public-health/
-└── gender-medizin/                    ← flagship focus area
+├── gender-medizin/                    ← flagship focus area
+└── ernaehrungsmedizin/
 ```
 
 ---
@@ -69,6 +70,7 @@ content/specialties/
 | 24 | Palliativmedizin | `palliativmedizin/` | Planned |
 | 25 | Prävention/Public Health | `praevention-public-health/` | Planned |
 | 26 | Gender-Medizin | `gender-medizin/` | **Active — Flagship** |
+| 27 | Ernährungsmedizin | `ernaehrungsmedizin/` | Planned |
 
 ---
 
@@ -110,6 +112,7 @@ Canonical specialty names (use exactly as listed):
 - `Palliativmedizin`
 - `Prävention/Public Health`
 - `Gender-Medizin`
+- `Ernährungsmedizin`
 
 ### Cross-Specialty Articles
 
