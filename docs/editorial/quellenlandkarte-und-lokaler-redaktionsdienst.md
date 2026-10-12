@@ -45,6 +45,23 @@ ATMED-core verfügt über 12 CPU-Kerne, 22 GiB RAM, keine feststellbare GPU- ode
 
 Die lokale Verarbeitung reduziert externe Kontingente, ersetzt aber weder evidenzbasierte Recherche noch menschliche Verantwortung.
 
+## Lokale Bildpipeline für WikiMedica
+
+Der dedizierte Server soll zusätzlich einen **getrennten, lokal arbeitenden Bilddienst** enthalten. Er erstellt nur didaktische, schematische Abbildungen und Infografiken aus freigegebenen Artikelbriefings; er erstellt keine scheinbar echten klinischen Befunde, keine patientenähnlichen Bilddaten und keine diagnostisch verwendbaren Radiologie-, Pathologie- oder Histologieaufnahmen.
+
+### Technische Grenzen und Ablauf
+
+1. Der Artikel-Workflow erzeugt einen strukturierten Bildauftrag (Thema, Lerziel, anatomische Ebene, erlaubte Beschriftungen, Farben, Quellen, Sensitivitätsstufe).
+2. Eine lokale Bild-Engine in einem separaten Container rendert Entwürfe über eine intern abgesicherte API. ComfyUI ist als Orchestrator zu evaluieren; Modell und Lizenz müssen vor Download separat freigegeben werden.
+3. Der Bild-QK-Gate prüft Wasserzeichen/Marken, Textfehler, personenbezogene Ähnlichkeiten, medizinische Plausibilität, Quellen-/Lizenzmetadaten sowie sichtbare Kennzeichnung als generierte Illustration.
+4. Erst nach fachlicher Bildprüfung wird ein Asset in den Medienbestand aufgenommen – mit Prompt-Hash, Modell-/Workflow-Version, Erstellungsdatum, Bearbeitungsverlauf und Lizenznachweis.
+
+### Lizenz- und Sicherheitsentscheidung
+
+Als mögliche technische Option ist Stable Diffusion 3.5 zu prüfen: Stability AI beschreibt eine Community-Lizenz, deren Bedingungen und mögliche Enterprise-Lizenzpflicht von Umsatz und Nutzungsart abhängen. FLUX.1-dev ist nach Modellkarte nicht kommerziell lizenziert und deshalb keine Standardoption für AT Medical. Vor einem Download muss die Rechts-/Lizenzprüfung das konkrete Modell, die Unternehmensumsätze, erforderliche Attribution und eine etwaige Registrierung bestätigen.
+
+Offizielle Referenzen: [Stable Diffusion 3.5 Lizenzhinweise](https://stability.ai/news-updates/introducing-stable-diffusion-3-5), [Stability-Lizenz](https://stability-ai.squarespace.com/license), [FLUX.1-dev-Modellkarte](https://huggingface.co/black-forest-labs/FLUX.1-dev).
+
 ## Entscheidungsvorlage: eigener WikiMedica-Research-Server
 
 ### Ergebnis
