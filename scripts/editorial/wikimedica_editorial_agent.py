@@ -162,7 +162,7 @@ def health(state: dict[str, Any], plan: list[dict[str, Any]]) -> tuple[bool, lis
     return not problems, problems
 
 
-def command_run(store: Store, state: dict[str, Any], plan: list[dict[str, Any]], dry_run: bool) -> int:
+def command_run(store: Store, state: dict[str, Any], plan: list[dict[str, Any]], dry_run: bool, contact_email: str) -> int:
     if state.get("stopped") or state.get("paused"):
         print("Kein Lauf: Agent ist gestoppt oder pausiert.")
         return 0
@@ -179,6 +179,10 @@ def command_run(store: Store, state: dict[str, Any], plan: list[dict[str, Any]],
         event(state, "idle", "Kein geplanter Artikel offen")
         print("Kein geplanter Artikel offen.")
         return 0
+    if contact_email:
+        # The autonomous part is deliberately limited to acquiring source
+        # metadata. It never drafts, validates or publishes medical content.
+        return command_research(store, state, plan, selected[0]["article_id"], contact_email, False)
     # No model process is started here.  This makes the operational limit
     # explicit and preserves a durable, auditable queue for a later authorised
     # research worker.  Items remain planned: an unavailable executor is an
@@ -282,7 +286,7 @@ def main() -> int:
                 store.write(state)
                 return rc
             elif args.command in {"run", "dry-run"}:
-                rc = command_run(store, state, plan, args.command == "dry-run")
+                rc = command_run(store, state, plan, args.command == "dry-run", args.contact_email)
                 store.write(state)
                 return rc
             elif args.command == "health":

@@ -10,6 +10,7 @@ User=wikieditorial
 Group=wikieditorial
 WorkingDirectory=/opt/wikimedica-editorial-agent
 UMask=0027
+EnvironmentFile=-/etc/wikimedica-editorial-agent/ncbi.env
 NoNewPrivileges=yes
 PrivateTmp=yes
 ProtectSystem=strict

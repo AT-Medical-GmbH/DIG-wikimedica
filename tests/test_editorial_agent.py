@@ -37,6 +37,14 @@ def test_no_executor_keeps_article_planned_without_claiming_research(tmp_path: P
     assert state["events"][-1]["kind"] == "waiting-for-executor"
 
 
+def test_run_does_not_attempt_source_network_without_contact_address(tmp_path: Path) -> None:
+    assert run(tmp_path, "init").returncode == 0
+    result = run(tmp_path, "run")
+    assert result.returncode == 0, result.stderr
+    state = json.loads((tmp_path / "state" / "state.json").read_text(encoding="utf-8"))
+    assert state["items"]["WM-DIS-0012"]["status"] == "planned"
+
+
 def test_pause_retry_and_publication_evidence_gate(tmp_path: Path) -> None:
     assert run(tmp_path, "init").returncode == 0
     assert run(tmp_path, "pause").returncode == 0

@@ -67,3 +67,10 @@ python3 scripts/editorial/wikimedica_editorial_agent.py research \
 Der Abruf setzt den Artikel nur auf `researching`. Metadaten, Abstracts oder
 Trefferlisten gelten niemals als `sources-verified`; insbesondere dürfen
 Therapieempfehlungen nicht allein darauf beruhen.
+
+Im regulären Timerlauf wird bei vorhandener Kontaktadresse höchstens **ein**
+noch geplanter Artikel pro Lauf recherchiert. Die geschützte lokale Datei
+`/etc/wikimedica-editorial-agent/ncbi.env` enthält ausschließlich
+`WIKIMEDICA_NCBI_CONTACT_EMAIL=…`, muss `root:wikieditorial` und Modus 0640
+haben und wird über `EnvironmentFile=-` geladen. Fehlt sie, bleibt der Dienst
+absichtlich im sicheren Wartezustand und startet keinen Modellprozess.
