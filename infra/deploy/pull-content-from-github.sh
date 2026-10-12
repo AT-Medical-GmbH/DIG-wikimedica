@@ -163,7 +163,10 @@ case "$MODE" in
           "$LAST_SHA" "$CURRENT_SHA" -- \
           content/specialties content/articles content/patient-info \
           content/pharmaka content/therapies content/published |
-          grep -E '^content/(specialties|articles|patient-info|pharmaka|therapies|published)/.*\.md$' || true
+          # README files describe a content directory; they are not article
+          # sources and must never make an otherwise healthy BETA timer fail.
+          grep -E '^content/(specialties|articles|patient-info|pharmaka|therapies|published)/.*\.md$' |
+          grep -Ev '(^|/)README\.md$' || true
       )
       for rel in "${RELATIVE_FILES[@]}"; do
         [ -f "$SOURCE_DIR/$rel" ] && FILES+=("$SOURCE_DIR/$rel")
