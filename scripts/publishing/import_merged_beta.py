@@ -32,8 +32,7 @@ BLOCKED_STATUSES = {"archived", "retracted"}
 BETA_HEADER = (
     '<div class="mw-message-box mw-message-box-warning">'
     "'''WIKIMEDICA BETA – vorläufiger medizinischer Artikel.''' "
-    "Die Veröffentlichung wurde durch einen Merge in das WikiMedica-GitHub-Repository "
-    "freigegeben. Angaben zum fachlichen Review können in der Pilotphase noch unvollständig sein. "
+    "Dieser Inhalt wird im Rahmen der fortlaufenden WikiMedica-BETA veröffentlicht. "
     "Dieser Text ersetzt keine individuelle Diagnostik oder Behandlung. "
     "Bei einem medizinischen Notfall die 112 wählen."
     "</div>"
@@ -55,7 +54,8 @@ def public_beta_body(body: str) -> str:
     status notice, while editorial/review history stays in repository metadata.
     """
     body = re.sub(
-        r"(?m)^>[ \t]+\*\*(?:Redaktioneller Status|Medizinisch nicht freigegebener KI-Entwurf).*?(?:\n|\Z)",
+        r"(?m)^>[ \t]+\*\*(?:Redaktioneller Status|Medizinisch nicht freigegebener KI-Entwurf|"
+        r"KI-gestützter Erstentwurf).*?(?:\n|\Z)",
         "",
         body,
     )
@@ -112,9 +112,8 @@ def build_page(path: Path, revision: str) -> tuple[str, str, str]:
     converted = md2wiki.convert_medical_article(public_beta_body(body), md2wiki.ConvertContext(title=title))
     note = (
         "\n\n----\n"
-        "'''BETA-Hinweis:''' aus dem gemergten GitHub-Hauptbranch. "
-        f"Quellstatus: {md2wiki.esc(str(fm.get('status', 'unbekannt')))}; "
-        f"Version: {md2wiki.esc(str(fm.get('version', '0.1.0')))}; "
+        "'''BETA-Hinweis:''' Veröffentlichung aus dem gemergten WikiMedica-GitHub-Hauptbranch. "
+        f"Versionsstand: {md2wiki.esc(str(fm.get('version', '0.1.0')))}; "
         f"Stand: {md2wiki.esc(str(fm.get('updated', '')))}; "
         f"Commit: <code>{revision}</code>.\n"
     )
