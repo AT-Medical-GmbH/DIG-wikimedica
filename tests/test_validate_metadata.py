@@ -22,9 +22,9 @@ def test_example_articles_are_valid(check, name):
     assert [str(f) for f in article.findings] == []
 
 
-def test_schema_has_27_canonical_specialties(schema):
+def test_schema_has_28_canonical_specialties(schema):
     values = schema["fields"]["specialty"]["values"]
-    assert len(values) == 27 and len(set(values)) == 27
+    assert len(values) == 28 and len(set(values)) == 28
     assert "Gender-Medizin" in values
     assert "Ernährungsmedizin" in values
 
