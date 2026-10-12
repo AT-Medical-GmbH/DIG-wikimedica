@@ -46,7 +46,7 @@ SPECIALTIES = [
     "Nephrologie", "Endokrinologie/Diabetologie", "Hämatologie/Onkologie",
     "Infektiologie", "Rheumatologie", "Neurologie", "Psychiatrie",
     "Dermatologie", "Pädiatrie", "Gynäkologie/Geburtshilfe", "Urologie",
-    "Orthopädie/Unfallchirurgie", "Anästhesiologie", "Intensivmedizin",
+    "Orthopädie/Unfallchirurgie", "Augenheilkunde", "Anästhesiologie", "Intensivmedizin",
     "Notfallmedizin", "Chirurgie", "Radiologie", "Labormedizin",
     "Pharmakologie", "Palliativmedizin", "Prävention/Public Health",
     "Gender-Medizin",
