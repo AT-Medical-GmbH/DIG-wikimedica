@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-12T00:00:00Z",
+  "articles": [
+    {"article_id": "WM-DIS-0012", "title": "Myokarditis", "slug": "myokarditis", "kind": "disease", "risk": "medium", "status": "planned", "research_query": "myocarditis guideline systematic review"},
+    {"article_id": "WM-DIS-0013", "title": "Infektiöse Endokarditis", "slug": "infektioese-endokarditis", "kind": "disease", "risk": "high", "status": "planned", "research_query": "infective endocarditis guideline systematic review"},
+    {"article_id": "WM-DIS-0014", "title": "Herzklappenerkrankungen", "slug": "herzklappenerkrankungen", "kind": "disease", "risk": "medium", "status": "planned", "research_query": "valvular heart disease guideline systematic review"},
+    {"article_id": "WM-DIS-0015", "title": "Orthostatische Hypotonie", "slug": "orthostatische-hypotonie", "kind": "disease", "risk": "medium", "status": "planned", "research_query": "orthostatic hypotension guideline systematic review"},
+    {"article_id": "WM-DIS-0016", "title": "Diabetes mellitus Typ 2", "slug": "diabetes-mellitus-typ-2", "kind": "disease", "risk": "high", "status": "planned", "research_query": "type 2 diabetes guideline systematic review"},
+    {"article_id": "WM-DIS-0017", "title": "Diabetes mellitus Typ 1", "slug": "diabetes-mellitus-typ-1", "kind": "disease", "risk": "high", "status": "planned", "research_query": "type 1 diabetes guideline systematic review"},
+    {"article_id": "WM-DIS-0018", "title": "Adipositas", "slug": "adipositas", "kind": "disease", "risk": "medium", "status": "planned", "research_query": "obesity guideline systematic review"},
+    {"article_id": "WM-DIS-0019", "title": "Metabolisches Syndrom", "slug": "metabolisches-syndrom", "kind": "disease", "risk": "medium", "status": "planned", "research_query": "metabolic syndrome guideline systematic review"},
+    {"article_id": "WM-DIS-0020", "title": "Gicht", "slug": "gicht", "kind": "disease", "risk": "medium", "status": "planned", "research_query": "gout guideline systematic review"},
+    {"article_id": "WM-DIS-0021", "title": "Hypothyreose", "slug": "hypothyreose", "kind": "disease", "risk": "medium", "status": "planned", "research_query": "hypothyroidism guideline systematic review"}
+  ]
+}

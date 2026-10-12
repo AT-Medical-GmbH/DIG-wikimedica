@@ -25,6 +25,7 @@ WikiMedica ist ein systematisch vernetztes medizinisches Nachschlagewerk **für 
 | Anatomie, Physiologie, Histologie | Organe, Strukturen, Zell- und Organfunktionen, Pathophysiologie |
 | Labor, Mikrobiologie, Pathologie | Biomarker, Proben, Untersuchungsgüte, Erreger, Klassifikationen |
 | Behandlung, Prävention und Rehabilitation | Therapieoptionen, Präventionsmaßnahmen, Nachsorge |
+| Ernährung und Ernährungsmedizin | Ernährungsformen, Mangelernährung, ernährungsmedizinische Prävention, Ernährung bei Erkrankungen und evidenzbasierte Beratung |
 | Transplantationsmedizin | Organspende, Empfänger, Allokation, Operation, Nachsorge, Ethik |
 | Impfungen | Impfstoffe, STIKO-Empfehlungen, Schutz und Grenzen, Sicherheit |
 | Patientenaufklärung | Erkrankungen, OP/Intervention, Diagnostik, Shared Decision Making |

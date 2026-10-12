@@ -1,0 +1,11 @@
+[Unit]
+Description=Run WikiMedica editorial queue dispatcher regularly
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+RandomizedDelaySec=5min
+Unit=wikimedica-editorial-agent.service
+
+[Install]
+WantedBy=timers.target
