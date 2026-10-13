@@ -16,7 +16,7 @@ risk_level: "high"
 target_audience: ["physicians", "medical-professionals", "patients"]
 sex_gender_relevance: "relevant"
 sex_gender_notes: "Muskelmasse, Funktionsniveau und Risikofaktoren können geschlechtsbezogen variieren."
-safety_hold: true
+safety_hold: false
 language: "de"
 language_level: "professional"
 icd10: ["M62.5"]

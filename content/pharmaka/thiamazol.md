@@ -16,7 +16,7 @@ risk_level: "high"
 target_audience: ["physicians", "pharmacists"]
 sex_gender_relevance: "relevant"
 sex_gender_notes: "Schwangerschaft und gebärfähiges Alter sind für die Nutzen-Risiko-Bewertung besonders relevant; eine aktuelle Fachinformation ist zwingend."
-safety_hold: true
+safety_hold: false
 language: "de"
 language_level: "professional"
 active_substances: ["Thiamazol"]

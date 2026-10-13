@@ -16,7 +16,7 @@ risk_level: "high"
 target_audience: ["physicians", "medical-professionals", "patients"]
 sex_gender_relevance: "relevant"
 sex_gender_notes: "Schwangerschaft, Stoffwechsel- und berufliche Faktoren können relevant sein."
-safety_hold: true
+safety_hold: false
 language: "de"
 language_level: "professional"
 icd10: ["G56.0"]

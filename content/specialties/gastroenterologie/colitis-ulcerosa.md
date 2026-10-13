@@ -16,7 +16,7 @@ risk_level: "high"
 target_audience: ["physicians", "medical-professionals", "patients"]
 sex_gender_relevance: "relevant"
 sex_gender_notes: "Fertilität, Schwangerschaft und Therapieplanung bedürfen individueller Beratung."
-safety_hold: true
+safety_hold: false
 language: "de"
 language_level: "professional"
 icd10: ["K51"]
