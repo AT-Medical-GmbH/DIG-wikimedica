@@ -40,27 +40,27 @@ Diese Prüfliste trennt technische Erstellung, Zusammenführung, BETA-Import und
 | WM-DRUG-0021–0030 | 10 | Hochrisiko-Entwürfe; fachärztliche und pharmazeutische Freigabe offen | [#286](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/286) | ja |
 | WM-DRUG-0031–0040 | 10 | Hochrisiko-Entwürfe; fachärztliche und pharmazeutische Freigabe offen | [#287](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/287) | ja |
 | WM-DRUG-0041–0050 | 10 | Hochrisiko-Entwürfe; fachärztliche und pharmazeutische Freigabe offen | [#288](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/288) | ja |
-| WM-DRUG-0051–0060 | 10 | technisch validierte Hochrisiko-Entwürfe; Freigabe offen | [#290](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/290) | nein |
-| WM-DRUG-0061–0070 | 10 | technisch validierte Hochrisiko-Entwürfe; Freigabe offen | [#291](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/291) | nein |
-| WM-DRUG-0071–0080 | 10 | technisch validierte Hochrisiko-Entwürfe; Freigabe offen | [#292](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/292) | nein |
-| WM-DRUG-0081–0090 | 10 | technisch validierte Hochrisiko-Entwürfe; Freigabe offen | [#293](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/293) | nein |
-| WM-DRUG-0091–0100 | 10 | technisch validierte Hochrisiko-Entwürfe; Freigabe offen | [#294](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/294) | nein |
+| WM-DRUG-0051–0060 | 10 | technisch validierte Hochrisiko-Entwürfe; Freigabe offen | [#290](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/290) | ja |
+| WM-DRUG-0061–0070 | 10 | technisch validierte Hochrisiko-Entwürfe; Freigabe offen | [#291](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/291) | ja |
+| WM-DRUG-0071–0080 | 10 | technisch validierte Hochrisiko-Entwürfe; Freigabe offen | [#292](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/292) | ja |
+| WM-DRUG-0081–0090 | 10 | technisch validierte Hochrisiko-Entwürfe; Freigabe offen | [#293](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/293) | ja |
+| WM-DRUG-0091–0100 | 10 | technisch validierte Hochrisiko-Entwürfe; Freigabe offen | [#294](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/294) | ja |
 
-**Zwischensumme Wirkstoffe: 100 technisch erstellte Artikel; 50 in `main`, 50 in fünf offenen Draft-PRs.**
+**Zwischensumme Wirkstoffe: 100 technisch erstellte und in `main` zusammengeführte Artikel.**
 
 ## Nachweise und noch erforderliche Schritte
 
-1. Die lokale Metadatenprüfung der fünf offenen Wirkstoffpakete ergab jeweils keine Fehler und keine Warnungen; `git diff --check` war ebenfalls erfolgreich.
+1. Die lokale Metadatenprüfung der fünf Wirkstoffpakete ergab jeweils keine Fehler und keine Warnungen; `git diff --check` war ebenfalls erfolgreich.
 2. GitHub Actions konnten für diese Pakete nicht ausgeführt werden: die zugehörigen Jobs endeten ohne gestartete Schritte. Dieser Plattformblocker ersetzt keine technische Freigabe; lokale Prüfprotokolle bleiben erhalten.
 3. Vor einer BETA-Sichtbarkeitsbehauptung ist je Import die gespeicherte MediaWiki-Seite erneut zu lesen und der Importstatus mit dem konkreten Git-Commit abzugleichen.
-4. Ein `safety_hold` oder Status `draft` darf nicht in eine medizinische beziehungsweise pharmazeutische Freigabe umgedeutet werden.
+4. Ein `safety_hold` oder Status `draft` darf nicht in eine medizinische beziehungsweise pharmazeutische Freigabe umgedeutet werden. Der vorhandene BETA-Importer blockiert Inhalte mit `safety_hold: true` technisch.
 
 ## Zählstand
 
 | Kategorie | technisch erstellt | in `main` | BETA sichtbar nachgewiesen | medizinisch freigegeben |
 | --- | ---: | ---: | ---: | ---: |
 | Erkrankungen | 100 | 100 | separat je Seite zu prüfen | 0 nachgewiesen |
-| Wirkstoffe | 100 | 50 | 0 nachgewiesen | 0 nachgewiesen |
-| **Gesamt** | **200** | **150** | **nicht pauschal belegbar** | **0 nachgewiesen** |
+| Wirkstoffe | 100 | 100 | 0 nachgewiesen | 0 nachgewiesen |
+| **Gesamt** | **200** | **200** | **nicht pauschal belegbar** | **0 nachgewiesen** |
 
 Diese Tabelle wird erst nach einem aktuellen, seitenbezogenen MediaWiki-Readback angepasst.
