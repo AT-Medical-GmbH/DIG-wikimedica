@@ -48,9 +48,11 @@ Diese Prüfliste trennt technische Erstellung, Zusammenführung, BETA-Import und
 
 **Zwischensumme Wirkstoffe: 100 technisch erstellte und in `main` zusammengeführte Artikel.**
 
+Die ursprüngliche Paketbeschreibung zu PR #290 nannte Vedolizumab und Ustekinumab, die bereits in PR #294 enthalten waren. Die Abschlussprüfung erkannte deshalb zunächst nur 98 eindeutige Wirkstoffdateien. Zur Korrektur wurden die zwei zusätzlichen, eindeutigen Wirkstoffartikel **Infliximab** und **Tofacitinib** über [PR #297](https://github.com/AT-Medical-GmbH/DIG-wikimedica/pull/297) zusammengeführt. Damit umfasst die Wirkstoffetappe tatsächlich 100 unterschiedliche Wirkstoffartikel.
+
 ## Nachweise und noch erforderliche Schritte
 
-1. Die lokale Metadatenprüfung der fünf Wirkstoffpakete ergab jeweils keine Fehler und keine Warnungen; `git diff --check` war ebenfalls erfolgreich.
+1. Die lokale Metadatenprüfung der fünf Wirkstoffpakete sowie der zwei Ergänzungsartikel ergab keine Fehler und keine Warnungen; `git diff --check` war ebenfalls erfolgreich.
 2. GitHub Actions konnten für diese Pakete nicht ausgeführt werden: die zugehörigen Jobs endeten ohne gestartete Schritte. Dieser Plattformblocker ersetzt keine technische Freigabe; lokale Prüfprotokolle bleiben erhalten.
 3. Vor einer BETA-Sichtbarkeitsbehauptung ist je Import die gespeicherte MediaWiki-Seite erneut zu lesen und der Importstatus mit dem konkreten Git-Commit abzugleichen.
 4. Ein `safety_hold` oder Status `draft` darf nicht in eine medizinische beziehungsweise pharmazeutische Freigabe umgedeutet werden. Der vorhandene BETA-Importer blockiert Inhalte mit `safety_hold: true` technisch.
