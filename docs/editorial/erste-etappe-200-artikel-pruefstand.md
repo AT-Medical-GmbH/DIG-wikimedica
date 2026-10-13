@@ -54,15 +54,15 @@ Die ursprüngliche Paketbeschreibung zu PR #290 nannte Vedolizumab und Ustekinum
 
 1. Die lokale Metadatenprüfung der fünf Wirkstoffpakete sowie der zwei Ergänzungsartikel ergab keine Fehler und keine Warnungen; `git diff --check` war ebenfalls erfolgreich.
 2. GitHub Actions konnten für diese Pakete nicht ausgeführt werden: die zugehörigen Jobs endeten ohne gestartete Schritte. Dieser Plattformblocker ersetzt keine technische Freigabe; lokale Prüfprotokolle bleiben erhalten.
-3. Vor einer BETA-Sichtbarkeitsbehauptung ist je Import die gespeicherte MediaWiki-Seite erneut zu lesen und der Importstatus mit dem konkreten Git-Commit abzugleichen.
+3. Der Produktionsimport zum Commit `a311ae2e3edc144b78d846d1af2d56673d28f303` wurde erfolgreich abgeschlossen. Eine inhaltsfreie MediaWiki-Readback-Prüfung bestätigte für alle 200 kanonischen Seitentitel Lesbarkeit und die sichtbare Kennzeichnung `WIKIMEDICA BETA`.
 4. Ein `safety_hold` oder Status `draft` darf nicht in eine medizinische beziehungsweise pharmazeutische Freigabe umgedeutet werden. Der vorhandene BETA-Importer blockiert Inhalte mit `safety_hold: true` technisch.
 
 ## Zählstand
 
 | Kategorie | technisch erstellt | in `main` | BETA sichtbar nachgewiesen | medizinisch freigegeben |
 | --- | ---: | ---: | ---: | ---: |
-| Erkrankungen | 100 | 100 | separat je Seite zu prüfen | 0 nachgewiesen |
-| Wirkstoffe | 100 | 100 | 0 nachgewiesen | 0 nachgewiesen |
-| **Gesamt** | **200** | **200** | **nicht pauschal belegbar** | **0 nachgewiesen** |
+| Erkrankungen | 100 | 100 | 100 | 0 nachgewiesen |
+| Wirkstoffe | 100 | 100 | 100 | 0 nachgewiesen |
+| **Gesamt** | **200** | **200** | **200** | **0 nachgewiesen** |
 
-Diese Tabelle wird erst nach einem aktuellen, seitenbezogenen MediaWiki-Readback angepasst.
+Der BETA-Nachweis beruht auf einem aktuellen, seitenbezogenen MediaWiki-Readback. Er ist ausdrücklich kein Ersatz für fachärztliches, pharmazeutisches oder regulatorisches Review.
