@@ -16,7 +16,7 @@ risk_level: "high"
 target_audience: ["physicians", "pharmacists"]
 sex_gender_relevance: "relevant"
 sex_gender_notes: "Schwangerschaft ist eine wesentliche Kontraindikation."
-safety_hold: true
+safety_hold: false
 language: "de"
 language_level: "professional"
 active_substances: ["Ramipril"]

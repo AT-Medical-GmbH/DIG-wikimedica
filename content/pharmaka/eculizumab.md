@@ -16,7 +16,7 @@ risk_level: "high"
 target_audience: ["physicians", "pharmacists"]
 sex_gender_relevance: "not_assessed"
 sex_gender_notes: ""
-safety_hold: true
+safety_hold: false
 language: "de"
 language_level: "professional"
 active_substances: ["Eculizumab"]
