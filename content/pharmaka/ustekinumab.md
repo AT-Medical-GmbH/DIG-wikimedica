@@ -2,7 +2,7 @@
 title: "Ustekinumab"
 slug: "ustekinumab"
 specialty: "Pharmakologie"
-secondary_specialties: ["Gastroenterologie", "Dermatologie"]
+secondary_specialties: ["Dermatologie", "Gastroenterologie", "Rheumatologie"]
 article_type: "pharmaka"
 content_kind: "article"
 status: "draft"
@@ -10,8 +10,8 @@ version: "0.1.0"
 change_summary: "Quellenbasierter Hochrisiko-Erstentwurf; fachärztliche und pharmazeutische Prüfung stehen aus."
 authors: [{name: "WikiMedica-Redaktion"}]
 reviewers: []
-created: "2026-10-12"
-updated: "2026-10-12"
+created: "2026-10-13"
+updated: "2026-10-13"
 risk_level: "high"
 target_audience: ["physicians", "pharmacists"]
 sex_gender_relevance: "not_assessed"
@@ -25,8 +25,8 @@ icd10: []
 ops: []
 pubmed_ids: []
 guidelines: [{title: "Stelara: EPAR", issuer: "European Medicines Agency", year: 2026, url: "https://www.ema.europa.eu/en/medicines/human/EPAR/stelara"}]
-references: [{citation: "European Medicines Agency. Stelara: European public assessment report.", url: "https://www.ema.europa.eu/en/medicines/human/EPAR/stelara"}]
-source_notes: "Strukturierter Erstentwurf. Vor Freigabe aktuelle Fachinformation, Infektionen, Impfungen, Screening und indikationsspezifisches Monitoring prüfen. Keine Dosierungen enthalten."
+references: [{citation: "European Medicines Agency. Stelara (Ustekinumab): EPAR.", url: "https://www.ema.europa.eu/en/medicines/human/EPAR/stelara"}]
+source_notes: "Strukturierter Erstentwurf. Vor Freigabe Indikation, Infektionen, Impfstatus, Malignitätsrisiken und besondere Patientengruppen prüfen. Keine Dosierungen enthalten."
 ai_assisted: true
 ai_assistance_description: "Strukturierter Redaktionsentwurf; keine medizinische oder pharmazeutische Fachfreigabe behauptet."
 wikimedica_credit: true
@@ -37,16 +37,20 @@ corrections: []
 
 ## Übersicht
 
-Ustekinumab ist ein monoklonaler Antikörper gegen die p40-Untereinheit von Interleukin-12 und Interleukin-23 und wird bei bestimmten immunvermittelten Erkrankungen eingesetzt.[1]
+Ustekinumab ist ein monoklonaler Antikörper gegen die gemeinsame p40-Untereinheit von Interleukin 12 und 23. Die EMA führt Anwendungsgebiete bei Psoriasis, Psoriasisarthritis, Morbus Crohn und Colitis ulcerosa.[1]
+
+## Wirkmechanismus und Indikationen
+
+Durch Bindung an IL-12/23p40 moduliert Ustekinumab entzündliche Signalwege. Die Therapieentscheidung muss Krankheitsaktivität, Vorbehandlung und aktuelle Fachinformation berücksichtigen.
 
 ## Sicherheit
 
-Vor und während der Behandlung sind Infektionen, Impfstatus, Überempfindlichkeitsreaktionen, Ansprechen und die jeweils zugelassene Indikation zu prüfen. Die aktuelle Fachinformation ist maßgeblich.
+Vor und während der Behandlung sind Infektionen, Impfstatus, Überempfindlichkeitsreaktionen und weitere individuelle Risiken nach Fachinformation zu beurteilen.
 
 ## Dosierung und Anwendung
 
-Dieser Hochrisiko-Erstentwurf enthält keine Dosierungsangaben. Auswahl, Einleitung und Monitoring erfolgen ausschließlich nach aktueller Fachinformation und spezialisierter Fachprüfung.
+Dieser Hochrisiko-Erstentwurf enthält keine Dosierungsangaben. Anwendung und Verlaufskontrolle erfolgen fachärztlich.
 
 ## Literatur
 
-1. European Medicines Agency. *Stelara: European public assessment report*. https://www.ema.europa.eu/en/medicines/human/EPAR/stelara
+1. European Medicines Agency. *Stelara (Ustekinumab): EPAR*. https://www.ema.europa.eu/en/medicines/human/EPAR/stelara
