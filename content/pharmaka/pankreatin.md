@@ -25,7 +25,7 @@ icd10: []
 ops: []
 pubmed_ids: []
 guidelines: [{title: "S3-Leitlinie Pankreatitis", issuer: "Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften", year: 2022, url: "https://register.awmf.org/assets/guidelines/021-003l_S3_Pankreatitis_2022-04_01.pdf"}]
-references: [{citation: "Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften. S3-Leitlinie Pankreatitis.", url: "https://register.awmf.org/assets/guidelines/021-003l_S3_Pankreatitis_2022-04_01.pdf"}, {citation: "Bundesinstitut für Arzneimittel und Medizinprodukte. Pankreatin: Hintergrundinformation.", url: "https://www.bfarm.de/SharedDocs/Downloads/DE/Arzneimittel/Pharmakovigilanz/Gremien/Verschreibungspflicht/65Sitzung/Anlage6.pdf?__blob=publicationFile"}]
+references: [{citation: "Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften. S3-Leitlinie Pankreatitis.", url: "https://register.awmf.org/assets/guidelines/021-003l_S3_Pankreatitis_2022-04_01.pdf"}, {citation: "Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten. Enzymsubstitution bei chronischer Pankreatitis.", url: "https://www.dgvs.de/new-leitlinien/chapter_69b2e31012af7/chapter_69b2e31067900/"}]
 source_notes: "Strukturierter Erstentwurf. Vor Freigabe Ursache und Ausmaß einer exokrinen Pankreasinsuffizienz, Ernährung, geeignete Präparate, Behandlungsziel und aktuelle Fachinformation prüfen. Keine Dosierungen enthalten."
 ai_assisted: true
 ai_assistance_description: "Strukturierter Redaktionsentwurf; keine medizinische oder pharmazeutische Fachfreigabe behauptet."
@@ -54,4 +54,4 @@ Dieser Hochrisiko-Erstentwurf enthält keine Dosierungsangaben. Die aktuelle Fac
 ## Literatur
 
 1. Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften. *S3-Leitlinie Pankreatitis.* https://register.awmf.org/assets/guidelines/021-003l_S3_Pankreatitis_2022-04_01.pdf
-2. Bundesinstitut für Arzneimittel und Medizinprodukte. *Pankreatin: Hintergrundinformation.* https://www.bfarm.de/SharedDocs/Downloads/DE/Arzneimittel/Pharmakovigilanz/Gremien/Verschreibungspflicht/65Sitzung/Anlage6.pdf?__blob=publicationFile
+2. Deutsche Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten. *Enzymsubstitution bei chronischer Pankreatitis.* https://www.dgvs.de/new-leitlinien/chapter_69b2e31012af7/chapter_69b2e31067900/
