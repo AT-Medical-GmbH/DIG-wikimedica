@@ -70,7 +70,8 @@ Der Status der Artikel bleibt `draft` wie bei allen bisherigen BETA-Artikeln; di
 
 - Zustand: `/var/lib/wikimedica-editorial-agent/pipeline.sqlite`; fertige Artikel in `outbox/`, Prüfliste-Kandidaten in `review/`.
 - Pausieren: Datei `pipeline.pause` im Zustandsverzeichnis anlegen; Beenden: `pipeline.stop`.
-- Gateway-Grenzen: höchstens 4 Anfragen je Minute und 3 gleichzeitig (Umgebungsvariablen `WM_MAX_REQUESTS_PER_MIN`, `WM_MAX_CONCURRENT`), zentral gezählt.
+- Gateway-Grenzen: höchstens 4 Anfragen je Minute und 3 gleichzeitig (Umgebungsvariablen `WM_MAX_REQUESTS_PER_MIN`, `WM_MAX_CONCURRENT`), zentral gezählt. Bei HTTP 429/5xx, Zeitüberschreitung oder Antwortzeit über 90 Sekunden drosselt die Pipeline zehn Minuten lang auf 1 Anfrage je Minute (Vorrang laut claude-code-atinfra-control: Doc Blue, dann 3CX-KI-Agent, dann Dokumenten-Pipeline, dann WikiMedica).
+- Tagesgrenze: höchstens 500 fertige Artikel je 24 Stunden (`--max-per-day`), alle Arbeiter zusammen.
 - Rückweg: `systemctl disable --now 'wikimedica-pipeline@*' wikimedica-publisher.timer`; der frühere Timer `wikimedica-editorial-llm.timer` bleibt als Rückfall bestehen.
 - Neue Backlogs: `python3 scripts/editorial/wm_catalog.py build --repo . --ema-xlsx … --atc-txt …`, danach `load-queue`. Bestehende IDs bleiben stabil.
 

@@ -215,7 +215,9 @@ def run(args) -> int:
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(src, dest)
         new_files.append(dest)
-        meta[str(dest)] = {"id": it["id"], "title": it["title"], "src": src}
+        fm_title = re.search(r'^title:\s*(.+)$', dest.read_text(encoding="utf-8"), re.M)
+        title = json.loads(fm_title.group(1)) if fm_title else it["title"]  # veröffentlichter Titel (kann vom ICD-Titel abweichen)
+        meta[str(dest)] = {"id": it["id"], "title": title, "src": src}
 
     # 2. Handelsnamen-Verweisseiten (nur wenn der Wirkstoffartikel im Repo existiert)
     ntrade = 0
@@ -283,10 +285,11 @@ def run(args) -> int:
     # 4. Live-Gang über den vorgesehenen Weg
     if not args.no_sync:
         ok_titles = sync_and_verify({})
-        rows = q.db.execute("SELECT id,title FROM items WHERE status='merged'").fetchall()
+        rows = q.db.execute("SELECT id,title,extra FROM items WHERE status='merged'").fetchall()
         done = 0
         for r in rows:
-            if r["title"] in ok_titles:
+            pub_title = json.loads(r["extra"] or "{}").get("titel_de") or r["title"]
+            if r["title"] in ok_titles or pub_title in ok_titles:
                 q.set_status(r["id"], "published", None)
                 q.event(r["id"], "published", prn)
                 done += 1

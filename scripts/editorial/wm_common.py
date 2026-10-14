@@ -226,10 +226,20 @@ class Queue:
                 db.execute("DELETE FROM calls WHERE start < ?", (t - 3600,))
                 inflight = db.execute("SELECT COUNT(*) FROM calls WHERE end IS NULL").fetchone()[0]
                 last_min = db.execute("SELECT COUNT(*) FROM calls WHERE start > ?", (t - 60,)).fetchone()[0]
-                if inflight < MAX_CONCURRENT and last_min < MAX_REQUESTS_PER_MIN:
+                slow = db.execute("SELECT v FROM meta WHERE k='slow_until'").fetchone()
+                slowed = bool(slow and float(slow["v"]) > t)  # Drosselung: Vorgabe control 14.10. (Priorität Doc Blue und 3CX-Agent)
+                max_conc = 1 if slowed else MAX_CONCURRENT
+                max_rate = 1 if slowed else MAX_REQUESTS_PER_MIN
+                if inflight < max_conc and last_min < max_rate:
                     db.execute("INSERT INTO calls(start,end,worker) VALUES(?,NULL,?)", (t, worker))
                     return t
             time.sleep(3)
+
+    def slow_down(self, seconds: int = 600) -> None:
+        """Gateway langsam oder überlastet (429/5xx, Antwortzeit über 90 s): für einige Minuten auf 1 Anfrage/Minute."""
+        with self.tx() as db:
+            db.execute("INSERT INTO meta(k,v) VALUES('slow_until',?) ON CONFLICT(k) DO UPDATE SET v=excluded.v",
+                       (str(time.time() + seconds),))
 
     def release_call_slot(self, start: float, worker: str) -> None:
         with self.tx() as db:

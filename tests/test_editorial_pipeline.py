@@ -303,3 +303,14 @@ def test_importer_collects_only_repo_media(tmp_path: Path) -> None:
     art = REPO / "content/specialties/chirurgie/tavi.md"
     names = [f.name for f in loc.figure_files(art)]
     assert names == ["tavi-schema.svg"]
+
+
+def test_slow_down_limits_to_one_request_per_minute(tmp_path: Path) -> None:
+    q = wm_common.Queue(tmp_path)
+    q.slow_down(600)
+    s1 = q.acquire_call_slot("a")
+    # zweiter Aufruf würde im Drosselbetrieb blockieren: Zähler direkt prüfen
+    t = wm_common.time.time()
+    inflight = q.db.execute("SELECT COUNT(*) FROM calls WHERE end IS NULL").fetchone()[0]
+    assert inflight == 1 and float(q.db.execute("SELECT v FROM meta WHERE k='slow_until'").fetchone()[0]) > t
+    q.release_call_slot(s1, "a")

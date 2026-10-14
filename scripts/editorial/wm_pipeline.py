@@ -38,6 +38,7 @@ from wm_common import DEFAULT_STATE_DIR, Queue, log, norm_title, now_iso, slugif
 GATEWAY = os.environ.get("AT_AI_BASE_URL", "http://10.90.0.1:8188/v1")
 MODEL = os.environ.get("AT_AI_MODEL", "Qwen/Qwen3.6-35B-A3B-FP8")
 HTTP_TIMEOUT_S = 420
+SLOW_REPLY_S = 90  # Antwortzeit darüber: Gateway entlasten (Vorgabe control: Doc Blue und 3CX-Agent haben Vorrang)
 # Das Gateway erlaubt höchstens 8192 Ausgabetoken je Anfrage (HTTP 422 darüber). Die Denkphase des Modells zählt mit;
 # deshalb wird sie mit dem Top-Level-Feld enable_thinking=false abgeschaltet (Messung 14.10.2026: 323 statt 4000+ Token,
 # 4 s statt 40 s). Ohne diese Abschaltung wurden die Entwürfe der ersten zehn Themen abgeschnitten.
@@ -101,8 +102,11 @@ def ask_model(q: Queue, worker: str, prompt: str, max_tokens: int) -> str:
         slot = q.acquire_call_slot(worker)
         try:
             req = urllib.request.Request(f"{GATEWAY}/chat/completions", data=body, headers=headers)
+            t_req = time.time()
             with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT_S) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
+            if time.time() - t_req > SLOW_REPLY_S:
+                q.slow_down()
             choice = data["choices"][0]
             text = (choice["message"].get("content") or "").strip()
             text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
@@ -113,6 +117,8 @@ def ask_model(q: Queue, worker: str, prompt: str, max_tokens: int) -> str:
             return text
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError) as exc:
             last = exc
+            if not isinstance(exc, urllib.error.HTTPError) or exc.code == 429 or exc.code >= 500:
+                q.slow_down()
             time.sleep(20 * (attempt + 1))
         finally:
             q.release_call_slot(slot, worker)
@@ -493,6 +499,10 @@ def worker_loop(args) -> int:
         if (state / "pipeline.pause").exists():
             time.sleep(60)
             continue
+        made_24h = q.db.execute("SELECT COUNT(*) FROM events WHERE kind='ready' AND t > ?", (time.time() - 86400,)).fetchone()[0]
+        if made_24h >= args.max_per_day:  # Tagesgrenze (Absprache: 300 bis 500 Artikel je 24 h)
+            time.sleep(300)
+            continue
         ready_backlog = q.counts().get("ready", 0)
         if ready_backlog >= args.max_ready:  # Veröffentlichung hinkt hinterher: nicht weiter anhäufen
             time.sleep(120)
@@ -534,6 +544,7 @@ def main() -> int:
     ap.add_argument("--name", default="w1")
     ap.add_argument("--kinds", default="disease,drug")
     ap.add_argument("--max-ready", type=int, default=400, help="Pause, wenn so viele fertige Artikel auf Veröffentlichung warten")
+    ap.add_argument("--max-per-day", type=int, default=500, help="höchstens so viele fertige Artikel je 24 Stunden (alle Arbeiter zusammen)")
     ap.add_argument("--once", action="store_true")
     return worker_loop(ap.parse_args())
 
