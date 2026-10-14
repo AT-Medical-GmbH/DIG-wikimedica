@@ -314,3 +314,17 @@ def test_slow_down_limits_to_one_request_per_minute(tmp_path: Path) -> None:
     inflight = q.db.execute("SELECT COUNT(*) FROM calls WHERE end IS NULL").fetchone()[0]
     assert inflight == 1 and float(q.db.execute("SELECT v FROM meta WHERE k='slow_until'").fetchone()[0]) > t
     q.release_call_slot(s1, "a")
+
+
+def test_settle_marks_published_and_failed(tmp_path: Path) -> None:
+    import wm_publisher
+    q = wm_common.Queue(tmp_path)
+    q.add_items([{"id": "WM-DIS-9001", "kind": "disease", "title": "ICD-Titel", "slug": "icd-titel", "extra": {"titel_de": "Gebräuchlicher Titel"}},
+                 {"id": "WM-DIS-9002", "kind": "disease", "title": "Zweites Thema", "slug": "zweites-thema"},
+                 {"id": "WM-DIS-9003", "kind": "disease", "title": "Drittes Thema", "slug": "drittes-thema"}])
+    for i in ("WM-DIS-9001", "WM-DIS-9002", "WM-DIS-9003"):
+        q.set_status(i, "merged")
+    wm_publisher.settle(q, {"Gebräuchlicher Titel", "Zweites Thema"}, {"drittes-thema": "Seite existiert bereits"}, "1")
+    st = {r["id"]: (r["status"], r["error"]) for r in q.db.execute("SELECT id,status,error FROM items")}
+    assert st["WM-DIS-9001"][0] == "published" and st["WM-DIS-9002"][0] == "published"
+    assert st["WM-DIS-9003"][0] == "review" and "existiert bereits" in st["WM-DIS-9003"][1]
