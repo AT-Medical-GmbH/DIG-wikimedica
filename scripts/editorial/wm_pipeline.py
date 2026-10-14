@@ -492,6 +492,8 @@ def worker_loop(args) -> int:
     name = args.name
     log(f"Arbeiter {name} gestartet (Modell {MODEL}, Arten {kinds})")
     failures = 0
+    with q.tx() as db:  # eigene, beim letzten Beenden hängengebliebene Beanspruchungen freigeben
+        db.execute("UPDATE items SET status='planned', claimed_by=NULL, attempts=MAX(attempts-1,0) WHERE status='claimed' AND claimed_by=?", (name,))
     while True:
         if (state / "pipeline.stop").exists():
             log("pipeline.stop vorhanden, Arbeiter beendet")
