@@ -494,6 +494,7 @@ def worker_loop(args) -> int:
     failures = 0
     with q.tx() as db:  # eigene, beim letzten Beenden hängengebliebene Beanspruchungen freigeben
         db.execute("UPDATE items SET status='planned', claimed_by=NULL, attempts=MAX(attempts-1,0) WHERE status='claimed' AND claimed_by=?", (name,))
+        db.execute("DELETE FROM calls WHERE end IS NULL AND worker=?", (name,))  # offene Anfragen des beendeten Prozesses
     while True:
         if (state / "pipeline.stop").exists():
             log("pipeline.stop vorhanden, Arbeiter beendet")

@@ -24,7 +24,7 @@ from pathlib import Path
 DEFAULT_STATE_DIR = Path("/var/lib/wikimedica-editorial-agent")
 DB_NAME = "pipeline.sqlite"
 STALE_CLAIM_S = 45 * 60
-STALE_INFLIGHT_S = 25 * 60
+STALE_INFLIGHT_S = 10 * 60  # längste Anfrage: HTTP-Zeitgrenze 420 s
 
 # Harte Gateway-Grenzen (Absprache mit claude-code-atinfra-control, siehe Atlas)
 MAX_REQUESTS_PER_MIN = int(os.environ.get("WM_MAX_REQUESTS_PER_MIN", "4"))
