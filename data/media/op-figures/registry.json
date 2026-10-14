@@ -639,6 +639,82 @@
     }
    ],
    "approved": true
+  },
+  "herztransplantation": {
+   "approved": true,
+   "template": "torso",
+   "title": "Herztransplantation: Zugang",
+   "caption": "Üblicher Zugang ist die mediane Sternotomie.",
+   "elements": [
+    {
+     "type": "line",
+     "points": [
+      "jugulum",
+      "xiphoid"
+     ],
+     "label": "Mediane Sternotomie\n(Hautschnitt über\ndem Brustbein)",
+     "side": "right",
+     "offset": [
+      0,
+      6
+     ]
+    }
+   ]
+  },
+  "lebertransplantation": {
+   "approved": true,
+   "template": "torso",
+   "title": "Lebertransplantation: Zugang",
+   "caption": "Üblich ist ein beidseitiger Rippenbogenrandschnitt mit medianer Verlängerung zum Schwertfortsatz; Varianten (z. B. J-förmiger Schnitt) sind möglich.",
+   "elements": [
+    {
+     "type": "curve",
+     "points": [
+      [
+       300,
+       296
+      ],
+      [
+       208,
+       356
+      ]
+     ],
+     "bulge": -22,
+     "label": "Beidseitiger Rippen-\nbogenrandschnitt",
+     "side": "left",
+     "label_y": 330
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       300,
+       296
+      ],
+      [
+       392,
+       356
+      ]
+     ],
+     "bulge": -22,
+     "label": "mit medianer\nVerlängerung",
+     "side": "right",
+     "label_y": 330
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       300,
+       268
+      ],
+      [
+       300,
+       296
+      ]
+     ]
+    }
+   ]
   }
  }
 }

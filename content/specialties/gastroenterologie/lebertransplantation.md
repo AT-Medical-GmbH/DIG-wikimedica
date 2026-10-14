@@ -37,5 +37,11 @@ Die Lebertransplantation ist für ausgewählte Personen mit fortgeschrittener Le
 Frühe chirurgische Risiken und langfristige Risiken durch Abstoßung, Infektionen, Rezidive oder Immunsuppression erfordern eine lebenslange Nachsorge im Transplantationszentrum.
 ## Patienteninformation
 Eine Lebertransplantation ist ein komplexer Behandlungsweg mit gründlicher Voruntersuchung, Wartezeit und dauerhafter Nachbetreuung.
+## Schematische Darstellung
+
+![Lebertransplantation: Zugang](../../../media/op/lebertransplantation-schema.svg)
+
+*Üblich ist ein beidseitiger Rippenbogenrandschnitt mit medianer Verlängerung zum Schwertfortsatz; Varianten (z. B. J-förmiger Schnitt) sind möglich. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
+
 ## Literatur
 1. EASL. *Clinical Practice Guidelines on liver transplantation.* 2024. PMID: 39487043. https://pubmed.ncbi.nlm.nih.gov/39487043/
