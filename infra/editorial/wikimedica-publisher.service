@@ -1,0 +1,19 @@
+[Unit]
+Description=WikiMedica Redaktionspipeline: Sammel-PR, Merge und Live-Gang der geprüften Artikel
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+Group=wikieditorial
+UMask=0002
+Environment=HOME=/root
+WorkingDirectory=/var/lib/wikimedica-publisher
+ExecStartPre=/usr/bin/install -d -m 0755 /var/lib/wikimedica-publisher
+ExecStart=/usr/bin/python3 -I /opt/wikimedica-editorial-agent/scripts/editorial/wm_publisher.py --state-dir /var/lib/wikimedica-editorial-agent --workdir /var/lib/wikimedica-publisher
+TimeoutStartSec=50min
+Nice=10
+CPUQuota=50%
+NoNewPrivileges=yes
+PrivateTmp=yes
