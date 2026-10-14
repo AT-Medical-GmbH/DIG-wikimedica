@@ -28,7 +28,7 @@ EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 TOOL = "wikimedica-editorial"
 EMAIL = "redaktion@at-medical.de"
 _last = 0.0
-_MIN_GAP = 0.4 if not os.environ.get("NCBI_API_KEY") else 0.12
+_MIN_GAP = 0.7 if not os.environ.get("NCBI_API_KEY") else 0.12
 RETRACTED = {"Retracted Publication", "Retraction of Publication"}
 
 

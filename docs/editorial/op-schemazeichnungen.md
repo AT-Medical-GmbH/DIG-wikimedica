@@ -19,11 +19,11 @@ Stand: 14.10.2026. Auftrag Andreas Tremml: Operationsartikel erhalten grobe, ein
 
 Elementtypen: `line`, `curve`, `port`, `cross` (Punktionsstelle), `bracket` (Bereich entlang der Mittellinie), je mit Beschriftung.
 
-## Aktueller Stand (17 Artikel)
+## Aktueller Stand (19 Artikel)
 
-Herz- und Gefäßchirurgie: Koronararterien-Bypassoperation, Aortenklappenersatz, Mitralklappenrekonstruktion, TAVI, EVAR, TEVAR. Gynäkologie: Kaiserschnitt, Hysterektomie, Myomektomie, Oophorektomie. Intensivmedizin: ECMO-Kanülierung, Tracheotomie. Orthopädie: Arthroskopie, Knietotalendoprothese. Viszeralchirurgie (WM-OP-0001 bis 0010): Appendektomie, Cholezystektomie, Leistenhernienoperation.
+Herz- und Gefäßchirurgie: Koronararterien-Bypassoperation, Aortenklappenersatz, Mitralklappenrekonstruktion, TAVI, EVAR, TEVAR. Gynäkologie: Kaiserschnitt, Hysterektomie, Myomektomie, Oophorektomie. Intensivmedizin: ECMO-Kanülierung, Tracheotomie. Orthopädie: Arthroskopie, Knietotalendoprothese. Transplantation: Herztransplantation, Lebertransplantation. Viszeralchirurgie (WM-OP-0001 bis 0010): Appendektomie, Cholezystektomie, Leistenhernienoperation.
 
-Bewusst ohne Zeichnung, weil das Schema ohne fachliche Prüfung unsicher wäre oder eine andere Vorlage braucht (seitlicher Thorax, Extremitäten, Kopf, Auge, Mundhöhle, Geräteplatzierung): Lobektomie, Pneumonektomie, VATS, Thoraxdrainage, Pleurodese, Dialyseshuntanlage, Varizenoperation, Hüft- und Schulterendoprothese, Karpaltunnelspaltung, Kraniotomie und die übrigen Neurochirurgie-, Augen- und HNO-Artikel, Transplantationen, Prostatektomie, Nephrektomie, Zystektomie.
+Bewusst ohne Zeichnung, weil das Schema ohne fachliche Prüfung unsicher wäre oder eine andere Vorlage braucht (seitlicher Thorax, Extremitäten, Kopf, Auge, Mundhöhle, Geräteplatzierung): Lobektomie, Pneumonektomie, VATS, Thoraxdrainage, Pleurodese, Dialyseshuntanlage, Varizenoperation, Hüft- und Schulterendoprothese, Karpaltunnelspaltung, Kraniotomie und die übrigen Neurochirurgie-, Augen- und HNO-Artikel, Lungen- und Nierentransplantation, Prostatektomie, Nephrektomie, Zystektomie.
 
 ## Ablauf für neue Operationsartikel
 
