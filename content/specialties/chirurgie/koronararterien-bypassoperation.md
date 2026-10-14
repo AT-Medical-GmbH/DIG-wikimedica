@@ -49,6 +49,11 @@ Vor dem Eingriff werden koronarangiographische und klinische Befunde, operative 
 
 Eine Bypassoperation ist eine größere Herzoperation. Nutzen, Alternativen und persönliche Risiken müssen vorab in einem Herzteam besprochen werden.
 
+## Schematische Darstellung
+
+![Koronararterien-Bypassoperation: Zugang](../../../media/op/koronararterien-bypassoperation-schema.svg)
+
+*Üblicher Zugang bei offener Herzoperation ist die mediane Sternotomie. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 
 1. Sandner S, et al. *Intra-operative and post-operative management of conduits for coronary artery bypass grafting.* Eur J Cardiothorac Surg. 2024;66:ezae400. PMID: 39656609. https://pubmed.ncbi.nlm.nih.gov/39656609/

@@ -49,6 +49,7 @@ def prepare_repo(work: Path) -> Path:
         sh(["git", "config", "user.name", "WikiMedica-Redaktion"], repo)
         sh(["git", "config", "user.email", "redaktion@at-medical.de"], repo)
     sh(["git", "fetch", "-q", "--prune", "origin", "main"], repo)
+    sh(["git", "reset", "-q", "--hard"], repo)
     sh(["git", "checkout", "-q", "-B", "main", "origin/main"], repo)
     sh(["git", "clean", "-fdq"], repo)
     return repo

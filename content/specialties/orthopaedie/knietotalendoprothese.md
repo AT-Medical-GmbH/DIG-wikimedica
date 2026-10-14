@@ -39,5 +39,10 @@ Entscheidend sind nicht allein Röntgenbefunde, sondern Schmerzen, Funktionsverl
 Mögliche Komplikationen sind Infektion, Thromboembolie, Bewegungseinschränkung, persistierende Schmerzen, Instabilität, Fraktur und spätere Lockerung. Nachbehandlung und Rehabilitation beeinflussen den funktionellen Verlauf wesentlich.
 ## Patienteninformation
 Ein künstliches Kniegelenk kann Beweglichkeit und Schmerzen verbessern, garantiert aber keine vollständige Beschwerdefreiheit. Die Entscheidung braucht eine persönliche Nutzen-Risiko-Abwägung.
+## Schematische Darstellung
+
+![Knietotalendoprothese: Zugang](../../../media/op/knietotalendoprothese-schema.svg)
+
+*Üblich ist eine mediane Längsinzision der Haut; die Gelenkeröffnung erfolgt häufig medial parapatellar. Andere Zugänge sind möglich. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 1. Goodman SM, et al. *2023 ACR/AAHKS Clinical Practice Guideline for the Optimal Timing of Elective Hip or Knee Arthroplasty.* Arthritis Care Res. 2023. PMID: 37743767. https://pubmed.ncbi.nlm.nih.gov/37743767/

@@ -39,6 +39,11 @@ Thorakale Aortenerkrankungen benötigen spezialisierte Bildgebung und interdiszi
 Die Planung basiert auf detaillierter Gefäßbildgebung. Risiken umfassen Schlaganfall, Rückenmarkischämie, Endoleak, Gefäßkomplikationen und Reinterventionen. Keine technische Durchführung wird beschrieben.
 ## Patienteninformation
 Nach TEVAR sind bildgebende Langzeitkontrollen erforderlich.
+## Schematische Darstellung
+
+![TEVAR: femoraler Zugang](../../../media/op/tevar-schema.svg)
+
+*Üblich ist ein femoraler Zugang; je nach Gefäßanatomie werden auch andere Zugangswege genutzt. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 1. Isselbacher EM, et al. *2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease.* Circulation. 2022;146:e334-e482. PMID: 36322642. https://pubmed.ncbi.nlm.nih.gov/36322642/
 2. Society for Vascular Surgery. *Clinical practice guidelines of TEVAR for descending thoracic aortic aneurysms.* J Vasc Surg. 2021;73:55S-83S. PMID: 32628988. https://pubmed.ncbi.nlm.nih.gov/32628988/

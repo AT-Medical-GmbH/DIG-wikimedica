@@ -254,3 +254,52 @@ def test_proofread_rejects_changed_structure(monkeypatch) -> None:
     monkeypatch.setattr(pipe, "ask_model", lambda *a, **k: "## Übersicht\n\nGicht ist eine Arthritis.[2] Sie betrifft 3 Prozent.[1]")
     fixed, changed = pipe.proofread(None, "w", body)
     assert not changed  # vertauschte Quellennummern -> verworfen
+
+
+# ---------------------------------------------------------------------------
+# Schemazeichnungen
+# ---------------------------------------------------------------------------
+def test_md2wiki_renders_media_figures_as_file_links() -> None:
+    sys.path.insert(0, str(REPO / "scripts" / "publishing"))
+    import md2wiki
+    out = md2wiki.inline("![Zugang: Schema](../../../media/op/tavi-schema.svg)", md2wiki.ConvertContext(title="T"))
+    assert out == "[[File:Tavi-schema.svg|thumb|center|420px|alt=Zugang: Schema|Zugang: Schema]]"
+    ctx = md2wiki.ConvertContext(title="T")
+    assert "[[File" not in md2wiki.inline("![x](https://evil.example/a.svg)", ctx) and ctx.warnings
+    assert md2wiki.media_file_name("../../../media/op/../../etc/x.svg") is None
+
+
+def test_op_figures_registry_and_svgs(tmp_path: Path) -> None:
+    import xml.etree.ElementTree as ET
+    import wm_op_figures as fig
+    reg = fig.load_registry()
+    assert len(reg["articles"]) >= 15
+    arts = fig.op_articles()
+    for slug, entry in reg["articles"].items():
+        assert entry["template"] in fig.TEMPLATES, slug
+        if not entry.get("approved"):
+            continue
+        assert slug in arts, f"Artikel fehlt: {slug}"
+        assert entry["title"] and entry["caption"] and entry["elements"]
+        svg = fig.build_svg(slug, entry)
+        root = ET.fromstring(svg)  # wohlgeformt
+        assert root.tag.endswith("svg") and "Schematische Darstellung" in svg
+        assert (REPO / "media" / "op" / f"{slug}-schema.svg").read_text(encoding="utf-8") == svg, f"{slug}: build nicht ausgeführt"
+        text = arts[slug].read_text(encoding="utf-8")
+        assert f"media/op/{slug}-schema.svg" in text, f"{slug}: Abschnitt fehlt (insert nicht ausgeführt)"
+
+
+def test_unapproved_registry_entries_produce_no_figure() -> None:
+    import wm_op_figures as fig
+    reg = fig.load_registry()
+    reg["articles"]["x-test"] = {"approved": False, "template": "torso", "title": "t", "caption": "c", "elements": []}
+    approved = [s for s, e in reg["articles"].items() if e.get("approved")]
+    assert "x-test" not in approved
+
+
+def test_importer_collects_only_repo_media(tmp_path: Path) -> None:
+    sys.path.insert(0, str(REPO / "scripts" / "publishing"))
+    import import_merged_beta_local as loc
+    art = REPO / "content/specialties/chirurgie/tavi.md"
+    names = [f.name for f in loc.figure_files(art)]
+    assert names == ["tavi-schema.svg"]

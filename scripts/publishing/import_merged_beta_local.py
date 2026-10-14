@@ -19,6 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts" / "publishing"))
 from import_merged_beta import build_page, git_revision, MARKER_RE
+import md2wiki
 
 CONTAINER = "wikimedica_app"
 EDITOR = "Andreas.Tremml"
@@ -38,6 +39,38 @@ def execute(script: str, *args: str, input_text: str | None = None) -> subproces
         timeout=90,
     )
     return result
+
+
+FIGURE_RE = re.compile(r"!\[[^\]]*\]\(([^)\s]+)\)")
+
+
+def figure_files(path: Path) -> list[Path]:
+    """Eigene Zeichnungen (media/**/*.svg), die der Artikel einbindet und die ins Wiki hochgeladen werden müssen."""
+    out: list[Path] = []
+    for url in FIGURE_RE.findall(path.read_text(encoding="utf-8")):
+        if md2wiki.media_file_name(url):
+            f = (path.parent / url).resolve()
+            if f.is_file() and (ROOT / "media").resolve() in f.parents and f not in out:
+                out.append(f)
+    return out
+
+
+def upload_figures(files: list[Path]) -> None:
+    """Lädt SVG-Zeichnungen über maintenance/importImages hoch (idempotent: --skip-dupes, --overwrite bei geändertem Inhalt)."""
+    if not files:
+        return
+    tmp = f"/tmp/wm-figs-{os.getpid()}"
+    subprocess.run(["docker", "exec", CONTAINER, "mkdir", "-p", tmp], check=True, capture_output=True, timeout=30)
+    try:
+        for f in files:
+            subprocess.run(["docker", "cp", str(f), f"{CONTAINER}:{tmp}/{f.name}"], check=True, capture_output=True, timeout=60)
+        result = execute("importImages", "--extensions", "svg", "--overwrite", "--skip-dupes", "--user", EDITOR,
+                         "--comment", "WikiMedica: Schemazeichnung aus GitHub main (selbst erzeugt)", tmp)
+        output = decode(result.stdout) + decode(result.stderr)
+        if result.returncode != 0 or "Found:" not in output:
+            raise RuntimeError(f"MediaWiki importImages failed ({result.returncode}): {output[:400]}")
+    finally:
+        subprocess.run(["docker", "exec", CONTAINER, "rm", "-r", "--", tmp], capture_output=True, timeout=30)
 
 
 def decode(blob: bytes) -> str:
@@ -77,6 +110,8 @@ def import_article(path: Path, revision: str) -> dict:
         if normalize(previous) == normalize(target):
             return {"article": title, "result": "unchanged", "verified": True}
 
+    figures = figure_files(path)
+    upload_figures(figures)
     options = ["--user", EDITOR, "--summary", "WikiMedica BETA: sync from merged GitHub main"]
     options.append("--nocreate" if previous is not None else "--createonly")
     response = execute("edit", *options, title, input_text=target)
@@ -92,6 +127,7 @@ def import_article(path: Path, revision: str) -> dict:
         "verified": True,
         "wiki": "production",
         "commit": revision,
+        **({"figures": [f.name for f in figures]} if figures else {}),
     }
 
 

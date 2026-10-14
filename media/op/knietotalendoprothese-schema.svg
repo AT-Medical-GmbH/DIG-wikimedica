@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 790" width="680" height="790" role="img" aria-labelledby="t d">
+<title id="t">Knietotalendoprothese: Zugang</title><desc id="d">Üblich ist eine mediane Längsinzision der Haut; die Gelenkeröffnung erfolgt häufig medial parapatellar. Andere Zugänge sind möglich.</desc>
+<rect width="680" height="790" fill="#ffffff"/>
+<rect x="1" y="1" width="678" height="788" fill="none" stroke="#d5d8da" stroke-width="2" rx="8"/>
+<text x="340.0" y="28.0" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#26323a" text-anchor="middle"><tspan x="340.0" dy="0">Knietotalendoprothese: Zugang</tspan></text>
+<text x="340.0" y="47.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#8a8a8a" text-anchor="middle"><tspan x="340.0" dy="0">Schema, rechtes Knie, Ansicht von vorn</tspan></text>
+<g transform="translate(40,62)">
+<path d="M214,40 C216,140 224,230 232,300 C236,350 242,420 254,520 C256,560 258,600 260,650 L340,650 C342,600 344,560 346,520 C358,420 364,350 368,300 C376,230 384,140 386,40 Z" fill="#f3ece4" stroke="#6b6b6b" stroke-width="2.4" stroke-linejoin="round"/>
+<ellipse cx="300" cy="292" rx="30" ry="34" fill="#ece3d8" stroke="#8a8a8a" stroke-width="2.4"/>
+<path d="M300,326 L300,384" stroke="#8a8a8a" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+<ellipse cx="300" cy="392" rx="12" ry="8" fill="#e0d6ca" stroke="#8a8a8a" stroke-width="2"/>
+<path d="M234,340 L366,340" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="338.0" y="288.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="338.0" dy="0">Patella</tspan></text>
+<text x="318.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="318.0" dy="0">Patellarsehne</tspan></text>
+<text x="320.0" y="396.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="320.0" dy="0">Tuberositas tibiae</tspan></text>
+<text x="230.0" y="336.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="end"><tspan x="230.0" dy="0">Gelenkspalt</tspan></text>
+<path d="M300.0,216.0 L300.0,392.0" fill="none" stroke="#b3261e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M322.0,240.0 L318.0,372.0" fill="none" stroke="#d9822b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9 6"/>
+</g>
+<path d="M183.6,308.0 L340.0,366.0" stroke="#b3261e" stroke-width="1.2" fill="none" opacity=".85"/>
+<text x="16.0" y="312.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#b3261e" text-anchor="start"><tspan x="16.0" dy="0">Mediane Haut-</tspan><tspan x="16.0" dy="16">inzision (oberhalb</tspan><tspan x="16.0" dy="16">der Patella bis zur</tspan><tspan x="16.0" dy="16">Tuberositas tibiae)</tspan></text>
+<path d="M479.6,308.0 L360.0,368.0" stroke="#d9822b" stroke-width="1.2" fill="none" opacity=".85"/>
+<text x="664.0" y="312.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#d9822b" text-anchor="end"><tspan x="664.0" dy="0">Mediale parapatellare</tspan><tspan x="664.0" dy="16">Arthrotomie</tspan><tspan x="664.0" dy="16">(tiefe Schicht)</tspan></text>
+<text x="190.0" y="738.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="end"><tspan x="190.0" dy="0">lateral</tspan></text><text x="490.0" y="738.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="490.0" dy="0">medial</tspan></text>
+<text x="340.0" y="760.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#555555" text-anchor="middle"><tspan x="340.0" dy="0">Schematische Darstellung, nicht maßstabsgetreu.</tspan></text>
+<text x="340.0" y="775.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#555555" text-anchor="middle"><tspan x="340.0" dy="0">Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.</tspan></text>
+</svg>

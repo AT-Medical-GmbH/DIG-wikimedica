@@ -49,6 +49,11 @@ Die Planung beruht vor allem auf qualifizierter Echokardiographie und klinischer
 
 Die persönliche Aufklärung sollte die Ursache der Klappenerkrankung, mögliche Alternativen und die langfristige Kontrolle nach dem Eingriff umfassen.
 
+## Schematische Darstellung
+
+![Mitralklappenrekonstruktion: Zugänge](../../../media/op/mitralklappenrekonstruktion-schema.svg)
+
+*Üblich sind die mediane Sternotomie und, je nach Zentrum, die rechtsseitige anterolaterale Minithorakotomie. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 
 1. Praz F, et al. *2025 ESC/EACTS Guidelines for the management of valvular heart disease.* Eur Heart J. 2025;46:4635-4736. PMID: 40878295. https://pubmed.ncbi.nlm.nih.gov/40878295/

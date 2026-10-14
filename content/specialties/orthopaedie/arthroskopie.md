@@ -39,6 +39,11 @@ Bei degenerativen Meniskusläsionen sollte eine arthroskopische Teilmeniskektomi
 Mögliche Komplikationen umfassen Infektion, Thrombose, Blutung, Nerven- oder Gefäßverletzung, persistierende Beschwerden und eine erforderliche Folgebehandlung. Dieser Artikel beschreibt keine Arthroskopietechnik.
 ## Patienteninformation
 Eine Gelenkspiegelung kann sinnvoll sein, aber nicht jeder auffällige Befund muss operiert werden. Fragen Sie nach Ziel, Alternativen und dem erwarteten Nutzen in Ihrem individuellen Fall.
+## Schematische Darstellung
+
+![Kniegelenkarthroskopie: Standardportale](../../../media/op/arthroskopie-schema.svg)
+
+*Die Standardportale liegen beidseits der Patellarsehne in Höhe des Gelenkspalts; weitere Portale werden je nach Fragestellung ergänzt. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 1. Beaufils P, et al. *Surgical Management of Degenerative Meniscus Lesions: The 2016 ESSKA Meniscus Consensus.* Joints. 2017;5:59-69. PMID: 29114633. https://pubmed.ncbi.nlm.nih.gov/29114633/
 2. Abram SGF, et al. *Arthroscopic meniscal surgery: a national society treatment guideline and consensus statement.* Bone Joint J. 2019;101-B:652-659. PMID: 31154847. https://pubmed.ncbi.nlm.nih.gov/31154847/

@@ -357,6 +357,9 @@ def build_trade(drugs: list[dict], ema: list[dict], existing: dict) -> list[dict
         slug = slugify(name)
         if not slug or slug in seen or slug in existing["slugs"] or slug == tgt[1]:
             continue
+        inn = re.split(r"[,/]", p["inn"])[0].strip().lower()
+        if inn and name.lower().startswith(inn.split()[0]):
+            continue  # Generikum mit Wirkstoffnamen im Produktnamen: kein eigenständiger Handelsname
         seen.add(slug)
         items.append({"code": p["product"], "title": name, "slug": slug, "specialty": "Pharmakologie", "priority": 1.0,
                       "target_title": tgt[0], "target_slug": tgt[1], "atc": p["atc"], "covered_by": None})

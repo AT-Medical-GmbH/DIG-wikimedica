@@ -39,6 +39,11 @@ Die Wahl eines hysteroskopischen, laparoskopischen, robotisch assistierten oder 
 Zu den möglichen Risiken zählen Blutung, Infektion, Verwachsungen, erneutes Myomwachstum und in Einzelfällen Folgen für künftige Schwangerschaften. Eine individuelle, fertilitätsbezogene Beratung ist erforderlich.
 ## Patienteninformation
 Die Entfernung von Myomen erhält die Gebärmutter, verhindert aber nicht zwingend ein erneutes Auftreten. Welche Behandlung sinnvoll ist, wird nach Beschwerden, Befunden und persönlichen Zielen entschieden.
+## Schematische Darstellung
+
+![Myomektomie: Zugänge](../../../media/op/myomektomie-schema.svg)
+
+*Laparoskopisch: Optikport am Nabel, Arbeitsports im Unterbauch (Anordnung variiert). Offener Zugang: Pfannenstiel-Querschnitt. Die Wahl hängt von Größe und Lage der Myome ab; hysteroskopische Verfahren sind nicht dargestellt. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 1. Saridogan E, et al. *ESGE Good Practice Recommendations: abdominal myomectomy.* 2024. PMID: 39357857. https://pubmed.ncbi.nlm.nih.gov/39357857/
 2. Clark TJ, et al. *ESGE Good Practice Recommendations: hysteroscopic myomectomy.* 2024. PMID: 39718323. https://pubmed.ncbi.nlm.nih.gov/39718323/

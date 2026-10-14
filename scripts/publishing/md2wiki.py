@@ -173,8 +173,13 @@ def inline(text: str, ctx: ConvertContext) -> str:
             out.append("<code>" + esc(m.group("codetext").strip()) + "</code>")
         elif m.group("image"):
             alt = m.group("alt").strip()
-            ctx.warnings.append(f"image '{m.group('imgurl')}' replaced by its alternative text")
-            out.append(esc(alt))
+            figure = media_file_name(m.group("imgurl"))
+            if figure:  # eigene Schemazeichnung aus media/ (wird vom Importer hochgeladen)
+                caption = esc(alt).replace("|", "/")
+                out.append(f"[[File:{figure}|thumb|center|420px|alt={caption}|{caption}]]")
+            else:
+                ctx.warnings.append(f"image '{m.group('imgurl')}' replaced by its alternative text")
+                out.append(esc(alt))
         elif m.group("link"):
             out.append(_link(m.group("ltext"), m.group("lurl"), ctx))
         elif m.group("auto"):
@@ -189,6 +194,15 @@ def inline(text: str, ctx: ConvertContext) -> str:
             out.append("''" + inline(inner, ctx) + "''")
     out.append(esc(text[pos:]))
     return "".join(out)
+
+
+MEDIA_URL_RE = re.compile(r"^(?:\.\./)*media/(?:[a-z0-9-]+/)*([a-z0-9][a-z0-9-]*\.svg)$")
+
+
+def media_file_name(url: str) -> str | None:
+    """Dateiname einer eigenen Zeichnung unter media/ (nur kleingeschriebene SVG-Dateien), sonst None."""
+    m = MEDIA_URL_RE.match(url)
+    return (m.group(1)[0].upper() + m.group(1)[1:]) if m else None
 
 
 def _link(label: str, url: str, ctx: ConvertContext) -> str:

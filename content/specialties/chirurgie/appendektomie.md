@@ -53,6 +53,11 @@ Offene und laparoskopische Zugangswege werden je nach Befund und Expertise einge
 
 Akute oder zunehmende Bauchschmerzen, Fieber, Erbrechen, Abwehrspannung oder Kreislaufbeschwerden müssen zeitnah ärztlich abgeklärt werden. Ob eine Operation erforderlich ist, lässt sich nicht zuverlässig anhand einzelner Symptome entscheiden.
 
+## Schematische Darstellung
+
+![Appendektomie: Zugänge](../../../media/op/appendektomie-schema.svg)
+
+*Offen: Wechselschnitt im rechten Unterbauch im Bereich des McBurney-Punktes. Laparoskopisch: Optikport am Nabel, häufig zwei weitere Ports im Unterbauch (Anordnung variiert). Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 
 1. Di Saverio S, et al. *Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines.* World J Emerg Surg. 2020;15:27. PMID: 32295644. https://pubmed.ncbi.nlm.nih.gov/32295644/

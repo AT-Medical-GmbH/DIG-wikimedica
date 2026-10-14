@@ -53,6 +53,11 @@ Mögliche Komplikationen umfassen Blutung, Hämatom, Serom, Infektion, Verletzun
 
 Eine neue oder schmerzhafte Leistenwölbung sollte ärztlich untersucht werden. Bei starken Schmerzen, einer nicht zurückdrückbaren Schwellung, Erbrechen oder Kreislaufproblemen ist eine dringliche Abklärung erforderlich.
 
+## Schematische Darstellung
+
+![Leistenhernienoperation: offener Zugang](../../../media/op/hernienoperation-leistenhernie-schema.svg)
+
+*Offen: Leistenschnitt oberhalb und parallel zum Leistenband. Laparoskopische Verfahren (TAPP, TEP) nutzen Ports im Unterbauch und sind nicht dargestellt. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 
 1. Stabilini C, et al. *Update of the international HerniaSurge guidelines for groin hernia management.* BJS Open. 2023;7:zrad080. PMID: 37862616. https://pubmed.ncbi.nlm.nih.gov/37862616/

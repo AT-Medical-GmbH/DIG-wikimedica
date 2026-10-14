@@ -33,11 +33,11 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import wm_research as research  # noqa: E402
-from wm_common import DEFAULT_STATE_DIR, Queue, log, norm_title, slugify  # noqa: E402
+from wm_common import DEFAULT_STATE_DIR, Queue, log, norm_title, now_iso, slugify  # noqa: E402
 
 GATEWAY = os.environ.get("AT_AI_BASE_URL", "http://10.90.0.1:8188/v1")
 MODEL = os.environ.get("AT_AI_MODEL", "Qwen/Qwen3.6-35B-A3B-FP8")
-HTTP_TIMEOUT_S = 1500
+HTTP_TIMEOUT_S = 420
 # Das Gateway erlaubt höchstens 8192 Ausgabetoken je Anfrage (HTTP 422 darüber). Die Denkphase des Modells zählt mit;
 # deshalb wird sie mit dem Top-Level-Feld enable_thinking=false abgeschaltet (Messung 14.10.2026: 323 statt 4000+ Token,
 # 4 s statt 40 s). Ohne diese Abschaltung wurden die Entwürfe der ersten zehn Themen abgeschnitten.
@@ -387,6 +387,7 @@ def proofread(q: Queue, worker: str, body: str) -> tuple[str, bool]:
 
 
 def process(q: Queue, worker: str, item, out_dir: Path, review_dir: Path, state_dir: Path) -> None:
+    item = dict(item)
     kind = item["kind"]
     iid = item["id"]
     extra = json.loads(item["extra"] or "{}")
@@ -402,9 +403,9 @@ def process(q: Queue, worker: str, item, out_dir: Path, review_dir: Path, state_
             q.set_status(iid, "duplicate", f"Artikel '{titel}' existiert bereits")
             q.event(iid, "duplicate", titel)
             return
-        item = {**dict(item), "title": titel}
+        item = {**item, "title": titel}
         extra["icd_title"] = extra.get("icd_title") or ""
-    recs = research.gather(term)
+    recs = research.gather(term, kind)
     if len(recs) < 4:  # zweiter Versuch mit allgemeinerem Begriff
         prompt = (f"Der PubMed-Suchbegriff '{term}' für das Thema '{item['title']}' liefert zu wenige Übersichtsarbeiten. "
                   "Nenne einen allgemeineren, gebräuchlichen englischen PubMed-Suchbegriff (MeSH). Antworte NUR mit JSON: {\"term\":\"...\"}")
@@ -413,7 +414,7 @@ def process(q: Queue, worker: str, item, out_dir: Path, review_dir: Path, state_
         except (ValueError, Truncated):
             term2 = ""
         if len(term2) >= 3 and term2.lower() != term.lower():
-            recs2 = research.gather(term2)
+            recs2 = research.gather(term2, kind)
             if len(recs2) > len(recs):
                 recs, term = recs2, term2
     if len(recs) < 4:
@@ -484,6 +485,7 @@ def worker_loop(args) -> int:
     kinds = args.kinds.split(",")
     name = args.name
     log(f"Arbeiter {name} gestartet (Modell {MODEL}, Arten {kinds})")
+    failures = 0
     while True:
         if (state / "pipeline.stop").exists():
             log("pipeline.stop vorhanden, Arbeiter beendet")
@@ -504,6 +506,7 @@ def worker_loop(args) -> int:
             continue
         try:
             process(q, name, item, out_dir, review_dir, state)
+            failures = 0
         except Truncated as exc:
             q.release(item["id"], f"Truncated: {exc}")
             q.event(item["id"], "error", f"Truncated: {exc}")
@@ -514,6 +517,12 @@ def worker_loop(args) -> int:
         except Exception:  # unerwartet: nicht den ganzen Dienst verlieren
             q.release(item["id"], "unerwartet: " + traceback.format_exc()[-300:])
             log(traceback.format_exc())
+        if (q.db.execute("SELECT status FROM items WHERE id=?", (item["id"],)).fetchone() or ["x"])[0] in ("planned", "failed"):
+            failures += 1
+        if failures >= 6:  # systematischer Fehler (Gateway, Netz, Programmfehler): nicht die Warteschlange verbrennen
+            (state / "pipeline.pause").write_text(f"automatisch pausiert {now_iso()}: 6 Fehler in Folge\n")
+            log("6 Fehler in Folge: pipeline.pause angelegt")
+            failures = 0
         if args.once:
             return 0
         time.sleep(2)

@@ -153,7 +153,13 @@ def rank_key(rec: dict) -> tuple:
     return (tier, -int(rec["year"] or 0))
 
 
-def gather(term_en: str, term_de: str = "", max_refs: int = 16, fulltexts: int = 3) -> list[dict]:
+SUBHEADINGS = {
+    "disease": ["diagnosis", "epidemiology", "etiology", "therapy"],
+    "drug": ["pharmacology", "pharmacokinetics", "adverse effects", "contraindications", "drug interactions", "therapeutic use"],
+}
+
+
+def gather(term_en: str, kind: str = "disease", max_refs: int = 16, fulltexts: int = 3) -> list[dict]:
     """Quellenpaket für ein Thema zusammenstellen."""
     t = term_en.strip()
     ids: list[str] = []
@@ -170,8 +176,8 @@ def gather(term_en: str, term_de: str = "", max_refs: int = 16, fulltexts: int =
 
     collect("Title")  # präzise: Begriff im Titel
     # klassische Kapitel (Epidemiologie, Ätiologie, Diagnostik) über MeSH-Unterüberschriften
-    for pmid in esearch(f'("{t}/diagnosis"[MeSH Terms] OR "{t}/epidemiology"[MeSH Terms] OR "{t}/etiology"[MeSH Terms] '
-                        f'OR "{t}/therapy"[MeSH Terms]) AND (review[pt] OR guideline[pt])', retmax=8, years=5):
+    subs = " OR ".join(f'"{t}/{sh}"[MeSH Terms]' for sh in SUBHEADINGS.get(kind, SUBHEADINGS["disease"]))
+    for pmid in esearch(f"({subs}) AND (review[pt] OR guideline[pt])", retmax=8, years=5):
         if pmid not in ids:
             ids.append(pmid)
     if len(ids) < 5:

@@ -39,6 +39,11 @@ ECMO ist eine hochspezialisierte Rescue-Therapie. Patientenauswahl, Konfiguratio
 Vorbereitung und Durchführung erfolgen nach zentrumsgebundenen SOPs. Relevante Risiken sind Blutung, Thrombose, Embolie, Ischämie, Gefäß- und Organverletzung, Infektion sowie neurologische Komplikationen. Dieser Artikel enthält bewusst keine technische Kanülierungsanleitung.
 ## Patienteninformation
 Die ECMO wird auf spezialisierten Intensivstationen eingesetzt. Entscheidungen erfolgen bei kritisch Kranken in enger Abstimmung mit dem Behandlungsteam und gegebenenfalls Angehörigen.
+## Schematische Darstellung
+
+![ECMO: häufige Kanülierungsorte](../../../media/op/ecmo-kanuelierung-schema.svg)
+
+*Häufige Kanülierungsorte sind die Leistengefäße und die rechte V. jugularis interna; Auswahl und Anzahl hängen vom Verfahren (venovenös oder venoarteriell) ab. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 1. Tonna JE, et al. *Management of Adult Patients Supported with VV ECMO: ELSO Guideline.* ASAIO J. 2021;67:601-610. PMID: 33965970. https://pubmed.ncbi.nlm.nih.gov/33965970/
 2. Boeken U, et al. *S3 Guideline of Extracorporeal Circulation (ECLS/ECMO) for Cardiocirculatory Failure.* Thorac Cardiovasc Surg. 2021;69:S121-S212. PMID: 34655070. https://pubmed.ncbi.nlm.nih.gov/34655070/
