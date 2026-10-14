@@ -1,0 +1,27 @@
+[Unit]
+Description=WikiMedica Redaktionspipeline, Arbeiter %i (lokales Modell über AT-AI-Gateway, nur Entwürfe, keine Veröffentlichung)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=wikieditorial
+Group=wikieditorial
+WorkingDirectory=/opt/wikimedica-editorial-agent
+EnvironmentFile=/etc/atmed/wikimedica-editorial-llm.env
+Environment=WM_MAX_REQUESTS_PER_MIN=4 WM_MAX_CONCURRENT=3
+UMask=0002
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/wikimedica-editorial-agent /var/log/wikimedica-editorial-agent
+ExecStart=/usr/bin/python3 -I /opt/wikimedica-editorial-agent/scripts/editorial/wm_pipeline.py --state-dir /var/lib/wikimedica-editorial-agent --name w%i --kinds disease,drug
+Restart=always
+RestartSec=30
+Nice=10
+CPUQuota=25%
+MemoryMax=768M
+
+[Install]
+WantedBy=multi-user.target

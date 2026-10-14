@@ -85,6 +85,31 @@ def eligible_path(path: Path) -> bool:
     )
 
 
+_INTERNAL_PAGES: dict[str, str] | None = None
+
+
+def internal_pages() -> dict[str, str]:
+    """Slug -> Seitentitel aller Artikel im Repo, damit Markdown-Links auf ``<slug>.md`` zu Wiki-Links werden."""
+    global _INTERNAL_PAGES
+    if _INTERNAL_PAGES is None:
+        pages: dict[str, str] = {}
+        for folder in ALLOWED_FOLDERS:
+            for f in (ROOT / "content" / folder).rglob("*.md"):
+                if f.name.lower() == "readme.md" or "templates" in f.parts:
+                    continue
+                m = FM_RE.match(f.read_text(encoding="utf-8"))
+                if not m:
+                    continue
+                try:
+                    title = (yaml.safe_load(m.group(1)) or {}).get("title")
+                except yaml.YAMLError:
+                    continue
+                if title:
+                    pages[f.stem] = str(title).strip()
+        _INTERNAL_PAGES = pages
+    return _INTERNAL_PAGES
+
+
 def build_page(path: Path, revision: str) -> tuple[str, str, str]:
     if not eligible_path(path):
         raise ValueError(f"not an allowed medical-article path: {path}")
@@ -109,7 +134,7 @@ def build_page(path: Path, revision: str) -> tuple[str, str, str]:
     if len(m.group(0)) >= len(path.read_text(encoding="utf-8")):
         raise ValueError("empty body")
     body = path.read_text(encoding="utf-8")[m.end():]
-    converted = md2wiki.convert_medical_article(public_beta_body(body), md2wiki.ConvertContext(title=title))
+    converted = md2wiki.convert_medical_article(public_beta_body(body), md2wiki.ConvertContext(title=title, internal_pages=internal_pages()))
     note = (
         "\n\n----\n"
         "'''BETA-Hinweis:''' Veröffentlichung aus dem gemergten WikiMedica-GitHub-Hauptbranch. "

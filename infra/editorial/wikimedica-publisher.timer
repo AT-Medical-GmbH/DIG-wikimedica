@@ -1,0 +1,11 @@
+[Unit]
+Description=WikiMedica Redaktionspipeline: stündliche Veröffentlichung
+
+[Timer]
+OnCalendar=*-*-* *:25:00
+Persistent=true
+AccuracySec=1min
+Unit=wikimedica-publisher.service
+
+[Install]
+WantedBy=timers.target
