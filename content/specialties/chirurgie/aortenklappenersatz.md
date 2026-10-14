@@ -49,6 +49,11 @@ Echokardiographie und weitere kardiale Diagnostik bilden die Grundlage der Entsc
 
 Der Eingriff erfordert eine persönliche Aufklärung über Alternativen, Lebensqualität, Langzeitnachsorge und individuelle Risiken.
 
+## Schematische Darstellung
+
+![Aortenklappenersatz: Zugang](../../../media/op/aortenklappenersatz-schema.svg)
+
+*Üblicher Zugang beim chirurgischen Aortenklappenersatz ist die mediane Sternotomie; weniger invasive Zugänge sind möglich und hier nicht dargestellt. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 
 1. Praz F, et al. *2025 ESC/EACTS Guidelines for the management of valvular heart disease.* Eur Heart J. 2025;46:4635-4736. PMID: 40878295. https://pubmed.ncbi.nlm.nih.gov/40878295/

@@ -39,6 +39,11 @@ Je nach Indikation, Anatomie, Begleiterkrankungen und Voroperationen kommen vagi
 Mögliche Komplikationen sind Blutung, Infektion, Thromboembolie sowie Verletzungen benachbarter Organe. Konsequenzen für Fertilität, gegebenenfalls hormonelle Situation und Beckenbodenfunktion sind vor dem Eingriff zu besprechen.
 ## Patienteninformation
 Nach einer Hysterektomie ist eine Schwangerschaft nicht mehr möglich. Welche Alternative und welcher Zugangsweg sinnvoll sind, hängt stark vom Grund der Behandlung und von persönlichen Zielen ab.
+## Schematische Darstellung
+
+![Hysterektomie: Zugänge](../../../media/op/hysterektomie-schema.svg)
+
+*Laparoskopisch: Optikport am Nabel, Arbeitsports im Unterbauch (Anordnung variiert). Abdominaler Zugang: Pfannenstiel-Querschnitt. Der vaginale Zugang ist nicht dargestellt. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 1. ACOG. *Choosing the Route of Hysterectomy for Benign Disease.* Obstet Gynecol. 2024. PMID: 38743951. https://pubmed.ncbi.nlm.nih.gov/38743951/
 2. Cochrane Review. *Surgical approach to hysterectomy for benign gynaecological disease.* 2023. PMID: 37642285. https://pubmed.ncbi.nlm.nih.gov/37642285/

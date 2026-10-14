@@ -53,6 +53,11 @@ Der Eingriff gehört in geeignete chirurgische Strukturen. Relevante Risiken sin
 
 Die Entfernung der Gallenblase ist eine individuelle Entscheidung nach ärztlicher Abklärung. Dieser Text ersetzt weder die Aufklärung vor einer Operation noch eine Beratung zu Alternativen und persönlichen Risiken.
 
+## Schematische Darstellung
+
+![Cholezystektomie: Zugänge](../../../media/op/cholezystektomie-schema.svg)
+
+*Laparoskopisch (Standard): Optikport am Nabel, ein epigastrischer und zwei rechts subkostale Ports (Anordnung variiert). Der offene Zugang (rechtsseitiger Rippenbogenrandschnitt) ist nicht dargestellt. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 
 1. Eikermann M, et al. *Prevention and treatment of bile duct injuries during laparoscopic cholecystectomy: EAES clinical practice guidelines.* Surg Endosc. 2012;26:3003-3039. PMID: 23052493. https://pubmed.ncbi.nlm.nih.gov/23052493/

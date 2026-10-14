@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 790" width="680" height="790" role="img" aria-labelledby="t d">
+<title id="t">Hysterektomie: Zugänge</title><desc id="d">Laparoskopisch: Optikport am Nabel, Arbeitsports im Unterbauch (Anordnung variiert). Abdominaler Zugang: Pfannenstiel-Querschnitt. Der vaginale Zugang ist nicht dargestellt.</desc>
+<rect width="680" height="790" fill="#ffffff"/>
+<rect x="1" y="1" width="678" height="788" fill="none" stroke="#d5d8da" stroke-width="2" rx="8"/>
+<text x="340.0" y="28.0" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#26323a" text-anchor="middle"><tspan x="340.0" dy="0">Hysterektomie: Zugänge</tspan></text>
+<text x="340.0" y="47.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#8a8a8a" text-anchor="middle"><tspan x="340.0" dy="0">Schema, Vorderansicht</tspan></text>
+<g transform="translate(40,62)">
+<path d="M278,112 L278,150 C248,156 200,164 180,188 C176,194 178,204 180,210 C186,262 192,304 208,344 C200,384 192,414 194,444 C196,474 198,504 200,548 L286,548 C288,528 294,512 300,506 C306,512 312,528 314,548 L400,548 C402,504 404,474 406,444 C408,414 400,384 392,344 C408,304 414,262 420,210 C422,204 424,194 420,188 C400,164 352,156 322,150 L322,112 Z" fill="#f3ece4" stroke="#6b6b6b" stroke-width="2.4" stroke-linejoin="round"/>
+<ellipse cx="300" cy="64" rx="40" ry="50" fill="#f3ece4" stroke="#6b6b6b" stroke-width="2"/>
+<path d="M300,152 L300,268" fill="none" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="2 4" opacity=".8"/>
+<path d="M300,268 C270,276 230,292 208,330" fill="none" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="2 4" opacity=".8"/>
+<path d="M300,268 C330,276 370,292 392,330" fill="none" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="2 4" opacity=".8"/>
+<path d="M230,424 L292,476" fill="none" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="2 4" opacity=".8"/>
+<path d="M370,424 L308,476" fill="none" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="2 4" opacity=".8"/>
+<text x="308.0" y="150.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="308.0" dy="0">Jugulum</tspan></text>
+<text x="310.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="310.0" dy="0">Nabel</tspan></text>
+<text x="310.0" y="492.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="310.0" dy="0">Symphyse</tspan></text>
+<circle cx="300.0" cy="356.0" r="7" fill="#b3261e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="248.0" cy="404.0" r="7" fill="#b3261e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="352.0" cy="404.0" r="7" fill="#b3261e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="300.0" cy="440.0" r="7" fill="#b3261e" stroke="#fff" stroke-width="1.5"/>
+<path d="M252.0,452.0 Q300.0,462.0 348.0,452.0" fill="none" stroke="#d9822b" stroke-width="4" stroke-linecap="round" stroke-dasharray="9 6"/>
+</g>
+<path d="M175.2,388.0 L340.0,418.0" stroke="#b3261e" stroke-width="1.2" fill="none" opacity=".85"/>
+<text x="16.0" y="392.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#b3261e" text-anchor="start"><tspan x="16.0" dy="0">Optikport am Nabel</tspan></text>
+<path d="M530.0,478.0 L340.0,502.0" stroke="#b3261e" stroke-width="1.2" fill="none" opacity=".85"/>
+<text x="664.0" y="482.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#b3261e" text-anchor="end"><tspan x="664.0" dy="0">Arbeitsports im</tspan><tspan x="664.0" dy="16">Unterbauch</tspan></text>
+<path d="M183.6,548.0 L340.0,519.0" stroke="#d9822b" stroke-width="1.2" fill="none" opacity=".85"/>
+<text x="16.0" y="552.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#d9822b" text-anchor="start"><tspan x="16.0" dy="0">Abdominal: Pfannen-</tspan><tspan x="16.0" dy="16">stiel-Querschnitt</tspan><tspan x="16.0" dy="16">(Alternative)</tspan></text>
+<text x="190.0" y="738.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="end"><tspan x="190.0" dy="0">Patient rechts</tspan></text><text x="490.0" y="738.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="490.0" dy="0">Patient links</tspan></text>
+<text x="340.0" y="760.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#555555" text-anchor="middle"><tspan x="340.0" dy="0">Schematische Darstellung, nicht maßstabsgetreu.</tspan></text>
+<text x="340.0" y="775.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#555555" text-anchor="middle"><tspan x="340.0" dy="0">Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.</tspan></text>
+</svg>

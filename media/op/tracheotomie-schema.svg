@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" width="680" height="520" role="img" aria-labelledby="t d">
+<title id="t">Tracheotomie: Höhe des Zugangs</title><desc id="d">Die Tracheotomie liegt üblicherweise zwischen der 2. und 4. Trachealspange; die genaue Höhe hängt von Technik und Anatomie ab.</desc>
+<rect width="680" height="520" fill="#ffffff"/>
+<rect x="1" y="1" width="678" height="518" fill="none" stroke="#d5d8da" stroke-width="2" rx="8"/>
+<text x="340.0" y="28.0" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#26323a" text-anchor="middle"><tspan x="340.0" dy="0">Tracheotomie: Höhe des Zugangs</tspan></text>
+<text x="340.0" y="47.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#8a8a8a" text-anchor="middle"><tspan x="340.0" dy="0">Schema, Vorderansicht</tspan></text>
+<g transform="translate(40,62)">
+<path d="M230,40 C228,100 240,150 252,190 C240,200 200,206 150,228 L150,330 L450,330 L450,228 C400,206 360,200 348,190 C360,150 372,100 370,40 Z" fill="#f3ece4" stroke="#6b6b6b" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M230,40 C260,62 340,62 370,40" fill="none" stroke="#6b6b6b" stroke-width="2"/>
+<path d="M270,94 L330,94" stroke="#8a8a8a" stroke-width="5" stroke-linecap="round"/>
+<path d="M274,116 L300,108 L326,116 L322,148 L300,154 L278,148 Z" fill="#e6ddd2" stroke="#8a8a8a" stroke-width="2"/>
+<rect x="283" y="160" width="34" height="14" rx="5" fill="#dcd2c6" stroke="#8a8a8a" stroke-width="2"/>
+<path d="M152,236 C210,222 260,224 290,242" fill="none" stroke="#8a8a8a" stroke-width="3" stroke-linecap="round"/>
+<path d="M448,236 C390,222 340,224 310,242" fill="none" stroke="#8a8a8a" stroke-width="3" stroke-linecap="round"/>
+<path d="M287,182 Q300,186 313,182" fill="none" stroke="#8a8a8a" stroke-width="2.4"/>
+<path d="M287,193 Q300,197 313,193" fill="none" stroke="#8a8a8a" stroke-width="2.4"/>
+<path d="M287,204 Q300,208 313,204" fill="none" stroke="#8a8a8a" stroke-width="2.4"/>
+<path d="M287,215 Q300,219 313,215" fill="none" stroke="#8a8a8a" stroke-width="2.4"/>
+<path d="M287,226 Q300,230 313,226" fill="none" stroke="#8a8a8a" stroke-width="2.4"/>
+<text x="400.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="400.0" dy="0">Zungenbein</tspan></text>
+<path d="M396,94 L332,94" stroke="#8a8a8a" stroke-width="1" opacity=".8"/>
+<text x="400.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="400.0" dy="0">Schildknorpel</tspan></text>
+<path d="M396,130 L327,130" stroke="#8a8a8a" stroke-width="1" opacity=".8"/>
+<text x="400.0" y="172.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="400.0" dy="0">Ringknorpel</tspan></text>
+<path d="M396,168 L318,167" stroke="#8a8a8a" stroke-width="1" opacity=".8"/>
+<text x="400.0" y="250.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="400.0" dy="0">Jugulum</tspan></text>
+<path d="M396,246 L306,244" stroke="#8a8a8a" stroke-width="1" opacity=".8"/>
+<path d="M330.0,193.0 L338.0,193.0 L338.0,215.0 L330.0,215.0" fill="none" stroke="#b3261e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M300.0,193.0 L330.0,193.0 M300.0,215.0 L330.0,215.0" stroke="#b3261e" stroke-width="2" stroke-dasharray="3 3"/>
+</g>
+<path d="M454.4,270.0 L378.0,266.0" stroke="#b3261e" stroke-width="1.2" fill="none" opacity=".85"/>
+<text x="664.0" y="274.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#b3261e" text-anchor="end"><tspan x="664.0" dy="0">Zugang üblicher-</tspan><tspan x="664.0" dy="16">weise zwischen</tspan><tspan x="664.0" dy="16">2. und 4. Trachealspange</tspan></text>
+<text x="190.0" y="468.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="end"><tspan x="190.0" dy="0">Patient rechts</tspan></text><text x="490.0" y="468.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#8a8a8a" text-anchor="start"><tspan x="490.0" dy="0">Patient links</tspan></text>
+<text x="340.0" y="490.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#555555" text-anchor="middle"><tspan x="340.0" dy="0">Schematische Darstellung, nicht maßstabsgetreu.</tspan></text>
+<text x="340.0" y="505.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#555555" text-anchor="middle"><tspan x="340.0" dy="0">Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.</tspan></text>
+</svg>

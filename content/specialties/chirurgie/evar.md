@@ -39,5 +39,10 @@ Die ESVS-Leitlinie behandelt offene und endovaskuläre Versorgung einschließlic
 Eine detaillierte Gefäßbildgebung und gefäßchirurgische Planung sind Voraussetzung. Relevante Risiken sind Blutung, Ischämie, Nierenfunktionsstörung, Endoleak, Migration und Reintervention. Dieser Artikel enthält keine Durchführungsschritte.
 ## Patienteninformation
 EVAR erfordert regelmäßige Nachsorge; die Alternative einer offenen Operation oder Beobachtung wird individuell besprochen.
+## Schematische Darstellung
+
+![EVAR: femoraler Zugang](../../../media/op/evar-schema.svg)
+
+*Üblich ist der Zugang über beide Leisten (Punktion oder Freilegung der A. femoralis communis). Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 1. Wanhainen A, et al. *ESVS 2024 Clinical Practice Guidelines on Abdominal Aorto-Iliac Artery Aneurysms.* Eur J Vasc Endovasc Surg. 2024;67:192-331. PMID: 38307694. https://pubmed.ncbi.nlm.nih.gov/38307694/

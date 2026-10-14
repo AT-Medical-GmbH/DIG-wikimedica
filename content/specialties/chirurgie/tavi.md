@@ -39,5 +39,10 @@ Die Methode ergänzt die herzchirurgische Klappentherapie, ersetzt aber keine st
 Zur Planung gehören spezialisierte Bildgebung und interdisziplinäre Beurteilung. Risiken umfassen Gefäßkomplikationen, Blutung, Schlaganfall, Herzrhythmusstörungen, Klappenprobleme und die Notwendigkeit weiterer Eingriffe. Dieser Artikel enthält keine technischen Schritte.
 ## Patienteninformation
 Die Entscheidung muss Nutzen, Alternativen und die langfristige Nachsorge individuell abwägen.
+## Schematische Darstellung
+
+![TAVI: transfemoraler Zugang](../../../media/op/tavi-schema.svg)
+
+*Häufigster Zugangsweg ist die Leiste (A. femoralis communis); andere Zugangswege (z. B. transapikal) sind nicht dargestellt. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 1. Praz F, et al. *2025 ESC/EACTS Guidelines for the management of valvular heart disease.* Eur Heart J. 2025;46:4635-4736. PMID: 40878295. https://pubmed.ncbi.nlm.nih.gov/40878295/

@@ -39,6 +39,11 @@ Die Tracheotomie ist ein invasiver Atemwegseingriff und unterscheidet sich in Zi
 Entscheidend sind Atemwegssituation, Beatmungsbedarf, Blutungsrisiko, Anatomie und Behandlungsziel. Risiken umfassen Blutung, Fehllage, Atemwegskomplikationen, Infektion, Trachealschaden und Probleme bei Entblockung oder Dekanülierung. Der Text enthält keine Durchführungsschritte.
 ## Patienteninformation
 Die Versorgung nach Tracheotomie erfordert geschulte Teams und eine persönliche Aufklärung über Ziele, Alternativen, Kommunikation und Nachsorge.
+## Schematische Darstellung
+
+![Tracheotomie: Höhe des Zugangs](../../../media/op/tracheotomie-schema.svg)
+
+*Die Tracheotomie liegt üblicherweise zwischen der 2. und 4. Trachealspange; die genaue Höhe hängt von Technik und Anatomie ab. Schematische Darstellung, nicht maßstabsgetreu. Kein Ersatz für anatomische Atlanten oder Operationsanleitungen.*
 ## Literatur
 1. Raimondi N, et al. *Evidence-based guidelines for the use of tracheostomy in critically ill patients.* J Crit Care. 2017;38:304-318. PMID: 28103536. https://pubmed.ncbi.nlm.nih.gov/28103536/
 2. Mussa CC, et al. *AARC Clinical Practice Guideline: Management of Adult Patients with Tracheostomy in the Acute Care Setting.* Respir Care. 2021;66:156-169. PMID: 32962998. https://pubmed.ncbi.nlm.nih.gov/32962998/

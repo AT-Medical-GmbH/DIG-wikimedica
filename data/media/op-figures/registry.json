@@ -1,0 +1,644 @@
+{
+ "_hinweis": "Nur Zugangswege und Punkte, die in der Fachliteratur als Standard gelten. approved=true ist die fachliche Durchsicht des Eintrags; ohne Freigabe entsteht keine Zeichnung. Neue Einträge nur mit Quellen im Feld belege.",
+ "schema": 1,
+ "articles": {
+  "koronararterien-bypassoperation": {
+   "title": "Koronararterien-Bypassoperation: Zugang",
+   "caption": "Üblicher Zugang bei offener Herzoperation ist die mediane Sternotomie.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "line",
+     "points": [
+      "jugulum",
+      "xiphoid"
+     ],
+     "label": "Mediane Sternotomie\n(Hautschnitt über\ndem Brustbein)",
+     "side": "right",
+     "offset": [
+      0,
+      6
+     ]
+    }
+   ],
+   "approved": true
+  },
+  "aortenklappenersatz": {
+   "title": "Aortenklappenersatz: Zugang",
+   "caption": "Üblicher Zugang beim chirurgischen Aortenklappenersatz ist die mediane Sternotomie; weniger invasive Zugänge sind möglich und hier nicht dargestellt.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "line",
+     "points": [
+      "jugulum",
+      "xiphoid"
+     ],
+     "label": "Mediane Sternotomie\n(Hautschnitt über\ndem Brustbein)",
+     "side": "right",
+     "offset": [
+      0,
+      6
+     ]
+    }
+   ],
+   "approved": true
+  },
+  "mitralklappenrekonstruktion": {
+   "title": "Mitralklappenrekonstruktion: Zugänge",
+   "caption": "Üblich sind die mediane Sternotomie und, je nach Zentrum, die rechtsseitige anterolaterale Minithorakotomie.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "line",
+     "points": [
+      "jugulum",
+      "xiphoid"
+     ],
+     "label": "Mediane Sternotomie\n(Hautschnitt über\ndem Brustbein)",
+     "side": "right",
+     "offset": [
+      0,
+      6
+     ]
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       256,
+       232
+      ],
+      [
+       216,
+       244
+      ]
+     ],
+     "label": "Rechts anterolaterale\nMinithorakotomie\n(meist 4. Zwischen-\nrippenraum)",
+     "side": "left",
+     "label_y": 250,
+     "alt": true
+    }
+   ],
+   "approved": true
+  },
+  "tavi": {
+   "title": "TAVI: transfemoraler Zugang",
+   "caption": "Häufigster Zugangsweg ist die Leiste (A. femoralis communis); andere Zugangswege (z. B. transapikal) sind nicht dargestellt.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "cross",
+     "at": [
+      257,
+      464
+     ],
+     "label": "A. femoralis communis\n(unterhalb des\nLeistenbands)",
+     "side": "left",
+     "label_y": 470
+    },
+    {
+     "type": "cross",
+     "at": [
+      343,
+      464
+     ],
+     "label": "Zweitzugang\n(Gegenseite)",
+     "side": "right",
+     "label_y": 470
+    }
+   ],
+   "approved": true
+  },
+  "evar": {
+   "title": "EVAR: femoraler Zugang",
+   "caption": "Üblich ist der Zugang über beide Leisten (Punktion oder Freilegung der A. femoralis communis).",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "cross",
+     "at": [
+      257,
+      464
+     ],
+     "label": "Femoraler Zugang\nrechts",
+     "side": "left",
+     "label_y": 470
+    },
+    {
+     "type": "cross",
+     "at": [
+      343,
+      464
+     ],
+     "label": "Femoraler Zugang\nlinks",
+     "side": "right",
+     "label_y": 470
+    }
+   ],
+   "approved": true
+  },
+  "tevar": {
+   "title": "TEVAR: femoraler Zugang",
+   "caption": "Üblich ist ein femoraler Zugang; je nach Gefäßanatomie werden auch andere Zugangswege genutzt.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "cross",
+     "at": [
+      257,
+      464
+     ],
+     "label": "Femoraler Zugang\n(großlumig)",
+     "side": "left",
+     "label_y": 470
+    },
+    {
+     "type": "cross",
+     "at": [
+      343,
+      464
+     ],
+     "label": "Zweitzugang",
+     "side": "right",
+     "label_y": 470
+    }
+   ],
+   "approved": true
+  },
+  "kaiserschnitt": {
+   "title": "Kaiserschnitt: Hautschnitt",
+   "caption": "Üblich ist der Pfannenstiel-Querschnitt oberhalb der Symphyse; der mediane Unterbauch-Längsschnitt bleibt Sonderfällen vorbehalten.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "curve",
+     "points": [
+      [
+       252,
+       452
+      ],
+      [
+       348,
+       452
+      ]
+     ],
+     "bulge": 10,
+     "label": "Pfannenstiel-Quer-\nschnitt (wenige cm\noberhalb der\nSymphyse)",
+     "side": "left",
+     "label_y": 470
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       300,
+       372
+      ],
+      [
+       300,
+       458
+      ]
+     ],
+     "label": "Alternative:\nmedianer Unterbauch-\nLängsschnitt",
+     "side": "right",
+     "label_y": 400,
+     "alt": true
+    }
+   ],
+   "approved": true
+  },
+  "hysterektomie": {
+   "title": "Hysterektomie: Zugänge",
+   "caption": "Laparoskopisch: Optikport am Nabel, Arbeitsports im Unterbauch (Anordnung variiert). Abdominaler Zugang: Pfannenstiel-Querschnitt. Der vaginale Zugang ist nicht dargestellt.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "port",
+     "at": "nabel",
+     "r": 7,
+     "label": "Optikport am Nabel",
+     "side": "left",
+     "label_y": 330
+    },
+    {
+     "type": "port",
+     "at": [
+      248,
+      404
+     ],
+     "r": 7
+    },
+    {
+     "type": "port",
+     "at": [
+      352,
+      404
+     ],
+     "r": 7
+    },
+    {
+     "type": "port",
+     "at": [
+      300,
+      440
+     ],
+     "r": 7,
+     "label": "Arbeitsports im\nUnterbauch",
+     "side": "right",
+     "label_y": 420
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       252,
+       452
+      ],
+      [
+       348,
+       452
+      ]
+     ],
+     "bulge": 10,
+     "label": "Abdominal: Pfannen-\nstiel-Querschnitt\n(Alternative)",
+     "side": "left",
+     "label_y": 490,
+     "alt": true
+    }
+   ],
+   "approved": true
+  },
+  "myomektomie": {
+   "title": "Myomektomie: Zugänge",
+   "caption": "Laparoskopisch: Optikport am Nabel, Arbeitsports im Unterbauch (Anordnung variiert). Offener Zugang: Pfannenstiel-Querschnitt. Die Wahl hängt von Größe und Lage der Myome ab; hysteroskopische Verfahren sind nicht dargestellt.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "port",
+     "at": "nabel",
+     "r": 7,
+     "label": "Optikport am Nabel",
+     "side": "left",
+     "label_y": 330
+    },
+    {
+     "type": "port",
+     "at": [
+      248,
+      404
+     ],
+     "r": 7
+    },
+    {
+     "type": "port",
+     "at": [
+      352,
+      404
+     ],
+     "r": 7
+    },
+    {
+     "type": "port",
+     "at": [
+      300,
+      440
+     ],
+     "r": 7,
+     "label": "Arbeitsports im\nUnterbauch",
+     "side": "right",
+     "label_y": 420
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       252,
+       452
+      ],
+      [
+       348,
+       452
+      ]
+     ],
+     "bulge": 10,
+     "label": "Offen: Pfannenstiel-\nQuerschnitt\n(Alternative)",
+     "side": "left",
+     "label_y": 490,
+     "alt": true
+    }
+   ],
+   "approved": true
+  },
+  "oophorektomie": {
+   "title": "Oophorektomie: Zugänge",
+   "caption": "Laparoskopisch: Optikport am Nabel, Arbeitsports im Unterbauch (Anordnung variiert). Offener Zugang: Pfannenstiel-Querschnitt.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "port",
+     "at": "nabel",
+     "r": 7,
+     "label": "Optikport am Nabel",
+     "side": "left",
+     "label_y": 330
+    },
+    {
+     "type": "port",
+     "at": [
+      248,
+      404
+     ],
+     "r": 7
+    },
+    {
+     "type": "port",
+     "at": [
+      352,
+      404
+     ],
+     "r": 7
+    },
+    {
+     "type": "port",
+     "at": [
+      300,
+      440
+     ],
+     "r": 7,
+     "label": "Arbeitsports im\nUnterbauch",
+     "side": "right",
+     "label_y": 420
+    },
+    {
+     "type": "curve",
+     "points": [
+      [
+       252,
+       452
+      ],
+      [
+       348,
+       452
+      ]
+     ],
+     "bulge": 10,
+     "label": "Offen: Pfannenstiel-\nQuerschnitt\n(Alternative)",
+     "side": "left",
+     "label_y": 490,
+     "alt": true
+    }
+   ],
+   "approved": true
+  },
+  "ecmo-kanuelierung": {
+   "title": "ECMO: häufige Kanülierungsorte",
+   "caption": "Häufige Kanülierungsorte sind die Leistengefäße und die rechte V. jugularis interna; Auswahl und Anzahl hängen vom Verfahren (venovenös oder venoarteriell) ab.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "cross",
+     "at": [
+      288,
+      132
+     ],
+     "label": "V. jugularis interna\n(rechts)",
+     "side": "left",
+     "label_y": 120
+    },
+    {
+     "type": "cross",
+     "at": [
+      257,
+      464
+     ],
+     "label": "Femoraler Zugang\n(beidseits möglich)",
+     "side": "left",
+     "label_y": 470
+    },
+    {
+     "type": "cross",
+     "at": [
+      343,
+      464
+     ],
+     "label": "Femoraler Zugang",
+     "side": "right",
+     "label_y": 470
+    }
+   ],
+   "approved": true
+  },
+  "tracheotomie": {
+   "title": "Tracheotomie: Höhe des Zugangs",
+   "caption": "Die Tracheotomie liegt üblicherweise zwischen der 2. und 4. Trachealspange; die genaue Höhe hängt von Technik und Anatomie ab.",
+   "template": "neck",
+   "elements": [
+    {
+     "type": "bracket",
+     "points": [
+      "trachealspange_2",
+      "trachealspange_4"
+     ],
+     "xoffset": 30,
+     "label": "Zugang üblicher-\nweise zwischen\n2. und 4. Trachealspange",
+     "side": "right",
+     "label_y": 212
+    }
+   ],
+   "approved": true
+  },
+  "arthroskopie": {
+   "title": "Kniegelenkarthroskopie: Standardportale",
+   "caption": "Die Standardportale liegen beidseits der Patellarsehne in Höhe des Gelenkspalts; weitere Portale werden je nach Fragestellung ergänzt.",
+   "template": "knee",
+   "elements": [
+    {
+     "type": "port",
+     "at": [
+      276,
+      334
+     ],
+     "r": 7,
+     "label": "Anterolaterales\nPortal (lateral der\nPatellarsehne)",
+     "side": "left",
+     "label_y": 300
+    },
+    {
+     "type": "port",
+     "at": [
+      324,
+      334
+     ],
+     "r": 7,
+     "label": "Anteromediales\nPortal (medial der\nPatellarsehne)",
+     "side": "right",
+     "label_y": 300
+    }
+   ],
+   "approved": true
+  },
+  "knietotalendoprothese": {
+   "title": "Knietotalendoprothese: Zugang",
+   "caption": "Üblich ist eine mediane Längsinzision der Haut; die Gelenkeröffnung erfolgt häufig medial parapatellar. Andere Zugänge sind möglich.",
+   "template": "knee",
+   "elements": [
+    {
+     "type": "line",
+     "points": [
+      [
+       300,
+       216
+      ],
+      [
+       300,
+       392
+      ]
+     ],
+     "label": "Mediane Haut-\ninzision (oberhalb\nder Patella bis zur\nTuberositas tibiae)",
+     "side": "left",
+     "label_y": 250
+    },
+    {
+     "type": "line",
+     "points": [
+      [
+       322,
+       240
+      ],
+      [
+       318,
+       372
+      ]
+     ],
+     "label": "Mediale parapatellare\nArthrotomie\n(tiefe Schicht)",
+     "side": "right",
+     "label_y": 250,
+     "alt": true
+    }
+   ],
+   "approved": true
+  },
+  "appendektomie": {
+   "title": "Appendektomie: Zugänge",
+   "caption": "Offen: Wechselschnitt im rechten Unterbauch im Bereich des McBurney-Punktes. Laparoskopisch: Optikport am Nabel, häufig zwei weitere Ports im Unterbauch (Anordnung variiert).",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "line",
+     "points": [
+      [
+       239,
+       387
+      ],
+      [
+       267,
+       415
+      ]
+     ],
+     "label": "Offen: Wechselschnitt\n(McBurney-Punkt)",
+     "side": "left",
+     "label_y": 395
+    },
+    {
+     "type": "port",
+     "at": "nabel",
+     "r": 7,
+     "label": "Optikport am Nabel",
+     "side": "left",
+     "label_y": 330
+    },
+    {
+     "type": "port",
+     "at": [
+      352,
+      404
+     ],
+     "r": 7
+    },
+    {
+     "type": "port",
+     "at": [
+      300,
+      440
+     ],
+     "r": 7,
+     "label": "Weitere Ports im\nUnterbauch",
+     "side": "right",
+     "label_y": 430
+    }
+   ],
+   "approved": true
+  },
+  "cholezystektomie": {
+   "title": "Cholezystektomie: Zugänge",
+   "caption": "Laparoskopisch (Standard): Optikport am Nabel, ein epigastrischer und zwei rechts subkostale Ports (Anordnung variiert). Der offene Zugang (rechtsseitiger Rippenbogenrandschnitt) ist nicht dargestellt.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "port",
+     "at": "nabel",
+     "r": 7,
+     "label": "Optikport am Nabel",
+     "side": "left",
+     "label_y": 372
+    },
+    {
+     "type": "port",
+     "at": [
+      308,
+      292
+     ],
+     "r": 7,
+     "label": "Epigastrischer Port",
+     "side": "right",
+     "label_y": 292
+    },
+    {
+     "type": "port",
+     "at": [
+      248,
+      314
+     ],
+     "r": 7
+    },
+    {
+     "type": "port",
+     "at": [
+      216,
+      340
+     ],
+     "r": 7,
+     "label": "Rechts subkostale\nPorts",
+     "side": "left",
+     "label_y": 320
+    }
+   ],
+   "approved": true
+  },
+  "hernienoperation-leistenhernie": {
+   "title": "Leistenhernienoperation: offener Zugang",
+   "caption": "Offen: Leistenschnitt oberhalb und parallel zum Leistenband. Laparoskopische Verfahren (TAPP, TEP) nutzen Ports im Unterbauch und sind nicht dargestellt.",
+   "template": "torso",
+   "elements": [
+    {
+     "type": "line",
+     "points": [
+      [
+       249,
+       430
+      ],
+      [
+       286,
+       461
+      ]
+     ],
+     "label": "Leistenschnitt\n(rechts, oberhalb\ndes Leistenbands)",
+     "side": "left",
+     "label_y": 470
+    }
+   ],
+   "approved": true
+  }
+ }
+}
