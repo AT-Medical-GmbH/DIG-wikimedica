@@ -163,15 +163,16 @@ def write_pruefliste(repo: Path, q: Queue) -> None:
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def sync_and_verify(slugs_titles: dict[str, str]) -> set[str]:
+def sync_and_verify(slugs_titles: dict[str, str]) -> tuple[set[str], dict[str, str]]:
     """Startet die vorgesehene Synchronisation und liest das Ergebnis aus dem Journal (Titel -> verifiziert)."""
     since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     r = sh(["systemctl", "start", "wikimedica-beta-sync.service"], check=False, timeout=1900)
     log(f"Synchronisation rc={r.returncode} {r.stderr[-200:]}")
     j = sh(["journalctl", "-u", "wikimedica-beta-sync.service", "--no-pager", "--since", since, "-o", "cat"], check=False)
-    ok = set()
+    ok: set[str] = set()
+    failed: dict[str, str] = {}  # Slug -> Grund
     for line in j.stdout.splitlines():
-        m = re.search(r"\{.*\"article\".*\}", line)
+        m = re.search(r"\{.*\"(article|result)\".*\}", line)
         if m:
             try:
                 d = json.loads(m.group(0))
@@ -179,7 +180,25 @@ def sync_and_verify(slugs_titles: dict[str, str]) -> set[str]:
                 continue
             if d.get("verified"):
                 ok.add(d["article"])
-    return ok
+            elif d.get("result") == "failed" and d.get("file"):
+                failed[Path(d["file"]).stem] = str(d.get("reason", ""))[:240]
+    return ok, failed
+
+
+def settle(q: Queue, ok_titles: set[str], failed: dict[str, str], prn: str) -> None:
+    """Gemergte Einträge nach der Synchronisation auf veröffentlicht oder Prüfliste (Importfehler) setzen."""
+    rows = q.db.execute("SELECT id,title,slug,extra FROM items WHERE status='merged'").fetchall()
+    done = bad = 0
+    for r in rows:
+        pub_title = json.loads(r["extra"] or "{}").get("titel_de") or r["title"]
+        if r["title"] in ok_titles or pub_title in ok_titles:
+            q.set_status(r["id"], "published", None)
+            q.event(r["id"], "published", prn)
+            done += 1
+        elif r["slug"] in failed:
+            q.set_status(r["id"], "review", f"Import ins Wiki fehlgeschlagen: {failed[r['slug']]}")
+            bad += 1
+    log(f"Live verifiziert: {done} von {len(rows)} gemergten Einträgen, Importfehler {bad}")
 
 
 def run(args) -> int:
@@ -254,7 +273,8 @@ def run(args) -> int:
     if not new_files and not changed:
         log("Nichts zu veröffentlichen")
         if pending_merged and not args.no_sync:
-            sync_and_verify({})
+            ok_titles, failed = sync_and_verify({})
+            settle(q, ok_titles, failed, "")
         return 0
     if args.dry_run:
         log(f"Trockenlauf: {len(new_files)} Dateien würden veröffentlicht")
@@ -284,16 +304,8 @@ def run(args) -> int:
 
     # 4. Live-Gang über den vorgesehenen Weg
     if not args.no_sync:
-        ok_titles = sync_and_verify({})
-        rows = q.db.execute("SELECT id,title,extra FROM items WHERE status='merged'").fetchall()
-        done = 0
-        for r in rows:
-            pub_title = json.loads(r["extra"] or "{}").get("titel_de") or r["title"]
-            if r["title"] in ok_titles or pub_title in ok_titles:
-                q.set_status(r["id"], "published", None)
-                q.event(r["id"], "published", prn)
-                done += 1
-        log(f"Live verifiziert: {done} von {len(rows)} gemergten Einträgen")
+        ok_titles, failed = sync_and_verify({})
+        settle(q, ok_titles, failed, prn)
     return 0
 
 
