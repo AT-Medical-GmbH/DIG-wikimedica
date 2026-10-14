@@ -38,7 +38,8 @@ from wm_common import DEFAULT_STATE_DIR, Queue, log, norm_title, now_iso, slugif
 GATEWAY = os.environ.get("AT_AI_BASE_URL", "http://10.90.0.1:8188/v1")
 MODEL = os.environ.get("AT_AI_MODEL", "Qwen/Qwen3.6-35B-A3B-FP8")
 HTTP_TIMEOUT_S = 420
-SLOW_REPLY_S = 90  # Antwortzeit darüber: Gateway entlasten (Vorgabe control: Doc Blue und 3CX-Agent haben Vorrang)
+SLOW_REPLY_S = 150      # Gesamtzeit einer Anfrage darüber: Gateway entlasten (Vorgabe control: Doc Blue und 3CX-Agent haben Vorrang)
+SLOW_TOKENS_PER_S = 15  # Token-Rate darunter gilt als Überlast
 # Das Gateway erlaubt höchstens 8192 Ausgabetoken je Anfrage (HTTP 422 darüber). Die Denkphase des Modells zählt mit;
 # deshalb wird sie mit dem Top-Level-Feld enable_thinking=false abgeschaltet (Messung 14.10.2026: 323 statt 4000+ Token,
 # 4 s statt 40 s). Ohne diese Abschaltung wurden die Entwürfe der ersten zehn Themen abgeschnitten.
@@ -105,7 +106,11 @@ def ask_model(q: Queue, worker: str, prompt: str, max_tokens: int) -> str:
             t_req = time.time()
             with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT_S) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
-            if time.time() - t_req > SLOW_REPLY_S:
+            lat = time.time() - t_req
+            tokens = (data.get("usage") or {}).get("completion_tokens") or 0
+            # langsam = ungewöhnlich lange Gesamtzeit oder sehr niedrige Token-Rate (lange Entwürfe dauern von sich aus 30 bis 60 s)
+            if lat > SLOW_REPLY_S or (tokens > 300 and tokens / max(lat, 1) < SLOW_TOKENS_PER_S):
+                log(f"Gateway langsam: {lat:.0f} s für {tokens} Token, Drosselung 10 Minuten")
                 q.slow_down()
             choice = data["choices"][0]
             text = (choice["message"].get("content") or "").strip()
@@ -118,6 +123,7 @@ def ask_model(q: Queue, worker: str, prompt: str, max_tokens: int) -> str:
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError) as exc:
             last = exc
             if not isinstance(exc, urllib.error.HTTPError) or exc.code == 429 or exc.code >= 500:
+                log(f"Gateway-Fehler {type(exc).__name__}: {exc}; Drosselung 10 Minuten")
                 q.slow_down()
             time.sleep(20 * (attempt + 1))
         finally:
