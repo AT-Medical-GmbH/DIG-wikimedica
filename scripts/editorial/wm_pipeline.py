@@ -361,8 +361,8 @@ def term_for(q: Queue, worker: str, item, kind: str) -> tuple[str, str]:
         prompt = (f"Nenne den internationalen Freinamen (INN, englisch) für den folgenden Wirkstoff nach deutscher ATC-Bezeichnung. "
                   f"Antworte NUR mit JSON: {{\"term\":\"...\"}} (höchstens vier Wörter, keine Erklärung).\n\n{item['title']}")
     else:
-        prompt = (f"Für die folgende Diagnose (ICD-10-GM) benötige ich 1. den gebräuchlichsten englischen PubMed-Suchbegriff (MeSH-Begriff, "
-                  f"höchstens fünf Wörter) und 2. den gebräuchlichsten deutschen Artikeltitel, wie ihn ein Lehrbuch oder die Fachgesellschaften "
+        prompt = (f"Für die folgende Diagnose (ICD-10-GM) benötige ich 1. den englischen Suchbegriff, wie er in den TITELN von Übersichtsarbeiten und "
+                  f"Leitlinien vorkommt (z. B. 'hip osteoarthritis' statt des MeSH-Oberbegriffs 'Hip Joint Diseases'; höchstens vier Wörter) und 2. den gebräuchlichsten deutschen Artikeltitel, wie ihn ein Lehrbuch oder die Fachgesellschaften "
                   f"verwenden (ohne lateinische Fachsprache, wenn ein üblicher deutscher Begriff existiert; höchstens 70 Zeichen). "
                   f"Antworte NUR mit JSON: {{\"term\":\"...\",\"titel\":\"...\"}}\n\n{item['title']}")
     ans = parse_json_answer(ask_model(q, worker, prompt, MAX_TOKENS_SHORT))
@@ -420,7 +420,7 @@ def process(q: Queue, worker: str, item, out_dir: Path, review_dir: Path, state_
     recs = research.gather(term, kind)
     if len(recs) < 4:  # zweiter Versuch mit allgemeinerem Begriff
         prompt = (f"Der PubMed-Suchbegriff '{term}' für das Thema '{item['title']}' liefert zu wenige Übersichtsarbeiten. "
-                  "Nenne einen allgemeineren, gebräuchlichen englischen PubMed-Suchbegriff (MeSH). Antworte NUR mit JSON: {\"term\":\"...\"}")
+                  "Nenne einen anderen, im Titel von Übersichtsarbeiten gebräuchlichen englischen Begriff oder Synonym (kurz, höchstens drei Wörter, nicht zu allgemein). Antworte NUR mit JSON: {\"term\":\"...\"}")
         try:
             term2 = re.sub(r"[^A-Za-z0-9 ,'/-]", "", str(parse_json_answer(ask_model(q, worker, prompt, MAX_TOKENS_SHORT)).get("term", ""))).strip()[:80]
         except (ValueError, Truncated):
