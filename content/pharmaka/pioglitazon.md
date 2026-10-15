@@ -1,0 +1,86 @@
+---
+title: "Pioglitazon"
+slug: "pioglitazon"
+specialty: "Pharmakologie"
+secondary_specialties: []
+article_type: "pharmaka"
+content_kind: "article"
+status: "draft"
+version: "0.1.0"
+change_summary: "Automatisch erstellter, quellenbasierter Erstentwurf mit maschineller Faktenprüfung gegen PubMed-Quellen; fachärztliche Prüfung steht aus."
+authors: [{name: "WikiMedica-Redaktion"}]
+reviewers: []
+created: "2026-10-15"
+updated: "2026-10-15"
+risk_level: "high"
+target_audience: ["physicians", "pharmacists"]
+sex_gender_relevance: "not_assessed"
+sex_gender_notes: ""
+safety_hold: false
+language: "de"
+language_level: "professional"
+active_substances: ["Pioglitazon"]
+atc_codes: ["A10BG03", "A10BG03"]
+icd10: []
+ops: []
+pubmed_ids: ["41003906", "36401449", "33995271", "38174446", "36335768", "36689199", "32914429", "37410930", "36966544", "39302357", "39944518", "38558280", "35555946", "37974258", "40193122"]
+guidelines: []
+references: [{"citation": "Jamialahmadi T, Mirhadi E, Reiner Ž et al.. Effects of Pioglitazone On Lipoprotein(a): A Meta-analysis. Curr Atheroscler Rep. 2025;27:94.", "pmid": "41003906", "doi": "10.1007/s11883-025-01346-3", "url": "https://pubmed.ncbi.nlm.nih.gov/41003906/"}, {"citation": "Zhao Y, Zhao W, Wang H et al.. Pioglitazone on nonalcoholic steatohepatitis: A systematic review and meta-analysis of 15 RCTs. Medicine (Baltimore). 2022;101:e31508.", "pmid": "36401449", "doi": "10.1097/MD.0000000000031508", "url": "https://pubmed.ncbi.nlm.nih.gov/36401449/"}, {"citation": "Lian J, Fu J. Pioglitazone for NAFLD Patients With Prediabetes or Type 2 Diabetes Mellitus: A Meta-Analysis. Front Endocrinol (Lausanne). 2021;12:615409.", "pmid": "33995271", "doi": "10.3389/fendo.2021.615409", "url": "https://pubmed.ncbi.nlm.nih.gov/33995271/"}, {"citation": "Basutkar RS, Sudarsan P, Robin SM et al.. Drug Repositioning of Pioglitazone in Management and Improving the Cognitive Function among the Patients With Mild to Moderate Alzheimer's Disease: A Systematic Review and Meta-Analysis. Neurol India. 2023;71:1132-1141.", "pmid": "38174446", "doi": "10.4103/0028-3886.391397", "url": "https://pubmed.ncbi.nlm.nih.gov/38174446/"}, {"citation": "Chen L, Tao Y, Li J et al.. Pioglitazone use is associated with reduced risk of Parkinson's disease in patients with diabetes: A systematic review and meta-analysis. J Clin Neurosci. 2022;106:154-158.", "pmid": "36335768", "doi": "10.1016/j.jocn.2022.10.023", "url": "https://pubmed.ncbi.nlm.nih.gov/36335768/"}, {"citation": "Gu Y, Sun L, He Y et al.. Comparative efficacy of glucagon-like peptide 1 (GLP-1) receptor agonists, pioglitazone and vitamin E for liver histology among patients with nonalcoholic fatty liver disease: systematic review and pilot network meta-analysis of randomized controlled trials. Expert Rev Gastroenterol Hepatol. 2023;17:273-282.", "pmid": "36689199", "doi": "10.1080/17474124.2023.2172397", "url": "https://pubmed.ncbi.nlm.nih.gov/36689199/"}, {"citation": "Chi CC, Lee CY, Liu CY et al.. Effects of antidiabetic drugs on psoriasis: A meta-analysis. Eur J Clin Invest. 2021;51:e13377.", "pmid": "32914429", "doi": "10.1111/eci.13377", "url": "https://pubmed.ncbi.nlm.nih.gov/32914429/"}, {"citation": "Munoz Pena JM, Cusi K. Posttransplant Diabetes Mellitus: Recent Developments in Pharmacological Management of Hyperglycemia. J Clin Endocrinol Metab. 2023;109:e1-e11.", "pmid": "37410930", "doi": "10.1210/clinem/dgad395", "url": "https://pubmed.ncbi.nlm.nih.gov/37410930/"}, {"citation": "Gangopadhyay KK, Singh AK. Will lobeglitazone rival pioglitazone? A systematic review and critical appraisal. Diabetes Metab Syndr. 2023;17:102747.", "pmid": "36966544", "doi": "10.1016/j.dsx.2023.102747", "url": "https://pubmed.ncbi.nlm.nih.gov/36966544/"}, {"citation": "Blankfield RP. Is fluid retention a cardiovascular risk factor?. Clin Hemorheol Microcirc. 2024;88:277-288.", "pmid": "39302357", "doi": "10.3233/CH-242128", "url": "https://pubmed.ncbi.nlm.nih.gov/39302357/"}, {"citation": "Baddam S, Banka AV, Divity S et al.. Association between pioglitazone use and bladder cancer: A systematic review. Bladder (San Franc). 2024;11:e21200023.", "pmid": "39944518", "doi": "10.14440/bladder.2024.0039", "url": "https://pubmed.ncbi.nlm.nih.gov/39944518/"}, {"citation": "Anson M, Henney AE, Zhao SS et al.. Effect of combination pioglitazone with sodium-glucose cotransporter-2 inhibitors or glucagon-like peptide-1 receptor agonists on outcomes in type 2 diabetes: A systematic review, meta-analysis, and real-world study from an international federated database. Diabetes Obes Metab. 2024;26:2606-2623.", "pmid": "38558280", "doi": "10.1111/dom.15576", "url": "https://pubmed.ncbi.nlm.nih.gov/38558280/"}, {"citation": "Tentolouris A, Ntanasis-Stathopoulos I, Eleftheriadou I et al.. Diabetes mellitus and multiple myeloma; common features of two distinct entities. Diabetes Metab Res Rev. 2022;38:e3535.", "pmid": "35555946", "doi": "10.1002/dmrr.3535", "url": "https://pubmed.ncbi.nlm.nih.gov/35555946/"}, {"citation": "Deng M, Wen Y, Yan J et al.. Comparative effectiveness of multiple different treatment regimens for nonalcoholic fatty liver disease with type 2 diabetes mellitus: a systematic review and Bayesian network meta-analysis of randomised controlled trials. BMC Med. 2023;21:447.", "pmid": "37974258", "doi": "10.1186/s12916-023-03129-6", "url": "https://pubmed.ncbi.nlm.nih.gov/37974258/"}, {"citation": "Seminer A, Mulihano A, O'Brien C et al.. Cardioprotective Glucose-Lowering Agents and Dementia Risk: A Systematic Review and Meta-Analysis. JAMA Neurol. 2025;82:450-460.", "pmid": "40193122", "doi": "10.1001/jamaneurol.2025.0360", "url": "https://pubmed.ncbi.nlm.nih.gov/40193122/"}]
+source_notes: "Eigene Zusammenfassung von PubMed-Zusammenfassungen und, wo Creative-Commons-Lizenz vorliegt, PubMed-Central-Volltextauszügen; keine wörtliche Übernahme. Alle zitierten PMIDs wurden gegen PubMed aufgelöst. Katalogbezug: ATC-GM mit DDD 2026 (BfArM; Urheber WIdO, beruht auf WHO ATC-Index), keine DDD übernommen."
+ai_assisted: true
+ai_assistance_description: "Entwurf und satzweise Faktenprüfung durch Qwen/Qwen3.6-35B-A3B-FP8 über das AT-AI-Gateway (Hetzner) auf Grundlage automatisch abgerufener PubMed-Quellen. Maschinelle Faktenprüfung: 35 von 46 Sätzen bestätigt, 11 nicht belegte Sätze entfernt. Keine menschliche fachliche Prüfung."
+wikimedica_credit: true
+corrections: []
+---
+
+# Pioglitazon
+
+## Übersicht
+
+Der Wirkstoff verbessert die Insulinsensitivität und unterstützt die Funktion der Betazellen der Bauchspeicheldrüse.[1] Er zeigt signifikante positive Auswirkungen auf das Lipidprofil, insbesondere durch eine Senkung der Lipoprotein(a)-Konzentrationen, was potenziell vorteilhaft für Patienten mit einem hohen Risiko für atherosklerotische kardiovaskuläre Erkrankungen ist.[1] In der Hepatologie wird der Wirkstoff als wirksam zur Behandlung der nicht-alkoholischen Steatohepatitis (NASH) und der nicht-alkoholischen Fettlebererkrankung (NAFLD) bei Patienten mit Prädiabetes oder Typ-2-Diabetes anerkannt.[2][3] Zudem werden ihm neuroprotektive Eigenschaften zugeschrieben, wobei Studien auf ein reduziertes Risiko für die Entwicklung der Parkinson-Krankheit bei diabetischen Patienten sowie auf potenzielle kognitive Vorteile bei Alzheimer-Erkrankungen hinweisen.[4][5]
+
+## Wirkmechanismus
+
+Darüber hinaus beeinflusst Pioglitazon den Fettstoffwechsel, was sich in einer Senkung der Triglyceridwerte und einer Verbesserung der Insulinresistenz widerspiegelt.[2] Die Modulation des Lipidprofils umfasst auch eine signifikante Reduktion zirkulierender Lipoprotein(a)-Spiegel, was auf eine direkte oder indirekte Beeinflussung des Lipoprotein-Stoffwechsels hindeutet.[1]
+
+## Indikationen
+
+Er wird zunehmend auch zur Behandlung der nicht-alkoholischen Fettlebererkrankung (NAFLD) und der nicht-alkoholischen Steatohepatitis (NASH) bei Patienten mit Typ-2-Diabetes oder Prädiabetes eingesetzt.[3] Klinische Daten belegen, dass Pioglitazon die histologischen Parameter der Leber, wie Steatose, Entzündung und Ballooning-Nekrose, signifikant verbessert.[6][2] Bei Patienten mit Psoriasis und Diabetes mellitus kann Pioglitazon als zusätzliche Therapieoption in Betracht gezogen werden, da es die Schwere der Hauterkrankung verringern kann.[7] Auch im Bereich der Neurologie werden Off-Label-Ansätze diskutiert; so wird eine potenzielle Rolle bei der Verlangsamung des Fortschreitens der Alzheimer-Krankheit sowie die Reduktion des Parkinson-Risikos bei diabetischen Patienten erforscht.[4][5] In der Transplantationsmedizin wird Pioglitazon als sichere und effektive Option zur Behandlung des posttransplantären Diabetes mellitus (PTDM) betrachtet, wobei es zusätzliche kardiometabolische Vorteile bietet.[8]
+
+## Kontraindikationen und Warnhinweise
+
+Ein zentrales Warnhinweis bei der Anwendung von Pioglitazon ist das Risiko einer Flüssigkeitsretention, die zu Ödemen führen kann.[9] Obwohl Pioglitazon im Gegensatz zu vielen anderen Medikamenten, die Ödeme verursachen, günstige kardiovaskuläre Eigenschaften aufweisen kann, bleibt das Risiko einer kardialen Dekompensation bestehen.[10] Zudem gibt es gemischte Befunde bezüglich eines möglichen Zusammenhangs zwischen der Einnahme von Pioglitazon und einem erhöhten Risiko für Blasenkrebs.[11] Einige Studien deuten auf eine potenzielle Assoziation hin, während andere keine signifikante Korrelation finden, was eine sorgfältige Nutzen-Risiko-Abwägung erfordert.[11]
+
+## Nebenwirkungen
+
+Häufige Nebenwirkungen umfassen Gewichtszunahme und Ödeme.[9] Die Gewichtszunahme ist dosisabhängig und tritt ähnlich wie bei anderen Thiazolidindionen auf.[9] Ödeme werden häufiger beobachtet als unter Placebo und können die Lebensqualität der Patienten beeinträchtigen.[9] Weitere berichtete Nebenwirkungen bei der Behandlung von NASH sind Veränderungen der Leberenzyme, wobei Pioglitazon in der Regel zu einer Senkung der Transaminasen (ALT, AST) und des Gamma-Glutamyl-Transferase (GGT) führt, was auf eine Verbesserung der Leberfunktion hindeutet.[2] Bei der Anwendung bei Psoriasis wurden keine schwerwiegenden neuen Sicherheitsbedenken jenseits des bekannten Profils berichtet.[7]
+
+## Wechselwirkungen
+
+Pioglitazon kann in Kombination mit anderen antidiabetischen Wirkstoffen wie GLP-1-Rezeptoragonisten oder SGLT2-Hemmern eingesetzt werden, um synergistische Effekte zu erzielen.[12] Die Kombination mit GLP-1-Rezeptoragonisten führt zu einer stärkeren Senkung des HbA1c und des Körpergewichts im Vergleich zur Monotherapie.[12] Ebenso zeigt die Kombination mit SGLT2-Hemmern eine verbesserte glykämische Kontrolle, eine signifikante Gewichtsabnahme und eine Reduktion des systolischen Blutdrucks.[12] Besonders hervorzuheben ist, dass diese Kombinationstherapien mit einem reduzierten Risiko für Herzinsuffizienz im Vergleich zur Monotherapie verbunden sind.[12] Es liegen keine Hinweise auf klinisch relevante Wechselwirkungen mit den am häufigsten verwendeten Antimyelomatherapeutika vor, was Pioglitazon zu einer geeigneten Add-on-Therapie bei Patienten mit multiplen Myelom machen kann.[13]
+
+## Besondere Patientengruppen
+
+Bei Patienten mit nicht-alkoholischer Fettlebererkrankung (NAFLD) und Typ-2-Diabetes mellitus zeigt Pioglitazon eine hohe Wirksamkeit bei der Verbesserung der Leberhistologie und der Insulinsensitivität.[3] Die Anwendung ist bei dieser Patientengruppe gut belegt und wird als effektive Strategie zur Behandlung der hepatischen Manifestationen des metabolischen Syndroms angesehen.[14] Bei Patienten mit Alzheimer-Krankheit milden bis mittelschweren Grades wurde eine sichere Anwendung beobachtet, wobei einige Studien auf kognitive Verbesserungen hinweisen.[4] Allerdings ist die Datenlage zur kognitiven Prävention bei Diabetes insgesamt noch nicht eindeutig, da große Metaanalysen keine signifikante Reduktion der Demenzinzidenz für Pioglitazon allein im Vergleich zu anderen Wirkstoffklassen wie GLP-1-Rezeptoragonisten fanden.[15]
+
+## Hinweise zur sicheren Anwendung
+
+Die Anwendung von Pioglitazon erfordert eine regelmäßige Überwachung der glykämischen Kontrolle und der Leberfunktion.[3] Bei Patienten mit NAFLD/NASH sollte die Verbesserung der Leberenzyme und der histologischen Parameter im Verlauf kontrolliert werden.[2] Aufgrund des Risikos einer Flüssigkeitsretention und einer möglichen Verschlechterung der Herzinsuffizienz sollte der kardiale Status vor Therapiebeginn und während der Behandlung überwacht werden.[12] Bei Verdacht auf Blasenkrebs, insbesondere bei langjähriger Anwendung oder bei Patienten mit entsprechenden Risikofaktoren, ist eine sorgfältige Abwägung und Diagnostik erforderlich.[11] Patienten sollten über die möglichen Nebenwirkungen, insbesondere Gewichtszunahme und Ödeme, aufgeklärt werden.[9] Die Entscheidung für eine Therapie mit Pioglitazon sollte individuell unter Berücksichtigung des kardiovaskulären Profils, des Leberstatus und der Begleiterkrankungen des Patienten getroffen werden.[8]
+
+## Literatur
+
+1. Jamialahmadi T, Mirhadi E, Reiner Ž et al.. Effects of Pioglitazone On Lipoprotein(a): A Meta-analysis. Curr Atheroscler Rep. 2025;27:94. PMID: 41003906. DOI: 10.1007/s11883-025-01346-3. https://pubmed.ncbi.nlm.nih.gov/41003906/
+2. Zhao Y, Zhao W, Wang H et al.. Pioglitazone on nonalcoholic steatohepatitis: A systematic review and meta-analysis of 15 RCTs. Medicine (Baltimore). 2022;101:e31508. PMID: 36401449. DOI: 10.1097/MD.0000000000031508. https://pubmed.ncbi.nlm.nih.gov/36401449/
+3. Lian J, Fu J. Pioglitazone for NAFLD Patients With Prediabetes or Type 2 Diabetes Mellitus: A Meta-Analysis. Front Endocrinol (Lausanne). 2021;12:615409. PMID: 33995271. DOI: 10.3389/fendo.2021.615409. https://pubmed.ncbi.nlm.nih.gov/33995271/
+4. Basutkar RS, Sudarsan P, Robin SM et al.. Drug Repositioning of Pioglitazone in Management and Improving the Cognitive Function among the Patients With Mild to Moderate Alzheimer's Disease: A Systematic Review and Meta-Analysis. Neurol India. 2023;71:1132-1141. PMID: 38174446. DOI: 10.4103/0028-3886.391397. https://pubmed.ncbi.nlm.nih.gov/38174446/
+5. Chen L, Tao Y, Li J et al.. Pioglitazone use is associated with reduced risk of Parkinson's disease in patients with diabetes: A systematic review and meta-analysis. J Clin Neurosci. 2022;106:154-158. PMID: 36335768. DOI: 10.1016/j.jocn.2022.10.023. https://pubmed.ncbi.nlm.nih.gov/36335768/
+6. Gu Y, Sun L, He Y et al.. Comparative efficacy of glucagon-like peptide 1 (GLP-1) receptor agonists, pioglitazone and vitamin E for liver histology among patients with nonalcoholic fatty liver disease: systematic review and pilot network meta-analysis of randomized controlled trials. Expert Rev Gastroenterol Hepatol. 2023;17:273-282. PMID: 36689199. DOI: 10.1080/17474124.2023.2172397. https://pubmed.ncbi.nlm.nih.gov/36689199/
+7. Chi CC, Lee CY, Liu CY et al.. Effects of antidiabetic drugs on psoriasis: A meta-analysis. Eur J Clin Invest. 2021;51:e13377. PMID: 32914429. DOI: 10.1111/eci.13377. https://pubmed.ncbi.nlm.nih.gov/32914429/
+8. Munoz Pena JM, Cusi K. Posttransplant Diabetes Mellitus: Recent Developments in Pharmacological Management of Hyperglycemia. J Clin Endocrinol Metab. 2023;109:e1-e11. PMID: 37410930. DOI: 10.1210/clinem/dgad395. https://pubmed.ncbi.nlm.nih.gov/37410930/
+9. Gangopadhyay KK, Singh AK. Will lobeglitazone rival pioglitazone? A systematic review and critical appraisal. Diabetes Metab Syndr. 2023;17:102747. PMID: 36966544. DOI: 10.1016/j.dsx.2023.102747. https://pubmed.ncbi.nlm.nih.gov/36966544/
+10. Blankfield RP. Is fluid retention a cardiovascular risk factor?. Clin Hemorheol Microcirc. 2024;88:277-288. PMID: 39302357. DOI: 10.3233/CH-242128. https://pubmed.ncbi.nlm.nih.gov/39302357/
+11. Baddam S, Banka AV, Divity S et al.. Association between pioglitazone use and bladder cancer: A systematic review. Bladder (San Franc). 2024;11:e21200023. PMID: 39944518. DOI: 10.14440/bladder.2024.0039. https://pubmed.ncbi.nlm.nih.gov/39944518/
+12. Anson M, Henney AE, Zhao SS et al.. Effect of combination pioglitazone with sodium-glucose cotransporter-2 inhibitors or glucagon-like peptide-1 receptor agonists on outcomes in type 2 diabetes: A systematic review, meta-analysis, and real-world study from an international federated database. Diabetes Obes Metab. 2024;26:2606-2623. PMID: 38558280. DOI: 10.1111/dom.15576. https://pubmed.ncbi.nlm.nih.gov/38558280/
+13. Tentolouris A, Ntanasis-Stathopoulos I, Eleftheriadou I et al.. Diabetes mellitus and multiple myeloma; common features of two distinct entities. Diabetes Metab Res Rev. 2022;38:e3535. PMID: 35555946. DOI: 10.1002/dmrr.3535. https://pubmed.ncbi.nlm.nih.gov/35555946/
+14. Deng M, Wen Y, Yan J et al.. Comparative effectiveness of multiple different treatment regimens for nonalcoholic fatty liver disease with type 2 diabetes mellitus: a systematic review and Bayesian network meta-analysis of randomised controlled trials. BMC Med. 2023;21:447. PMID: 37974258. DOI: 10.1186/s12916-023-03129-6. https://pubmed.ncbi.nlm.nih.gov/37974258/
+15. Seminer A, Mulihano A, O'Brien C et al.. Cardioprotective Glucose-Lowering Agents and Dementia Risk: A Systematic Review and Meta-Analysis. JAMA Neurol. 2025;82:450-460. PMID: 40193122. DOI: 10.1001/jamaneurol.2025.0360. https://pubmed.ncbi.nlm.nih.gov/40193122/
