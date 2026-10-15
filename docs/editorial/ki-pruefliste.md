@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 15.10.2026 00:25. Warteschlange: claimed 1, duplicate 434, planned 6323, published 258, ready 29, review 20.
+Stand: 15.10.2026 02:25. Warteschlange: duplicate 436, failed 2, planned 6246, published 327, ready 29, review 25.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -20,11 +20,18 @@ Stand: 15.10.2026 00:25. Warteschlange: claimed 1, duplicate 434, planned 6323, 
 | WM-DIS-0243 | Geburtshindernis durch Anomalie des mütterlichen Beckens | disease | zu wenige Quellen mit Zusammenfassung (0) für 'maternal pelvis anomaly' |
 | WM-DIS-0245 | Komplikationen bei Wehen und Entbindung durch Nabelschnurkomplikationen | disease | zu wenige Quellen mit Zusammenfassung (2) für 'umbilical cord complications' |
 | WM-DIS-0250 | Krankheiten der Kapillaren | disease | zu wenige Quellen mit Zusammenfassung (1) für 'capillary disorders' |
+| WM-DIS-0265 | Schädlicher Gebrauch von nichtabhängigkeitserzeugenden Substanzen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'non-substance abuse' |
 | WM-DIS-0296 | Cataracta senilis | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
 --- Validation Sum |
+| WM-DIS-0337 | Persönlichkeits- und Verhaltensstörung aufgrund einer Krankheit, Schädigung oder Funktionsstörung des Gehirns | disease | zu wenige Quellen mit Zusammenfassung (2) für 'Organic personality' |
+| WM-DIS-0339 | Reaktionen auf schwere Belastungen und Anpassungsstörungen | disease | RuntimeError: Gateway nicht erreichbar: HTTP Error 429: Too Many Requests |
+| WM-DIS-0340 | Störungen der Geschlechtsidentität | disease | RuntimeError: Gateway nicht erreichbar: HTTP Error 429: Too Many Requests |
+| WM-DIS-0391 | Komplikationen bei Wehen und Entbindung durch intrapartale Blutung, anderenorts nicht klassifiziert | disease | Bestätigungsquote 17/38 unter 60 % |
 | WM-DIS-0461 | Spontangeburt eines Einlings | disease | Bestätigungsquote 24/51 unter 60 % |
 | WM-DIS-0484 | Nicht näher bezeichnete affektive Störung | disease | Import ins Wiki fehlgeschlagen: existing page is not owned by this BETA article; refusing overwrite |
 | WM-DIS-0492 | Bösartige Neubildung am Rektosigmoid, Übergang | disease | Bestätigungsquote 26/44 unter 60 % |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0129 | Insulin aspart | drug | Bestätigungsquote 27/56 unter 60 % |
+| WM-DRUG-0189 | Glycopyrroniumbromid | drug | Bestätigungsquote 22/39 unter 60 % |
+| WM-DRUG-0208 | Pirfenidon | drug | Entwurf ohne belegte Sätze |
