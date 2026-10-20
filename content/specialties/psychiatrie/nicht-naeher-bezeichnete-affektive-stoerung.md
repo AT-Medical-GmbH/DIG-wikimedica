@@ -1,5 +1,5 @@
 ---
-title: "Affektive Störungen"
+title: "Nicht näher bezeichnete affektive Störung"
 slug: "nicht-naeher-bezeichnete-affektive-stoerung"
 specialty: "Psychiatrie"
 secondary_specialties: []
