@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 27.10.2026 23:25. Warteschlange: duplicate 436, failed 2, planned 6218, published 384, review 25.
+Stand: 28.10.2026 00:25. Warteschlange: duplicate 436, failed 2, planned 6218, published 384, review 25.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
