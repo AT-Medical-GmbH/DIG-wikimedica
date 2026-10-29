@@ -1,0 +1,82 @@
+---
+title: "Sufentanil"
+slug: "sufentanil"
+specialty: "Pharmakologie"
+secondary_specialties: []
+article_type: "pharmaka"
+content_kind: "article"
+status: "draft"
+version: "0.1.0"
+change_summary: "Automatisch erstellter, quellenbasierter Erstentwurf mit maschineller Faktenprüfung gegen PubMed-Quellen; fachärztliche Prüfung steht aus."
+authors: [{name: "WikiMedica-Redaktion"}]
+reviewers: []
+created: "2026-10-30"
+updated: "2026-10-30"
+risk_level: "high"
+target_audience: ["physicians", "pharmacists"]
+sex_gender_relevance: "not_assessed"
+sex_gender_notes: ""
+safety_hold: false
+language: "de"
+language_level: "professional"
+active_substances: ["Sufentanil"]
+atc_codes: ["N01AH03", "N02AB07", "N01AH03", "N02AB07"]
+icd10: []
+ops: []
+pubmed_ids: ["40993820", "34954261", "33653734", "35076875", "37584961", "35060534", "38384296", "36105787", "37083762", "41347178", "42380751"]
+guidelines: []
+references: [{"citation": "Kim HJ, Choi GJ, Kang H et al.. Comparison of efficacy and safety profiles of perioperative sufentanil and remifentanil: a systematic review and meta-analysis with trial sequential analysis. Syst Rev. 2025;14:171.", "pmid": "40993820", "doi": "10.1186/s13643-025-02933-w", "url": "https://pubmed.ncbi.nlm.nih.gov/40993820/"}, {"citation": "Fonseca NM, Guimarães GMN, Pontes JPJ et al.. Safety and effectiveness of adding fentanyl or sufentanil to spinal anesthesia: systematic review and meta-analysis of randomized controlled trials. Braz J Anesthesiol. 2023;73:198-216.", "pmid": "34954261", "doi": "10.1016/j.bjane.2021.10.010", "url": "https://pubmed.ncbi.nlm.nih.gov/34954261/"}, {"citation": "Thangaraju P, Varthya SB, Venkatesan S et al.. Efficacy and safety of sufentanil sublingual tablet system in postoperative pain management: a systematic review and meta-analysis. BMJ Support Palliat Care. 2023;13:e20-e29.", "pmid": "33653734", "doi": "10.1136/bmjspcare-2020-002693", "url": "https://pubmed.ncbi.nlm.nih.gov/33653734/"}, {"citation": "Koushik SS, Schwartz RH, Cherkalin D et al.. A Review of Sublingual Sufentanil Tablet (SST) and its Utility as an Analgesic Agent for Pain Procedures. Curr Pain Headache Rep. 2022;26:145-149.", "pmid": "35076875", "doi": "10.1007/s11916-022-01014-0", "url": "https://pubmed.ncbi.nlm.nih.gov/35076875/"}, {"citation": "Fadlalmola HA, Elhusein AM, Albadrani MS et al.. Safety and efficacy of combined ropivacaine and sufentanil compared with ropivacaine for cesarean sections: A systematic review and meta-analysis. Afr J Reprod Health. 2023;27:95-106.", "pmid": "37584961", "doi": "10.29063/ajrh2023/v27i1.9", "url": "https://pubmed.ncbi.nlm.nih.gov/37584961/"}, {"citation": "Nie ZB, Li ZH, Lu B et al.. Hydromorphone vs sufentanil in patient-controlled analgesia for postoperative pain management: A meta-analysis. Medicine (Baltimore). 2022;101:e28615.", "pmid": "35060534", "doi": "10.1097/MD.0000000000028615", "url": "https://pubmed.ncbi.nlm.nih.gov/35060534/"}, {"citation": "Yao M, Fang B, Yang J et al.. Esketamine combined with sufentanil versus sufentanil in patient-controlled intravenous analgesia: a meta-analysis. Front Pharmacol. 2024;15:1247646.", "pmid": "38384296", "doi": "10.3389/fphar.2024.1247646", "url": "https://pubmed.ncbi.nlm.nih.gov/38384296/"}, {"citation": "Huang H, Wang S, Lin R et al.. Sufentanil for Spinal Analgesia during Cesarean Section Delivery: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Int J Clin Pract. 2022;2022:4741141.", "pmid": "36105787", "doi": "10.1155/2022/4741141", "url": "https://pubmed.ncbi.nlm.nih.gov/36105787/"}, {"citation": "Zhang Y, Lv X, Sun P et al.. Sufentanil, dexmedetomidine combined with surface anesthesia for awake fiberoptic nasotracheal intubation in the patient with severe mouth opening difficulty undergoing wedge resection of the right upper lung: A case report and literature review. Medicine (Baltimore). 2023;102:e33584.", "pmid": "37083762", "doi": "10.1097/MD.0000000000033584", "url": "https://pubmed.ncbi.nlm.nih.gov/37083762/"}, {"citation": "Liu H, He Y, Ding L et al.. Different interventions in preventing sufentanil-induced cough: a systematic review and network meta-analysis. Front Pharmacol. 2025;16:1619920.", "pmid": "41347178", "doi": "10.3389/fphar.2025.1619920", "url": "https://pubmed.ncbi.nlm.nih.gov/41347178/"}, {"citation": "Wan J, Li J, Liao L et al.. Oliceridine versus sufentanil: a systematic review and meta-analysis of postoperative nausea and vomiting. BMC Anesthesiol. 2026;26.", "pmid": "42380751", "doi": "10.1186/s12871-026-04041-1", "url": "https://pubmed.ncbi.nlm.nih.gov/42380751/"}]
+source_notes: "Eigene Zusammenfassung von PubMed-Zusammenfassungen und, wo Creative-Commons-Lizenz vorliegt, PubMed-Central-Volltextauszügen; keine wörtliche Übernahme. Alle zitierten PMIDs wurden gegen PubMed aufgelöst. Katalogbezug: ATC-GM mit DDD 2026 (BfArM; Urheber WIdO, beruht auf WHO ATC-Index), keine DDD übernommen."
+ai_assisted: true
+ai_assistance_description: "Entwurf und satzweise Faktenprüfung auf Grundlage automatisch abgerufener PubMed-Quellen (Suchbegriff, Entwurf, Lektorat: claude-haiku-5-5 über die Claude-API (Anthropic); Themenprüfung, Faktenprüfung: claude-sonnet-5-5 über die Claude-API (Anthropic)). Maschinelle Faktenprüfung: 48 von 57 Sätzen bestätigt, 9 nicht belegte Sätze entfernt. Keine menschliche fachliche Prüfung."
+wikimedica_credit: true
+corrections: []
+---
+
+# Sufentanil
+
+## Übersicht
+
+Sufentanil ist ein Opioid, das in der Anästhesie und zur postoperativen Schmerztherapie eingesetzt wird.[1] Als lipophiles Opioid wird es in der Spinalanästhesie einem Lokalanästhetikum zugesetzt.[2] Daneben existiert eine sublinguale Darreichungsform als Sufentanil-Tablettensystem (SSTS), das für die postoperative Schmerztherapie zugelassen wurde.[3] Eine weitere Anwendungsform ist die sublinguale Sufentanil-Tablette (SST), die vor allem bei interventionellen Schmerzverfahren genutzt wird.[4]
+
+## Wirkmechanismus
+
+Zudem wird ein rascher Wirkungseintritt genannt.[3] Diese pharmakokinetischen Angaben stammen aus der Einleitung einer Metaanalyse zur sublingualen Formulierung und beziehen sich nicht gleichermaßen auf alle Anwendungsformen.[3] Bei der Zugabe zu Lokalanästhetika in der Spinalanästhesie wurde eine Verminderung des postoperativen Schmerzes und des Opioidverbrauchs beobachtet.[2] Ein Vergleich mit Ropivacain allein zeigte bei Sectio-Patientinnen zudem eine Reduktion der viszeralen Schmerzen.[5]
+
+## Indikationen
+
+Das Sufentanil-Tablettensystem ist in einer Metaanalyse bei Erwachsenen mit mittelschweren bis schweren postoperativen Schmerzen wirksam untersucht worden.[3] Die Autoren berichten über eine signifikante Reduktion der Schmerzintensität gegenüber Kontrollen sowie eine hohe Patientenzufriedenheit.[3] Im intraoperativen Einsatz zeigte sich in einer Metaanalyse im Vergleich mit Remifentanil, dass die Schmerzscores in der Remifentanil-Gruppe postoperativ höher waren und der postoperative Analgetikabedarf in der Sufentanil-Gruppe niedriger war.[1] Die Autoren fassen zusammen, dass Sufentanil bei der postoperativen Schmerztherapie überlegen war, während Remifentanil eine schnellere Erholung zeigte.[1] Ein Vergleich mit Hydromorphon ergab in einer anderen Metaanalyse eine bessere Schmerzkontrolle und seltenere unerwünschte Ereignisse unter Hydromorphon, jedoch keinen Vorteil bei der Sedierungstiefe.[6] Die Zugabe von Esketamin zu Sufentanil in der PCIA verbesserte in einer Metaanalyse die postoperative Analgesie und verringerte die Rate unerwünschter Reaktionen.[7] In der Geburtshilfe wird Sufentanil intrathekal zur Spinalanalgesie bei Kaiserschnitten untersucht.[8] Eine Metaanalyse fand, dass die subarachnoidale Gabe die Latenzzeit der sensorischen und motorischen Blockade nicht signifikant verkürzte.[8] Eine Kombination mit Ropivacain wurde in einer weiteren Metaanalyse im Vergleich zu Ropivacain allein mit geringeren Raten von Schüttelfrost, Übelkeit und Erbrechen assoziiert.[5] Eine Fallbeschreibung berichtet über eine erfolgreiche wache fiberoptische nasotracheale Intubation bei einem Patienten mit ausgeprägter Mundöffnungsstörung unter intravenöser Gabe von Sufentanil und Dexmedetomidin in Kombination mit topischer Lidocain-Anästhesie.[9] Ein Fallbericht erlaubt jedoch keine verallgemeinernden Aussagen zur Wirksamkeit.[9]
+
+## Kontraindikationen und Warnhinweise
+
+Sufentanil-induzierter Husten ist in der Anästhesiepraxis verbreitet.[10] Eine Metaanalyse zur intrathekalen Gabe weist darauf hin, dass das Präparat unter Berücksichtigung der tatsächlichen klinischen Situation mit Vorsicht eingesetzt werden sollte, insbesondere wegen des erhöhten Auftretens von Juckreiz.[8]
+
+## Nebenwirkungen
+
+In einer Netzwerkmetaanalyse zu Oliceridin wurden seltener auftretende Übelkeit und selteneres Erbrechen sowie ein geringerer Bedarf an Antiemetika im Vergleich zu Sufentanil berichtet.[11] Eine Metaanalyse zu Remifentanil fand dagegen eine höhere Übelkeitsrate unter Remifentanil als unter Sufentanil.[1] Bei der Spinalanalgesie reduzierte Fentanyl, nicht aber Sufentanil, die postoperative Übelkeit und das Erbrechen im Vergleich zu Lokalanästhetika allein.[2] Demgegenüber war die Kombination aus Sufentanil und Ropivacain mit einem geringeren Risiko für Übelkeit und Erbrechen verbunden als Ropivacain allein.[5] Bei subarachnoidaler Gabe war die Häufigkeit von postoperativem Hautjucken signifikant erhöht.[8] Auch in einer anderen Analyse war Pruritus unter Sufentanil-Zusatz häufiger, wobei das Ausmaß offenbar mit der eingesetzten Dosis zusammenhing.[5] Die Atemdepression bei Zusatz zur Spinalanästhesie war mit 0,7 % bzw. 0,8 % in den Vergleichsgruppen selten, trat intraoperativ auf und war gut beherrschbar.[2] Auch für die Kombination von Esketamin mit Sufentanil wurde eine geringere Rate an Atemdepression berichtet.[7] Hinsichtlich der Hypotonie, Bradykardie und des Schwindels fanden sich im Vergleich von Oliceridin und Sufentanil keine signifikanten Unterschiede.[11] Für das Sufentanil-Tablettensystem war Schwindel das einzige unerwünschte Ereignis mit einem signifikant erhöhten Risiko gegenüber der Vergleichsgruppe.[3] Im Vergleich mit Remifentanil zeigten sich intraoperativ niedrigere Blutdruck- und Herzfrequenzwerte unter Remifentanil; die Autoren sehen Sufentanil hinsichtlich der hämodynamischen Stabilität dabei im Vorteil.[1] Ferner wurde unter Zusatz von Sufentanil zu Lokalanästhetika kein Anstieg des Schüttelfrostes beobachtet, unter Ropivacain-Kombination war er dagegen reduziert.[5]
+
+## Wechselwirkungen
+
+In der PCIA wurde die Kombination mit Esketamin untersucht; sie verbesserte die Analgesie und verringerte postoperative Nebenwirkungen, ohne die Sedierung signifikant zu verändern.[7] Bei der Spinalanästhesie wird Sufentanil dem Lokalanästhetikum zugesetzt; in einer Kaiserschnitt-Metaanalyse zeigte sich bei der Kombination mit Ropivacain ein verzögerter Beginn der sensorischen Blockade bei geringerer motorischer Blockade.[5] In einer Netzwerkmetaanalyse zur Vermeidung von Sufentanil-induziertem Husten wurden verschiedene Wirkstoffe und Maßnahmen verglichen, darunter Nalbuphin, Dezocin, Butorphanol, Remifentanil und Esketamin.[10] Die Autoren fanden eine signifikante Reduktion der Hustenhäufigkeit für Nalbuphin, Dezocin und Butorphanol sowie für Remifentanil und Esketamin bezüglich der Gesamthäufigkeit.[10] Die Aussagekraft ist durch die Heterogenität der eingeschlossenen Studien begrenzt.[10]
+
+## Besondere Patientengruppen
+
+Bei Schwangeren, die einen Kaiserschnitt erhalten, wurde Sufentanil in der Spinalanalgesie untersucht; eine Metaanalyse schloss 503 Schwangere ein.[8] Die Wirksamkeit auf die Latenzzeiten war in dieser Gruppe nicht signifikant verändert, während Juckreiz häufiger auftrat.[8] Eine Kombination mit Ropivacain wurde bei Frauen mit einem durchschnittlichen Alter zwischen 28 und 35 Jahren untersucht.[5] Bei älteren Patienten mit arterieller Hypertonie wurde in einer eingeschlossenen Studie die Einleitung mit Sufentanil verglichen.[11] Einzelne Studien einer Metaanalyse betrafen pädiatrische Patienten; die Mehrzahl der Studien umfasste Erwachsene.[1]
+
+## Hinweise zur sicheren Anwendung
+
+Randomisierte kontrollierte Studien zum Vergleich mit Oliceridin lieferten nicht durchgehend konsistente Ergebnisse, weshalb die Autoren den Befund zur Übelkeit als potenziell, nicht als gesichert bezeichnen.[11] Die Vertrauenswürdigkeit der Evidenz in einer Netzwerkmetaanalyse reichte von hoch bis sehr niedrig.[10] Bei Zusatz zur Spinalanästhesie sollten Atemdepression, Juckreiz und Übelkeit in die Entscheidung einbezogen werden; Atemdepression trat dabei selten und intraoperativ auf.[2] Das sublinguale Tablettensystem kann nach Angaben einer Übersicht bei Patienten mit schwierigem intravenösem Zugang und bei knappen intravenösen Ressourcen eine Alternative darstellen.[4] Bei der Auswahl des Opioids sollte berücksichtigt werden, dass Remifentanil in Vergleichsstudien eine schnellere postoperative Erholung zeigte, während Sufentanil eine bessere postoperative Schmerzkontrolle aufwies.[1]
+
+## Literatur
+
+1. Kim HJ, Choi GJ, Kang H et al.. Comparison of efficacy and safety profiles of perioperative sufentanil and remifentanil: a systematic review and meta-analysis with trial sequential analysis. Syst Rev. 2025;14:171. PMID: 40993820. DOI: 10.1186/s13643-025-02933-w. https://pubmed.ncbi.nlm.nih.gov/40993820/
+2. Fonseca NM, Guimarães GMN, Pontes JPJ et al.. Safety and effectiveness of adding fentanyl or sufentanil to spinal anesthesia: systematic review and meta-analysis of randomized controlled trials. Braz J Anesthesiol. 2023;73:198-216. PMID: 34954261. DOI: 10.1016/j.bjane.2021.10.010. https://pubmed.ncbi.nlm.nih.gov/34954261/
+3. Thangaraju P, Varthya SB, Venkatesan S et al.. Efficacy and safety of sufentanil sublingual tablet system in postoperative pain management: a systematic review and meta-analysis. BMJ Support Palliat Care. 2023;13:e20-e29. PMID: 33653734. DOI: 10.1136/bmjspcare-2020-002693. https://pubmed.ncbi.nlm.nih.gov/33653734/
+4. Koushik SS, Schwartz RH, Cherkalin D et al.. A Review of Sublingual Sufentanil Tablet (SST) and its Utility as an Analgesic Agent for Pain Procedures. Curr Pain Headache Rep. 2022;26:145-149. PMID: 35076875. DOI: 10.1007/s11916-022-01014-0. https://pubmed.ncbi.nlm.nih.gov/35076875/
+5. Fadlalmola HA, Elhusein AM, Albadrani MS et al.. Safety and efficacy of combined ropivacaine and sufentanil compared with ropivacaine for cesarean sections: A systematic review and meta-analysis. Afr J Reprod Health. 2023;27:95-106. PMID: 37584961. DOI: 10.29063/ajrh2023/v27i1.9. https://pubmed.ncbi.nlm.nih.gov/37584961/
+6. Nie ZB, Li ZH, Lu B et al.. Hydromorphone vs sufentanil in patient-controlled analgesia for postoperative pain management: A meta-analysis. Medicine (Baltimore). 2022;101:e28615. PMID: 35060534. DOI: 10.1097/MD.0000000000028615. https://pubmed.ncbi.nlm.nih.gov/35060534/
+7. Yao M, Fang B, Yang J et al.. Esketamine combined with sufentanil versus sufentanil in patient-controlled intravenous analgesia: a meta-analysis. Front Pharmacol. 2024;15:1247646. PMID: 38384296. DOI: 10.3389/fphar.2024.1247646. https://pubmed.ncbi.nlm.nih.gov/38384296/
+8. Huang H, Wang S, Lin R et al.. Sufentanil for Spinal Analgesia during Cesarean Section Delivery: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Int J Clin Pract. 2022;2022:4741141. PMID: 36105787. DOI: 10.1155/2022/4741141. https://pubmed.ncbi.nlm.nih.gov/36105787/
+9. Zhang Y, Lv X, Sun P et al.. Sufentanil, dexmedetomidine combined with surface anesthesia for awake fiberoptic nasotracheal intubation in the patient with severe mouth opening difficulty undergoing wedge resection of the right upper lung: A case report and literature review. Medicine (Baltimore). 2023;102:e33584. PMID: 37083762. DOI: 10.1097/MD.0000000000033584. https://pubmed.ncbi.nlm.nih.gov/37083762/
+10. Liu H, He Y, Ding L et al.. Different interventions in preventing sufentanil-induced cough: a systematic review and network meta-analysis. Front Pharmacol. 2025;16:1619920. PMID: 41347178. DOI: 10.3389/fphar.2025.1619920. https://pubmed.ncbi.nlm.nih.gov/41347178/
+11. Wan J, Li J, Liao L et al.. Oliceridine versus sufentanil: a systematic review and meta-analysis of postoperative nausea and vomiting. BMC Anesthesiol. 2026;26. PMID: 42380751. DOI: 10.1186/s12871-026-04041-1. https://pubmed.ncbi.nlm.nih.gov/42380751/

@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 30.10.2026 00:01. Warteschlange: claimed 3, duplicate 438, planned 6175, published 384, ready 19, review 46.
+Stand: 30.10.2026 00:25. Warteschlange: claimed 3, duplicate 439, planned 6094, published 408, ready 45, redirect 9, review 67.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -29,11 +29,16 @@ Stand: 30.10.2026 00:01. Warteschlange: claimed 3, duplicate 438, planned 6175, 
 
 --- Validation Sum |
 | WM-DIS-0297 | Schulterläsionen | disease | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (M75 umfasst Schulterläsionen wie Rotatorenmanschettenrisse, Labrumläsionen, Tendinitis und Bursitis. Der Titel „Schulterläsionen“ entspricht dieser |
+| WM-DIS-0306 | Komplikationen bei Anästhesie in der Schwangerschaft | disease | zu wenige Quellen mit Zusammenfassung (0) für 'obstetric anesthesia complications' |
 | WM-DIS-0314 | Hautabszess, Furunkel und Karbunkel | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel entspricht ICD-10-GM L02 (Hautabszess, Furunkel, Karbunkel). Quelle 2 behandelt Inzision und Drainage kutaner Abszesse mit bzw. ohne Tamp |
+| WM-DIS-0330 | Venenkrankheiten und Hämorrhoiden als Komplikationen in der Schwangerschaft | disease | zu wenige Quellen mit Zusammenfassung (0) für 'venous disorders pregnancy' |
+| WM-DIS-0331 | Abnorme Befunde bei der Screeninguntersuchung der Mutter zur pränatalen Diagnostik | disease | zu wenige Quellen mit Zusammenfassung (0) für 'abnormal antenatal screening' |
 | WM-DIS-0337 | Persönlichkeits- und Verhaltensstörung aufgrund einer Krankheit, Schädigung oder Funktionsstörung des Gehirns | disease | zu wenige Quellen mit Zusammenfassung (2) für 'Organic personality' |
 | WM-DIS-0341 | Psychische und Verhaltensstörungen in Verbindung mit der sexuellen Entwicklung und Orientierung | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (F66 umfasst psychische und Verhaltensstörungen im Zusammenhang mit sexueller Entwicklung und Orientierung, und der Titel bezeichnet dasselbe Krankh |
 | WM-DIS-0342 | Störungen sozialer Funktionen mit Beginn in der Kindheit und Jugend | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Störungen sozialer Funktionen im Kindes- und Jugendalter“ entspricht F94 (Störungen sozialer Funktionen mit Beginn in der Kindheit und J |
 | WM-DIS-0348 | Akute Lymphadenitis | disease | zu wenige Quellen mit Zusammenfassung (3) für 'suppurative lymphadenitis' |
+| WM-DIS-0361 | Infektionen des Urogenitaltraktes in der Schwangerschaft | disease | zu wenige Quellen mit Zusammenfassung (1) für 'urinary tract infection pregnancy' |
+| WM-DIS-0362 | Pathologische Zustände der Plazenta | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (O43 umfasst Plazentaerkrankungen wie Plazentadysfunktion, Plazenta-Transfusionssyndrom und Placenta accreta. Der Titel „Pathologische Zustände der  |
 | WM-DIS-0373 | Andere neurotische Störungen | disease | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (F48 „Andere neurotische Störungen“ (u. a. Neurasthenie, Depersonalisations-/Derealisationssyndrom) entspricht dem Titel. Nur Quelle 6 behandelt ne |
 | WM-DIS-0375 | Leichte Intelligenzminderung | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Leichte Intelligenzminderung“ entspricht ICD-10-GM F70 (mild intellectual disability). Quelle 4 (zahnmedizinische Versorgung Erwachsener |
 | WM-DIS-0377 | Schwere Intelligenzminderung | disease | Themenprüfung: nur 2 von 14 Quellen passen zum Thema (Der Titel „Schwere Intelligenzminderung“ entspricht ICD-10-GM F72. Passend sind nur Quellen, die explizit Menschen mit schwerer Intelligenzminderu |
@@ -42,11 +47,13 @@ Stand: 30.10.2026 00:01. Warteschlange: claimed 3, duplicate 438, planned 6175, 
 | WM-DIS-0391 | Komplikationen bei Wehen und Entbindung durch intrapartale Blutung, anderenorts nicht klassifiziert | disease | Bestätigungsquote 17/38 unter 60 % |
 | WM-DIS-0409 | Andere Persönlichkeits- und Verhaltensstörungen | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel entspricht der ICD-10-GM-Kategorie F68. Alle Quellen behandeln Persönlichkeitsstörungen allgemein oder F60-Störungen wie Borderline, ant |
 | WM-DIS-0410 | Kombinierte Störung des Sozialverhaltens und der Emotionen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'conduct and emotional disorders' |
+| WM-DIS-0438 | Hernia umbilicalis | disease | Bestätigungsquote 25/46 unter 60 % |
 | WM-DIS-0448 | Chronische Laryngitis und Laryngotracheitis | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel entspricht J37 (chronische Laryngitis und Laryngotracheitis). Quelle 1 behandelt chronische bakterielle und Sicca-Laryngitis, Quelle 3 ch |
 | WM-DIS-0452 | Hals- und Brustschmerzen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neck and chest pain' |
 | WM-DIS-0461 | Spontangeburt eines Einlings | disease | Bestätigungsquote 24/51 unter 60 % |
 | WM-DIS-0484 | Nicht näher bezeichnete affektive Störung | disease | Import ins Wiki fehlgeschlagen: existing page is not owned by this BETA article; refusing overwrite |
 | WM-DIS-0492 | Bösartige Neubildung am Rektosigmoid, Übergang | disease | Bestätigungsquote 26/44 unter 60 % |
+| WM-DIS-0548 | Status asthmaticus | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel „Status asthmatdisch“ ist ein Tippfehler bzw. keine korrekte Bezeichnung; gemeint ist „Status asthmaticus“ (J46). Das Kra |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0129 | Insulin aspart | drug | Bestätigungsquote 27/56 unter 60 % |
 | WM-DRUG-0189 | Glycopyrroniumbromid | drug | Bestätigungsquote 22/39 unter 60 % |
@@ -54,3 +61,17 @@ Stand: 30.10.2026 00:01. Warteschlange: claimed 3, duplicate 438, planned 6175, 
 | WM-DRUG-0221 | Picotamid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Picotamide' |
 | WM-DRUG-0222 | Prasugrel | drug | Bestätigungsquote 16/45 unter 60 %; zu viele nur teilweise belegte Sätze (9/16) |
 | WM-DRUG-0255 | Indacaterol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Indacaterol' |
+| WM-DRUG-0265 | Sotatercept | drug | Bestätigungsquote 25/43 unter 60 %; zu viele nur teilweise belegte Sätze (15/25) |
+| WM-DRUG-0273 | Colesevelam | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Colesevelam“ entspricht dem Wirkstoff der Klassifikation (ATC C10AC04). Nur Quelle 5 behandelt Colesevelam hydrochloride ausdrücklich. D |
+| WM-DRUG-0277 | Volanesorsen | drug | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Titel und ATC C10AX18 bezeichnen beide Volanesorsen. Nur die Quellen 5, 6 und 13 behandeln den Wirkstoff direkt. Olezarsen (1) ist ein anderer Wir |
+| WM-DRUG-0281 | Ceftarolinfosamil | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 2, 3 und 6 behandeln Ceftarolinfosamil direkt. Quelle 1 ist eine Netzwerk-Metaanalyse zu sechs Antibiotika bei MRSA-Infektionen und nicht s |
+| WM-DRUG-0285 | Oritavancin | drug | zu viele nur teilweise belegte Sätze (16/33) |
+| WM-DRUG-0320 | Esketamin | drug | zu viele nur teilweise belegte Sätze (12/26) |
+| WM-DRUG-0322 | Diflunisal | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel und ATC-Code N02BA11 bezeichnen beide Diflunisal. Quellen 2, 3 und 6 behandeln Diflunisal direkt. Quelle 5 (In-silico-Studie zu Alzheimer, Wi |
+| WM-DRUG-0325 | Erenumab | drug | zu viele nur teilweise belegte Sätze (18/42) |
+| WM-DRUG-0329 | Midazolam | drug | zu viele nur teilweise belegte Sätze (13/24) |
+| WM-DRUG-0330 | Rufinamid | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Der Titel Rufinamid entspricht dem Wirkstoff der Klassifikation (ATC N03AF03). Rufinamid ist im Titel oder als eigenständiger Gegenstand nur bei Q |
+| WM-DRUG-0333 | Stiripentol | drug | zu viele nur teilweise belegte Sätze (18/39) |
+| WM-DRUG-0340 | Loxapin | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel 'Loxapin' entspricht dem Wirkstoff (ATC N05AH01). Nur die Quellen 1, 5 und 6 behandeln Loxapin direkt. Quelle 2 betrifft eine Cotrimoxazo |
+| WM-DRUG-0345 | Remimazolam | drug | zu viele nur teilweise belegte Sätze (17/34) |
+| WM-DRUG-0348 | Agomelatin | drug | Bestätigungsquote 28/48 unter 60 %; zu viele nur teilweise belegte Sätze (17/28) |
