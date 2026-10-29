@@ -21,6 +21,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts" / "publishing"))
 import md2wiki
+from wikipage import categories
 from import_to_mediawiki import WikiClient, WikiError, GateError, wiki_credentials
 
 FM_RE = re.compile(r"\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*\r?\n", re.S)
@@ -110,6 +111,85 @@ def internal_pages() -> dict[str, str]:
     return _INTERNAL_PAGES
 
 
+_ARTICLE_INDEX: dict[str, dict] | None = None
+ICD_RE = re.compile(r"^([A-Z])(\d{2})")
+
+
+def article_index() -> dict[str, dict]:
+    """Slug -> Titel, Fachgebiet, Typ, ICD-10-Dreisteller, ATC-Codes aller Artikel (für „Siehe auch“)."""
+    global _ARTICLE_INDEX
+    if _ARTICLE_INDEX is None:
+        index: dict[str, dict] = {}
+        for folder in ALLOWED_FOLDERS:
+            for f in (ROOT / "content" / folder).rglob("*.md"):
+                if f.name.lower() == "readme.md" or "templates" in f.parts:
+                    continue
+                m = FM_RE.match(f.read_text(encoding="utf-8"))
+                if not m:
+                    continue
+                try:
+                    fm = yaml.safe_load(m.group(1)) or {}
+                except yaml.YAMLError:
+                    continue
+                title = str(fm.get("title") or "").strip()
+                if not title or fm.get("safety_hold") is True or fm.get("status") in BLOCKED_STATUSES:
+                    continue
+                # Handelsnamen-Verweisseiten sind (seit Entscheidung E3, 29.10.2026) Weiterleitungen, keine Artikel
+                if "Handelsnamen-Verweisseite" in str(fm.get("change_summary", "")):
+                    continue
+                index[f.stem] = {
+                    "title": title, "specialty": fm.get("specialty"), "type": fm.get("article_type"),
+                    "icd": sorted({m2.group(0) for c in fm.get("icd10") or [] if (m2 := ICD_RE.match(str(c).upper()))}),
+                    "atc": sorted({str(c).upper() for c in fm.get("atc_codes") or [] if c}),
+                }
+        _ARTICLE_INDEX = index
+    return _ARTICLE_INDEX
+
+
+def related_articles(slug: str, fm: dict, limit: int = 6) -> list[str]:
+    """3 bis 6 fachlich verwandte Artikel: Wirkstoffe derselben ATC-Untergruppe, Krankheiten benachbarter ICD-10-Kodes.
+
+    Gibt eine leere Liste zurück, wenn weniger als drei passende Artikel existieren (dann kein Abschnitt)."""
+    index = article_index()
+    scored: list[tuple[tuple, str]] = []
+    atc = {str(c).upper() for c in fm.get("atc_codes") or [] if c}
+    icd = [m.group(0) for c in fm.get("icd10") or [] if (m := ICD_RE.match(str(c).upper()))]
+    for other, info in index.items():
+        if other == slug or info["title"] == str(fm.get("title", "")).strip():
+            continue
+        if atc and info["atc"]:
+            best = max((len(a) for a in info["atc"] for b in atc for a in [_common(a, b)]), default=0)
+            if best >= 4:  # pharmakologische (4) bzw. chemische (5) Untergruppe
+                scored.append(((-best, info["title"]), info["title"]))
+        elif icd and info["icd"]:
+            dist = min((abs(int(a[1:]) - int(b[1:])) for a in info["icd"] for b in icd if a[0] == b[0]), default=99)
+            if dist <= 9:
+                scored.append(((info["specialty"] != fm.get("specialty"), dist, info["title"]), info["title"]))
+    titles = [t for _, t in sorted(scored)][:limit]
+    return titles if len(titles) >= 3 else []
+
+
+def _common(a: str, b: str) -> str:
+    n = 0
+    while n < min(len(a), len(b)) and a[n] == b[n]:
+        n += 1
+    return a[:n]
+
+
+def page_extras(slug: str, fm: dict, body: str) -> tuple[str, str]:
+    """(„Siehe auch“-Abschnitt, Kategorie-Zeilen) aus den Metadaten des Quellbestands (Auftrag Andreas 29.10.2026, #140)."""
+    see = ""
+    if not re.search(r"(?m)^##[ \t]+Siehe auch", body):
+        rel = related_articles(slug, fm)
+        if rel:
+            see = "== Siehe auch ==\n" + "\n".join(f"* [[{t}]]" for t in rel)
+    try:
+        cats = categories(fm)
+    except KeyError:
+        cats = []
+    return see, "\n".join(f"[[Kategorie:{c}]]" for c in cats)
+
+
 def build_page(path: Path, revision: str) -> tuple[str, str, str]:
     if not eligible_path(path):
         raise ValueError(f"not an allowed medical-article path: {path}")
@@ -142,7 +222,12 @@ def build_page(path: Path, revision: str) -> tuple[str, str, str]:
         f"Stand: {md2wiki.esc(str(fm.get('updated', '')))}; "
         f"Commit: <code>{revision}</code>.\n"
     )
-    content = BETA_HEADER + "\n\n" + converted.rstrip() + note
+    see_also, cats = page_extras(slug, fm, body)
+    converted = converted.rstrip()
+    if see_also:  # „Siehe auch“ vor die Einzelnachweise, sonst ans Ende des Artikeltexts
+        refs = converted.find("\n== Einzelnachweise ==")
+        converted = (converted[:refs].rstrip() + "\n\n" + see_also + "\n" + converted[refs:]) if refs >= 0 else converted + "\n\n" + see_also
+    content = BETA_HEADER + "\n\n" + converted + note + ("\n" + cats if cats else "")
     digest = hashlib.sha256(content.encode("utf-8")).hexdigest()
     marker = f'<!-- wikimedica-beta-managed slug="{slug}" sha256="{digest}" -->'
     return title, marker + "\n" + content, digest
