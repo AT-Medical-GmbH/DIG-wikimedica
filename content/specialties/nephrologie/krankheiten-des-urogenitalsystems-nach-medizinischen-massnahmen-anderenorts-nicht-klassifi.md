@@ -1,0 +1,85 @@
+---
+title: "Urogenitale Komplikationen nach medizinischen Eingriffen"
+slug: "krankheiten-des-urogenitalsystems-nach-medizinischen-massnahmen-anderenorts-nicht-klassifi"
+specialty: "Nephrologie"
+secondary_specialties: []
+article_type: "professional"
+content_kind: "article"
+status: "draft"
+version: "0.1.0"
+change_summary: "Automatisch erstellter, quellenbasierter Erstentwurf mit maschineller Faktenprüfung gegen PubMed-Quellen; fachärztliche Prüfung steht aus."
+authors: [{name: "WikiMedica-Redaktion"}]
+reviewers: []
+created: "2026-10-30"
+updated: "2026-10-30"
+risk_level: "moderate"
+target_audience: ["medical-professionals"]
+sex_gender_relevance: "not_assessed"
+sex_gender_notes: ""
+safety_hold: false
+language: "de"
+language_level: "professional"
+icd10: ["N99"]
+ops: []
+pubmed_ids: ["41013221", "41286235", "38654881", "37695249", "35213416", "40912719", "36357736", "34015508", "36445826", "36611262", "39993070", "37589632"]
+guidelines: []
+references: [{"citation": "Ni Z, Sun R, Zhang Q et al.. The effect of sugammadex on postoperative urinary retention and recovery characteristics: a systematic review and meta-analysis. BMC Anesthesiol. 2025;25:454.", "pmid": "41013221", "doi": "10.1186/s12871-025-03334-1", "url": "https://pubmed.ncbi.nlm.nih.gov/41013221/"}, {"citation": "Zhou L, Dai L, Hu S et al.. Risk factors for postoperative urinary retention following pelvic organ prolapse surgery: a meta-analysis. Sci Rep. 2025;15:41715.", "pmid": "41286235", "doi": "10.1038/s41598-025-25652-7", "url": "https://pubmed.ncbi.nlm.nih.gov/41286235/"}, {"citation": "Cambise C, De Cicco R, Luca E et al.. Postoperative urinary retention (POUR): A narrative review. Saudi J Anaesth. 2024;18:265-271.", "pmid": "38654881", "doi": "10.4103/sja.sja_88_24", "url": "https://pubmed.ncbi.nlm.nih.gov/38654881/"}, {"citation": "McDermott CD, Tunitsky-Bitton E, Dueñas-Garcia OF et al.. Postoperative Urinary Retention. Urogynecology (Phila). 2023;29:381-396.", "pmid": "37695249", "doi": "10.1097/SPV.0000000000001344", "url": "https://pubmed.ncbi.nlm.nih.gov/37695249/"}, {"citation": "Bracey DN, Barry K, Khanuja HS et al.. Postoperative Urinary Retention in Modern Rapid Recovery Total Joint Arthroplasty. J Am Acad Orthop Surg. 2022;30:443-447.", "pmid": "35213416", "doi": "10.5435/JAAOS-D-21-00963", "url": "https://pubmed.ncbi.nlm.nih.gov/35213416/"}, {"citation": "Xia J, Zhao D, Hu Y et al.. Incidence and risk factors for postoperative urinary retention in older patients with hip fracture: a scoping review. BMJ Open. 2025;15:e100368.", "pmid": "40912719", "doi": "10.1136/bmjopen-2025-100368", "url": "https://pubmed.ncbi.nlm.nih.gov/40912719/"}, {"citation": "Huang L, Yin Y, Liao Y et al.. Risk factors for postoperative urinary retention in patients undergoing colorectal surgery: a systematic review and meta-analysis. Int J Colorectal Dis. 2022;37:2409-2420.", "pmid": "36357736", "doi": "10.1007/s00384-022-04281-w", "url": "https://pubmed.ncbi.nlm.nih.gov/36357736/"}, {"citation": "Chang Y, Chi KY, Tai TW et al.. Risk factors for postoperative urinary retention following elective spine surgery: a meta-analysis. Spine J. 2021;21:1802-1811.", "pmid": "34015508", "doi": "10.1016/j.spinee.2021.05.009", "url": "https://pubmed.ncbi.nlm.nih.gov/34015508/"}, {"citation": "Baysden M, Hein D, Castillo S et al.. Tamsulosin for prevention of postoperative urinary retention: A systematic review and meta-analysis. Am J Health Syst Pharm. 2023;80:373-383.", "pmid": "36445826", "doi": "10.1093/ajhp/zxac349", "url": "https://pubmed.ncbi.nlm.nih.gov/36445826/"}, {"citation": "Huang YT, Chang Y, Kang YN et al.. Impact of perioperative α1-antagonists on postoperative urinary retention in orthopaedic surgery: meta-analysis. BJS Open. 2023;7.", "pmid": "36611262", "doi": "10.1093/bjsopen/zrac144", "url": "https://pubmed.ncbi.nlm.nih.gov/36611262/"}, {"citation": "Xu H, He Y, Miao F et al.. Acupuncture treatment of postoperative urinary retention in cervical cancer: Systematic evaluation and meta-analysis. Medicine (Baltimore). 2025;104:e41520.", "pmid": "39993070", "doi": "10.1097/MD.0000000000041520", "url": "https://pubmed.ncbi.nlm.nih.gov/39993070/"}, {"citation": "Liu CF, Chien LW. Moxibustion for Managing Postoperative Urinary Retention After Hemorrhoidectomy and Anorectal Surgeries: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. J Perianesth Nurs. 2023;38:881-891.", "pmid": "37589632", "doi": "10.1016/j.jopan.2023.01.020", "url": "https://pubmed.ncbi.nlm.nih.gov/37589632/"}]
+source_notes: "Eigene Zusammenfassung von PubMed-Zusammenfassungen und, wo Creative-Commons-Lizenz vorliegt, PubMed-Central-Volltextauszügen; keine wörtliche Übernahme. Alle zitierten PMIDs wurden gegen PubMed aufgelöst. Katalogbezug: ICD-10-GM 2026 (BfArM)."
+ai_assisted: true
+ai_assistance_description: "Entwurf und satzweise Faktenprüfung auf Grundlage automatisch abgerufener PubMed-Quellen (Suchbegriff, Entwurf, Lektorat: claude-haiku-5-5 über die Claude-API (Anthropic); Themenprüfung, Faktenprüfung: claude-sonnet-5-5 über die Claude-API (Anthropic)). Maschinelle Faktenprüfung: 52 von 60 Sätzen bestätigt, 8 nicht belegte Sätze entfernt. Keine menschliche fachliche Prüfung."
+wikimedica_credit: true
+corrections: []
+---
+
+# Urogenitale Komplikationen nach medizinischen Eingriffen
+
+## Übersicht
+
+Die postoperative Harnverhaltung (englisch: Postoperative Urinary Retention, POUR) ist eine häufige Komplikation nach operativen Eingriffen und nach Allgemeinanästhesie.[1][2] Sie liegt vor, wenn Betroffene nach einem Eingriff trotz gefüllter Harnblase nicht spontan Wasser lassen können.[3] Ein klinisches Konsensstatement der American Urogynecologic Society bezieht sich auf Harnverhaltungen innerhalb der ersten sechs Wochen nach einer Operation.[4] Die Komplikation ist insbesondere deshalb relevant, weil sie mit Delir, Schmerzen, verlängertem Krankenhausaufenthalt und langfristig veränderter Blasenkontraktilität in Verbindung gebracht wird.[3]
+
+## Epidemiologie
+
+In einer Übersichtsarbeit wird eine Spannweite von 5 % bis 70 % genannt.[3] Für Eingriffe mit moderner, beschleunigter Rekonvaleszenz an großen Gelenken wird ein Bereich von 5,5 % bis 46,3 % angegeben.[5] Bei älteren Patientinnen und Patienten mit hüftnaher Femurfraktur liegt die berichtete Inzidenz zwischen 11,10 % und 51,33 %.[6] Die Variabilität wird unter anderem auf das Fehlen einer standardisierten Definition der POUR zurückgeführt.[5] Die Ergebnisse der Quellen sind daher nur eingeschränkt vergleichbar.[6][5]
+
+## Ursachen und Pathophysiologie
+
+Komorbiditäten, die Art des Eingriffs und die Anästhesie beeinflussen die Entstehung.[3] In Metaanalysen zu kolorektalen Eingriffen gehören männliches Geschlecht, höheres Alter, Diabetes mellitus, urologische Vorerkrankungen, tiefer sitzende Rektumtumoren, laparoskopische Verfahren, Operationsdauer von mindestens vier Stunden, der Zeitpunkt der Katheterentfernung, übermäßige intraoperative Flüssigkeitsgaben sowie ein postoperativer Ileus zu den untersuchten Faktoren.[7] Für elektive Wirbelsäulenchirurgie werden höheres Alter, männliches Geschlecht, benigne Prostatahyperplasie, Diabetes mellitus und eine vorausgegangene Harnwegsinfektion als signifikante Risikofaktoren beschrieben.[8] Auch längere Operationszeiten und vermehrte intravenöse Flüssigkeitszufuhr gingen dort mit einem erhöhten Risiko einher.[8] Bei Hüftfrakturen werden unter anderem eingeschränkte Alltagsaktivität, der Einsatz anticholinerger Medikamente, Serumparameter wie Albumin und TSH, Harnwegsinfektionen, postoperative Inkontinenz, verlängerte Verweildauer des Blasenkatheters und Stuhlimpaktion genannt.[6] Männliches Geschlecht, kognitive Einschränkungen, Opioidgebrauch und Diabetes könnten ebenfalls eine Rolle spielen, diese Zusammenhänge sind jedoch noch nicht ausreichend geklärt.[6] Bei Gelenkersatzoperationen werden Alter, männliches Geschlecht, benigne Prostatahyperplasie, Bupivacain und intrathekales Morphin bei Spinalanästhesie, Glycopyrrolat sowie das intraoperativ verabreichte intravenöse Flüssigkeitsvolumen diskutiert.[5] Die meisten Risikofaktoren wurden in nur einer Studie beschrieben, ohne einen vorgeschlagenen zugrunde liegenden Mechanismus.[6] Zum Einfluss der Neuromuskelblock-Antagonisierung auf die Entstehung der POUR wird ein Zusammenhang diskutiert, da Sugammadex ohne gleichzeitige Gabe eines Anticholinergikums auskommt.[1]
+
+## Klinik und Warnzeichen
+
+Das zentrale klinische Merkmal ist das Unvermögen zur Blasenentleerung bei gefüllter Blase.[3] Die Komplikation ist nicht nur ein lokales Problem: Als Folgen werden Delir, Schmerzen, verlängerte Hospitalisierung und eine langfristig veränderte Blasenfunktion beschrieben.[3] Ein relevantes Zeitfenster für die Entstehung wird durch die Katheterentfernung bestimmt, die in den meisten eingeschlossenen Studien am ersten oder zweiten postoperativen Tag erfolgte.[2][7] Eine frühzeitige Erkennung gefährdeter Patientinnen und Patienten wird als Grundlage für Präventions- und Überwachungsmaßnahmen angesehen.[7]
+
+## Diagnostik
+
+Zur Diagnose der POUR werden in einer Übersicht drei Vorgehensweisen beschrieben: Anamnese und klinische Untersuchung, die Notwendigkeit einer Blasenkatheterisierung sowie die sonografische Beurteilung der Blase.[3] Als präoperativer Risikomarker gilt ein Restharn von mehr als 200 ml.[2] Die präoperative Erhebung des Restharns kann daher einen Teil der Risikoeinschätzung bilden.[2] Der International Prostate Symptom Score und ein neueres prädiktives Nomogramm wurden bislang nicht ausreichend durch hochwertige Studien validiert.[5] Das Konsensstatement behandelt zudem urodynamische Untersuchungen und Miktionsversuche als eigene Themenbereiche, ohne dass die Quellen daraus eindeutige Standards ableiten.[4]
+
+## Therapie
+
+Die Blasenkatheterisierung gilt als Standardbehandlung der POUR.[3] Dabei werden intermittierende und verweilende Katheterverfahren unterschieden.[5] Offen ist nach aktueller Quellenlage, welche Patientinnen und Patienten einen Katheter benötigen, bei welchen Blasenvolumina ein Eingreifen erforderlich ist und wie lange katheterisiert werden sollte.[3] Eine Metaanalyse von randomisierten Studien zu Tamsulosin vor und/oder nach Operationen zeigte ein signifikant geringeres Risiko für POUR sowie eine verbesserte maximale Harnflussrate, ohne relevanten Effekt auf Operationsdauer, Symptomscores, Lebensqualität oder Harnwegsinfektionen.[9] Eine andere Metaanalyse fand bei orthopädischen Eingriffen mit perioperativen α1-Antagonisten dagegen keinen Unterschied im POUR-Risiko, dafür jedoch ein höheres Risiko für unerwünschte Ereignisse wie Schwindel und Synkopen.[10] Sugammadex war in einer aktuellen Metaanalyse mit einer deutlich geringeren Inzidenz von POUR gegenüber Neostigmin oder dem Verzicht auf eine Antagonisierung assoziiert, ohne relevanten Einfluss auf postoperative Schmerzscores oder die 30-Tage-Wiederaufnahmerate.[1] Die Autoren betonen, dass weitere Forschung zu verschiedenen Patientengruppen und Eingriffen notwendig ist.[1] Akupunkturverfahren gingen bei Patientinnen mit POUR nach einer Operation wegen Zervixkarzinom mit einer verbesserten klinischen Wirksamkeit, einer Reduktion des Restharns und einer kürzeren Zeit bis zur spontanen Miktion sowie kürzerer Katheterliegedauer einher.[11] Die Autoren verweisen jedoch auf eine hohe Heterogenität und einen Bedarf an qualitativ hochwertigeren Studien zum Vergleich einzelner Akupunkturformen.[11] Die Metaanalyse randomisierter Studien berichtet eine bessere Wirksamkeit gegenüber üblicher Versorgung allein, wobei eine Verkürzung der Zeit bis zur ersten Miktion gezeigt wurde.[12] Auch hier werden weitere Studien zur Bestätigung gefordert.[12]
+
+## Verlauf und Prognose
+
+Die POUR kann mit Folgen wie Delir, Schmerzen und verlängertem Krankenhausaufenthalt einhergehen, und es kann eine langfristig veränderte Blasenkontraktilität entstehen.[3] Die Prognose hängt somit auch von der frühzeitigen Erkennung und Behandlung ab.[7][3] Sugammadex war in den eingeschlossenen Studien nicht mit einer veränderten 30-Tage-Wiederaufnahmerate verbunden, wobei die Ergebnisse statistisch nicht signifikant waren.[1] Für die Gesamtprognose fehlen einheitliche Langzeitdaten, und die Autorinnen und Autoren hochwertiger prospektiver Studien fordern eine Standardisierung von Diagnosekriterien und Behandlung.[5]
+
+## Besonderheiten bei Frauen und Männern
+
+Männliches Geschlecht wird in mehreren Metaanalysen als Risikofaktor genannt, sowohl bei kolorektalen als auch bei Wirbelsäuleneingriffen.[7][8] Bei Gelenkersatzoperationen wird männliches Geschlecht ebenfalls als Risikofaktor beschrieben.[5] Eine benigne Prostatahyperplasie wird bei Wirbelsäuleneingriffen und Gelenkersatz als Risikofaktor angegeben.[8][5] Bei Frauen mit Beckenbodeneingriffen wegen eines Organprolapses wurden in einer Metaanalyse ein höheres Alter, insbesondere ab 60 Jahren, Menopause, eine schwere Zystozele, ein präoperativer Restharn über 200 ml, eine längere Operationsdauer, vordere Scheidenplastik, Antiinkontinenzeingriffe und eine Hysterektomie als mit einem erhöhten Risiko assoziiert identifiziert.[2] Eine Analyse zu Hysterektomie-Patientinnen gibt an, dass Hysterektomie einen Risikofaktor darstellt.[2] Für Frauen mit Prolapsoperationen gilt somit ein Bündel anatomischer und eingriffsbezogener Faktoren als relevant.[2]
+
+## Informationen für Patientinnen und Patienten
+
+Eine postoperative Harnverhaltung kann nach Operationen auftreten, insbesondere wenn bestimmte Vorerkrankungen oder Risikofaktoren vorliegen.[3] Vor einem Eingriff können Risikofaktoren erfasst werden, wobei die Einordnung dem medizinischen Team obliegt.[2] Auf dieser Grundlage lassen sich Schulungen vor der Operation gezielt gestalten.[2] Bei Auftreten von Problemen beim Wasserlassen nach einer Operation ist die Behandlung mit einem Blasenkatheter der etablierte Standard.[3]
+
+## Literatur
+
+1. Ni Z, Sun R, Zhang Q et al.. The effect of sugammadex on postoperative urinary retention and recovery characteristics: a systematic review and meta-analysis. BMC Anesthesiol. 2025;25:454. PMID: 41013221. DOI: 10.1186/s12871-025-03334-1. https://pubmed.ncbi.nlm.nih.gov/41013221/
+2. Zhou L, Dai L, Hu S et al.. Risk factors for postoperative urinary retention following pelvic organ prolapse surgery: a meta-analysis. Sci Rep. 2025;15:41715. PMID: 41286235. DOI: 10.1038/s41598-025-25652-7. https://pubmed.ncbi.nlm.nih.gov/41286235/
+3. Cambise C, De Cicco R, Luca E et al.. Postoperative urinary retention (POUR): A narrative review. Saudi J Anaesth. 2024;18:265-271. PMID: 38654881. DOI: 10.4103/sja.sja_88_24. https://pubmed.ncbi.nlm.nih.gov/38654881/
+4. McDermott CD, Tunitsky-Bitton E, Dueñas-Garcia OF et al.. Postoperative Urinary Retention. Urogynecology (Phila). 2023;29:381-396. PMID: 37695249. DOI: 10.1097/SPV.0000000000001344. https://pubmed.ncbi.nlm.nih.gov/37695249/
+5. Bracey DN, Barry K, Khanuja HS et al.. Postoperative Urinary Retention in Modern Rapid Recovery Total Joint Arthroplasty. J Am Acad Orthop Surg. 2022;30:443-447. PMID: 35213416. DOI: 10.5435/JAAOS-D-21-00963. https://pubmed.ncbi.nlm.nih.gov/35213416/
+6. Xia J, Zhao D, Hu Y et al.. Incidence and risk factors for postoperative urinary retention in older patients with hip fracture: a scoping review. BMJ Open. 2025;15:e100368. PMID: 40912719. DOI: 10.1136/bmjopen-2025-100368. https://pubmed.ncbi.nlm.nih.gov/40912719/
+7. Huang L, Yin Y, Liao Y et al.. Risk factors for postoperative urinary retention in patients undergoing colorectal surgery: a systematic review and meta-analysis. Int J Colorectal Dis. 2022;37:2409-2420. PMID: 36357736. DOI: 10.1007/s00384-022-04281-w. https://pubmed.ncbi.nlm.nih.gov/36357736/
+8. Chang Y, Chi KY, Tai TW et al.. Risk factors for postoperative urinary retention following elective spine surgery: a meta-analysis. Spine J. 2021;21:1802-1811. PMID: 34015508. DOI: 10.1016/j.spinee.2021.05.009. https://pubmed.ncbi.nlm.nih.gov/34015508/
+9. Baysden M, Hein D, Castillo S et al.. Tamsulosin for prevention of postoperative urinary retention: A systematic review and meta-analysis. Am J Health Syst Pharm. 2023;80:373-383. PMID: 36445826. DOI: 10.1093/ajhp/zxac349. https://pubmed.ncbi.nlm.nih.gov/36445826/
+10. Huang YT, Chang Y, Kang YN et al.. Impact of perioperative α1-antagonists on postoperative urinary retention in orthopaedic surgery: meta-analysis. BJS Open. 2023;7. PMID: 36611262. DOI: 10.1093/bjsopen/zrac144. https://pubmed.ncbi.nlm.nih.gov/36611262/
+11. Xu H, He Y, Miao F et al.. Acupuncture treatment of postoperative urinary retention in cervical cancer: Systematic evaluation and meta-analysis. Medicine (Baltimore). 2025;104:e41520. PMID: 39993070. DOI: 10.1097/MD.0000000000041520. https://pubmed.ncbi.nlm.nih.gov/39993070/
+12. Liu CF, Chien LW. Moxibustion for Managing Postoperative Urinary Retention After Hemorrhoidectomy and Anorectal Surgeries: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. J Perianesth Nurs. 2023;38:881-891. PMID: 37589632. DOI: 10.1016/j.jopan.2023.01.020. https://pubmed.ncbi.nlm.nih.gov/37589632/
