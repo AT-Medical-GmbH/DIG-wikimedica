@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 30.10.2026 07:25. Warteschlange: duplicate 439, planned 4414, published 813, ready 70, redirect 164, review 1165.
+Stand: 30.10.2026 22:25. Warteschlange: duplicate 441, planned 4294, published 883, ready 29, redirect 202, review 1216.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -91,11 +91,17 @@ Stand: 30.10.2026 07:25. Warteschlange: duplicate 439, planned 4414, published 8
 | WM-DIS-0496 | Verletzung der Harnorgane und der Beckenorgane | disease | zu viele nur teilweise belegte Sätze (7/11) |
 | WM-DIS-0497 | Bösartige immunproliferative Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel ist zu allgemein; IPSID ist eine Unterform von MALT-Lymphom, nicht synonym mit C88.) |
 | WM-DIS-0498 | Oberflächliche Verletzung des Halses | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (ICD-10-GM S10 umfasst oberflächliche Verletzungen des Halses (Prellung, Schürfwunde, Blasenbildung, oberflächlicher Fremdkörper, Insektenbiss usw. |
+| WM-DIS-0505 | Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen | disease | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Titel entspricht C79 (Metastasen sonstiger Lokalisationen). Keine Quelle behandelt dieses Krankheitsbild; die Quellen betreffen Zweitmalignome (th |
 | WM-DIS-0508 | Verletzung der Nerven und des lumbalen Rückenmarkes in Höhe des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cauda equina injury' |
+| WM-DIS-0509 | Monozytenleukämie | disease | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel „Monozytenleukämie“ entspricht C93 (Monozytenleukämie, inkl. akute monozytäre Leukämie). Quellen 1 (AML-M5), 2 (AML mit monozytärer Diffe |
+| WM-DIS-0510 | Sonstige Muskelkrankheiten | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Alle Quellen behandeln idiopathische entzündliche bzw. autoimmune Myopathien (Dermatomyositis/Polymyositis, ICD-10 M33/M60), nicht die unter M62 k |
+| WM-DIS-0511 | Sonstige Krankheiten der Synovialis und der Sehnen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (M67 umfasst sonstige Synovial-/Sehnenkrankheiten; der Titel ist ein allgemeinerer Oberbegriff (Kapitelzuschnitt M65–M68). Die meisten Quelle |
 | WM-DIS-0517 | Sonstige Arthritis | disease | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel entspricht M13 (Plural). Nur Quellen 3, 6 und 7 behandeln die undifferenzierte Arthritis; die übrigen betreffen RA, PsA, JIA, Spondyloarthri |
+| WM-DIS-0524 | Leukämie nicht näher bezeichneten Zelltyps | disease | zu wenige Quellen mit Zusammenfassung (0) für 'leukemia of unspecified cell type' |
 | WM-DIS-0526 | Toxische Enzephalopathie | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (G92 entspricht der toxischen Enzephalopathie, der Titel ist passend. Passend sind die Fallberichte zu Quecksilber (3), Abamectin (5) und Capecitabi |
 | WM-DIS-0528 | Verletzung der Nerven und des Rückenmarkes in Thoraxhöhe | disease | zu wenige Quellen mit Zusammenfassung (3) für 'thoracic spinal cord injury' |
 | WM-DIS-0529 | Verletzung an einer nicht näher bezeichneten Körperregion | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (T14 umfasst unspezifische Verletzungen ohne Angabe der Körperregion. Der Titel zu Diagnostik und Erstversorgung von Verletzungen passt dazu. Allge |
+| WM-DIS-0530 | Bösartige Neubildung des Knochens und des Gelenkknorpels sonstiger und nicht näher bezeichneter Lokalisationen | disease | Bestätigungsquote 33/57 unter 60 % |
 | WM-DIS-0533 | Verletzung sonstiger und nicht näher bezeichneter intrathorakaler Organe | disease | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (S27 umfasst Verletzungen sonstiger intrathorakaler Organe (Lunge/Pleura wie Pneumo-/Hämatothorax, Herz, Zwerchfell, Mediastinum), nicht Rippen- od |
 | WM-DIS-0536 | Fraktur der Lendenwirbelsäule und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lumbar and pelvic fractures' |
 | WM-DIS-0538 | Sonstige zerebrovaskuläre Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle 16 Quellen behandeln Moyamoya-Krankheit, die in ICD-10-GM unter I67.5 fällt und damit Teil von I67 ist. Der Titel „Sonstige zerebrovask |
@@ -106,6 +112,7 @@ Stand: 30.10.2026 07:25. Warteschlange: duplicate 439, planned 4414, published 8
 | WM-DIS-0548 | Status asthmaticus | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel „Status asthmatdisch“ ist ein Tippfehler bzw. keine korrekte Bezeichnung; gemeint ist „Status asthmaticus“ (J46). Das Kra |
 | WM-DIS-0549 | Offene Wunde des Thorax | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel 'Offene Thoraxverletzungen' entspricht ICD-10-GM S21 (offene Wunde des Thorax). Quelle 3 (Chest Seals bei penetrierenden Thoraxverletzung |
 | WM-DIS-0550 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern im Bereich des Thorax | disease | zu wenige Quellen mit Zusammenfassung (0) für 'thoracic joint sprain' |
+| WM-DIS-0556 | Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (C78 umfasst nur sekundäre bösartige Neubildungen der Atmungs- und Verdauungsorgane (z. B. Lungen-, Pleura-, Leber-Metastasen). Der Titel „Se |
 | WM-DIS-0560 | Verletzung von Blutgefäßen des Thorax | disease | zu wenige Quellen mit Zusammenfassung (2) für 'thoracic vascular trauma' |
 | WM-DIS-0561 | Oberflächliche Verletzung des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (2) für 'abdominal wall injury' |
 | WM-DIS-0562 | Verletzung von Blutgefäßen in Höhe des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (3) für 'Abdominal vascular trauma' |
@@ -119,6 +126,9 @@ Stand: 30.10.2026 07:25. Warteschlange: duplicate 439, planned 4414, published 8
 | WM-DIS-0573 | Kombinierte umschriebene Entwicklungsstörungen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'comorbid developmental disorders' |
 | WM-DIS-0574 | Andere Entwicklungsstörungen | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (ICD-10-GM F88 umfasst „Andere Entwicklungsstörungen“, u. a. die globale Entwicklungsverzögerung und die Entwicklungsstörung o. n. A. Der Titel ents |
 | WM-DIS-0576 | Psychische Störung ohne nähere Angabe | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (F99 ist die unspezifische Restkategorie 'Psychische Störung ohne nähere Angabe'; der Titel entspricht ihr. Die Quellen behandeln jedoch 'mental di |
+| WM-DIS-0580 | Bösartige Neubildung sonstiger und nicht näher bezeichneter weiblicher Genitalorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (C57 umfasst nur sonstige und nicht näher bezeichnete weibliche Genitalorgane (u. a. Tube, Ligamente, Parametrium), nicht Vulva (C51), Vagina |
+| WM-DIS-0581 | Bösartige Neubildung des Rückenmarkes, der Hirnnerven und anderer Teile des Zentralnervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (C72 umfasst bösartige Tumoren des Rückenmarks, der Hirnnerven und anderer Teile des ZNS (ohne Gehirn, C71). Der Titel „Tumoren des zentralen |
+| WM-DIS-0582 | Bösartige Neubildung sonstiger endokriner Drüsen und verwandter Strukturen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (C75 umfasst bösartige Neubildungen sonstiger endokriner Drüsen (u. a. Nebenschilddrüse, Hypophyse, Zirbeldrüse, Paraganglien, pluriglandulär |
 | WM-DIS-0589 | Sonstige kardiale Erregungsleitungsstörungen | disease | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel „Störungen der Erregungsleitung im Herzen“ entspricht I45 (sonstige kardiale Erregungsleitungsstörungen). Nur die Quellen 3 (progressive  |
 | WM-DIS-0591 | Offene Wunde des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist and hand open wound' |
 | WM-DIS-0594 | Fraktur im Bereich des Halses | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S12 bezeichnet Frakturen der Halswirbelsäule (Cervical spine), während 'Hüftfraktur' (Hip fracture) die Hüfte betrifft. Titel und  |
@@ -148,13 +158,50 @@ Stand: 30.10.2026 07:25. Warteschlange: duplicate 439, planned 4414, published 8
 | WM-DIS-0658 | Verletzung von Muskeln und Sehnen in Höhe des Unterarmes | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Muskel- oder Sehnenverletzungen des Unterarms; alle beziehen sich auf Frakturen (Radius/Ulna) oder Ellenbogenverl |
 | WM-DIS-0659 | Verletzung von Nerven in Höhe des Handgelenkes und der Hand | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel passt zur ICD-10-GM S64. Nur Quelle 4 behandelt spezifisch 'median nerve injury' (ein Nerv der Hand/des Handgelenks). Quelle 1 (Carpal Tunnel |
 | WM-DIS-0678 | Sonstige Krankheiten des Ösophagus | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (ICD-10-GM K22 umfasst sonstige Ösophaguserkrankungen (u. a. Achalasie, Ulkus, Obstruktion, Perforation, Dyskinesie, Divertikel, Ösophagitis-Folgen) |
+| WM-DIS-0682 | Verletzung von Blutgefäßen in Höhe der Schulter und des Oberarmes | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel entspricht S45 (Gefäßverletzungen an Schulter und Oberarm) mit kleinem Unterschied im Zuschnitt. Quellen 2 und 3 behandeln stumpfe Verlet |
+| WM-DIS-0683 | Verletzung von Muskeln und Sehnen in Höhe der Schulter und des Oberarmes | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Verletzungen der Rotatorenmanschette“ entspricht S46 (Sehnen und Muskeln der Schulter, v. a. Rotatorenmanschette), Synonym und Mehrzahl  |
+| WM-DIS-0684 | Verletzung von Nerven in Höhe des Unterarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'forearm nerve injury' |
+| WM-DIS-0685 | Traumatische Amputation an Handgelenk und Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'traumatic hand amputation' |
+| WM-DIS-0686 | Verletzung von Muskeln und Sehnen in Höhe des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg muscle injury' |
+| WM-DIS-0688 | Oberflächliche Verletzungen mit Beteiligung mehrerer Körperregionen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quellen behandeln Polytrauma bzw. schwere Mehrfachverletzungen, nicht oberflächliche Verletzungen mehrerer Körperregionen (T00). Der Tit |
+| WM-DIS-0689 | Offene Wunden mit Beteiligung mehrerer Körperregionen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'multiple open wounds' |
+| WM-DIS-0690 | Luxationen, Verstauchungen und Zerrungen mit Beteiligung mehrerer Körperregionen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'multiple dislocations and sprains' |
+| WM-DIS-0691 | Schäden durch Luft- und Wasserdruck | disease | Entwurf ohne belegte Sätze |
 | WM-DIS-0694 | Tubulointerstitielle Nephritis, nicht als akut oder chronisch bezeichnet | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel „Tubulointerstitielle Nephritis“ entspricht N12 (Synonym, kleiner Unterschied im Zuschnitt). Nur Quelle 7 behandelt die tubulointerstitie |
 | WM-DIS-0702 | Erosion und Ektropium der Cervix uteri | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical ectopy' |
 | WM-DIS-0703 | Neigung zu habituellem Abort | disease | Bestätigungsquote 27/50 unter 60 % |
+| WM-DIS-0718 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern des Kopfes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'head joint sprain' |
+| WM-DIS-0719 | Verletzung von Blutgefäßen in Höhe des Unterarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'forearm vascular injury' |
+| WM-DIS-0720 | Verletzung von Nerven in Höhe der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (1) für 'lower extremity nerve injury' |
+| WM-DIS-0721 | Verletzung von Blutgefäßen in Höhe der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'femoral vascular injury' |
+| WM-DIS-0722 | Verletzung von Muskeln und Sehnen in Höhe der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip muscle injury' |
+| WM-DIS-0723 | Verletzung von Nerven in Höhe des Unterschenkels | disease | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Der Titel „Nervenverletzung am Unterschenkel“ entspricht S84 (Verletzung von Nerven in Höhe des Unterschenkels). Passend sind nur Quellen zu Nerven |
+| WM-DIS-0724 | Verletzung von Blutgefäßen in Höhe des Knöchels und des Fußes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'foot vascular injury' |
+| WM-DIS-0725 | Verletzung von Muskeln und Sehnen in Höhe des Knöchels und des Fußes | disease | zu wenige Quellen mit Zusammenfassung (2) für 'ankle tendon injuries' |
+| WM-DIS-0726 | Fremdkörper im Urogenitaltrakt | disease | zu wenige Quellen mit Zusammenfassung (0) für 'foreign body urogenital' |
+| WM-DIS-0727 | Schäden durch sonstigen Mangel | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM T73 umfasst Schäden durch Hunger, Durst, Erschöpfung und sonstigen Mangel (z. B. Entbehrung von Nahrung/Wasser, Überanstrengung).  |
 | WM-DIS-0743 | Sonstige Verletzungen unter der Geburt | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM O71 bezeichnet körperliche Geburtstraumata (z.B. Dammrisse, Frakturen), während die Quelle 'birth trauma' meist psychische Traumat |
 | WM-DIS-0744 | Sonstige Komplikationen bei Wehentätigkeit und Entbindung, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 O75 (Komplikationen bei Wehentätigkeit/Entbindung wie Uterusruptur, Nabelschnurvorfall etc.). Alle Quelle |
 | WM-DIS-0748 | Sonstige Krankheiten des Darmes | disease | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Titel entspricht K63 (sonstige Darmkrankheiten). Nur Quelle 3 behandelt nichttraumatische Darmperforation bei Erwachsenen; die übrigen betreffen p |
 | WM-DIS-0753 | Sonstige Kataraktformen | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Titel passt zu H26. Nur Quellen 1 und 6 behandeln Katarakt allgemein/leitliniengerecht. Quelle 10 ist Meta-Analyse zu Blindheit, keine klinische Q |
+| WM-DIS-0754 | Traumatische Amputation am oberen Sprunggelenk und Fuß | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel entspricht S98 (Fuß und oberes Sprunggelenk, traumatische Amputation). Keine der Quellen behandelt jedoch die traumatische Amputation: Di |
+| WM-DIS-0788 | Zerquetschung des Kopfes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'crush head injury' |
+| WM-DIS-0789 | Traumatische Amputation von Teilen des Kopfes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'traumatic facial amputation' |
+| WM-DIS-0790 | Zerquetschung und traumatische Amputation von Teilen des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (0) für 'pelvic crush injury' |
+| WM-DIS-0791 | Fremdkörper im äußeren Auge | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (T15 meint Fremdkörper im äußeren Auge (Hornhaut, Bindehaut). Die Quellen behandeln intraokulare Fremdkörper bzw. offene Bulbusverletzungen,  |
+| WM-DIS-0803 | Sonstige Krankheiten der oberen Atemwege | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (J39 umfasst sonstige Krankheiten der oberen Atemwege (ohne z. B. Rhinitis, Sinusitis, Pharyngitis, die in anderen Kategorien codiert sind).  |
+| WM-DIS-0811 | Sonstige Krankheiten der Gallenblase | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (K82 meint sonstige Gallenblasenkrankheiten (ohne Steine K80, Cholezystitis K81, Karzinom C23); der Titel „Erkrankungen der Gallenblase“ ist  |
+| WM-DIS-0821 | Sonstige Krankheiten der Harnblase | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel "Krankheiten der Harnblase" entspricht im Wesentlichen N32 (sonstige Krankheiten der Harnblase), kleine Unterschiede im Zuschnitt sind ak |
+| WM-DIS-0837 | Zerquetschung des Halses | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neck crush injury' |
+| WM-DIS-0838 | Traumatische Amputation an Schulter und Oberarm | disease | zu wenige Quellen mit Zusammenfassung (1) für 'traumatic upper extremity amputation' |
+| WM-DIS-0839 | Zerquetschung des Unterarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'crush injury forearm' |
+| WM-DIS-0840 | Traumatische Amputation am Unterarm | disease | zu wenige Quellen mit Zusammenfassung (3) für 'forearm amputation' |
+| WM-DIS-0841 | Zerquetschung der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip crush injury' |
+| WM-DIS-0842 | Traumatische Amputation an Hüfte und Oberschenkel | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel entspricht S78 (traumatische Amputation an Hüfte und Oberschenkel). Quelle 1 und 2 behandeln traumatische Amputationen der unteren Extrem |
+| WM-DIS-0843 | Traumatische Amputation am Unterschenkel | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Titel entspricht S88. Quellen 1 und 2 behandeln traumatische Amputation der unteren Extremität (Unterschenkel eingeschlossen). Quellen 3 und 4 betr |
+| WM-DIS-0844 | Zerquetschung des oberen Sprunggelenkes und des Fußes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'ankle foot crush injury' |
+| WM-DIS-0860 | Sonstige Krankheiten der Niere und des Ureters, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (N28 umfasst mehrere Erkrankungen (u. a. erworbene Nierenzyste N28.1, Ureterstriktur, Nierenatrophie usw.). Der Titel „Sonstige Nierenerkrank |
+| WM-DIS-0861 | Sonstige Krankheiten der Harnröhre | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Harnröhrenstrikturen (ICD-10 N35), nicht N36 (sonstige Harnröhrenkrankheiten wie Fistel, Divertikel, Karunkel, Prolap |
 | WM-DRUG-0106 | Blutgerinnungsfaktor VIII | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Blutgerinnungsfaktor VIII' entspricht dem Wirkstoff Faktor VIII (ATC B02BD02). Die Quellen 1–3 behandeln Faktor VIII als Protein und Wir |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0121 | Bevacizumab | drug | zu viele nur teilweise belegte Sätze (22/35) |
@@ -172,6 +219,10 @@ Stand: 30.10.2026 07:25. Warteschlange: duplicate 439, planned 4414, published 8
 | WM-DRUG-0198 | Topotecan | drug | Bestätigungsquote 29/52 unter 60 % |
 | WM-DRUG-0203 | Eribulin | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/55 unter 60 % |
 | WM-DRUG-0208 | Pirfenidon | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-0215 | Carglumsäure | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt explizit Carglumic acid. Quelle 2 ist zu allgemein (Urea Cycle Disorders). Quelle 1 und 3 sind irrelevant.) |
+| WM-DRUG-0216 | Betain | drug | Bestätigungsquote 39/67 unter 60 % |
+| WM-DRUG-0217 | Natriumphenylbutyrat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'sodium phenylbutyrate' |
+| WM-DRUG-0219 | Sapropterin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln PKU allgemein oder Sepiapterin (Nachfolger), nicht spezifisch Sapropterin. Nur Quellen 3 und 6 nennen explizit Sapropterin/B |
 | WM-DRUG-0221 | Picotamid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Picotamide' |
 | WM-DRUG-0222 | Prasugrel | drug | Bestätigungsquote 16/45 unter 60 %; zu viele nur teilweise belegte Sätze (9/16) |
 | WM-DRUG-0255 | Indacaterol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Indacaterol' |
