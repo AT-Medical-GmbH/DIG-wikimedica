@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 30.10.2026 02:25. Warteschlange: claimed 2, duplicate 439, planned 5507, published 513, ready 129, redirect 46, review 429.
+Stand: 30.10.2026 03:25. Warteschlange: claimed 3, duplicate 439, planned 5107, published 573, ready 126, redirect 84, review 733.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -437,3 +437,307 @@ Stand: 30.10.2026 02:25. Warteschlange: claimed 2, duplicate 439, planned 5507, 
 | WM-DRUG-1233 | Lincomycin | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 8 behandelt Lincomycin selbst (Umweltverhalten und Wirkungen). Die übrigen Quellen betreffen Clindamycin, andere Antibiotika oder allgem |
 | WM-DRUG-1234 | Pristinamycin | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Der Titel „Pristinamycin“ entspricht dem Wirkstoff der ATC-Klassifikation J01FG01. Nur Quelle 5 (Pristinamycin-Regime bei M. genitalium) und Quelle |
 | WM-DRUG-1235 | Quinupristin/Dalfopristin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'streptogramin antibiotics' |
+| WM-DRUG-1236 | Streptoduocin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Streptoduocin (J01GA02, Streptomycin-Kombination, Aminoglykosid-Antibiotikum) ist ein anderer Wirkstoff als Streptozocin/Streptozotocin (Zytostatik |
+| WM-DRUG-1237 | Netilmicin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'netilmicin' |
+| WM-DRUG-1238 | Sisomicin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Sisomicin“ bezeichnet denselben Wirkstoff wie ATC J01GB08. Keine der Quellen behandelt jedoch Sisomicin selbst. Sie betreffen Plazomicin |
+| WM-DRUG-1239 | Dibekacin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dibekacin' |
+| WM-DRUG-1240 | Ribostamycin | drug | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Das Thema ist der spezifische Wirkstoff Ribostamycin. Alle Quellen behandeln die Aminoglykosid-Klasse allgemein (Ototoxizität, Resistenz, Umweltwi |
+| WM-DRUG-1241 | Isepamicin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'isepamicin' |
+| WM-DRUG-1242 | Arbekacin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Arbekacin' |
+| WM-DRUG-1243 | Bekanamycin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bekanamycin' |
+| WM-DRUG-1244 | Plazomicin | drug | zu viele nur teilweise belegte Sätze (14/30) |
+| WM-DRUG-1247 | Pefloxacin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel 'Pefloxacin' entspricht dem Wirkstoff (ATC J01MA03). Keine der Quellen behandelt jedoch speziell Pefloxacin. Es geht um Fluorchinolone al |
+| WM-DRUG-1248 | Enoxacin | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Titel und ATC J01MA04 bezeichnen beide den Wirkstoff Enoxacin. Quellen 2 und 3 behandeln Enoxacin direkt. Quelle 1 betrifft Fluorchinolone als Umwe |
+| WM-DRUG-1249 | Temafloxacin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Temafloxacin' |
+| WM-DRUG-1250 | Norfloxacin | drug | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Der Titel „Norfloxacin“ entspricht dem Wirkstoff (ATC J01MA06). Nur Quelle 1 behandelt Norfloxacin als Arzneimittel in der klinischen Anwendung (P |
+| WM-DRUG-1251 | Lomefloxacin | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Lomefloxacin direkt (Übersicht zu Analysemethoden). Die übrigen Quellen betreffen Fluorchinolone, Antibiotika oder Umweltkon |
+| WM-DRUG-1252 | Fleroxacin | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel „Fleroxacin“ bezeichnet denselben Wirkstoff wie ATC J01MA08. Keine der Quellen behandelt Fleroxacin spezifisch. Alle betreffen die Fluor |
+| WM-DRUG-1253 | Sparfloxacin | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel Sparfloxacin passt zur Klassifikation (ATC J01MA09). Keine der Quellen behandelt jedoch speziell Sparfloxacin. Alle betreffen die Klasse |
+| WM-DRUG-1254 | Rufloxacin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'rufloxacin' |
+| WM-DRUG-1255 | Grepafloxacin | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Grepafloxacin oder Fluorchinolone; es handelt sich um allgemeine Übersichtsarbeiten zu anderen Themen (Gastroentero |
+| WM-DRUG-1256 | Trovafloxacin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Trovafloxacin“ entspricht dem Wirkstoff ATC J01MA13. Keine der fünf Quellen behandelt jedoch Trovafloxacin als Schwerpunkt. Quelle 1 ist |
+| WM-DRUG-1258 | Gemifloxacin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Gemifloxacin' |
+| WM-DRUG-1259 | Gatifloxacin | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Gatifloxacin direkt (Wirksamkeit bei Tuberkulose, Nachweismethoden per Biosensor, analytische Methoden). Quelle 2 betr |
+| WM-DRUG-1260 | Prulifloxacin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Prulifloxacin“ bezeichnet denselben Wirkstoff wie ATC J01MA17. Keine der fünf Quellen behandelt Prulifloxacin: Quelle 1 (BCG-Blasenthera |
+| WM-DRUG-1261 | Pazufloxacin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'pazufloxacin' |
+| WM-DRUG-1262 | Garenoxacin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Garenoxacin' |
+| WM-DRUG-1263 | Sitafloxacin | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel Sitafloxacin entspricht dem Wirkstoff (ATC J01MA21). Nur die Quellen 2 und 5 behandeln Sitafloxacin direkt. Quelle 1 ist eine allgemeine  |
+| WM-DRUG-1264 | Tosufloxacin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Tosufloxacin' |
+| WM-DRUG-1266 | Lascufloxacin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Lascufloxacin' entspricht dem Wirkstoff (ATC J01MA25). Keine der fünf Quellen behandelt jedoch erkennbar speziell Lascufloxacin. Es hand |
+| WM-DRUG-1267 | Rosoxacin | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Titel bezeichnet denselben Wirkstoff wie die Klassifikation. Keine Quelle behandelt aber Rosoxacin selbst; die Quellen 5, 6 und 8 betreffen nur di |
+| WM-DRUG-1268 | Nalidixinsäure | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Der Titel „Nalidixinsäure“ entspricht dem Wirkstoff (ATC J01MB02). Keine der Quellen behandelt jedoch Nalidixinsäure als Wirkstoff. Die meisten si |
+| WM-DRUG-1269 | Piromidsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'piromic acid' |
+| WM-DRUG-1270 | Pipemidsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'pipemidic acid' |
+| WM-DRUG-1271 | Oxolinsäure | drug | zu wenige Quellen mit Zusammenfassung (1) für 'oxolinic acid' |
+| WM-DRUG-1272 | Cinoxacin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cinoxacin' |
+| WM-DRUG-1273 | Flumequin | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Keine Quelle behandelt Flumequin selbst; die Quinolon-Arbeiten (5, 6, 8) betreffen nur die übergeordnete Wirkstoffklasse, die übrigen sind themati |
+| WM-DRUG-1274 | Nemonoxacin | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel „Nemonoxacin“ entspricht dem Wirkstoff der Klassifikation (ATC J01MB08). Nur die Quellen 3 und 5 behandeln Nemonoxacin direkt. Die übrige |
+| WM-DRUG-1276 | Telavancin | drug | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Der Titel „Telavancin“ entspricht dem Wirkstoff (ATC J01XA03). Nur Quelle 6 (neuartige Glykopeptide vs. Vancomycin, darunter Telavancin) und Quell |
+| WM-DRUG-1278 | Nifurtoinol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'nitrofuran antibiotics' |
+| WM-DRUG-1279 | Furazidin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Furazidin' |
+| WM-DRUG-1281 | Xibornol | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Xibornol ist ein lokal angewendetes antibakterielles Mittel (ATC J01XX02); der Titel bezeichnet den richtigen Wirkstoff. Keine der Quellen behande |
+| WM-DRUG-1282 | Clofoctol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Clofoctol' |
+| WM-DRUG-1283 | Spectinomycin | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Der Titel „Spectinomycin“ entspricht dem Wirkstoff (ATC J01XX04). Keine der Quellen behandelt Spectinomycin als Hauptthema. Die Gonorrhö-Arbeiten  |
+| WM-DRUG-1430 | Methohexital | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Methohexital“ bezeichnet denselben Wirkstoff wie ATC N01AF01. Quelle 1 vergleicht Propofol mit Methohexital bei EKT, Quelle 5 gibt einen |
+| WM-DRUG-1431 | Hexobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Hexobarbital' |
+| WM-DRUG-1432 | Thiopental | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Titel und ATC-Code N01AF03 bezeichnen beide Thiopental. Thiopental ist explizit Gegenstand von Quelle 11 (Propofol vs. Thiopental bei Sectio). Que |
+| WM-DRUG-1460 | Nicomorphin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'nicomorphine' |
+| WM-DRUG-1462 | Dihydrocodein | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Titel „Dihydrocodein“ entspricht dem Wirkstoff ATC N02AA08. Nur die Quellen 5 (Dihydrocodein-Neurotoxizität bei Peritonealdialyse) und 7 (Todesfäll |
+| WM-DRUG-1463 | Papaveretum | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Papaveretum ist ein definiertes Gemisch gereinigter Opium-Alkaloide (Morphin, Codein, Papaverin) und wird als Analgetikum verwendet. Der Titel ents |
+| WM-DRUG-1464 | Oxymorphon | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Oxymorphon“ entspricht dem Wirkstoff der Klassifikation (ATC N02AA11). Nur Quelle 8 behandelt 14-oxygenierte Morphinane, zu denen Oxymor |
+| WM-DRUG-1465 | Ketobemidon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ketobemidone' |
+| WM-DRUG-1466 | Pethidin | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel „Pethidin“ entspricht ATC N02AB02. Passend sind nur Quellen, die Pethidin selbst untersuchen: Quelle 10 (intrathekales Pethidin gegen Shiver |
+| WM-DRUG-1467 | Dextromoramid | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Dextromoramid ist ein synthetisches Opioid der Diphenylpropylamin-Gruppe (Pyrrolidin-Derivat, ATC N02AC01) und kein Morphinan. Keine der Quellen b |
+| WM-DRUG-1468 | Piritramid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'piritramide' |
+| WM-DRUG-1469 | Dextropropoxyphen | drug | zu wenige Quellen mit Zusammenfassung (3) für 'propoxyphene' |
+| WM-DRUG-1470 | Bezitramid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bezitramide' |
+| WM-DRUG-1471 | Levomethadon | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Levomethadon' bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N02AC06). Keine der fünf Quellen behandelt Levomethadon spezifi |
+| WM-DRUG-1472 | Pentazocin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Pentazocin“ bezeichnet denselben Wirkstoff wie ATC N02AD01. Keine der fünf Quellen behandelt Pentazocin als Hauptthema. Es geht um Schme |
+| WM-DRUG-1473 | Phenazocin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenazocine' |
+| WM-DRUG-1474 | Butorphanol | drug | Bestätigungsquote 17/33 unter 60 %; zu viele nur teilweise belegte Sätze (8/17) |
+| WM-DRUG-1476 | Tilidin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'tilidine' |
+| WM-DRUG-1479 | Meptazinol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Meptazinol' |
+| WM-DRUG-1482 | Natriumsalicylat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'sodium salicylate' |
+| WM-DRUG-1483 | Salicylamid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Salicylamide' |
+| WM-DRUG-1484 | Salsalat | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Salsalat“ bezeichnet denselben Wirkstoff wie ATC N02BA06. Nur Quelle 5 behandelt Salsalat direkt. Die übrigen Quellen befassen sich mit  |
+| WM-DRUG-1485 | Ethenzamid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'ethenzamide' |
+| WM-DRUG-1486 | Morpholinsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'morpholine salicylate' |
+| WM-DRUG-1487 | Dipyrocetyl | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dipyrocetyl' |
+| WM-DRUG-1488 | Benorilat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'benorylate' |
+| WM-DRUG-1489 | Kaliumsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Potassium salicylate' |
+| WM-DRUG-1490 | Lysin-Acetylsalicylat | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Lysin-Acetylsalicylat“ bezeichnet denselben Wirkstoff wie ATC N02BA13. Keine der vier Quellen behandelt jedoch Lysin-Acetylsalicylat als |
+| WM-DRUG-1491 | Guacetisal | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Guacetisal' |
+| WM-DRUG-1492 | Imidazolsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'imidazole salicylate' |
+| WM-DRUG-1493 | Cholin-Magnesium-Tris-Salicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'choline magnesium trisalicylate' |
+| WM-DRUG-1494 | Phenazon | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Phenazon“ (ATC N02BB01) bezeichnet denselben Wirkstoff wie „antipyrine“. Alle Quellen behandeln jedoch Edaravon (ein Pyrazolon-Derivat,  |
+| WM-DRUG-1496 | Aminophenazon | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Alle Quellen behandeln Metamizol (Dipyron, ATC N02BB02), ein anderer Wirkstoff als Aminophenazon (N02BB03). Der Titel entspricht der Klassifikation |
+| WM-DRUG-1497 | Propyphenazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'propyphenazone' |
+| WM-DRUG-1498 | Phenazonsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenazone salicylate' |
+| WM-DRUG-1500 | Phenacetin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt Phenacetin als Wirkstoff. Quellen 1 und 4 betreffen Kokain und dessen Streckmittel (Phenacetin wird dort höchstens am R |
+| WM-DRUG-1501 | Bucetin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bucetin' |
+| WM-DRUG-1502 | Propacetamol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'propacetamol' |
+| WM-DRUG-1505 | Rimazolium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Rimazolium' |
+| WM-DRUG-1506 | Glafenin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'glafenine' |
+| WM-DRUG-1507 | Floctafenin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'floctafenine' |
+| WM-DRUG-1508 | Viminol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Viminol' |
+| WM-DRUG-1509 | Nefopam | drug | zu viele nur teilweise belegte Sätze (17/33) |
+| WM-DRUG-1510 | Flupirtin | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel „Flupirtin“ entspricht dem Wirkstoff der Klassifikation (ATC N02BG07). Nur Quelle 1 behandelt Flupirtin direkt (Hepatotoxizität). Die Que |
+| WM-DRUG-1515 | Blauer Eisenhut | drug | zu wenige Quellen mit Zusammenfassung (2) für 'monkshood' |
+| WM-DRUG-1516 | Lindenblüten | drug | zu wenige Quellen mit Zusammenfassung (1) für 'linden flower' |
+| WM-DRUG-1517 | Dihydroergotamin | drug | Bestätigungsquote 26/48 unter 60 %; zu viele nur teilweise belegte Sätze (15/26) |
+| WM-DRUG-1518 | Ergotamin | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Quellen 4, 5 und 7 behandeln Ergotamin direkt (Rezeptorpharmakologie, Migränetherapie mit Ergotamin/DHE/Triptanen, Ergotismus durch Ergotamin-Inter |
+| WM-DRUG-1519 | Methysergid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Methysergide' |
+| WM-DRUG-1520 | Flumedroxon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'flumedroxone' |
+| WM-DRUG-1522 | Naratriptan | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Der Titel „Naratriptan“ entspricht dem Wirkstoff der Klassifikation (N02CC02). Nur Quelle 5 behandelt Naratriptan direkt. Quelle 1 ist eine allgeme |
+| WM-DRUG-1524 | Rizatriptan | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel und ATC-Code (N02CC04) bezeichnen beide Rizatriptan. Nur die Quellen 6, 7 und 9 behandeln Rizatriptan explizit im Titel. Die Quellen 1, 2, 3 |
+| WM-DRUG-1525 | Almotriptan | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Almotriptan“ bezeichnet denselben Wirkstoff wie ATC N02CC05. Keine der Quellen behandelt jedoch Almotriptan als Schwerpunkt. Quelle 1 is |
+| WM-DRUG-1526 | Eletriptan | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Eletriptan“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N02CC06). Keine der vier Quellen behandelt aber Eletriptan als Sc |
+| WM-DRUG-1527 | Frovatriptan | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Frovatriptan“ entspricht dem Wirkstoff (ATC N02CC07, Triptan). Keine der Quellen behandelt aber Frovatriptan als Wirkstoff. Die Quellen  |
+| WM-DRUG-1528 | Galcanezumab | drug | zu viele nur teilweise belegte Sätze (23/33) |
+| WM-DRUG-1531 | Zavegepant | drug | zu viele nur teilweise belegte Sätze (13/32) |
+| WM-DRUG-1532 | Pestwurz | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel 'Pestwurz' entspricht dem Wirkstoff (ATC N02CH01, Petasites). Nur Quelle 2 (Butterbur als Nutraceutical bei Kopfschmerz) und Quelle 4 (Re |
+| WM-DRUG-1533 | Pestwurzwurzel | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Petasites hybridus' |
+| WM-DRUG-1535 | Mutterkraut | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Mutterkraut“ (Tanacetum parthenium, Feverfew) entspricht dem Wirkstoff der Klassifikation N02CP03. Nur Quelle 1 behandelt Feverfew ausdr |
+| WM-DRUG-1536 | Iprazochrom | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Iprazochrom (ATC N02CX03, Migränemittel, Serotonin-Antagonist) ist ein anderer Wirkstoff als Ipratropium (Anticholinergikum bei Asthma/COPD/ |
+| WM-DRUG-1537 | Dimetotiazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'dimethothiazine' |
+| WM-DRUG-1538 | Oxetoron | drug | zu wenige Quellen mit Zusammenfassung (0) für 'oxetorone' |
+| WM-DRUG-1539 | Natriumpangamat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Natriumpangamat (Calciumpangamat/Pangamsäure, 'Vitamin B15', ATC N02CX11) ist ein anderer Stoff als Amygdalin (Laetrile, 'Vitamin B17', cyan |
+| WM-DRUG-1541 | Methylphenobarbital | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Mephobarbital' |
+| WM-DRUG-1543 | Primidon | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Der Titel „Primidon“ entspricht dem Wirkstoff ATC N03AA03. Passend sind Quelle 1 (Wechselwirkungen von Phenobarbital und Primidon), Quelle 3 (Primi |
+| WM-DRUG-1544 | Barbexaclon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Barbexaclone' |
+| WM-DRUG-1545 | Cathin-Phenobarbital | drug | zu wenige Quellen mit Zusammenfassung (1) für 'norpseudoephedrine' |
+| WM-DRUG-1546 | Metharbital | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Der Titel 'Metharbital' bezeichnet denselben Wirkstoff wie ATC N03AA30. Keine der Quellen behandelt jedoch Metharbital selbst. Sie betreffen Pheno |
+| WM-DRUG-1547 | Ethotoin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ethotoin' |
+| WM-DRUG-1549 | Amino(diphenylhydantoin)valeriansäure | drug | nur 1 bestätigte Sätze; nur 1 Abschnitte; nur 2 Quellen zitiert; Bestätigungsquote 1/9 unter 60 % |
+| WM-DRUG-1550 | Mephenytoin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Mephenytoin' |
+| WM-DRUG-1552 | Paramethadion | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Paramethadione' |
+| WM-DRUG-1553 | Trimethadion | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Trimethadione' |
+| WM-DRUG-1554 | Ethadion | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ethadione' |
+| WM-DRUG-1555 | Ethosuximid | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel „Ethosuximid“ entspricht dem Wirkstoff mit ATC N03AD01. Quellen 5, 6 und 7 behandeln Ethosuximid direkt (Cochrane-Review bei Absence-Epil |
+| WM-DRUG-1556 | Phensuximid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phensuximide' |
+| WM-DRUG-1557 | Mesuximid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'mesuximide' |
+| WM-DRUG-1560 | Oxcarbazepin | drug | zu viele nur teilweise belegte Sätze (16/36) |
+| WM-DRUG-1562 | Valpromid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Valpromide' |
+| WM-DRUG-1563 | Aminobuttersäure | drug | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Das Thema ist Aminobuttersäure (GABA, ATC N03AG03) als Arzneimittelwirkstoff. Keine Quelle behandelt den Wirkstoff als Arzneimittel. Quellen 1, 5, |
+| WM-DRUG-1564 | Progabid | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der vier Quellen behandelt Progabid. Quelle 1 betrifft Baclofen (GABA-B-Agonist) bei GERD, Quelle 2 Thiocolchicosid, Quelle 3 Dexmedetomidin  |
+| WM-DRUG-1565 | Tiagabin | drug | Themenprüfung: nur 0 von 13 Quellen passen zum Thema (Der Titel „Tiagabin“ entspricht dem Wirkstoff der Klassifikation (ATC N03AG06). Keine der Quellen behandelt Tiagabin spezifisch. Es handelt sich d |
+| WM-DRUG-1566 | Sultiam | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Sultiam“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N03AX03). Die Titel der vier Quellen nennen Sultiam jedoch nicht. Si |
+| WM-DRUG-1567 | Phenacemid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenacemide' |
+| WM-DRUG-1569 | Felbamat | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln Felbamat direkt (Metaanalyse bei genetischer generalisierter Epilepsie, Cochrane-Review bei fokaler Epilepsie). Quelle 3  |
+| WM-DRUG-1570 | Pheneturid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pheneturide' |
+| WM-DRUG-1571 | Carisbamat | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Carisbamat“ entspricht dem Wirkstoff der Klassifikation (ATC N03AX19). Quelle 1 behandelt Carisbamat als Zusatztherapie bei fokaler Epil |
+| WM-DRUG-1572 | Retigabin | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel 'Retigabin' entspricht dem Wirkstoff ATC N03AX21. Passend sind die Quellen 2 (Retigabin bis Azetukalner), 6 (Wirkmechanismus von Retigabi |
+| WM-DRUG-1576 | Beclamid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'beclamide' |
+| WM-DRUG-1577 | Kaliumbromid | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Kaliumbromid“ bezeichnet denselben Wirkstoff wie ATC N03AX31. Keine der Quellen behandelt Kaliumbromid als Schwerpunkt. Quellen 1, 3, 4  |
+| WM-DRUG-1603 | Chlorpromazin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 5 und 6 behandeln Chlorpromazin explizit; die übrigen betreffen andere Wirkstoffe, die Substanzklasse oder andere Krankheitsbilder, in  |
+| WM-DRUG-1604 | Levomepromazin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der fünf Quellen behandelt Levomepromazin als Hauptthema. Quelle 1 betrifft Antipsychotika-induzierte Myokarditis allgemein. Die Quellen 2 un |
+| WM-DRUG-1605 | Promazin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 3 behandelt Promazin direkt. Quelle 2 betrifft Phenothiazine allgemein, also eine übergeordnete Substanzklasse. Quelle 1 (Alkoholentzug) |
+| WM-DRUG-1606 | Acepromazin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Acepromazin“ entspricht dem Wirkstoff (ATC N05AA04, Phenothiazin-Neuroleptikum). Keine der vier Quellen behandelt Acepromazin als Thema. |
+| WM-DRUG-1607 | Cyamemazin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Cyamemazine' |
+| WM-DRUG-1608 | Chlorproethazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chlorproethazine' |
+| WM-DRUG-1609 | Dixyrazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Dixyrazin (ATC N05AB01) ist ein Phenothiazin-Neuroleptikum bzw. Antihistaminikum. Dizocilpine (MK-801) ist dagegen ein NMDA-Rezeptor-Antagon |
+| WM-DRUG-1610 | Fluphenazin | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Der Titel 'Fluphenazin' entspricht dem Wirkstoff (ATC N05AB02), das ist ein Phenothiazin-Neuroleptikum. Keine der Quellen behandelt aber Fluphenaz |
+| WM-DRUG-1611 | Perphenazin | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel „Perphenazin“ bezeichnet denselben Wirkstoff wie ATC N05AB03. Nur Quelle 9 behandelt Perphenazin direkt (in-vitro-Antitumoraktivität). Qu |
+| WM-DRUG-1613 | Thiopropazat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Thiopropazate' |
+| WM-DRUG-1614 | Trifluoperazin | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel „Trifluoperazin“ entspricht dem Wirkstoff (ATC N05AB06). Passend sind nur Quellen, die Trifluoperazin direkt behandeln: Quelle 6 (Trifluo |
+| WM-DRUG-1615 | Acetophenazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'acetophenazine' |
+| WM-DRUG-1616 | Thioproperazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Thioproperazine' |
+| WM-DRUG-1617 | Butaperazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Butaperazine' |
+| WM-DRUG-1618 | Perazin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'perazine' |
+| WM-DRUG-1619 | Metofenazat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Metofenazate' |
+| WM-DRUG-1620 | Periciazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pericyazine' |
+| WM-DRUG-1621 | Thioridazin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Thioridazin“ bezeichnet den Wirkstoff (ATC N05AC02) korrekt. Keine der Quellen behandelt jedoch speziell Thioridazin. Quelle 1 betrifft  |
+| WM-DRUG-1622 | Mesoridazin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'mesoridazine' |
+| WM-DRUG-1623 | Pipotiazin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'pipotiazine' |
+| WM-DRUG-1625 | Trifluperidol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Trifluperidol' |
+| WM-DRUG-1626 | Melperon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'melperone' |
+| WM-DRUG-1627 | Moperon | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Moperon ist ein Butyrophenon-Neuroleptikum (ATC N05AD04). Alle Quellen behandeln Morphin bzw. andere Opioide oder Analgetika, also einen anderen W |
+| WM-DRUG-1628 | Pipamperon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Pipamperone' |
+| WM-DRUG-1629 | Bromperidol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'bromperidol' |
+| WM-DRUG-1630 | Benperidol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Benperidol' |
+| WM-DRUG-1632 | Fluanison | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Fluanisone' |
+| WM-DRUG-1634 | Oxypertin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'neuroleptic agent' |
+| WM-DRUG-1635 | Molindon | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Molindon“ entspricht dem Wirkstoff Molindone (ATC N05AE02). Keine der Quellen behandelt jedoch spezifisch Molindon. Es handelt sich um a |
+| WM-DRUG-1636 | Sertindol | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Sertindol“ bezeichnet denselben Wirkstoff wie ATC N05AE03. Keine der Quellen behandelt Sertindol spezifisch. Es handelt sich um allgemei |
+| WM-DRUG-1637 | Ziprasidon | drug | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Der Titel „Ziprasidon“ bezeichnet denselben Wirkstoff wie ATC N05AE04. Nur Quelle 10 behandelt Ziprasidon direkt (Vergleich mit Haloperidol bei Ag |
+| WM-DRUG-1638 | Flupentixol | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Keine der Quellen behandelt Flupentixol spezifisch. Es handelt sich um allgemeine Arbeiten zu Antipsychotika, Depression, Dyspepsie oder Depot-Anti |
+| WM-DRUG-1639 | Clopenthixol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Clopenthixol' |
+| WM-DRUG-1640 | Chlorprothixen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Chlorprothixene' |
+| WM-DRUG-1641 | Tiotixen | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Titel „Tiotixen“ entspricht dem Wirkstoff Thiothixen (ATC N05AF04). Keine der fünf Quellen behandelt Thiothixen: Sie betreffen schizotypische Störu |
+| WM-DRUG-1642 | Zuclopenthixol | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 2 behandelt Zuclopenthixol (Acetat) direkt. Die DPWG-Leitlinie, die LAI-Übersichten und die Fallberichte behandeln Antipsychotika allgem |
+| WM-DRUG-1643 | Fluspirilen | drug | zu wenige Quellen mit Zusammenfassung (2) für 'fluspirilene' |
+| WM-DRUG-1644 | Pimozid | drug | Themenprüfung: nur 1 von 12 Quellen passen zum Thema (Der Titel „Pimozid“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N05AG02). Nur Quelle 9 behandelt Pimozid direkt. Die übrigen Quelle |
+| WM-DRUG-1645 | Penfluridol | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Penfluridol“ entspricht dem Wirkstoff (ATC N05AG03, Diphenylbutylpiperidin-Neuroleptikum). Nur Quelle 3 (Penfluridol als Krebstherapie)  |
+| WM-DRUG-1648 | Clotiapin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Clotiapine' |
+| WM-DRUG-1649 | Sulpirid | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel „Sulpirid“ entspricht dem Wirkstoff mit ATC N05AL01. Quelle 1 behandelt Levosulpirid, das Enantiomer von Sulpirid. Das ist ein sehr naher |
+| WM-DRUG-1650 | Sultoprid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Sultopride' |
+| WM-DRUG-1651 | Tiaprid | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel 'Tiaprid' entspricht dem Wirkstoff (ATC N05AL03). Quelle 2 behandelt Tiaprid direkt. Quelle 6 behandelt das Absetzen von Tiaprid bei Chor |
+| WM-DRUG-1652 | Remoxiprid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'remoxipride' |
+| WM-DRUG-1654 | Veraliprid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Veralipride' |
+| WM-DRUG-1655 | Levosulpirid | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Levosulpirid“ entspricht dem Wirkstoff der Klassifikation (ATC N05AL07). Nur die Quellen 3 und 5 behandeln Levosulpirid direkt. Die Quel |
+| WM-DRUG-1657 | Prothipendyl | drug | zu wenige Quellen mit Zusammenfassung (0) für 'prothipendyl' |
+| WM-DRUG-1658 | Mosapramin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Mosapramine' |
+| WM-DRUG-1659 | Zotepin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Zotepin“ entspricht dem Wirkstoff (ATC N05AX11). Keine der Quellen behandelt Zotepin als Hauptthema. Die Arbeiten betreffen Antipsychoti |
+| WM-DRUG-1660 | Iloperidon | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Iloperidon“ entspricht dem Wirkstoff (ATC N05AX14). Nur Quelle 8 behandelt Iloperidon direkt. Die übrigen Quellen sind allgemeine Antips |
+| WM-DRUG-1663 | Chlordiazepoxid | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Titel und ATC-Code N05BA02 bezeichnen beide Chlordiazepoxid. Nur Quelle 3 behandelt Chlordiazepoxid ausdrücklich. Die Quellen 1 und 2 betreffen die |
+| WM-DRUG-1664 | Medazepam | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Medazepam' |
+| WM-DRUG-1665 | Oxazepam | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Oxazepam“ entspricht dem Wirkstoff (ATC N05BA04). Keine der Quellen behandelt jedoch Oxazepam spezifisch. Die Quellen 1, 3, 4, 6 und 7 b |
+| WM-DRUG-1666 | Dikaliumclorazepat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'clorazepate' |
+| WM-DRUG-1668 | Adinazolam | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Adinazolam“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N05BA07). Quelle 1 behandelt Panikstörung allgemein, Adinazolam s |
+| WM-DRUG-1669 | Bromazepam | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Bromazepam' |
+| WM-DRUG-1671 | Ketazolam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ketazolam' |
+| WM-DRUG-1672 | Prazepam | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Prazepam' |
+| WM-DRUG-1674 | Halazepam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Halazepam' |
+| WM-DRUG-1675 | Pinazepam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pinazepam' |
+| WM-DRUG-1676 | Camazepam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Camazepam' |
+| WM-DRUG-1677 | Nordazepam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nordazepam' |
+| WM-DRUG-1678 | Fludiazepam | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Fludiazepam“ passt zum Wirkstoff der Klassifikation (ATC N05BA17). Alle sieben Quellen behandeln jedoch Designer-Benzodiazepine allgemei |
+| WM-DRUG-1679 | Ethylloflazepat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ethyl loflazepate' |
+| WM-DRUG-1680 | Etizolam | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 3 und 6 behandeln Etizolam direkt (Todesfälle in Schottland, Metabolite, Designer-Benzodiazepine einschließlich Etizolam). Quelle 2 (sub |
+| WM-DRUG-1681 | Clotiazepam | drug | zu wenige Quellen mit Zusammenfassung (2) für 'thienodiazepine' |
+| WM-DRUG-1682 | Cloxazolam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cloxazolam' |
+| WM-DRUG-1683 | Tofisopam | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tofisopam' |
+| WM-DRUG-1684 | Bentazepam | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Bentazepam ist ein Thienotriazolo-/Thieno-Benzodiazepin-Derivat (ATC N05BA24, Anxiolytikum). Der Titel bezeichnet den richtigen Wirkstoff. Keine de |
+| WM-DRUG-1685 | Mexazolam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mexazolam' |
+| WM-DRUG-1686 | Oxazolam | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel Oxazolam bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N05BA26, Benzodiazepin-Prodrug von Diazepam-Typ). Keine der Quellen  |
+| WM-DRUG-1687 | Metaclazepam | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Metaclazepam“ bezeichnet denselben Wirkstoff wie ATC N05BA27 (ein zugelassenes Benzodiazepin-Anxiolytikum). Keine der Quellen behandelt  |
+| WM-DRUG-1688 | Hydroxyzin | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Nur drei Quellen behandeln Hydroxyzin direkt: Nr. 2 (Schlaf bei Erwachsenen), Nr. 4 (Evidenzlücken zu Hydroxyzin, auch wenn der Schwerpunkt auf Ben |
+| WM-DRUG-1689 | Captodiam | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Captodiam (ATC N05BB02, Anxiolytikum aus der Gruppe der Diphenylmethan-Derivate) passt zum Artikeltitel. Keine der 16 Quellen behandelt Captodiam. |
+| WM-DRUG-1690 | Meprobamat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Meprobamate' |
+| WM-DRUG-1691 | Emylcamat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'emylcamate' |
+| WM-DRUG-1692 | Mebutamat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'mebutamate' |
+| WM-DRUG-1693 | Benzoctamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Benactyzine' |
+| WM-DRUG-1695 | Kava-Kava-Wurzelstock | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Kava-Kava-Wurzelstock“ entspricht dem Wirkstoff der Klassifikation (ATC N05BP02, Piper methysticum). Keine der vier Quellen behandelt ab |
+| WM-DRUG-1696 | Lavendelöl | drug | zu viele nur teilweise belegte Sätze (20/36) |
+| WM-DRUG-1697 | Mephenoxalon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'mephenoxalone' |
+| WM-DRUG-1698 | Gedocarnil | drug | zu wenige Quellen mit Zusammenfassung (3) für 'cardiotonic agent' |
+| WM-DRUG-1699 | Etifoxin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Etifoxin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N05BX03). Nur Quelle 3 behandelt Etifoxin direkt (Angststörungen be |
+| WM-DRUG-1700 | Fabomotizol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Fabomotizole' |
+| WM-DRUG-1701 | Kavain | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Kavain ist ein Hauptkavalacton der Kava (Piper methysticum). Die Quellen 1, 5 und 6 behandeln Kava bzw. Kavalactone (Pharmakologie, Wirkung, Toxizi |
+| WM-DRUG-1702 | Pentobarbital | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Der Titel „Pentobarbital“ entspricht dem Wirkstoff der ATC-Klassifikation N05CA01. Passend sind nur Quellen, die Pentobarbital selbst behandeln: Qu |
+| WM-DRUG-1703 | Amobarbital | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Titel und ATC-Klassifikation (Amobarbital, N05CA02) bezeichnen denselben Wirkstoff. Keine der Quellen behandelt Amobarbital als Wirkstoff. Die Quel |
+| WM-DRUG-1704 | Butobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Butobarbital' |
+| WM-DRUG-1705 | Barbital | drug | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Barbital ist ein Barbiturat (Sedativum/Hypnotikum, N05CA04); der Titel passt zur Klassifikation. Passend sind nur Quellen, die Barbiturate allgeme |
+| WM-DRUG-1706 | Aprobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'aprobarbital' |
+| WM-DRUG-1707 | Secobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'secobarbital' |
+| WM-DRUG-1708 | Talbutal | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Talbutal ist ein Barbiturat (Sedativum/Hypnotikum, ATC N05CA07), der Titel passt zur Klassifikation. Keine der Quellen behandelt Talbutal oder Bar |
+| WM-DRUG-1709 | Vinylbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'vinylbital' |
+| WM-DRUG-1710 | Vinbarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Vinbarbital' |
+| WM-DRUG-1711 | Cyclobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'cyclobarbital' |
+| WM-DRUG-1712 | Heptabarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Heptabarbital' |
+| WM-DRUG-1713 | Reposal | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Reposal (N05CA12) ist ein Barbiturat (Brallobarbital), Diphenhydramin ist ein anderer Wirkstoff (Antihistaminikum). Keine Quelle behandelt den gep |
+| WM-DRUG-1714 | Etallobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'etallobarbital' |
+| WM-DRUG-1715 | Allobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Allobarbital' |
+| WM-DRUG-1716 | Proxibarbal | drug | zu wenige Quellen mit Zusammenfassung (0) für 'proxibarbal' |
+| WM-DRUG-1717 | Crotylbarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Crotylbarbital' |
+| WM-DRUG-1718 | Propallylonal | drug | zu wenige Quellen mit Zusammenfassung (0) für 'propallylonal' |
+| WM-DRUG-1719 | Bromallylmethylbutylbarbitursäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'bromallylbarbituric acid' |
+| WM-DRUG-1721 | Chloralodol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chloralodol' |
+| WM-DRUG-1722 | Acetylglycinamidchloralhydrat | drug | zu viele nur teilweise belegte Sätze (15/37) |
+| WM-DRUG-1723 | Dichloralphenazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dichloralphenazone' |
+| WM-DRUG-1724 | Paraldehyd | drug | zu wenige Quellen mit Zusammenfassung (2) für 'paraldehyde' |
+| WM-DRUG-1725 | Flurazepam | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Flurazepam“ entspricht dem Wirkstoff (ATC N05CD01). Keine der Quellen behandelt Flurazepam spezifisch. Es handelt sich um allgemeine Übe |
+| WM-DRUG-1726 | Nitrazepam | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Nitrazepam“ bezeichnet denselben Wirkstoff wie ATC N05CD02. Keine der Quellen behandelt Nitrazepam spezifisch. Quellen 2, 3 und 5 betref |
+| WM-DRUG-1727 | Flunitrazepam | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel "Flunitrazepam" bezeichnet denselben Wirkstoff wie ATC N05CD03. Keine der Quellen behandelt Flunitrazepam spezifisch. Quelle 1 behandelt  |
+| WM-DRUG-1728 | Estazolam | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Estazolam' |
+| WM-DRUG-1729 | Triazolam | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Triazolam' |
+| WM-DRUG-1730 | Lormetazepam | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Lormetazepam' |
+| WM-DRUG-1732 | Brotizolam | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Brotizolam“ entspricht dem Wirkstoff mit ATC N05CD09. Keine der vier Quellen behandelt Brotizolam im Kern. Quelle 1 vergleicht Hypnotika |
+| WM-DRUG-1733 | Quazepam | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Quazepam' |
+| WM-DRUG-1734 | Loprazolam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'loprazolam' |
+| WM-DRUG-1735 | Doxefazepam | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt Doxefazepam. Sie betreffen andere Themen, darunter Gastroenterologie, Onkologie, Dermatologie, Infektiologie, Autismus |
+| WM-DRUG-1736 | Cinolazepam | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Cinolazepam. Es geht um Schlafapnoe, Diphenhydramin, Zolpidem, allgemeines Absetzen von Hypnotika und kardiovaskuläre F |
+| WM-DRUG-1737 | Nimetazepam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'nimetazepam' |
+| WM-DRUG-1738 | Glutethimid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'glutethimide' |
+| WM-DRUG-1739 | Methyprylon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Methyprylon' |
+| WM-DRUG-1740 | Pyrithyldion | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pyrithyldione' |
+| WM-DRUG-1741 | Zopiclon | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Der Titel „Zopiclon“ entspricht dem Wirkstoff der Klassifikation (ATC N05CF01). Nur die Quellen 5, 9 und 11 behandeln Zopiclon explizit im Titel.  |
+| WM-DRUG-1743 | Zaleplon | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Titel entspricht dem Wirkstoff Zaleplon. Die Quellen behandeln Insomnie-Pharmakotherapie allgemein (Leitlinien, Netzwerk-Metaanalysen) oder Zolpid |
+| WM-DRUG-1744 | Eszopiclon | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Der Titel „Eszopiclon“ bezeichnet denselben Wirkstoff wie ATC N05CF04. Quellen 1, 2 und 6 behandeln Eszopiclon direkt (Insomnie mit psychischen Kom |
+| WM-DRUG-1746 | Tasimelteon | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Nur die Quellen 1 und 2 behandeln Tasimelteon ausdrücklich (Titel). Quelle 3 (zirkadiane Schlaf-Wach-Rhythmusstörungen), 4 (Melatonin bei Alzheimer |
+| WM-DRUG-1749 | Methaqualon | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Methaqualone' |
+| WM-DRUG-1750 | Clomethiazol | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Clomethiazol“ bezeichnet denselben Wirkstoff wie ATC N05CM02. Keine der Quellen behandelt aber Clomethiazol als Wirkstoff. Quelle 1 und  |
+| WM-DRUG-1751 | Bromisoval | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bromisoval' |
+| WM-DRUG-1752 | Carbromal | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Carbromal' |
+| WM-DRUG-1753 | Propiomazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Propiomazine' |
+| WM-DRUG-1754 | Triclofos | drug | nur 1 bestätigte Sätze; nur 1 Abschnitte; nur 2 Quellen zitiert; Bestätigungsquote 1/8 unter 60 %; zu viele nur teilweise belegte Sätze (1/1) |
+| WM-DRUG-1755 | Ethchlorvynol | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Ethchlorvynol ist ein Carbinol-Hypnotikum (ATC N05CM08), kein Barbiturat. Keine der Quellen behandelt den Wirkstoff selbst. Sie betreffen Barbitur |
+| WM-DRUG-1756 | Hexapropymate | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Hexapropymat. Alle befassen sich allgemein mit Sedativa/Hypnotika bzw. Benzodiazepinen und Z-Substanzen (Deprescribing, |
+| WM-DRUG-1757 | Bromide | drug | Themenprüfung: nur 1 von 12 Quellen passen zum Thema (ATC N05CM11 meint Bromide (Bromidsalze, z. B. Kaliumbromid) als Sedativum/Antiepileptikum. Nur Quelle 10 behandelt Bromidsalze als Antiepileptika. |
+| WM-DRUG-1758 | Apronal | drug | zu wenige Quellen mit Zusammenfassung (0) für 'apronalide' |
+| WM-DRUG-1759 | Valnoctamid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Valnoctamide' |
+| WM-DRUG-1760 | Methylpentynol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Methylpentynol' |
+| WM-DRUG-1761 | Niaprazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'niaprazine' |
+| WM-DRUG-1762 | Magnesiumaspartathydrobromid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Magnesium aspartate' |
+| WM-DRUG-1763 | Magnesiumglutamathydrobromid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'magnesium glutamate hydrobromide' |
+| WM-DRUG-1764 | Doxylamin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Doxylamin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N05CM27). Keine der Quellen behandelt Doxylamin als Wirkstoff im S |
+| WM-DRUG-1765 | Baldrianwurzel | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Baldrianwurzel“ bezeichnet denselben Wirkstoff wie ATC N05CP01 (Valeriana officinalis, Radix). Keine der fünf Quellen behandelt jedoch s |
+| WM-DRUG-1766 | Johanniskraut | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel „Johanniskraut“ (Hypericum perforatum) entspricht dem Wirkstoff der Klassifikation (ATC N05CP03). Passend sind Quelle 1 (Wirksamkeit und  |
+| WM-DRUG-1768 | Passionsblumenkraut | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Titel und ATC-Klassifikation (N05CP05, Passionsblumenkraut = Passiflora incarnata) bezeichnen denselben Wirkstoff. Quellen 4 und 5 behandeln Passif |
+| WM-DRUG-1769 | Baldrianöl | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Valerian oil' |
+| WM-DRUG-1770 | Hopfen | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel 'Hopfen' entspricht dem Wirkstoff Hopfen (N05CP07, Humulus lupulus als Arzneidroge). Nur Quelle 2 behandelt Hopfen umfassend, einschließl |
+| WM-DRUG-1771 | Desipramin | drug | Themenprüfung: nur 1 von 12 Quellen passen zum Thema (Nur Quelle 2 (CPIC-Leitlinie zu CYP2D6/CYP2C19 und trizyklischen Antidepressiva, u. a. Desipramin mit eigenen Dosierungsempfehlungen) behandelt de |
+| WM-DRUG-1772 | Imipramin | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Titel entspricht dem Wirkstoff Imipramin. Nur Quelle 4 behandelt Imipramin direkt; die übrigen Quellen betreffen andere Wirkstoffe, die gesamte Kla |
+| WM-DRUG-1773 | Imipraminoxid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Imipramine oxide' |
+| WM-DRUG-1774 | Clomipramin | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Der Titel 'Clomipramin' entspricht dem Wirkstoff ATC N06AA04. Nur Quellen 1 (parenterales Clomipramin) und 10 (Clomipramin bei vorzeitigem Samener |
+| WM-DRUG-1775 | Opipramol | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Opipramol. Es geht um Gastroenterologie, Onkologie, Dermatologie, Schlaf und Autismus, aber nie um diesen Wirkstoff |
+| WM-DRUG-1776 | Trimipramin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Trimipramin“ entspricht dem Wirkstoff (ATC N06AA06). Keine der vier Quellen behandelt jedoch speziell Trimipramin. Es handelt sich um al |
+| WM-DRUG-1777 | Lofepramin | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Der Titel „Lofepramin“ entspricht ATC N06AA07. Der Suchbegriff „Desipramine“ ist aber ein anderer Wirkstoff (ATC N06AA01), nämlich ein Metabolit v |
+| WM-DRUG-1778 | Dibenzepin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'dibenzepin' |
+| WM-DRUG-1779 | Amitriptylin | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-1780 | Nortriptylin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Nortriptylin“ entspricht dem Wirkstoff der Klassifikation (ATC N06AA10). Nur Quelle 1 behandelt Nortriptylin spezifisch (analgetische Ei |
+| WM-DRUG-1781 | Protriptylin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Protriptyline' |
+| WM-DRUG-1782 | Iprindol | drug | Themenprüfung: nur 0 von 13 Quellen passen zum Thema (Iprindol (ATC N06AA13) ist ein einzelner Wirkstoff, ein atypisches trizyklisches Antidepressivum. Der Titel passt zur Klassifikation. Alle Quellen |
+| WM-DRUG-1783 | Melitracen | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Melitracen“ bezeichnet denselben Wirkstoff wie ATC N06AA14 (trizyklisches Antidepressivum, in Kombination mit Flupentixol). Keine der Qu |
+| WM-DRUG-1784 | Butriptylin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Butriptyline' |
+| WM-DRUG-1785 | Dosulepin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Dosulepin“ entspricht ATC N06AA16 (Dothiepin) und passt zur Klassifikation. Keine der vier Quellen behandelt jedoch speziell Dosulepin.  |
+| WM-DRUG-1786 | Amoxapin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'amoxapine' |
+| WM-DRUG-1787 | Dimetacrin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'dimetacrine' |
+| WM-DRUG-1788 | Amineptin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'amineptine' |
+| WM-DRUG-1789 | Noxiptilin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'noxiptiline' |
+| WM-DRUG-1790 | Maprotilin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Titel „Maprotilin“ entspricht dem Wirkstoff (ATC N06AA21). Keine der Quellen behandelt Maprotilin spezifisch: 1–3 betreffen Antidepressiva allgemei |
+| WM-DRUG-1791 | Quinupramin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Quinupramine' |
+| WM-DRUG-1792 | Amitriptylinoxid | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Alle Quellen behandeln Amitriptylin (N06AA09), nicht den eigenständigen Wirkstoff Amitriptylinoxid (N06AA25); Titel und Klassifikation stimmen übe |
+| WM-DRUG-1793 | Zimeldin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Zimelidine' |
+| WM-DRUG-1798 | Alaproclat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Alaproclate' |
+| WM-DRUG-1800 | Etoperidon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'etoperidone' |
