@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 30.10.2026 06:25. Warteschlange: claimed 1, duplicate 439, planned 4478, published 753, ready 124, redirect 141, review 1129.
+Stand: 30.10.2026 07:25. Warteschlange: duplicate 439, planned 4414, published 813, ready 70, redirect 164, review 1165.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -89,6 +89,7 @@ Stand: 30.10.2026 06:25. Warteschlange: claimed 1, duplicate 439, planned 4478, 
 | WM-DIS-0489 | Krankheiten des Muskel-Skelett-Systems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (M96 umfasst nur Muskel-Skelett-Erkrankungen nach medizinischen Maßnahmen, z. B. Postlaminektomie-Syndrom, Pseudarthrose nach Fusion oder Feh |
 | WM-DIS-0492 | Bösartige Neubildung am Rektosigmoid, Übergang | disease | Bestätigungsquote 26/44 unter 60 % |
 | WM-DIS-0496 | Verletzung der Harnorgane und der Beckenorgane | disease | zu viele nur teilweise belegte Sätze (7/11) |
+| WM-DIS-0497 | Bösartige immunproliferative Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel ist zu allgemein; IPSID ist eine Unterform von MALT-Lymphom, nicht synonym mit C88.) |
 | WM-DIS-0498 | Oberflächliche Verletzung des Halses | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (ICD-10-GM S10 umfasst oberflächliche Verletzungen des Halses (Prellung, Schürfwunde, Blasenbildung, oberflächlicher Fremdkörper, Insektenbiss usw. |
 | WM-DIS-0508 | Verletzung der Nerven und des lumbalen Rückenmarkes in Höhe des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cauda equina injury' |
 | WM-DIS-0517 | Sonstige Arthritis | disease | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel entspricht M13 (Plural). Nur Quellen 3, 6 und 7 behandeln die undifferenzierte Arthritis; die übrigen betreffen RA, PsA, JIA, Spondyloarthri |
@@ -144,6 +145,8 @@ Stand: 30.10.2026 06:25. Warteschlange: claimed 1, duplicate 439, planned 4478, 
 | WM-DIS-0654 | Übertragene Schwangerschaft | disease | Bestätigungsquote 16/39 unter 60 % |
 | WM-DIS-0655 | Sonstige Krankheiten des Perikards | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel „Erkrankungen des Herzbeutels“ entspricht ICD-10-GM I31 (sonstige Perikardkrankheiten). Nur die Quellen 1, 3 und 5 behandeln Perikarderkr |
 | WM-DIS-0657 | Sonstige nichttraumatische intrakranielle Blutung | disease | Entwurf ohne belegte Sätze |
+| WM-DIS-0658 | Verletzung von Muskeln und Sehnen in Höhe des Unterarmes | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Muskel- oder Sehnenverletzungen des Unterarms; alle beziehen sich auf Frakturen (Radius/Ulna) oder Ellenbogenverl |
+| WM-DIS-0659 | Verletzung von Nerven in Höhe des Handgelenkes und der Hand | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel passt zur ICD-10-GM S64. Nur Quelle 4 behandelt spezifisch 'median nerve injury' (ein Nerv der Hand/des Handgelenks). Quelle 1 (Carpal Tunnel |
 | WM-DIS-0678 | Sonstige Krankheiten des Ösophagus | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (ICD-10-GM K22 umfasst sonstige Ösophaguserkrankungen (u. a. Achalasie, Ulkus, Obstruktion, Perforation, Dyskinesie, Divertikel, Ösophagitis-Folgen) |
 | WM-DIS-0694 | Tubulointerstitielle Nephritis, nicht als akut oder chronisch bezeichnet | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel „Tubulointerstitielle Nephritis“ entspricht N12 (Synonym, kleiner Unterschied im Zuschnitt). Nur Quelle 7 behandelt die tubulointerstitie |
 | WM-DIS-0702 | Erosion und Ektropium der Cervix uteri | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical ectopy' |
@@ -1137,3 +1140,36 @@ Stand: 30.10.2026 06:25. Warteschlange: claimed 1, duplicate 439, planned 4478, 
 | WM-DRUG-3283 | Flunisolid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'flunisolide' |
 | WM-DRUG-3284 | Ciclesonid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'ciclesonide' |
 | WM-DRUG-3312 | Terbutalin | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quelle 1 behandelt Bronchodilatatoren allgemein, Quelle 4 SABA-Monotherapie allgemein, Quelle 5 Kombinationstherapien. Nur 2, 3 und 6 behandeln exp |
+| WM-DRUG-3313 | Rimiterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Rimiterol; alle Quellen beziehen sich auf allgemeine SABA-Klassen (z.B. Salbutamol) oder and |
+| WM-DRUG-3314 | Hexoprenalin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Hexoprenalin ist ein spezifischer Beta-2-Agonist. Albuterol (Salbutamol) ist ein anderer Wirkstoff. Die Quellen behandeln Albuterol oder all |
+| WM-DRUG-3315 | Isoetarin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Isoetarine' |
+| WM-DRUG-3316 | Pirbuterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pirbuterol' |
+| WM-DRUG-3317 | Tretoquinol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Tretoquinol (ATC R03AC09) ist ein Bronchodilatator zur Behandlung von Asthma/COPD. Der Suchbegriff 'Tretinoin' bezieht sich au |
+| WM-DRUG-3318 | Carbuterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln Asthma/Bronchospasmus allgemein, nicht spezifisch Carbuterol. Nur 4 Quellen passen, Grenzwert erreicht.) |
+| WM-DRUG-3319 | Tulobuterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tulobuterol' |
+| WM-DRUG-3322 | Clenbuterol | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Clenbuterol explizit. Quelle 5 behandelt Nachweismethoden, nicht den Wirkstoff selbst im medizinischen Kontext. Quelle |
+| WM-DRUG-3323 | Reproterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Reproterol; alle beziehen sich auf die allgemeine Klasse der Beta-2-Agonisten oder andere Substanzen.) |
+| WM-DRUG-3324 | Procaterol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Procaterol' |
+| WM-DRUG-3325 | Bitolterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bitolterol' |
+| WM-DRUG-3326 | Olodaterol | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 6 und 7 behandeln explizit Olodaterol (oft in Kombination mit Tiotropium). Quelle 2 vergleicht Umeclidinium/Vilanterol, Quelle 3 und 4 a |
+| WM-DRUG-3327 | Oxitropiumbromid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxitropium' |
+| WM-DRUG-3328 | Stechapfel-haltige Zubereitungen | drug | zu wenige Quellen mit Zusammenfassung (2) für 'hyoscyamus' |
+| WM-DRUG-3330 | Aclidiniumbromid | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 8 behandelt explizit Aclidiniumbromid. Die anderen Quellen behandeln COPD allgemein, andere Wirkstoffe (z.B. Navafenterol) oder Wirkstof |
+| WM-DRUG-3331 | Revefenacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Revefenacin (R03BB08) oder dessen Indikation COPD/Asthma. Alle Quellen befassen sich mit andere |
+| WM-DRUG-3332 | Fenspirid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fenspiride' |
+| WM-DRUG-3333 | Ensifentrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Ensifentrin oder dessen Indikation COPD/Asthma; alle behandeln andere Fachgebiete (Gastroentero |
+| WM-DRUG-3334 | Methoxyphenamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'methoxyphenamine' |
+| WM-DRUG-3335 | Bambuterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bambuterol' |
+| WM-DRUG-3336 | Diprophyllin | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/53 unter 60 % |
+| WM-DRUG-3337 | Cholintheophyllinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Choline theophyllinate' |
+| WM-DRUG-3338 | Proxyphyllin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt 'Proxyphyllin' (ATC R03DA03, ein Bronchodilatator). Die Quelle verwendet den Suchbegriff 'Pentoxifylline' (ei |
+| WM-DRUG-3340 | Etamiphyllin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Etamiphylline' |
+| WM-DRUG-3341 | Bamifyllin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Bamifylline' |
+| WM-DRUG-3342 | Acefyllinpiperazin | drug | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Nur Quellen 2 und 6 behandeln Aminophyllin/Acefyllinpiperazin im Kontext von Atemwegserkrankungen (Asthma, Apnoe), was zur ATC-Klasse R03 (Asthma/ |
+| WM-DRUG-3344 | Doxofyllin | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 3 und 5 behandeln explizit Doxofyllin. Quelle 2 behandelt allgemeine Atemstimulanzien, Quelle 4 Theophyllin.) |
+| WM-DRUG-3345 | Mepyramintheophyllinacetat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'mepyramine' |
+| WM-DRUG-3346 | Zafirlukast | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quelle 1 behandelt Zafirlukast (LTRA) bei Asthma. Quelle 3 behandelt LTRAs (inkl. Zafirlukast) bei Urtikaria. Quelle 2 und 4 behandeln Capsular Con |
+| WM-DRUG-3347 | Pranlukast | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Pranlukast spezifisch. Quelle 1 behandelt Leukotrien-Rezeptorantagonisten allgemein, nicht Pranlukast. Quelle 3 erwäh |
+| WM-DRUG-3349 | Ibudilast | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 1 und 5 behandeln explizit den Wirkstoff Ibudilast. Quelle 2, 3, 8 sind zu allgemein oder behandeln andere Substanzen/Krankheitsbilder  |
+| WM-DRUG-3350 | Eprozinol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Eprozinol' |
+| WM-DRUG-3351 | Seratrodast | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Seratrodast' |
