@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 30.10.2026 05:25. Warteschlange: claimed 1, duplicate 439, planned 4589, published 693, ready 166, redirect 141, review 1036.
+Stand: 30.10.2026 06:25. Warteschlange: claimed 1, duplicate 439, planned 4478, published 753, ready 124, redirect 141, review 1129.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -128,9 +128,15 @@ Stand: 30.10.2026 05:25. Warteschlange: claimed 1, duplicate 439, planned 4589, 
 | WM-DIS-0599 | Offene Wunde der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip open wound' |
 | WM-DIS-0600 | Oberflächliche Verletzung des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
 | WM-DIS-0601 | Offene Wunde des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (2) für 'lower leg wound' |
+| WM-DIS-0616 | Oberflächliche Verletzung der Schulter und des Oberarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S40 bezeichnet oberflächliche Verletzungen (z.B. Prellungen, Abschürfungen). Die Quelle 'shoulder injury' ist zu allgemein und umf |
+| WM-DIS-0617 | Verletzung von Muskeln und Sehnen in Höhe des Handgelenkes und der Hand | disease | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Titel passt zur ICD-10-GM S66. Quelle 1 (Radiocarpal dislocations) und 8 (Spaghetti Wrist Injury, typisch für Sehnenverletzungen) behandeln spezif |
+| WM-DIS-0621 | Schäden durch Hitze und Sonnenlicht | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Hitzeschäden und Sonnenbrand' ist irreführend, da er 'Sonnenbrand' (Hautschädigung) impliziert, ICD-10-GM T67 jedoch sys |
 | WM-DIS-0623 | Induzierte wahnhafte Störung | disease | zu wenige Quellen mit Zusammenfassung (0) für 'folie  deux' |
 | WM-DIS-0624 | Nicht näher bezeichnete nichtorganische Psychose | disease | zu wenige Quellen mit Zusammenfassung (2) für 'functional psychosis' |
 | WM-DIS-0628 | Sonstiges Aneurysma und sonstige Dissektion | disease | zu wenige Quellen mit Zusammenfassung (2) für 'arterial aneurysm dissection' |
+| WM-DIS-0643 | Verletzung von Blutgefäßen in Höhe des Handgelenkes und der Hand | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Keine Quelle behandelt spezifisch isolierte Gefäßverletzungen (ICD-10-GM S65). Alle Quellen behandeln allgemeines Handtrauma, Weichteilverletzunge |
+| WM-DIS-0644 | Verletzung von Blutgefäßen in Höhe des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (2) für 'lower extremity vascular trauma' |
+| WM-DIS-0645 | Traumatische Amputationen mit Beteiligung mehrerer Körperregionen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'multiple limb amputations' |
 | WM-DIS-0648 | Sonstige nichtinfektiöse Gastroenteritis und Kolitis | disease | zu wenige Quellen mit Zusammenfassung (0) für 'noninfectious colitis' |
 | WM-DIS-0649 | Chronische Hypertonie mit aufgepfropfter Präeklampsie | disease | Themenprüfung: nur 2 von 14 Quellen passen zum Thema (Der Titel „Präeklampsie bei chronischer Hypertonie“ entspricht O11 (aufgepfropfte Präeklampsie). Nur die Quellen 6 und 12 behandeln speziell die a |
 | WM-DIS-0651 | Nicht näher bezeichnete Hypertonie der Mutter | disease | Bestätigungsquote 24/42 unter 60 % |
@@ -1044,3 +1050,90 @@ Stand: 30.10.2026 05:25. Warteschlange: claimed 1, duplicate 439, planned 4589, 
 | WM-DRUG-2995 | Humane allogene mesenchymale Stromazellen | drug | Themenprüfung: nur 1 von 14 Quellen passen zum Thema (ATC L04AX18 = Darvadstrocel (allogene MSC aus Fettgewebe) bei perianalen Fisteln bei Morbus Crohn; nur Quelle 7 behandelt diese Indikation. Die üb |
 | WM-DRUG-3000 | Amikacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation D06AX12 bezeichnet Amikacin als topisches Antibiotikum (Dermatologikum), der Wirkstoff selbst ist aber systemisch bzw |
 | WM-DRUG-3011 | Sirolimus | drug | zu viele nur teilweise belegte Sätze (22/45) |
+| WM-DRUG-3048 | Aldosteron | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Das Thema 'Aldosteron' (ATC H02AA01) bezieht sich auf den Wirkstoff als Arzneimittel (Glukokortikoid). Die Quellen behandeln das endogene Ho |
+| WM-DRUG-3049 | Fludrocortison | drug | Bestätigungsquote 23/41 unter 60 % |
+| WM-DRUG-3050 | Desoxycorton | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 2 und 6 behandeln direkt Desoxycorticosteron (DOC) oder CYP11B1-Mangel (Ursache von DOC-Anhäufung). Quelle 1 ist zu allgemein (Aldosteronis |
+| WM-DRUG-3051 | Paramethason | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf Paramethason (H02AB05), Quellen behandeln Methylprednisolon. Methylprednisolon ist kein Synonym für Paramethason, son |
+| WM-DRUG-3052 | Cortison | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Cortison (ATC H02AB10) als therapeutischen Fokus; Quellen sind historisch, chemisch-synthese |
+| WM-DRUG-3053 | Prednyliden | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Prednyliden (ATC H02AB11). Die Quellen behandeln Prednisolon, Prednison, Dexamethason oder andere Glukokor |
+| WM-DRUG-3054 | Rimexolon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Rimexolone' |
+| WM-DRUG-3056 | Cloprednol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Cloprednol oder dessen spezifische Indikationen. Alle Titel beziehen sich auf andere Krankheits |
+| WM-DRUG-3057 | Meprednison | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf den Wirkstoff Meprednison, Quellen behandeln Methylprednisolon. Es sind 5 passende Quellen vorhanden.) |
+| WM-DRUG-3058 | Cortivazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Cortivazol; alle nutzen den Oberbegriff Corticosteroide ohne Spezifikation.) |
+| WM-DRUG-3059 | Betamethason-Depot | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln meist Kombinationen (Psoriasis) oder sind zu allgemein (Corticosteroids). Quelle 1 und 2 sind spezifisch für Betamethason. Q |
+| WM-DRUG-3061 | Prednisolon-Depot | drug | Bestätigungsquote 12/37 unter 60 % |
+| WM-DRUG-3063 | Trilostan | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Trilostan. Quelle 2 ist allgemein zu Schilddrüsenmedikamenten, Quelle 3 zu Somatotropin/Insulinresistenz, Quelle 4  |
+| WM-DRUG-3064 | Levoketoconazol | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 4 und 7 behandeln explizit Levoketoconazol. Quelle 1, 2, 3, 5, 6 behandeln Cushing-Syndrom allgemein oder andere Medikamente.) |
+| WM-DRUG-3087 | Phenylbutazon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Phenylbutazon; alle sind zu allgemein (NSAR) oder themenfremd.) |
+| WM-DRUG-3088 | Mofebutazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mofebutazone' |
+| WM-DRUG-3089 | Oxyphenbutazon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxyphenbutazone' |
+| WM-DRUG-3090 | Clofezon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Clofezon oder Phenylbutazon; alle beziehen sich auf allgemeine NSAIDs, COX-2-Inhibitoren oder andere Tiera |
+| WM-DRUG-3092 | Pyrazinobutazon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Pyrazinobutazon oder Phenylbutazon; alle sind zu allgemein (NSAR-Klassen, allgemeine Veterinärmedizin) ode |
+| WM-DRUG-3093 | Sulindac | drug | Bestätigungsquote 29/49 unter 60 %; zu viele nur teilweise belegte Sätze (17/29) |
+| WM-DRUG-3094 | Tolmetin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tolmetin' |
+| WM-DRUG-3095 | Zomepirac | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Zomepirac' |
+| WM-DRUG-3096 | Alclofenac | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Alclofenac' |
+| WM-DRUG-3097 | Bumadizon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bumadizone' |
+| WM-DRUG-3098 | Etodolac | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Etodolac“ entspricht dem Wirkstoff (ATC M01AB08). Nur Quelle 6 behandelt Etodolac gezielt. Die übrigen Quellen befassen sich mit Analget |
+| WM-DRUG-3099 | Lonazolac | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Lonazolac' |
+| WM-DRUG-3100 | Fentiazac | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fentiazac' |
+| WM-DRUG-3101 | Acemetacin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'acemetacin' |
+| WM-DRUG-3102 | Difenpiramid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Difenpiramid' |
+| WM-DRUG-3103 | Oxametacin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Oxametacin' |
+| WM-DRUG-3104 | Proglumetacin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Proglumetacin' |
+| WM-DRUG-3106 | Aceclofenac | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Aceclofenac“ entspricht dem Wirkstoff der Klassifikation (ATC M01AB16). Nur die Quellen 5 und 6 behandeln Aceclofenac direkt. Die Quelle |
+| WM-DRUG-3107 | Carbamoylphenoxyessigsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Carbamoylphenoxyessigsäure (ATC M01AB19) ist ein nichtsteroidales Antirheumatikum aus der Gruppe der Essigsäure-Derivate (Carbaspirin-Calciu |
+| WM-DRUG-3108 | Piroxicam | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Piroxicam“ entspricht dem Wirkstoff der Klassifikation (ATC M01AC01). Nur Quelle 3 (Piroxicam bei assistierter Reproduktion) und Quelle  |
+| WM-DRUG-3109 | Tenoxicam | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Der Titel „Tenoxicam“ entspricht dem Wirkstoff (ATC M01AC02). Nur Quelle 7 (Tenoxicam bei postoperativem Zahnschmerz) und Quelle 8 (analytische Be |
+| WM-DRUG-3110 | Isoxicam | drug | zu wenige Quellen mit Zusammenfassung (1) für 'isoxicam' |
+| WM-DRUG-3111 | Droxicam | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Titel Droxicam entspricht M01AC04. Die Quellen behandeln Piroxicam (eigener Wirkstoff, M01AC01; Droxicam ist nur Prodrug), andere Oxicame oder ande |
+| WM-DRUG-3112 | Lornoxicam | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Lornoxicam' |
+| WM-DRUG-3115 | Fenoprofen | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Fenoprofen' |
+| WM-DRUG-3116 | Fenbufen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fenbufen' |
+| WM-DRUG-3117 | Benoxaprofen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Benoxaprofen' |
+| WM-DRUG-3118 | Suprofen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Suprofen' |
+| WM-DRUG-3119 | Pirprofen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Pirprofen' |
+| WM-DRUG-3120 | Flurbiprofen | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Flurbiprofen' |
+| WM-DRUG-3121 | Indoprofen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'indoprofen' |
+| WM-DRUG-3122 | Tiaprofensäure | drug | zu wenige Quellen mit Zusammenfassung (2) für 'tiaprofenic acid' |
+| WM-DRUG-3123 | Oxaprozin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxaprozin' |
+| WM-DRUG-3124 | Ibuproxam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ibuproxam' |
+| WM-DRUG-3125 | Dexibuprofen | drug | zu wenige Quellen mit Zusammenfassung (2) für 'dexibuprofen' |
+| WM-DRUG-3126 | Alminoprofen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'arylpropionic acid' |
+| WM-DRUG-3127 | Dexketoprofen | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Quellen 4, 6 und 7 behandeln Dexketoprofen direkt (Vergleichsreview, Meta-Analyse bei Weisheitszahn-OP, Kombination Tramadol/Dexketoprofen). Quelle |
+| WM-DRUG-3128 | Naproxcinod | drug | zu wenige Quellen mit Zusammenfassung (1) für 'naproxcinod' |
+| WM-DRUG-3129 | Loxoprofen | drug | zu wenige Quellen mit Zusammenfassung (2) für 'loxoprofen' |
+| WM-DRUG-3130 | Pelubiprofen | drug | zu wenige Quellen mit Zusammenfassung (2) für 'propionic acid derivatives' |
+| WM-DRUG-3131 | Carprofen | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 1 behandelt Carprofen direkt (Synthese und therapeutische Entwicklung). Die übrigen Quellen behandeln Leberschäden allgemein, Geflügelan |
+| WM-DRUG-3133 | Tolfenaminsäure | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Tolfenaminsäure“ bezeichnet denselben Wirkstoff wie ATC M01AG02. Keine der Quellen behandelt aber speziell Tolfenaminsäure. Quelle 1 (Bl |
+| WM-DRUG-3134 | Flufenaminsäure | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Nur die Quellen 1, 2 und 7 behandeln Fenamate als Wirkstoffklasse, zu der Flufenaminsäure gehört, und decken sie inhaltlich ab. Die Quellen 3 bis 6 |
+| WM-DRUG-3135 | Meclofenaminsäure | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Meclofenaminsäure“ entspricht dem Wirkstoff der Klassifikation (ATC M01AG04). Keine der Quellen behandelt aber speziell Meclofenaminsäur |
+| WM-DRUG-3136 | Etofenamat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'etofenamate' |
+| WM-DRUG-3137 | Rofecoxib | drug | Themenprüfung: nur 2 von 13 Quellen passen zum Thema (Der Titel „Rofecoxib“ bezeichnet denselben Wirkstoff wie ATC M01AH02. Nur die Quellen 11 und 12 behandeln die COX-2-Hemmer einschließlich Rofecoxi |
+| WM-DRUG-3138 | Valdecoxib | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Valdecoxib“ bezeichnet denselben Wirkstoff wie die ATC-Klassifikation M01AH03. Keine der Quellen behandelt Valdecoxib als Hauptthema. Es |
+| WM-DRUG-3139 | Etoricoxib | drug | Bestätigungsquote 21/63 unter 60 % |
+| WM-DRUG-3140 | Lumiracoxib | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Lumiracoxib; Quellen sind zu allgemein (COX-2, Analgetika, Leberschäden).) |
+| WM-DRUG-3141 | Polmacoxib | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 3 und 5 behandeln explizit Polmacoxib. Quelle 2 und 4 sind allgemeine Übersichten zu Carbonic Anhydrase-Inhibitoren und behandeln nicht  |
+| WM-DRUG-3142 | Nabumeton | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Nabumeton; Quellen behandeln allgemeine NSAIDs, Orthopädie oder Chemie.) |
+| WM-DRUG-3143 | Nifluminsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Niflumic acid; Quellen behandeln allgemeine NSAIDs, Fenamate-Klasse oder andere Wirkstoffe.) |
+| WM-DRUG-3144 | Azapropazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'azapropazone' |
+| WM-DRUG-3146 | Glukosaminoglycanpolysulfat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Diosmin' (ein Flavonoid) passt nicht zum Wirkstoff 'Glukosaminoglycanpolysulfat' (ein Glykosaminoglycan-Derivat). Die Quell |
+| WM-DRUG-3147 | Proquazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Proquazone' |
+| WM-DRUG-3148 | Orgotein | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Orgotein ist ein spezifisches Extrakt aus Rinderblut, das SOD enthält. Die Quelle 'superoxide dismutase' ist zu allgemein und umfasst rekomb |
+| WM-DRUG-3149 | Nimesulid | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Nur 3 Quellen behandeln explizit Nimesulid. Quelle 5 ist eine Übersicht, 6 und 10 behandeln den Wirkstoff spezifisch. Da weniger als 4 Quellen pas |
+| WM-DRUG-3150 | Feprazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Feprazone' |
+| WM-DRUG-3152 | Morniflumat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mornifluate' |
+| WM-DRUG-3153 | Tenidap | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tenidap' |
+| WM-DRUG-3155 | Oxycinchophen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Oxycinchophen' |
+| WM-DRUG-3156 | Natriumaurothiomalat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Natriumaurothiomalat oder Goldsalze als Arzneimittel; Quellen behandeln Gold-Nanopartikel oder Rheumatoide Arthritis  |
+| WM-DRUG-3157 | Natriumaurothiosulfat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'gold sodium thiosulfate' |
+| WM-DRUG-3159 | Aurothioglucose | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Aurothioglucose (Gold-Salze) als Arzneimittel; Quellen 1, 2 und 4 behandeln Gold-Nanopartikel, Quelle 3 Rheumatoide A |
+| WM-DRUG-3160 | Aurotioprol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Aurotioprol oder Goldsalze als Arzneimittel; Quellen behandeln Gold-Nanopartikel oder Rheuma ohne spezifischen Wirkst |
+| WM-DRUG-3161 | Aurothiopolypeptid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Aurothiopolypeptid (ATC M01CB06) ist ein Goldarzneimittel zur Behandlung der rheumatoiden Arthritis. Die Quellen behandeln ent |
+| WM-DRUG-3162 | Penicillamin | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Nur Quelle 4 behandelt direkt D-Penicillamin bei Wilson-Krankheit und Quelle 9 ist ein Review zu D-Penicillamin. Quelle 2, 6, 10 behandeln Zystinu |
+| WM-DRUG-3163 | Bucillamin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Bucillamine' |
+| WM-DRUG-3167 | Nifenazon | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 3 und 4 behandeln explizit Fenamate (die Wirkstoffklasse von Niflumic acid) bzw. deren Eigenschaften und Abbau. Quelle 1 ist zu allgemein ( |
+| WM-DRUG-3282 | Nedocromil | drug | zu wenige Quellen mit Zusammenfassung (3) für 'nedocromil' |
+| WM-DRUG-3283 | Flunisolid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'flunisolide' |
+| WM-DRUG-3284 | Ciclesonid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'ciclesonide' |
+| WM-DRUG-3312 | Terbutalin | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quelle 1 behandelt Bronchodilatatoren allgemein, Quelle 4 SABA-Monotherapie allgemein, Quelle 5 Kombinationstherapien. Nur 2, 3 und 6 behandeln exp |
