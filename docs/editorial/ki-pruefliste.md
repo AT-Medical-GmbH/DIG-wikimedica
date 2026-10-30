@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 30.10.2026 23:25. Warteschlange: claimed 1, duplicate 441, planned 4212, published 911, ready 37, redirect 202, review 1261.
+Stand: 31.10.2026 00:25. Warteschlange: claimed 1, duplicate 441, planned 4144, published 948, ready 25, redirect 205, review 1301.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -246,11 +246,33 @@ Stand: 30.10.2026 23:25. Warteschlange: claimed 1, duplicate 441, planned 4212, 
 | WM-DRUG-0246 | Interferon beta-1a | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Nur die Quellen 5, 6 und 10 behandeln Interferon beta-1a direkt (subkutan bzw. intramuskulär). Die übrigen Quellen betreffen Multiple Sklerose all |
 | WM-DRUG-0254 | Febuxostat | drug | zu viele nur teilweise belegte Sätze (13/31) |
 | WM-DRUG-0255 | Indacaterol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Indacaterol' |
+| WM-DRUG-0256 | Mexiletin | drug | zu viele nur teilweise belegte Sätze (17/38) |
+| WM-DRUG-0257 | Dronedaron | drug | zu viele nur teilweise belegte Sätze (14/34) |
+| WM-DRUG-0258 | Vernakalant | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Vernakalant“ bezeichnet denselben Wirkstoff wie ATC C01BG11. Nur die Quellen 3 und 7 behandeln Vernakalant ausdrücklich. Die übrigen Que |
+| WM-DRUG-0260 | Ranolazin | drug | zu viele nur teilweise belegte Sätze (25/40) |
+| WM-DRUG-0262 | Acoramidis | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 3 behandelt Acoramidis direkt. Quelle 1 ist eine Meta-Analyse zu TTR-Stabilisatoren allgemein (Tafamidis, ggf. Acoramidis), aber nicht s |
 | WM-DRUG-0265 | Sotatercept | drug | Bestätigungsquote 25/43 unter 60 %; zu viele nur teilweise belegte Sätze (15/25) |
 | WM-DRUG-0273 | Colesevelam | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Colesevelam“ entspricht dem Wirkstoff der Klassifikation (ATC C10AC04). Nur Quelle 5 behandelt Colesevelam hydrochloride ausdrücklich. D |
 | WM-DRUG-0277 | Volanesorsen | drug | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Titel und ATC C10AX18 bezeichnen beide Volanesorsen. Nur die Quellen 5, 6 und 13 behandeln den Wirkstoff direkt. Olezarsen (1) ist ein anderer Wir |
 | WM-DRUG-0281 | Ceftarolinfosamil | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 2, 3 und 6 behandeln Ceftarolinfosamil direkt. Quelle 1 ist eine Netzwerk-Metaanalyse zu sechs Antibiotika bei MRSA-Infektionen und nicht s |
 | WM-DRUG-0285 | Oritavancin | drug | zu viele nur teilweise belegte Sätze (16/33) |
+| WM-DRUG-0290 | Anidulafungin | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quelle 2 behandelt ausschließlich Anidulafungin bei invasiver Candidiasis. Quelle 3 ist ein Review zur Pharmakokinetik, in dem Anidulafungin eines  |
+| WM-DRUG-0291 | Rezafunginacetat | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Die Quellen 1, 3 und 4 behandeln Rezafungin direkt als Wirkstoff (Meta-Analyse zur Wirksamkeit, Formulary-Review, Erstzulassung). Quelle 2 ist ein  |
+| WM-DRUG-0292 | Bedaquilin | drug | zu viele nur teilweise belegte Sätze (18/29) |
+| WM-DRUG-0294 | Remdesivir | drug | zu viele nur teilweise belegte Sätze (15/33) |
+| WM-DRUG-0295 | Tipranavir | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt Tipranavir als Schwerpunkt: Die PK-Übersichten zu älteren HIV-Patienten decken Antiretrovirale allgemein ab (Quelle 1 k |
+| WM-DRUG-0297 | Abacavir | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Abacavir“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC J05AF06). Nur Quelle 1 behandelt Abacavir direkt (Sicherheit und Wi |
+| WM-DRUG-0298 | Emtricitabin | drug | zu viele nur teilweise belegte Sätze (16/31) |
+| WM-DRUG-0300 | Nevirapin | drug | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (Titel „Nevirapin“ entspricht dem Wirkstoff J05AG01. Nur Quellen 1 (NNRTI/CYP2B6-Leberschäden, vor allem Nevirapin), 5 (Pharmakokinetik älterer Wir |
+| WM-DRUG-0301 | Efavirenz | drug | zu viele nur teilweise belegte Sätze (20/44) |
+| WM-DRUG-0302 | Etravirin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel Etravirin entspricht dem Wirkstoff (ATC J05AG04). Keine der fünf Quellen behandelt aber speziell Etravirin. Quelle 1 betrifft Clobazam. Q |
+| WM-DRUG-0304 | Zanamivir | drug | Bestätigungsquote 25/48 unter 60 %; zu viele nur teilweise belegte Sätze (19/25) |
+| WM-DRUG-0308 | Maraviroc | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Nur Quelle 1 (CCR5-Zielstruktur bei HIV, Maraviroc-Hemmung) und Quelle 4 (Maraviroc bei neuropathischen Schmerzen) behandeln Maraviroc substanziell |
+| WM-DRUG-0309 | Maribavir | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Maribavir (CMV-Virostatikum, UL97-Kinase-Inhibitor). Es handelt sich um Übersichtsarbeiten zu Gastroenterologie, De |
+| WM-DRUG-0311 | Lenacapavir | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/42 unter 60 % |
+| WM-DRUG-0312 | Hepatitis-B-Immunglobulin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Hepatitis-B-Immunglobulin“ entspricht dem Wirkstoff J06BB04. Von den Quellen behandelt nur Nr. 2 die pharmakologischen Interventionen ei |
+| WM-DRUG-0315 | Sipavibart | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den spezifischen Wirkstoff Sipavibart; alle behandeln SARS-CoV-2 allgemein, Impfungen oder Virologie.) |
+| WM-DRUG-0319 | Natriumoxybat | drug | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Quellen 1 und 3 behandeln explizit Natriumoxybat bei Narkolepsie. Quelle 2, 4, 8 behandeln Alkoholstörungen (andere Indikation). Quelle 7 ist zu a |
 | WM-DRUG-0320 | Esketamin | drug | zu viele nur teilweise belegte Sätze (12/26) |
 | WM-DRUG-0322 | Diflunisal | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel und ATC-Code N02BA11 bezeichnen beide Diflunisal. Quellen 2, 3 und 6 behandeln Diflunisal direkt. Quelle 5 (In-silico-Studie zu Alzheimer, Wi |
 | WM-DRUG-0325 | Erenumab | drug | zu viele nur teilweise belegte Sätze (18/42) |
@@ -1269,3 +1291,21 @@ Stand: 30.10.2026 23:25. Warteschlange: claimed 1, duplicate 441, planned 4212, 
 | WM-DRUG-3569 | Methallenestril | drug | zu wenige Quellen mit Zusammenfassung (0) für 'methallenestril' |
 | WM-DRUG-3570 | Moxestrol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Moxestrol (ATC G03CB04). Alle Titel beziehen sich auf andere medizinische Themen (Gastroenterologi |
 | WM-DRUG-3572 | Gestonoron | drug | zu wenige Quellen mit Zusammenfassung (0) für 'gestonorone caproate' |
+| WM-DRUG-3577 | Nomegestrol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Nomegestrol; alle sind allgemein zu Progestogenen, Hormontherapie oder anderen Wirkstoffen (NOMAC).) |
+| WM-DRUG-3579 | Chlormadinon | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Chlormadinonacetat. Quelle 2 vergleicht Substanzen, behandelt aber nicht spezifisch Chlormadinon als Hauptfokus. Qu |
+| WM-DRUG-3580 | Promegeston | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt Promegeston (ATC G03DB07), ein synthetisches Gestagen. Die Quelle verwendet den Suchbegriff 'Mifepristone', e |
+| WM-DRUG-3582 | Allylestrenol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Allylestrenol; alle verwenden den Oberbegriff 'progestin' und beziehen sich auf Kontrazeption, IVF oder an |
+| WM-DRUG-3583 | Ethisteron | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ethisterone' |
+| WM-DRUG-3584 | Etynodiol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Etynodiol diacetate' |
+| WM-DRUG-3585 | Methylestrenolon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'methylenolone' |
+| WM-DRUG-3587 | Humanes menopausales Gonadotrophin | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Quelle 1 behandelt hMG explizit. Quelle 3 vergleicht rFSH mit 'urinary gonadotropins' (hMG ist ein urinäres Gonadotropin). Quelle 9 ist eine Übersi |
+| WM-DRUG-3589 | Urofollitropin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel nennen nur 'FSH' (allgemein), nicht den spezifischen Wirkstoff 'Urofollitropin'. Quellen behandeln FSH allgemein oder andere Hormone,  |
+| WM-DRUG-3590 | Cyclofenil | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cyclofenil' |
+| WM-DRUG-3591 | Clomifen | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 2 behandelt explizit Clomifen. Quelle 1 ist allgemein zu Ovarialstimulation, Quelle 3 zu Metformin, Quelle 4 zu männlicher Infertilität  |
+| WM-DRUG-3592 | Epimestrol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Epimestrol (ATC G03GB03) oder damit verbundene gynäkologische/endokrinologische Themen. Alle Qu |
+| WM-DRUG-3593 | Cyproteron | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Quellen 1, 3 und 7 behandeln explizit Cyproteronacetat. Quelle 4 erwähnt es implizit im Kontext von Transgender-Frauen, ist aber zu allgemein. Quel |
+| WM-DRUG-3594 | Danazol | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Nur 3 Quellen behandeln Danazol direkt. Quelle 1, 3 und 8 nennen Danazol im Titel. Quelle 2, 5, 6, 7, 9, 10 behandeln Endometriose oder andere The |
+| WM-DRUG-3596 | Mifepriston | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/39 unter 60 % |
+| WM-DRUG-3597 | Lasofoxifen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Lasofoxifen. Quelle 10 behandelt SERMs allgemein, ist aber zu breit. Quelle 8 behandelt Raloxifen, ni |
+| WM-DRUG-3598 | Ormeloxifen | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1-3 behandeln direkt Ormeloxifen. Quelle 4 ist zu allgemein (nur Erwähnung). Quelle 5 betrifft Krebs/p53. Weniger als 4 passende Quellen.) |
+| WM-DRUG-3625 | Chondroitinsulfat | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel bezeichnet denselben Wirkstoff. Nur Quellen 1, 2 und 6 behandeln Chondroitinsulfat als Substanz bzw. Wirkstoff; 3 und 4 betreffen das Proteog |
