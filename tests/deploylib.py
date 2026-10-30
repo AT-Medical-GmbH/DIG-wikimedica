@@ -132,6 +132,9 @@ def make_env(tmp_path: Path) -> DeployEnv:
 
     bin_dir = root / "bin"
     bin_dir.mkdir()
+    mail_stub = bin_dir / "mail"  # Tests duerfen nie echte Alarmmails versenden
+    mail_stub.write_text("#!/bin/sh\ncat >/dev/null\nexit 0\n")
+    mail_stub.chmod(0o755)
     shim = bin_dir / "docker"
     shim.write_text(f"#!{sys.executable}\nimport runpy,sys\nsys.argv[0]={str(REPO / 'tests' / 'fake_docker.py')!r}\n"
                     f"runpy.run_path({str(REPO / 'tests' / 'fake_docker.py')!r}, run_name='__main__')\n")
