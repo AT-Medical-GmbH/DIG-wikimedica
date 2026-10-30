@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 30.10.2026 04:25. Warteschlange: claimed 3, duplicate 439, planned 4776, published 633, ready 157, redirect 124, review 933.
+Stand: 30.10.2026 05:25. Warteschlange: claimed 1, duplicate 439, planned 4589, published 693, ready 166, redirect 141, review 1036.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -66,27 +66,51 @@ Stand: 30.10.2026 04:25. Warteschlange: claimed 3, duplicate 439, planned 4776, 
 | WM-DIS-0414 | Krankheiten des N. facialis VII. Hirnnerv | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel entspricht G51 (Fazialisparese und sonstige Fazialiserkrankungen). Quellen 1–3 behandeln Fazialisparese bzw. deren Diagnostik und Differenzia |
 | WM-DIS-0417 | Polyp des weiblichen Genitaltraktes | disease | zu wenige Quellen mit Zusammenfassung (1) für 'female genital tract polyps' |
 | WM-DIS-0418 | Komplikationen im Zusammenhang mit künstlicher Befruchtung | disease | zu wenige Quellen mit Zusammenfassung (2) für 'IVF complications' |
+| WM-DIS-0435 | Myeloische Leukämie | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-C92 umfasst akute und chronische myeloische Leukämien. Der Titel 'Myeloische Leukämie' ist ein Oberbegriff, der die spezifische Form  |
 | WM-DIS-0438 | Hernia umbilicalis | disease | Bestätigungsquote 25/46 unter 60 % |
 | WM-DIS-0444 | Sonstige erworbene Deformitäten der Extremitäten | disease | zu wenige Quellen mit Zusammenfassung (0) für 'acquired limb deformity' |
 | WM-DIS-0445 | Sonstige näher bezeichnete Gelenkschädigungen | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel entspricht M24. Nur Quelle 1 (Knorpel-/osteochondrale Defekte, M24.1) passt; 2 ist ein Tumor, 3 septische Arthritis (M00), 4 überwiegend Arth |
 | WM-DIS-0448 | Chronische Laryngitis und Laryngotracheitis | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel entspricht J37 (chronische Laryngitis und Laryngotracheitis). Quelle 1 behandelt chronische bakterielle und Sicca-Laryngitis, Quelle 3 ch |
 | WM-DIS-0450 | Komplikationen durch Prothesen, Implantate oder Transplantate im Urogenitaltrakt | disease | zu wenige Quellen mit Zusammenfassung (0) für 'urogenital implant complications' |
+| WM-DIS-0451 | Offene Wunde des Kopfes | disease | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 1–3 behandeln penetrierende/offene Kopfverletzungen; Quelle 4 behandelt paroxysmale sympathische Hyperaktivität bei Schädel-Hirn-Trauma, al |
 | WM-DIS-0452 | Hals- und Brustschmerzen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neck and chest pain' |
 | WM-DIS-0454 | Bösartige Neubildung der Cervix uteri | disease | zu viele nur teilweise belegte Sätze (16/39) |
+| WM-DIS-0455 | Lymphatische Leukämie | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel passt zu C91. Nur Quelle 3 behandelt akute lymphatische Leukämie (Untergruppe von C91). Quelle 2 behandelt CLL (C91.1), wird aber oft separat |
 | WM-DIS-0460 | Chronische tubulointerstitielle Nephritis | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel „Chronische interstitielle Nephritis“ ist ein gebräuchliches Synonym für die chronische tubulointerstitielle Nephritis (N11). Passend sin |
 | WM-DIS-0461 | Spontangeburt eines Einlings | disease | Bestätigungsquote 24/51 unter 60 % |
 | WM-DIS-0463 | Gestationsödeme und Gestationsproteinurie schwangerschaftsinduziert ohne Hypertonie | disease | zu wenige Quellen mit Zusammenfassung (0) für 'gestational edema' |
 | WM-DIS-0464 | Blutung in der Frühschwangerschaft | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Blutungen in der Frühschwangerschaft“ entspricht O20 (Blutung in der Frühschwangerschaft). Quelle 2 behandelt Komplikationen im ersten T |
 | WM-DIS-0466 | Präpartale Blutung, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 1 von 14 Quellen passen zum Thema (Titel ist ein gängiges Synonym für O46. Nur Quelle 3 behandelt antepartale Blutung allgemein; die übrigen betreffen Placenta praevia, Vasa praevia |
 | WM-DIS-0467 | Frustrane Kontraktionen Unnütze Wehen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'false labor' |
+| WM-DIS-0471 | Oberflächliche Verletzung des Thorax | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (S20 meint oberflächliche Verletzungen des Thorax (Prellung, Schürfwunde, Insektenbiss, Blase, oberflächlicher Fremdkörper), also Weichteilverletzu |
+| WM-DIS-0472 | Fraktur im Bereich des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist and hand fractures' |
 | WM-DIS-0476 | Komplikationen, die für Replantation und Amputation bezeichnend sind | disease | zu wenige Quellen mit Zusammenfassung (0) für 'amputation and replantation complications' |
 | WM-DIS-0484 | Nicht näher bezeichnete affektive Störung | disease | Import ins Wiki fehlgeschlagen: existing page is not owned by this BETA article; refusing overwrite |
 | WM-DIS-0489 | Krankheiten des Muskel-Skelett-Systems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (M96 umfasst nur Muskel-Skelett-Erkrankungen nach medizinischen Maßnahmen, z. B. Postlaminektomie-Syndrom, Pseudarthrose nach Fusion oder Feh |
 | WM-DIS-0492 | Bösartige Neubildung am Rektosigmoid, Übergang | disease | Bestätigungsquote 26/44 unter 60 % |
+| WM-DIS-0496 | Verletzung der Harnorgane und der Beckenorgane | disease | zu viele nur teilweise belegte Sätze (7/11) |
+| WM-DIS-0498 | Oberflächliche Verletzung des Halses | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (ICD-10-GM S10 umfasst oberflächliche Verletzungen des Halses (Prellung, Schürfwunde, Blasenbildung, oberflächlicher Fremdkörper, Insektenbiss usw. |
+| WM-DIS-0508 | Verletzung der Nerven und des lumbalen Rückenmarkes in Höhe des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cauda equina injury' |
 | WM-DIS-0517 | Sonstige Arthritis | disease | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel entspricht M13 (Plural). Nur Quellen 3, 6 und 7 behandeln die undifferenzierte Arthritis; die übrigen betreffen RA, PsA, JIA, Spondyloarthri |
 | WM-DIS-0526 | Toxische Enzephalopathie | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (G92 entspricht der toxischen Enzephalopathie, der Titel ist passend. Passend sind die Fallberichte zu Quecksilber (3), Abamectin (5) und Capecitabi |
+| WM-DIS-0528 | Verletzung der Nerven und des Rückenmarkes in Thoraxhöhe | disease | zu wenige Quellen mit Zusammenfassung (3) für 'thoracic spinal cord injury' |
+| WM-DIS-0529 | Verletzung an einer nicht näher bezeichneten Körperregion | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (T14 umfasst unspezifische Verletzungen ohne Angabe der Körperregion. Der Titel zu Diagnostik und Erstversorgung von Verletzungen passt dazu. Allge |
+| WM-DIS-0533 | Verletzung sonstiger und nicht näher bezeichneter intrathorakaler Organe | disease | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (S27 umfasst Verletzungen sonstiger intrathorakaler Organe (Lunge/Pleura wie Pneumo-/Hämatothorax, Herz, Zwerchfell, Mediastinum), nicht Rippen- od |
+| WM-DIS-0536 | Fraktur der Lendenwirbelsäule und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lumbar and pelvic fractures' |
 | WM-DIS-0538 | Sonstige zerebrovaskuläre Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle 16 Quellen behandeln Moyamoya-Krankheit, die in ICD-10-GM unter I67.5 fällt und damit Teil von I67 ist. Der Titel „Sonstige zerebrovask |
+| WM-DIS-0540 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neck sprain' |
+| WM-DIS-0542 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern der Lendenwirbelsäule und des Beckens | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel „Verstauchung und Zerrung der Lendenwirbelsäule“ entspricht dem Kern von S33 (Zerrung/Verstauchung der LWS) und ist als Zuschnitt in Ord |
+| WM-DIS-0543 | Bestimmte Frühkomplikationen eines Traumas, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (ICD-10-GM T79 umfasst bestimmte Frühkomplikationen eines Traumas (z. B. traumatische Luftembolie, Fettembolie, posttraumatisches Kompartmentsyndrom |
+| WM-DIS-0545 | Verletzung von Blutgefäßen in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical vascular injury' |
 | WM-DIS-0548 | Status asthmaticus | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel „Status asthmatdisch“ ist ein Tippfehler bzw. keine korrekte Bezeichnung; gemeint ist „Status asthmaticus“ (J46). Das Kra |
+| WM-DIS-0549 | Offene Wunde des Thorax | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel 'Offene Thoraxverletzungen' entspricht ICD-10-GM S21 (offene Wunde des Thorax). Quelle 3 (Chest Seals bei penetrierenden Thoraxverletzung |
+| WM-DIS-0550 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern im Bereich des Thorax | disease | zu wenige Quellen mit Zusammenfassung (0) für 'thoracic joint sprain' |
+| WM-DIS-0560 | Verletzung von Blutgefäßen des Thorax | disease | zu wenige Quellen mit Zusammenfassung (2) für 'thoracic vascular trauma' |
+| WM-DIS-0561 | Oberflächliche Verletzung des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (2) für 'abdominal wall injury' |
+| WM-DIS-0562 | Verletzung von Blutgefäßen in Höhe des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (3) für 'Abdominal vascular trauma' |
+| WM-DIS-0564 | Oberflächliche Verletzung der Knöchelregion und des Fußes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S90 bezeichnet oberflächliche Verletzungen (z.B. Prellungen, Abschürfungen), während 'ankle sprain' (Knöchelbandverletzung/Zerrung |
+| WM-DIS-0565 | Offene Wunde der Knöchelregion und des Fußes | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Suchbegriff 'foot ulcer' bezieht sich primär auf diabetische Ulzera, nicht auf offene Wunden (S91) nach Trauma. Keine Quelle passt zum geplanten T |
+| WM-DIS-0566 | Fraktur des Fußes ausgenommen oberes Sprunggelenk | disease | Bestätigungsquote 24/45 unter 60 % |
 | WM-DIS-0567 | Organisches amnestisches Syndrom, nicht durch Alkohol oder andere psychotrope Substanzen bedingt | disease | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Der Titel „Organisches amnestisches Syndrom“ entspricht F04. Passend sind Quellen zum akuten bzw. subakuten amnestischen Syndrom bei fornikalen Lä |
 | WM-DIS-0568 | Nicht näher bezeichnete organische oder symptomatische psychische Störung | disease | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel entspricht der ICD-10-GM-Bezeichnung von F09. Keine der Quellen behandelt die unspezifische organische bzw. symptomatische psychische Stö |
 | WM-DIS-0570 | Nicht näher bezeichnete Verhaltensauffälligkeiten bei körperlichen Störungen und Faktoren | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (F59 umfasst nicht näher bezeichnete Verhaltensauffälligkeiten (psychophysiologische Störungen) bei körperlichen Störungen. Der Titel „Verhaltensauf |
@@ -95,6 +119,15 @@ Stand: 30.10.2026 04:25. Warteschlange: claimed 3, duplicate 439, planned 4776, 
 | WM-DIS-0574 | Andere Entwicklungsstörungen | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (ICD-10-GM F88 umfasst „Andere Entwicklungsstörungen“, u. a. die globale Entwicklungsverzögerung und die Entwicklungsstörung o. n. A. Der Titel ents |
 | WM-DIS-0576 | Psychische Störung ohne nähere Angabe | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (F99 ist die unspezifische Restkategorie 'Psychische Störung ohne nähere Angabe'; der Titel entspricht ihr. Die Quellen behandeln jedoch 'mental di |
 | WM-DIS-0589 | Sonstige kardiale Erregungsleitungsstörungen | disease | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel „Störungen der Erregungsleitung im Herzen“ entspricht I45 (sonstige kardiale Erregungsleitungsstörungen). Nur die Quellen 3 (progressive  |
+| WM-DIS-0591 | Offene Wunde des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist and hand open wound' |
+| WM-DIS-0594 | Fraktur im Bereich des Halses | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S12 bezeichnet Frakturen der Halswirbelsäule (Cervical spine), während 'Hüftfraktur' (Hip fracture) die Hüfte betrifft. Titel und  |
+| WM-DIS-0595 | Offene Wunde der Schulter und des Oberarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'shoulder open wound' |
+| WM-DIS-0596 | Oberflächliche Verletzung des Unterarmes | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch oberflächliche Verletzungen (S50); alle behandeln Frakturen, Luxationen oder komplexe Weichteilverletzungen.) |
+| WM-DIS-0597 | Offene Wunde des Unterarmes | disease | zu wenige Quellen mit Zusammenfassung (2) für 'forearm wound' |
+| WM-DIS-0598 | Oberflächliche Verletzung der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip superficial injury' |
+| WM-DIS-0599 | Offene Wunde der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip open wound' |
+| WM-DIS-0600 | Oberflächliche Verletzung des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
+| WM-DIS-0601 | Offene Wunde des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (2) für 'lower leg wound' |
 | WM-DIS-0623 | Induzierte wahnhafte Störung | disease | zu wenige Quellen mit Zusammenfassung (0) für 'folie  deux' |
 | WM-DIS-0624 | Nicht näher bezeichnete nichtorganische Psychose | disease | zu wenige Quellen mit Zusammenfassung (2) für 'functional psychosis' |
 | WM-DIS-0628 | Sonstiges Aneurysma und sonstige Dissektion | disease | zu wenige Quellen mit Zusammenfassung (2) für 'arterial aneurysm dissection' |
@@ -105,9 +138,14 @@ Stand: 30.10.2026 04:25. Warteschlange: claimed 3, duplicate 439, planned 4776, 
 | WM-DIS-0654 | Übertragene Schwangerschaft | disease | Bestätigungsquote 16/39 unter 60 % |
 | WM-DIS-0655 | Sonstige Krankheiten des Perikards | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel „Erkrankungen des Herzbeutels“ entspricht ICD-10-GM I31 (sonstige Perikardkrankheiten). Nur die Quellen 1, 3 und 5 behandeln Perikarderkr |
 | WM-DIS-0657 | Sonstige nichttraumatische intrakranielle Blutung | disease | Entwurf ohne belegte Sätze |
+| WM-DIS-0678 | Sonstige Krankheiten des Ösophagus | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (ICD-10-GM K22 umfasst sonstige Ösophaguserkrankungen (u. a. Achalasie, Ulkus, Obstruktion, Perforation, Dyskinesie, Divertikel, Ösophagitis-Folgen) |
 | WM-DIS-0694 | Tubulointerstitielle Nephritis, nicht als akut oder chronisch bezeichnet | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel „Tubulointerstitielle Nephritis“ entspricht N12 (Synonym, kleiner Unterschied im Zuschnitt). Nur Quelle 7 behandelt die tubulointerstitie |
 | WM-DIS-0702 | Erosion und Ektropium der Cervix uteri | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical ectopy' |
 | WM-DIS-0703 | Neigung zu habituellem Abort | disease | Bestätigungsquote 27/50 unter 60 % |
+| WM-DIS-0743 | Sonstige Verletzungen unter der Geburt | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM O71 bezeichnet körperliche Geburtstraumata (z.B. Dammrisse, Frakturen), während die Quelle 'birth trauma' meist psychische Traumat |
+| WM-DIS-0744 | Sonstige Komplikationen bei Wehentätigkeit und Entbindung, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 O75 (Komplikationen bei Wehentätigkeit/Entbindung wie Uterusruptur, Nabelschnurvorfall etc.). Alle Quelle |
+| WM-DIS-0748 | Sonstige Krankheiten des Darmes | disease | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Titel entspricht K63 (sonstige Darmkrankheiten). Nur Quelle 3 behandelt nichttraumatische Darmperforation bei Erwachsenen; die übrigen betreffen p |
+| WM-DIS-0753 | Sonstige Kataraktformen | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Titel passt zu H26. Nur Quellen 1 und 6 behandeln Katarakt allgemein/leitliniengerecht. Quelle 10 ist Meta-Analyse zu Blindheit, keine klinische Q |
 | WM-DRUG-0106 | Blutgerinnungsfaktor VIII | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Blutgerinnungsfaktor VIII' entspricht dem Wirkstoff Faktor VIII (ATC B02BD02). Die Quellen 1–3 behandeln Faktor VIII als Protein und Wir |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0121 | Bevacizumab | drug | zu viele nur teilweise belegte Sätze (22/35) |
@@ -117,7 +155,13 @@ Stand: 30.10.2026 04:25. Warteschlange: claimed 3, duplicate 439, planned 4776, 
 | WM-DRUG-0134 | Teriparatid | drug | zu viele nur teilweise belegte Sätze (17/39) |
 | WM-DRUG-0138 | Miglustat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'miglustat' |
 | WM-DRUG-0145 | Desloratadin | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Der Titel „Desloratadin“ entspricht dem Wirkstoff der Klassifikation (ATC R06AX27). Nur die Quellen 1, 5 und 7 behandeln Desloratadin ausdrücklich |
+| WM-DRUG-0167 | Ibandronsäure | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Der Titel „Ibandronsäure“ entspricht dem Wirkstoff ATC M05BA06. Direkt zu Ibandronat bzw. Ibandronsäure sind die Quellen 1, 3 und 6. Quelle 2 behan |
+| WM-DRUG-0177 | Atazanavir | drug | zu viele nur teilweise belegte Sätze (20/35) |
+| WM-DRUG-0183 | Amifampridin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel Amifampridin bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N07XX05). Keine der vier Quellen behandelt jedoch Amifampridin al |
+| WM-DRUG-0184 | Fampridin | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Fampridin (=Dalfampridin, 4-Aminopyridin) ist der Wirkstoff von ATC N07XX07, der Titel passt. Quellen 1, 4 und 6 behandeln Fampridin direkt (Fatigu |
 | WM-DRUG-0189 | Glycopyrroniumbromid | drug | Bestätigungsquote 22/39 unter 60 % |
+| WM-DRUG-0198 | Topotecan | drug | Bestätigungsquote 29/52 unter 60 % |
+| WM-DRUG-0203 | Eribulin | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/55 unter 60 % |
 | WM-DRUG-0208 | Pirfenidon | drug | Entwurf ohne belegte Sätze |
 | WM-DRUG-0221 | Picotamid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Picotamide' |
 | WM-DRUG-0222 | Prasugrel | drug | Bestätigungsquote 16/45 unter 60 %; zu viele nur teilweise belegte Sätze (9/16) |
@@ -941,3 +985,62 @@ Stand: 30.10.2026 04:25. Warteschlange: claimed 3, duplicate 439, planned 4776, 
 | WM-DRUG-2498 | Ditazol | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt Ditazol. Es handelt sich um Übersichtsarbeiten zu Gastroenterologie, Onkologie, Dermatologie, Schlaf und anderen Theme |
 | WM-DRUG-2499 | Cloricromen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Cloricromen' |
 | WM-DRUG-2500 | Ticlopidin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Ticlopidin“ entspricht dem Wirkstoff der Klassifikation (ATC B01AC05). Keine der Quellen behandelt aber Ticlopidin. Sie befassen sich mi |
+| WM-DRUG-2502 | Carbasalat calcium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Carbasalate calcium' |
+| WM-DRUG-2503 | Epoprostenol | drug | zu viele nur teilweise belegte Sätze (16/39) |
+| WM-DRUG-2505 | Sulfinpyrazon | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Sulfinpyrazone' |
+| WM-DRUG-2506 | Abciximab | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Abciximab“ entspricht dem Wirkstoff der Klassifikation (ATC B01AC13). Quelle 2 (Meta-Analyse zu Abciximab bei STEMI) und Quelle 5 (verzö |
+| WM-DRUG-2507 | Aloxiprin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Aloxiprin' |
+| WM-DRUG-2509 | Triflusal | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Triflusal' |
+| WM-DRUG-2513 | Vorapaxar | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel „Vorapaxar“ entspricht ATC B01AC26 (PAR-1-Antagonist). Nur die Quellen 4, 6 und 7 behandeln Vorapaxar direkt. Quelle 1, 2, 3 und 5 behand |
+| WM-DRUG-2514 | Limaprost | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quelle 1 behandelt Limaprost direkt (zusammen mit Pregabalin bei Spinalkanalstenose). Quelle 4 behandelt Prostaglandin-E1-Analoga, zu denen Limapro |
+| WM-DRUG-2515 | Streptokinase | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel „Streptokinase“ entspricht dem Wirkstoff ATC B01AD01. Quelle 3 vergleicht Streptokinase direkt mit Tenecteplase beim Myokardinfarkt. Quel |
+| WM-DRUG-2516 | Alteplase | drug | zu viele nur teilweise belegte Sätze (14/23) |
+| WM-DRUG-2517 | Anistreplase | drug | zu wenige Quellen mit Zusammenfassung (1) für 'APSAC' |
+| WM-DRUG-2518 | Urokinase | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Nur Quelle 2 (Urokinase bei tuberkulöser Pleuritis) und Quelle 7 (Urokinase beim akuten ischämischen Schlaganfall) behandeln den Wirkstoff Urokina |
+| WM-DRUG-2519 | Fibrinolysin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Fibrinolysin (Plasmin, ATC B01AD05) ist ein Wirkstoff aus der Gruppe der Enzyme/Fibrinolytika. Die Quellen 1–3 behandeln Ocriplasmin, ein verkürzte |
+| WM-DRUG-2520 | Brinase | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC B01AD06 ist Brinase (Fibrinolytikum, Enzym aus Aspergillus oryzae), nicht Brinzolamid (Carboanhydrasehemmer, S01EC04). Der Titel „Brinas |
+| WM-DRUG-2522 | Saruplase | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Saruplase' |
+| WM-DRUG-2523 | Ancrod | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Ancrod' |
+| WM-DRUG-2524 | Drotrecogin alfa (aktiviert) | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Drotrecogin alfa (aktiviert)“ bezeichnet denselben Wirkstoff wie die Klassifikation (rekombinantes aktiviertes Protein C, ATC B01AD10).  |
+| WM-DRUG-2525 | Desirudin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel 'Desirudin' entspricht dem Wirkstoff (ATC B01AE01). Keine der Quellen behandelt jedoch Desirudin spezifisch: Es geht um Antikoagulanzien  |
+| WM-DRUG-2526 | Lepirudin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Lepirudin“ entspricht dem Wirkstoff ATC B01AE02 (rekombinantes Hirudin, direkter Thrombininhibitor). Keine der Quellen behandelt Lepirud |
+| WM-DRUG-2528 | Melagatran | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Melagatran“ passt zu ATC B01AE04, denn Melagatran ist der aktive Metabolit von Ximelagatran. Keine der Quellen behandelt aber gezielt Xi |
+| WM-DRUG-2529 | Ximelagatran | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel „Ximelagatran“ entspricht dem Wirkstoff mit ATC B01AE05. Nur Quelle 2 behandelt orale direkte Thrombininhibitoren, zu denen Ximelagatran  |
+| WM-DRUG-2531 | Betrixaban | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Der Titel Betrixaban bezeichnet denselben Wirkstoff wie ATC B01AF04. Nur Quelle 7 (Betrixaban oder Rivaroxaban zur verlängerten Thromboseprophylax |
+| WM-DRUG-2532 | Chondroitinsulfat B | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Chondroitinsulfat B ist ein Synonym für Dermatansulfat (ATC B01AX04). Der Titel passt also zum Wirkstoff. Die Quellen 1 und 3 behandeln Dermatansul |
+| WM-DRUG-2661 | Sulfamethizol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfamethizole' |
+| WM-DRUG-2800 | Ofatumumab | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Titel „Ofatumumab“ entspricht dem Wirkstoff der Klassifikation (L01FA02). Keine der Quellen behandelt spezifisch Ofatumumab: Sie betreffen die ges |
+| WM-DRUG-2947 | Antilymphozytäres Immunglobulin (Pferd) | drug | zu wenige Quellen mit Zusammenfassung (2) für 'equine antithymocyte globulin' |
+| WM-DRUG-2948 | Antithymozytäres Immunglobulin (Kaninchen) | drug | Bestätigungsquote 25/68 unter 60 %; zu viele nur teilweise belegte Sätze (15/25) |
+| WM-DRUG-2949 | Alefacept | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt Alefacept spezifisch. Es handelt sich um allgemeine Arbeiten zu Biologika bei Psoriasis, Vitiligo, Diabetes oder Naturs |
+| WM-DRUG-2950 | Gusperimus | drug | zu wenige Quellen mit Zusammenfassung (1) für 'deoxyspergualin' |
+| WM-DRUG-2951 | Abetimus | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Abetimus' |
+| WM-DRUG-2953 | Afelimomab | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Afelimomab' |
+| WM-DRUG-2954 | Opinercept | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Opinercept' |
+| WM-DRUG-2955 | Daclizumab | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Daclizumab (Anti-CD25-Antikörper, IL-2-Rezeptor-Antagonist, ATC L04AC01) wird in Quelle 1 (MS-Netzwerk-Metaanalyse, u. a. Daclizumab), Quelle 2 (IL |
+| WM-DRUG-2957 | Briakinumab | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Briakinumab' bezeichnet denselben Wirkstoff wie die Klassifikation (ATC L04AC09, IL-12/23-p40-Antikörper). Die Quellen behandeln jedoch  |
+| WM-DRUG-2958 | Sirukumab | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 2 behandelt Sirukumab explizit (im Titel genannt). Die übrigen Quellen sind allgemeine Netzwerk-Metaanalysen zu rheumatoider Arthritis,  |
+| WM-DRUG-2961 | Satralizumab | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Satralizumab (IL-6-Rezeptor-Antikörper bei Neuromyelitis-optica-Spektrum-Erkrankung). Es handelt sich um Arbeiten z |
+| WM-DRUG-2962 | Netakimab | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel „Netakimab“ bezeichnet denselben Wirkstoff wie ATC L04AC20 (IL-17-Inhibitor). Nur Quelle 7 behandelt Netakimab ausdrücklich. Die übrigen  |
+| WM-DRUG-2965 | Mirikizumab | drug | zu viele nur teilweise belegte Sätze (12/28) |
+| WM-DRUG-2966 | Levilimab | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Levilimab“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC L04AC25, Anti-IL-6-Rezeptor-Antikörper). Keine der vier Quellen be |
+| WM-DRUG-2967 | Goflikicept | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Goflikicept (ATC L04AC26, IL-1-Trap-Fusionsprotein, auch bekannt als RPH-104) wird nur in Quelle 6 ausdrücklich behandelt. Die übrigen Quellen befa |
+| WM-DRUG-2971 | Baricitinib | drug | zu viele nur teilweise belegte Sätze (13/31) |
+| WM-DRUG-2973 | Itacitinib | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel bezeichnet den Wirkstoff Itacitinib (selektiver JAK1-Inhibitor), passend zur Klassifikation. Keine der Quellen behandelt nach Titel erken |
+| WM-DRUG-2974 | Peficitinib | drug | Themenprüfung: nur 2 von 14 Quellen passen zum Thema (Titel und Klassifikation bezeichnen beide Peficitinib. Nur Quelle 6 (Netzwerk-Metaanalyse mit Peficitinib bei Psoriasis) und Quelle 9 (Fallbericht |
+| WM-DRUG-2975 | Deuruxolitinib | drug | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (Der Titel „Deuruxolitinib“ entspricht dem Wirkstoff der Klassifikation (ATC L04AF09). Nur die Quellen 2, 8 und 9 behandeln Deuruxolitinib direkt.  |
+| WM-DRUG-2976 | Muromonab-CD3 | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Muromonab-CD3“ entspricht dem Wirkstoff der Klassifikation (ATC L04AG01). Keine der Quellen behandelt aber Muromonab-CD3 als Thema. Quel |
+| WM-DRUG-2977 | Efalizumab | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Der Titel bezeichnet den Wirkstoff Efalizumab (ATC L04AG02), also den passenden Wirkstoff. Keine der Quellen behandelt Efalizumab spezifisch. Es ha |
+| WM-DRUG-2980 | Begelomab | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Begelomab ist ein anti-CD3-Antikörper (ATC L04AG07), der bei steroidresistenter akuter Graft-versus-Host-Krankheit untersucht wurde. Der Titel pass |
+| WM-DRUG-2982 | Inebilizumab | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Inebilizumab' |
+| WM-DRUG-2984 | Divozilimab | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Divozilimab ist ein Anti-CD20-Antikörper (u. a. bei multipler Sklerose), kein PD-1-Inhibitor. Alle Quellen behandeln PD-1/PD-L1-Inhibitoren in der |
+| WM-DRUG-2985 | Seniprutug | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Titel entspricht dem Wirkstoff der Klassifikation. Keine der Quellen behandelt Seniprutug; alle betreffen andere Krankheitsbilder bzw. Themen.) |
+| WM-DRUG-2986 | Sibeprenlimab | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quelle 1 (Metaanalyse zu Sibeprenlimab bei IgA-Nephropathie) und Quelle 5 (Sibeprenlimab: First Approval) behandeln explizit den Wirkstoff. Die |
+| WM-DRUG-2988 | Ravulizumab | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Ravulizumab' |
+| WM-DRUG-2989 | Avacopan | drug | zu viele nur teilweise belegte Sätze (22/41) |
+| WM-DRUG-2990 | Iptacopan | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 8 und 9 behandeln Iptacopan gezielt. Die übrigen sind breite Übersichten zu IgA-Nephropathie, Komplementtherapien, C3-Glomerulopathie o |
+| WM-DRUG-2993 | Darvadstrocel | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 2, 3 und 5 behandeln Darvadstrocel bzw. allogene Stammzelltherapie (adipose-derived MSC) bei komplexen perianalen Fisteln bei Morbus Crohn. |
+| WM-DRUG-2994 | Diroximelfumarat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Diroximel fumarate' |
+| WM-DRUG-2995 | Humane allogene mesenchymale Stromazellen | drug | Themenprüfung: nur 1 von 14 Quellen passen zum Thema (ATC L04AX18 = Darvadstrocel (allogene MSC aus Fettgewebe) bei perianalen Fisteln bei Morbus Crohn; nur Quelle 7 behandelt diese Indikation. Die üb |
+| WM-DRUG-3000 | Amikacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation D06AX12 bezeichnet Amikacin als topisches Antibiotikum (Dermatologikum), der Wirkstoff selbst ist aber systemisch bzw |
+| WM-DRUG-3011 | Sirolimus | drug | zu viele nur teilweise belegte Sätze (22/45) |
