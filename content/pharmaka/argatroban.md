@@ -1,0 +1,77 @@
+---
+title: "Argatroban"
+slug: "argatroban"
+specialty: "Pharmakologie"
+secondary_specialties: []
+article_type: "pharmaka"
+content_kind: "article"
+status: "draft"
+version: "0.1.0"
+change_summary: "Automatisch erstellter, quellenbasierter Erstentwurf mit maschineller Faktenprüfung gegen PubMed-Quellen; fachärztliche Prüfung steht aus."
+authors: [{name: "WikiMedica-Redaktion"}]
+reviewers: []
+created: "2026-10-30"
+updated: "2026-10-30"
+risk_level: "high"
+target_audience: ["physicians", "pharmacists"]
+sex_gender_relevance: "not_assessed"
+sex_gender_notes: ""
+safety_hold: false
+language: "de"
+language_level: "professional"
+active_substances: ["Argatroban"]
+atc_codes: ["B01AE03", "B01AE03"]
+icd10: []
+ops: []
+pubmed_ids: ["32870433", "34673303", "42911256", "38176219", "33653194", "38412157", "40392513", "38440113", "33774764", "34275554"]
+guidelines: [{"title": "GFHT proposals on the practical use of argatroban - With specifics regarding vaccine-induced immune thrombotic thrombocytopaenia (VITT)", "issuer": "", "year": 2021, "url": "https://pubmed.ncbi.nlm.nih.gov/34673303/"}]
+references: [{"citation": "Aliter KF, Al-Horani RA. Thrombin Inhibition by Argatroban: Potential Therapeutic Benefits in COVID-19. Cardiovasc Drugs Ther. 2021;35:195-203.", "pmid": "32870433", "doi": "10.1007/s10557-020-07066-x", "url": "https://pubmed.ncbi.nlm.nih.gov/32870433/"}, {"citation": "Siguret V, Boissier E, De Maistre E et al.. GFHT proposals on the practical use of argatroban - With specifics regarding vaccine-induced immune thrombotic thrombocytopaenia (VITT). Anaesth Crit Care Pain Med. 2021;40:100963.", "pmid": "34673303", "doi": "10.1016/j.accpm.2021.100963", "url": "https://pubmed.ncbi.nlm.nih.gov/34673303/"}, {"citation": "Fatima ST, Raza A, Javed A et al.. Efficacy and Safety of Argatroban as an Adjunct to Antiplatelet Therapy in Ischemic Stroke: An Updated Systematic Review and Meta-analysis. Eur J Clin Pharmacol. 2026;82.", "pmid": "42911256", "doi": "10.1007/s00228-026-04203-7", "url": "https://pubmed.ncbi.nlm.nih.gov/42911256/"}, {"citation": "Al-Salihi MM, Saha R, Ayyad A et al.. Efficacy and safety of argatroban in the management of acute ischemic stroke: A systematic literature review and meta-analysis. Clin Neurol Neurosurg. 2024;236:108097.", "pmid": "38176219", "doi": "10.1016/j.clineuro.2023.108097", "url": "https://pubmed.ncbi.nlm.nih.gov/38176219/"}, {"citation": "Geli J, Capoccia M, Maybauer DM et al.. Argatroban Anticoagulation for Adult Extracorporeal Membrane Oxygenation: A Systematic Review. J Intensive Care Med. 2022;37:459-471.", "pmid": "33653194", "doi": "10.1177/0885066621993739", "url": "https://pubmed.ncbi.nlm.nih.gov/33653194/"}, {"citation": "Xie H, Chen Y, Ge W et al.. Can the combination of antiplatelet or alteplase thrombolytic therapy with argatroban benefit patients suffering from acute stroke? a systematic review, meta-analysis, and meta-regression. PLoS One. 2024;19:e0298226.", "pmid": "38412157", "doi": "10.1371/journal.pone.0298226", "url": "https://pubmed.ncbi.nlm.nih.gov/38412157/"}, {"citation": "Ahmed Y, Moawad MHED, Bahtiyarova G et al.. Exploring the Efficacy and Safety of Argatroban as an Adjunct to Antiplatelet Therapy in Ischemic Stroke Patients: A Systematic Review and Meta-analysis. Transl Stroke Res. 2025;16:2272-2289.", "pmid": "40392513", "doi": "10.1007/s12975-025-01357-x", "url": "https://pubmed.ncbi.nlm.nih.gov/40392513/"}, {"citation": "Cheng Y, Liu C, Li S et al.. Efficacy and safety of Argatroban in patients with acute ischemic stroke: a systematic review and meta-analysis. Front Neurol. 2024;15:1364895.", "pmid": "38440113", "doi": "10.3389/fneur.2024.1364895", "url": "https://pubmed.ncbi.nlm.nih.gov/38440113/"}, {"citation": "Colarossi G, Maffulli N, Trivellas A et al.. Superior outcomes with Argatroban for heparin-induced thrombocytopenia: a Bayesian network meta-analysis. Int J Clin Pharm. 2021;43:825-838.", "pmid": "33774764", "doi": "10.1007/s11096-021-01260-z", "url": "https://pubmed.ncbi.nlm.nih.gov/33774764/"}, {"citation": "Hou X, Jin C, Pan C et al.. Effects of argatroban therapy for stroke patients: A meta-analysis. J Clin Neurosci. 2021;90:225-232.", "pmid": "34275554", "doi": "10.1016/j.jocn.2021.06.002", "url": "https://pubmed.ncbi.nlm.nih.gov/34275554/"}]
+source_notes: "Eigene Zusammenfassung von PubMed-Zusammenfassungen und, wo Creative-Commons-Lizenz vorliegt, PubMed-Central-Volltextauszügen; keine wörtliche Übernahme. Alle zitierten PMIDs wurden gegen PubMed aufgelöst. Katalogbezug: ATC-GM mit DDD 2026 (BfArM; Urheber WIdO, beruht auf WHO ATC-Index), keine DDD übernommen."
+ai_assisted: true
+ai_assistance_description: "Entwurf und satzweise Faktenprüfung auf Grundlage automatisch abgerufener PubMed-Quellen (Suchbegriff, Entwurf, Lektorat: claude-haiku-5-5 über die Claude-API (Anthropic); Themenprüfung, Faktenprüfung: claude-sonnet-5-5 über die Claude-API (Anthropic)). Maschinelle Faktenprüfung: 40 von 53 Sätzen bestätigt, 13 nicht belegte Sätze entfernt. Keine menschliche fachliche Prüfung."
+wikimedica_credit: true
+corrections: []
+---
+
+# Argatroban
+
+## Übersicht
+
+Argatroban ist ein synthetischer, niedermolekularer Thrombininhibitor, der als direkter, kompetitiver und selektiver Hemmstoff wirkt.[1] In vielen Ländern ist es zur antikoagulatorischen Behandlung der heparininduzierten Thrombozytopenie (HIT) zugelassen, zudem wird es bei weiteren thrombotischen Erkrankungen eingesetzt.[2][1] Die Substanz wird als kontinuierliche intravenöse Infusion verabreicht.[2] Die Evidenzlage ist dabei je nach Indikation sehr unterschiedlich.[2][3][4][5]
+
+## Wirkmechanismus
+
+Argatroban hemmt direkt das Thrombin (Faktor IIa); im Gegensatz zu Heparin wirkt es somit unabhängig von Antithrombin.[2][5] Thrombin spielt neben der Gerinnung auch bei Entzündungsprozessen über die Aktivierung proteasenaktivierter Rezeptoren, bei der Angiogenese und Fibrose sowie bei Virusinfektionen eine Rolle.[1] Vor diesem Hintergrund werden für Argatroban neben der antithrombotischen Wirkung auch entzündungshemmende und antivirale Eigenschaften diskutiert; diese sind jedoch bislang vor allem präklinisch beziehungsweise in Übersichtsarbeiten beschrieben und nicht in kontrollierten klinischen Studien bestätigt.[1] Pharmakokinetisch ist Argatroban gut charakterisiert.[1] Ein wesentlicher Vorteil ist seine kurze Halbwertszeit, die zu einer raschen Rückbildung der Antikoagulation beitragen kann und so das Risiko übermäßiger Gerinnungshemmung sowie von Blutungskomplikationen verringern soll, etwa wenn unerkannt eine hämorrhagische Schlaganfallursache vorliegt.[6]
+
+## Indikationen
+
+Die zugelassene Hauptindikation ist die Antikoagulation bei HIT.[2] Für die Behandlung der VITT wird Argatroban in einer Leitlinie der französischen Arbeitsgruppe für Hämostase und Thrombose als nicht-heparinhaltiges Antikoagulans der Wahl vorgeschlagen; begleitend werden in dieser Situation häufig Immunglobuline und oft auch Glukokortikoide eingesetzt.[2] Die Leitlinie betont, dass die Behandlung erfahrenen Fachpersonen in der Hämostaseologie vorbehalten sein sollte.[2] Die Datenlage beruht auf Kohortenstudien und Fallserien, und die Autoren weisen auf große Unterschiede bei Dosierungen und Zielbereichen hin.[5] Einige Übersichten sehen bei Argatroban als Zusatz zu einer Thrombozytenaggregationshemmung einen Vorteil hinsichtlich funktioneller Erholung und Reduktion neurologischer Verschlechterungen.[7][8] Andere finden für das funktionelle Outcome nach 90 Tagen (modified Rankin Scale 0–2) keinen signifikanten Unterschied gegenüber der Standardtherapie allein.[3][8][4] Eine Metaanalyse zur Kombination mit Alteplase fand keinen signifikanten Effekt auf das funktionelle Outcome, während eine Kombination mit Thrombozytenaggregationshemmern mit einem günstigeren Ergebnis verbunden war.[6] Die Übersichten verweisen überwiegend auf heterogene Studienpopulationen, eine hohe Zahl retrospektiver Kohortenstudien und den Bedarf an weiteren großen randomisierten Studien.[3][7][6][8] Für Argatroban bei akutem Schlaganfall wird damit kein einheitlicher Nutzennachweis berichtet; die vorliegenden Daten sind eher als hypothesengenerierend zu werten.[3][7][8][4]
+
+## Nebenwirkungen und Warnhinweise
+
+Bei HIT zeigte eine Bayessche Netzwerkmetaanalyse für Argatroban im Vergleich zu anderen direkten Thrombininhibitoren die niedrigsten Raten größerer und kleinerer Blutungen; die Autoren berichteten außerdem geringere Raten thromboembolischer Ereignisse und Mortalität.[9] Mehrere Metaanalysen berichten, dass Argatroban das Auftreten einer frühen neurologischen Verschlechterung (END) signifikant verringern kann.[3][7][8][10] Eine Metaanalyse fand zudem keinen Anstieg symptomatischer oder asymptomatischer intrakranieller Blutungen und anderer schwerer Blutungen, wohl aber eine erhöhte Rate leichter systemischer Blutungen.[10] Andere Übersichten berichten für intrakranielle Blutungen und größere systemische Blutungen keine signifikante Erhöhung.[7][8][4] Eine Metaanalyse, die ausschließlich randomisierte kontrollierte Studien einschloss, ergab dagegen einen signifikanten Anstieg von kombinierten und intrakraniellen Blutungen unter Argatroban, obwohl dieser Effekt in der Gesamtauswertung nicht sichtbar war.[3] Diese Abweichung sollte bei der Bewertung des Blutungsrisikos berücksichtigt werden.[3] Bei ECMO wurden Blutungs- und thromboembolische Komplikationsraten in den einbezogenen Studien als vergleichbar mit denen unter unfraktioniertem Heparin beschrieben.[5]
+
+## Wechselwirkungen
+
+Eine Übersichtsarbeit zur Anwendung bei COVID-19 nennt ein geringes Risiko für relevante Arzneimittelinteraktionen mit den damals untersuchten Substanzen.[1] Im Schlaganfallkontext wurde Argatroban überwiegend zusammen mit Acetylsalicylsäure, Clopidogrel oder einer dualen Thrombozytenaggregationshemmung eingesetzt.[3][7] In einer Metaanalyse zeigte sich der deutlichste Nutzen bei der Kombination mit einer dualen Thrombozytenaggregationshemmung; die Autoren betonen jedoch, dass die Frage nach der optimalen Patientenauswahl und Kombinationsstrategie noch offen ist.[7]
+
+## Besondere Patientengruppen
+
+Bei der VITT betont die französische Leitlinie, dass eine zerebrale Venenthrombose, die bei VITT typisch ist, kein übermäßig vorsichtiges Antikoagulationsschema rechtfertigen sollte; bei ausgedehnten Thrombosen wird eine rasche, vollständige Antikoagulation empfohlen.[2] Die Leitlinie hebt außerdem hervor, dass Zielwerte anhand von Blutungs- und Thromboserisiko, klinischem Verlauf, bildgebenden Befunden und Thrombozytenverläufen individuell angepasst werden sollten.[2] Die Autoren sehen Argatroban als potenzielle Alternative zu Heparin, halten aber größere prospektive Studien in klar definierten Populationen für erforderlich.[5]
+
+## Hinweise zur sicheren Anwendung
+
+Die Leitlinie zur Anwendung bei HIT und VITT empfiehlt vor Beginn eine Ausgangsdiagnostik und die Steuerung über ein spezifisches Anti-IIa-Assay, das Argatroban-Plasmaspiegel mithilfe einer dafür vorgesehenen Kalibrierung bestimmt.[2] Die alleinige Verwendung der aPTT wird ausdrücklich nicht empfohlen; mindestens eine regelmäßige Kontrolle mit einem Anti-IIa-Assay sei erforderlich, gegebenenfalls unter Mitwirkung eines spezialisierten Labors.[2] Die aPTT ist durch Ausgangswert, Reagenz und Begleitfaktoren beeinflussbar, weshalb ihre Interpretation sorgfältig erfolgen sollte.[2] Laborkontrollen werden nach den Empfehlungen zunächst einige Stunden nach Infusionsbeginn durchgeführt, anschließend in engen Intervallen bis zum Erreichen eines Fließgleichgewichts und danach mindestens täglich.[2] Dosisanpassungen sollten schrittweise erfolgen und die Ausgangsdosis, Laborergebnisse sowie den individuellen klinischen Kontext berücksichtigen; Nomogramme können hierbei unterstützen.[2] Zu beachten sind außerdem Hämoglobin- und Thrombozytenverläufe.[2] Für die Antikoagulation unter ECMO zeigt die Übersicht große Unterschiede bei Infusionsraten und Zielbereichen der Gerinnungsparameter aPTT und ACT zwischen den Studien.[5] Dosierungsschemata im Schlaganfallkontext unterschieden sich ebenfalls zwischen den Studien, weshalb eine verlässliche Dosisempfehlung auf Basis der bisherigen Daten nicht abgeleitet werden kann.[3][7] Insgesamt zeigt die Evidenz, dass Argatroban bei HIT und VITT etabliert beziehungsweise als Standard vorgeschlagen ist, während der Nutzen bei akutem ischämischem Schlaganfall, bei ECMO und bei anderen Indikationen weiterer, methodisch hochwertiger randomisierter Studien bedarf.[2][3][7][5][1]
+
+## Literatur
+
+1. Aliter KF, Al-Horani RA. Thrombin Inhibition by Argatroban: Potential Therapeutic Benefits in COVID-19. Cardiovasc Drugs Ther. 2021;35:195-203. PMID: 32870433. DOI: 10.1007/s10557-020-07066-x. https://pubmed.ncbi.nlm.nih.gov/32870433/
+2. Siguret V, Boissier E, De Maistre E et al.. GFHT proposals on the practical use of argatroban - With specifics regarding vaccine-induced immune thrombotic thrombocytopaenia (VITT). Anaesth Crit Care Pain Med. 2021;40:100963. PMID: 34673303. DOI: 10.1016/j.accpm.2021.100963. https://pubmed.ncbi.nlm.nih.gov/34673303/
+3. Fatima ST, Raza A, Javed A et al.. Efficacy and Safety of Argatroban as an Adjunct to Antiplatelet Therapy in Ischemic Stroke: An Updated Systematic Review and Meta-analysis. Eur J Clin Pharmacol. 2026;82. PMID: 42911256. DOI: 10.1007/s00228-026-04203-7. https://pubmed.ncbi.nlm.nih.gov/42911256/
+4. Al-Salihi MM, Saha R, Ayyad A et al.. Efficacy and safety of argatroban in the management of acute ischemic stroke: A systematic literature review and meta-analysis. Clin Neurol Neurosurg. 2024;236:108097. PMID: 38176219. DOI: 10.1016/j.clineuro.2023.108097. https://pubmed.ncbi.nlm.nih.gov/38176219/
+5. Geli J, Capoccia M, Maybauer DM et al.. Argatroban Anticoagulation for Adult Extracorporeal Membrane Oxygenation: A Systematic Review. J Intensive Care Med. 2022;37:459-471. PMID: 33653194. DOI: 10.1177/0885066621993739. https://pubmed.ncbi.nlm.nih.gov/33653194/
+6. Xie H, Chen Y, Ge W et al.. Can the combination of antiplatelet or alteplase thrombolytic therapy with argatroban benefit patients suffering from acute stroke? a systematic review, meta-analysis, and meta-regression. PLoS One. 2024;19:e0298226. PMID: 38412157. DOI: 10.1371/journal.pone.0298226. https://pubmed.ncbi.nlm.nih.gov/38412157/
+7. Ahmed Y, Moawad MHED, Bahtiyarova G et al.. Exploring the Efficacy and Safety of Argatroban as an Adjunct to Antiplatelet Therapy in Ischemic Stroke Patients: A Systematic Review and Meta-analysis. Transl Stroke Res. 2025;16:2272-2289. PMID: 40392513. DOI: 10.1007/s12975-025-01357-x. https://pubmed.ncbi.nlm.nih.gov/40392513/
+8. Cheng Y, Liu C, Li S et al.. Efficacy and safety of Argatroban in patients with acute ischemic stroke: a systematic review and meta-analysis. Front Neurol. 2024;15:1364895. PMID: 38440113. DOI: 10.3389/fneur.2024.1364895. https://pubmed.ncbi.nlm.nih.gov/38440113/
+9. Colarossi G, Maffulli N, Trivellas A et al.. Superior outcomes with Argatroban for heparin-induced thrombocytopenia: a Bayesian network meta-analysis. Int J Clin Pharm. 2021;43:825-838. PMID: 33774764. DOI: 10.1007/s11096-021-01260-z. https://pubmed.ncbi.nlm.nih.gov/33774764/
+10. Hou X, Jin C, Pan C et al.. Effects of argatroban therapy for stroke patients: A meta-analysis. J Clin Neurosci. 2021;90:225-232. PMID: 34275554. DOI: 10.1016/j.jocn.2021.06.002. https://pubmed.ncbi.nlm.nih.gov/34275554/
