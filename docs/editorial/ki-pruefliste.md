@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 30.10.2026 22:25. Warteschlange: duplicate 441, planned 4294, published 883, ready 29, redirect 202, review 1216.
+Stand: 30.10.2026 23:25. Warteschlange: claimed 1, duplicate 441, planned 4212, published 911, ready 37, redirect 202, review 1261.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -145,6 +145,9 @@ Stand: 30.10.2026 22:25. Warteschlange: duplicate 441, planned 4294, published 8
 | WM-DIS-0623 | Induzierte wahnhafte Störung | disease | zu wenige Quellen mit Zusammenfassung (0) für 'folie  deux' |
 | WM-DIS-0624 | Nicht näher bezeichnete nichtorganische Psychose | disease | zu wenige Quellen mit Zusammenfassung (2) für 'functional psychosis' |
 | WM-DIS-0628 | Sonstiges Aneurysma und sonstige Dissektion | disease | zu wenige Quellen mit Zusammenfassung (2) für 'arterial aneurysm dissection' |
+| WM-DIS-0631 | Bösartige Neubildung des Nasopharynx | disease | zu viele nur teilweise belegte Sätze (19/46) |
+| WM-DIS-0635 | Bösartige Neubildung des Herzens, des Mediastinums und der Pleura | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM C38 umfasst bösartige Neubildungen von Herz, Mediastinum und Pleura. Der Titel entspricht dem weitgehend, daher wäre er grundsätzl |
+| WM-DIS-0637 | Bösartige Neubildung sonstiger und nicht näher bezeichneter männlicher Genitalorgane | disease | zu wenige Quellen mit Zusammenfassung (2) für 'male genital cancer' |
 | WM-DIS-0643 | Verletzung von Blutgefäßen in Höhe des Handgelenkes und der Hand | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Keine Quelle behandelt spezifisch isolierte Gefäßverletzungen (ICD-10-GM S65). Alle Quellen behandeln allgemeines Handtrauma, Weichteilverletzunge |
 | WM-DIS-0644 | Verletzung von Blutgefäßen in Höhe des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (2) für 'lower extremity vascular trauma' |
 | WM-DIS-0645 | Traumatische Amputationen mit Beteiligung mehrerer Körperregionen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'multiple limb amputations' |
@@ -157,6 +160,8 @@ Stand: 30.10.2026 22:25. Warteschlange: duplicate 441, planned 4294, published 8
 | WM-DIS-0657 | Sonstige nichttraumatische intrakranielle Blutung | disease | Entwurf ohne belegte Sätze |
 | WM-DIS-0658 | Verletzung von Muskeln und Sehnen in Höhe des Unterarmes | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Muskel- oder Sehnenverletzungen des Unterarms; alle beziehen sich auf Frakturen (Radius/Ulna) oder Ellenbogenverl |
 | WM-DIS-0659 | Verletzung von Nerven in Höhe des Handgelenkes und der Hand | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel passt zur ICD-10-GM S64. Nur Quelle 4 behandelt spezifisch 'median nerve injury' (ein Nerv der Hand/des Handgelenks). Quelle 1 (Carpal Tunnel |
+| WM-DIS-0665 | Bösartige Neubildung des Gaumens | disease | zu wenige Quellen mit Zusammenfassung (1) für 'palate cancer' |
+| WM-DIS-0666 | Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile des Mundes | disease | zu viele nur teilweise belegte Sätze (19/34) |
 | WM-DIS-0678 | Sonstige Krankheiten des Ösophagus | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (ICD-10-GM K22 umfasst sonstige Ösophaguserkrankungen (u. a. Achalasie, Ulkus, Obstruktion, Perforation, Dyskinesie, Divertikel, Ösophagitis-Folgen) |
 | WM-DIS-0682 | Verletzung von Blutgefäßen in Höhe der Schulter und des Oberarmes | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel entspricht S45 (Gefäßverletzungen an Schulter und Oberarm) mit kleinem Unterschied im Zuschnitt. Quellen 2 und 3 behandeln stumpfe Verlet |
 | WM-DIS-0683 | Verletzung von Muskeln und Sehnen in Höhe der Schulter und des Oberarmes | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Verletzungen der Rotatorenmanschette“ entspricht S46 (Sehnen und Muskeln der Schulter, v. a. Rotatorenmanschette), Synonym und Mehrzahl  |
@@ -170,6 +175,9 @@ Stand: 30.10.2026 22:25. Warteschlange: duplicate 441, planned 4294, published 8
 | WM-DIS-0694 | Tubulointerstitielle Nephritis, nicht als akut oder chronisch bezeichnet | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel „Tubulointerstitielle Nephritis“ entspricht N12 (Synonym, kleiner Unterschied im Zuschnitt). Nur Quelle 7 behandelt die tubulointerstitie |
 | WM-DIS-0702 | Erosion und Ektropium der Cervix uteri | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical ectopy' |
 | WM-DIS-0703 | Neigung zu habituellem Abort | disease | Bestätigungsquote 27/50 unter 60 % |
+| WM-DIS-0708 | Bösartige Neubildung des Mundbodens | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Der Titel „Maligne Tumoren des Mundbodens“ entspricht C04 (Mundboden). Alle zwölf Quellen behandeln jedoch Mundhöhlenkrebs insgesamt (C00–C06), al |
+| WM-DIS-0712 | Bösartige Neubildung sonstiger und ungenau bezeichneter Verdauungsorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM C26 umfasst nur sonstige und ungenau bezeichnete Verdauungsorgane (z. B. Darmtrakt o. n. A., Intestinum, ungenau bezeichnete Lokal |
+| WM-DIS-0714 | Bösartige Neubildung sonstiger und nicht näher bezeichneter Harnorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (C68 umfasst nur sonstige/nicht näher bezeichnete Harnorgane (z. B. Urethra, Harnleiter, Overlap); Niere, Nierenbecken und Blase sind ausgesc |
 | WM-DIS-0718 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern des Kopfes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'head joint sprain' |
 | WM-DIS-0719 | Verletzung von Blutgefäßen in Höhe des Unterarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'forearm vascular injury' |
 | WM-DIS-0720 | Verletzung von Nerven in Höhe der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (1) für 'lower extremity nerve injury' |
@@ -202,6 +210,11 @@ Stand: 30.10.2026 22:25. Warteschlange: duplicate 441, planned 4294, published 8
 | WM-DIS-0844 | Zerquetschung des oberen Sprunggelenkes und des Fußes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'ankle foot crush injury' |
 | WM-DIS-0860 | Sonstige Krankheiten der Niere und des Ureters, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (N28 umfasst mehrere Erkrankungen (u. a. erworbene Nierenzyste N28.1, Ureterstriktur, Nierenatrophie usw.). Der Titel „Sonstige Nierenerkrank |
 | WM-DIS-0861 | Sonstige Krankheiten der Harnröhre | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Harnröhrenstrikturen (ICD-10 N35), nicht N36 (sonstige Harnröhrenkrankheiten wie Fistel, Divertikel, Karunkel, Prolap |
+| WM-DIS-0907 | Sonstige Krankheiten der Nase und der Nasennebenhöhlen | disease | Entwurf ohne belegte Sätze |
+| WM-DIS-0914 | Zerquetschung des Thorax und traumatische Amputation von Teilen des Thorax | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (S28 meint speziell Zerquetschung des Thorax und traumatische Amputation von Thoraxteilen. Der Titel „Thoraxtrauma und Thoraxzerquetschung“ i |
+| WM-DIS-0915 | Zerquetschung des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist crush injury' |
+| WM-DIS-0916 | Zerquetschung des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'leg contusion' |
+| WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
 | WM-DRUG-0106 | Blutgerinnungsfaktor VIII | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Blutgerinnungsfaktor VIII' entspricht dem Wirkstoff Faktor VIII (ATC B02BD02). Die Quellen 1–3 behandeln Faktor VIII als Protein und Wir |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0121 | Bevacizumab | drug | zu viele nur teilweise belegte Sätze (22/35) |
@@ -225,6 +238,13 @@ Stand: 30.10.2026 22:25. Warteschlange: duplicate 441, planned 4294, published 8
 | WM-DRUG-0219 | Sapropterin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln PKU allgemein oder Sepiapterin (Nachfolger), nicht spezifisch Sapropterin. Nur Quellen 3 und 6 nennen explizit Sapropterin/B |
 | WM-DRUG-0221 | Picotamid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Picotamide' |
 | WM-DRUG-0222 | Prasugrel | drug | Bestätigungsquote 16/45 unter 60 %; zu viele nur teilweise belegte Sätze (9/16) |
+| WM-DRUG-0233 | Dabrafenib | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-0239 | Pertuzumab | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-0240 | Aminolevulinsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle 'Aminolevulinsäure' (ATC L01XD04) ist ein photosensibilisierender Wirkstoff (5-ALA). Die Suchbegriffe und Titel beziehen sich auf |
+| WM-DRUG-0243 | Anagrelid | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Nur die Quellen 1 und 6 behandeln Anagrelid direkt (Metaanalyse bei essentieller Thrombozythämie; Anagrelid-assoziierte Kardiomyopathie). Die Quell |
+| WM-DRUG-0244 | Fulvestrant | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Der Titel 'Fulvestrant' entspricht dem Wirkstoff (ATC L02BA03). Nur die Quellen 2, 3 und 4 behandeln Fulvestrant ausdrücklich, nämlich in Kombinat |
+| WM-DRUG-0246 | Interferon beta-1a | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Nur die Quellen 5, 6 und 10 behandeln Interferon beta-1a direkt (subkutan bzw. intramuskulär). Die übrigen Quellen betreffen Multiple Sklerose all |
+| WM-DRUG-0254 | Febuxostat | drug | zu viele nur teilweise belegte Sätze (13/31) |
 | WM-DRUG-0255 | Indacaterol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Indacaterol' |
 | WM-DRUG-0265 | Sotatercept | drug | Bestätigungsquote 25/43 unter 60 %; zu viele nur teilweise belegte Sätze (15/25) |
 | WM-DRUG-0273 | Colesevelam | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Colesevelam“ entspricht dem Wirkstoff der Klassifikation (ATC C10AC04). Nur Quelle 5 behandelt Colesevelam hydrochloride ausdrücklich. D |
@@ -1224,3 +1244,28 @@ Stand: 30.10.2026 22:25. Warteschlange: duplicate 441, planned 4294, published 8
 | WM-DRUG-3349 | Ibudilast | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 1 und 5 behandeln explizit den Wirkstoff Ibudilast. Quelle 2, 3, 8 sind zu allgemein oder behandeln andere Substanzen/Krankheitsbilder  |
 | WM-DRUG-3350 | Eprozinol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Eprozinol' |
 | WM-DRUG-3351 | Seratrodast | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Seratrodast' |
+| WM-DRUG-3502 | Tinidazol | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Der Titel 'Tinidazol' entspricht dem Wirkstoff der Klassifikation (ATC G01AF21). Nur Quelle 2 (Tinidazol vs. Metronidazol bei bakterieller Vaginos |
+| WM-DRUG-3522 | Fenoterol | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Fenoterol' bezeichnet denselben Wirkstoff wie ATC G02CA03. Keine der Quellen behandelt Fenoterol als Thema. Quelle 1 betrifft SABA-Monot |
+| WM-DRUG-3524 | Lisurid | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Lisurid direkt (5-HT2A-Agonismus, nicht-halluzinogen). Die übrigen Quellen betreffen Wochenbett, Schlafstörungen bei Stimula |
+| WM-DRUG-3529 | Naproxen | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Der Wirkstoff Naproxen (G02CC02 = Antiphlogistika zur topischen/vaginalen Anwendung, Naproxen als Wirkstoff) passt zum Titel. Direkt zu Naproxen b |
+| WM-DRUG-3530 | Flunoxaprofen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Flunoxaprofen' |
+| WM-DRUG-3548 | Lynestrenol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Lynestrenol' |
+| WM-DRUG-3549 | Levonorgestrel | drug | Bestätigungsquote 25/42 unter 60 %; zu viele nur teilweise belegte Sätze (13/25) |
+| WM-DRUG-3550 | Quingestanol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Quingestanol' |
+| WM-DRUG-3551 | Megestrol | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Der Titel „Megestrol“ bezeichnet denselben Wirkstoff wie die Klassifikation (Megestrolacetat, G03AC05). Nur die Quellen 1 und 7 behandeln Megestrol |
+| WM-DRUG-3552 | Medroxyprogesteron | drug | Bestätigungsquote 33/57 unter 60 % |
+| WM-DRUG-3553 | Norgestrienon | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Norgestrienon (G03AC07) ist ein anderer Wirkstoff als Norgestimat (G03AC08); keine der Quellen behandelt Norgestrienon, sondern allgemeine Kontraze |
+| WM-DRUG-3555 | Desogestrel | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Desogestrel“ bezeichnet denselben Wirkstoff wie ATC G03AC09. Nur Quelle 5 behandelt Desogestrel direkt (oral, vor operativer Hysteroskop |
+| WM-DRUG-3557 | Fluoxymesteron | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Fluoxymesteron“ bezeichnet denselben Wirkstoff wie ATC G03BA01. Keine der Quellen behandelt jedoch Fluoxymesteron selbst. Sie befassen s |
+| WM-DRUG-3558 | Methyltestosteron | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Methyltestosteron“ bezeichnet denselben Wirkstoff wie ATC G03BA02. Keine der Quellen behandelt Methyltestosteron als Arzneimittelwirksto |
+| WM-DRUG-3560 | Mesterolon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'mesterolone' |
+| WM-DRUG-3561 | Ethinylestradiol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle sechs Quellen behandeln Ethinylestradiol als Wirkstoff (Sicherheit, Wirksamkeit, Interaktionen, Umweltaspekte). Der geplante Titel „Eth |
+| WM-DRUG-3562 | Estriol | drug | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Nur Quelle 1 behandelt Estriol als Arzneimittelwirkstoff (vaginales Estriol). Die Quellen 2–8 und 10 betreffen Estetrol, einen anderen Wirkstoff.  |
+| WM-DRUG-3563 | Chlorotrianisen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Chlorotrianisen (Tace). Alle Quellen beziehen sich auf TACE (Transarterielle Chemoembolisation), ein Ve |
+| WM-DRUG-3564 | Estron | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Nur 3 Quellen behandeln Estron/Estrone spezifisch (9, 11, 15). Quellen 1, 3, 7, 12, 14 behandeln Estrogene allgemein oder metabolisch ohne Fokus a |
+| WM-DRUG-3565 | Promestrien | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Promestrien; sie behandeln allgemeine GSM-Therapien oder andere Estrogene.) |
+| WM-DRUG-3566 | Konjugierte Estrogene | drug | Themenprüfung: nur 2 von 13 Quellen passen zum Thema (Nur Quellen 2 und 9 behandeln explizit 'conjugated estrogens' (oft in Kombination mit Bazedoxifene) als spezifischen Wirkstoff. Quelle 1, 3, 6, 10 |
+| WM-DRUG-3568 | Diethylstilbestrol | drug | zu viele nur teilweise belegte Sätze (23/46) |
+| WM-DRUG-3569 | Methallenestril | drug | zu wenige Quellen mit Zusammenfassung (0) für 'methallenestril' |
+| WM-DRUG-3570 | Moxestrol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Moxestrol (ATC G03CB04). Alle Titel beziehen sich auf andere medizinische Themen (Gastroenterologi |
+| WM-DRUG-3572 | Gestonoron | drug | zu wenige Quellen mit Zusammenfassung (0) für 'gestonorone caproate' |
