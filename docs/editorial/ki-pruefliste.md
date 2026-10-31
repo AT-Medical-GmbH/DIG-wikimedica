@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 08:25. Warteschlange: duplicate 445, planned 3344, published 1218, ready 11, redirect 361, review 1686.
+Stand: 31.10.2026 09:25. Warteschlange: duplicate 445, planned 3299, published 1229, ready 13, redirect 365, review 1714.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -791,6 +791,25 @@ Stand: 31.10.2026 08:25. Warteschlange: duplicate 445, planned 3344, published 1
 | WM-DRUG-0942 | Ruscogenin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Ruscogenin“ entspricht dem Wirkstoff (ATC C05AX15). Passend sind nur Quelle 1 (Mäusedorn-Extrakt/Ruscus-Nadelextrakt mit Hesperidin und  |
 | WM-DRUG-0943 | Heparinoide | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Klassifikation ATC C05BA01 betrifft Heparinoide zur topischen Anwendung bei Venenerkrankungen (z. B. Mucopolysaccharidpolysulfat). Der S |
 | WM-DRUG-0944 | Natriumapolat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'sodium polyacrylate' |
+| WM-DRUG-0945 | Mucopolysaccharidschwefelsäureester | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der vier Quellen behandelt den Wirkstoff Mucopolysaccharidschwefelsäureester (Mucopolysaccharid-Polysulfat, z. B. Hirudoid, ATC C05BA0 |
+| WM-DRUG-0946 | Monoethanolaminoleat | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Monoethanolaminoleat' bezeichnet denselben Wirkstoff wie ATC C05BB01 (Ethanolaminoleat). Von den Quellen behandelt aber keine nachweisli |
+| WM-DRUG-0947 | Invertzucker | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Invert sugar' |
+| WM-DRUG-0948 | Natriumtetradecylsulfat | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Titel 'Natriumtetradecylsulfat' entspricht dem Wirkstoff (ATC C05BB04). Quelle 1 (Sklerosierungsmittel bei Gefäßmalformationen) und Quelle 3 (Skler |
+| WM-DRUG-0950 | Rosskastaniensamen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der vier Quellen behandelt speziell Rosskastaniensamen(extrakt). Die Quellen 1–3 betreffen venenaktive Substanzen bei chronischer Vene |
+| WM-DRUG-0951 | Weinlaubblätter | drug | zu wenige Quellen mit Zusammenfassung (1) für 'grapevine leaves' |
+| WM-DRUG-0953 | Calciumdobesilat | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Titel 'Calciumdobesilat' entspricht dem Wirkstoff der Klassifikation (C05BX01). Quellen 3 und 7 behandeln Calciumdobesilat direkt (als Vergleichs-  |
+| WM-DRUG-0954 | Hydroxyethylrutoside | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Titel bezeichnet denselben Wirkstoff (Troxerutin). Quellen 1, 4, 5 behandeln Troxerutin direkt; 2 und 3 betreffen eine Fixkombination mit Ginkgo bi |
+| WM-DRUG-0956 | Benzaron | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Alle Quellen behandeln Benzalkoniumchlorid (Konservierungsmittel/Antiseptikum), nicht Benzaron (Benzarone, Venenmittel); Verwechslung durch ähnlich |
+| WM-DRUG-0957 | Cumarin | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Titel entspricht dem Wirkstoff Cumarin. Die Quellen behandeln aber nur Cumarin-Derivate (Antikoagulanzien, Antitumor, antiviral, Chemie) oder Anal |
+| WM-DRUG-0959 | Rutoside | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Rutoside ist Synonym für Rutin, daher passt der Titel. Quellen 2, 3 und 5 behandeln Rutin/Rutosid direkt. Quellen 1, 4 und 6 sind Pflanzenübersicht |
+| WM-DRUG-0960 | Monoxerutin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Monoxerutin' |
+| WM-DRUG-0961 | Troxerutin | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 4 und 5 behandeln Troxerutin als Einzelwirkstoff. Die Quellen 2 und 3 betreffen Kombinationspräparate (Ginkgo/Troxerutin/Heptaminol), ni |
+| WM-DRUG-0962 | Hidrosmin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'hidrosmine' |
+| WM-DRUG-0963 | Pygnogenol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Titel „Pygnogenol“ ist falsch geschrieben (richtig: Pycnogenol). Die ATC-Klassifikation C05CA06 bezeichnet Procyanidolic oligomers/Pycno |
+| WM-DRUG-0964 | Mäusedornwurzelstock | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Ruscus aculeatus' |
+| WM-DRUG-0965 | Steinkleekraut | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Melilotus officinalis' |
+| WM-DRUG-0966 | Naftazon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'naftazone' |
+| WM-DRUG-0967 | Beperminogen perplasmid | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Beperminogen perplasmid ist ein Gentherapeutikum (Plasmid mit Plasminogen-Gen, HGF-Plasmid-Variante?), tatsächlich ein Plasmid mit dem Gen für Hepa |
 | WM-DRUG-0969 | Alprenolol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Alprenolol' |
 | WM-DRUG-0970 | Oxprenolol | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Oxprenolol“ entspricht dem Wirkstoff der Klassifikation (ATC C07AA02). Keine der Quellen behandelt jedoch Oxprenolol selbst. Sie befasse |
 | WM-DRUG-0971 | Pindolol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Pindolol' |
@@ -1039,6 +1058,15 @@ Stand: 31.10.2026 08:25. Warteschlange: duplicate 445, planned 3344, published 1
 | WM-DRUG-1281 | Xibornol | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Xibornol ist ein lokal angewendetes antibakterielles Mittel (ATC J01XX02); der Titel bezeichnet den richtigen Wirkstoff. Keine der Quellen behande |
 | WM-DRUG-1282 | Clofoctol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Clofoctol' |
 | WM-DRUG-1283 | Spectinomycin | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Der Titel „Spectinomycin“ entspricht dem Wirkstoff (ATC J01XX04). Keine der Quellen behandelt Spectinomycin als Hauptthema. Die Gonorrhö-Arbeiten  |
+| WM-DRUG-1291 | 4-Aminosalicylsäure | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 5 (para-Aminosalicylsäure bei Metallvergiftung) und 6 (Aminosalicylat-Folat, u. a. PAS) betreffen 4-ASA; die übrigen behandeln 5-ASA/Me |
+| WM-DRUG-1292 | Natriumaminosalicylat | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel „Natriumaminosalicylat“ entspricht dem Wirkstoff der Klassifikation (J04AA02). Nur Quelle 4 behandelt para-Aminosalicylsäure (PAS) direkt |
+| WM-DRUG-1293 | Calciumaminosalicylat | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 4 behandelt para-Aminosalicylsäure direkt (als Natriumsalz, bei Mangan-/Bleivergiftung). Die übrigen Quellen behandeln Tuberkulose-Resis |
+| WM-DRUG-1298 | Enviomycin | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Enviomycin ist ein Synonym für Tuberactinomycin N, ein Capreomycin-verwandtes Tuberactinomycin-Antibiotikum (ATC J04AB06 ist Capreomycin), daher pa |
+| WM-DRUG-1299 | Capreomycin | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 3 behandelt Capreomycin direkt (zusammen mit Aminoglykosiden bei MDR-TB). Die Quellen 1, 2 und 6 betreffen die Resistenzdiagnostik bei T |
+| WM-DRUG-1301 | Ftivazid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ftivazide' |
+| WM-DRUG-1302 | Protionamid | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Protionamid“ bezeichnet denselben Wirkstoff wie ATC J04AD01. Keine der Quellen behandelt aber Protionamid als Hauptthema. Quelle 1 und 4 |
+| WM-DRUG-1303 | Tiocarlid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'tiocarlide' |
+| WM-DRUG-1304 | Ethionamid | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Der Titel 'Ethionamid' entspricht dem Wirkstoff (ATC J04AD03). Keine der Quellen behandelt Ethionamid als Hauptthema. Quelle 5 nennt es nur als ein |
 | WM-DRUG-1430 | Methohexital | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Methohexital“ bezeichnet denselben Wirkstoff wie ATC N01AF01. Quelle 1 vergleicht Propofol mit Methohexital bei EKT, Quelle 5 gibt einen |
 | WM-DRUG-1431 | Hexobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Hexobarbital' |
 | WM-DRUG-1432 | Thiopental | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Titel und ATC-Code N01AF03 bezeichnen beide Thiopental. Thiopental ist explizit Gegenstand von Quelle 11 (Propofol vs. Thiopental bei Sectio). Que |
