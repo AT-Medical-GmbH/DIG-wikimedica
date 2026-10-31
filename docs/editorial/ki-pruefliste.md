@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 23:25. Warteschlange: claimed 1, duplicate 446, planned 2928, published 1376, ready 12, redirect 371, review 1973.
+Stand: 01.11.2026 00:25. Warteschlange: claimed 1, duplicate 446, planned 2846, published 1388, ready 11, redirect 374, review 2041.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1700,9 +1700,77 @@ Stand: 31.10.2026 23:25. Warteschlange: claimed 1, duplicate 446, planned 2928, 
 | WM-DRUG-2100 | Chlorbenzoxamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chlorphenoxamine' |
 | WM-DRUG-2101 | Pinaverium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 1 behandelt Pinaverium explizit. Quellen 2, 3, 6, 7 behandeln Antispasmodika allgemein oder andere Wirkstoffe (Eluxadoline). Quel |
 | WM-DRUG-2102 | Fenoverin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'fenoverine' |
+| WM-DRUG-2103 | Idanpramin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Idaprazole' |
+| WM-DRUG-2104 | Proxazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Proxazol ist ein Protonenpumpenhemmer (PPI), kein H2-Rezeptor-Antagonist. Die Quellen behandeln H2-Antagonisten oder vergleichen PPIs mit H2 |
+| WM-DRUG-2105 | Alverin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 2 behandelt explizit Alverin. Quelle 1, 3, 5, 6 behandeln Antispasmodika allgemein oder andere Substanzen. Quelle 4 ist zu allgemein. Da |
+| WM-DRUG-2106 | Trepibuton | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Trepibutone' |
+| WM-DRUG-2107 | Isomethepten | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Isomethepten; Titel sind zu allgemein oder behandeln andere Migräne-Subtypen/Therapien.) |
+| WM-DRUG-2108 | Caroverin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Caroverine' |
+| WM-DRUG-2109 | Phloroglucinol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf Pharmakologie/Wirkstoff, Quellen auf Geburtshilfe/Wehenhemmung. Nur 4 Quellen passen.) |
+| WM-DRUG-2110 | Silikone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den ATC-Wirkstoff Silikone (A03AX13, Antidiarrhoika/Adsorbentien). Die Quellen befassen sich mit Silikon-Prothesen, I |
+| WM-DRUG-2111 | Valethamat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Valethamate' |
+| WM-DRUG-2112 | Trimethyldiphenylpropylamin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff im Thema ist Trimethyldiphenylpropylamin (ATC A03AX30, ein Antispasmodikum). Der Suchbegriff 'Diphenhydramine' bezieht sich au |
+| WM-DRUG-2113 | Pramiverin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandelt Parkinson-Krankheit, nicht Restless-Legs-Syndrom (RLS). Nur 1 Quelle (13) behandelt RLS nicht direkt, aber 12 Quellen passen |
+| WM-DRUG-2114 | Denaverin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'denaverine' |
+| WM-DRUG-2115 | Dipiproverin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dipivefrin' |
+| WM-DRUG-2116 | Cholinsalze | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt ATC A03AX34 (Cholinsalze als Antispasmodikum/Spasmolytikum bei gastrointestinalen Beschwerden). Quellen zu Choline be |
+| WM-DRUG-2117 | Hyoscyamin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Hyoscyamin als Arzneimittel zur Behandlung von Indikationen unter ATC A03BA03 (Antispasmodics/anticholiner |
+| WM-DRUG-2118 | Belladonna-Gesamtalkaloide | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Belladonna-Gesamtalkaloide (A03BA04) als Arzneimittelwirkstoff für gastrointestinale Indikationen; alle Quellen behan |
+| WM-DRUG-2120 | Methylatropin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'methylatropine' |
+| WM-DRUG-2121 | Methylscopolamin | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/41 unter 60 % |
+| WM-DRUG-2123 | Cimetropiumbromid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Cimetropiumbromid; alle beziehen sich auf den allgemeinen Wirkstoffklassenbegriff 'anticholinergic' oder a |
+| WM-DRUG-2124 | Homatropinmethylbromid | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Homatropinmethylbromid; alle verwenden den allgemeinen Oberbegriff 'antimuscarinic' für verschiedene Indikatione |
+| WM-DRUG-2126 | Cisaprid | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 1 behandelt Cisaprid explizit. Quelle 2, 3 und 4 behandeln Prokinetika allgemein, nicht spezifisch Cisaprid. Quelle 7 behandelt den Wirk |
+| WM-DRUG-2128 | Bromoprid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Bromopride' |
+| WM-DRUG-2129 | Alizaprid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'alizapride' |
+| WM-DRUG-2130 | Cleboprid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel und Quellen behandeln 'prokinetic agents' als Oberbegriff oder in anderen Indikationen (z.B. GI-Blutung, Diabetes), nicht spezifisch C |
+| WM-DRUG-2131 | Itoprid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Quellen 1, 5, 7 behandeln Akupunktur, andere Neuromodulatoren oder Erythromycin, nicht spezifisch Itoprid. Quelle 2, 3, 4 sind Übersichten z |
+| WM-DRUG-2132 | Cinitaprid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt explizit Cinitaprid; alle beziehen sich auf Prokinetika allgemein oder andere Wirkstoffklassen.) |
+| WM-DRUG-2133 | Mosaprid | drug | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit Mosaprid. Quelle 4 behandelt Prokinetika allgemein, nicht spezifisch Mosaprid.) |
+| WM-DRUG-2134 | Acotiamid | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Nur Quellen 4 und 5 behandeln explizit den Wirkstoff Acotiamid. Quellen 1-3 und 6 behandeln nur das Krankheitsbild (funktionelle Dyspepsie) oder Pr |
+| WM-DRUG-2135 | Dexpanthenol | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Nur Quellen 3 und 4 behandeln explizit Dexpanthenol. Quelle 1 und 2 behandeln zwar Hauterkrankungen, aber nicht den Wirkstoff. Quelle 5 und 6 sind  |
+| WM-DRUG-2136 | Mohnkapsel | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Mohnkapsel' (ATC A03PP01) bezeichnet einen spezifischen pflanzlichen Extrakt zur Behandlung von Durchfall. Die Quelle 'O |
+| WM-DRUG-2137 | Schöllkraut | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln spezifisch Chelidonium majus (Schöllkraut) und seine Wirkstoffe/Toxizität. Quelle 2 ist zu allgemein (Anticancer). Que |
+| WM-DRUG-2138 | Boldoblätter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Boldoblätter (Eucalyptus globulus) zur Behandlung von gastrointestinalen Erkrankungen (ATC A |
+| WM-DRUG-2140 | Tropisetron | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Nur 3 Quellen behandeln Tropisetron explizit; Quelle 1, 2, 4, 6, 10, 11 sind allgemein zu 5-HT3-Antagonisten oder Antiemetika ohne Fokus auf Tropi |
+| WM-DRUG-2141 | Dolasetron | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Dolasetron spezifisch; alle beziehen sich auf die Wirkstoffklasse der 5-HT3-Antagonisten allgemein.) |
 | WM-DRUG-2142 | Dimenhydrinat | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 2, 3 und 4 behandeln Dimenhydrinat explizit. Quelle 1 ist zu allgemein (Nausea/Vomiting in Pregnancy ohne Wirkstofffokus). Da nur 3 Quellen |
+| WM-DRUG-2143 | Thiethylperazin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Thiethylperazine' |
+| WM-DRUG-2144 | Meclozin | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln direkt Meclozin/Cyclizine und seine Anwendung bei Übelkeit/Erbrechen. Quelle 3 ist irrelevant (Chemie), Quelle 4 ist irre |
 | WM-DRUG-2145 | Diphenhydramin | drug | zu viele nur teilweise belegte Sätze (19/46) |
+| WM-DRUG-2147 | Ceriumoxalat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cerium oxalate' |
+| WM-DRUG-2148 | Chlorbutanol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Chlorobutanol' |
+| WM-DRUG-2149 | Metopimazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'metoclopramide' bezieht sich auf einen anderen Wirkstoff als 'Metopimazin'. Keine der Quellen behandelt Metopimazin.) |
 | WM-DRUG-2150 | Triflupromazin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'phenothiazine antipsychotics' |
+| WM-DRUG-2151 | Chlorphenethazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 3 Quellen behandeln Chlorpromazin direkt. Quelle 1 (Metoclopramid) und 2 (allgemeine Phenothiazine) passen nicht spezifisch. Titel 'Chlo |
+| WM-DRUG-2152 | Dronabinol | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Nur Quellen 3 und 7 behandeln explizit Dronabinol. Quelle 1, 2, 4, 8 behandeln Cannabis/Cannabinoide allgemein. Quelle 5, 6, 9, 10 behandeln CBD,  |
+| WM-DRUG-2153 | Nabilon | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Nabilon (ATC A04AD11) oder dessen Indikation (z.B. Übelkeit/Erbrechen bei Chemo). Alle Quellen sind zu allgemein  |
+| WM-DRUG-2154 | Casopitant | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1 (Husten), 3 (Hund) und 4 (Tradipitant/Bewegungskrankheit) behandeln andere Indikationen, Spezies oder Wirkstoffe. Quelle 2, 5 und 6 behan |
+| WM-DRUG-2155 | Rolapitant | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln Antiemetika und passen thematisch. Quelle 3 (OTUD3/Krebs) und 4 (SARS-CoV-2) sind irrelevant. Nur 2 von 4 Quellen passen  |
+| WM-DRUG-2156 | Ingwerwurzelstock | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Ingwerwurzelstock (ATC A04AP01) als Arzneimittelwirkstoff zur Behandlung von Übelkeit/Erbrechen; Quelle 3 behande |
+| WM-DRUG-2159 | Ursodoxicoltaurin | drug | Bestätigungsquote 27/47 unter 60 % |
+| WM-DRUG-2160 | Norucholsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Norocholic acid' |
+| WM-DRUG-2161 | Dehydrocholsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dehydrocholic acid' |
+| WM-DRUG-2162 | Gesamtgallensäuren (Fel tauri) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Gesamtgallensäuren' (ATC A05AA12) ist ein Arzneimittel zur Behandlung von Gallensäuremangel. Die Quellen behandeln primär die |
+| WM-DRUG-2163 | N-(Hydroxymethyl)nicotinamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff im Thema ist N-(Hydroxymethyl)nicotinamid (ATC A05AB01). Die Quellen behandeln Nicotinamide Riboside (NR), einen anderen NAD+- |
+| WM-DRUG-2164 | Schwarzrettichwurzel | drug | zu wenige Quellen mit Zusammenfassung (1) für 'black radish' |
+| WM-DRUG-2165 | Artischockenblätter | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1-3 behandeln die klinischen/pharmakologischen Effekte von Artischockenextrakt (Cynara scolymus) beim Menschen (Leber, Stoffwechsel, allgem |
+| WM-DRUG-2166 | Erdrauchkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'unknown' ist zu allgemein und führt zu Quellen über 'Cancer of Unknown Primary', 'Fever of Unknown Origin' etc., nicht zum  |
+| WM-DRUG-2168 | Curcumawurzelstock | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Curcumawurzelstock' (ATC A05AP07) bezeichnet spezifisch die Indikation 'Cholestase' (Gallengangsstauung). Alle 10 Quelle |
+| WM-DRUG-2169 | Glockenbilsenkrautwurzelstock | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Hyoscyamus niger' |
+| WM-DRUG-2170 | Gundelrebenkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Gundelrebenkraut (Artemisia vulgaris) oder die zugehörige Indikation (ATC A05AP09). Die |
+| WM-DRUG-2171 | Piprozolin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Piperoxan' |
+| WM-DRUG-2172 | Hymecromon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 2 von 4 Quellen behandeln Hymecromon direkt. Quelle 1 ist ein Übersichtsartikel zu Hymecromon, Quelle 3 erwähnt es im Kontext von COVID- |
+| WM-DRUG-2173 | Cyclobutyrol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cyclobutyrol' |
+| WM-DRUG-2174 | Linerixibat | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 4 behandelt explizit den Wirkstoff Linerixibat. Die anderen Quellen behandeln primär Cholangitis oder Pruritus allgemein, ohne Linerixib |
+| WM-DRUG-2175 | Febuprol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Febuprol (ATC A05AX09) oder dessen spezifische Indikation. Alle Titel beziehen sich auf andere  |
+| WM-DRUG-2176 | Fenipentol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'fenpentol' |
+| WM-DRUG-2178 | Argininglutamat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'arginyl glutamate' |
+| WM-DRUG-2180 | Epomediol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Epomediol' |
+| WM-DRUG-2181 | Ornithinoxoglurat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Ornithine alpha-ketoglutarate (Ornithinoxoglurat). Die Quellen behandeln allgemeine Ernährungsinterve |
+| WM-DRUG-2182 | Tidiacicarginin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt Tidiacicarginin (ATC A05BA07, ein Gallensäure-Binder zur Behandlung der primären biliären Cholangitis). Die S |
+| WM-DRUG-2187 | Ornithinaspartat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Ornithinaspartat (ATC A05BA17) oder dessen spezifische Indikation (Hyperammonämie bei Harnstoffzyklusdefekten). Quell |
+| WM-DRUG-2188 | Cianidanol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Cianidanol (Pyrogallol) ist kein Katechin. Die Quellen behandeln Katechine (z.B. EGCG), was ein chemisch anderer Wirkstoff ist. Der Suchbegr |
 | WM-DRUG-2191 | Phospholipide | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine Quelle behandelt Phospholipide als Arzneimittel (essentielle Phospholipide bei Lebererkrankungen); alle befassen sich mit Phospholipiden als |
 | WM-DRUG-2202 | Natriumpicosulfat | drug | Bestätigungsquote 28/48 unter 60 % |
 | WM-DRUG-2218 | Macrogol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Macrogol primär als Arzneimittelwirkstoff (z.B. zur Behandlung von Verstopfung). Quelle 2 und 4 behandeln Allergien g |
