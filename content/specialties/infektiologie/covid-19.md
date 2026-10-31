@@ -37,6 +37,8 @@ corrections: []
 
 # COVID-19
 
+**Klassifikation:** ICD-10-GM: U07.1!, U07.2!; ICD-11: RA01.0, RA01.1
+
 **COVID-19** ist eine durch SARS-CoV-2 verursachte Erkrankung mit sehr variablem Verlauf. Beschwerden reichen von milden Atemwegssymptomen bis zu schweren Verläufen mit Organbeteiligung; auch länger anhaltende Beschwerden können auftreten.[1]
 
 ## Diagnostik und Behandlung

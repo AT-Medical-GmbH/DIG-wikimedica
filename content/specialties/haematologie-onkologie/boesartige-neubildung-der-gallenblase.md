@@ -33,6 +33,8 @@ corrections: []
 
 # Gallenkarzinom
 
+**Klassifikation:** ICD-10-GM: C23
+
 ## Übersicht
 
 Das Gallenkarzinom ist die häufigste maligne Erkrankung der Gallenwege und zeichnet sich durch ein sehr ungünstiges Gesamtüberleben aus, insbesondere wenn es in fortgeschrittenen Stadien diagnostiziert wird.[1] Die Erkrankung ist oft durch ein aggressives biologisches Verhalten gekennzeichnet, und therapeutische Optionen sind bei fortgeschrittener Erkrankung begrenzt.[1] In den meisten Fällen bleibt die Krankheit lange Zeit asymptomatisch, weshalb die Diagnose häufig erst im fortgeschrittenen Stadium oder zufällig (inkidental) nach einer Cholezystektomie wegen vermuteter benigner Gallenwegserkrankungen gestellt wird.[2][1][3] Die globale Inzidenz variiert stark, wobei Risikofaktoren wie Geschlecht, Alter, eine Vorgeschichte von Gallenwegserkrankungen und die Größe von Gallenblasenpolypen das Malignitätsrisiko beeinflussen.[2] Die Behandlung umfasst in der Regel eine radikale Resektion mit Lymphadenektomie sowie adjuvante Therapien, wobei die Prognose stark vom Tumorstadium abhängt und eine frühe Detektion entscheidend für das Langzeitüberleben ist.[2]

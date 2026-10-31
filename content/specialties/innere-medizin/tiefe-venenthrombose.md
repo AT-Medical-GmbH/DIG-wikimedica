@@ -38,6 +38,8 @@ corrections: []
 
 # Tiefe Venenthrombose
 
+**Klassifikation:** ICD-10-GM: I80.2-
+
 > **Medizinisch nicht freigegebener KI-Entwurf.** Fachreview und Sicherheitsprüfung sind vor regulärer Veröffentlichung erforderlich.
 
 Eine **tiefe Venenthrombose (TVT)** ist die Entstehung eines Blutgerinnsels in tiefen Venen, meist der unteren Extremität oder des Beckens. Sie ist Teil des Spektrums der **venösen Thromboembolie (VTE)**; eine wichtige Komplikation ist die **Lungenembolie**. Die Diagnose muss anhand einer strukturierten klinischen Wahrscheinlichkeit und geeigneter Untersuchung gestellt werden, nicht allein anhand einzelner Symptome oder D-Dimere. [1]

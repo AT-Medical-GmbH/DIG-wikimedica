@@ -33,6 +33,8 @@ corrections: []
 
 # Akute Sinusitis
 
+**Klassifikation:** ICD-10-GM: J01.-; ICD-11: CA01
+
 ## Übersicht
 
 Die akute Sinusitis ist eine Entzündung der Schleimhaut der Nasennebenhöhlen.[1] Bakterielle Formen entstehen meist als Komplikation einer viralen Infektion der oberen Atemwege.[1] Die aktualisierte Leitlinie zur Rhinosinusitis von 2025 beschreibt die verschiedenen Stadien der akuten Sinusitis genauer und führt den Begriff der prolongierten akuten viralen Rhinosinusitis ein.[2] Eine korrekte Diagnose gilt dabei als Voraussetzung für eine evidenzbasierte Behandlung.[2]

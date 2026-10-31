@@ -33,6 +33,8 @@ corrections: []
 
 # Konversionsstörung
 
+**Klassifikation:** ICD-10-GM: F44.-
+
 ## Übersicht
 
 Die funktionelle neurologische Störung (FND), im ICD-10-GM unter der Bezeichnung Dissoziative Störungen [Konversionsstörungen] klassifiziert, ist eine häufige und oft behindernde Erkrankung, die in nahezu allen klinischen Settings auftritt.[1][2] Im Gegensatz zur früheren Auffassung als Diagnose der Ausschlussdiagnostik wird FND heute als positive Diagnose verstanden, die auf erkennbaren Mustern genuinely erlebter Symptome und Zeichen basiert.[3][2] Die klinische Präsentation ist phänotypisch heterogen und umfasst motorische, sensorische sowie kognitive Störungen, die nicht willentlich produziert werden.[4][3] Zu den häufigsten Subtypen gehören funktionelle Anfälle und motorische Störungen wie Schwäche oder Bewegungsstörungen.[1][2] Die Pathophysiologie wird durch Abnormalitäten in der Aktivität von Hirnnetzwerken erklärt, wobei eine Fehlkommunikation zwischen verschiedenen Gehirnregionen, die für die Bewegungsgenerierung und das Bewusstsein über die eigene Handlung verantwortlich sind, eine zentrale Rolle spielt.[1][4] Die Behandlung erfordert einen multidisziplinären Ansatz, der rehabilitative und psychotherapeutische Maßnahmen kombiniert, um die Lebensqualität der Betroffenen zu verbessern.[3][2]

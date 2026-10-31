@@ -33,6 +33,8 @@ corrections: []
 
 # Blasenmole
 
+**Klassifikation:** ICD-10-GM: O01.-
+
 ## Übersicht
 
 Die Blasenmole, auch Molenschwangerschaft genannt, ist die häufigste gutartige Form der gestationsbedingten trophoblastischen Erkrankungen.[1] Sie gehört zu einem Spektrum, das von gutartigen Molenschwangerschaften bis zu malignen trophoblastischen Neoplasien reicht.[2] Man unterscheidet die komplette und die partielle Blasenmole, die sich in klinischen, histopathologischen, genetischen und prognostischen Aspekten unterscheiden.[3][1]

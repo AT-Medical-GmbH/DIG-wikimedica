@@ -33,6 +33,8 @@ corrections: []
 
 # Degenerative Erkrankungen des Nervensystems
 
+**Klassifikation:** ICD-10-GM: G31.-
+
 ## Übersicht
 
 Degenerative Erkrankungen des Nervensystems umfassen eine heterogene Gruppe von Störungen, die durch den fortschreitenden Verlust von Neuronen gekennzeichnet sind und zu schweren psychiatrischen Erkrankungen sowie dauerhafter Behinderung führen.[1] Diese Erkrankungen stellen aufgrund globaler demografischer Veränderungen eine erhebliche Herausforderung für die Medizin und die öffentliche Gesundheit dar.[1] Die Pathologie ist extrem komplex und beinhaltet viele pathogene Mechanismen, die an der Initiierung und dem Fortschreiten der Erkrankungen beteiligt sind.[1] Obwohl zahlreiche Therapien zur Behandlung der damit verbundenen Manifestationen zugelassen sind, haben die verfügbaren Medikamente den Fortschritt der neurodegenerativen Erkrankungen bisher nicht kontrollieren können.[1] Dies liegt unter anderem an Faktoren wie der Blut-Hirn-Schranke und unerwünschten arzneimittelbedingten Effekten.[1]

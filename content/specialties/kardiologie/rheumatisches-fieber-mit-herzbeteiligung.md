@@ -33,6 +33,8 @@ corrections: []
 
 # Rheumatisches Fieber mit Herzbeteiligung
 
+**Klassifikation:** ICD-10-GM: I01.-
+
 ## Übersicht
 
 Das rheumatische Fieber ist eine nichteitrige, autoimmune Entzündungserkrankung, die als Spätkomplikation einer Infektion mit Gruppe-A-Streptokokken (GAS) auftritt.[1] Sie kann sich nach einer Pharyngitis oder einer impetiginösen Hautinfektion entwickeln und betrifft vorwiegend Kinder und Jugendliche.[2] Die schwerwiegendste Manifestation ist die rheumatische Herzkrankheit, die durch permanente Schädigung der Herzklappen gekennzeichnet ist und weltweit zu erheblicher Morbidität und Mortalität führt.[2] Die Diagnose stützt sich auf klinische und laborchemische Kriterien, wobei die überarbeiteten Jones-Kriterien die Sensitivität und Spezifität in Hochrisikopopulationen erhöhen.[3] Die Pathogenese wird maßgeblich durch molekulare Mimikry getrieben, bei der die Immunantwort gegen Streptokokkenantigene fälschlicherweise körpereigenes Gewebe, insbesondere Herzklappen, angreift.[4]

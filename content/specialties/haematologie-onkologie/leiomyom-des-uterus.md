@@ -33,6 +33,8 @@ corrections: []
 
 # Uterusmyom
 
+**Klassifikation:** ICD-10-GM: D25.-; ICD-11: 2E86.0
+
 ## Übersicht
 
 Das Leiomyom des Uterus, im klinischen Alltag meist als Uterusmyom bezeichnet, ist der häufigste gutartige Tumor der Gebärmutter.[1] Es handelt sich um eine benigne Neubildung der glatten Muskulatur der Uteruswand, die von winzigen Knoten bis zu großen Raumforderungen reicht.[2] Die Tumoren treten überwiegend in der reproduktiven Lebensphase auf.[2][3] Die Entstehung wird durch hormonelle, genetische und epigenetische Faktoren beeinflusst.[1][2] Als Ausgangspunkt gilt eine östrogenabhängige Tumorbiologie, bei der Progesteron das Wachstum und die Bildung extrazellulärer Matrix fördert.[4][5] Genomweite Assoziationsstudien und Analysen der Chromatinstruktur haben in den letzten Jahren neue Hinweise auf die molekularen Treiber geliefert.[6][1] Die Symptomatik ist variabel und hängt insbesondere von Größe, Anzahl und Lage der Myome ab.[1][2]

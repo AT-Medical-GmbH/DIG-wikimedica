@@ -33,6 +33,8 @@ corrections: []
 
 # Dermatomyositis und Polymyositis
 
+**Klassifikation:** ICD-10-GM: M33.-
+
 ## Übersicht
 
 Je nach Patient können zusätzlich eine Myositis, eine interstitielle Lungenerkrankung und weitere viszerale Organbeteiligungen auftreten.[1] Typisch sind eine proximale Muskelschwäche und charakteristische Hautbefunde, zu denen Gottron-Papeln und das heliotrope Exanthem zählen.[2] In der Literatur werden Dermatomyositis und Polymyositis teilweise gemeinsam betrachtet, etwa in Übersichten zu Wirksamkeit und Sicherheit von JAK-Inhibitoren oder zu körperlicher Belastung.[3][4] Eine klinisch besonders relevante Untergruppe bildet die anti-MDA5-Antikörper-positive Dermatomyositis, die häufig mit einer schnell fortschreitenden interstitiellen Lungenerkrankung (RP-ILD) einhergeht und mit einer hohen Mortalität verbunden ist.[5][6] Für diese Form wird ein schwerer klinischer Phänotyp mit ungünstiger Prognose beschrieben.[7]

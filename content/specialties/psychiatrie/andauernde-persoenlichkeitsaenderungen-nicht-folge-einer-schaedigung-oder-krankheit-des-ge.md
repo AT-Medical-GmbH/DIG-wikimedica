@@ -33,6 +33,8 @@ corrections: []
 
 # Andauernde Persönlichkeitsänderungen
 
+**Klassifikation:** ICD-10-GM: F62.-
+
 ## Übersicht
 
 Diese Veränderungen reichen von subtilen bis hin zu schweren Störungen und sind oft durch eine auffällig schlechte Urteilsfähigkeit sowie Beeinträchtigungen in verschiedenen Lebensbereichen gekennzeichnet.[1] Die Diagnose verdient klinische Aufmerksamkeit, da sie erhebliche Auswirkungen auf das Funktionieren, den Beruf und die Beziehungen der Betroffenen haben kann.[1] Oft wird dieses Syndrom fälschlicherweise als Depression oder Angststörung diagnostiziert, obwohl es sich um ein eigenständiges klinisches Bild handelt.[1] Die zugrunde liegenden Mechanismen umfassen komplexe Prozesse des Lernens und Gedächtnisses, bei denen die Kohärenz von Charakter und Temperament eine zentrale Rolle für das Wohlbefinden spielt.[2]

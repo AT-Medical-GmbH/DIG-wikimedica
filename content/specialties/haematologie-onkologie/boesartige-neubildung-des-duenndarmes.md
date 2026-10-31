@@ -33,6 +33,8 @@ corrections: []
 
 # Dünndarmkarzinom
 
+**Klassifikation:** ICD-10-GM: C17.-
+
 ## Übersicht
 
 Sie machen weniger als 5 % aller gastrointestinalen Karzinome aus.[1] Zu den häufigsten Subtypen zählen Adenokarzinome, gastrointestinale Stromatumoren, neuroendokrine Tumoren und Lymphome.[1] Adenokarzinome und neuroendokrine Tumoren sind jeweils für etwa 40 % der Fälle verantwortlich, wobei die Verteilung der Subtypen geografisch unterschiedlich sein kann.[2] Dünndarmkarzinome zeigen ein heterogenes Verhalten, das unter anderem von Lokalisation, Tumorgröße und histopathologischen Merkmalen beeinflusst wird.[2]

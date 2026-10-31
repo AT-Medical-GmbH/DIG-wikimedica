@@ -33,6 +33,8 @@ corrections: []
 
 # Hirnabszess
 
+**Klassifikation:** ICD-10-GM: G06.-
+
 ## Übersicht
 
 Der Hirnabszess ist eine potenziell lebensbedrohliche intrakranielle Infektion, die sich von einer lokalisierten Enzephalitis (Zerebritis) zu einem gekapselten Hohlraum entwickelt.[1] Er gilt als seltene, aber schwere Infektion.[2] Die Infektionswege lassen sich in eine Ausbreitung von benachbarten Infektionsherden, eine hämatogene Streuung und einen kryptogenen Ursprung einteilen.[1] Da die klassische klinische Trias häufig fehlt, ist die Diagnose allein anhand klinischer Symptome schwierig.[1] Die Behandlung kombiniert eine antimikrobielle Therapie mit einem chirurgischen Vorgehen, das nach Größe, Lage, Krankheitsstadium, neurologischem Zustand und Allgemeinzustand der Patientin oder des Patienten gewählt wird.[1] Ein stadienbasiertes, integriertes Behandlungskonzept gilt als wesentlich für gute klinische Ergebnisse und die Minimierung neurologischer Folgeschäden.[1]

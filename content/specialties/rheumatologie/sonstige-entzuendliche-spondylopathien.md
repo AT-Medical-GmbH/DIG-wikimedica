@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige entzündliche Spondylopathien
 
+**Klassifikation:** ICD-10-GM: M46.-
+
 ## Übersicht
 
 Die Wirbelkörperosteomyelitis (VWO) ist eine schwere, oft schleichend verlaufende Infektion der Wirbelkörper, die häufig mit einer Spondylodiskitis einhergeht.[1] Die Erkrankung betrifft nicht nur das Knochengewebe, sondern kann sich auf den Intervertebralraum, die Facettengelenke und angrenzendes Weichgewebe wie den epiduralen Raum ausbreiten.[1] In den letzten Jahren ist eine Zunahme der Inzidenz zu beobachten, was auf demografische Veränderungen, zunehmende invasive Eingriffe und eine globale Vernetzung zurückgeführt wird.[2] Die Diagnosestellung ist aufgrund der unspezifischen klinischen Präsentation häufig verzögert, was das Risiko für bleibende neurologische Schäden, Sepsis oder Tod erhöht.[3] Eine rasche und präzise Diagnostik ist daher entscheidend, um die Prognose zu verbessern und langfristige Morbidität zu vermeiden.[4]

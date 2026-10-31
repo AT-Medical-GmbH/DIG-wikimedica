@@ -33,6 +33,8 @@ corrections: []
 
 # Störungen durch flüchtige Lösungsmittel (Inhalantien)
 
+**Klassifikation:** ICD-10-GM: F18.-
+
 ## Übersicht
 
 Unter Störungen durch flüchtige Lösungsmittel werden Folgen des Konsums von Substanzen zusammengefasst, die eingeatmet werden, um psychoaktive Wirkungen zu erzielen.[1][2] Der Begriff „Inhalantien“ bezeichnet eine Gruppe, die über den Applikationsweg definiert ist.[3] Üblicherweise werden drei Hauptgruppen unterschieden: flüchtige organische Lösungsmittel, Alkylnitrite und Distickstoffmonoxid (Lachgas).[3][4] Diese Stoffe unterscheiden sich in ihren pharmakologischen Eigenschaften, Konsummustern und Risiken, weshalb einige Autoren die Sammelbezeichnung für nicht mehr sinnvoll halten.[3] Der Gebrauch gilt als ernstes Problem der öffentlichen Gesundheit, über dessen Folgen für Schwangerschaft und frühe Kindheit bislang wenig gesichert ist.[1]

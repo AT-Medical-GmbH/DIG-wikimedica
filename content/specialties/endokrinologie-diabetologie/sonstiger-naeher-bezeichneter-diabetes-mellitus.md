@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstiger Diabetes mellitus
 
+**Klassifikation:** ICD-10-GM: E13.-
+
 ## Übersicht
 
 Der sekundäre Diabetes mellitus, in der ICD-10-GM-Klassifikation als „Sonstiger näher bezeichneter Diabetes mellitus“ geführt, entsteht als direkte Folge einer spezifischen Grunderkrankung oder einer medikamentösen Behandlung.[1] Im Gegensatz zum primären Diabetes mellitus Typ 1 oder Typ 2 steht bei dieser Form die Beseitigung oder Behandlung der zugrunde liegenden Ursache im Vordergrund der Therapie.[1] Die Prävalenz und die pathophysiologischen Mechanismen variieren stark je nach Ätiologie, wobei endokrine Störungen, exokrine Pankreaserkrankungen, Organtransplantationen und spezifische Pharmakotherapien die häufigsten Auslöser darstellen.[1] Die Diagnosestellung erfordert eine sorgfältige Abgrenzung zu anderen Diabetesformen, da die Therapieansätze und die Prognose maßgeblich von der zugrundeliegenden Pathologie abhängen.[1]

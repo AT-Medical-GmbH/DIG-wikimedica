@@ -37,6 +37,8 @@ corrections: []
 
 # Endometriose
 
+**Klassifikation:** ICD-10-GM: N80.-; ICD-11: GA10
+
 Bei **Endometriose** findet sich gebärmutterschleimhautähnliches Gewebe außerhalb der Gebärmutter. Häufig sind zyklusabhängige Schmerzen, Unterbauchbeschwerden, Schmerzen beim Geschlechtsverkehr oder unerfüllter Kinderwunsch, die Ausprägung kann jedoch stark variieren.[1]
 
 ## Diagnostik und Behandlung

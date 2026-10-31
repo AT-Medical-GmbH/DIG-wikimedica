@@ -33,6 +33,8 @@ corrections: []
 
 # Folgen des Schlaganfalls
 
+**Klassifikation:** ICD-10-GM: I69.-
+
 ## Übersicht
 
 Folgen eines Schlaganfalls umfassen motorische und kognitive Defizite, die in der Rehabilitation im Vordergrund stehen.[1] Neben der medikamentösen und operativen Versorgung in der Akutphase spielt die Rehabilitation eine zentrale Rolle in der Schlaganfallversorgung.[1] Schlaganfall gilt außerdem als häufigste Ursache langfristiger Behinderung.[2]

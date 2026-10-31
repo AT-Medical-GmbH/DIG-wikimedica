@@ -37,6 +37,8 @@ corrections: []
 
 # Metabolische dysfunktionsassoziierte steatotische Lebererkrankung (MASLD)
 
+**Klassifikation:** ICD-10-GM: K76.0
+
 **MASLD** bezeichnet eine Fettlebererkrankung bei gleichzeitig mindestens einem kardiometabolischen Risikofaktor und ohne schädlichen Alkoholkonsum. Das Spektrum reicht von Steatose über metabolische dysfunktionsassoziierte Steatohepatitis (MASH) bis zu Fibrose, Zirrhose und hepatozellulärem Karzinom.[1]
 
 ## Risikofaktoren und Diagnostik

@@ -37,6 +37,8 @@ corrections: []
 
 # Eisenmangelanämie
 
+**Klassifikation:** ICD-10-GM: D50.-; ICD-11: 3A00
+
 Eine **Eisenmangelanämie** entsteht, wenn der Eisenbedarf oder Eisenverlust die verfügbare Eisenmenge übersteigt und die Hämoglobinbildung beeinträchtigt wird. Häufige Ursachen sind Blutverluste, erhöhter Bedarf oder eine gestörte Aufnahme.[1]
 
 ## Diagnostik und Behandlung

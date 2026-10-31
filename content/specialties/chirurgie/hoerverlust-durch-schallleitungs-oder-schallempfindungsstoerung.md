@@ -33,6 +33,8 @@ corrections: []
 
 # Hörverlust durch Schallleitungs- oder Schallempfindungsstörung
 
+**Klassifikation:** ICD-10-GM: H90.-
+
 ## Übersicht
 
 Hörverlust ist eine häufige und komplexe Erkrankung, die in jedem Alter auftreten und sowohl erbliche als auch erworbene Ursachen haben kann.[1] Er beeinträchtigt den Zugang zur gesprochenen Sprache, was sich negativ auf die Kognition, die Entwicklung und das soziale Wohlbefinden auswirken kann.[2] Die globale Prävalenz von Hörverlust ist hoch und nimmt mit der Alterung der Bevölkerung weiter zu.[2] Eine präzise ätiologische Diagnose ist entscheidend, da sie das klinische Management beeinflusst, die Prognosegenauigkeit verbessert und die genetische Beratung für betroffene Familien ermöglicht.[1] Die Unterscheidung zwischen Schallleitungs- und Schallempfindungsstörungen ist der erste Schritt im diagnostischen Prozess, da sie die weitere Abklärung und Therapie steuert.[3]

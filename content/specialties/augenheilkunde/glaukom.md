@@ -37,6 +37,8 @@ corrections: []
 
 # Glaukom
 
+**Klassifikation:** ICD-10-GM: H40.-; ICD-11: 9C61
+
 Das **Glaukom** umfasst Erkrankungen mit Schädigung des Sehnervs, häufig im Zusammenhang mit erhöhtem Augeninnendruck. Ein chronisches Glaukom kann lange unbemerkt bleiben und das Gesichtsfeld schädigen.[1]
 
 ## Diagnostik und Behandlung

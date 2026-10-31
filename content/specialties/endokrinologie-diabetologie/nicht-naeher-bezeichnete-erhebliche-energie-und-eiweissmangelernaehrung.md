@@ -33,6 +33,8 @@ corrections: []
 
 # Protein-Energie-Mangelernährung
 
+**Klassifikation:** ICD-10-GM: E43
+
 ## Übersicht
 
 Die nicht näher bezeichnete erhebliche Energie- und Eiweißmangelernährung ist ein klinisches Syndrom, das durch einen Mangel an makro- und mikronutrientenbedingter Zufuhr sowie durch daraus resultierende physiologische Störungen gekennzeichnet ist.[1] Sie führt zu einem signifikanten Verlust an Körpermasse, einschließlich Muskel- und Fettgewebe, und ist mit einer erhöhten Morbidität und Mortalität verbunden.[2][1] Die Erkrankung stellt ein erhebliches Public-Health-Problem dar, das insbesondere durch den demografischen Wandel und die Alterung der Bevölkerung an Bedeutung gewinnt.[3] Eine adäquate medizinische Ernährungstherapie, die durch qualifizierte Ernährungsberaterinnen oder -berater geleitet wird, kann einige klinische Endpunkte bei stationären Patientinnen und Patienten verbessern, wobei die Evidenzlage für ambulante Settings und viele weitere Parameter als unsicher gilt.[2]

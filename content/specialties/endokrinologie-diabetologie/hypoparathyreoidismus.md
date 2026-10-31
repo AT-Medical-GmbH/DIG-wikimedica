@@ -33,6 +33,8 @@ corrections: []
 
 # Hypoparathyreoidismus
 
+**Klassifikation:** ICD-10-GM: E20.-; ICD-11: 5A50
+
 ## Übersicht
 
 Der Hypoparathyreoidismus ist eine seltene endokrine Erkrankung, die durch eine unzureichende Sekretion des Parathormons (PTH) und daraus resultierende Hypokalzämie gekennzeichnet ist.[1] Die Diagnose stützt sich biochemisch auf den Nachweis von niedrigem Serumkalzium bei gleichzeitig inadäquat niedrigen oder normalen PTH-Spiegeln.[1] Die Erkrankung führt zu einer Vielzahl von akuten und chronischen Komplikationen, die das kardiovaskuläre System, das Skelett, die Nieren und das zentrale Nervensystem betreffen.[2] Die Therapie zielt darauf ab, die Kalziumhomöostase wiederherzustellen, Symptome zu kontrollieren und langfristige Organschäden zu verhindern.[3] Während die konventionelle Therapie mit Kalzium und aktivem Vitamin D weiterhin erste Wahl ist, stellt die PTH-Substitutionstherapie mit Palopegteriparatide eine wichtige neue Option dar, insbesondere wenn die konventionelle Behandlung unzureichend wirkt oder nicht vertragen wird.[1]

@@ -33,6 +33,8 @@ corrections: []
 
 # Arterielle Embolie und Thrombose
 
+**Klassifikation:** ICD-10-GM: I74.-
+
 ## Übersicht
 
 Im Gegensatz zu venösen thromboembolischen Ereignissen, die primär durch Stase und Hyperkoagulabilität geprägt sind, basiert die arterielle Thrombose maßgeblich auf der Exposition von Atheromen und der daraus resultierenden Aktivierung von Thrombozyten sowie der Gerinnungskaskade.[1] Dieser Prozess führt zur Bildung eines thrombozytenreichen Thrombus, der den Blutfluss unterbrechen und zu ischämischen kardiovaskulären Ereignissen wie Myokardinfarkt oder ischämischem Schlaganfall führen kann.[2][1] Die Pathophysiologie umfasst ein komplexes Zusammenspiel zwischen Gefäßwand, Thrombozyten und Gerinnungsfaktoren, wobei endogene antithrombotische Mechanismen normalerweise ein Gleichgewicht aufrechterhalten.[1] Störungen dieses Gleichgewichts durch kardiovaskuläre Risikofaktoren oder systemische Entzündungszustände können die Balance in Richtung eines prothrombotischen Zustands verschieben.[1]

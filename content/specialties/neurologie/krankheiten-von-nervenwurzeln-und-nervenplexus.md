@@ -33,6 +33,8 @@ corrections: []
 
 # Krankheiten der Nervenwurzeln und Plexus
 
+**Klassifikation:** ICD-10-GM: G54.-
+
 ## Epidemiologie
 
 Nichttraumatische Nackenschmerzen zählen zu den häufigsten Gründen für die Inanspruchnahme medizinischer Versorgung und sind eine der führenden Ursachen für globale Behinderungsjahre.[1] Fast die Hälfte der Betroffenen leidet unter anhaltenden oder rezidivierenden Symptomen.[2] Für chirurgisch definierte Fälle liegen die jährlichen Inzidenzraten zwischen 0,3 und 2,7 pro 1000 Personen, während klinische Definitionen Werte von 0,1 bis 298,3 pro 1000 Personen aufweisen können.[3] Die Prävalenz von lumbalen Schmerzen mit Ausstrahlung unter das Knie liegt in der Allgemeinbevölkerung zwischen 9,9 % und 25 %.[4]

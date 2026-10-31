@@ -33,6 +33,8 @@ corrections: []
 
 # Dekubitus und Druckzone
 
+**Klassifikation:** ICD-10-GM: L89.-
+
 ## Übersicht
 
 Dekubitalgeschwüre werden in der Fachliteratur meist als Druckulzera oder Druckverletzungen (englisch pressure ulcer bzw. pressure injury) bezeichnet.[1][2] Es handelt sich um lokalisierte Schädigungen der Haut, des darunterliegenden Gewebes oder beider.[1] Ausgelöst werden sie durch Druck- und Scherkräfte, die einen entzündlichen Prozess in Gang setzen und Veränderungen der zytoskelettalen Struktur der Zellen bewirken.[3] Prävention und Behandlung zielen auf die Optimierung von Flüssigkeitshaushalt, Durchblutung und Ernährung.[1] Zu den Maßnahmen gehören Risikobewertung, Lagerung, Hautpflege, Ernährung und die Auswahl geeigneter Lagerungsoberflächen.[4][5] Prävention wird in der Literatur als komplexe Intervention verstanden, die aus evidenzbasierten Maßnahmenpaketen (Bundles) besteht.[6] Internationale Leitlinien zur Prävention und Behandlung von Druckulzera wurden in den Auflagen 2009, 2014 und 2019 veröffentlicht und werden weltweit breit rezipiert.[7]

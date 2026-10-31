@@ -33,6 +33,8 @@ corrections: []
 
 # Somatoforme Störungen
 
+**Klassifikation:** ICD-10-GM: F45.-
+
 ## Übersicht
 
 Somatoforme Störungen, im ICD-10-GM-Kontext oft unter der Bezeichnung somatoforme Störungen oder in der neueren Terminologie als somatische Symptomstörungen (SSD) zusammengefasst, zählen zu den häufigsten psychischen Erkrankungen.[1] Störungen in der Emotionsregulation gelten als zentraler Faktor in der Ätiologie und Pathogenese dieser Krankheitsbilder.[1] Die klinische Präsentation ist heterogen und umfasst ein breites Spektrum an Symptomen, wobei die Terminologie in der Literatur zwischen Begriffen wie Somatisierung, funktionelle Störungen und unexplained symptoms variiert.[2]

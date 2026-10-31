@@ -37,6 +37,8 @@ corrections: []
 
 # Nephrotisches Syndrom
 
+**Klassifikation:** ICD-10-GM: N04.-; ICD-11: GB41
+
 Das **nephrotische Syndrom** beschreibt eine Konstellation aus ausgeprägter Eiweißausscheidung über den Urin, erniedrigtem Serumalbumin und häufig Ödemen. Es kann unterschiedliche glomeruläre Ursachen haben und ist von einer Ursache-bezogenen Erkrankung abzugrenzen.[1]
 
 ## Diagnostik und Behandlung

@@ -33,6 +33,8 @@ corrections: []
 
 # Oberflächliche Erfrierung
 
+**Klassifikation:** ICD-10-GM: T33.-; ICD-11: NE40
+
 ## Übersicht
 
 Oberflächliche Erfrierungen zählen zu den kältebedingten Gewebeschäden, die durch Exposition gegenüber niedrigen Temperaturen entstehen und zu einer signifikanten Morbidität in kalten Klimazonen sowie in großen Höhen führen.[1] Die direkte Wirkung subzero-Temperaturen führt zu einer Gewebefröstelung, Elektrolytverschiebungen, pH-Veränderungen und mikrovaskulären Schäden, die im weiteren Verlauf zum Zelltod führen.[1] Nach dem Wiederaufwärmen kann es durch eine entzündliche Reperfusionsschädigung und Thrombosen zu weiteren Gewebeschäden kommen.[1] Die Behandlung umfasst das rasche Wiederaufwärmen in warmem Wasser, die Vermeidung eines erneuten Einfrierens der aufgetauten Gewebe, Wundverbände und den Einsatz von nicht-steroidalen Antirheumatika.[2] Bei schwereren Verläufen können thrombolytische Verfahren oder die Gabe von Iloprost den Gewebeerhalt verbessern.[2][3]

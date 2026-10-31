@@ -33,6 +33,8 @@ corrections: []
 
 # Nichtinfektiöse Erkrankungen der Lymphgefäße und Lymphknoten
 
+**Klassifikation:** ICD-10-GM: I89.-
+
 ## Übersicht
 
 Lymphödeme sind chronische Zustände, die durch einen Anstau eiweißreicher Flüssigkeit im Interstitium gekennzeichnet sind und zu Schwellungen sowie strukturellen Gewebeveränderungen führen.[1] Sie werden in primäre und sekundäre Formen unterteilt.[2][3] Die Erkrankung gilt als verbreitet, belastend und derzeit nicht heilbar, weshalb ein langfristiges Management erforderlich ist.[4][5] Für Gesundheitsfachpersonen ist die sichere Abgrenzung gegenüber anderen Schwellungszuständen von zentraler Bedeutung, da sich die Behandlungsstrategien unterscheiden.[2][3]

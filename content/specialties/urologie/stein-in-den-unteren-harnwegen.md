@@ -33,6 +33,8 @@ corrections: []
 
 # Steine in den unteren Harnwegen
 
+**Klassifikation:** ICD-10-GM: N21.-; ICD-11: GB71
+
 ## Übersicht
 
 Steine in den unteren Harnwegen, klinisch als Blasensteine bezeichnet, machen etwa fünf Prozent aller Harnsteinerkrankungen aus.[1] Die Entstehung ist häufig mit einer Harnabflussbehinderung, Infektionen, Fremdkörpern oder einer neurogenen Blasenentleerungsstörung verbunden.[1] In Entwicklungsländern sind Blasensteine bei Kindern mit intakter Blase endemisch und stellen ein erhebliches Arbeitsvolumen in der pädiatrischen Urologie dar.[2] Bei Erwachsenen, insbesondere Männern, treten Blasensteine oft in Kombination mit einer benignen Prostatahyperplasie auf.[3] Die Diagnostik erfolgt primär durch bildgebende Verfahren, während die Therapie zunehmend auf minimalinvasive, laserbasierte Techniken setzt.[1]

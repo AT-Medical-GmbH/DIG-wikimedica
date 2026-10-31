@@ -37,6 +37,8 @@ corrections: []
 
 # Fibromyalgiesyndrom
 
+**Klassifikation:** ICD-10-GM: M79.7-
+
 Das **Fibromyalgiesyndrom** ist durch chronische, generalisierte Schmerzen mit weiteren Beschwerden wie Schlafstörungen, Erschöpfung oder kognitiven Beeinträchtigungen gekennzeichnet. Die Diagnose ist klinisch und setzt den Ausschluss relevanter Differenzialdiagnosen voraus.[1]
 
 ## Diagnostik und Behandlung

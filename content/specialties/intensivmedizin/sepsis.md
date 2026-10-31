@@ -37,6 +37,8 @@ corrections: []
 
 # Sepsis
 
+**Klassifikation:** ICD-10-GM: A41.-
+
 **Sepsis** ist eine lebensbedrohliche Organdysfunktion infolge einer fehlregulierten Wirtsantwort auf eine Infektion. Sie kann sich rasch entwickeln und benötigt unverzügliche medizinische Diagnostik und Behandlung.[1]
 
 ## Diagnostik und Behandlung

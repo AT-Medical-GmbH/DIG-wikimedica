@@ -33,6 +33,8 @@ corrections: []
 
 # Nasenpolypen
 
+**Klassifikation:** ICD-10-GM: J33.-; ICD-11: CA0J
+
 ## Übersicht
 
 Es handelt sich um eine chronisch-entzündliche Erkrankung der oberen Atemwege, die durch eine Typ-2-Immunantwort gekennzeichnet ist.[1][2] Häufig treten Begleiterkrankungen der unteren Atemwege und allergologische Erkrankungen auf, insbesondere Asthma, allergische Rhinitis und die NSAR-Exazerbationskrankheit (N-ERD).[1] Die Erkrankung gilt als verbreitet und belastend, sowohl für die Betroffenen als auch für das Gesundheitssystem.[3] Die Lebensqualität kann bei schwerem, unzureichend kontrolliertem Verlauf deutlich beeinträchtigt sein.[4] Das Management umfasst mehrere Fachrichtungen, zu denen Hals-Nasen-Ohren-Heilkunde, Allergologie, Pneumologie, Hausarztmedizin, Pharmazie und Pädiatrie gehören.[3] Die Behandlung hat sich von einer überwiegend symptomatischen medikamentös-chirurgischen Strategie hin zu einer stärker individualisierten Präzisionsmedizin entwickelt, die sich auf das Verständnis molekularer Entzündungsendotypen stützt.[1]

@@ -33,6 +33,8 @@ corrections: []
 
 # Schenkelhalsfraktur und Schenkelhalsfraktur
 
+**Klassifikation:** ICD-10-GM: S72.-; ICD-11: NC72
+
 ## Übersicht
 
 Schenkelhalsfrakturen gehören zu den häufigsten orthopädischen Traumata, insbesondere in der geriatrischen Bevölkerung, wo sie mit einer hohen Rate an Komplikationen und einem herausfordernden Rehabilitationsverlauf verbunden sind.[1] Die Diagnosestellung profitiert zunehmend von digitalen Hilfsmitteln; Metaanalysen zeigen, dass künstliche Intelligenz bei der Identifizierung akuter traumatischer Femurfrakturen eine diagnostische Leistung aufweist, die nahe an der von menschlichen Experten liegt.[2] Die Integration von KI-Systemen kann insbesondere die Genauigkeit von Nicht-Experten signifikant verbessern, während die Leistung von Experten durch KI-Unterstützung nur marginal steigt.[2] In der klinischen Versorgung spielen elektronische Behandlungswege eine wichtige Rolle, da sie statistisch signifikante Verbesserungen bei der Zeit bis zur Operation und der Krankenhausverweildauer bewirken können.[3]

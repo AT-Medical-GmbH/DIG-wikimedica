@@ -33,6 +33,8 @@ corrections: []
 
 # Systemisches inflammatorisches Response-Syndrom
 
+**Klassifikation:** ICD-10-GM: R65.-!
+
 ## Übersicht
 
 Das systemische inflammatorische Response-Syndrom (SIRS) stellt eine gefährliche Komplikation dar, die im klinischen Kontext durch eine überschießende Immunreaktion gekennzeichnet ist.[1] Es handelt sich um einen pathophysiologischen Zustand, der durch eine komplexe Interaktion von Entzündungsmediatoren und zellulären Schäden entsteht.[2] Die Diagnosestellung und das Management erfordern ein tiefes Verständnis der zugrundeliegenden Mechanismen, da SIRS ein Vorläuferzustand schwerwiegender Komplikationen wie des Multiorganversagens sein kann.[3] In der urologischen Praxis, insbesondere nach invasiven Eingriffen an den Harnwegen, ist die Vorhersage und Prävention von SIRS von großer klinischer Relevanz.[4]

@@ -37,6 +37,8 @@ corrections: []
 
 # Urolithiasis
 
+**Klassifikation:** ICD-10-GM: N20.-
+
 Unter **Urolithiasis** versteht man Harnsteine im Nierenbeckenkelchsystem, Harnleiter oder weiteren Harnwegen. Sie können asymptomatisch sein oder kolikartige Schmerzen, Hämaturie, Infektionen und Harnabflussstörungen verursachen.[1]
 
 ## Diagnostik und Behandlung

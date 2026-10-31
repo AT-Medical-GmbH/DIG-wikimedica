@@ -33,6 +33,8 @@ corrections: []
 
 # Bauch- und Beckenschmerzen
 
+**Klassifikation:** ICD-10-GM: R10.-
+
 ## Übersicht
 
 Bauch- und Beckenschmerzen stellen ein breites klinisches Spektrum dar, dessen Differentialdiagnosen je nach Altersgruppe und klinischem Kontext variieren.[1][2] Bei Kindern ist die Spannbreite der pathologischen Ursachen weit, wobei die Fähigkeit zur genauen Beschreibung der Schmerzen oft eingeschränkt ist, was eine diagnostische Bildgebung häufig erforderlich macht.[1] Im Erwachsenenalter umfasst das Spektrum sowohl akute, nicht lokalisierte Schmerzen als auch chronische Verläufe, die durch unspezifische Symptome gekennzeichnet sind und oft zu verzögerten Diagnosen führen.[3][2] Die Diagnostik stützt sich auf evidenzbasierte Leitlinien, die bildgebende Verfahren und klinische Algorithmen zur Risikobewertung und Ursachenklärung integrieren.[1][2] Bei chronischen Schmerzen steht die Vermeidung von Iatrogenese im Vordergrund, wobei ein biopsychosoziales Verständnis der Schmerzverarbeitung und eine multidisziplinäre Herangehensweise empfohlen werden.[4]

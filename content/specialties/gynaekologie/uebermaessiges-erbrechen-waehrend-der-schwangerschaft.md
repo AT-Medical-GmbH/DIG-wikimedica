@@ -33,6 +33,8 @@ corrections: []
 
 # Übelkeit und Erbrechen in der Schwangerschaft
 
+**Klassifikation:** ICD-10-GM: O21.-; ICD-11: JA60
+
 ## Übersicht
 
 Hyperemesis gravidarum (HG) bezeichnet Übelkeit und Erbrechen in der Schwangerschaft, die so ausgeprägt sind, dass sie zu Gewichtsverlust, Dehydratation, Elektrolytstörungen und Nährstoffmangel führen.[1] Übelkeit und Erbrechen in der Schwangerschaft (NVP) sind in der Frühschwangerschaft verbreitet, zeigen jedoch ein breites Spektrum hinsichtlich Dauer und Schwere; HG stellt das schwere Ende dieses Spektrums dar.[2] Betroffene können körperlich und psychisch so stark beeinträchtigt sein, dass ein erhöhtes Risiko für einen Schwangerschaftsabbruch trotz gewünschter Schwangerschaft sowie für Suizidgedanken besteht.[1] Die verbreitete Annahme, die Erkrankung sei selbstlimitierend, führt nach den vorliegenden Quellen dazu, dass Betroffene nicht ernst genommen werden und der Zugang zu angemessener Versorgung erschwert ist.[1] Eine objektive Beurteilung des Schweregrades und des Hydratations- und Ernährungsstatus sowie eine angemessene Behandlung können körperliche und psychische Verschlechterungen vermeiden und die Lebensqualität erhalten.[2]

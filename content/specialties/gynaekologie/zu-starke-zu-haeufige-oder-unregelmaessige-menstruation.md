@@ -33,6 +33,8 @@ corrections: []
 
 # Starke Menstruationsblutungen
 
+**Klassifikation:** ICD-10-GM: N92.-
+
 ## Übersicht
 
 Die starke Menstruationsblutung (Heavy Menstrual Bleeding, HMB) ist definiert als übermäßiger Menstruationsblutverlust, der die Lebensqualität beeinträchtigt, unabhängig von der absoluten Blutmenge.[1] In der Literatur werden neben HMB auch die Begriffe Menorrhagie und abnorme uterine Blutung verwendet, die vor allem bei Adoleszenten vorkommen.[2] Viele Betroffene werden durch die Gesundheitsversorgung unzureichend behandelt.[3]

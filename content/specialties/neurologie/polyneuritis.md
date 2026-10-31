@@ -33,6 +33,8 @@ corrections: []
 
 # Polyneuropathien
 
+**Klassifikation:** ICD-10-GM: G61.-; ICD-11: 8C01
+
 ## Übersicht
 
 Die chronisch entzündliche demyelinisierende Polyneuropathie (CIDP) ist eine seltene, erworbene, immunvermittelte Erkrankung der peripheren Nerven, die durch eine entzündliche Demyelinisierung zu Behinderung führt.[1][2] Sie wird auch als chronisch entzündliche demyelinisierende Polyradikuloneuropathie bezeichnet und gilt als prototypische chronisch entzündliche Polyneuropathie.[3] Die Diagnose stützt sich auf gut definierte klinische und elektrodiagnostische Kriterien, obwohl bislang keine Biomarker etabliert sind und die Pathogenese nicht vollständig verstanden ist.[3] Unter den chronischen immunvermittelten Neuropathien ist die CIDP die häufigste.[4] Die Erkrankung belastet Betroffene körperlich und psychosozial, unter anderem durch eingeschränkte körperliche Funktion, Schmerzen und Depression.[2] Zudem verursacht sie hohe direkte Behandlungskosten und indirekte Kosten durch eine verminderte Produktivität.[2]

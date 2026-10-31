@@ -37,6 +37,8 @@ corrections: []
 
 # Transitorische ischämische Attacke
 
+**Klassifikation:** ICD-10-GM: G45.-
+
 Eine **transitorische ischämische Attacke (TIA)** ist eine vorübergehende neurologische Funktionsstörung durch zerebrale Ischämie ohne nachweisbaren akuten Infarkt. Sie ist ein Warnereignis für einen Schlaganfall.[1]
 
 ## Dringlichkeit

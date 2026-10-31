@@ -37,6 +37,8 @@ corrections: []
 
 # Akne vulgaris
 
+**Klassifikation:** ICD-10-GM: L70.-; ICD-11: ED80
+
 Die **Akne vulgaris** ist eine häufige, entzündliche Erkrankung der Talgdrüsenfollikel. Komedonen sowie entzündliche Papeln, Pusteln oder Knoten treten vor allem an Gesicht, Rücken und Brust auf.[1]
 
 ## Diagnostik und Behandlung

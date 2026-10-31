@@ -33,6 +33,8 @@ corrections: []
 
 # Knieluxation und Kniebandverletzungen
 
+**Klassifikation:** ICD-10-GM: S83.-
+
 ## Übersicht
 
 Akute Knieverletzungen werden in Klinik und Sportmedizin häufig beobachtet und können operativ oder nicht operativ behandelt werden.[1] Der Verletzungsmechanismus und die Reihenfolge, in der Strukturen verletzt werden, werden dabei meist nicht berücksichtigt.[2] Eine Korrelation mit Knieluxationen fehlt in den bisher beschriebenen Systemen ebenfalls.[2] Für die Einordnung eines Befundes sind daher klinische Untersuchung, Bildgebung und Verlauf gemeinsam heranzuziehen.[1]

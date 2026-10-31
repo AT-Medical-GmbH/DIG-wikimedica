@@ -33,6 +33,8 @@ corrections: []
 
 # Rezidivierende depressive Störung
 
+**Klassifikation:** ICD-10-GM: F33.-; ICD-11: 6A71
+
 ## Übersicht
 
 Die rezidivierende depressive Störung ist durch wiederkehrende Episoden einer Major Depression gekennzeichnet, wobei zwischen den Episoden eine weitgehende Symptomfreiheit oder eine Rückkehr zum vorherigen Funktionsniveau erwartet wird.[1] Im Gegensatz zu einer einzelnen depressiven Episode ist der Verlauf der rezidivierenden Form oft chronifiziert und mit einer hohen Gesamtlast für die betroffene Person verbunden.[2] Die Erkrankung gilt als eine der häufigsten Ursachen für Behinderungen weltweit und geht mit erheblichen Einschränkungen in der schulischen, beruflichen und sozialen Funktionsfähigkeit einher.[3] Für die klinische Praxis ist die Unterscheidung zwischen einer ersten Episode und einem rezidivierenden Verlauf entscheidend, da sich die Therapieziele und die Dauer der Behandlung signifikant unterscheiden.[4] Während bei der ersten Episode oft eine akute Behandlung im Vordergrund steht, liegt der Fokus bei rezidivierenden Verläufen primär auf der Prävention weiterer Rückfälle und der langfristigen Stabilisierung.[5]

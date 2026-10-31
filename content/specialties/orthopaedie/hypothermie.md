@@ -33,6 +33,8 @@ corrections: []
 
 # Unterkühlung
 
+**Klassifikation:** ICD-10-GM: T68; ICD-11: NF02
+
 ## Übersicht
 
 Die akzidentelle Hypothermie ist definiert als ein unbeabsichtigter Abfall der Kerntemperatur unter 35 °C und kann zu jeder Jahreszeit sowie in jedem Klima auftreten.[1] Sie betrifft alle Altersgruppen und stellt eine lebensbedrohliche Situation dar, bei der die thermoregulatorischen Mechanismen des Körpers versagen.[1] Die Inzidenz variiert stark in der Literatur und hängt von biologischer Anfälligkeit, sozialen Bedingungen und der Exposition gegenüber Umweltfaktoren ab.[1] Die Behandlung erfordert ein strukturiertes Vorgehen, das auf der sogenannten „Hypothermie-Kette des Überlebens“ basiert: Verhinderung weiterer Abkühlung, schonende Handhabung des Patienten, Sicherung der Atemwege und Kreislaufsupport sowie die Auswahl des richtigen Zielkrankenhauses.[1] Die Prognose ist variabel und hängt von mehreren Faktoren ab, wobei ein Herz-Kreislauf-Stillstand der entscheidende Determinant für das Outcome ist.[1]

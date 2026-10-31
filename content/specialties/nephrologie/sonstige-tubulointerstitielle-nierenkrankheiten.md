@@ -33,6 +33,8 @@ corrections: []
 
 # Tubulointerstitielle Nephritis
 
+**Klassifikation:** ICD-10-GM: N15.-
+
 ## Übersicht
 
 Die akute tubulointerstitielle Nephritis (ATIN) ist eine immunvermittelte Erkrankung, die durch ein entzündliches Infiltrat im Tubulointerstitium der Niere und eine Schädigung der Tubuli gekennzeichnet ist.[1][2] Das Infiltrat besteht überwiegend aus T-Lymphozyten, daneben können Makrophagen, neutrophile oder eosinophile Granulozyten vorkommen.[1] Aus immunologischer Sicht wird eine Typ-IV-Überempfindlichkeitsreaktion als zentraler Mechanismus angesehen, wobei gemischte Überempfindlichkeitsreaktionen ebenfalls beteiligt sein können.[2][3] Die Erkrankung ist selten und gilt als immunbedingt.[4] Gleichwohl wird sie als wichtige Ursache eines akuten Nierenversagens beschrieben, deren rechtzeitige Erkennung entscheidend ist, um eine bleibende Nierenschädigung zu verhindern.[2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Alkoholische Lebererkrankung
 
+**Klassifikation:** ICD-10-GM: K70.-; ICD-11: DB94
+
 ## Übersicht
 
 Die alkoholische Lebererkrankung (ALD) umfasst ein klinisch-histologisches Spektrum, das von der Fettleber über die alkoholische Hepatitis bis zur Zirrhose mit ihren Komplikationen reicht.[1][2] Die Diagnose setzt die Dokumentation eines chronischen, starken Alkoholkonsums voraus und erfordert den Ausschluss anderer Ursachen einer Lebererkrankung.[1] Die anhaltende Abstinenz gilt als wirksamste Strategie, um das Fortschreiten der Erkrankung zu verhindern.[1] Eine gezielte medikamentöse Therapie steht nach einer Übersichtsarbeit bislang nicht zur Verfügung.[3] Entsprechend besteht nach einer aktuellen Leitlinie ein klinischer Bedarf an wirksameren und sichereren Therapien.[1]

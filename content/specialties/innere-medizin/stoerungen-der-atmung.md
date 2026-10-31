@@ -33,6 +33,8 @@ corrections: []
 
 # Störungen der Atmung
 
+**Klassifikation:** ICD-10-GM: R06.-; ICD-11: MD11
+
 ## Übersicht
 
 Während einige Formen auf strukturelle oder organische Schäden des Atemsystems zurückzuführen sind, zeichnen sich funktionelle respiratorische Störungen durch das Fehlen einer anatomischen oder organischen Ursache aus.[1] Zu den funktionellen Störungen zählen unter anderem das Hüstelsyndrom, Störungen der Stimmbandfunktion, Hyperventilationssyndrome, funktionelle Dyspnoe und das Seufzersyndrom.[1] Diese Zustände treten insbesondere im pädiatrischen Kontext auf, können aber auch bei Erwachsenen vorkommen und führen häufig zu unnötigen diagnostischen Maßnahmen und medikamentösen Behandlungen, wenn sie nicht korrekt identifiziert werden.[1] Im neurologischen Kontext stellen respiratorische Störungen eine schwerwiegende Komorbidität dar, die mit fortschreitenden neurodegenerativen Erkrankungen wie der Parkinson-Krankheit einhergeht und die Lebensqualität der Betroffenen erheblich beeinträchtigt.[2][3]

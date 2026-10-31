@@ -33,6 +33,8 @@ corrections: []
 
 # Entwicklungsstörungen bei Kindern und Jugendlichen
 
+**Klassifikation:** ICD-10-GM: F89
+
 ## Übersicht
 
 Sie treten häufig auf, beeinträchtigen die Betroffenen deutlich und sind oft mit anderen psychischen Störungen des Kindesalters komorbid.[1] In Interventionsstudien werden unter anderem Kinder mit Down-Syndrom, Entwicklungskoordinationsstörung, Zerebralparese, Autismus-Spektrum-Störung, ADHS, Hörbeeinträchtigung oder intellektueller Beeinträchtigung untersucht.[2] Klinische und genetische Heterogenität erschweren die Identifikation einzelner Ursachen.[3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Störungen der Sexualpräferenz
 
+**Klassifikation:** ICD-10-GM: F65.-
+
 ## Übersicht
 
 Störungen der Sexualpräferenz werden im internationalen Klassifikationssystem ICD-10 als Unterkategorie der Störungen der Erwachsenenpersönlichkeit und des Verhaltens klassifiziert.[1] Jahrhundert durch Werke wie Krafft-Ebings „Psychopathia Sexualis“ geprägt wurde.[1] In der modernen Psychiatrie und Sexualmedizin wird zwischen atypischen sexuellen Interessen und einer daraus resultierenden Störung unterschieden, wobei letztere durch klinisch bedeutsamen Leidensdruck oder Beeinträchtigungen definiert sind.[1] Die Diagnostik und das Verständnis dieser Störungen unterliegen einem ständigen Wandel, der durch gesellschaftliche Normen und wissenschaftliche Erkenntnisse beeinflusst wird.[2] Es besteht ein Konsens darüber, dass eine Entstigmatisierung betroffener Personen notwendig ist, gleichzeitig jedoch der Schutz vulnerabler Gruppen priorisiert werden muss.[1]

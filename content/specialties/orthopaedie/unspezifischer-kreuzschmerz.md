@@ -37,6 +37,8 @@ corrections: []
 
 # Unspezifischer Kreuzschmerz
 
+**Klassifikation:** ICD-10-GM: M54.5; ICD-11: ME84.2
+
 **Unspezifischer Kreuzschmerz** bezeichnet Rückenschmerzen, bei denen keine spezifische, gefährliche oder gezielt behandelbare Ursache nachgewiesen ist. Die Diagnose setzt eine sorgfältige Anamnese und Untersuchung mit Beachtung von Warnzeichen voraus.[1]
 
 ## Diagnostik und Behandlung

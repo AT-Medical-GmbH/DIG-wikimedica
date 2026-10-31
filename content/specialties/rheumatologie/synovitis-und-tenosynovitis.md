@@ -33,6 +33,8 @@ corrections: []
 
 # Synovitis und Tenosynovitis
 
+**Klassifikation:** ICD-10-GM: M65.-
+
 ## Übersicht
 
 Die Diagnosestellung stützt sich auf klinische Beurteilungen sowie bildgebende Verfahren wie die kontrastmittelgestützte Ultraschalluntersuchung (CEUS) und die Magnetresonanztomographie (MRT), wobei beide Modalitäten eine vergleichbare diagnostische Genauigkeit aufweisen.[1] Die Therapie ist ätiologisch divers und reicht von konservativen Maßnahmen wie nichtsteroidalen Antirheumatika über spezifische systemische Therapien bis hin zu chirurgischen Eingriffen oder strahlentherapeutischen Ansätzen bei bestimmten Indikationen.[2][3][4]

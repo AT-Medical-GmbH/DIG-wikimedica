@@ -37,6 +37,8 @@ corrections: []
 
 # Alkoholkonsumstörung
 
+**Klassifikation:** ICD-10-GM: F10.2
+
 Eine **Alkoholkonsumstörung** ist durch Kontrollverlust, fortgesetzten Konsum trotz Schäden und weitere Kriterien einer Abhängigkeit oder eines schädlichen Gebrauchs gekennzeichnet. Sie betrifft psychische, körperliche und soziale Gesundheit.[1]
 
 ## Diagnostik und Behandlung

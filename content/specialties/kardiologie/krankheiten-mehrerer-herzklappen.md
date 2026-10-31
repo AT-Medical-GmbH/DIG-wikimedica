@@ -33,6 +33,8 @@ corrections: []
 
 # Krankheiten mehrerer Herzklappen
 
+**Klassifikation:** ICD-10-GM: I08.-
+
 ## Übersicht
 
 Multivalvuläre Herzklappenerkrankungen sind definiert als das gleichzeitige Vorliegen von stenotischen oder regurgitierenden Läsionen an mehr als einer Herzklappe.[1] Diese Erkrankung ist in den letzten Jahren aufgrund der alternden Bevölkerung häufiger geworden und stellt eine komplexe klinische Herausforderung dar.[1] Die Kombination verschiedener Klappenläsionen verändert die Hämodynamik des Patienten auf einzigartige Weise und kann zu erheblichen hämodynamischen Konsequenzen führen, selbst wenn die einzelnen Läsionen nicht als schwerwiegend eingestuft werden.[1] Die aktuelle Leitlinienlage konzentriert sich primär auf einzelne Klappenerkrankungen; wenn multivalente Erkrankungen behandelt werden, sind die Indikationen oft auf den chirurgischen Eingriff an einer primären Klappe beschränkt, während begleitende Läsionen nur unter bestimmten Umständen adressiert werden.[1] Dennoch ist die frühzeitige Erkennung und das Management dieser Patienten von entscheidender Bedeutung, um das Prognoseprofil zu verbessern, bevor Symptome auftreten oder eine linksventrikuläre Schädigung eintritt.[1]

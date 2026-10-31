@@ -33,6 +33,8 @@ corrections: []
 
 # Laktoseintoleranz
 
+**Klassifikation:** ICD-10-GM: E73.-; ICD-11: 5C61.6
+
 ## Übersicht
 
 Die Laktoseintoleranz ist eine häufige Verdauungsstörung, die auf einer unzureichenden Aktivität des Enzyms Laktase im Dünndarm beruht.[1] Sie tritt auf, wenn unverdaute Laktose in den Dickdarm gelangt, wo sie durch die Darmflora fermentiert wird.[1] Dieser Prozess führt zur Produktion von Gasen und kurzkettigen Fettsäuren, was die typischen gastrointestinalen Symptome verursacht.[1] Die Erkrankung wird oft übersehen oder falsch diagnostiziert, da die Symptomatik anderen Darmerkrankungen ähnelt.[2] Eine korrekte Diagnose ist entscheidend, um unnötige diätetische Einschränkungen und damit verbundene Mangelernährung zu vermeiden.[2]

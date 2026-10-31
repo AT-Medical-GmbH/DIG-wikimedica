@@ -37,6 +37,8 @@ corrections: []
 
 # Primärer Hyperparathyreoidismus
 
+**Klassifikation:** ICD-10-GM: E21.0; ICD-11: 5A51.0
+
 Beim **primären Hyperparathyreoidismus** produzieren eine oder mehrere Nebenschilddrüsen autonom zu viel Parathormon. Dies kann zu einer Hyperkalzämie führen und Knochen, Nieren sowie weitere Organsysteme betreffen.[1]
 
 ## Klinik und Diagnostik

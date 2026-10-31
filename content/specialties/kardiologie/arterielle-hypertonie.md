@@ -54,6 +54,8 @@ corrections: []
 
 # Arterielle Hypertonie
 
+**Klassifikation:** ICD-10-GM: I10.-
+
 Die **arterielle Hypertonie**, umgangssprachlich **Bluthochdruck**, bezeichnet eine anhaltende Erhöhung des arteriellen Blutdrucks. Sie gehört zu den häufigsten modifizierbaren Risikofaktoren für Schlaganfall, koronare Herzkrankheit, Herzinsuffizienz und chronische Nierenschädigung. Die Diagnose wird üblicherweise bei wiederholt gemessenen Praxiswerten von mindestens **140 mmHg systolisch** oder **90 mmHg diastolisch** gestellt; außerhalb der Praxis gelten methodenabhängige Grenzwerte. Ein einzelner erhöhter Wert begründet im Allgemeinen noch keine chronische Hypertoniediagnose.¹ ²
 
 Die Hypertonie ist häufig asymptomatisch. Klinisch relevant ist daher nicht nur die Höhe eines Einzelmesswerts, sondern die langfristige Blutdruckbelastung im Zusammenhang mit weiteren kardiovaskulären Risikofaktoren, bestehenden Organschäden und Komorbiditäten.¹ ²

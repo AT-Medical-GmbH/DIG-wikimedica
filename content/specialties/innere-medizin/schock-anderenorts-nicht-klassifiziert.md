@@ -33,6 +33,8 @@ corrections: []
 
 # Schock Pathophysiologie, Diagnostik und Therapie
 
+**Klassifikation:** ICD-10-GM: R57.-
+
 ## Übersicht
 
 Der zirkulatorische Schock ist ein lebensbedrohlicher Zustand des Kreislaufversagens, der durch eine verminderte Gewebepерфуktion gekennzeichnet ist und dazu führt, dass die Sauerstoffversorgung die metabolischen Bedürfnisse der Zellen nicht mehr decken kann.[1] Diese Situation geht mit einer hohen Morbidität und Mortalität einher und erfordert eine rasche Identifikation sowie eine zeitnahe, adäquate Therapie, um das Outcome zu verbessern.[2] Die Definition des Schocks basiert syndromisch auf Hypotonie in Verbindung mit Gewebehypoperfusion, wobei die Subklassifizierung traditionell nach ätiologischen und hämodynamischen Profilen erfolgt.[3] Die Hauptziele der Behandlung sind die rasche Wiederherstellung und Aufrechterhaltung einer adäquaten Gewebepерфуktion und Oxygenierung.[1]

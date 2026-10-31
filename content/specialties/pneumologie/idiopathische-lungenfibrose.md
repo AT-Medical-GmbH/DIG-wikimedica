@@ -37,6 +37,8 @@ corrections: []
 
 # Idiopathische Lungenfibrose
 
+**Klassifikation:** ICD-10-GM: J84.1-
+
 Die **idiopathische Lungenfibrose (IPF)** ist eine chronisch fortschreitende fibrosierende interstitielle Lungenerkrankung unbekannter Ursache. Sie betrifft überwiegend ältere Erwachsene und kann zu zunehmender Einschränkung des Gasaustauschs führen.[1]
 
 ## Diagnostik und Behandlung

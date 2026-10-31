@@ -33,6 +33,8 @@ corrections: []
 
 # Komplikationen nach Infusion, Transfusion oder Injektion
 
+**Klassifikation:** ICD-10-GM: T80.-
+
 ## Übersicht
 
 Die vorliegenden Quellen betreffen vor allem monoklonale Antikörper, intravenöses Eisen, AAV-basierte Gentherapien und periphere intravenöse Komplikationen.[1][2][3][4][5] Infliximab ist ein rekombinanter, chimärer monoklonaler IgG-Antikörper gegen Tumornekrosefaktor alpha und kann, wie andere Wirkstoffe fremder Proteinherkunft, sowohl während als auch nach der Infusion Reaktionen auslösen.[1] Rituximab wird sowohl bei B-Zell-Malignomen als auch bei rheumatischen Autoimmunerkrankungen eingesetzt, ist jedoch mit einem erhöhten Risiko allergischer Reaktionen verbunden.[2] Bei intravenösem Eisen sind Infusionsreaktionen und eine Hypophosphatämie die zentralen Sicherheitsaspekte, wobei schwere Hypersensitivitätsreaktionen als selten gelten.[3] Davon abzugrenzen sind lokale Komplikationen wie Infiltrationen und Extravasationen, die bei intravenöser Gabe während operativer Eingriffe auftreten können.[5]

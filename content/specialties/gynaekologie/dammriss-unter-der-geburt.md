@@ -33,6 +33,8 @@ corrections: []
 
 # Dammriss unter der Geburt
 
+**Klassifikation:** ICD-10-GM: O70.-; ICD-11: JB09
+
 ## Übersicht
 
 Die Angaben zur Häufigkeit unterscheiden sich zwischen den Quellen: Eine Übersichtsarbeit nennt, dass etwa neun von zehn Frauen betroffen sind.[1] Eine andere Übersichtsarbeit spricht von bis zu 90 % der Frauen.[2] Eine Analyse zur Kopfgröße des Neugeborenen gibt für Dammrisse insgesamt Anteile zwischen 53 % und 79 % an.[3] Drittgradige und viertgradige Dammrisse werden als obstetrische Analsphinkterverletzungen bezeichnet, und als schwere perineale Risse gelten sie insbesondere dann, wenn der Analsphinkter betroffen ist.[4][3] Die Bandbreite reicht somit von oberflächlichen Verletzungen bis zu Verletzungen des Analsphinkters und der Rektumschleimhaut.[2][3] Eine genaue Diagnose ist Voraussetzung für die Wahl der Reparaturtechnik und der Materialien sowie für die weitere Versorgung.[2]

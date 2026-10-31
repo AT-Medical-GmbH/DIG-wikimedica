@@ -33,6 +33,8 @@ corrections: []
 
 # Diabetes mellitus
 
+**Klassifikation:** ICD-10-GM: E14.-
+
 ## Übersicht
 
 Diabetes mellitus umfasst eine Gruppe metabolischer Erkrankungen, die durch chronisch erhöhte Blutzuckerwerte gekennzeichnet sind.[1] Die Diagnosestellung erfolgt in der Regel anhand spezifischer Glukoseparameter oder des glykierten Hämoglobins (HbA1c).[1] Die Behandlung zielt auf die Verbesserung der glykämischen Kontrolle ab, um akute und chronische Komplikationen zu vermeiden.[2] Ein umfassendes Management erfordert eine individuelle Anpassung der Therapie, die Lebensstiländerungen, medikamentöse Interventionen und regelmäßige Überwachung kombiniert.[2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Plötzlicher Kindstod
 
+**Klassifikation:** ICD-10-GM: R95.-; ICD-11: MH11
+
 ## Übersicht
 
 Der plötzliche Kindstod (englisch SIDS) bezeichnet den plötzlichen, unerwarteten Tod eines Säuglings, für den sich auch nach Untersuchung keine hinreichende Erklärung findet.[1] Er tritt zwischen dem ersten Lebenstag und dem Ende des ersten Lebensjahres auf.[1] Die Diagnose ist eine Ausschlussdiagnose, da die Erkrankung nach aktuellem Kenntnisstand mehrere biologisch unterschiedliche Ursachen umfassen kann.[2] In der Forschung wird der Begriff häufig im größeren Kontext plötzlicher und unerwarteter Todesfälle im Säuglingsalter (SUDI) betrachtet.[3]

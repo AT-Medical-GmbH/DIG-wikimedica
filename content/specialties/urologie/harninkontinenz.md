@@ -37,6 +37,8 @@ corrections: []
 
 # Harninkontinenz
 
+**Klassifikation:** ICD-10-GM: R32
+
 **Harninkontinenz** ist ein unwillkürlicher Urinverlust. Häufige Formen sind Belastungs-, Drang- und Mischinkontinenz; außerdem müssen unter anderem neurologische und funktionelle Ursachen berücksichtigt werden.[1]
 
 ## Diagnostik und Behandlung

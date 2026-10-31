@@ -33,6 +33,8 @@ corrections: []
 
 # Komplikationen bei chirurgischen Eingriffen
 
+**Klassifikation:** ICD-10-GM: T81.-
+
 ## Übersicht
 
 Chirurgische Eingriffe unter Narkose stellen für den menschlichen Organismus eine erhebliche physiologische Belastung dar, wodurch postoperative Komplikationen in bis zu 20 % der Fälle auftreten können.[1] Das Verständnis dieser Komplikationen, einschließlich der Risikobewertung, der Risikominderung, der frühzeitigen Erkennung und der evidenzbasierten Behandlung, ist für die Erbringung einer hochwertigen Gesundheitsversorgung unerlässlich.[1] Die moderne Anästhesiologie entwickelt sich von einer rein intraoperativen Disziplin hin zu einer transversalen, perioperativen Medizin.[2] Im Rahmen dieser Entwicklung gewinnt die präoperative anästhesiologische Konsultation zunehmend an Bedeutung, um Patienten frühzeitig zu kategorisieren und solche mit einem Risiko für kurz-, mittel- und langfristige Komplikationen zu identifizieren.[2] Durch den Einsatz validierter prädiktiver Scores können Anästhesisten eine personalisierte Anästhesie durchführen, die sowohl die Komorbiditäten des Patienten als auch die Art des Eingriffs berücksichtigt.[2] Diese Scores bieten Objektivität und Effizienz, sind in der klinischen Praxis einfach und schnell anwendbar und ermöglichen eine realistischere Aufklärung der Patienten über ihre perioperativen Risiken.[2] Sie tragen zudem zu einer gesundheitspolitischen Strategie bei, die darauf abzielt, Kosten durch die Optimierung des Patientenmanagements und der präoperativen Diagnostik zu senken.[2]

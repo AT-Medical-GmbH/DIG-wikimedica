@@ -40,6 +40,8 @@ corrections: []
 
 # Chronische Herzinsuffizienz
 
+**Klassifikation:** ICD-10-GM: I50.-
+
 > **Redaktioneller Status: Entwurf – keine medizinische Fachfreigabe.** Referenzen sind Quellen für die obligatorische medizinische Nachprüfung. Für Notfälle gilt der lokale Rettungsdienst (Deutschland: 112).
 
 Die **chronische Herzinsuffizienz** ist ein klinisches Syndrom, bei dem strukturelle oder funktionelle Veränderungen des Herzens mit typischen Beschwerden und Zeichen beziehungsweise objektivierbaren Hinweisen auf eine kardiale Funktionsstörung einhergehen. Häufig werden Formen mit reduzierter (**HFrEF**), geringgradig reduzierter (**HFmrEF**) und erhaltener (**HFpEF**) linksventrikulärer Ejektionsfraktion unterschieden. Ein erhaltener EF-Wert schließt eine Herzinsuffizienz nicht aus. [1][2]

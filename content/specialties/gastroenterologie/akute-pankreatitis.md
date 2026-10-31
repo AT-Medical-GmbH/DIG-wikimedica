@@ -37,6 +37,8 @@ corrections: []
 
 # Akute Pankreatitis
 
+**Klassifikation:** ICD-10-GM: K85.-; ICD-11: DC31
+
 Die **akute Pankreatitis** ist eine plötzlich einsetzende Entzündung der Bauchspeicheldrüse. Häufige Ursachen sind biliäre Erkrankungen und Alkoholkonsum; die Abklärung richtet sich auch auf weitere Auslöser und mögliche Komplikationen.[1]
 
 ## Diagnostik und Behandlung

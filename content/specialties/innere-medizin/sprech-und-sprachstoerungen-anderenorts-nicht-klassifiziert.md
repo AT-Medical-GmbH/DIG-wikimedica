@@ -33,6 +33,8 @@ corrections: []
 
 # Sprech- und Sprachstörungen
 
+**Klassifikation:** ICD-10-GM: R47.-
+
 ## Übersicht
 
 Sprech- und Sprachstörungen umfassen ein komplexes Spektrum neurologischer, genetischer und umweltbedingter Dysfunktionen, die die Kommunikationsfähigkeit erheblich beeinträchtigen.[1] Diese Störungen werden klinisch in verschiedene Subgruppen unterteilt, darunter Dysarthrie, Dysphonie, Stottern und Aphasie, wobei jede Entität spezifische neuroanatomische und funktionelle Auffälligkeiten aufweist.[2] Die zugrunde liegenden Mechanismen involvieren eine dynamische Interaktion zwischen kortikalen und subkortikalen Hirnarealen, die für die motorische Planung, die auditive Rückmeldung und die syntaktische Verarbeitung zuständig sind.[1] Moderne diagnostische Ansätze integrieren zunehmend multimodale Bildgebungsverfahren, um sowohl strukturelle als auch funktionelle Abweichungen im Gehirn zu identifizieren.[2] Die Behandlung erfordert einen ganzheitlichen Ansatz, der biologische Faktoren mit psychosozialen Aspekten wie Angst und Depression verbindet, da Komorbiditäten den Verlauf und die Therapieergebnisse maßgeblich beeinflussen können.[1]

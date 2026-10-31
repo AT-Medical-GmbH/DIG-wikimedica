@@ -33,6 +33,8 @@ corrections: []
 
 # Akute disseminierte Enzephalomyelitis
 
+**Klassifikation:** ICD-10-GM: G36.-
+
 ## Übersicht
 
 Die akute disseminierte Enzephalomyelitis (ADEM) ist eine seltene demyelinisierende Erkrankung des zentralen Nervensystems.[1] Sie gilt nach den aktuellen Leitlinien als Teil des Spektrums der Myelin-Oligodendrozyten-Glykoprotein-assoziierten Erkrankungen (MOG-assoziiert).[1] Typischerweise handelt es sich um einen immunvermittelten, entzündlichen Prozess, der Kinder und junge Erwachsene nach einer Infektion oder Impfung betrifft.[2] Die Erkrankung ist in den meisten Fällen monophasisch und unterscheidet sich darin von anderen demyelinisierenden Erkrankungen wie der Multiplen Sklerose und der Neuromyelitis-optica-Spektrum-Erkrankung.[3] Für die klinische Praxis ist die Abgrenzung gegenüber anderen demyelinisierenden Erkrankungen zentral, da eine Verzögerung der passenden Behandlung vermieden werden soll.[1] Die Diagnose stützt sich auf die Kombination aus klinischem Bild, Bildgebung und Laborbefunden.[3] Das Wissen über die ADEM hat sich in den letzten Jahren deutlich weiterentwickelt, insbesondere durch die Verfügbarkeit diagnostischer Tests auf MOG-Antikörper.[4]

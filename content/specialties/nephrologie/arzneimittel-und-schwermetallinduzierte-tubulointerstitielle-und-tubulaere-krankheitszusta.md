@@ -33,6 +33,8 @@ corrections: []
 
 # Arzneimittel- und schwermetallinduzierte Nephropathie
 
+**Klassifikation:** ICD-10-GM: N14.-
+
 ## Übersicht
 
 Die arzneimittelinduzierte Nierenschädigung (DIKI, englisch *drug-induced kidney injury*) bezeichnet eine rasche Verschlechterung der Nierenfunktion oder eine Nierenschädigung durch die toxischen Wirkungen von Arzneimitteln, Chemikalien und Toxinen.[1] Sie begrenzt den Einsatz wichtiger Medikamentengruppen, zu denen Antibiotika, Zytostatika und nichtsteroidale Antirheumatika gehören.[2] Die DIKI kann in ein akutes Nierenversagen, eine chronische Nierenerkrankung oder eine terminale Niereninsuffizienz übergehen.[1] Da die Niere am Arzneimittelstoffwechsel und an der Arzneimittelausscheidung beteiligt ist, gilt sie als besonders anfällig für Schädigungen durch Fremdstoffe.[2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Betreuung bei fetaler Anomalie oder Schädigung in der Schwangerschaft
 
+**Klassifikation:** ICD-10-GM: O35.-
+
 ## Übersicht
 
 Die Betreuung von Schwangeren, bei denen eine Anomalie oder Schädigung des Feten festgestellt oder vermutet wird, umfasst bildgebende Diagnostik, genetische Abklärung, Beratung und, nach der Geburt, gegebenenfalls eine weiterführende Untersuchung des Kindes.[1][2] Die vollständige pränatale Sonographie zwischen 11 und 14 Schwangerschaftswochen kann zur Bestätigung der Vitalität, zur Bestimmung des Gestationsalters und zur Feststellung der Anzahl der Feten beitragen.[1] Bei Mehrlingsschwangerschaften lassen sich in diesem Zeitfenster auch Chorionizität und Amnionizität beurteilen.[1] Zusätzlich bietet die Untersuchung die Möglichkeit, Fehlbildungen zu erkennen und die Nackentransparenz als Marker für ein Aneuploidie-Screening zu messen.[1] Auch die Ultraschalluntersuchung im zweiten Trimenon dient dazu, die fetale Anatomie systematisch zu beurteilen, um Schwangerschaftskomplikationen, fetale Fehlbildungen und genetische Erkrankungen zu erkennen.[3] Die Quellen beschreiben dabei, dass sich das Vorgehen an internationalen und nationalen Leitlinien orientiert.[3]

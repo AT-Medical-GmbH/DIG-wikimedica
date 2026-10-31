@@ -33,6 +33,8 @@ corrections: []
 
 # Vulvakarzinom
 
+**Klassifikation:** ICD-10-GM: C51.-
+
 ## Übersicht
 
 Es macht etwa fünf bis acht Prozent der gynäkologischen Malignome aus.[1] Die große Mehrheit der Tumoren sind Plattenepithelkarzinome.[1][2] Seltener kommen andere Histologien vor, darunter Melanome, extramammäre Morbus-Paget-Erkrankungen, Adenokarzinome der Bartholin-Drüse, verruköse Karzinome, Basalzellkarzinome und Sarkome.[1] Die ESGO-Leitlinie von 2023 gilt ausschließlich für erwachsene Patientinnen mit Plattenepithelkarzinom der Vulva.[2] Die meisten vulvären Neoplasien werden in frühen Stadien diagnostiziert.[1]

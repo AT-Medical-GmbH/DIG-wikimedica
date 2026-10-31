@@ -33,6 +33,8 @@ corrections: []
 
 # Anorektaler Abszess
 
+**Klassifikation:** ICD-10-GM: K61.-
+
 ## Übersicht
 
 Ein anorektaler Abszess ist eine häufige proktologische Notfallsituation, die durch eine eitrige Ansammlung von Material in der Anal- und Rektalregion definiert ist.[1] Die primäre therapeutische Maßnahme zur Sicherung der Infektionskontrolle ist die chirurgische Inzision und Drainage, wobei der Erhalt des Schließmuskels ein komplexes anatomisches Verständnis erfordert.[2] Die Behandlung zielt darauf ab, die akute Infektion zu beseitigen und das Risiko der Entwicklung einer analen Fistel zu minimieren.[1] Nach einer effektiven Drainage besteht für die Patientinnen und Patienten eine Wahrscheinlichkeit von 30 bis 50 %, dass sich eine anale Fistel entwickelt, die einer weiteren Behandlung bedarf.[2]

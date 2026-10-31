@@ -37,6 +37,8 @@ corrections: []
 
 # Akute infektiöse Gastroenteritis
 
+**Klassifikation:** ICD-10-GM: A09.-
+
 Eine **akute infektiöse Gastroenteritis** verursacht typischerweise Durchfall, Übelkeit, Erbrechen und Bauchschmerzen. Viren und Bakterien sind häufige Ursachen; Verlauf und Übertragungsrisiko unterscheiden sich je nach Erreger.[1]
 
 ## Diagnostik und Behandlung

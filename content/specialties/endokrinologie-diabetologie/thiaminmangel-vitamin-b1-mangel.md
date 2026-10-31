@@ -33,6 +33,8 @@ corrections: []
 
 # Thiaminmangel
 
+**Klassifikation:** ICD-10-GM: E51.-
+
 ## Übersicht
 
 Thiamin (Vitamin B1) ist ein wasserlöslicher Mikronährstoff, der für den Energiestoffwechsel benötigt wird.[1][2] Ein Mangel kann sich als Beriberi, als Wernicke-Korsakow-Syndrom oder als andere Thiamin-Mangelerkrankungen äußern.[3][4][2] Die Erkrankungen werden unter dem Begriff Thiamin-Mangelerkrankungen (TDD) zusammengefasst und betreffen je nach Ausprägung den Stoffwechsel, das Nervensystem, das Herz-Kreislauf-System, die Atmung, den Magen-Darm-Trakt und den Bewegungsapparat.[2] Aufgrund dieses breiten klinischen Spektrums und häufiger Überschneidungen mit anderen Krankheitsbildern werden TDD oft verkannt.[2]

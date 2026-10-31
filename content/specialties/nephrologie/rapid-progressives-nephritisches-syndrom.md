@@ -33,6 +33,8 @@ corrections: []
 
 # Rapid-progressives nephritisches Syndrom
 
+**Klassifikation:** ICD-10-GM: N01.-
+
 ## Übersicht
 
 Die rapid-progressive Glomerulonephritis (RPGN) ist durch einen raschen Verlust der Nierenfunktion gekennzeichnet, der sich innerhalb von Tagen oder Wochen entwickeln kann.[1] Histologisch zeigt sich dabei in den meisten Glomeruli eine Halbmondbildung (Crescente).[1] Eine andere Übersichtsarbeit beschreibt den Funktionsverlust eher über einige Monate und von Merkmalen eines nephritischen Syndroms begleitet.[2] Die Angaben zum zeitlichen Verlauf unterscheiden sich somit zwischen den Quellen, und für die Einordnung im Einzelfall ist beides zu berücksichtigen.[1][2] Die RPGN gilt als diagnostischer und therapeutischer Notfall, der eine umgehende Abklärung und Behandlung erfordert, um ungünstige Verläufe zu verhindern.[1] Frühe Diagnose und prompte Therapie sind entscheidend, um die Progression zur terminalen Niereninsuffizienz zu verhindern.[2] Die klinische Relevanz wird zusätzlich dadurch erhöht, dass die Erkrankung in ressourcenarmen Versorgungssituationen besonders herausfordernd ist.[1]

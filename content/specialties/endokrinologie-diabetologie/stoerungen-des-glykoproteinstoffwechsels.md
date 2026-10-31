@@ -33,6 +33,8 @@ corrections: []
 
 # Angeborene Glykosylierungsstörungen
 
+**Klassifikation:** ICD-10-GM: E77.-
+
 ## Übersicht
 
 Angeborene Glykosylierungsstörungen (Congenital Disorders of Glycosylation, CDG) bilden eine große und fortlaufend wachsende Gruppe seltener Erkrankungen mit einer Vielzahl klinischer Befunde.[1] Gemeinsam ist ihnen eine gestörte Anlagerung von Zuckerketten (Glykanen) an Proteine, Lipide und Glykosylphosphatidylinositol-Anker.[2][3] Glykosylierung ist eine posttranslationale Modifikation, die etwa 70 % der humanen Proteine betrifft und für deren Funktion wesentlich ist.[4] Je nach Erkrankung können die N-Glykosylierung, die O-Glykosylierung und/oder die Synthese von Glykosaminoglykanen betroffen sein.[3] Die Defekte können im Zytosol, im endoplasmatischen Retikulum oder im Golgi-Apparat lokalisiert sein.[3] Eine Übersichtsarbeit schlägt eine Einteilung in acht Kategorien nach dem Wirkmechanismus vor, unter anderem Störungen der Monosaccharid-Synthese, des Nukleotidzucker-Stoffwechsels, der N- und O-verknüpften Proteinglykosylierung sowie des vesikulären Transports.[5] Eine Leitlinie nennt eine Verknüpfung mit mehr als 170 Genen,[1] eine Nosologie-Arbeit beschreibt 200 Erkrankungen durch 189 Gendefekte.[5] Andere Übersichten sprechen von mehr als 160 beschriebenen Erkrankungen.[3][6]

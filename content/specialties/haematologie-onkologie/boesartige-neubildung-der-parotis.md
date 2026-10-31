@@ -33,6 +33,8 @@ corrections: []
 
 # Karzinom der Parotisdrüse
 
+**Klassifikation:** ICD-10-GM: C07
+
 ## Übersicht
 
 Das Karzinom der Parotisdrüse ist eine seltene maligne Neubildung, die ein breites Spektrum von über zwanzig verschiedenen histologischen Subtypen umfasst, welche sich in ihrer Biologie erheblich unterscheiden.[1] Diese Heterogenität stellt sowohl Pathologen als auch HNO-Ärzte vor große diagnostische und therapeutische Herausforderungen.[1] Die Behandlung erfordert eine sorgfältige Abwägung zwischen onkologischer Sicherheit und der Erhaltung der funktionellen Anatomie, insbesondere des Gesichtsnervs.[2] Im Zentrum der modernen Therapie steht der Trend zu einer sicheren, aber zunehmend konservativen Chirurgie, wobei der Fokus auf der kompletten Resektion (R0) liegt.[1] Die Entscheidung für adjuvante Maßnahmen wie eine Strahlentherapie hängt stark von den intraoperativen und pathologischen Befunden ab.[2]

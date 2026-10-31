@@ -39,6 +39,8 @@ corrections: []
 
 # Adipositas
 
+**Klassifikation:** ICD-10-GM: E66.-; ICD-11: 5B81
+
 **Adipositas** ist eine chronische, häufig rezidivierende Erkrankung mit erhöhter Fettmasse und möglichen körperlichen, psychischen und sozialen Folgen. Die Einordnung erfolgt nicht allein anhand einer Zahl, sondern unter Berücksichtigung von Begleiterkrankungen, Funktion und individueller Situation.[1]
 
 ## Folgen und Abklärung

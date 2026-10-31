@@ -37,6 +37,8 @@ corrections: []
 
 # Hypoglykämie
 
+**Klassifikation:** ICD-10-GM: E16.2
+
 Eine **Hypoglykämie** ist eine zu niedrige Blutglukosekonzentration mit möglichen autonomen und neuroglykopenischen Beschwerden. Sie tritt besonders im Zusammenhang mit blutzuckersenkender Therapie auf, kann aber auch andere Ursachen haben.[1]
 
 ## Klinik und Einordnung

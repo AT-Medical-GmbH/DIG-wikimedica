@@ -33,6 +33,8 @@ corrections: []
 
 # Psychische Störungen im Wochenbett
 
+**Klassifikation:** ICD-10-GM: F53.-
+
 ## Übersicht
 
 Psychische Störungen im Wochenbett umfassen vor allem Depressionen, Angststörungen und posttraumatische Belastungsstörungen.[1] Die postpartale Phase gilt als verletzliche Zeit für die psychische Gesundheit von Frauen, und eine beeinträchtigte psychische Gesundheit kann sich langfristig auf Mutter und Kind auswirken.[1] Zur Einordnung wird häufig zwischen drei Kategorien mit steigendem Schweregrad unterschieden: Baby Blues, postpartale Depression und postpartale Psychose.[2] Die postpartale Depression gehört zu den häufigsten postpartalen Erkrankungen und wirkt sich auf das Zusammenspiel zwischen Mutter, Kind, Partner und Familie aus.[3] Die postpartale Psychose ist dagegen eine seltenere, aber schwerwiegende psychische Erkrankung.[2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Huntington-Krankheit
 
+**Klassifikation:** ICD-10-GM: G10; ICD-11: 8A01.10
+
 ## Übersicht
 
 Ursächlich ist eine Verlängerung von CAG-Trinukleotid-Wiederholungen im Huntingtin-Gen (HTT), die zur Bildung eines mutierten Huntingtin-Proteins mit verlängerter Polyglutaminsequenz führt.[1][2] Die Vererbung folgt einem autosomal-dominanten Muster.[3] Nach heutigem Kenntnisstand wirkt das mutierte Protein vermutlich über einen toxischen Funktionsgewinn, und die Penetranz gilt als hoch.[2] Klinisch treten neuropsychiatrische Symptome, eine meist choreiforme Bewegungsstörung und eine fortschreitende kognitive Beeinträchtigung auf.[4] Nicht-motorische Komplikationen beeinflussen die funktionelle Behinderung und die Lebensqualität oft in ähnlichem Maße wie die motorischen Symptome oder stärker, wie Fachgremien betonen.[5] Eine krankheitsmodifizierende Therapie ist bislang nicht zugelassen; die einzige Behandlung mit zugelassener Indikation richtet sich gegen die Chorea.[2][3]

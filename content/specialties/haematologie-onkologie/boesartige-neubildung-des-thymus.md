@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildung des Thymus
 
+**Klassifikation:** ICD-10-GM: C37
+
 ## Übersicht
 
 Bösartige Neubildungen des Thymus zählen zu den seltenen Tumoren des Mediastinums, wobei thymische epitheliale Tumoren häufig einen indolenten Verlauf aufweisen.[1] Die Diagnostik und das Management dieser Erkrankungen erfordern eine präzise anatomische Einordnung sowie eine standardisierte Kommunikation zwischen den beteiligten Fachdisziplinen.[1] Für die bildgebende Analyse und die Planung von Biopsien oder chirurgischen Eingriffen hat sich das Klassifikationssystem der International Thymic Malignancy Interest Group (ITMIG) als neuer Standard etabliert.[2] Dieses System basiert auf der Auswertung von Schnittbildverfahren und unterteilt das Mediastinum in spezifische Kompartimente, was die Differenzialdiagnose von Massen und anderen Auffälligkeiten erleichtert.[2] Im Gegensatz zu älteren Systemen, die sich auf willkürliche Landmarken an seitlichen Röntgenaufnahmen des Thorax stützten, ermöglicht die ITMIG-Klassifikation eine genauere anatomische Definition durch die Nutzung von Computertomographie oder Magnetresonanztomographie.[2][3] Die Implementierung dieser internationalen Standards für die Berichterstattung über klinische Ergebnisse fördert den Vergleich von Studienergebnissen und unterstützt die Zusammenarbeit in der Forschung.[1]

@@ -33,6 +33,8 @@ corrections: []
 
 # Schulter- und Oberarmfrakturen
 
+**Klassifikation:** ICD-10-GM: S42.-; ICD-11: NC12
+
 ## Übersicht
 
 Proximale Humerusfrakturen, also Frakturen im Bereich der Schulter und des Oberarms, sind häufige Verletzungen, besonders bei älteren Menschen.[1] Die meisten dieser Frakturen lassen sich nichtoperativ behandeln und erreichen dabei ein akzeptables Ergebnis.[2] Das Management variiert jedoch stark, auch hinsichtlich des Einsatzes von Operationen.[1]

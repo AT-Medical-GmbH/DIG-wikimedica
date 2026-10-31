@@ -37,6 +37,8 @@ corrections: []
 
 # Polyzystisches Ovarialsyndrom
 
+**Klassifikation:** ICD-10-GM: E28.2
+
 Das **polyzystische Ovarialsyndrom (PCOS)** ist ein heterogenes endokrines und metabolisches Syndrom. Es kann unter anderem mit Zyklusunregelmäßigkeiten, Hyperandrogenismus und charakteristischen Ovarbefunden einhergehen. Die Bezeichnung darf nicht darüber hinwegtäuschen, dass es nicht um „Zysten“ im alltagssprachlichen Sinn geht.[1]
 
 ## Diagnostik

@@ -37,6 +37,8 @@ corrections: []
 
 # Schilddrüsenknoten
 
+**Klassifikation:** ICD-10-GM: E04.1; ICD-11: 5A01.1
+
 **Schilddrüsenknoten** sind umschriebene Veränderungen des Schilddrüsengewebes. Sie sind häufig und überwiegend gutartig; eine strukturierte Abklärung soll jedoch seltene relevante Ursachen einschließlich Malignität nicht übersehen.[1]
 
 ## Diagnostik

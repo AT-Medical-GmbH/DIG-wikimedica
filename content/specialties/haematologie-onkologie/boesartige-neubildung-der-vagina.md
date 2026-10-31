@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildung der Vagina
 
+**Klassifikation:** ICD-10-GM: C52
+
 ## Übersicht
 
 Sie machen etwa ein bis zwei Prozent der gynäkologischen Malignome aus und rund zwanzig Prozent aller Malignome, die die Vagina betreffen.[1] Häufiger ist die Vagina sekundär betroffen, entweder durch direkte Invasion aus benachbarten Organen oder durch Metastasen anderer Primärtumoren im Becken oder außerhalb des Beckens.[1] Wegen der Seltenheit sind standardisierte Behandlungsansätze begrenzt, und es werden verschiedene therapeutische Vorgehensweisen empfohlen.[2] Da primäre vaginale und zervikale Karzinome ähnliche biologische Merkmale aufweisen, lassen sich viele Empfehlungen aus den Daten zum Zervixkarzinom ableiten.[1][3] Dies gilt insbesondere für die systemische Therapie, die in Leitlinien weitgehend aus der Evidenz und Praxis beim Zervixkarzinom übertragen wird.[3]

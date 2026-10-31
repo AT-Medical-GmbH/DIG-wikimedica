@@ -33,6 +33,8 @@ corrections: []
 
 # Herz-Kreislauf-Stillstand
 
+**Klassifikation:** ICD-10-GM: I46.-; ICD-11: MC82
+
 ## Übersicht
 
 Der Herz-Kreislauf-Stillstand gilt als häufiges und lebensbedrohliches Ereignis.[1] Nach einer erfolgreichen Reanimation kann sich ein Post-Cardiac-Arrest-Syndrom entwickeln, das sich in den Tagen bis Wochen nach der Rückkehr des Kreislaufs entfalten kann.[2] Es umfasst Hirnschädigung, Myokarddysfunktion, eine systemische Ischämie-Reperfusions-Reaktion und die fortbestehende auslösende Pathophysiologie.[2] Die Versorgung nach dem Ereignis umfasst Zielwerte für Blutdruck, Sauerstoffgabe, Beatmung und Glukose, die Temperaturkontrolle, diagnostische Verfahren sowie die Neuroprognostik.[1] Die Leitlinien der American Heart Association unterscheiden dabei zunehmend zwischen Prognosen für ein günstiges und für ein ungünstiges Outcome.[1]

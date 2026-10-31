@@ -33,6 +33,8 @@ corrections: []
 
 # Erkrankungen des Rückenmarks
 
+**Klassifikation:** ICD-10-GM: G95.-
+
 ## Übersicht
 
 Erkrankungen des Rückenmarks umfassen ein breites Spektrum an Ursachen, darunter entzündliche, infektiöse, vaskuläre, nutritive und toxische Formen.[1][2][3] Die Transversale Myelitis gilt als seltene neuroinflammatorische Erkrankung, die chronische und belastende Symptome verursachen und die Lebensqualität einschränken kann.[1] Die Ursachen variieren je nach Region und Patientengruppe, was bei der Einordnung im Einzelfall zu berücksichtigen ist.[1][2]

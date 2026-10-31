@@ -33,6 +33,8 @@ corrections: []
 
 # Offene Verletzungen von Bauch, Lendenkreuz und Becken
 
+**Klassifikation:** ICD-10-GM: S31.-; ICD-11: NB51
+
 ## Übersicht
 
 Offene Verletzungen des Abdomens entstehen überwiegend durch penetrierende Gewalt, insbesondere durch Stich- und Schussverletzungen.[1][2] Besonders bedeutsam ist die Situation, in der Darm oder Omentum durch die Wunde vorfallen, die sogenannte Evisceration.[1] Lange galt bei diesem Befund die explorative Laparotomie als verpflichtend, weil ein hohes Risiko intraabdomineller Verletzungen angenommen wurde.[1] Inzwischen wird ein selektiv nicht-operatives Vorgehen bei hämodynamisch stabilen Patientinnen und Patienten diskutiert.[1] Die Evidenz zu diesem Vorgehen ist jedoch noch begrenzt und in Teilen kontrovers.[1]

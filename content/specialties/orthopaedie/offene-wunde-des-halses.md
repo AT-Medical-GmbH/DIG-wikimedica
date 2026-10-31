@@ -33,6 +33,8 @@ corrections: []
 
 # Offene Wunde des Halses
 
+**Klassifikation:** ICD-10-GM: S11.-; ICD-11: NA21
+
 ## Übersicht
 
 Offene Verletzungen des Halses werden in der Fachliteratur als penetrierende Halsverletzungen bezeichnet.[1][2] Sie stellen eine Herausforderung für die Notfallversorgung und die chirurgische Behandlung dar, da sie schwer und komplex verlaufen können.[2] Obwohl ihre Gesamtinzidenz niedrig ist, können sie verheerende Verletzungen verursachen.[1] Diese Einteilung führte jedoch häufig zu unnötigen chirurgischen Explorationen.[2] Zunehmend wird deshalb ein sogenannter No-Zone-Ansatz verfolgt, bei dem der Hals als Einheit betrachtet wird und die Entscheidung über weitere Maßnahmen auf klinischen Befunden und der Computertomographie-Angiographie (CTA) beruht.[2][3] Diese Strategie soll unnötige Eingriffe reduzieren und gleichzeitig eine zügige Behandlung von Patienten sicherstellen, die dringend operiert werden müssen.[2] Ein Ziel der aktuellen Übersichtsarbeiten ist es, das Management solcher Verletzungen landesweit zu standardisieren.[2] Die Hauptaufgaben in der Versorgung betreffen die Sicherung der Atemwege, die Kontrolle von Blutungen und die Stabilisierung des Patienten vor einer definitiven chirurgischen Versorgung.[4] Die Abklärung zielt dabei vor allem auf vaskuläre Verletzungen sowie auf Verletzungen von Atemwegen und Speiseröhre, die als aerodigestive Verletzungen zusammengefasst werden.[5][4]

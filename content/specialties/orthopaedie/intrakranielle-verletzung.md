@@ -33,6 +33,8 @@ corrections: []
 
 # Intrakranielle Verletzungen
 
+**Klassifikation:** ICD-10-GM: S06.-; ICD-11: NA07
+
 ## Übersicht
 
 Intrakranielle Verletzungen stellen eine bedeutende öffentliche Gesundheitsbelastung dar und gehören zu den führenden Ursachen für Morbidität und Mortalität, insbesondere bei Kindern und jungen Erwachsenen.[1] Die akute Phase der Verletzung wird als Zeitraum von null bis sieben Tagen definiert, gefolgt von der subakuten Phase bis zu drei Monaten und der chronischen Phase nach drei Monaten.[1] Die überwiegende Mehrzahl der akuten Schädel-Hirn-Traumata wird als leicht eingestuft, wobei bei über 75 % dieser Fälle ein Glasgow Coma Scale (GCS)-Score von 15 vorliegt.[1] In diesen Fällen mit leichtem Trauma wird universell ein selektiver Computertomographie-Scan empfohlen, der häufig auf klinischen Entscheidungshilfen basiert.[1] Die Klassifizierung des Traumas in mild, moderat oder schwer erfasst die Komplexität des pathophysiologischen Prozesses jedoch unzureichend und hat nur begrenzte Aussagekraft für die Prognose.[2]

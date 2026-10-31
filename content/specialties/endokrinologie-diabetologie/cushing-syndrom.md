@@ -33,6 +33,8 @@ corrections: []
 
 # Cushing-Syndrom
 
+**Klassifikation:** ICD-10-GM: E24.-; ICD-11: 5A70
+
 ## Übersicht
 
 Das Cushing-Syndrom ist eine seltene, multisystemische Erkrankung, die durch eine chronische Exposition mit pathologisch erhöhten Glukokortikoidspiegeln gekennzeichnet ist.[1][2] Die Inzidenz des endogenen Cushing-Syndroms liegt bei geschätzt zwei bis acht Fällen pro einer Million Einwohner jährlich.[3] Die Ursachen lassen sich in exogene und endogene Formen unterteilen, wobei die exogene Einnahme von Steroiden die häufigste Ursache insgesamt darstellt, während bei endogenen Fällen eine autonome Cortisolüberproduktion der Nebennieren oder eine übermäßige Sekretion von adrenocorticotropem Hormon (ACTH) durch Hypophysen- oder Ektopie-Tumoren vorliegt.[1][2][3] Das Syndrom ist mit einer erheblichen multisystemischen Morbidität und Mortalität verbunden, die durch kardiovaskuläre Komplikationen, Infektionen und neuropsychiatrische Störungen gekennzeichnet ist.[1][2] Eine frühe Diagnose ist oft verzögert, da die klinische Präsentation variabel ist und Symptome mit häufigen Erkrankungen der Allgemeinbevölkerung überlappen.[1][2]

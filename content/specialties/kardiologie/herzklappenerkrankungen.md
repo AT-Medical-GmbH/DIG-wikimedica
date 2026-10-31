@@ -40,6 +40,8 @@ corrections: []
 
 # Herzklappenerkrankungen
 
+**Klassifikation:** ICD-10-GM: I34.-, I35.-, I36.-, I37.-
+
 **Herzklappenerkrankungen** umfassen Verengungen (Stenosen) und Undichtigkeiten (Insuffizienzen) der Mitral-, Aorten-, Trikuspidal- und Pulmonalklappe. Sie können angeboren, degenerativ, entzündlich, infektiös oder Folge anderer Herzerkrankungen sein.[1]
 
 ## Beschwerden und Verlauf

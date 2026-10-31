@@ -33,6 +33,8 @@ corrections: []
 
 # Rheumatische Mitralklappenerkrankungen
 
+**Klassifikation:** ICD-10-GM: I05.-
+
 ## Übersicht
 
 Rheumatische Mitralklappenerkrankungen stellen weltweit, insbesondere in Entwicklungsländern, ein bedeutendes öffentliches Gesundheitsproblem dar und sind eine führende Ursache für Herzklappenerkrankungen.[1][2][3] Die Mitralklappe ist die am häufigsten betroffene kardiale Struktur, wobei die Pathologie durch eine chronische Entzündung gekennzeichnet ist, die zu Fibrose, Verkalkung und einer Verformung des Klappenapparats führt.[4] Klinisch manifestiert sich dies häufig als Mitralklappenstenose, Mitralklappeninsuffizienz oder eine Mischform beider Störungen.[4] Die Entscheidung zwischen einer operativen Reparatur und einem Klappenersatz ist Gegenstand intensiver Diskussionen, da beide Strategien unterschiedliche Vor- und Nachteile aufweisen.[1][2][3] Während der Klappenersatz in Fällen mit ausgedehnter Verkalkung oder schwerer Stenose oft bevorzugt wird, gilt die Reparatur bei anatomisch günstigen Befunden als vorteilhaft.[3][4] Die Wahl des Verfahrens sollte individuell an die Anatomie der Klappe, das Patientenprofil und die chirurgische Expertise angepasst werden.[3]

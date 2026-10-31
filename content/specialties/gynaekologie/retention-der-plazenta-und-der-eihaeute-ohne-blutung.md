@@ -33,6 +33,8 @@ corrections: []
 
 # Retentionsstörung der Plazenta
 
+**Klassifikation:** ICD-10-GM: O73.-
+
 ## Übersicht
 
 Die Retention der Plazenta und der Eihäute ohne Blutung ist eine Komplikation im Wochenbett, die durch das Ausbleiben der spontanen Plazentalösung innerhalb eines definierten Zeitraums nach der vaginalen Entbindung gekennzeichnet ist.[1] Die klinische Definition variiert in der Literatur, wobei häufig ein Zeitraum von 30 bis 60 Minuten nach der Geburt des Kindes als Grenzwert für das Vorliegen einer Retention herangezogen wird, sofern keine weiteren Komplikationen wie starke Blutungen vorliegen.[1] Die Inzidenz schwankt je nach Studienlage und Definitionsgrundlage zwischen 0,5 und 4,8 Prozent aller vaginalen Geburten.[1] Obwohl die Erkrankung als potenziell lebensbedrohlich gilt, da sie mit postpartalen Blutungen und Infektionen assoziiert ist, kann bei Fehlen von Blutungen zunächst ein abwartendes Vorgehen oder nicht-invasive Interventionen erwogen werden, bevor invasive Maßnahmen wie die manuelle Entfernung eingeleitet werden.[2] Die manuelle Entfernung der Plazenta unter Narkose gilt traditionell als Standardtherapie, birgt jedoch Risiken wie Blutungen, Infektionen und Uterusperforationen.[3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildung der Bauchspeicheldrüse
 
+**Klassifikation:** ICD-10-GM: C25.-; ICD-11: 2C10
+
 ## Übersicht
 
 Das Pankreaskarzinom ist in der Regel ein duktales Adenokarzinom mit aggressiver Tumorbiologie, das häufig erst spät auffällt und eine ungünstige Prognose hat.[1][2] Die Erkrankung gilt als schwer behandelbar, da sowohl das späte Stadium bei Diagnosestellung als auch die Resistenz gegenüber Chemotherapie die Behandlung erschweren.[2] Die Chemotherapie in Kombination mit der chirurgischen Resektion bildet weiterhin das Fundament der Therapie, allerdings kommt nur ein kleiner Teil der Patientinnen und Patienten für eine Operation infrage.[1]

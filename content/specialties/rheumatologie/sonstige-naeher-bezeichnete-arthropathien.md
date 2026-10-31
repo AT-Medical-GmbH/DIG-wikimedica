@@ -33,6 +33,8 @@ corrections: []
 
 # Arthropathien
 
+**Klassifikation:** ICD-10-GM: M12.-
+
 ## Übersicht
 
 Das palindromische Rheuma ist durch sich selbst zurückbildende Attacken einer Arthritis und periartikulärer Entzündungen gekennzeichnet, die in andere autoimmune Bindegewebserkrankungen übergehen können.[1] Die intermittierende Hydrarthrose, auch als periodische Synovitis bezeichnet, verursacht rezidivierende, selbstbegrenzte Gelenkergüsse mit ausgeprägter Periodizität.[2] Beide Krankheitsbilder sind diagnostisch anspruchsvoll, da sie sich untereinander und von anderen Gelenkerkrankungen nur schwer abgrenzen lassen.[2][3]

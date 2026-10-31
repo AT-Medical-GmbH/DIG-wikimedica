@@ -33,6 +33,8 @@ corrections: []
 
 # Enzephalitis, Myelitis und Enzephalomyelitis
 
+**Klassifikation:** ICD-10-GM: G04.-
+
 ## Übersicht
 
 Die Diagnosestellung ist klinisch herausfordernd, da die Symptomatik breit gefächert ist und spezifische klinische Merkmale allein keine sichere Steuerung des Managements erlauben.[1] Eine rasche Abklärung ist essenziell, da sowohl infektiöse als auch autoimmune Formen potenziell lebensbedrohlich verlaufen können, aber bei frühzeitiger Therapie oft gut behandelbar sind.[2] Die Differenzierung zwischen infektiöser und autoimmuner Genese steht im Zentrum der Diagnostik, wobei die klinische Präsentation, neuroimagingbefunde und Liquoruntersuchungen entscheidende Hinweise liefern.[3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Akutes Nierenversagen
 
+**Klassifikation:** ICD-10-GM: N19
+
 ## Übersicht
 
 Das akute Nierenversagen, in der internationalen Terminologie als akute Nierenschädigung (AKI) bezeichnet, ist eine häufige, heterogene und multifaktorielle Erkrankung, die zum Syndrom der akuten Nierenerkrankungen und -störungen gehört.[1] Es ist durch einen plötzlichen Rückgang der Nierenfunktion gekennzeichnet und geht kurzfristig mit einer erhöhten Sterblichkeit, einem höheren Risiko für Komplikationen, längeren Krankenhausaufenthalten und hohen Gesundheitskosten einher.[1] Langfristig besteht ein erhöhtes Risiko für die Entwicklung einer chronischen Nierenerkrankung, eines Nierenversagens, kardiovaskulärer Morbidität und einer erhöhten Gesamtmortalität.[1] Die Inzidenz ist in Ländern mit niedrigem und mittlerem Einkommen am höchsten.[1] Die Diagnostik stützt sich auf Kriterien wie einen Anstieg des Serumkreatinins um mindestens 0,3 mg/dL innerhalb von 48 Stunden oder um mindestens 50 % vom Ausgangswert sowie auf eine verminderte Urinausscheidung von weniger als 0,5 mL/kg/h über mehr als 6 Stunden.[2] Die Diagnosekriterien der Kidney Disease: Improving Global Outcomes (KDIGO) gelten als präzise oder ebenso präzise wie ältere Kriterien wie RIFLE oder AKIN bei der Vorhersage der Krankenhaussterblichkeit.[3]

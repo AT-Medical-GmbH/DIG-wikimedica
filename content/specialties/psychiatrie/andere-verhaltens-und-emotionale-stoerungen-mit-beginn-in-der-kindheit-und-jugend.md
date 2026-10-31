@@ -33,6 +33,8 @@ corrections: []
 
 # Verhaltens- und emotionale Störungen im Kindes- und Jugendalter
 
+**Klassifikation:** ICD-10-GM: F98.-
+
 ## Übersicht
 
 Verhaltens- und emotionale Störungen im Kindes- und Jugendalter umfassen ein breites Spektrum an psychopathologischen Symptomen, die durch Dysregulationen in kognitiven, affektiven und sozialen Prozessen gekennzeichnet sind.[1] Diese Störungen manifestieren sich häufig durch intensive negative Emotionen, verhaltensmäßige Kontrollverluste sowie Schwierigkeiten in der sozialen Interaktion.[1] Die Pathophysiologie wird durch ein Zusammenspiel biologischer Vulnerabilitäten und umweltbedingter Risikofaktoren bestimmt, wobei Interaktionsdynamiken zwischen Bezugspersonen und Kindern eine zentrale Rolle spielen.[2] Präventive und therapeutische Ansätze zielen zunehmend darauf ab, sowohl die psychische Gesundheit der Eltern als auch die der Kinder zu verbessern, da diese Bereiche eng miteinander verknüpft sind.[3]

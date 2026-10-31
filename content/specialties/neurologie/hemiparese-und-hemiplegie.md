@@ -33,6 +33,8 @@ corrections: []
 
 # Halbseitenlähmung
 
+**Klassifikation:** ICD-10-GM: G81.-; ICD-11: MB53
+
 ## Übersicht
 
 Häufig bezeichnen sie eine halbseitige motorische Beeinträchtigung nach einem Schlaganfall.[1][2] Bei Kindern tritt die Hemiparese vielfach im Zusammenhang mit einer Zerebralparese auf.[3] Im Schrifttum zur infantilen Hemiplegie wird ebenfalls von halbseitigen Funktionsstörungen der oberen Extremität berichtet.[4] Daneben beschreibt die Literatur eine ipsilaterale, also gleichseitig zur Läsion auftretende Hemiparese, die früher als paradoxe Form galt.[5]

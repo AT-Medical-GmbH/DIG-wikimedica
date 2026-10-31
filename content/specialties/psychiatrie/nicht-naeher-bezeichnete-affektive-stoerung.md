@@ -33,6 +33,8 @@ corrections: []
 
 # Affektive Störungen
 
+**Klassifikation:** ICD-10-GM: F39
+
 ## Übersicht
 
 Im Kontext saisonaler Muster wird die saisonale affektive Störung (SAD) als eine spezifische Form betrachtet, die durch rezidivierende depressive Episoden in bestimmten Jahreszeiten definiert ist.[1] In der aktuellen Klassifikation, wie dem DSM-5, wird die Saisonalität als Spezifikator sowohl für die rezidivierende Major Depression als auch für die bipolare Störung geführt.[1] Die saisonale affektive Störung kann bis zu einem Fünftel der Personen mit Major Depression oder bipolarer Störung betreffen und tritt bei Frauen häufiger auf.[1] Sie wird als eine extreme Manifestation zentralnervöser Veränderungen angesehen, die mit dem circannuellen Rhythmus der Lichtverhältnisse zusammenhängen.[1] Die Symptomatologie der Winterdepression ähnelt weitgehend der atypischen Depression, die durch übermäßige Schläfrigkeit und Heißhunger auf Kohlenhydrate charakterisiert ist.[1]

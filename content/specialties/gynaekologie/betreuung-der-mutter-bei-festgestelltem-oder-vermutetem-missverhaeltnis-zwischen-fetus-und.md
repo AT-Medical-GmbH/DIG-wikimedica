@@ -33,6 +33,8 @@ corrections: []
 
 # Betreuung bei Cephalopelvic Disproportion
 
+**Klassifikation:** ICD-10-GM: O33.-
+
 ## Übersicht
 
 Die Cephalopelvic Disproportion (CPD) beschreibt ein Missverhältnis zwischen der Größe des fetalen Kopfumfanges und dem mütterlichen Becken, das eine vaginale Entbindung verhindert oder gefährdet.[1] Sie gilt als eine der häufigsten Ursachen für eine obstructio partus, also einen Geburtsverlauf, bei dem der vorangehende Teil des Feten trotz kräftiger Wehen nicht in den Geburtskanal vorrückt.[1] Die Diagnose wird klinisch gestellt, wenn ein Fortschreiten der Geburt trotz adäquater Uteruskontraktionen ausbleibt.[1] In ressourcenarmen Settings ist die CPD eine bedeutende Ursache für mütterliche und fetale Morbidität sowie Mortalität, während sie in hochentwickelten Gesundheitssystemen oft durch pränatale Überwachung und operative Entbindungsmodalitäten abgefedert wird.[1][2]

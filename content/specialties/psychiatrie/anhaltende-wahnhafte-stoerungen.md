@@ -33,6 +33,8 @@ corrections: []
 
 # Wahnhafte Störung
 
+**Klassifikation:** ICD-10-GM: F22.-
+
 ## Übersicht
 
 Die ICD-10 unterscheidet dabei sieben Untertypen, wobei in der klinischen Praxis auch weitere inhaltliche Wahnthemen vorkommen.[1] Charakteristisch sind chronische, systematisierte und meist nicht bizarre Wahnideen bei erhaltener Persönlichkeit und nur geringen Halluzinationen; das übrige Erleben bleibt weitgehend intakt.[2] Kraepelin grenzte die Paranoia als eigenständige Störung von Schizophrenie und affektiven Psychosen ab, später wurde sie in die wahnhafte Störung umbenannt.[2] Andere Autoren ordneten den Zustand als Schizophrenie-Subtyp oder als affektive Psychose ein, bevor er in den neueren Klassifikationen wieder als eigenständige psychotische Störung geführt wurde.[2] In ICD-11 und DSM-5-TR wird die Diagnose vor allem über das Vorliegen eines Wahns definiert, während die übrigen Kriterien einen ausschließenden Charakter haben.[2]

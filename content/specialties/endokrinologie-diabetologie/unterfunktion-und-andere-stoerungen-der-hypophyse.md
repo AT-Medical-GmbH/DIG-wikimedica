@@ -33,6 +33,8 @@ corrections: []
 
 # Unterfunktion und andere Störungen der Hypophyse
 
+**Klassifikation:** ICD-10-GM: E23.-
+
 ## Übersicht
 
 Die Hypophyse ist das zentrale Steuerorgan des endokrinen Systems und reguliert über die Sekretion von Hormonen zahlreiche Stoffwechsel- und Regulationsprozesse im Körper.[1] Sie gliedert sich in den Hypophysenvorderlappen (Adenohypophyse) und den Hypophysenhinterlappen (Neurohypophyse).[1] Der Vorderlappen produziert und gibt Thyreotropin (TSH), Adrenocorticotropin (ACTH), follikelstimulierendes Hormon (FSH), luteinisierendes Hormon (LH), Wachstumshormon (GH) und Prolaktin frei.[1] Der Hinterlappen speichert und setzt die im Hypothalamus gebildeten Hormone Oxytocin und Antidiuretikum (ADH/Vasopressin) bedarfsgerecht frei.[1] Störungen der Hypophyse können zu einem Mangel (Hypopituitarismus) oder einem Überschuss (Hypersekretion) dieser Hormone führen und haben weitreichende Auswirkungen auf die kardiovaskuläre Gesundheit, den Stoffwechsel und die Reproduktion.[2]

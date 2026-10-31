@@ -33,6 +33,8 @@ corrections: []
 
 # Schilddrüsenentzündung
 
+**Klassifikation:** ICD-10-GM: E06.-; ICD-11: 5A03
+
 ## Übersicht
 
 Hashimoto-Thyreoiditis ist die häufigste Ursache einer Hypothyreose in Jod-sufficienten Regionen und stellt eine chronische Autoimmunerkrankung der Schilddrüse dar.[1] Die Erkrankung wird durch eine T-Zell-vermittelte Autoimmunität gegen Schilddrüsenantigene charakterisiert, wobei Antikörper gegen Thyroperoxidase (TPO) und Thyroglobulin (Tg) als zentrale Marker dienen.[1] Die Pathogenese beinhaltet komplexe genetische Prädispositionen sowie Umweltfaktoren, darunter die Einnahme immunmodulierender Medikamente, die zu einem Verlust der Selbsttoleranz gegenüber Schilddrüsenautoantigenen führen.[2] Klinisch manifestiert sich die Erkrankung oft schleichend, wobei die Diagnose primär auf der Detektion spezifischer Autoantikörper und der Beurteilung der Schilddrüsenfunktion basiert.[1]

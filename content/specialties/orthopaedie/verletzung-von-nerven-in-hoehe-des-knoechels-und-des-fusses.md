@@ -33,6 +33,8 @@ corrections: []
 
 # Nervenverletzungen am Knöchel und Fuß
 
+**Klassifikation:** ICD-10-GM: S94.-; ICD-11: ND15
+
 ## Übersicht
 
 Das Tarsaltunnelsyndrom ist eine Kompressionsneuropathie des Nervus tibialis im fibroossären Tarsaltunnel unterhalb des Retinaculum flexorum.[1] Die Bezeichnung wird in der Literatur auch als hintere Tibialisneuralgie geführt, wobei die Kompression den Nerv selbst oder einen seiner Äste betreffen kann, nämlich den N. calcaneus, den N. plantaris lateralis oder den N. plantaris medialis.[2] Im Tunnel verlaufen neben dem Nerv die A. tibialis posterior und die Sehnen des M. tibialis posterior, des M. flexor digitorum longus und des M. flexor hallucis longus.[3] Die Erkrankung betrifft je nach Lokalisation den Bereich der Articulationes tibiotalares und talocalcaneae.[4]

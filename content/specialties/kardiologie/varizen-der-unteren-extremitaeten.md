@@ -33,6 +33,8 @@ corrections: []
 
 # Krampfadern der Beine
 
+**Klassifikation:** ICD-10-GM: I83.-
+
 ## Übersicht
 
 Krampfadern der Beine, medizinisch als Varizen der unteren Extremitäten bezeichnet, gehören zu den häufigsten Gefäßerkrankungen und zählen zu den chronischen venösen Erkrankungen (CVD).[1][2] Die Erkrankung ist durch eine Erweiterung der oberflächlichen Venen gekennzeichnet und kann mit Beschwerden wie Schweregefühl, Schmerzen und Schwellungen einhergehen, die die Lebensqualität erheblich beeinträchtigen können.[3][2] Zur Standardisierung der Diagnostik und Therapie wird international das CEAP-Klassifikationssystem verwendet, das klinische Zeichen, Ätiologie, Anatomie und Pathophysiologie berücksichtigt.[3][4] Varizen werden dabei der klinischen Klasse C2 zugeordnet, während der Begriff der chronischen venösen Insuffizienz (CVI) für fortgeschrittene Stadien mit funktionellen Störungen, Ödemen, Hautveränderungen oder Ulzera reserviert ist.[3] Die Diagnosestellung und Therapieplanung basiert auf evidenzbasierten Leitlinien, die regelmäßige Aktualisierungen durch internationale Fachgesellschaften erfahren.[5][3][6]

@@ -33,6 +33,8 @@ corrections: []
 
 # Betreuung der Schwangeren bei fetalen Komplikationen
 
+**Klassifikation:** ICD-10-GM: O36.-
+
 ## Übersicht
 
 Die fetale Therapie behandelt das ungeborene Kind, wobei die Intervention ausschließlich über den Körper der Schwangeren erfolgen kann.[1] Frühe, genaue Diagnosen ermöglichen es, pathophysiologische Prozesse zu beeinflussen und ihr Fortschreiten zu verzögern.[2] Je nach Erkrankung kommen nichtinvasive, minimalinvasive oder invasive Verfahren in Betracht.[2] Die Zielsetzung hat sich verschoben: Während früher lebensrettende Eingriffe im Vordergrund standen, geht es zunehmend um die Verbesserung der Morbidität des künftigen Kindes.[1] Als Beispiele dienen vor allem die Zwerchfellhernie (CDH) und die Nierenfehlbildungen mit Anhydramnion.[3][4]

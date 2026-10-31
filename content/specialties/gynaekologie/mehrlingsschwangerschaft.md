@@ -33,6 +33,8 @@ corrections: []
 
 # Mehrlingsschwangerschaft
 
+**Klassifikation:** ICD-10-GM: O30.-
+
 ## Übersicht
 
 Mehrlingsschwangerschaften sind mit verschiedenen Schwangerschaftskomplikationen verbunden, insbesondere mit Frühgeburtlichkeit, niedrigem Geburtsgewicht und angeborenen Fehlbildungen.[1][2] Zwillings- und höhergradige Mehrlingsschwangerschaften gehen im Vergleich zu Einlingsschwangerschaften mit einem erhöhten Risiko für perinatale und mütterliche Mortalität und Morbidität einher.[3] Zusätzlich können psychosoziale und sozioökonomische Folgen für die Schwangeren und ihre Familien entstehen.[3]

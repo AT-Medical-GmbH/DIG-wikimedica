@@ -33,6 +33,8 @@ corrections: []
 
 # Lungenemphysem
 
+**Klassifikation:** ICD-10-GM: J43.-; ICD-11: CA21
+
 ## Übersicht
 
 Das Lungenemphysem ist eine chronische, entzündliche Lungenerkrankung, die durch den Verlust der Lungenelastizität und die Zerstörung der Alveolarwände gekennzeichnet ist.[1] Es stellt eine Hauptkomponente der chronisch obstruktiven Lungenerkrankung (COPD) dar und führt zu einer Beeinträchtigung des Gasaustauschs sowie zu einer Hyperinflation der Lunge.[1] Die Erkrankung wird durch eine komplexe Interaktion aus genetischen Faktoren, Umweltbelastungen und Entzündungsprozessen verursacht.[1] Die Diagnose erfolgt primär klinisch und durch bildgebende Verfahren, wobei die Computertomographie (CT) eine zentrale Rolle bei der Charakterisierung und Schweregradeinteilung spielt.[2]

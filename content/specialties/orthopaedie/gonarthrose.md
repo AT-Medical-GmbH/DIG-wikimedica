@@ -37,6 +37,8 @@ corrections: []
 
 # Gonarthrose
 
+**Klassifikation:** ICD-10-GM: M17.-
+
 Die **Gonarthrose** ist eine degenerative Erkrankung des Kniegelenks. Schmerzen, Belastungsabhängigkeit, Steifigkeit und Funktionseinschränkungen können im Vordergrund stehen; Beschwerden und Röntgenbefund korrelieren nicht immer unmittelbar.[1]
 
 ## Diagnostik und Behandlung

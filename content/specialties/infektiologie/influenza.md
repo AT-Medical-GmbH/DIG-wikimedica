@@ -37,6 +37,8 @@ corrections: []
 
 # Influenza
 
+**Klassifikation:** ICD-10-GM: J10.-, J11.-; ICD-11: 1E30, 1E32
+
 **Influenza** ist eine akute Atemwegsinfektion durch Influenzaviren. Sie kann abrupt mit Fieber, Husten, ausgeprägtem Krankheitsgefühl, Muskel- und Kopfschmerzen beginnen und bei Risikogruppen schwer verlaufen.[1]
 
 ## Diagnostik und Behandlung

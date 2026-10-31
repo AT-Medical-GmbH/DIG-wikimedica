@@ -33,6 +33,8 @@ corrections: []
 
 # Mukopolysaccharidosen
 
+**Klassifikation:** ICD-10-GM: E76.-
+
 ## Übersicht
 
 Mukopolysaccharidosen (MPS) bilden eine Gruppe seltener, vererbter lysosomaler Speichererkrankungen, die durch einen Mangel an spezifischen Enzymen für den Abbau von Glykosaminoglykanen (GAG) gekennzeichnet sind.[1][2][3] Durch den Enzymdefekt kommt es zur akkumulativen Ablagerung von GAGs in verschiedenen Geweben und Organen, was zu einer progressiven multisystemischen Erkrankung führt.[4][2][3] Die klinische Präsentation ist heterogen und umfasst unterschiedliche Vererbungsmuster, Alter des Beginns sowie Schweregrade der systemischen und kardiovaskulären Manifestationen.[1][2] Die Diagnosestellung erfolgt oft verzögert, da die Symptome mit anderen häufigeren Erkrankungen verwechselt werden können.[5]

@@ -33,6 +33,8 @@ corrections: []
 
 # Herzrhythmusstörungen
 
+**Klassifikation:** ICD-10-GM: I49.-
+
 ## Übersicht
 
 Sie betreffen weltweit Millionen Menschen und tragen wesentlich zu Morbidität und Mortalität bei.[1] Die Übersichtsarbeiten behandeln Definition, Klassifikation und Epidemiologie ebenso wie Pathophysiologie, Diagnostik und Therapie, wobei supraventrikuläre, ventrikuläre und bradykarde Formen gleichermaßen berücksichtigt werden.[1] Auch bei Patientinnen und Patienten mit Herzinsuffizienz, Diabetes mellitus oder chronischer Nierenerkrankung sind Rhythmusstörungen mit ungünstigeren Verläufen verbunden.[2] Vor diesem Hintergrund wird der Bedarf an sichereren ergänzenden Behandlungsoptionen betont.[3]

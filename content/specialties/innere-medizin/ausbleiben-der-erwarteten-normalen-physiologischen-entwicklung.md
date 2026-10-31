@@ -33,6 +33,8 @@ corrections: []
 
 # Entwicklungsverzögerung
 
+**Klassifikation:** ICD-10-GM: R62.-; ICD-11: MG44.1
+
 ## Übersicht
 
 Die Entwicklungsverzögerung ist definiert als ein signifikantes Funktionsdefizit bei Kindern unter 18 Jahren, das sich in erheblichen Verzögerungen in mindestens zwei der folgenden Bereiche manifestiert: grobmotorische und feinmotorische Fähigkeiten, Sprache und Kommunikation, Kognition sowie soziale und persönliche Entwicklung.[1] Sie stellt ein erhebliches Problem in der pädiatrischen Versorgung dar und betrifft schätzungsweise 1 % bis 3 % der globalen Kinderpopulation.[1] Die Diagnosestellung erfordert eine umfassende Anamnese, eine körperliche Untersuchung und eine standardisierte Entwicklungsbeurteilung, wobei die Differentialdiagnose sowohl genetische, neurologische und metabolische Ursachen als auch erworbene biologische oder soziale Faktoren umfasst.[2]

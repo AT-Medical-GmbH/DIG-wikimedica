@@ -33,6 +33,8 @@ corrections: []
 
 # Kehlkopfkrebs
 
+**Klassifikation:** ICD-10-GM: C32.-
+
 ## Übersicht
 
 Bösartige Neubildungen des Larynx erfordern eine Behandlung, die das Überleben mit dem Erhalt essenzieller Funktionen wie Stimme und Schlucken in Einklang bringt.[1] Die Therapieentscheidungen basieren auf dem Tumorstadium, der Lokalisation und der Präferenz der Organerhaltung.[2] Historisch dominierte die totale Laryngektomie, doch haben sich nicht-chirurgische, organerhaltende Strategien aufgrund randomisierter Studien als Standard etabliert.[1] Aktuelle Leitlinien betonen, dass der Einsatz organerhaltender Ansätze bei ausgewählten Patientinnen und Patienten das Überleben nicht beeinträchtigt.[2] Für fortgeschrittene Tumoren bieten Organerhaltungs-Chirurgie, kombinierte Chemoradiotherapie oder Strahlentherapie allein das Potenzial zur Larynxerhaltung ohne Kompromittierung der Gesamtüberlebensrate.[2] Bei Patienten mit ausgedehnten Läsionen oder schlechter vorbehandelter Larynxfunktion kann eine totale Laryngektomie jedoch zu besseren Überlebensraten und Lebensqualität führen.[2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Gebärmutterhalsdysplasie (zervikale intraepitheliale Neoplasie)
 
+**Klassifikation:** ICD-10-GM: N87.-
+
 ## Übersicht
 
 Unbehandelt kann eine CIN 2 oder 3 zu einem Gebärmutterhalskrebs fortschreiten.[1] Persistierende Infektionen mit onkogenen humanen Papillomviren (HPV) sind notwendig, aber allein nicht ausreichend für die Entstehung eines Zervixkarzinoms.[2] Die Befunde sind heterogen, weshalb eine Einordnung als CIN 2 oder CIN 3 für die Steuerung des Vorgehens empfohlen wird.[3]

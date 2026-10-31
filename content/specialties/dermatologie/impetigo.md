@@ -33,6 +33,8 @@ corrections: []
 
 # Impetigo contagiosa
 
+**Klassifikation:** ICD-10-GM: L01.-; ICD-11: 1B72
+
 ## Übersicht
 
 Die Impetigo contagiosa, im ICD-10-GM unter der Bezeichnung Impetigo klassifiziert, ist eine hochkontagiöse, oberflächliche bakterielle Hautinfektion, die vorwiegend die Epidermis betrifft.[1] Die Erkrankung tritt weltweit auf und stellt eine häufige Ursache für dermatologische Konsultationen dar, wobei sie besonders in der pädiatrischen Bevölkerung verbreitet ist.[2][1] Klinisch manifestiert sich die Infektion durch erythematöse Papeln, die sich innerhalb von vier bis sechs Tagen zu rupturierten Vesikeln oder Bullae entwickeln und charakteristische honiggelbe Krusten bilden.[1] Die Ätiologie wird maßgeblich durch Streptokokken der Gruppe A (GAS) und Staphylococcus aureus verursacht.[1] Die Behandlung zielt auf die Eradikation des Erregers ab, wobei die Wahl zwischen topischen und systemischen Antibiotika sowie antiseptischen Maßnahmen von der Ausbreitung der Läsionen, der Schwere der Symptome und lokalen Resistenzmustern abhängt.[2][1] Angesichts zunehmender antimikrobieller Resistenzen gewinnt die differenzierte Abwägung zwischen antibiotischer Therapie und konservativen Ansätzen an klinischer Relevanz.[3][4]

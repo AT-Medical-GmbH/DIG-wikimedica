@@ -33,6 +33,8 @@ corrections: []
 
 # Nicht näher bezeichnete multiple Verletzungen
 
+**Klassifikation:** ICD-10-GM: T07; ICD-11: ND37
+
 ## Übersicht
 
 Multiple Verletzungen, im klinischen Kontext oft als Polytrauma bezeichnet, stellen eine der häufigsten Ursachen für Mortalität und Morbidität bei jungen Erwachsenen dar.[1] Die Behandlung dieser Patienten erfordert ein strukturiertes Vorgehen, das auf etablierten Algorithmen des Advanced Trauma Life Support (ATLS) basiert und sich an klinischen sowie physiologischen Parametern orientiert.[1] In Europa wird die Versorgung durch konsensbasierte Empfehlungen der European Society of Trauma and Emergency Surgery (ESTES) geleitet, die auf den deutschen S3-Leitlinien für die Behandlung schwerer oder multipler Verletzungen aufbauen.[2] Diese Empfehlungen schaffen einen kohärenten Rahmen für die Behandlung vom präklinischen Setting bis zur ersten chirurgischen Phase und dienen als Grundlage für die Harmonisierung des Versorgungsstandards in Europa, insbesondere in Regionen mit sich entwickelnden Trauma-Systemen.[2] Die Behandlung ist komplex und mit Risiken in jeder Phase des Behandlungsverlaufs verbunden, weshalb eine frühzeitige Erkennung und effektive Behandlung von Komplikationen entscheidend für das klinische Ergebnis ist.[1]

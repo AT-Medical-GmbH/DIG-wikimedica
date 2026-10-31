@@ -33,6 +33,8 @@ corrections: []
 
 # Obstruktive Uropathie und Refluxnephropathie
 
+**Klassifikation:** ICD-10-GM: N13.-
+
 ## Übersicht
 
 Die obstruktive Uropathie beschreibt eine Abflussstörung des Harntrakts, die bei akutem Verlauf als medizinischer Notfall gilt und häufig mit akuter Niereninsuffizienz oder Sepsis einhergeht.[1] Eine frühzeitige Erkennung ist entscheidend, um Mortalität und Morbidität durch ein akutes Nierenversagen sowie eine Progression zu irreversiblen Nierenschäden zu verhindern.[2] Die Behandlung richtet sich nach der zugrunde liegenden Abflussstörung, die oft zügig beseitigt werden muss, um eine weitere Verschlechterung des klinischen Zustands zu vermeiden.[1]

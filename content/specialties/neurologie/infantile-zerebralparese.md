@@ -33,6 +33,8 @@ corrections: []
 
 # Infantile Zerebralparese
 
+**Klassifikation:** ICD-10-GM: G80.-
+
 ## Übersicht
 
 Zerebralparese ist eine lebenslange körperliche Behinderung, die Bewegung und Haltung beeinträchtigt.[1] Sie gilt als häufigste Ursache einer motorischen Behinderung im Kindesalter.[2] Sie können vor der Schwangerschaft, während der Schwangerschaft, bei der Geburt oder in den ersten zwei Lebensjahren entstehen.[1] Die Erkrankung ist klinisch sehr heterogen, da Schädigungen zu unterschiedlichen Zeitpunkten auftreten und sich das Erscheinungsbild individuell und altersabhängig unterscheidet.[2] Die Einteilung erfolgt vor allem nach Art der motorischen Beeinträchtigung, der funktionellen Fähigkeit, der Verteilung der Symptome und der Ätiologie.[2] Für die Praxis ist die Diagnose von besonderer Bedeutung, weil sie die Aufklärung und Beratung der betroffenen Familien sowie den frühzeitigen Beginn therapeutischer Maßnahmen bestimmt.[2] Der Behandlungsansatz ist multidisziplinär und familienzentriert.[3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Amyloidose
 
+**Klassifikation:** ICD-10-GM: E85.-; ICD-11: 5D00
+
 ## Übersicht
 
 Die Amyloidose ist eine heterogene Gruppe von Erkrankungen, die durch die extrazelluläre Ablagerung fehlgefalteter Proteine in Form von Beta-Faltblatt-Fibrillen gekennzeichnet ist.[1] Diese Ablagerungen können lokal oder systemisch auftreten und führen zu einer strukturellen und funktionellen Schädigung betroffener Organe.[1] Im klinischen Kontext sind die kardiale Amyloidose sowie die systemische Leichtketten-Amyloidose (AL) von besonderer Bedeutung, da sie mit einer hohen Morbidität und Mortalität einhergehen.[2] Die Diagnosestellung erfordert einen hohen klinischen Verdacht, da die Symptome oft unspezifisch sind und die Erkrankung häufig mit anderen Herz-Kreislauf-Erkrankungen verwechselt wird.[1] Eine frühe und präzise Diagnose ist entscheidend, da spezifische, krankheitsmodifizierende Therapien verfügbar sind, die das Überleben und die Lebensqualität der Patienten signifikant verbessern können.[3]

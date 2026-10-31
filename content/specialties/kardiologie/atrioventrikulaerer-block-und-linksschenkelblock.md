@@ -33,6 +33,8 @@ corrections: []
 
 # AV-Block und Linksschenkelblock
 
+**Klassifikation:** ICD-10-GM: I44.-
+
 ## Übersicht
 
 Die Verzögerung tritt am häufigsten im AV-Knoten auf.[1] Bei symptomatischen Formen gilt die implantierbare Schrittmachertherapie als Standard.[2][3] Die konventionelle Rechtsherzspitzenstimulation (RVP) kann jedoch eine dyssynchrone Ventrikelaktivierung verursachen, die auf Dauer die linksventrikuläre Funktion beeinträchtigen kann.[2][4] Dazu zählen die His-Bündel-Stimulation (HBP), die Linksbündel-Stimulation (LBBP) und die Linksbündel-Areal-Stimulation (LBBAP).[2][5][6] Das Ziel dieser Verfahren ist eine möglichst physiologische Erregungsausbreitung in den Kammern.[2]

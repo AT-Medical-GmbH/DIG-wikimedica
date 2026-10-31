@@ -33,6 +33,8 @@ corrections: []
 
 # Erkrankungen der Lungengefäße
 
+**Klassifikation:** ICD-10-GM: I28.-
+
 ## Übersicht
 
 Sie reichen von angeborenen Fehlbildungen, die bereits bei der Geburt erkannt werden, bis zu erworbenen Krankheiten, die sich erst im Kindes- oder Jugendalter zeigen.[1] Einige dieser Erkrankungen ähneln dem Erscheinungsbild bei Erwachsenen, andere sind für Kinder charakteristisch.[1] Als Hauptformen mit präkapillärer pulmonaler Hypertonie gelten die pulmonalarterielle Hypertonie und die chronisch thromboembolische pulmonale Hypertonie.[2] Die aktuelle Forschung versucht, diese Gruppe über neue Phänotypen zu gliedern, die auf bildgebenden, hämodynamischen, zellulären, genetischen und metabolischen Merkmalen beruhen.[3]

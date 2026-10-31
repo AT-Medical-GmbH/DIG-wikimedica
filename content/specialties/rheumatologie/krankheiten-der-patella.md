@@ -33,6 +33,8 @@ corrections: []
 
 # Erkrankungen der Kniescheibe
 
+**Klassifikation:** ICD-10-GM: M22.-; ICD-11: FA32
+
 ## Übersicht
 
 Erkrankungen der Kniescheibe umfassen unter anderem das patellofemorale Schmerzsyndrom und die Patellasehnentendinopathie, die in einer aktuellen niederländischen Leitlinie gemeinsam im Rahmen des vorderen Knieschmerzes behandelt werden.[1] Das patellofemorale Schmerzsyndrom gilt als häufiges muskuloskelettales Krankheitsbild, dessen Beschwerden oft schleichend beginnen.[2] Nach Einschätzung der Leitlinienautoren sollte die Diagnose zunächst klinisch gestellt werden, bevor weitere Entscheidungen getroffen werden.[1] Die Behandlung beginnt in den aktuellen Empfehlungen mit einer Übungstherapie, die durch Aufklärung ergänzt wird.[1][3]

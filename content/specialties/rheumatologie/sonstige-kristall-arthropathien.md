@@ -33,6 +33,8 @@ corrections: []
 
 # Kristallarthropathien
 
+**Klassifikation:** ICD-10-GM: M11.-
+
 ## Übersicht
 
 Kristallarthropathien, die durch die Ablagerung von Calciumpyrophosphat-Dihydrat-Kristallen in Gelenken und Weichteilen verursacht werden, zählen zu den häufigsten Ursachen für akute und chronische Arthritis.[1] Die Erkrankung tritt in einem breiten Spektrum klinischer Manifestationen auf, das von asymptomatischen Befunden bis hin zu schweren, chronisch-entzündlichen Gelenkerkrankungen reicht.[2] Die Diagnosestellung ist oft herausfordernd, da die klinische Präsentation andere rheumatische Erkrankungen imitieren kann und häufig ältere Patienten mit Multimorbidität betrifft.[1] Die genaue Prävalenz der Erkrankung ist unklar, wird jedoch aufgrund der alternden Bevölkerung als zunehmend betrachtet.[3] Die Diagnose stützt sich auf eine Kombination aus klinischen Befunden, der Identifikation der charakteristischen Kristalle unter Polarisationsmikroskopie und typischen Bildgebungsmerkmalen.[2]

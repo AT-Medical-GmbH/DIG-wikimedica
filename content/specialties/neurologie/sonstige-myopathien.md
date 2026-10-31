@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Myopathien
 
+**Klassifikation:** ICD-10-GM: G72.-
+
 ## Epidemiologie
 
 Die Prävalenz kongenitaler Myopathien in der Gesamtbevölkerung wird auf 1,50 pro 100.000 geschätzt, wobei sie in der pädiatrischen Population mit 2,73 pro 100.000 höher ist.[1] Innerhalb dieser Gruppe ist die Prävalenz der Nemalen Myopathie mit 0,22 pro 100.000 bei Kindern und 0,20 pro 100.000 in der Gesamtbevölkerung signifikant.[1] Bei der sporadischen späten onset Nemalen Myopathie (SLONM) handelt es sich um eine seltene erworbene Erkrankung bei Erwachsenen.[2] Statinassoziierte Myopathie-Symptome (SAMS) treten bei 10 % bis 25 % der Patienten unter einer Statintherapie auf und sind die häufigste Ursache für die Einstellung der Therapie.[3] Bei Patienten mit idiopathischen inflammatorischen Myopathien besteht ein erhöhtes Risiko für die Entwicklung von Melanomen, wobei das standardisierte Inzidenzverhältnis bei 6,30 liegt.[4]

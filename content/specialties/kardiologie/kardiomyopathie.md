@@ -33,6 +33,8 @@ corrections: []
 
 # Kardiomyopathien
 
+**Klassifikation:** ICD-10-GM: I42.-; ICD-11: BC43
+
 ## Übersicht
 
 Kardiomyopathien umfassen eine heterogene Gruppe von Herzmuskelerkrankungen, die durch strukturelle und funktionelle Anomalien des Myokards gekennzeichnet sind, die nicht primär durch koronare Herzkrankheiten, Bluthochdruck, Klappenerkrankungen oder angeborene Herzfehler verursacht werden.[1] Die Klassifikation unterscheidet verschiedene Phänotypen, darunter die hypertrophe, die dilatierte, die arrhythmogene und die restriktive Kardiomyopathie.[2] Die Diagnosestellung erfordert eine multimodale Bildgebung und genetische Evaluation, da die Erkrankungen oft genetische Ursachen haben und ein breites Spektrum an klinischen Manifestationen aufweisen.[3][2]

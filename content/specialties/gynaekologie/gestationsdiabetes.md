@@ -37,6 +37,8 @@ corrections: []
 
 # Gestationsdiabetes
 
+**Klassifikation:** ICD-10-GM: O24.4; ICD-11: JA63.2
+
 **Gestationsdiabetes** ist eine während der Schwangerschaft erstmals festgestellte Störung der Glukoseregulation. Er kann ohne Beschwerden verlaufen und wird deshalb durch ein strukturiertes Screening erkannt.[1]
 
 ## Diagnostik und Behandlung

@@ -33,6 +33,8 @@ corrections: []
 
 # Zinkmangel
 
+**Klassifikation:** ICD-10-GM: E60
+
 ## Übersicht
 
 Zink ist ein essenzielles Spurenelement, das für Immunfunktionen, Zellschutz und Reparaturmechanismen wichtig ist.[1][2] Ein Zinkmangel kann im Zusammenhang mit Erkrankungen des Magen-Darm-Trakts, chronisch-entzündlichen Darmerkrankungen und altersassoziierten Veränderungen auftreten.[3][4][1] Als Ursachen werden unzureichende Zufuhr, verminderte Resorption und erhöhte intestinale Verluste im Rahmen entzündlicher Prozesse genannt.[3] Die Quellenlage ist uneinheitlich: Für einige Krankheitsbilder liegen Hinweise aus Beobachtungs- und Tierstudien vor, während für viele andere Anwendungen die Evidenz noch begrenzt ist.[5][6][7]

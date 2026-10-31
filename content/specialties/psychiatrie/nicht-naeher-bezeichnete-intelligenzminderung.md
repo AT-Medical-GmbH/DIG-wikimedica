@@ -33,6 +33,8 @@ corrections: []
 
 # Intelligenzminderung, nicht näher bezeichnet
 
+**Klassifikation:** ICD-10-GM: F79.-
+
 ## Übersicht
 
 Die Diagnose stellt sowohl eine psychiatrische Störung als auch einen Risikofaktor für das Auftreten begleitender psychischer Erkrankungen dar.[1] In der klinischen Praxis ist es entscheidend, zwischen Symptomen einer primären psychischen Erkrankung und den Folgen der kognitiven Einschränkung zu unterscheiden, da eine Fehldiagnose durch den diagnostischen Überschattungseffekt häufig vorkommt.[2] Dieser Bias führt dazu, dass psychische Symptome fälschlicherweise der bekannten Intelligenzminderung zugeschrieben werden.[2] Eine sorgfältige Beurteilung erfordert modifizierte diagnostische Techniken und ein tiefes Verständnis der klinischen Präsentation, die sich von der der Allgemeinbevölkerung unterscheiden kann.[1]

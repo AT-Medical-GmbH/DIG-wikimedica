@@ -33,6 +33,8 @@ corrections: []
 
 # Ösophagusvarizen
 
+**Klassifikation:** ICD-10-GM: I85.-; ICD-11: DA26.0
+
 ## Übersicht
 
 Ösophagusvarizen stellen eine schwerwiegende Komplikation der Leberzirrhose und des daraus resultierenden portalen Hypertonus dar und sind für einen signifikanten Anteil aller oberen gastrointestinalen Blutungen verantwortlich.[1] Bei der Erstdiagnose einer Zirrhose weisen etwa 30 % der Patientinnen und Patienten Varizen auf, wobei die Prävalenz im Verlauf von zehn Jahren auf nahezu 90 % ansteigt.[1] Die Varizenbildung erfolgt als portosystemische Kollateralisierung, bei der erweiterte Venen im submukösen Bereich des unteren Ösophagus den erhöhten portalen Druck ausgleichen.[1] Eine akute Varizenblutung geht mit einer hohen Morbidität und Mortalität einher, wobei die Sterblichkeit innerhalb von sechs Wochen bis zu 20 % betragen kann.[1][2] Die Diagnostik und das Management erfordern daher eine strukturierte Überwachung und eine individualisierte Therapieplanung, die pharmakologische, endoskopische und in seltenen Fällen chirurgische Ansätze integriert.[1][2]

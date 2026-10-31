@@ -33,6 +33,8 @@ corrections: []
 
 # Akute Komplikationen nach Herzinfarkt
 
+**Klassifikation:** ICD-10-GM: I23.-; ICD-11: BA60
+
 ## Übersicht
 
 Bestimmte akute Komplikationen nach akutem Myokardinfarkt umfassen hämodynamische Instabilitäten, mechanische Herzschäden und Arrhythmien, die mit einer hohen Morbidität und Mortalität verbunden sind.[1] Die Behandlung erfordert ein multidisziplinäres Management, das oft den Einsatz mechanischer Kreislaufunterstützungssysteme einschließt.[1] Bei der Versorgung dieser Patienten stehen die schnelle Wiederherstellung der Durchblutung und die Stabilisierung der Organfunktion im Vordergrund.[2]

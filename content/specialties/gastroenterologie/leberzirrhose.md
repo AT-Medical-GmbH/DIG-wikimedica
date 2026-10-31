@@ -37,6 +37,8 @@ corrections: []
 
 # Leberzirrhose
 
+**Klassifikation:** ICD-10-GM: K74.6
+
 Die **Leberzirrhose** ist ein fortgeschrittener, narbig umgebauter Zustand der Leber mit Verlust von Leberarchitektur und -funktion. Ursachen können unter anderem chronische Leberentzündungen, Alkohol- oder stoffwechselassoziierte Lebererkrankungen sein.[1]
 
 ## Diagnostik und Behandlung

@@ -33,6 +33,8 @@ corrections: []
 
 # Fieber unklarer Genese
 
+**Klassifikation:** ICD-10-GM: R50.-; ICD-11: MG26
+
 ## Übersicht
 
 Fieber unklarer Genese (FUG) ist ein komplexes klinisches Syndrom, das durch anhaltendes Fieber ohne offensichtliche Ursache gekennzeichnet ist.[1] Die Definition umfasst typischerweise eine Körpertemperatur von mindestens 38,3 °C über einen Zeitraum von drei Wochen, wobei die Ursache trotz initialer diagnostischer Abklärung unklar bleibt.[1] In jüngerer Zeit wurden Vorschläge für eine Anpassung der Definition diskutiert, darunter eine Senkung der Fieberschwelle auf 38,0 °C und eine Überarbeitung der Mindeststandards für die initiale Diagnostik, um den aktuellen diagnostischen Möglichkeiten besser gerecht zu werden.[1] Das Syndrom stellt für die behandelnden Internistinnen und Internisten eine erhebliche Herausforderung dar, da es eine breite Palette möglicher Ätiologien abdeckt.[2] Die etablierte Klassifikation unterteilt die Ursachen in fünf Kategorien: Infektionskrankheiten, nichtinfektiöse entzündliche Erkrankungen, Malignome, sonstige Erkrankungen und unklare Diagnosen.[2] Die relative Häufigkeit dieser Kategorien variiert stark in Abhängigkeit von den angewendeten diagnostischen Kriterien, der geografischen Region und sozioökonomischen Faktoren.[2] Historisch waren Infektionen die vorherrschende Ursache, doch in den letzten Jahren ist in hochentwickelten Ländern eine Verschiebung hin zu unklaren Diagnosen und nichtinfektiösen entzündlichen Erkrankungen zu beobachten.[2]

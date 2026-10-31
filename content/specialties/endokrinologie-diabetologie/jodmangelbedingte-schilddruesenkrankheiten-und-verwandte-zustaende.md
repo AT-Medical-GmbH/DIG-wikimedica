@@ -33,6 +33,8 @@ corrections: []
 
 # Jodmangel und Schilddrüsenerkrankungen
 
+**Klassifikation:** ICD-10-GM: E01.-; ICD-11: 5A00.1
+
 ## Übersicht
 
 Jod ist ein essentielles Spurenelement, das für die Synthese der Schilddrüsenhormone Thyroxin (T4) und Triiodthyronin (T3) unverzichtbar ist.[1][2] Diese Hormone regulieren den Stoffwechsel und sind für das somatische Wachstum sowie die neurologische Entwicklung im frühen menschlichen Leben entscheidend.[1][2] Ein Mangel an Jod führt zu einer unzureichenden Produktion dieser Hormone, was eine breite Palette von Erkrankungen verursachen kann, darunter endemischer Kropf, verzögertes Wachstum, kognitive Beeinträchtigungen und erhöhte infantile Mortalität.[1][3] Die Prävention von Jodmangel gilt als weitaus effektiver als die nachträgliche Behandlung, da die Folgen eines Mangels, insbesondere für Kinder, schwerwiegend und teils irreversibel sein können.[1] Historisch gesehen hat die Jodsalzierung, die in den 1920er Jahren eingeführt wurde, die Prävalenz von Jodmangelstörungen weltweit drastisch reduziert und gilt als eine der bedeutendsten Errungenschaften der öffentlichen Gesundheit.[3][2] Dennoch bleibt Jodmangel ein globales Problem, wobei etwa 30 % der Weltbevölkerung weiterhin gefährdet sind.[4] In industrialisierten Ländern wie den USA und Teilen Westeuropas ist ein leichter bis mäßiger Jodmangel verbreitet und nimmt sogar zu, was auf veränderte Ernährungsgewohnheiten, den Rückgang der Jodsalzierung in einigen Regionen und industrielle Verarbeitungspraktiken zurückzuführen ist.[2][4]

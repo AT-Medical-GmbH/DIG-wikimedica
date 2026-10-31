@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Erkrankungen der Bauchspeicheldrüse
 
+**Klassifikation:** ICD-10-GM: K86.-
+
 ## Übersicht
 
 Eine der häufigsten angeborenen Fehlbildungen des Pankreasgangsystems ist das Pankreasdivisum, das als häufigste kongenitale Anomalie gilt und in der Diskussion um die Entstehung von Pankreaserkrankungen steht.[1] Die Ätiologie dieser Erkrankungen ist multifaktoriell, wobei der Alkoholkonsum weltweit als führende Ursache für verschiedene Pankreaserkrankungen anerkannt ist.[2] Die klinische Präsentation variiert stark und kann nicht nur gastrointestinaler Natur sein, sondern sich auch durch extrapankreatische Manifestationen wie Hautveränderungen äußern.[3] Die Diagnostik hat sich durch moderne endoskopische Verfahren erweitert, wobei die perorale Pankreatoskopie zunehmend eine Rolle bei der Beurteilung von Gangläsionen spielt.[4] Die Therapie erfordert einen multidisziplinären Ansatz, der neben interventionellen Maßnahmen auch eine intensive Ernährungsunterstützung umfasst, da eine exokrine Pankreasinsuffizienz häufig zu Mangelernährung führt.[5]

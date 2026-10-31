@@ -33,6 +33,8 @@ corrections: []
 
 # Anpassungsstörungen
 
+**Klassifikation:** ICD-10-GM: F43.-
+
 ## Übersicht
 
 Anpassungsstörungen werden als übermäßig starke emotionale Reaktion auf einen identifizierbaren Belastungsfaktor beschrieben.[1] Die vorliegenden Übersichten beziehen sich bei der Diagnose überwiegend auf die Definitionen der ICD-11 und des DSM-5.[2][1] Mit der ICD-11 wurde die Beschäftigung mit dem Belastungsereignis (Preoccupation) als neues Kernsymptom eingeführt.[3] Die Störung gilt konzeptionell als meist mild und zeitlich begrenzt, wird in der klinischen Praxis aber häufig diagnostiziert.[4][5]

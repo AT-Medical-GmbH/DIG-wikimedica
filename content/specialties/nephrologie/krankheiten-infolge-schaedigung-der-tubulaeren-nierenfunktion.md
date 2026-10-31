@@ -33,6 +33,8 @@ corrections: []
 
 # Tubuläre Nierenerkrankungen
 
+**Klassifikation:** ICD-10-GM: N25.-
+
 ## Übersicht
 
 Tubuläre Nierenerkrankungen umfassen eine heterogene Gruppe von Pathologien, die primär das Tubulointerstitium der Niere betreffen und zu einer Schädigung der tubulären Nierenfunktion führen.[1][2] Ein zentraler Bestandteil dieses Spektrums ist die akute tubulointerstitielle Nephritis (ATIN), die als häufige Ursache für ein akutes Nierenversagen gilt und etwa 10 bis 20 % der Fälle von unklarer akuter Nierenschädigung ausmacht.[3][4][5] Eine spezifische, seltene Entität innerhalb dieser Gruppe ist das Tubulointerstitielle Nephritis und Uveitis-Syndrom (TINU), das durch das gleichzeitige oder asynchrone Auftreten einer interstitiellen Nephritis und einer Uveitis definiert ist.[6][7] Die Diagnosestellung erfordert ein hohes Maß an klinischer Wachsamkeit, da die klinischen und laborchemischen Befunde oft unspezifisch sind und eine Verzögerung der Diagnose zu irreversiblen Schäden führen kann.[8][5]

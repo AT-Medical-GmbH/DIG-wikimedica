@@ -33,6 +33,8 @@ corrections: []
 
 # Urethritis und urethrales Syndrom
 
+**Klassifikation:** ICD-10-GM: N34.-; ICD-11: GC02
+
 ## Übersicht
 
 Die Urethritis ist eine Entzündung der Harnröhrenschleimhaut, die klinisch durch subjektive Beschwerden und objektive Befunde charakterisiert ist.[1] Sie wird primär durch sexuell übertragbare Erreger verursacht, wobei zwischen einer gonokokkalen und einer nichtgonokokkalen Urethritis unterschieden wird.[1][2] Die Diagnosestellung erfolgt auf Basis der klinischen Symptomatik und mikroskopischer Nachweise, wobei die spezifische Erregeridentifikation durch Nukleinsäure-Amplifikationstests (NAAT) die Therapieentscheidung leitet.[3][4] In der klinischen Praxis wird häufig eine symptomorientierte empirische Antibiotikatherapie eingeleitet, da eine sichere Differenzierung der Erreger allein anhand der klinischen Merkmale nicht möglich ist.[1][5] Die Behandlung zielt darauf ab, die Infektion zu heilen, Komplikationen zu verhindern und die Weiterverbreitung zu stoppen.[3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Fruchtwassermenge zu hoch (Polyhydramnion)
 
+**Klassifikation:** ICD-10-GM: O40
+
 ## Übersicht
 
 Für die Diagnose nennen die Quellen unterschiedliche Kriterien: eine Fruchtwassermenge von mehr als 2000 ml, einen Fruchtwasserindex (AFI) über 24 cm oder eine tiefste vertikale Fruchtwassertasche (DVP) von mehr als 8 cm.[1] Der Fruchtwasserindex von über 24 cm wird in einer weiteren Übersichtsarbeit als Definition verwendet.[2] Das Polyhydramnion ist mit mütterlichen Beschwerden und Frühgeburtlichkeit assoziiert.[2] Das therapeutische Vorgehen richtet sich in erster Linie nach der zugrunde liegenden Ursache und dem Schweregrad.[1]

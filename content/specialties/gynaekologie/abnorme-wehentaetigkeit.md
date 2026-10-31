@@ -33,6 +33,8 @@ corrections: []
 
 # Abnorme Wehentätigkeit
 
+**Klassifikation:** ICD-10-GM: O62.-; ICD-11: JB02
+
 ## Übersicht
 
 Abnorme Wehentätigkeit, klinisch als Dystokie bezeichnet, umfasst Störungen des Geburtsverlaufs, die durch eine verzögerte oder ausbleibende Gebärmutterkontraktion sowie eine daraus resultierende verlangsamte Muttermundseröffnung oder fetale Abwärtsbewegung gekennzeichnet sind.[1] Der Begriff beschreibt eine Abweichung von den physiologischen Grenzen einer normalen Geburt und wird oft synonym für eine pathologische Geburt verwendet.[2] Dystokien können in jeder Phase der Geburt auftreten, wobei sie sowohl in der Eröffnungs- als auch in der Austreibungsphase zu erheblichen Komplikationen führen können.[2] Eine spezifische und schwerwiegende Form der Dystokie ist die Schulterdystokie, bei der nach der Entbindung des kindlichen Kopfes die Schultern nicht spontan den Beckenring passieren und zusätzliche manuelle Interventionen erforderlich sind.[3] Diese Notfallsituation ist zwar selten, kann jedoch weitreichende medizinische Folgen für Mutter und Kind haben.[4] Die Diagnose und das Management erfordern eine standardisierte Herangehensweise, da keine Vorsorgemaßnahmen die Schulterdystokie vollständig verhindern können.[4]

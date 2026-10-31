@@ -33,6 +33,8 @@ corrections: []
 
 # Fremdkörper in den Atemwegen
 
+**Klassifikation:** ICD-10-GM: T17.-; ICD-11: ND72
+
 ## Übersicht
 
 Fremdkörperaspiration in den Atemwegen stellt eine potenziell lebensbedrohliche Notfallsituation dar, die sowohl pädiatrische als auch erwachsene Patientengruppen betrifft.[1] Die Inzidenz ist in der pädiatrischen Bevölkerung am höchsten, wobei Kinder unter drei Jahren das Hauptrisikokollektiv bilden.[2][3] Neben dieser Altersgruppe sind Erwachsene über 65 Jahre ein weiteres signifikantes Risikogruppenprofil.[1] Die meisten Fälle beginnen mit der Aufnahme organischen Materials, insbesondere von Samen, in den Atemtrakt.[2][4] Die klinische Präsentation variiert stark zwischen oberen und unteren Atemwegen, wobei obere Obstruktionen häufiger mit akuter Atemnot einhergehen als untere, die sich oft durch subtilere Symptome äußern.[5] Die Diagnose und Therapie erfordert eine schnelle klinische Einschätzung, da die Dauer bis zur Entfernung des Fremdkörpers ein entscheidender Faktor für das Auftreten schwerwiegender Komplikationen ist.[2] Die Rigidbronchoskopie gilt weiterhin als Goldstandard für die Diagnose und Behandlung, insbesondere bei hoher klinischer Suspicion oder asphyxischen Präsentationen.[3][1] Die flexible Bronchoskopie hat sich als sichere und effektive erste therapeutische Option für ausgewählte Fälle etabliert, wobei die Erfolgsraten in pädiatrischen Serien bei etwa 87 Prozent liegen.[4][1]

@@ -33,6 +33,8 @@ corrections: []
 
 # Eitrige Arthritis
 
+**Klassifikation:** ICD-10-GM: M00.-
+
 ## Übersicht
 
 Sie gilt als medizinischer Notfall, weil sie das Risiko einer Gelenkzerstörung und nachfolgender Folgeschäden birgt.[1] Die Diagnose erfordert ein hohes Maß an klinischem Verdacht.[1][2] Die Erkrankung ist in der Regel akut und betrifft meist ein einzelnes Gelenk, ist meist bakteriell bedingt, kann aber auch viral oder fungal verursacht sein.[2] Die Leitlinien und Übersichtsarbeiten beschreiben einen multimodalen Ansatz aus chirurgischen und medikamentösen Maßnahmen, dessen Gewichtung von Schweregrad, Erreger und Allgemeinzustand des Patienten abhängt.[2]

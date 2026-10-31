@@ -33,6 +33,8 @@ corrections: []
 
 # Erhöhter Blutzuckerwert
 
+**Klassifikation:** ICD-10-GM: R73.-; ICD-11: MA18.0
+
 ## Übersicht
 
 Betroffen sind sowohl Patientinnen und Patienten mit bekanntem Diabetes mellitus als auch Personen mit neu erkannter Hyperglykämie.[1][2] Eine unzureichende glykämische Kontrolle im Krankenhaus geht mit erhöhter Morbidität und Mortalität, einer verlängerten Verweildauer und häufigeren Wiederaufnahmen einher.[3] Der Zusammenhang zwischen Blutzuckerkontrolle und klinischen Ergebnissen wird als stark eingeschätzt.[4] Die einschlägigen Leitlinien richten sich überwiegend an erwachsene Patientinnen und Patienten im nicht-kritischen Versorgungsbereich.[1] Ziel des Managements ist es, das Risiko schwerwiegender intrahospitaler Komplikationen zu verringern.[4] Strukturierte Behandlungsansätze, zu denen auch spezialisierte Diabetesteams zählen, gelten dabei als zunehmend verbreitet.[3]

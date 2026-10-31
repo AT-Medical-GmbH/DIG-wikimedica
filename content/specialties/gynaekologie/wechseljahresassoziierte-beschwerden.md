@@ -37,6 +37,8 @@ corrections: []
 
 # Wechseljahresassoziierte Beschwerden
 
+**Klassifikation:** ICD-10-GM: N95.-
+
 Wechseljahresassoziierte Beschwerden können im Übergang zur Menopause und danach auftreten. Hitzewallungen, Schlafstörungen, Zyklusveränderungen sowie urogenitale Symptome sind möglich, andere Erkrankungen müssen bei neuen Beschwerden berücksichtigt werden.[1]
 
 ## Diagnostik und Behandlung

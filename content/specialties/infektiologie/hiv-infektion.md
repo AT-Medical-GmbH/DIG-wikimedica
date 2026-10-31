@@ -37,6 +37,8 @@ corrections: []
 
 # HIV-Infektion
 
+**Klassifikation:** ICD-10-GM: B20, Z21
+
 Eine **HIV-Infektion** wird durch das humane Immundefizienzvirus verursacht und ist heute mit antiretroviraler Therapie in vielen Fällen langfristig behandelbar. Ohne Behandlung kann die Immunfunktion fortschreitend beeinträchtigt werden.[1]
 
 ## Diagnostik und Behandlung

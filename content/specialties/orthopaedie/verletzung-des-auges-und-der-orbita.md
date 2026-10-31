@@ -33,6 +33,8 @@ corrections: []
 
 # Verletzungen von Auge und Orbita
 
+**Klassifikation:** ICD-10-GM: S05.-; ICD-11: NA06
+
 ## Übersicht
 
 Verletzungen des Auges und der Orbita stellen eine erhebliche Ursache für einseitige Erblindung dar und verursachen individuelle Morbidität sowie erhebliche Gesundheitskosten.[1] Die Prävention von Augenverletzungen bleibt im öffentlichen Gesundheitswesen oft unterrepräsentiert, obwohl eine robuste Evidenzbasis für gezielte Strategien vorliegt.[1] Die Klassifikation erfolgt international nach Systemen wie der Internationalen Klassifikation der Krankheiten (ICD-10), wobei spezifische Terminologien wie die Birmingham Eye Trauma Terminology (BETT) oder der Ocular Trauma Score (OTS) zur Standardisierung der Definitionen und Klassifizierungen beitragen.[2] Die Erfassung und das Management dieser Daten durch Register sind ein integraler Bestandteil der Verbesserung der Versorgungsprozesse und der Implementierung von Präventionsprogrammen.[2]

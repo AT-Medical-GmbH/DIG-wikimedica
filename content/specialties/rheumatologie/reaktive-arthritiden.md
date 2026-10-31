@@ -33,6 +33,8 @@ corrections: []
 
 # Reaktive Arthritis
 
+**Klassifikation:** ICD-10-GM: M02.-; ICD-11: FA11
+
 ## Übersicht
 
 Die reaktive Arthritis ist eine sterile Gelenkentzündung, die als Teil des Spektrums der Spondyloarthritiden auftritt und durch eine Ferninfektion ausgelöst wird.[1][2] Im Gegensatz zur septischen Arthritis lassen sich aus dem Gelenk keine lebenden Erreger kultivieren, obwohl pathogene Komponenten wie Antigene oder DNA nachweisbar sein können, was auf eine persistierende intraartikuläre Interaktion zwischen Wirt und Erregerbestandteilen hindeutet.[2] Die Erkrankung manifestiert sich typischerweise als asymmetrische Mono- oder Oligoarthritis, die häufig die unteren Extremitäten betrifft, und kann von einer Enthesitis, Dactylitis sowie einer axialen Beteiligung begleitet werden.[1][3] In der Hälfte der Fälle ist ein Zusammenhang mit dem HLA-B27-Haplotyp zu beobachten, was die Diagnose unterstützt und als prognostischer Indikator dient.[2][3] Die Prävalenz wird weltweit unterschiedlich geschätzt, wobei Schätzungen zwischen 1 pro 1000 Personen und 40 pro 100.000 Personen variieren; die Inzidenz liegt bei etwa 5 pro 100.000 Personen.[1][2]

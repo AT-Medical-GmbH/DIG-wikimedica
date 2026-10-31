@@ -33,6 +33,8 @@ corrections: []
 
 # Tabakabhängigkeit und schädlicher Tabakkonsum
 
+**Klassifikation:** ICD-10-GM: F17.-
+
 ## Übersicht
 
 Tabakabhängigkeit entsteht als multifaktorielle Störung aus dem Zusammenspiel nikotininduzierter neurobiologischer Anpassungen, Lern- und Verhaltensprozessen, Umwelteinflüssen und individueller genetischer Empfindlichkeit.[1] Nikotin bindet an alpha-4-beta-2-nikotinische Acetylcholinrezeptoren im Gehirn, setzt dort Dopamin frei und erzeugt Belohnungsempfindungen, die mit bestimmten Verhaltensweisen verknüpft werden.[2] Der Konsum wirkt außerdem stressreduzierend und dämpft negative Emotionen, was zur Aufrechterhaltung der Abhängigkeit beiträgt.[2] Der Habenula-Interpeduncularis-Weg wird mit Aversion und Entzugserleben in Verbindung gebracht.[3] Tabakabhängigkeit wird insgesamt als hochprävalente Erkrankung mit erheblicher Krankheitslast über die gesamte Lebensspanne beschrieben.[4]

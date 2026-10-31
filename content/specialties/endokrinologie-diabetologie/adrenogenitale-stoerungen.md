@@ -33,6 +33,8 @@ corrections: []
 
 # Adrenogenitales Syndrom
 
+**Klassifikation:** ICD-10-GM: E25.-; ICD-11: 5A71
+
 ## Übersicht
 
 Das adrenogenitale Syndrom, in der aktuellen Terminologie häufig als kongenitale Nebennierenhyperplasie (CNH) bezeichnet, umfasst eine Gruppe autosomal-rezessiver Erbkrankheiten, die durch Defekte in Enzymen des Steroidbiosynthesewegs in der Nebennierenrinde gekennzeichnet sind.[1][2] Diese genetischen Defekte führen zu einer gestörten Produktion von Cortisol und teilweise Aldosteron, was eine kompensatorische Erhöhung der adrenotropen Hormonsekretion zur Folge hat.[1][2] Die Erkrankung ist die häufigste Ursache für primäre Nebenniereninsuffizienz im Kindesalter und stellt eine bedeutende Herausforderung in der pädiatrischen Endokrinologie dar.[3][4] Die Klassifizierung erfolgt anhand des betroffenen Enzyms und der Schwere des Enzymdefekts, wobei zwischen klassischen und nichtklassischen Formen unterschieden wird.[1][4]

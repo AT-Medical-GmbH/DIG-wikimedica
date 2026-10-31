@@ -33,6 +33,8 @@ corrections: []
 
 # Zerquetschungen mit Beteiligung mehrerer Körperregionen
 
+**Klassifikation:** ICD-10-GM: T04.-; ICD-11: ND34
+
 ## Übersicht
 
 Zerquetschungen mit Beteiligung mehrerer Körperregionen, im klinischen Kontext oft als Polytrauma bezeichnet, stellen eine komplexe Verletzungssituation dar, die eine koordinierte, multidisziplinäre Versorgung erfordert.[1] Die Definition dieses Zustands variiert in der wissenschaftlichen Literatur erheblich, was die Vergleichbarkeit von Studien erschwert und die klinische Kommunikation beeinflusst.[2] Häufig werden Begriffe wie „schweres Trauma“ oder „Polytrauma“ synonym verwendet, wobei nur ein Teil der Studien eine explizite Definition liefert, die sich oft auf den Injury Severity Score (ISS) stützt.[2] Die Versorgung dieser Patientengruppe ist durch eine hohe Inzidenz von Begleitverletzungen gekennzeichnet, wobei das Schädel-Hirn-Trauma und der hämorrhagische Schock die häufigsten Ursachen für Mortalität und Morbidität darstellen.[3]

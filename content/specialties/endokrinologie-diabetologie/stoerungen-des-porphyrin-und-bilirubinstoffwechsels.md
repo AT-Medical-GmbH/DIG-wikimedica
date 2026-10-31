@@ -33,6 +33,8 @@ corrections: []
 
 # Störungen des Porphyrin- und Bilirubinstoffwechsels
 
+**Klassifikation:** ICD-10-GM: E80.-
+
 ## Übersicht
 
 Störungen des Porphyrin- und Bilirubinstoffwechsels umfassen eine Gruppe seltener, vererbter Erkrankungen der Hämsynthese, die durch enzymatische Defekte in diesem Stoffwechselweg charakterisiert sind.[1][2] Klinisch manifestieren sich diese Erkrankungen primär durch akute neuroviszerale Attacken oder durch Hautveränderungen an sonnenexponierten Arealen.[1] Die akuten porphyrien sind autosomal dominant vererbt und führen zur Akkumulation potenziell neurotoxischer Porphyrin-Vorstufen, was schwere abdominelle Schmerzen sowie autonome und neuropsychiatrische Symptome zur Folge haben kann.[3] Die Schwere der Erkrankung reicht von asymptomatischen Trägern bis hin zu wiederkehrenden, lebensbedrohlichen Attacken.[3] Im Gegensatz dazu stehen die kutanen Porphyrinosen, die durch eine Lichtempfindlichkeit der Haut geprägt sind und sich in verschiedenen Altersstadien zeigen können.[1] Die Diagnosestellung erfordert eine hohe klinische Wachsamkeit, da die Symptome oft unspezifisch sind und eine zeitnahe biochemische Abklärung notwendig ist.[1]

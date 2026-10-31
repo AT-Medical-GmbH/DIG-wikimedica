@@ -37,6 +37,8 @@ corrections: []
 
 # Pulmonale Hypertonie
 
+**Klassifikation:** ICD-10-GM: I27.-
+
 **Pulmonale Hypertonie** bezeichnet einen erhöhten Druck im Lungenkreislauf. Sie ist ein hämodynamischer Befund mit unterschiedlichen Ursachen, darunter Herz- und Lungenerkrankungen, thromboembolische Erkrankungen und seltenere pulmonal-arterielle Formen.[1]
 
 ## Diagnostik und Behandlung

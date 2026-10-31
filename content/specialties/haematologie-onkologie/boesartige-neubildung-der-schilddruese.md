@@ -33,6 +33,8 @@ corrections: []
 
 # Schilddrüsenkrebs
 
+**Klassifikation:** ICD-10-GM: C73
+
 ## Übersicht
 
 Das differenzierte Schilddrüsenkarzinom ist die häufigste Form.[1][2] Es beginnt mit der Entdeckung eines Knotens und reicht über die Diagnostik und die Entscheidung zwischen aktiver Überwachung und Therapie bis zur Nachsorge.[3] Das Konzept DATA (Diagnose, Nutzen-Risiko-Abwägung, Therapieentscheidung, Beurteilung des Ansprechens) soll die gemeinsame Entscheidungsfindung und eine personalisierte Versorgung stärken.[4] Ziel ist, Überbehandlung bei niedrigem Risiko zu vermeiden und zugleich Patientinnen und Patienten mit höherem Risiko gezielt zu behandeln.[2] Die Leitlinie der American Thyroid Association von 2025 aktualisiert frühere Empfehlungen, die 2015 veröffentlicht wurden.[1][5]

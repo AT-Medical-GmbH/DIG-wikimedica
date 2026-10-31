@@ -33,6 +33,8 @@ corrections: []
 
 # Essstörungen
 
+**Klassifikation:** ICD-10-GM: F50.-
+
 ## Übersicht
 
 Essstörungen sind eine Gruppe psychiatrischer Erkrankungen, die durch eine gestörte Ess- oder essbezogene Verhaltensweise gekennzeichnet sind und die körperliche oder psychosoziale Funktion beeinträchtigen.[1] Zu den am besten charakterisierten Formen zählen die Anorexia nervosa, die Bulimia nervosa und die Binge-Eating-Störung.[2] Diese Erkrankungen treten weltweit auf und sind mit erheblichen medizinischen und psychiatrischen Komorbiditäten verbunden, die die Lebensqualität stark mindern können.[3] Die Behandlung erfordert in der Regel einen multimodalen Ansatz, der Ernährungsunterstützung, Psychotherapie und gegebenenfalls Pharmakotherapie umfasst.[3]

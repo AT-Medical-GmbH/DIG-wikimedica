@@ -33,6 +33,8 @@ corrections: []
 
 # Endometriumkarzinom
 
+**Klassifikation:** ICD-10-GM: C54.-
+
 ## Übersicht
 
 Das Endometriumkarzinom gilt in entwickelten Ländern als häufigste gynäkologische Malignität.[1] Die Therapieplanung richtet sich traditionell nach Histologie, Grading und Tumorausbreitung.[2] Inzwischen wird die molekulare Klassifikation zunehmend einbezogen, und internationale Leitlinien empfehlen, sie bei allen Fällen zu erheben.[3][4] Die Chirurgie bleibt die Grundlage der Behandlung, während sich die adjuvante Therapie zunehmend am Rückfallrisiko orientiert.[1][2]

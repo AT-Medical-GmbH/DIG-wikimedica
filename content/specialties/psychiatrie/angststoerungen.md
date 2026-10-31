@@ -37,6 +37,8 @@ corrections: []
 
 # Angststörungen
 
+**Klassifikation:** ICD-10-GM: F40.-, F41.-
+
 **Angststörungen** umfassen unter anderem Panikstörung, Agoraphobie, soziale Phobie, spezifische Phobien und generalisierte Angststörung. Sie gehen über situationsangemessene Angst hinaus und können zu erheblichem Leiden und Einschränkungen führen.[1]
 
 ## Diagnostik und Behandlung

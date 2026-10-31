@@ -33,6 +33,8 @@ corrections: []
 
 # Polyglanduläre Autoimmunsyndrome
 
+**Klassifikation:** ICD-10-GM: E31.-
+
 ## Übersicht
 
 Polyglanduläre Autoimmunsyndrome bilden eine heterogene Gruppe klinischer Krankheitsbilder, bei denen durch den Verlust zentraler oder peripherer immunologischer Toleranz mehrere endokrine Drüsen funktionell beeinträchtigt sind.[1] Häufig sind zusätzlich nichtendokrine Organe autoimmun betroffen.[1] In den Quellen werden die Begriffe polyglandulär und polyendokrin für dasselbe Konzept verwendet.[1][2] Die klassische Einteilung unterscheidet einen seltenen juvenilen Typ (APS-1) von häufigeren adulten Typen (APS-2 bis APS-4).[1] Nach einer neueren Auffassung sind APS-2, APS-3 und APS-4 nicht als getrennte Entitäten, sondern als Bestandteile eines einzigen Syndroms APS-2 zu betrachten.[3] Die ältere Definition von APS-3 beruhte auf der Kombination aus Schilddrüsenerkrankung, Diabetes mellitus Typ 1 oder perniziöser Anämie.[3] Ein in der Literatur beschriebener Fall wurde nach dieser älteren Systematik zunächst als APS-3 eingeordnet und nach der aktualisierten Klassifikation als APS-2 bewertet, was die Unsicherheit bei der Zuordnung verdeutlicht.[3] Abweichend davon führt eine Übersichtsarbeit den Subtyp APS 3D weiterhin eigenständig, der durch die Kombination aus autoimmunen Schilddrüsenerkrankungen und autoimmunen rheumatischen Erkrankungen gekennzeichnet ist.[1]

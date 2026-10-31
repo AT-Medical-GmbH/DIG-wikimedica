@@ -33,6 +33,8 @@ corrections: []
 
 # Akute Perikarditis
 
+**Klassifikation:** ICD-10-GM: I30.-; ICD-11: BB20
+
 ## Übersicht
 
 Die akute Perikarditis ist eine Entzündung des Herzbeutels, die bei etwa 4,4 % der Patienten auftritt, die die Notaufnahme wegen nicht-ischämischer Brustschmerzen aufsuchen.[1] Die Erkrankung ist bei Männern häufiger verbreitet als bei Frauen.[1] In der Regel handelt es sich um eine idiopathische Form, wobei von einer viralen Ätiologie ausgegangen wird.[1] Die Diagnosestellung basiert auf klinischen, elektrokardiographischen und echokardiographischen Kriterien.[1] Die Erstlinientherapie umfasst nichtsteroidale Antirheumatika in Kombination mit Colchicin, um das Rezidivrisiko zu senken.[1] Glukokortikoide sind als Reserveoption für Patienten mit Kontraindikationen gegen die Erstlinientherapie oder bei spezifischen Begleiterkrankungen vorbehalten.[1]

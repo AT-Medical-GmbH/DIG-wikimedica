@@ -33,6 +33,8 @@ corrections: []
 
 # Karzinom unbekannten Primärtumors (CUP-Syndrom)
 
+**Klassifikation:** ICD-10-GM: C76.-
+
 ## Übersicht
 
 Als Karzinom unbekannten Primärtumors (CUP) gilt eine heterogene Gruppe histologisch gesicherter metastasierter Karzinome oder undifferenzierter Neoplasien, bei denen eine gründliche diagnostische Abklärung mit Anamnese, körperlicher Untersuchung, Laboruntersuchungen und Computertomografie den Ursprungsort nicht identifizieren kann.[1][2] Die Entität ist biologisch komplex und verhält sich häufig anders als die vermuteten Primärtumoren.[1] Aktuelle Leitlinien und Übersichtsarbeiten streben eine präzisere und standardisierte Definition über diagnostische Algorithmen an.[3] Für die Therapieplanung werden günstige und ungünstige CUP-Konstellationen unterschieden, wobei die Kategorie der günstigen Subtypen in neueren Leitlinien überarbeitet wurde.[1][3]

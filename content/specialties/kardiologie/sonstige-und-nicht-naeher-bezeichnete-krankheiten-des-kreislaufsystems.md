@@ -33,6 +33,8 @@ corrections: []
 
 # Herz-Kreislauf-Erkrankungen
 
+**Klassifikation:** ICD-10-GM: I99
+
 ## Übersicht
 
 Herz-Kreislauf-Erkrankungen umfassen unter anderem die atherosklerotische Herz-Kreislauf-Erkrankung (ASCVD) und das akute Koronarsyndrom (ACS), das als Folge der ASCVD auftreten kann.[1] Beide tragen in Europa erheblich zu Morbidität und Mortalität bei.[1] Ein großer Teil dieser Krankheitslast gilt als beeinflussbar, insbesondere durch eine konsequente Lipidsenkung.[1] Lebensstilfaktoren wie Ernährung und körperliche Aktivität bilden nach aktuellen Leitlinien die Grundlage der Prävention.[2][3]

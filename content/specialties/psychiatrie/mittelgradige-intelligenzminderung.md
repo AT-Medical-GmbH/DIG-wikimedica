@@ -33,6 +33,8 @@ corrections: []
 
 # Mittelgradige Intelligenzminderung
 
+**Klassifikation:** ICD-10-GM: F71.-
+
 ## Übersicht
 
 Intelligenzminderung wird in der aktuellen Leitlinie zugleich als psychische Störung und als Risikofaktor für weitere psychiatrische Erkrankungen bei Kindern und Jugendlichen eingeordnet.[1] Mit der Einführung des DSM-5 haben sich nach dieser Leitlinie Konzeptualisierung und Diagnostik der Intelligenzminderung verändert.[1] Für die Versorgung ist außerdem bedeutsam, dass Menschen mit Intelligenzminderung im Gesundheitswesen auf zahlreiche Hürden treffen, etwa bei der Einwilligung nach Aufklärung.[2] Die Schwere der Beeinträchtigung spielt in mehreren Befunden eine Rolle, sodass die Einordnung der Ausprägung für Versorgung und Prävention relevant ist.[3]

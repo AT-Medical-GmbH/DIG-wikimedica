@@ -33,6 +33,8 @@ corrections: []
 
 # Akute Appendizitis
 
+**Klassifikation:** ICD-10-GM: K35.-
+
 ## Übersicht
 
 Die akute Appendizitis zählt weltweit zu den häufigsten chirurgischen Notfällen des Abdomens und ist eine führende Ursache für notfallmäßige Krankenhausaufnahmen und operative Eingriffe.[1] Die Diagnosestellung und das Management unterliegen trotz ihrer Häufigkeit erheblichen Schwankungen zwischen verschiedenen Patientengruppen und Gesundheitssystemen.[1] Internationale Leitlinien, darunter die Jerusalem Guidelines der World Society of Emergency Surgery (WSES) und nationale Richtlinien wie die schwedischen Leitlinien, zielen darauf ab, die Versorgung durch evidenzbasierte Empfehlungen zu standardisieren und unnötige Variabilität zu reduzieren.[1][2] Die Behandlung unterscheidet sich grundlegend zwischen unkomplizierter und komplizierter Appendizitis, wobei die laparoskopische Appendektomie nach wie vor der chirurgische Standard darstellt.[1][3] In ausgewählten Fällen der unkomplizierten Appendizitis kann eine nichtoperative Behandlung mit Antibiotika als sichere Alternative erwogen werden, erfordert jedoch eine sorgfältige Patientenselektion und Nachsorge.[1][4]

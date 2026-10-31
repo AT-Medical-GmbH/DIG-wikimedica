@@ -33,6 +33,8 @@ corrections: []
 
 # Vorzeitige Plazentalösung (Abruptio placentae)
 
+**Klassifikation:** ICD-10-GM: O45.-
+
 ## Übersicht
 
 Die vorzeitige Plazentalösung, klinisch als Abruptio placentae bekannt, stellt eine der schwerwiegendsten Komplikationen in der Schwangerschaft dar und ist durch eine vorzeitige Trennung der Plazenta von der Uteruswand vor der Geburt des Kindes definiert.[1][2] Die Erkrankung tritt bei etwa 0,4 % bis 1,2 % aller Schwangerschaften auf, wobei nahezu die Hälfte der Fälle in der Nähe des Geburtstermins oder im Terminkalender beobachtet wird.[2] Die Pathophysiologie ist multifaktoriell und umfasst sowohl chronische Prozesse wie eine dekidual-uteroplazentare Vasculopathie als auch akute mechanische Kräfte.[2] Klinisch manifestiert sich die Erkrankung typischerweise durch vaginale Blutungen, abdominelle Schmerzen, uterine Kontraktionen sowie Auffälligkeiten im fetalen Herztongraphen.[1][2] Die Diagnosestellung ist klinisch herausfordernd, da die Sonographie eine begrenzte Sensitivität aufweist und die klinischen Symptome variieren können.[1][2]

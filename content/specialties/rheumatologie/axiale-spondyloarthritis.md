@@ -37,6 +37,8 @@ corrections: []
 
 # Axiale Spondyloarthritis
 
+**Klassifikation:** ICD-10-GM: M45.-
+
 Die **axiale Spondyloarthritis** ist eine chronisch-entzündliche Erkrankung, die vor allem die Wirbelsäule und Iliosakralgelenke betrifft. Entzündlicher Rückenschmerz, Morgensteifigkeit und mögliche Manifestationen an Augen, Haut oder Darm können auftreten.[1]
 
 ## Diagnostik und Behandlung

@@ -37,6 +37,8 @@ corrections: []
 
 # Ulkuskrankheit
 
+**Klassifikation:** ICD-10-GM: K25.-, K26.-; ICD-11: DA60, DA63
+
 Die **Ulkuskrankheit** umfasst tiefere Schleimhautdefekte des Magens oder Zwölffingerdarms. Häufige Ursachen sind eine *Helicobacter pylori*-Infektion und nichtsteroidale Antirheumatika; schwerwiegende Komplikationen sind Blutung und Perforation.[1]
 
 ## Diagnostik und Behandlung

@@ -33,6 +33,8 @@ corrections: []
 
 # Kyphose und Lordose der Wirbelsäule
 
+**Klassifikation:** ICD-10-GM: M40.-
+
 ## Übersicht
 
 Bei Erwachsenen wird zwischen primär skoliotischen Deformitäten, hyperkyphotischen Fehlstellungen und degenerativ bedingten Veränderungen unterschieden.[1][2] Während konservative Maßnahmen wie Physiotherapie und Schmerztherapie oft die erste Wahl sind, kommt es bei fortschreitenden Deformitäten oder neurologischen Defiziten zu chirurgischen Interventionen.[2] Die Wahl des Verfahrens hängt stark von der Art der Deformität, der Flexibilität der Wirbelsäule und den spinopelvinen Parametern ab.[2]

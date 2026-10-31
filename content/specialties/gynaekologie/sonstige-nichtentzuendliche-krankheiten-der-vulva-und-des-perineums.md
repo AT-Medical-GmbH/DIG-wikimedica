@@ -33,6 +33,8 @@ corrections: []
 
 # Nichtentzündliche Erkrankungen der Vulva
 
+**Klassifikation:** ICD-10-GM: N90.-
+
 ## Übersicht
 
 Nichtentzündliche Erkrankungen der Vulva umfassen eine heterogene Gruppe von Zuständen, die sich von gutartigen dermatologischen Veränderungen bis hin zu präneoplastischen und neoplastischen Läsionen erstrecken.[1] Die Vulva stellt eine periorifizielle Übergangszone dar, die sich anatomisch, physiologisch und funktionell von anderen Körperregionen unterscheidet und eine hohe Sensibilität für spezifische Pathologien aufweist.[1] Zu den häufigsten nichtentzündlichen Manifestationen gehören das Lichen sclerosus, das Lichen planus, vulväre intraepitheliale Neoplasien sowie das Genitale Syndrom der Menopause.[2][3] Die korrekte Diagnosestellung ist oft herausfordernd, da sich die klinischen Bilder verschiedener Dermatosen überschneiden und Symptome wie Juckreiz, Brennen oder Schmerzen unspezifisch sein können.[1] Eine präzise morphologische Beurteilung ist entscheidend, um Fehldiagnosen zu vermeiden und eine angemessene Therapie einzuleiten.[2]

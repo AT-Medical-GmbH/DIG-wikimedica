@@ -33,6 +33,8 @@ corrections: []
 
 # Lipom
 
+**Klassifikation:** ICD-10-GM: D17.-; ICD-11: 2E80
+
 ## Übersicht
 
 Lipome sind gutartige Tumoren aus reifem Fettgewebe, die in sehr unterschiedlichen Körperregionen auftreten können.[1][2] Sie gelten als häufige Weichteiltumoren, ihr Vorkommen an bestimmten Organen oder Strukturen ist jedoch selten.[3]

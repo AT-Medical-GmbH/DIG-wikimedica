@@ -33,6 +33,8 @@ corrections: []
 
 # Myositis ossificans
 
+**Klassifikation:** ICD-10-GM: M61.-; ICD-11: FB31
+
 ## Übersicht
 
 Myositis ossificans (MO) ist eine gutartige, nicht-neoplastische Erkrankung, die durch die Bildung heterotopen Knochens im Weichteilgewebe gekennzeichnet ist.[1] Diese Ossifikation tritt häufig in Skelettmuskeln auf, kann aber auch Sehnen, Bänder und Faszien betreffen.[1] Die Erkrankung wird grundlegend in nicht-erbliche (erworbene) und erbliche Formen unterteilt.[1] Die erworbene Form ist die häufigste Variante und verläuft in der Regel selbstlimitierend.[1] Der Begriff „Myositis“ ist medizinisch irreführend, da der Prozess nicht primär auf einer Entzündung des Skelettmuskels beruht.[1] Stattdessen handelt es sich um einen dynamischen Prozess, dessen radiologische Erscheinungsbilder zeitabhängig und stadienspezifisch evolvieren.[1] Eine korrekte Diagnose ist entscheidend, da das frühe Erscheinungsbild aggressiven Weichteiltumoren ähneln kann, was zu unnötigen Biopsien oder chirurgischen Eingriffen führen kann.[1]

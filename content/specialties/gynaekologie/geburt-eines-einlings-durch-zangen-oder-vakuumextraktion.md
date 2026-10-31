@@ -33,6 +33,8 @@ corrections: []
 
 # Vaginal-operative Entbindung (Zange und Vakuumextraktion)
 
+**Klassifikation:** ICD-10-GM: O81; ICD-11: JB21
+
 ## Übersicht
 
 Bei der vaginal-operativen Entbindung wird das Kind mit einer Zange oder einer Vakuumglocke durch den Geburtskanal geleitet.[1] Das Verfahren kommt vor allem in der zweiten Geburtsphase zum Einsatz, um die Geburt zu beschleunigen.[2] Es erfordert eine präzise klinische Beurteilung, eine auf die Situation abgestimmte Versorgung und gut ausgebildetes Personal, damit mütterliche und kindliche Komplikationen möglichst vermieden werden.[2] In den letzten drei Jahrzehnten ist der Anteil vaginal-operativer Entbindungen zurückgegangen, während die Rate der Kaiserschnitte gestiegen ist.[1] Da Zange und Vakuum eine entsprechend geschulte Anwendung voraussetzen, kann ein Mangel an erfahrenen Ausbildenden dazu führen, dass das Verfahren zunehmend an Bedeutung verliert.[1] Übersichtsarbeiten vergleichen daher Empfehlungen internationaler Leitlinien und beschreiben die korrekte Anwendung, um das Verfahren als sichere Option zu fördern.[1]

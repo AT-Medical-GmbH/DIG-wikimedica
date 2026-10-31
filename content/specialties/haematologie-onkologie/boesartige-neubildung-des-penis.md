@@ -33,6 +33,8 @@ corrections: []
 
 # Peniskarzinom
 
+**Klassifikation:** ICD-10-GM: C60.-
+
 ## Übersicht
 
 Das Peniskarzinom ist eine seltene Tumorerkrankung, die überwiegend von Plattenepithelien ausgeht.[1][2] Nach einer aktuellen Leitlinie nimmt die weltweite Inzidenz zu, obwohl die Erkrankung insgesamt selten bleibt.[3] Die Therapieempfehlungen stützen sich größtenteils auf nicht randomisierte Daten aus heterogenen, meist groß angelegten Institutionsserien, da randomisierte Studien wegen der Seltenheit kaum durchführbar sind.[4] Der wichtigste Prognosefaktor ist der Befall der Leistenlymphknoten.[1][3][5]

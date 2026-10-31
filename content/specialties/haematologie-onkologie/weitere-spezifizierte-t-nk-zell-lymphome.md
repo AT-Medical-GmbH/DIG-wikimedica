@@ -33,6 +33,8 @@ corrections: []
 
 # Spezifizierte T- und NK-Zell-Lymphome
 
+**Klassifikation:** ICD-10-GM: C86.-
+
 ## Übersicht
 
 Extranodale NK/T-Zell-Lymphome, nasaler Typ, sind seltene, hochaggressive maligne Neoplasien der reifen T- und NK-Zell-Linien.[1] Die Erkrankung ist eng mit einer Infektion mit dem Epstein-Barr-Virus (EBV) verknüpft und weist eine deutliche geografische und ethnische Präferenz für asiatische und lateinamerikanische Bevölkerungsgruppen auf.[1] In der klinischen Praxis manifestiert sich die Erkrankung primär als nekrotisierender Prozess, der Strukturen der Nase und des oberen aerodigestiven Trakts befällt, wobei extranasale Lokalisationen wie Haut oder Gastrointestinaltrakt seltener vorkommen.[1] Die Behandlung erfordert ein multidisziplinäres Vorgehen, bei dem die Strahlentherapie als wirksamste Modalität mit kurativer Intention gilt und ein essenzieller Bestandteil eines kombinierten Regimens darstellt.[2] In den letzten Jahrzehnten haben sich die Behandlungsstrategien durch den Einsatz von Strahlentherapie in Kombination mit nicht-anthracyclinbasierter Chemotherapie verbessert, was zu einer verbesserten Prognose insbesondere im frühen Stadium geführt hat.[2][1]

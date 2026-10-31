@@ -33,6 +33,8 @@ corrections: []
 
 # Intrazerebrale Blutung
 
+**Klassifikation:** ICD-10-GM: I61.-; ICD-11: 8B00
+
 ## Übersicht
 
 Die intrazerebrale Blutung (ICB) ist eine nicht traumatisch bedingte Blutung in das Hirngewebe und eine Form des Schlaganfalls.[1] Sie macht nach einer Übersichtsarbeit etwa 10 bis 20 Prozent aller Schlaganfälle aus.[2] Im Vergleich zum ischämischen Schlaganfall ist sie mit einer höheren Mortalität und schwereren Behinderungen verbunden.[2] Die World Stroke Organization stuft die ICB daher als gleichrangig mit dem ischämischen Schlaganfall ein, sodass sie in Public-Health-Maßnahmen, Forschung und Versorgungsplanung gleichermaßen berücksichtigt werden sollte.[1] Nach den Daten der Global Burden of Disease Study 2021 entfielen rund 45,6 Prozent der schlaganfallbedingten Todesfälle auf die ICB.[1] Bezogen auf die verlorenen gesunden Lebensjahre (DALYs) machte sie knapp die Hälfte der Schlaganfalllast aus.[1] Die Angaben zum Anteil an allen Schlaganfällen und zum Anteil an inzidenten Schlaganfällen beziehen sich auf unterschiedliche Bezugsgrößen und sind deshalb nicht unmittelbar vergleichbar.[2][1] Ziel ist es, sekundäre Schäden zu begrenzen und die Hämatomentwicklung zu kontrollieren.[2][3] Die Auswahl der Therapie ist jedoch in mehreren Bereichen noch nicht abschließend geklärt.[2][4]

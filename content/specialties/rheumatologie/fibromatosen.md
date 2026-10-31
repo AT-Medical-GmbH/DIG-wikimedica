@@ -33,6 +33,8 @@ corrections: []
 
 # Fibromatosen
 
+**Klassifikation:** ICD-10-GM: M72.-; ICD-11: FB51
+
 ## Übersicht
 
 Fibromatosen stellen eine heterogene Gruppe von gutartigen, aber lokal invasiven Tumoren dar, die aus der Proliferation von Fibroblasten und Myofibroblasten entstehen.[1] Sie zeichnen sich durch infiltratives Wachstum und eine hohe Tendenz zu lokalen Rezidiven aus, besitzen jedoch kein Metastasierungs potenzial.[2] Die Erkrankung kann in verschiedenen anatomischen Regionen auftreten, wobei die klinischen Manifestationen und die Therapieansätze stark vom betroffenen Gewebe und der Lokalisation abhängen.[1] Zu den häufigsten Formen gehören die palmar Fibromatose (Dupuytren-Kontraktur), die plantare Fibromatose (Ledderhose-Krankheit), die extraabdominale Desmoid-Fibromatose sowie spezifische Formen wie die hereditäre Gingiva-Fibromatose und die pankreatische Desmoid-Fibromatose.[3][4][1] Die Behandlung erfordert einen individuellen, oft multidisziplinären Ansatz, der zwischen aktiver Überwachung und invasiven Maßnahmen abwägt.[5]

@@ -33,6 +33,8 @@ corrections: []
 
 # Demyelinisierende Erkrankungen des ZNS
 
+**Klassifikation:** ICD-10-GM: G37.-
+
 ## Übersicht
 
 Demyelinisierende Erkrankungen des Zentralnervensystems (ZNS) umfassen eine heterogene Gruppe neuroinflammatorischer Störungen, bei denen der Abbau der Myelinscheide um die Axone im Gehirn und im Rückenmark im Vordergrund steht.[1][2] Zu den klinisch und pathophysiologisch am besten charakterisierten Formen zählen die Multiple Sklerose (MS), das Neuromyelitis-optica-Spektrum (NMOSD) sowie die Myelin-Oligodendrozyten-Glykoprotein-Antikörper-assoziierte Erkrankung (MOGAD).[1][3] Diese Erkrankungen unterscheiden sich in ihren zugrundeliegenden immunologischen Mechanismen, ihren typischen Lokalisationen der Läsionen und ihrem Langzeitverlauf.[3] Während die MS als chronische, entzündliche Erkrankung mit fortschreitender Akkumulation fokaler Läsionen gilt, stehen bei NMOSD und MOGAD spezifische Autoantikörper im Zentrum der Pathogenese.[4][3] Die Diagnosestellung erfordert eine sorgfältige Abgrenzung gegenüber anderen neuroinflammatorischen oder vaskulären Erkrankungen, da sich die therapeutischen Ansätze signifikant unterscheiden.[2][5] Moderne diagnostische Strategien integrieren klinische Befunde, spezifische Antikörpernachweise und hochauflösende Magnetresonanztomographie-(MRT)-Protokolle, um die diagnostische Lücke zu schließen.[2]

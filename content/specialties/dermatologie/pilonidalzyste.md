@@ -33,6 +33,8 @@ corrections: []
 
 # Pilonidalsinus
 
+**Klassifikation:** ICD-10-GM: L05.-
+
 ## Übersicht
 
 Sie tritt meist in der Mittellinie der Gesäßspalte auf und ist durch ein oder mehrere epithelialisierte Fistelgänge gekennzeichnet, die typischerweise Haare und Hornmaterial enthalten.[1] Früher wurde sie als angeboren angesehen, heute wird sie überwiegend als erworbene Erkrankung verstanden.[1][2] Daraus kann sich ein akuter Abszess oder ein chronisch-eitriger Prozess mit Granulationsgewebe, intermittierender Sekretion und wiederkehrenden Infektionen entwickeln.[1] Die Erkrankung wird in der Primärversorgung häufig nicht ausreichend erkannt und behandelt.[3]

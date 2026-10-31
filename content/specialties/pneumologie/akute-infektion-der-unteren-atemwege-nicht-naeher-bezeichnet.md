@@ -33,6 +33,8 @@ corrections: []
 
 # Infektionen der unteren Atemwege
 
+**Klassifikation:** ICD-10-GM: J22
+
 ## Übersicht
 
 Infektionen der unteren Atemwege zählen zu den akuten Atemwegsinfektionen, die üblicherweise in obere und untere Infektionen unterteilt werden.[1] Bei Kindern sind Pneumonien und Bronchiolitis die häufigsten Formen.[1] In der Literatur werden unter dieser Bezeichnung sehr unterschiedliche Patientengruppen zusammengefasst, von einem unspezifischen Verdacht auf eine untere Atemwegsinfektion bis zur radiologisch bestätigten ambulant erworbenen Pneumonie.[2]

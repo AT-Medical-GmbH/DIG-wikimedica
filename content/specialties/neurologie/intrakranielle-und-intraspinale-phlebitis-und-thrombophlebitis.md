@@ -33,6 +33,8 @@ corrections: []
 
 # Zerebrale Venen- und Sinusvenenthrombose
 
+**Klassifikation:** ICD-10-GM: G08
+
 ## Übersicht
 
 Die zerebrale Venen- und Sinusvenenthrombose (CVT) ist eine seltene Form des Schlaganfalls, die vor allem jüngere Menschen betrifft.[1][2] Ihr Anteil an allen Schlaganfällen wird mit 0,5 bis 3 Prozent angegeben.[2][3] Wegen eines oft unspezifischen klinischen Bildes wird sie leicht übersehen, weshalb ein hohes diagnostisches Problembewusstsein notwendig ist.[3][4] Für Schwangerschaft und Wochenbett liegen inzwischen eigene Leitlinien vor, die das Management standardisieren sollen.[5]

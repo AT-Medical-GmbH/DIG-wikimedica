@@ -33,6 +33,8 @@ corrections: []
 
 # Vitamin-B12-Mangelanämie
 
+**Klassifikation:** ICD-10-GM: D51.-
+
 ## Übersicht
 
 Sie tritt bei etwa 2 % bis 3 % der Erwachsenen in den Vereinigten Staaten auf und kann zu schweren hämatologischen sowie neurologischen Komplikationen führen.[1] Die Diagnose stützt sich primär auf die Bestimmung des Serum-Vitamin-B12-Spiegels, wobei Werte unter 180 pg/mL als definitiver Mangel gelten.[1] Bei grenzwertigen Werten zwischen 180 und 350 pg/mL ist die Messung von Methylmalonsäure (MMA) und Homocystein zur Bestätigung der Diagnose indiziert.[1][2] Die Therapie erfolgt in der Regel durch Supplementierung, wobei orale und parenterale Wege in vielen Fällen als gleichwertig gelten, jedoch bei schweren neurologischen Manifestationen die parenterale Gabe bevorzugt wird.[1][3]

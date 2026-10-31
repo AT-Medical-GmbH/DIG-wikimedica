@@ -33,6 +33,8 @@ corrections: []
 
 # Systemische Sklerose
 
+**Klassifikation:** ICD-10-GM: M34.-; ICD-11: 4A42
+
 ## Übersicht
 
 Die systemische Sklerose ist eine seltene, chronische Bindegewebserkrankung mit komplexer Pathogenese und stark heterogenen klinischen Erscheinungsformen.[1] Sie gilt als schwer belastende Autoimmunerkrankung, deren Sterblichkeit mit der vieler Krebserkrankungen vergleichbar ist.[2] Das Management ist organbezogen und erfordert eine multidisziplinäre Betreuung.[3][4] Aktuelle Leitlinien der EULAR (Update 2023) und der British Society for Rheumatology (2024) behandeln neben der medikamentösen Therapie auch nicht-pharmakologische Maßnahmen und die Organisation der Versorgung.[3][4][5]

@@ -33,6 +33,8 @@ corrections: []
 
 # Rheumatische Chorea
 
+**Klassifikation:** ICD-10-GM: I02.-; ICD-11: 1B42
+
 ## Übersicht
 
 Die rheumatische Chorea, klinisch als Sydenham-Chorea bezeichnet, ist die häufigste erworbene Chorea im Kindesalter weltweit und gilt als eine der Hauptmanifestationen des akuten rheumatischen Fiebers.[1] Die Erkrankung tritt als Folge einer vorausgegangenen Infektion mit beta-hämolysierenden Streptokokken der Gruppe A auf und wird als postinfektiöse Autoimmunerkrankung klassifiziert.[2] Charakteristisch ist das Auftreten von unwillkürlichen, ruckartigen Bewegungen, die oft von hypotonen Muskelveränderungen sowie psychiatrischen und kognitiven Symptomen begleitet werden.[3] Die Diagnosestellung basiert primär auf klinischen Kriterien und dem Nachweis einer vorausgegangenen Streptokokkeninfektion, wobei die Ätiologie je nach epidemiologischem Risiko der Bevölkerung variiert.[3] Die Behandlung umfasst die Elimination des auslösenden Erregers durch Antibiotika, die symptomatische Kontrolle der Hyperkinese sowie bei schwereren Verläufen immunmodulatorische Maßnahmen.[4]

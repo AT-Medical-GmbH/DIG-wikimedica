@@ -37,6 +37,8 @@ corrections: []
 
 # Migräne
 
+**Klassifikation:** ICD-10-GM: G43.-; ICD-11: 8A80
+
 **Migräne** ist eine primäre Kopfschmerzerkrankung mit wiederkehrenden Attacken. Sie kann mit Übelkeit, Licht- oder Lärmempfindlichkeit und bei einem Teil der Betroffenen mit Aura-Symptomen einhergehen.[1]
 
 ## Diagnostik und Behandlung

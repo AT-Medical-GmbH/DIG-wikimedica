@@ -33,6 +33,8 @@ corrections: []
 
 # Gang- und Mobilitätsstörungen
 
+**Klassifikation:** ICD-10-GM: R26.-; ICD-11: MB44
+
 ## Übersicht
 
 Mit dem Alter können kompensatorische Mechanismen und die physiologische Reserve nicht mehr ausreichen, um Gleichgewicht und Gangbild aufrechtzuerhalten, insbesondere wenn weitere Erkrankungen hinzukommen.[1] Die Folge sind eine schlechtere posturale und motorische Funktion sowie ein erhöhtes Sturzrisiko.[1] Gangstörungen entstehen häufig infolge von Erkrankungen oder Verletzungen, können aber auch durch Nervenschäden, muskuläre Schwäche oder Gelenkprobleme bedingt sein.[2] Bei spastischen Gangstörungen ist der Gang die mechanische Folge neurologischer Beeinträchtigungen wie Spastik, Schwäche und abnormer Muskelsynergien, die mit dem Bodenreaktionskraftsystem interagieren.[3] Bei Kindern sind Veränderungen des Gangmusters im Verlauf der Entwicklung zunächst zu erwarten und können auch normale Varianten darstellen.[4]

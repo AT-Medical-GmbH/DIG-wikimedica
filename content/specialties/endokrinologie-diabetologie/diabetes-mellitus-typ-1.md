@@ -41,6 +41,8 @@ corrections: []
 
 # Diabetes mellitus Typ 1
 
+**Klassifikation:** ICD-10-GM: E10.-; ICD-11: 5A10
+
 **Diabetes mellitus Typ 1** entsteht meist durch eine autoimmune Zerstörung insulinproduzierender Betazellen und führt zu einem ausgeprägten Insulinmangel.[1] Er kann in jedem Lebensalter beginnen.
 
 ## Beschwerden und Diagnostik

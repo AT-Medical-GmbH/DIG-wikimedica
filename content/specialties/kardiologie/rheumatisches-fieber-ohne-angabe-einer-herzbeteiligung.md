@@ -33,6 +33,8 @@ corrections: []
 
 # Akutes Rheumafieber ohne Kardiitis
 
+**Klassifikation:** ICD-10-GM: I00
+
 ## Übersicht
 
 Das akute Rheumafieber ist eine nichteitrige, entzündliche Spätfolge einer Infektion mit Gruppe-A-Streptokokken, die typischerweise zwei bis vier Wochen nach der primären Infektion auftritt.[1] Es handelt sich um eine Autoimmunerkrankung, die durch molekulare Mimikry ausgelöst wird, bei der die Immunantwort gegen Streptokokkenantigene fälschlicherweise körpereigenes Gewebe, insbesondere Herzklappen, angreift.[2][3] Die Diagnose stützt sich auf die modifizierten Jones-Kriterien, die eine Kombination aus klinischen Haupt- und Nebenkriterien sowie den Nachweis einer vorausgegangenen Streptokokkeninfektion erfordern.[4] Bei Fehlen einer Kardiitis ist die Prognose für das Herz in der Regel günstig, wobei das primäre Therapieziel die Beseitigung der verbleibenden Streptokokken und die Verhinderung von Rezidiven durch eine sekundäre Antibiotikaprophylaxe ist.[1][5]

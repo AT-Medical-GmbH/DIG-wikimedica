@@ -33,6 +33,8 @@ corrections: []
 
 # Rippenfraktur
 
+**Klassifikation:** ICD-10-GM: S22.-
+
 ## Übersicht
 
 Rippenfrakturen sind häufige Verletzungen des Thorax, die oft im Rahmen stumpfer Gewalteinwirkung entstehen und sowohl akute als auch chronische Morbidität verursachen können.[1] Die Behandlung hat sich in den letzten Jahren durch verbesserte Verfahren der regionalen Analgesie, der chirurgischen Stabilisierung und neuer diagnostischer Ansätze signifikant verbessert.[1] Die primären Ziele der Therapie sind eine effektive Schmerzkontrolle, die Aufrechterhaltung der Atemfunktion und die Prävention von Komplikationen wie Pneumonien oder Atelektasen.[2] Während einfache Rippenfrakturen oft konservativ behandelt werden, erfordern komplexe Verletzungsmuster oder Begleitverletzungen eine intensivere Überwachung und multimodale Schmerztherapie.[2]

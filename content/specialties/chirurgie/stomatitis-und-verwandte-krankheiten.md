@@ -33,6 +33,8 @@ corrections: []
 
 # Stomatitis
 
+**Klassifikation:** ICD-10-GM: K12.-
+
 ## Übersicht
 
 Die rezidivierende aphthöse Stomatitis (RAS) gilt als häufigste chronische Läsion der oralen Schleimhaut.[1][2] Angaben zur Verbreitung schwanken je nach Quelle: Eine Leitlinie nennt eine Betroffenheit von bis zu 25 % der Bevölkerung,[1] eine Übersichtsarbeit gibt eine Prävalenz von 5 bis 25 % an.[2] Die Erkrankung ist schmerzhaft und durch wiederkehrende Ulzerationen gekennzeichnet.[3][4] Ätiologie und Pathogenese sind bislang nicht vollständig geklärt.[1][5] Die Diagnose erfordert daher eine differenzialdiagnostische Abgrenzung.[3] Neben der RAS werden in der Literatur auch Prothesenstomatitis und entzündliche Veränderungen der Mundschleimhaut im Zusammenhang mit Zahnersatz behandelt.[6][7]

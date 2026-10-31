@@ -33,6 +33,8 @@ corrections: []
 
 # Polytrauma Diagnostik und Therapie
 
+**Klassifikation:** ICD-10-GM: T02.-; ICD-11: ND32
+
 ## Übersicht
 
 Polytrauma bezeichnet eine Kombination aus mehreren Verletzungen, die eine signifikante gesundheitliche Belastung darstellen und mit einer schlechten Prognose verbunden sind.[1] Die Behandlung dieser Patienten hat sich in den letzten Jahrzehnten durch die Entwicklung strukturierter Traumasysteme und die Optimierung der Versorgungskette erheblich verbessert.[2] Ein zentraler Meilenstein in der Behandlung ist die Integration physiologischer Marker in Behandlungsalgorithmen, was zu einem Paradigmenwechsel von der strikten Unterscheidung zwischen „Damage Control Orthopaedics“ (DCO) und „Early Total Care“ (ETC) hin zum Konzept der „Early Appropriate Care“ (EAC) geführt hat.[3] Dieses Konzept zielt darauf ab, Interventionen sicher zu rationalisieren, die Liegezeit in der Klinik zu verkürzen und die Behandlungskosten zu senken.[3] Die Behandlung erfordert einen strukturierten Ansatz, der auf Advanced Trauma Life Support (ATLS)-Algorithmen basiert und die Optimierung der Versorgung auf Basis klinischer und physiologischer Parameter vorsieht.[2]

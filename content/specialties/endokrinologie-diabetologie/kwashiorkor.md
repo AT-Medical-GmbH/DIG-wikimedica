@@ -33,6 +33,8 @@ corrections: []
 
 # Kwashiorkor
 
+**Klassifikation:** ICD-10-GM: E40
+
 ## Übersicht
 
 Kwashiorkor ist eine schwere Form der proteinenergietypischen Mangelernährung, die klinisch durch das Vorhandensein von Ödemen charakterisiert ist.[1] Im Gegensatz zum Marasmus, der als nicht-ödembildende Form der Mangelernährung auftritt, steht beim Kwashiorkor ein relativer Proteinmangel im Vordergrund, der jedoch häufig mit einem allgemeinen Kalorienmangel einhergeht.[1] Die Erkrankung ist durch eine tiefgreifende Störung des Immunsystems, eine beeinträchtigte Darmbarriere und sekundäre Mikronährstoffdefizite gekennzeichnet.[1] Während das Marasmus in etwa 68,6 Prozent aller Fälle schwerer akuter Mangelernährung auftritt, ist das Kwashiorkor in rund 23,8 Prozent der Fälle zu finden, wobei in etwa 7,6 Prozent der Fälle eine Mischform, das marasmische Kwashiorkor, diagnostiziert wird.[1] Die Pathogenese wird maßgeblich durch eine Dysbiose des Darmmikrobioms und eine damit verbundene systemische Entzündungsreaktion getrieben.[2]

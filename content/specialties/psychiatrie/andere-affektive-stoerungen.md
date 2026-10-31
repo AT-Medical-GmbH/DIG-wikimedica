@@ -33,6 +33,8 @@ corrections: []
 
 # Affektive Störungen
 
+**Klassifikation:** ICD-10-GM: F38.-
+
 ## Übersicht
 
 Affektive Störungen umfassen eine heterogene Gruppe von Erkrankungen, zu denen vor allem die Major Depression und die bipolare Störung zählen.[1] Diese Erkrankungen sind durch Episoden von depressiver oder manischer/hypomaner Stimmung gekennzeichnet und gehen mit erheblichen Einschränkungen im Verhalten, Denken und in der sozialen Funktion einher.[2] Affektive Störungen stellen eine globale gesundheitliche Belastung dar und erfordern eine präzise Diagnostik sowie eine an die Schwere und den Subtyp angepasste Behandlung.[1]

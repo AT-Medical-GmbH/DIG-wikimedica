@@ -33,6 +33,8 @@ corrections: []
 
 # Paralytischer Ileus und intestinale Obstruktion ohne Hernie
 
+**Klassifikation:** ICD-10-GM: K56.-
+
 ## Übersicht
 
 Ein paralytischer Ileus und eine intestinale Obstruktion ohne Hernie stellen häufige und potenziell lebensbedrohliche Zustände dar, die eine rasche Diagnose und ein strukturiertes Management erfordern.[1] Während der paralytische Ileus primär durch eine Motilitätsstörung ohne mechanisches Hindernis gekennzeichnet ist, bezeichnet die intestinale Obstruktion ein physisches Hindernis für den Weitertransport von Darminhalt und Flüssigkeiten, das oft mit einem plötzlichen Beginn einhergeht.[1] Die klinische Bewältigung dieser Erkrankungen ist komplex, da eine allgemeine Einigung über optimale Vorgehensweisen lange Zeit fehlte, was zu unterschiedlichen Behandlungsstrategien führte.[1] Eine multidisziplinäre Herangehensweise und eine frühzeitige stationäre Aufnahme sind grundlegend für das sichere Management dieser Erkrankungen.[1] Die Unterscheidung zwischen einem mechanischen Verschluss und einem paralytischen Ileus ist klinisch schwierig, da die Präsentation oft ähnlich ist, was die Notwendigkeit spezifischer diagnostischer Werkzeuge unterstreicht.[2]

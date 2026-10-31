@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige abdominale Hernien
 
+**Klassifikation:** ICD-10-GM: K45.-
+
 ## Übersicht
 
 Während traditionelle offene Verfahren lange Zeit den Standard darstellten, haben sich minimalinvasive und roboterassistierte Techniken in den letzten Jahren etabliert, insbesondere bei komplexen Lokalisationen wie lateralen abdominalen Hernien.[1] Die Wahl des chirurgischen Vorgehens und des Implantats hängt stark von individuellen Risikofaktoren ab, wobei bei adipösen Patienten und solchen mit chronisch-entzündlichen Darmerkrankungen besondere Vorsicht und interdisziplinäre Planung geboten sind.[2][3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Koxarthrose
 
+**Klassifikation:** ICD-10-GM: M16.-
+
 ## Übersicht
 
 Die Koxarthrose, also die Arthrose des Hüftgelenks, zählt zu den häufigsten Ursachen für globale Behinderungen und stellt eine wesentliche Belastung für das Gesundheitssystem dar.[1] Im Gegensatz zur Kniearthrose, über die umfangreicher geforscht wurde, weist die Hüftarthrose spezifische pathophysiologische und klinische Merkmale auf, die eine gezielte Diagnostik und Therapie erfordern.[1] Die Behandlung zielt primär auf die Linderung von Schmerzen und die Verbesserung der körperlichen Funktion ab, wobei nichtoperative Maßnahmen im frühen Stadium im Vordergrund stehen.[1] Bei fortschreitender Erkrankung und Versagen konservativer Strategien kann der totale Hüftgelenkersatz als definitive Behandlungsoption in Betracht gezogen werden.[2]

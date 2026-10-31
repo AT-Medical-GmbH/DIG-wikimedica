@@ -37,6 +37,8 @@ corrections: []
 
 # Bronchialkarzinom
 
+**Klassifikation:** ICD-10-GM: C34.-
+
 Das **Bronchialkarzinom** umfasst bösartige Tumoren der Lunge und Bronchien. Histologie, Stadium und molekulare Eigenschaften sind für Prognose und Therapie wesentlich.[1]
 
 ## Diagnostik und Behandlung

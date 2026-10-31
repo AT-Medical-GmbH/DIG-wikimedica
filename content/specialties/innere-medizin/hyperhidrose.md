@@ -33,6 +33,8 @@ corrections: []
 
 # Hyperhidrose (Schweißkrankheit)
 
+**Klassifikation:** ICD-10-GM: R61.-; ICD-11: EE00
+
 ## Übersicht
 
 Die Hyperhidrose ist eine Erkrankung, die durch eine pathologisch übermäßige Schweißproduktion gekennzeichnet ist, die die physiologischen Bedürfnisse der Thermoregulation übersteigt.[1][2] Sie kann als fokale oder generalisierte Form auftreten und teilt sich in primäre idiopathische und sekundäre Hyperhidrose auf.[1][2] Die primäre Form ist die häufigste Variante und macht etwa 93 % aller Hyperhidrose-Fälle aus, während die sekundäre Form mit spezifischen Erkrankungen, Medikamenten oder systemischen Störungen assoziiert ist.[2] Die Erkrankung kann die Lebensqualität der Betroffenen erheblich beeinträchtigen und zu körperlichem Unbehagen sowie psychosozialem Distress führen.[2][3]

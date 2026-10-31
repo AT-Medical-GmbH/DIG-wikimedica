@@ -33,6 +33,8 @@ corrections: []
 
 # Analfissur und Analfistel
 
+**Klassifikation:** ICD-10-GM: K60.-
+
 ## Übersicht
 
 Analfissuren stellen eine häufige proktologische Erkrankung dar, die durch einen longitudinalen Riss im Anoderm unterhalb der Dentatlinie gekennzeichnet ist.[1] Die Pathologie äußert sich klinisch typischerweise durch starke Schmerzen während und nach dem Stuhlgang sowie durch Blutungen.[1] Die Erkrankung führt zu einer Erhöhung des Ruhedrucks des inneren Schließmuskels und des Drucks in der Analregion, was eine lokale Ischämie und eine beeinträchtigte Wundheilung zur Folge hat.[2] Akute Fissuren neigen dazu, sich innerhalb von sechs Wochen spontan oder nach Therapie zu lösen, während chronische Fissuren eine schwierigere Heilung aufweisen und oft mit Begleitbefunden wie einem Sentinel-Polypen oder einer hypertrophen Analpapille einhergehen.[1] Die Behandlung erfolgt stufenweise, beginnend mit konservativen Maßnahmen, wobei die laterale interne Sphinkterotomie als Goldstandard für die definitive chirurgische Versorgung gilt.[3][4]

@@ -38,6 +38,8 @@ corrections: []
 
 # Lungenembolie
 
+**Klassifikation:** ICD-10-GM: I26.-
+
 > **Medizinisch nicht freigegebener KI-Entwurf.** Fachreview und Sicherheitsprüfung sind vor regulärer Veröffentlichung erforderlich.
 
 Die **Lungenembolie (LE)** ist ein teilweiser oder vollständiger Verschluss von Lungenarterien, überwiegend durch eingeschwemmte Thromben aus tiefen Bein- oder Beckenvenen. Die klinische Ausprägung reicht von geringen Symptomen bis zu akuter Rechtsherzbelastung, Schock und Kreislaufstillstand. Es handelt sich bei entsprechenden Warnzeichen um einen medizinischen Notfall. [1]

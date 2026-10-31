@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Bandscheibenschäden
 
+**Klassifikation:** ICD-10-GM: M51.-
+
 ## Übersicht
 
 Sie tritt als natürlicher Vorgang im Zuge des biologischen Alterns und einer lebenslangen physiologischen Belastung auf.[1] Dabei verändern sich der Nucleus pulposus, der Faserring (Anulus fibrosus) und die knorpelige Endplatte, unter anderem durch Druckverlust, eine abnehmende Kollagenkonzentration sowie Ablösungen, Risse und Spalten der extrazellulären Matrix.[1] Der Degenerationsprozess folgt meist einem vorhersagbaren Muster und macht die Bandscheibe anfälliger für pathologische Zustände.[1] Mit fortschreitender Degeneration steigt die Wahrscheinlichkeit, dass die Bandscheibe ihre Funktion nicht mehr erfüllt, nämlich die neuralen Strukturen zu schützen und eine stabile Bewegung des Wirbelsäulensegments zu gewährleisten.[1] Aus diesem Funktionsverlust entstehen verschiedene Erscheinungsformen, am häufigsten Bandscheibenvorfall, mechanische Instabilität, spinale Stenose, degenerative Spondylolisthese und degenerative Skoliose.[1] Die Degeneration gilt als wesentlicher Beitrag zu diskogenen Kreuzschmerzen, die eine bedeutende globale Behinderung verursachen.[2] Zudem wird sie als eine der Hauptursachen für chronische Kreuzschmerzen beschrieben.[3]

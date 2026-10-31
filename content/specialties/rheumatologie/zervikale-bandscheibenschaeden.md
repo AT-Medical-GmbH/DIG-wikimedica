@@ -33,6 +33,8 @@ corrections: []
 
 # Zervikale Bandscheibenschäden
 
+**Klassifikation:** ICD-10-GM: M50.-
+
 ## Übersicht
 
 Zervikale Bandscheibenschäden, die klinisch oft als zervikale Spondylose oder Bandscheibenvorfall manifestiert sind, zählen zu den häufigsten Ursachen für Nackenschmerzen und neurologische Symptomatik.[1] Die Pathologie reicht von asymptomatischen degenerativen Veränderungen bis hin zu schwerwiegender Radikulopathie oder Myelopathie, die durch Entzündungsprozesse und mechanische Kompression von Nervenwurzeln oder dem Rückenmark ausgelöst werden.[1] Die konservative Therapie umfasst in der Regel Medikamente, Physiotherapie und Aktivitätsmodifikation, wobei die Mehrheit der Fälle damit verbessert werden kann.[1] Bei Vorliegen von Myelopathie, fortschreitenden neurologischen Defiziten oder chronischen, therapieresistenten Beschwerden ist eine chirurgische Evaluation indiziert.[1] In der chirurgischen Behandlung etabliert sich die zervikale Bandscheibenprothese (CDA) zunehmend als bewegungserhaltende Alternative zur anterioren zervikalen Diskektomie und Fusion (ACDF).[2][3][4]

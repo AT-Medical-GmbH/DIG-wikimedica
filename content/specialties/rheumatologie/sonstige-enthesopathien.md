@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Enthesopathien
 
+**Klassifikation:** ICD-10-GM: M77.-
+
 ## Übersicht
 
 Diese Strukturen sind mechanisch hochbelastet und übernehmen die Aufgabe, biomechanische Kräfte zwischen den unterschiedlich zusammengesetzten Geweben Sehne und Knochen zu übertragen.[1] Traditionell wurden degenerative Enthesopathien und rheumatische Entzündungen (Enthesitis) als distinkte Entitäten betrachtet, die durch mechanische Überlastung bzw. Immunregulationsstörungen getrennt verursacht werden.[2] Aktuelle Erkenntnisse deuten jedoch auf ein gemeinsames pathophysiologisches Kontinuum hin, bei dem die mechanobiologische Versteifung der extrazellulären Matrix (EZM) eine zentrale Rolle spielt.[2] Diese Versteifung verbindet kumulative mechanische Belastung, chronische niedriggradige Entzündungen und dysregulierte Mechanotransduktion.[2] Die klinische Beurteilung bleibt herausfordernd, da die Bewertung hauptsächlich auf subjektiven Patientenangaben beruht und insbesondere bei Patienten mit zentralen Sensibilisierungssyndromen wenig spezifisch ist.[1] Zudem gibt es derzeit keine einheitliche Terminologie, die nicht-entzündliche Enthesopathien klar von entzündlichen Prozessen abgrenzt, was die Diagnostik und Forschung erschwert.[3]

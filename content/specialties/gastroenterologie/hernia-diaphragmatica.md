@@ -33,6 +33,8 @@ corrections: []
 
 # Zwerchfellhernie
 
+**Klassifikation:** ICD-10-GM: K44.-; ICD-11: DD50.0
+
 ## Übersicht
 
 Bei der Zwerchfellhernie, in der Fachliteratur meist als Hiatushernie (Hernia diaphragmatica) bezeichnet, treten Magen oder andere Bauchorgane durch den Ösophagushiatus des Zwerchfells in den Thorax.[1] Die anatomische Einteilung umfasst vier Typen.[1] Typ I (gleitende bzw. axiale Hernie) ist die häufigste Form.[1] Die Typen II bis IV werden als paraösophageale Hernien zusammengefasst, wobei Typ III eine Kombination aus Typ I und II darstellt und Typ IV zusätzlich weitere intraabdominale Organe wie Kolon oder Dünndarm umfassen kann.[1] Die Behandlung unterscheidet sich zwischen axialen und paraösophagealen Hernien, und entsprechende Leitlinien differenzieren die Empfehlungen nach diesen Gruppen.[1]

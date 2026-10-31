@@ -33,6 +33,8 @@ corrections: []
 
 # Skoliose
 
+**Klassifikation:** ICD-10-GM: M41.-; ICD-11: FA70.1
+
 ## Übersicht
 
 Die Skoliose ist eine komplexe, dreidimensionale Fehlstellung der Wirbelsäule, die das Wachstum der Wirbelsäule bei Jugendlichen beeinflusst und eine erhebliche Belastung für Familien und die Gesellschaft darstellt.[1] Sie äußert sich durch Rückenschmerzen, funktionelle Einschränkungen, kosmetische Bedenken und respiratorische Dysfunktion.[2] Die Diagnose erfolgt primär über klinische Assessments und radiologische Bildgebung, wobei die Röntgenaufnahme das Hauptinstrument zur Klassifizierung und Verlaufskontrolle ist.[3] Die Mehrheit der Fälle ist idiopathisch, ohne zugrunde liegende Wirbelsegmentationsanomalien, Dysraphien, neuromuskuläre Abnormalitäten, Skelettdysplasien, Tumore oder Infektionen.[3] Konservative Therapien, insbesondere physiotherapeutische, skoliose-spezifische Übungen (PSSE), stehen im Fokus der Behandlung, um das Fortschreiten der Krümmung zu verlangsamen oder zu stoppen und invasive Eingriffe zu verzögern oder zu vermeiden.[4]

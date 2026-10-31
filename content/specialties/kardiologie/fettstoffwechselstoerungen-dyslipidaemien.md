@@ -40,6 +40,8 @@ corrections: []
 
 # Fettstoffwechselstörungen (Dyslipidämien)
 
+**Klassifikation:** ICD-10-GM: E78.-
+
 > **Redaktioneller Status: Entwurf – keine medizinische Fachfreigabe.** Referenzen sind Quellen für die obligatorische medizinische Nachprüfung. Für Notfälle gilt der lokale Rettungsdienst (Deutschland: 112).
 
 Eine **Dyslipidämie** ist eine quantitative oder qualitative Störung der Lipoproteine. Sie umfasst insbesondere erhöhte Konzentrationen atherogener ApoB-haltiger Partikel, häufig erfasst über LDL-Cholesterin (LDL-C), sowie Hypertriglyzeridämien und kombinierte Formen. Die Bedeutung eines Laborbefunds hängt entscheidend vom kardiovaskulären Gesamtrisiko, der Ursache und der Messmethode ab. [1][2]

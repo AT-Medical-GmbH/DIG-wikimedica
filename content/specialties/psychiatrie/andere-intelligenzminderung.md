@@ -33,6 +33,8 @@ corrections: []
 
 # Intelligenzminderung
 
+**Klassifikation:** ICD-10-GM: F78.-
+
 ## Übersicht
 
 Sie gilt sowohl als psychiatrische Störung als auch als Risikofaktor für das gleichzeitige Auftreten weiterer psychiatrischer Erkrankungen bei Kindern und Jugendlichen.[1] Mit dem DSM-5 wurden Konzeption und Diagnose der Störung deutlich verändert.[1] Im pädiatrischen, genetischen und kinderneurologischen Alltag gehört die Intelligenzminderung zu den häufigen Anlässen einer Vorstellung.[2] Für Fachpersonen ist dabei zu beachten, dass die psychiatrische Versorgung dieser Gruppe Anpassungen der Diagnostik und Behandlung erfordert, weil die klinische Präsentation psychischer Störungen variieren kann.[1] Die Evidenzlage ist in mehreren Bereichen begrenzt, insbesondere dort, wo Daten vor allem aus Untersuchungen an Erwachsenen stammen.[3][4][5]

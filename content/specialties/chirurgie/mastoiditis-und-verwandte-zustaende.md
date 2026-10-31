@@ -33,6 +33,8 @@ corrections: []
 
 # Mastoiditis und verwandte Zustände
 
+**Klassifikation:** ICD-10-GM: H70.-; ICD-11: AB11
+
 ## Übersicht
 
 Die akute Mastoiditis ist eine suppurative Infektion der Mastoidzellen, die häufig mit einer Otitis media einhergeht und vor allem pädiatrische Patienten betrifft.[1] Sie gilt als ernste Erkrankung mit potenziell lebensbedrohlichen Komplikationen, weshalb eine rasche Diagnose und Therapie entscheidend sind.[1] Die klinische Verdachtsdiagnose stützt sich auf typische Symptome wie eine Vorwölbung der Ohrmuschel, postaurikuläre Rötung und Druckschmerz über dem Warzenfortsatz.[1] In der Notaufnahme sollte die Erkrankung insbesondere bei Patienten in Betracht gezogen werden, die auf eine vorherige Behandlung einer Otitis media nicht ansprechen oder systemische Entzündungszeichen aufweisen.[1]

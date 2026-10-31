@@ -33,6 +33,8 @@ corrections: []
 
 # Placenta praevia
 
+**Klassifikation:** ICD-10-GM: O44.-
+
 ## Übersicht
 
 Bei der Placenta praevia überdeckt die Plazenta den inneren Muttermund teilweise oder vollständig.[1] Die Komplikation zählte historisch zu den wichtigen Ursachen mütterlicher Mortalität, bis Fortschritte in der Geburtshilfe, etwa durch die pränatale Ultraschalldiagnostik, den Kaiserschnitt und die Transfusionsmedizin, die Prognose deutlich verbesserten.[2] Heute wird sie meist im routinemäßigen Ultraschall des zweiten Trimesters erkannt, wobei sich die große Mehrheit der Fälle bis zum Termin auflöst.[2] Eine Placenta praevia, die bis in das späte dritte Trimester persistiert, gilt als Indikation für einen geplanten Kaiserschnitt.[3][2] Sie dient dazu, transabdominelle Befunde zu bestätigen, die Distanz zum inneren Muttermund zu messen und assoziierte Zustände wie das Placenta-accreta-Spektrum oder eine Vasa praevia auszuschließen.[3] Die Abklärung dieser Begleitbefunde ist nach dem Nachweis einer Placenta praevia ausdrücklich vorgesehen.[2]

@@ -37,6 +37,8 @@ corrections: []
 
 # Obstruktive Schlafapnoe
 
+**Klassifikation:** ICD-10-GM: G47.3-
+
 Die **obstruktive Schlafapnoe** ist durch wiederholte obere Atemwegsobstruktionen im Schlaf gekennzeichnet. Sie kann fragmentierten Schlaf, Sauerstoffentsättigungen und ausgeprägte Tagesschläfrigkeit verursachen.[1]
 
 ## Diagnostik und Behandlung

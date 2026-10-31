@@ -33,6 +33,8 @@ corrections: []
 
 # Herzverletzung
 
+**Klassifikation:** ICD-10-GM: S26.-; ICD-11: NB31
+
 ## Übersicht
 
 Herzverletzungen nach stumpfem Brusttrauma umfassen ein breites Spektrum an Pathologien, die von asymptomatischen Myokardkontusionen bis hin zu schnell tödlichen Herzwandrupturen reichen.[1][2] Diese Verletzungen entstehen durch direkte Krafteinwirkung, schnelle Verzögerung oder Quetschmechanismen und sind für einen signifikanten Anteil der traumabedingten Todesfälle verantwortlich.[3][4] Die Diagnosestellung bleibt eine Herausforderung, da die klinische Präsentation oft unspezifisch ist und viele Patienten initial asymptomatisch erscheinen.[5][1] Eine frühzeitige Erkennung ist entscheidend, da unbehandelte Verletzungen zu lebensbedrohlichen Arrhythmien oder Pumpversagen führen können.[1][2] Die Diagnostik stützt sich auf eine Kombination aus klinischer Beurteilung, elektrokardiographischen Untersuchungen, Biomarkern und bildgebenden Verfahren.[5][6]

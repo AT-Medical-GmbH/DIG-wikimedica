@@ -33,6 +33,8 @@ corrections: []
 
 # Hodentumore
 
+**Klassifikation:** ICD-10-GM: C62.-
+
 ## Übersicht
 
 Bösartige Hodentumore zählen zu den häufigsten soliden Malignomen bei jungen Männern und gelten als kurabel, wobei die Behandlung kurativ ausgerichtet sein muss und gleichzeitig akute sowie langfristige Nebenwirkungen minimiert werden sollen.[1][2] Die europäische Leitlinie der EAU fasst die aktuellste Evidenz zur Diagnostik, Primärtherapie und Nachsorge zusammen, um das Management zu standardisieren.[3] Parallel dazu bieten die NCCN-Richtlinien Empfehlungen für den multidisziplinären Ansatz bei Keimzelltumoren, einschließlich Seminomen und Nichtseminomen.[4] Die amerikanische Leitlinie der AUA konzentriert sich spezifisch auf evidenzbasierte Strategien für das frühe Stadium der Erkrankung.[5] Die Pathologie spielt eine zentrale Rolle bei der korrekten Stadieneinteilung und Prognoseabschätzung, wobei konsensbasierte Empfehlungen der ISUP die makroskopische und mikroskopische Beurteilung standardisieren.[6][7]

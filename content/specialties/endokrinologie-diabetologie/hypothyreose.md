@@ -37,6 +37,8 @@ corrections: []
 
 # Hypothyreose
 
+**Klassifikation:** ICD-10-GM: E03.-
+
 Eine **Hypothyreose** ist eine Unterfunktion der Schilddrüse. Sie kann primär in der Schilddrüse entstehen oder seltener zentrale Ursachen haben. Symptome sind oft unspezifisch und reichen von Müdigkeit und Kälteempfindlichkeit bis zu Verstopfung, trockener Haut oder kognitiver Verlangsamung.
 
 ## Diagnostik

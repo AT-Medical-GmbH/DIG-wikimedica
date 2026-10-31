@@ -33,6 +33,8 @@ corrections: []
 
 # Sekundäre Arthrose
 
+**Klassifikation:** ICD-10-GM: M19.-
+
 ## Übersicht
 
 Die posttraumatische Arthrose (PTOA) ist eine sekundäre Form der Arthrose, die sich nach Gelenkverletzungen entwickelt und einen beständigen Anteil symptomatischer Arthrosefälle ausmacht.[1] Im Unterschied zur primären Arthrose hat sie einen klar umschreibbaren Ausgangspunkt, was frühe Interventionsmöglichkeiten eröffnet.[1] Nach einer Übersichtsarbeit trägt sie mehr als 12 % zur Gesamtlast der Arthrose bei.[2] Als auslösende Verletzungen gelten unter anderem Kreuzbandrupturen, Meniskusläsionen und intraartikuläre Frakturen.[2]

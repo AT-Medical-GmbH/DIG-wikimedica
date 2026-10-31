@@ -33,6 +33,8 @@ corrections: []
 
 # Kindesmisshandlung und Missbrauch
 
+**Klassifikation:** ICD-10-GM: T74.-
+
 ## Übersicht
 
 Kindesmisshandlung und Vernachlässigung (englisch „child abuse and neglect“, CAN) gelten als bedeutsames Problem der öffentlichen Gesundheit, das mit hohen individuellen und gesellschaftlichen Belastungen einhergeht.[1] Unterschieden werden körperliche, sexuelle und emotionale Misshandlung, Vernachlässigung sowie Konstellationen, in denen mehrere Formen zusammentreffen.[2] Die wissenschaftliche Auseinandersetzung mit dem Thema hat seit dem Jahr 2000 deutlich zugenommen, wobei sich der Schwerpunkt zunehmend auf Kinderschutzsysteme und präventive Ansätze verlagert.[3]

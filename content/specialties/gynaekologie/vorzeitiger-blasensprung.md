@@ -33,6 +33,8 @@ corrections: []
 
 # Vorzeitiger Blasensprung
 
+**Klassifikation:** ICD-10-GM: O42.-
+
 ## Übersicht
 
 Er wird als Frühgeburtsrisiko mit erheblicher Bedeutung für Mutter und Kind eingeordnet.[1][2] Schwangerschaftswoche (PPROM), wobei das Management maßgeblich vom Gestationsalter und der Abwägung zwischen den Risiken einer Entbindung und denen eines abwartenden Vorgehens abhängt.[2][3] Die wichtigsten Komplikationen sind Frühgeburtlichkeit und intrauterine Infektionen.[4][1]

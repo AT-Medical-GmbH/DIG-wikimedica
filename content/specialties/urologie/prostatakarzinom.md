@@ -37,6 +37,8 @@ corrections: []
 
 # Prostatakarzinom
 
+**Klassifikation:** ICD-10-GM: C61
+
 Das **Prostatakarzinom** ist ein bösartiger Tumor der Vorsteherdrüse. Die Erkrankung kann lange keine Beschwerden verursachen; diagnostische und therapeutische Entscheidungen beruhen auf einer abgestuften Risikobewertung.[1]
 
 ## Diagnostik und Behandlung

@@ -33,6 +33,8 @@ corrections: []
 
 # Schwangerschaftsdauer
 
+**Klassifikation:** ICD-10-GM: O09.-!
+
 ## Übersicht
 
 Die Bestimmung des Gestationsalters ist ein zentraler Bestandteil der pränatalen Versorgung und eine Grundlage für die Beurteilung perinataler Ergebnisse.[1] Verbreitet sind die Datierung anhand des ersten Tages der letzten Menstruation und die konventionelle sonografische Biometrie.[1] Daneben werden die transzerebelläre Messung, die Auswertung von Ultraschallbildern mit künstlicher Intelligenz und der Einsatz portabler Ultraschallgeräte untersucht.[1][2][3] Die Verfahren unterscheiden sich deutlich in Genauigkeit, Aufwand und Verfügbarkeit, und die Evidenzlage ist je nach Methode unterschiedlich dicht.[2][3][4]

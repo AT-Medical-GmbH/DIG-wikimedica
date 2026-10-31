@@ -37,6 +37,8 @@ corrections: []
 
 # Benigne Prostatahyperplasie
 
+**Klassifikation:** ICD-10-GM: N40; ICD-11: GA90
+
 Die **benigne Prostatahyperplasie** ist eine gutartige Vergrößerung der Prostata, die mit Beschwerden des unteren Harntrakts verbunden sein kann. Symptome können den Urinspeicher- und Entleerungsvorgang betreffen; ähnliche Beschwerden haben auch andere Ursachen.[1]
 
 ## Diagnostik und Behandlung

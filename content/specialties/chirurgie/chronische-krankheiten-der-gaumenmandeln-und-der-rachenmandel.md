@@ -33,6 +33,8 @@ corrections: []
 
 # Chronische Tonsillitis und Adenoide
 
+**Klassifikation:** ICD-10-GM: J35.-; ICD-11: CA0F
+
 ## Übersicht
 
 Chronische Tonsillitis ist eine häufige HNO-ärztliche Erkrankung, die durch wiederkehrende Entzündungsepisoden oder eine einzelne, lang anhaltende Entzündung der Gaumenmandeln definiert wird, die über einen Zeitraum von mehr als drei Monaten persistiert.[1] Die Gaumenmandeln gehören zu den größten lymphatischen Geweben im Waldeyer-Ring und erfüllen essentielle Schutzfunktionen im Rahmen der Immunabwehr, indem sie Lymphozyten generieren und Immunantworten vermitteln.[1] Bei der chronischen Form kommt es zu einer anhaltenden Entzündungskaskade, die mit wiederkehrenden akuten Halsschmerzen, Fieber, Husten, Mandelschwellung, Eiterbildung, Juckreiz im Rachen und Trockenheit einhergeht.[1] Die Erkrankung beeinträchtigt die Lebensqualität der Betroffenen erheblich, da sie durch häufige Schmerzen und funktionelle Einschränkungen gekennzeichnet ist.[2] In der modernen HNO-Praxis bleibt die Behandlung der chronischen Tonsillitis ein aktuelles Problem, wobei sich die Datenlage hinsichtlich des Einflusses chirurgischer Eingriffe auf die Lebensqualität der Patienten als insgesamt positiv darstellt.[3]

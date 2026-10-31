@@ -33,6 +33,8 @@ corrections: []
 
 # Kaposi-Sarkom
 
+**Klassifikation:** ICD-10-GM: C46.-
+
 ## Übersicht
 
 Das Kaposi-Sarkom ist ein multifokaler Tumor der lymphendothelialen Zellen, der durch eine Infektion mit dem Humanen Herpesvirus 8 (HHV-8) verursacht wird.[1] Es handelt sich um ein angioproliferatives Neoplasma, das in vier klinische Subtypen unterteilt wird: das klassische, das endemische, das epidemische (HIV-assoziierte) und das iatrogene Sarkom.[1] Die Diagnose stützt sich primär auf klinische Merkmale und wird durch eine histologische Bestätigung mit Immunhistochemie gesichert.[1] Die Erkrankung zeigt je nach Subtyp unterschiedliche Verläufe; das klassische Kaposi-Sarkom verläuft in der Regel indolent und chronisch, während die epidemische und iatrogene Form oft aggressiver ist.[1] Die Therapieziele umfassen die Kontrolle der Erkrankung, wobei die Wahl der Behandlung von der Lokalisation, der Ausbreitung und dem Immunstatus des Patienten abhängt.[1]

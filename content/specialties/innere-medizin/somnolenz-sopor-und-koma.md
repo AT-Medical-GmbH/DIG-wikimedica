@@ -33,6 +33,8 @@ corrections: []
 
 # Bewusstseinsstörungen Somnolenz, Sopor und Koma
 
+**Klassifikation:** ICD-10-GM: R40.-
+
 ## Übersicht
 
 Bewusstseinsstörungen nach akuten Hirnschädigungen zählen zu den schwerwiegendsten neurologischen Defiziten und betreffen bis zu 47 % der Patienten bei Aufnahme auf Intensiv- oder Frührehabilitationsstationen.[1] Die klinische Differenzierung erfolgt primär über die Beobachtung von Wachheit und Bewusstseinsinhalten, wobei zwischen Koma, Unresponsive Wakefulness Syndrome (UWS, früher vegetativer Zustand) und dem Minimal Conscious State (MCS) unterschieden wird.[2] Eine präzise Diagnosestellung ist entscheidend, da Fehldiagnosen häufig sind und ein MCS oft unbemerkt bleibt.[1] Die Diagnostik stützt sich auf eine multimodale Bewertung, die standardisierte neurobehaviorale Untersuchungen mit elektroenzephalografischen (EEG) und funktionellen bildgebenden Verfahren kombiniert.[3] Die Prognose hängt maßgeblich von der Ätiologie der Schädigung, dem initialen Bewusstseinszustand und der Dauer der Störung ab, wobei sich Erholungsprozesse über Monate bis Jahre erstrecken können.[4][5]

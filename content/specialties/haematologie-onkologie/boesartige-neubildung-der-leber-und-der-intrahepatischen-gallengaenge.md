@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildungen der Leber
 
+**Klassifikation:** ICD-10-GM: C22.-
+
 ## Übersicht
 
 Bösartige Neubildungen der Leber umfassen primäre Lebertumoren wie das hepatozelluläre Karzinom (HCC) und das intrahepatische Cholangiokarzinom (ICC) sowie hepatische Metastasen, wobei Metastasen häufig von kolorektalen Karzinomen ausgehen.[1] Die Behandlung komplexer hepatischer Malignome erfordert einen multidisziplinären Ansatz, bei dem interventionelle Radiologen eine Schlüsselrolle bei der Anwendung lokaler Therapien wie der perkutanen Ablation, der transarteriellen Chemoembolisation (TACE) und der transarteriellen Radioembolisation (TARE) einnehmen.[2] Nur ein kleiner Anteil der Patienten, geschätzt zwischen 10 und 20 Prozent, ist für kurative Maßnahmen wie eine Resektion oder eine Lebertransplantation geeignet.[1]

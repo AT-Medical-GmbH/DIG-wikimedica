@@ -33,6 +33,8 @@ corrections: []
 
 # Blasenentzündung
 
+**Klassifikation:** ICD-10-GM: N30.-; ICD-11: GC00
+
 ## Übersicht
 
 Die Blasenentzündung, medizinisch als Zystitis bezeichnet, ist eine Infektion oder Entzündung, die auf die Harnblase beschränkt ist.[1] Sie zählt zu den häufigsten bakteriellen Infektionen insgesamt und stellt eine der häufigsten Ursachen für Arztbesuche sowie für die Verschreibung von Antibiotika dar.[2] Die Diagnose stützt sich primär auf die klinische Anamnese und die körperliche Untersuchung, wobei die Befunde durch die Harnanalyse bestätigt werden.[1] Bei unkomplizierten Verläufen, die vorwiegend bei jungen Frauen auftreten, ist eine ausgedehnte diagnostische Abklärung in der Regel nicht erforderlich, da eine sichere ambulante Behandlung mit oralen Antibiotika möglich ist.[3] Die Unterscheidung zwischen unkomplizierten und komplizierten Infektionen ist klinisch relevant, da sie die initiale Evaluation, die Wahl des antimikrobiellen Mittels und die Therapiedauer beeinflusst.[3] Komplizierte Infektionen sind mit Faktoren verbunden, die das Risiko für den Erwerb einer Infektion oder ein Therapieversagen erhöhen.[3]

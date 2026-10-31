@@ -33,6 +33,8 @@ corrections: []
 
 # Pyothorax
 
+**Klassifikation:** ICD-10-GM: J86.-; ICD-11: CA44
+
 ## Übersicht
 
 Pyothorax, im klinischen Kontext häufig als Empyem thoracis bezeichnet, stellt eine ernste Komplikation bakterieller Pneumonien dar, die durch die Ansammlung von Eiter im Pleuraraum charakterisiert ist.[1] Die Diagnosestellung erfolgt oft verzögert, was auf verspätete Vorstellung der Patienten, ein geringes Bewusstsein für die Erkrankung bei medizinischem Fachpersonal sowie die eingeschränkte Verfügbarkeit geeigneter diagnostischer Werkzeuge zurückzuführen ist.[1] Die Behandlung basiert auf einer Kombination aus frühzeitiger antibiotischer Therapie und einer effektiven Drainage des Pleuraraums.[1] Bei Versagen der konservativen Maßnahmen ist ein chirurgisches Eingreifen indiziert.[1]

@@ -33,6 +33,8 @@ corrections: []
 
 # Maligne Hirntumoren
 
+**Klassifikation:** ICD-10-GM: C71.-
+
 ## Übersicht
 
 Maligne Hirntumoren stellen eine heterogene Gruppe von Neoplasien dar, die mit einer hohen Morbidität und Mortalität verbunden sind.[1] Die Behandlung dieser Erkrankungen ist komplex und umfasst in der Regel eine Kombination aus chirurgischer Resektion, Strahlentherapie und systemischer Therapie.[2] Ein zentrales therapeutisches Hindernis bildet die Blut-Hirn-Schranke, die den Eintritt von Medikamenten in das ZNS erschwert und die Entwicklung neuer Therapiestrategien wie nanomedizinischer Ansätze erforderlich macht.[3][4] Während die Überlebensraten in einigen Bevölkerungsgruppen stabil bleiben, bleibt die Sterblichkeit insgesamt hoch, was die Notwendigkeit verbesserter diagnostischer und therapeutischer Verfahren unterstreicht.[4]

@@ -33,6 +33,8 @@ corrections: []
 
 # Aortenaneurysma und -dissektion
 
+**Klassifikation:** ICD-10-GM: I71.-; ICD-11: BD50
+
 ## Übersicht
 
 Erkrankungen der Aorta werden in der Bildgebungsliteratur in zwei große Gruppen unterteilt: die aneurysmatische Dilatation, bei der alle drei Schichten der intakten Aortenwand betroffen sind, und akute Aortensyndrome, bei denen mindestens eine Wandschicht unterbrochen ist, wie bei der Aortendissektion.[1] Ein Aortenaneurysma ist eine lokale Erweiterung, die auf einer Schwächung der Aortenwand beruht.[2] Es kann die thorakale, die abdominelle oder die thorakoabdominelle Aorta betreffen.[3][4] Das Risiko eines späteren Aortenrisses ist variabel, geht jedoch mit einer hohen Morbidität und Mortalität einher.[1] Die Bildgebung ist für Diagnose, Verlaufskontrolle und Behandlung dieser Erkrankungen entscheidend.[1] Da thorakale Aortenaneurysmen oft lange asymptomatisch verlaufen, kann die Erstdiagnose schwierig sein, obwohl ihre Inzidenz zunimmt.[5][6]

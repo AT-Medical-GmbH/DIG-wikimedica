@@ -33,6 +33,8 @@ corrections: []
 
 # Akutes nephritisches Syndrom
 
+**Klassifikation:** ICD-10-GM: N00.-
+
 ## Übersicht
 
 Das akute nephritische Syndrom beschreibt eine Kombination aus Hämaturie, Proteinurie, Hypertonie und einer je nach Ausprägung eingeschränkten Nierenfunktion.[1] Glomerulonephritiden bilden eine heterogene Gruppe von Erkrankungen, die sich heute nicht mehr primär nach dem histologischen Muster, sondern nach ihrer Ursache einteilen lassen.[1] Eine akute Präsentation mit vollständigem nephritischem Syndrom oder rasch progredientem Verlauf ist vergleichsweise selten und betrifft vor allem die postinfektiöse Glomerulonephritis, ANCA-assoziierte Vaskulitiden und die Anti-GBM-Erkrankung.[1] Besonders bei Kindern steht die infektionsassoziierte Glomerulonephritis im Vordergrund.[2][3]

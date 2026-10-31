@@ -33,6 +33,8 @@ corrections: []
 
 # Verletzung von Hirnnerven
 
+**Klassifikation:** ICD-10-GM: S04.-; ICD-11: NA04
+
 ## Übersicht
 
 Verletzungen der Hirnnerven, also der Nervi craniales, können als iatrogene Komplikation bei Eingriffen an der Schädelbasis auftreten und im Rahmen von Schädel-Hirn-Traumata entstehen.[1][2] Die Schädigungen können vorübergehend oder dauerhaft sein und beeinträchtigen die Lebensqualität der Betroffenen deutlich.[1][2] Die verfügbaren Daten stammen aus unterschiedlichen klinischen Settings, etwa aus endoskopischen Schädelbasiseingriffen, aus der Traumatologie oder aus Fallberichten nach Intubation, und sind daher nur eingeschränkt miteinander vergleichbar.[1][2][3]

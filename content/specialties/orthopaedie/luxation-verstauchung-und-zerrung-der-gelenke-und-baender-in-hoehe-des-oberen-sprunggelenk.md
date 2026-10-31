@@ -33,6 +33,8 @@ corrections: []
 
 # Distorsion des oberen Sprunggelenks
 
+**Klassifikation:** ICD-10-GM: S93.-
+
 ## Übersicht
 
 Verstauchungen des oberen Sprunggelenks gehören zu den häufigsten muskuloskelettalen Verletzungen, die in Notaufnahmen behandelt werden.[1] Die verfügbare Evidenz bezieht sich überwiegend auf die laterale Sprunggelenkverstauchung, also die Verletzung der seitlichen Bandstrukturen.[2][1] Trotz der hohen Häufigkeit ist das ideale Management umstritten, und ein relevanter Anteil der Betroffenen erholt sich nicht vollständig.[3] Die Versorgung ist bislang wenig standardisiert.[1]

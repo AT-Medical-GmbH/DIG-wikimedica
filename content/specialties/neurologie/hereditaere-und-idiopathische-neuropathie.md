@@ -33,6 +33,8 @@ corrections: []
 
 # Hereditäre und idiopathische Neuropathien
 
+**Klassifikation:** ICD-10-GM: G60.-
+
 ## Übersicht
 
 Die Charcot-Marie-Tooth-Erkrankung (CMT) umfasst zahlreiche erbliche Neuropathien und zählt zu den häufigsten erblichen neurologischen Erkrankungen.[1] Sie manifestiert sich häufig bereits im Kindesalter.[2] Die Einteilung erfolgt nach neurophysiologischen und histologischen Befunden, dem Erbgang und dem zugrunde liegenden genetischen Defekt.[3] Inzwischen sind über 100 verursachende Gene beschrieben, und die meisten Formen zeigen einen ähnlichen klinischen Phänotyp, weshalb die Klassifikation trotz zunehmender genetischer Erkenntnisse anspruchsvoll bleibt.[4] Eine eigenständige erbliche Entität mit besonderer Klinik ist die hereditäre Neuropathie mit Neigung zu Drucklähmungen (HNPP), die als seltene autosomal-dominante Erkrankung beschrieben wird.[5]

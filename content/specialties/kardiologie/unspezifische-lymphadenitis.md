@@ -33,6 +33,8 @@ corrections: []
 
 # Unspezifische Lymphadenitis
 
+**Klassifikation:** ICD-10-GM: I88.-
+
 ## Übersicht
 
 In der pädiatrischen Praxis ist die Lymphadenopathie häufig und meist benign sowie selbstlimitierend; dennoch erfordert die persistierende Form eine sorgfältige Abgrenzung zu malignen Erkrankungen.[1] Die Differentialdiagnose ist breit gefächert und umfasst spezifische bakterielle Infektionen wie Mykobakterien oder Bartonella, virale Auslöser sowie autoinflammatorische Syndrome.[1] Die Diagnostik stützt sich primär auf Anamnese und klinische Untersuchung, wobei bei unklaren oder persistierenden Verläufen bildgebende und histologische Verfahren zur Abklärung hinzugezogen werden.[1]

@@ -33,6 +33,8 @@ corrections: []
 
 # Paroxysmale Tachykardie
 
+**Klassifikation:** ICD-10-GM: I47.-; ICD-11: MC81.3
+
 ## Übersicht
 
 Die paroxysmale Tachykardie (PT) ist eine Form der Herzrhythmusstörung, die sich durch plötzlich einsetzende und endende Herzfrequenzsteigerungen charakterisiert.[1] Im klinischen Kontext wird der Begriff oft im Zusammenhang mit spezifischen Syndromen wie dem Wolff-Parkinson-White-Syndrom (WPW) verwendet, bei dem eine ventrikuläre Präexzitation vorliegt.[2] Während einige Arrhythmien wie die Sinusarrhythmie oder das wandernde atriale Schrittmacherzentrum typischerweise keine Behandlung erfordern, zählen paroxysmale Tachykardien zu den Zuständen, die spezifische diagnostische und therapeutische Strategien notwendig machen.[1] Die Diagnose erfolgt primär über das Elektrokardiogramm (EKG), wobei bei WPW-typischen Präexzitationen kurze PR-Intervalle und Delta-Wellen als Leitsymptome gelten.[2] Die Behandlung kann von einer reinen Beobachtung bei asymptomatischen Fällen bis hin zu invasiven Eingriffen wie der Katheterablation reichen.[2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Entwicklungsstörungen des Sprechens und der Sprache
 
+**Klassifikation:** ICD-10-GM: F80.-
+
 ## Übersicht
 
 Sie betrifft den Erwerb sprachlicher Fähigkeiten bei Kindern, die nicht durch eine andere Grunderkrankung erklärt werden.[1][2] Die Störung ist vererbbar, und ihre Ausprägung entsteht aus einem Zusammenspiel genetischer und umweltbezogener Faktoren.[1] Da Sprache für Lernen, soziale Interaktion und schulische Entwicklung zentral ist, können die Auswirkungen weit über den sprachlichen Bereich hinausreichen.[3][4] Frühere Studien verwendeten unterschiedliche Einschlusskriterien, was den Vergleich von Befunden erschwert.[1] Internationale Initiativen zur Vereinheitlichung der diagnostischen Kriterien haben in den letzten Jahren dazu beigetragen, größere und vergleichbarere Stichproben zu untersuchen.[1] Für die klinische Praxis bedeutet dies, dass Befunde aus älteren Arbeiten mit Vorsicht auf die aktuelle Definition übertragen werden sollten.[1]

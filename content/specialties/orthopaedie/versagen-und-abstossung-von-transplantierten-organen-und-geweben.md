@@ -33,6 +33,8 @@ corrections: []
 
 # Versagen und Abstoßung von Transplantaten
 
+**Klassifikation:** ICD-10-GM: T86.-; ICD-11: NE84
+
 ## Übersicht
 
 Bei Herztransplantaten verlängert die Transplantation das Leben von Patientinnen und Patienten mit terminaler Herzinsuffizienz, doch Abstoßungsreaktionen bleiben eine Komplikation, die das langfristige Überleben verringert.[1] Auch bei Nierentransplantaten ist die Abstoßung eine zentrale Ursache für den Transplantatverlust, und trotz Fortschritten im Immunsuppressionsmanagement hat sich das langfristige Überleben von Transplantaten und Patienten laut einer Übersichtsarbeit kaum verbessert.[2][3] Dabei werden die T-Zell-vermittelte und die antikörpervermittelte Form unterschieden.[4] Die Klassifikation nach der Banff-Systematik ist bei der Nierentransplantation weltweit in der klinischen Praxis verbreitet.[4] Für das Herztransplantat unterscheidet man hyperakute, akute und chronische Abstoßungen, die histopathologisch am Endomyokardbioptat beurteilt werden.[1]

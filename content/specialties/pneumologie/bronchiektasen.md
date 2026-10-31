@@ -33,6 +33,8 @@ corrections: []
 
 # Bronchiektasen
 
+**Klassifikation:** ICD-10-GM: J47; ICD-11: CA24
+
 ## Übersicht
 
 Bronchiektasen sind eine chronische, häufig progrediente Atemwegserkrankung, die durch irreversible Erweiterungen der Bronchien gekennzeichnet ist.[1][2] Die Erkrankung ist ätiologisch heterogen.[1] Typisch sind anhaltender Husten mit Auswurf, Dyspnoe und Fatigue.[3][2] Als zentrales Krankheitsmodell gilt ein Kreislauf aus gestörter mukoziliärer Clearance, chronischen Infektionen, Entzündung und fortschreitender Zerstörung der Atemwege.[3] Die Erkrankung geht mit einer erheblichen Symptomlast, zahlreichen Komplikationen und einer verminderten Lebensqualität einher.[1][4] Für die Versorgung liegen mehrere aktuelle Leitlinien vor, darunter eine Empfehlung der European Respiratory Society aus dem Jahr 2025, eine Leitlinie des American College of Chest Physicians sowie die erste deutschsprachige Leitlinie zur Behandlung erwachsener Patientinnen und Patienten.[1][3][5] Die Leitlinien betonen übereinstimmend die Bedeutung der Ätiologieklärung für die Therapieplanung.[1][5]

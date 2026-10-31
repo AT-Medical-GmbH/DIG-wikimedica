@@ -33,6 +33,8 @@ corrections: []
 
 # Harnröhrenstriktur
 
+**Klassifikation:** ICD-10-GM: N35.-; ICD-11: GC03
+
 ## Übersicht
 
 Die Harnröhrenstriktur stellt eine fibrotische Verengung des Harnröhrenlumens dar, die zu signifikanten unteren Harnwegsobstruktionen führt und die Lebensqualität der Betroffenen erheblich beeinträchtigt.[1] Die Ätiologie ist multifaktoriell, wobei in industrialisierten Ländern iatrogene Ursachen am häufigsten sind, gefolgt von traumatischen und infektiologischen Ereignissen.[1][2] Die Pathophysiologie wird durch entzündliche oder traumatische Prozesse charakterisiert, die zu einer Spongiofibrose und einer daraus resultierenden Lumeneinengung führen.[1] Die Diagnosestellung erfordert einen strukturierten Ansatz, der Anamnese, körperliche Untersuchung, Uroflowmetrie und bildgebende Verfahren umfasst.[1] Die Therapieoptionen reichen von endourologischen Eingriffen bis hin zu offenen rekonstruktiven Verfahren, wobei die Wahl der Methode von der Länge, Lokalisation und Ätiologie der Striktur abhängt.[1]

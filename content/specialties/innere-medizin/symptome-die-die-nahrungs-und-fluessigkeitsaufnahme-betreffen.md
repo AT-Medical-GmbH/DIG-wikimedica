@@ -33,6 +33,8 @@ corrections: []
 
 # Störungen der Nahrungs- und Flüssigkeitsaufnahme
 
+**Klassifikation:** ICD-10-GM: R63.-; ICD-11: MG43
+
 ## Übersicht
 
 Störungen der Nahrungs- und Flüssigkeitsaufnahme umfassen ein breites Spektrum an Phänotypen, die durch eine unzureichende Nahrungsaufnahme und/oder altersunangemessene Essgewohnheiten gekennzeichnet sind.[1][2] Diese Störungen treten bei gesunden Kindern sowie bei Patienten mit verschiedenen Grunderkrankungen auf und erfordern eine differenzierte klinische Beurteilung.[3] Die Diagnostik ist durch eine erhebliche Heterogenität in der Terminologie und den verwendeten Messinstrumenten erschwert, was die Vergleichbarkeit von Studien und die Standardisierung der Versorgung beeinträchtigt.[1][2][4] Eine multidisziplinäre Zusammenarbeit zwischen verschiedenen Gesundheitsdienstleistern und den Bezugspersonen der Patienten ist für eine optimierte Behandlung entscheidend.[3]

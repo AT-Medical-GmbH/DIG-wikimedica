@@ -33,6 +33,8 @@ corrections: []
 
 # Reine Erythrozytenaplasie
 
+**Klassifikation:** ICD-10-GM: D60.-
+
 ## Übersicht
 
 Es ist durch eine isolierte, meist normozytäre Anämie mit ausgeprägter Retikulozytopenie gekennzeichnet und beruht auf dem Fehlen oder einer nahezu vollständigen Abwesenheit erythroider Vorläuferzellen im Knochenmark.[1] Die erworbene Form wird als Knochenmarkversagenssyndrom eingeordnet, das überwiegend ältere Erwachsene betrifft.[2] Die Erkrankung kann primär, also ohne erkennbare Grunderkrankung, auftreten oder sekundär im Rahmen anderer Störungen.[1] Die Behandlung beruht im Wesentlichen auf immunsuppressiven Therapien, deren Wirksamkeit je nach Ursache und Behandlungsstrategie variiert.[3][4]

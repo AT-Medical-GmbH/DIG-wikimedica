@@ -37,6 +37,8 @@ corrections: []
 
 # Respiratorische Insuffizienz
 
+**Klassifikation:** ICD-10-GM: J96.-
+
 Eine **respiratorische Insuffizienz** liegt vor, wenn die Lunge den Gasaustausch nicht ausreichend sicherstellen kann. Sie kann akut oder chronisch auftreten und mit Hypoxämie, Hyperkapnie oder beidem einhergehen.[1]
 
 ## Ursachen und Diagnostik

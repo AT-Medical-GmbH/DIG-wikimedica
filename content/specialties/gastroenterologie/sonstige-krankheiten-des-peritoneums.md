@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Krankheiten des Peritoneums
 
+**Klassifikation:** ICD-10-GM: K66.-
+
 ## Übersicht
 
 Peritoneale Adhäsionen sind Verwachsungen innerhalb der Bauchhöhle, die als lokale und zugleich systemische Antwort auf eine Gewebeschädigung entstehen.[1][2] Auslöser sind chirurgische Eingriffe, Entzündungen, Infektionen und stumpfe Bauchtraumen.[1][2] Adhäsionen können asymptomatisch bleiben oder Schmerzen und viszerale Funktionsstörungen verursachen.[3][2] Da sie in der Regel nicht zurückgebildet werden, stellen sie für Betroffene und Versorgungssysteme ein relevantes Problem dar.[4][3]

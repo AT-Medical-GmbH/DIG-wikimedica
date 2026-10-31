@@ -33,6 +33,8 @@ corrections: []
 
 # Nicht-eitrige Mittelohrentzündung
 
+**Klassifikation:** ICD-10-GM: H65.-
+
 ## Übersicht
 
 Die nicht-eitrige Mittelohrentzündung, in der Fachterminologie als Otitis media mit Erguss (OME) bezeichnet, ist eine häufige Erkrankung, die durch eine Ansammlung von Flüssigkeit im Mittelohr ohne akute Infektionszeichen gekennzeichnet ist.[1][2][3] Die Inzidenz und Prävalenz dieser Erkrankung sind hoch, wobei sie vor allem im Kindesalter auftritt.[1][3] Obwohl der natürliche Verlauf bei den meisten Kindern günstig ist, kann ein persistierender Erguss zu Hörverlust führen, der sich negativ auf die Sprachentwicklung, das Lernen und die Lebensqualität auswirkt.[4][3] Die klinische Praxis zeigt jedoch, dass nur eine Minderheit der Fachpersonen die aktuellen Leitlinienempfehlungen konsequent umsetzt.[1] Die Diagnostik und das Management erfordern eine differenzierte Betrachtung, da die Wirksamkeit medizinischer Therapien wie Antibiotika oder Kortikosteroide als gering einzustufen ist.[1][4] Stattdessen steht bei der Erstbehandlung das abwartende Beobachten im Vordergrund, gefolgt von chirurgischen Interventionen bei Persistenz der Erkrankung.[1][2]

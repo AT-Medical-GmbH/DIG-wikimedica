@@ -33,6 +33,8 @@ corrections: []
 
 # Geburtshindernis durch Fetenlage
 
+**Klassifikation:** ICD-10-GM: O64.-; ICD-11: JB04
+
 ## Übersicht
 
 Eine normale Geburt erfordert in der Regel eine longitudinale Lage, eine cephalische Präsentation mit gut gebeugtem Kopf (Vertex-Presentation) und eine okzipito-anterior Stellung des Feten im mütterlichen Becken.[1] Abweichungen hiervon, wie die okzipito-posteriore (OP) oder okzipito-transverse (OT) Stellung, werden als fetale Malpositionen bezeichnet und sind mit erhöhten Risiken für Mutter und Kind verbunden.[1] Diese Anomalien können zu einem verlängerten Geburtsverlauf, fetalem Distress, mütterlicher Erschöpfung sowie einem erhöhten Bedarf an operativen vaginalen Geburten oder Kaiserschnitten führen.[1][2] Die Diagnostik stützt sich traditionell auf die vaginale Untersuchung, die jedoch subjektiv und schlecht reproduzierbar ist; die intrapartale Sonografie bietet hier eine genauere objektive Beurteilung der fetalen Lage und Haltung.[3]

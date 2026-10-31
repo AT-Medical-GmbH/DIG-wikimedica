@@ -33,6 +33,8 @@ corrections: []
 
 # Schleimbeutelentzündung (Bursitis)
 
+**Klassifikation:** ICD-10-GM: M71.-
+
 ## Übersicht
 
 Bei der Schleimbeutelentzündung (Bursitis) ist ein als Bursa bezeichneter Schleimbeutel entzündet, häufig unter Ansammlung von Flüssigkeit.[1] Am Olekranon (Ellenbogen), an der Patella (Kniescheibe), im Bereich des Trochanter major, an der Iliopsoas-Bursa der Hüfte und zwischen den Mittelfußknochen kommen solche Entzündungen vor.[1][2][3][4][5] Klinisch wird zwischen septischen, also bakteriell bedingten, und aseptischen Formen unterschieden.[4][2] Die Abgrenzung ist für Therapie und Prognose wesentlich, da sich die Behandlungsstrategien je nach Ursache deutlich unterscheiden.[2][1]

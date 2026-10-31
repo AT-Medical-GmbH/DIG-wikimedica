@@ -33,6 +33,8 @@ corrections: []
 
 # Fraktur des Unterarms
 
+**Klassifikation:** ICD-10-GM: S52.-; ICD-11: NC32
+
 ## Übersicht
 
 Frakturen des kindlichen Unterarms stehen nach den Klavikulafrakturen an zweiter Stelle der Häufigkeit.[1] Radius und Ulna sind über ihre Gelenkverbindungen eng miteinander gekoppelt und wirken als funktionelle Rotationseinheit.[1] Biomechanisch lassen sich Unterarmfrakturen daher mit intraartikulären Frakturen vergleichen.[1] Da eine Fraktur die Pronation und Supination einschränken kann, ist häufig eine operative Stabilisierung erforderlich.[1] Die aktuelle Versorgungsempfehlung für Kinder beruht nach Angabe der jüngsten Übersichtsarbeit auf Expertenmeinung (Evidenzgrad >V).[2] Die übrigen Übersichtsarbeiten sind narrative Reviews, deren Aussagen sich vor allem auf Fallserien und Expertenwissen stützen.[1][3] Die Einschätzungen sind daher als Orientierung zu verstehen und nicht als Ergebnis systematisch gesicherter Vergleichsstudien.[1][2][3]

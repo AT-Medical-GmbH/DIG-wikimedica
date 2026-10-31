@@ -33,6 +33,8 @@ corrections: []
 
 # Kaiserschnitt Indikationen und Durchführung
 
+**Klassifikation:** ICD-10-GM: O82; ICD-11: JB22
+
 ## Übersicht
 
 Die Schnittentbindung ist ein operatives Verfahren in der Geburtshilfe.[1] Ihre Häufigkeit gilt international als relevantes Anliegen.[2][3] Die aktuelle Evidenz befasst sich mit mehreren Entscheidungsfeldern: der Wahl des Entbindungswegs bei Beckenendlage, dem Vorgehen nach einem vorangegangenen Kaiserschnitt, dem Einsatz von Enhanced-Recovery-Konzepten (ERAS) im perioperativen Ablauf und der medikamentösen Blutungsprophylaxe.[1][4][5][6][7] Viele Studien unterscheiden zwischen elektiven und Notfallkaiserschnitten, da sich Ergebnisse und Ausgangslage teils deutlich unterscheiden.[2][1]
