@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 07:25. Warteschlange: claimed 1, duplicate 445, planned 3470, published 1187, ready 31, redirect 346, review 1585.
+Stand: 31.10.2026 08:25. Warteschlange: duplicate 445, planned 3344, published 1218, ready 11, redirect 361, review 1686.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -606,9 +606,68 @@ Stand: 31.10.2026 07:25. Warteschlange: claimed 1, duplicate 445, planned 3470, 
 | WM-DRUG-0727 | Prenalterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'prenalterol' |
 | WM-DRUG-0728 | Dopexamin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Dopexamine' |
 | WM-DRUG-0729 | Gepefrin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'pefrin' |
+| WM-DRUG-0730 | Ibopamin | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Ibopamin ist ein oral wirksames Dopamin-Prodrug (Epinin-Derivat, D1/D2- und alpha-Agonist) zur Herzinsuffizienztherapie (ATC C01CA16). Der Titel be |
+| WM-DRUG-0731 | Midodrin | drug | zu viele nur teilweise belegte Sätze (21/34) |
+| WM-DRUG-0732 | Octopamin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Octopamin als Neurotransmitter bei Insekten (Physiologie, Verhalten, Fortpflanzung), nicht den Arzneimittelwirkstoff  |
+| WM-DRUG-0733 | Fenoldopam | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 1–3 behandeln Fenoldopam direkt (Cochrane-Review, Übersichtsarbeit zur Nierenprotektion, Metaanalyse). Quelle 4 betrifft Dopaminrezeptoren  |
+| WM-DRUG-0734 | Cafedrin | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Cafedrin ist ein Wirkstoff (Theophyllin-Derivat des Norephedrins, gewöhnlich in Kombination mit Theodrenalin als Akrinor, Antihypotonikum). Der Ti |
+| WM-DRUG-0735 | Arbutamin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Arbutamin ist ein Katecholamin-Derivat und ein β1/β2-Agonist (Pharmakologischer Stresstest bei Koronardiagnostik), kein β3-Agonist. Keine der Quell |
+| WM-DRUG-0736 | Theodrenalin | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Theodrenalin (C01CA23, Kombination Noradrenalin/Theophyllin, in Akrinor mit Cafedrin) ist nicht Epinephrin/Adrenalin (C01CA24). Alle Quellen behan |
+| WM-DRUG-0737 | Ameziniummetilsulfat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'amezinium methylsulfate' |
+| WM-DRUG-0739 | Droxidopa | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Der Titel 'Droxidopa' entspricht dem Wirkstoff der Klassifikation (ATC C01CA27). Nur die Quellen 3 und 6 behandeln Droxidopa direkt und im Titel. Q |
+| WM-DRUG-0740 | Centhaquin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Centhaquin (ATC C01CA28) ist ein Kreislaufmittel (Sympathomimetikum, Hypovolämie/hämorrhagischer Schock). Der Suchbegriff „Chlorothiazide“ bezeichn |
 | WM-DRUG-0741 | Orciprenalin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Isoprenaline' |
+| WM-DRUG-0742 | Pholedrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Pholedrin (ATC C01CA32) ist ein indirektes Sympathomimetikum (Tyramin-Derivat), das sich von Phenylephrin unterscheidet. Alle Quellen behand |
+| WM-DRUG-0743 | Oxilofrin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'norephedrine' |
+| WM-DRUG-0744 | Amrinon | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Amrinon“ bezeichnet denselben Wirkstoff wie ATC C01CE01 (Amrinon/Inamrinon, deutsche Schreibweise von amrinone). Keine der Quellen behan |
+| WM-DRUG-0745 | Milrinon | drug | zu viele nur teilweise belegte Sätze (16/34) |
+| WM-DRUG-0746 | Enoximon | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der vier Quellen behandelt Enoximon als Wirkstoff. Quelle 1 behandelt Levosimendan, die Quellen 2 und 3 PDE-Inhibitoren und Herzinsuffizienz  |
+| WM-DRUG-0747 | Bucladesin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'bucladesine' |
+| WM-DRUG-0748 | Angiotensinamid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'angiotensinamide' |
+| WM-DRUG-0749 | Xamoterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Xamoterol' |
 | WM-DRUG-0753 | Ipratropiumbromid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln den Wirkstoff Ipratropiumbromid. Der ATC-Code C01CX15 gehört aber nicht zu Ipratropiumbromid (R03BB01 bzw. R01AX03),  |
+| WM-DRUG-0754 | Methylpropylpropanedioldinitrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Methylpropylpropanediol dinitrate' |
+| WM-DRUG-0755 | Pentaerythrityltetranitrat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Pentaerythritol tetranitrate' |
+| WM-DRUG-0756 | Propatylnitrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'propatylnitrate' |
+| WM-DRUG-0757 | Isosorbiddinitrat | drug | Themenprüfung: nur 1 von 12 Quellen passen zum Thema (Der Titel „Isosorbiddinitrat“ entspricht dem Wirkstoff der Klassifikation (ATC C01DA08). Als Quelle behandelt aber nur Nr. 12 gezielt Isosorbiddin |
+| WM-DRUG-0758 | Trolnitrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'trolnitrate' |
+| WM-DRUG-0759 | Erythrityltetranitrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Erythrityl tetranitrate' |
+| WM-DRUG-0760 | Isosorbidmononitrat | drug | Bestätigungsquote 19/46 unter 60 %; zu viele nur teilweise belegte Sätze (10/19) |
+| WM-DRUG-0761 | Tenitramin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tenitramine' |
+| WM-DRUG-0762 | Flosequinan | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Flosequinan' |
+| WM-DRUG-0763 | Itramintosilat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Itramin tosilate' |
+| WM-DRUG-0764 | Prenylamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Prenylamine' |
+| WM-DRUG-0765 | Oxyfedrin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxyfedrine' |
+| WM-DRUG-0766 | Benziodaron | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Benziodarone' |
+| WM-DRUG-0767 | Carbocromen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Carbocromen' |
+| WM-DRUG-0768 | Hexobendin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Hexobendine' |
+| WM-DRUG-0769 | Etafenon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'etafenone' |
+| WM-DRUG-0770 | Heptaminol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Heptaminol' |
+| WM-DRUG-0771 | Imolamin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Imolamin ist ein Oxadiazol-Derivat (Antianginosum) und kein Imidazolin-Rezeptorligand; alle Quellen behandeln andere Wirkstoffe oder Imidazolin-Rez |
+| WM-DRUG-0773 | Trapidil | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Trapidil' |
+| WM-DRUG-0774 | Molsidomin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Molsidomin' |
+| WM-DRUG-0775 | Efloxat | drug | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Efloxat (C01DX13) ist ein Koronarvasodilatator; alle Quellen behandeln Levofloxacin, ein Fluorchinolon-Antibiotikum (J01MA12), oder andere Themen. |
+| WM-DRUG-0776 | Cinepazet | drug | zu wenige Quellen mit Zusammenfassung (1) für 'cinepazide' |
+| WM-DRUG-0777 | Cloridarol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cloridarol' |
+| WM-DRUG-0778 | Nicorandil | drug | zu viele nur teilweise belegte Sätze (13/32) |
+| WM-DRUG-0779 | Linsidomin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Linsidomine' |
+| WM-DRUG-0780 | Nesiritid | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Der Titel 'Nesiritid' bezeichnet denselben Wirkstoff wie ATC C01DX19. Nur zwei Quellen behandeln Nesiritid erkennbar: Quelle 3 (ASCEND-HF, die Nesi |
+| WM-DRUG-0781 | Serelaxin | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur die Quellen 3 und 4 behandeln Relaxin-Agonisten bzw. Serelaxin gezielt. Die übrigen Quellen sind allgemeine Übersichten zur Herzinsuffizienz, z |
+| WM-DRUG-0783 | Alprostadil | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-0784 | Campher | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Der Titel „Campher“ entspricht dem Wirkstoff (ATC C01EB02). Passend sind nur die Quellen zu Campher als Wirkstoff: 4 (therapeutische Anwendungen u |
 | WM-DRUG-0785 | Indometacin | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-0786 | Creatinolfosfat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel wird nicht genannt. Creatinolfosfat (ATC C01EB05) ist nicht identisch mit Kreatinphosphat bzw. Phosphokreatin, das die Qu |
+| WM-DRUG-0787 | Fosfocreatin | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Fosfocreatin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC C01EB06). Nur Quelle 1 behandelt Kreatinphosphat als Arzneimitt |
+| WM-DRUG-0789 | Adenosin | drug | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Nur Quelle 2 (Adenosin-assistierte Embolisation) und Quelle 6 (Adenosin-Gabe bei SVT) behandeln den Wirkstoff Adenosin als Arzneimittel. Quellen 1 |
+| WM-DRUG-0790 | Acadesin | drug | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Acadesin (AICA-Ribosid, AMPK-Aktivator) ist ein Adenosin-Analogon; der Titel bezeichnet den Wirkstoff der Klassifikation korrekt (ATC C01EB13). Ke |
+| WM-DRUG-0792 | Fleischextrakt | drug | zu wenige Quellen mit Zusammenfassung (1) für 'meat extract' |
+| WM-DRUG-0793 | Meldonium | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln Meldonium direkt (Sportleistung, Therapieanwendungen, Einsatz bei Profisportlern). Quelle 3 (Kynurenin-Stoffwechselweg |
+| WM-DRUG-0794 | Tiazotsäure | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Alle Quellen behandeln Thiazid-Diuretika (ATC C03A), nicht Tiazotsäure (Tiazotic acid, C01EB23); nur ähnlich klingender Name, anderer Wirkstoff bz |
+| WM-DRUG-0795 | Mavacamten | drug | zu viele nur teilweise belegte Sätze (16/29) |
+| WM-DRUG-0797 | Crataegus | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Die Quellen 2 und 3 behandeln Weißdorn (Crataegus) bzw. Weißdornextrakt und seine gesundheitlichen Wirkungen. Quelle 1 betrifft eine TCM-Mischung g |
+| WM-DRUG-0798 | Besenginsterkraut | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Scotch broom' |
+| WM-DRUG-0799 | Galgantwurzelstock | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel entspricht dem Wirkstoff Galgantwurzelstock. Passend sind nur die Quellen zu Alpinia officinarum bzw. Galangal (3, 4, 5). Quellen 2 und 6 beh |
+| WM-DRUG-0800 | Ammi-visnaga-Früchte | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 (Visnagin) und 2 (Khellin) behandeln Hauptinhaltsstoffe von Ammi visnaga und passen zum Wirkstoff. Quellen 3 (Vitiligo, Heilpflanzen allg |
 | WM-DRUG-0801 | Rescinnamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Rescinnamine' |
 | WM-DRUG-0802 | Reserpin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel Reserpin entspricht dem Wirkstoff der Klassifikation (ATC C02AA02). Quelle 1 (Reserpin bei Depression) und Quelle 4 (Produktion von Reser |
 | WM-DRUG-0803 | Deserpidin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Deserpidine' |
@@ -682,14 +741,56 @@ Stand: 31.10.2026 07:25. Warteschlange: claimed 1, duplicate 445, planned 3470, 
 | WM-DRUG-0884 | Schachtelhalmkraut | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Schachtelhalmkraut“ (Equisetum arvense herba, ATC C03XP01) bezeichnet denselben Wirkstoff wie die Klassifikation. Nur Quelle 1 behandelt |
 | WM-DRUG-0885 | Birkenblätter | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Betula leaves' |
 | WM-DRUG-0886 | Wacholderbeeren | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Titel „Wacholderbeeren“ (Juniperi pseudo-fructus, ATC C03XP03) entspricht dem Wirkstoff. Nur Quellen 5 und 7 behandeln Juniperus communis bzw. dess |
+| WM-DRUG-0887 | Isoxsuprin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Isoxsuprin. Quelle 2 und 5 betreffen Beta-Agonisten allgemein (Tiermast bzw. Rückstandsanalytik), nicht den Wirkstoff I |
+| WM-DRUG-0888 | Buphenin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'buphenine' |
+| WM-DRUG-0889 | Bamethan | drug | zu wenige Quellen mit Zusammenfassung (0) für 'bamethan' |
+| WM-DRUG-0890 | Phentolamin | drug | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Der Titel 'Phentolamin' entspricht dem Wirkstoff (ATC C04AB01). Eindeutig zu Phentolamin passen nur die Quellen 3 (Phentolaminmesilat zur Aufhebun |
+| WM-DRUG-0891 | Tolazolin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tolazoline' |
 | WM-DRUG-0893 | Nicotinylalkohol (Pyridylcarbinol) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nicotinyl alcohol' |
+| WM-DRUG-0894 | Inositolnicotinat | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine der Quellen behandelt Inositolnicotinat. Es geht um Nicotinsäure allgemein (Gewichtsverlust, Bakterienstoffwechsel, Pflanzenabwehr, Synthese, |
+| WM-DRUG-0895 | Ciclonicat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der ATC-Code C04AC07 steht für Ciclonicat (Nicotinsäure-Derivat, peripherer Vasodilatator). Der Titel „Ciclonicat“ bezeichnet zwar grundsätz |
 | WM-DRUG-0897 | Xantinolnicotinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'xanthinol nicotinate' |
+| WM-DRUG-0899 | Etofyllinnicotinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Etofylline nicotinate' |
+| WM-DRUG-0900 | Ergoloidmesylat | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Ergoloidmesylat“ bezeichnet denselben Wirkstoff wie ATC C04AE01 (Co-dergocrin-mesilat, Mischung hydrierter Mutterkornalkaloide). Keine d |
 | WM-DRUG-0901 | Nicergolin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Nicergolin“ bezeichnet denselben Wirkstoff wie ATC C04AE02. Nur Quelle 2 behandelt Nicergolin ausdrücklich (α1A-Adrenorezeptor-Blockade) |
 | WM-DRUG-0902 | Dihydroergocristin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'dihydroergocristine' |
+| WM-DRUG-0903 | Kallidinogenase | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 2 behandelt explizit human urinary kallidinogenase (Kallidinogenase) beim akuten ischämischen Schlaganfall. Quelle 1 ist eine Netzwerk-M |
 | WM-DRUG-0904 | Cyclandelat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cyclandelate' |
+| WM-DRUG-0905 | Phenoxybenzamin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel und ATC-Klassifikation (C04AX02) bezeichnen beide Phenoxybenzamin. Nur Quelle 5 behandelt die Phäochromozytom-Therapie mit Alpha-Blockade, wo |
 | WM-DRUG-0906 | Vincamin | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel „Vincamin“ entspricht dem Wirkstoff mit ATC C04AX07. Passend sind Quellen 2, 4 und 5, die Vincamin selbst behandeln (Antidepressivum-Pote |
+| WM-DRUG-0907 | Moxisylyt | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Keine der Quellen behandelt Moxisylyt (Thymoxamin, α1-Blocker). Alle befassen sich mit anderen Vasodilatatoren oder Indikationen (pulmonale Vasodi |
 | WM-DRUG-0908 | Bencyclan | drug | zu wenige Quellen mit Zusammenfassung (0) für 'bencyclan' |
+| WM-DRUG-0909 | Piribedil | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Nur die Quellen 1 und 2 behandeln Piribedil als eine von sechs untersuchten Non-Ergot-Dopaminagonisten konkret. Die übrigen Quellen behandeln Parki |
+| WM-DRUG-0910 | Vinburnin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Vinburnine' |
+| WM-DRUG-0911 | Suloctidil | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Suloctidil' |
+| WM-DRUG-0912 | Buflomedil | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Buflomedil' |
+| WM-DRUG-0913 | Naftidrofuryl | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Naftidrofuryl' |
+| WM-DRUG-0914 | Butalamin | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Butalamin (ATC C04AX23) ist ein peripheres Vasodilatator-Präparat und kein Barbiturat. Der Artikeltitel entspricht dem Wirkstoff der Klassifikatio |
+| WM-DRUG-0915 | Visnadin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Visnadin ist ein Pyranocumarin aus Ammi visnaga (ATC C04AX24), der Artikeltitel bezeichnet denselben Wirkstoff. Keine der Quellen behandelt Visnadi |
+| WM-DRUG-0916 | Cetiedil | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cetiedil' |
+| WM-DRUG-0917 | Cinepazid | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Wirkstoff Cinepazid (ATC C04AX27) ist ein Vasodilatator. Alle vier Quellen behandeln Cinnarizin (ATC N07CA02), einen anderen Wirkstoff mit ähnl |
+| WM-DRUG-0918 | Ifenprodil | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel 'Ifenprodil' bezeichnet denselben Wirkstoff wie die Klassifikation (ATC C04AX28). Keine der Quellen behandelt Ifenprodil spezifisch: Sie  |
+| WM-DRUG-0919 | Azapetin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'azepine' |
+| WM-DRUG-0922 | Diisopropylamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Diisopropylamine' |
+| WM-DRUG-0923 | Raubasin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Raubasin ist das deutsche Synonym für Ajmalicin, daher passt der Titel zur Klassifikation (ATC C04AX39). Quelle 1 behandelt Ajmalicin ausdrücklich, |
+| WM-DRUG-0924 | Fluorometholon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der ATC-Code C05AA06 gehört zu Corticosteroiden für die topische Anwendung bei Hämorrhoiden und passt nicht zu Fluorometholon, das ein ophth |
 | WM-DRUG-0925 | Fluocortolon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fluocortolone' |
+| WM-DRUG-0927 | Fluocinonid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Fluocinonide' |
+| WM-DRUG-0928 | Benzocain | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Der Titel „Benzocain“ entspricht dem Wirkstoff der Klassifikation (ATC C05AD03). Nur Quelle 1 behandelt Benzocain spezifisch. Quelle 2 (Lipidmatrix |
+| WM-DRUG-0929 | Cinchocain | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Cinchocain“ bezeichnet denselben Wirkstoff wie ATC C05AD04 (Dibucain). Keine der Quellen behandelt Cinchocain/Dibucain schwerpunktmäßig. |
+| WM-DRUG-0930 | Procain | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Nur Quelle 2 (Analytik von Procain und Metaboliten) und Quelle 5 (Procain als Geroprotektor, molekulare und zelluläre Effekte) behandeln den Wirkst |
+| WM-DRUG-0931 | Oxetacain | drug | zu wenige Quellen mit Zusammenfassung (0) für 'oxetacaine' |
+| WM-DRUG-0932 | Pramocain | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Pramocain (Pramoxin) ist ein Lokalanästhetikum (ATC C05AD07); der Titel bezeichnet denselben Wirkstoff. Nur Quelle 5 behandelt Pramoxin direkt (Kon |
+| WM-DRUG-0933 | Quinisocain | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Quinisocaine' |
+| WM-DRUG-0935 | Chinin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Chinin ist der Wirkstoff, aber C05AF01 ist nicht der ATC-Code von Chinin (dieser ist P01BC01); der Titel passt daher nicht zur Klassifikatio |
+| WM-DRUG-0936 | Hamamelis | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Nur Quelle 1 behandelt Hamamelis direkt, Quelle 2 (Hämorrhoiden, Naturprodukte) nur teilweise; 3 und 4 behandeln allgemeine Stoffgruppen bzw. Nahru |
+| WM-DRUG-0937 | Aluminium-haltige Zubereitungen | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Alle Quellen behandeln Aluminium-Adjuvanzien in Impfstoffen, nicht aluminiumhaltige Zubereitungen als Antihämorrhoidalmittel (C05AX01). Der Titel e |
+| WM-DRUG-0939 | Tribenosid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tribenoside' |
+| WM-DRUG-0940 | Mikroorganismen | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (ATC C05AX09 ist ein topisches Hämorrhoidenmittel (Mikroorganismen). Keine der Quellen behandelt das, sie betreffen Lebensmitteltechnologie, Kefir,  |
+| WM-DRUG-0941 | Dioxopromethazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dioxopromethazine' |
+| WM-DRUG-0942 | Ruscogenin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Ruscogenin“ entspricht dem Wirkstoff (ATC C05AX15). Passend sind nur Quelle 1 (Mäusedorn-Extrakt/Ruscus-Nadelextrakt mit Hesperidin und  |
+| WM-DRUG-0943 | Heparinoide | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Klassifikation ATC C05BA01 betrifft Heparinoide zur topischen Anwendung bei Venenerkrankungen (z. B. Mucopolysaccharidpolysulfat). Der S |
+| WM-DRUG-0944 | Natriumapolat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'sodium polyacrylate' |
 | WM-DRUG-0969 | Alprenolol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Alprenolol' |
 | WM-DRUG-0970 | Oxprenolol | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Oxprenolol“ entspricht dem Wirkstoff der Klassifikation (ATC C07AA02). Keine der Quellen behandelt jedoch Oxprenolol selbst. Sie befasse |
 | WM-DRUG-0971 | Pindolol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Pindolol' |
