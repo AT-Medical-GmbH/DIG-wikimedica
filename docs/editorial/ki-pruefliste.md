@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 22:25. Warteschlange: claimed 1, duplicate 446, planned 2997, published 1364, ready 12, redirect 371, review 1916.
+Stand: 31.10.2026 23:25. Warteschlange: claimed 1, duplicate 446, planned 2928, published 1376, ready 12, redirect 371, review 1973.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1596,8 +1596,15 @@ Stand: 31.10.2026 22:25. Warteschlange: claimed 1, duplicate 446, planned 2997, 
 | WM-DRUG-1976 | Triamcinolon | drug | zu viele nur teilweise belegte Sätze (14/28) |
 | WM-DRUG-1981 | Adrenalon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Adrenalone' |
 | WM-DRUG-1982 | Amlexanox | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Nur Quelle 7 behandelt Amlexanox direkt; die übrigen betreffen RAS-Therapien allgemein, andere Wirkstoffe oder TBK1/IKKε-Kinasen ohne Fokus auf Am |
+| WM-DRUG-1983 | Becaplermin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt explizit Becaplermin (rhPDGF-BB) als spezifischen Wirkstoff für Wundheilung; sie behandeln allgemein PDGF, periodontale |
 | WM-DRUG-1984 | Cholinsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'choline salicylate' |
 | WM-DRUG-1985 | Carbenoxolon | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur die Quellen 1 und 2 behandeln Carbenoxolon direkt als Wirkstoff. Die übrigen Quellen betreffen Pannexin-Kanäle, Adipositas, Lungenkrebs oder di |
+| WM-DRUG-1986 | Milchsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Milchsäure (ATC A01AD22) als Arzneimittel. Quellen zu 'Lactic acid' beziehen sich auf Poly-L-Lactic Aci |
+| WM-DRUG-1987 | Speichelersatzlösungen | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Nur 3 Quellen behandeln explizit 'saliva substitutes' oder 'artificial saliva' als Intervention. Quelle 1, 2, 3, 5, 6, 7, 8 behandeln Xerostomie/D |
+| WM-DRUG-1989 | Tetracain | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 2, 3 und 7 behandeln explizit Tetracain (bzw. Amethocaine, das Synonym für Tetracain) oder LET-Paste, die Tetracain enthält. Quelle 1 ist z |
+| WM-DRUG-1991 | Myrrhentinktur | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Myrrhentinktur (ATC A01AP01) für orale Anwendungen; Quellen behandeln Myrrhe allgemein, andere Indikatione |
+| WM-DRUG-1992 | Kamillenblüten | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Kamillenblüten' (ATC A01AP02) bezeichnet spezifisch Kamille als Mund- und Rachentherapie. Die gefundenen Quellen behande |
+| WM-DRUG-1993 | Salbeiblätter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Salbeiblätter (ATC A01AP03) sind ein lokaler Wirkstoff für Mund- und Rachenerkrankungen. Die Quellen behandeln systemische Effekte (Hitzewal |
 | WM-DRUG-1994 | Magnesiumcarbonat | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Magnesiumcarbonat“ bezeichnet denselben Wirkstoff wie ATC A02AA01. Keine der Quellen behandelt Magnesiumcarbonat als Wirkstoff. Die Arbe |
 | WM-DRUG-1995 | Magnesiumoxid | drug | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Nur Quelle 12 behandelt Magnesiumoxid als Arzneimittelwirkstoff (Obstipation). Die übrigen Quellen betreffen Nanopartikel/Materialwissenschaft, al |
 | WM-DRUG-1996 | Magnesiumperoxid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Magnesium peroxide' |
@@ -1648,12 +1655,60 @@ Stand: 31.10.2026 22:25. Warteschlange: claimed 1, duplicate 446, planned 2997, 
 | WM-DRUG-2051 | Silbereiweiß-Acetyltannat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'silver protein acetyltannate' |
 | WM-DRUG-2052 | Kälberblutextrakt | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Kälberblutextrakt“ (ATC A02XA01, deproteinisierter Kälberblutextrakt, z. B. Actovegin/Solcoseryl) bezeichnet denselben Wirkstoff wie die |
 | WM-DRUG-2053 | Guajazulen | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 5 behandelt Guajazulen (Guaiazulene) direkt. Quellen 4 und 7 betreffen Azulen und Derivate allgemein, Quelle 1 Mukosaprotektiva bei GERD |
+| WM-DRUG-2055 | Oxyphencyclimin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxyphenbutazone' |
+| WM-DRUG-2056 | Camylofin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'dicycloverine' |
+| WM-DRUG-2057 | Mebeverin | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 4 und 5 behandeln direkt Mebeverin oder Antispasmodika bei IBS, was den Wirkstoff und die Indikation abdeckt. Quelle 2, 3, 6 und 7 sind  |
+| WM-DRUG-2058 | Trimebutin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 1 und 5 behandeln explizit Trimebutin. Quelle 2, 3 und 6 behandeln nur Antispasmodika allgemein. Quelle 4 behandelt krampflösende Therapien |
+| WM-DRUG-2059 | Rociverin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Rociverin (ATC A03AA06) oder dessen spezifische Indikation (spasmolytische Behandlung gastroint |
+| WM-DRUG-2060 | Dicycloverin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit den Wirkstoff Dicyclomine. Quelle 1, 2 und 4 behandeln Nausea/Vomiting in der Schwangerschaft allgemein oder andere |
+| WM-DRUG-2061 | Dihexyverin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dihexyverine' |
+| WM-DRUG-2062 | Difemerin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Difemerin' (ATC A03AA09) ist ein Antispasmodikum (z.B. Mebeverin) zur Behandlung von Reizdarmsyndrom. Der Suchbegriff 'dienog |
+| WM-DRUG-2063 | Piperidolat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Piperidolate' |
+| WM-DRUG-2064 | Phenamazid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenazocine' |
+| WM-DRUG-2066 | Oxyphenonium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Oxyphenonium oder spezifisch damit verbundene Indikationen. Alle Titel beziehen sich auf andere |
+| WM-DRUG-2067 | Penthienat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Penthienat; alle beziehen sich auf die allgemeine Klasse der Antimuskarinika oder andere Wirkstoffe.) |
+| WM-DRUG-2068 | Propanthelin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Propanthelin; alle beziehen sich auf die allgemeine Klasse der Anticholinergika oder andere Wirkstoffe.) |
+| WM-DRUG-2069 | Otiloniumbromid | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quelle 1 behandelt funktionelle Blähungen (indirekt relevant, aber kein spezifischer Wirkstofffokus), Quelle 2 und 5 behandeln Spasmolytika/krampfl |
+| WM-DRUG-2070 | Methanthelinium | drug | zu wenige Quellen mit Zusammenfassung (1) für 'methantheline' |
+| WM-DRUG-2071 | Tridihexethyl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Tridihexethyl; alle beziehen sich auf die allgemeine Klasse der Anticholinergika.) |
+| WM-DRUG-2072 | Isopropamid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Isopropamide' |
+| WM-DRUG-2073 | Hexocyclium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'anticholinergic' ist zu allgemein; Quellen behandeln Wirkstoffklassen oder Nebenwirkungen, nicht spezifisch Hexocyclium.) |
+| WM-DRUG-2074 | Poldin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC A03AB11 ist Dimenhydrinat, nicht Diphenhydramin (A04DA01). Die Quellen behandeln Diphenhydramin oder andere Indikationen, aber nicht Dim |
+| WM-DRUG-2075 | Mepenzolat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'mepenzolate bromide' |
+| WM-DRUG-2076 | Bevonium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Bevonium (ATC A03AB13) oder dessen spezifische Indikation. Alle Titel beziehen sich auf andere  |
+| WM-DRUG-2077 | Pipenzolat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'pipenzolate' |
+| WM-DRUG-2078 | Diphemanil | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Diphemanil ist ein spezifisches Anticholinergikum (ATC A03AB15). Der Suchbegriff 'Diphenhydramine' (ein Antihistaminikum) ist pharmakologisc |
+| WM-DRUG-2079 | (2-Benzhydryloxyethyl)diethylmethylammoniumiodid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'benactyzine' |
+| WM-DRUG-2080 | Tiemoniumiodid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'tiemonium iodide' |
+| WM-DRUG-2081 | Prifiniumbromid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Prifiniumbromid ist ein anticholinerges Mittel zur Behandlung von überaktiver Blase (Harninkontinenz). Glycopyrronium ist ein strukturell ve |
+| WM-DRUG-2082 | Timepidiumbromid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Timolide' |
+| WM-DRUG-2083 | Trospium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Xanomeline-Trospium (KarXT) zur Behandlung von Schizophrenie. Der geplante Artikel bezieht sich jedoch auf Trospium ( |
+| WM-DRUG-2084 | Fenpiverinium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Fenpiverinium (ATC A03AB21). Alle Quellen beziehen sich auf die allgemeine Klasse der Anticholinergika ode |
+| WM-DRUG-2085 | Dimethylaminopropionylphenothiazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Dimethylaminopropionylphenothiazin (ATC A03AC02) ist nicht Promethazin (ATC A04AA01). Die Quellen behandeln Promethazin oder P |
+| WM-DRUG-2086 | Nicofetamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Nicofetamid' (ATC A03AC04) ist ein Antispasmodikum für gastrointestinale Erkrankungen. Der Suchbegriff 'Niacinamide' (Vitamin |
+| WM-DRUG-2087 | Tiropramid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'tiproramid' |
+| WM-DRUG-2089 | Drotaverin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 4 behandelt explizit Drotaverin. Die anderen Quellen behandeln Antispasmodika allgemein oder andere Wirkstoffe.) |
+| WM-DRUG-2090 | Moxaverin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Moxaverine' |
+| WM-DRUG-2091 | Alosetron | drug | Bestätigungsquote 29/50 unter 60 % |
+| WM-DRUG-2092 | Cilansetron | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Cilansetron; alle beziehen sich auf allgemeine 5-HT3-Antagonisten oder andere Indikationen.) |
+| WM-DRUG-2094 | Pfefferminzblätter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Pfefferminzblätter' (ATC A03AP01) bezeichnet den Wirkstoff Pfefferminzöl/-extrakt zur Behandlung von GI-Beschwerden (z.B. IBS). Quell |
+| WM-DRUG-2095 | Fenchelfrüchte | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Fenchelfrüchte (Foeniculum vulgare) sind taxonomisch und pharmakologisch von Sternanis (Illicium verum) unterschieden. Die Quellen behandeln |
+| WM-DRUG-2096 | Melissenblätter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC A03AP04 bezeichnet Melisse als krampflösendes Mittel bei Magen-Darm-Beschwerden (spasmolytic). Die Quellen behandeln Lipide, Depression/ |
+| WM-DRUG-2097 | Sonstige | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den ATC A03AP11 (Sonstige Arzneimittel bei funktionellen gastrointestinalen Störungen). Alle Quellen verwenden 'Other |
+| WM-DRUG-2098 | Fenpipran | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Fenpipran (ATC A03AX01) oder dessen spezifische Indikation. Alle Quellen befassen sich mit ande |
+| WM-DRUG-2099 | Diisopromin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Dipropylamine' |
+| WM-DRUG-2100 | Chlorbenzoxamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chlorphenoxamine' |
+| WM-DRUG-2101 | Pinaverium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 1 behandelt Pinaverium explizit. Quellen 2, 3, 6, 7 behandeln Antispasmodika allgemein oder andere Wirkstoffe (Eluxadoline). Quel |
+| WM-DRUG-2102 | Fenoverin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'fenoverine' |
 | WM-DRUG-2142 | Dimenhydrinat | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 2, 3 und 4 behandeln Dimenhydrinat explizit. Quelle 1 ist zu allgemein (Nausea/Vomiting in Pregnancy ohne Wirkstofffokus). Da nur 3 Quellen |
 | WM-DRUG-2145 | Diphenhydramin | drug | zu viele nur teilweise belegte Sätze (19/46) |
 | WM-DRUG-2150 | Triflupromazin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'phenothiazine antipsychotics' |
 | WM-DRUG-2191 | Phospholipide | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine Quelle behandelt Phospholipide als Arzneimittel (essentielle Phospholipide bei Lebererkrankungen); alle befassen sich mit Phospholipiden als |
+| WM-DRUG-2202 | Natriumpicosulfat | drug | Bestätigungsquote 28/48 unter 60 % |
+| WM-DRUG-2218 | Macrogol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Macrogol primär als Arzneimittelwirkstoff (z.B. zur Behandlung von Verstopfung). Quelle 2 und 4 behandeln Allergien g |
 | WM-DRUG-2231 | Streptomycin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Streptomycin wird nur in den Quellen 6 und 7 direkt behandelt. Die Quellen 1 und 2 behandeln die Brucellose-Therapie allgemein |
 | WM-DRUG-2234 | Kanamycin | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Kanamycin (ATC A07AA08, orales Aminoglykosid-Antibiotikum) ist der Wirkstoff; der Titel passt. Nur Quelle 3 (Kanamycin-Nachweis, Biosensoren) und  |
+| WM-DRUG-2259 | Loperamid | drug | Widerspruch zum medicATe-Steckbrief: Der Artikel behauptet, Naloxon sei unwirksam bei der Umkehrung von Loperamid-induzierten Arrhythmien. Der Steckbrief listet Naloxon als Antidot bei Überdosierung m |
 | WM-DRUG-2263 | Prednison | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation A07EA03 bezeichnet Prednison zur lokalen Anwendung bei Darmerkrankungen (intestinale Antiphlogistika, Kortikosteroide |
 | WM-DRUG-2265 | Beclometason | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel entspricht dem Wirkstoff Beclometason. Nur Quelle 1 behandelt Beclometason gezielt (Fixkombination bei Asthma). Die Quellen 2 und 3 sind allg |
 | WM-DRUG-2266 | Cromoglicinsäure | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Titel 'Cromoglicinsäure' entspricht dem Wirkstoff Cromoglicat (ATC A07EB01, oral bei Mastzellerkrankungen/Nahrungsmittelallergie). Nur Quelle 5 (W |
@@ -1947,6 +2002,8 @@ Stand: 31.10.2026 22:25. Warteschlange: claimed 1, duplicate 446, planned 2997, 
 | WM-DRUG-3774 | Sulfathiazol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Sulfathiazole' |
 | WM-DRUG-3776 | Sulfanilamid | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Sulfanilamid als Wirkstoff. Sie betreffen Sulfonamid-Derivate allgemein (MRSA, Effluxpumpen), Antibiotika-Entfernung pe |
 | WM-DRUG-3777 | Sulfamerazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfamerazine' |
+| WM-DRUG-3781 | Aciclovir | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Quellen 5, 8 und 11 behandeln direkt Herpes-simplex-Virus-Infektionen oder Aciclovir-Resistenz. Quelle 2 und 3 behandeln Genitalherpes/Neonatalher |
 | WM-DRUG-3812 | Mometason | drug | Bestätigungsquote 25/45 unter 60 %; zu viele nur teilweise belegte Sätze (16/25) |
 | WM-DRUG-3815 | Fluticason | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation D07AC17 bezeichnet Fluticason als topisches Glukokortikoid (Dermatologikum). Der Titel „Fluticason“ nennt den Wirksto |
 | WM-DRUG-3923 | Oxaceprol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Oxaceprol' |
+| WM-DRUG-4477 | Eisencarboxymaltose | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Eisencarboxymaltose. Der Suchbegriff 'CMF' wurde in den Titeln als Abkürzung für 'Commercial Milk  |
