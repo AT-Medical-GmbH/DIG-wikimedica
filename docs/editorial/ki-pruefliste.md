@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 06:25. Warteschlange: claimed 2, duplicate 445, planned 3563, published 1149, ready 38, redirect 343, review 1525.
+Stand: 31.10.2026 07:25. Warteschlange: claimed 1, duplicate 445, planned 3470, published 1187, ready 31, redirect 346, review 1585.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -10,6 +10,7 @@ Stand: 31.10.2026 06:25. Warteschlange: claimed 2, duplicate 445, planned 3563, 
 | WM-DIS-0105 | Spondylopathien bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (M49 umfasst Spondylopathien bei anderenorts klassifizierten Grundkrankheiten (z. B. tuberkulöse, brucellöse, neuropathische Spondylopathie). Der Ti |
 | WM-DIS-0107 | Direkte Gelenkinfektionen bei anderenorts klassifizierten infektiösen und parasitären Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle 16 Quellen behandeln septische Arthritis, also das Krankheitsbild des geplanten Artikels. M01 ist jedoch enger gefasst: Es umfasst nur  |
 | WM-DIS-0112 | Arthropathien bei sonstigen anderenorts klassifizierten Krankheiten | disease | Bestätigungsquote 30/58 unter 60 % |
+| WM-DIS-0119 | Juvenile Arthritis bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (M09 umfasst juvenile Arthritis bei anderenorts klassifizierten Krankheiten (z. B. Psoriasis, Morbus Crohn, Colitis ulcerosa). Der Titel entspricht  |
 | WM-DIS-0133 | Spontanruptur der Synovialis und von Sehnen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'spontaneous tendon rupture' |
 | WM-DIS-0140 | Sekundäre Hypertonie | disease | Bestätigungsquote 33/57 unter 60 % |
 | WM-DIS-0163 | Gutartige Neubildung des Kolons, des Rektums, des Analkanals und des Anus | disease | zu wenige Quellen mit Zusammenfassung (0) für 'benign colon tumors' |
@@ -27,11 +28,14 @@ Stand: 31.10.2026 06:25. Warteschlange: claimed 2, duplicate 445, planned 3563, 
 | WM-DIS-0239 | Erworbene Deformitäten der Finger und Zehen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'acquired finger deformities' |
 | WM-DIS-0243 | Geburtshindernis durch Anomalie des mütterlichen Beckens | disease | zu wenige Quellen mit Zusammenfassung (0) für 'maternal pelvis anomaly' |
 | WM-DIS-0245 | Komplikationen bei Wehen und Entbindung durch Nabelschnurkomplikationen | disease | zu wenige Quellen mit Zusammenfassung (2) für 'umbilical cord complications' |
+| WM-DIS-0249 | Kardiomyopathie bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM I43 meint die Kardiomyopathie bei anderenorts klassifizierten Krankheiten (z. B. bei Amyloidose, Stoffwechsel- oder Speicherkrankh |
 | WM-DIS-0250 | Krankheiten der Kapillaren | disease | zu wenige Quellen mit Zusammenfassung (1) für 'capillary disorders' |
+| WM-DIS-0251 | Krankheiten der Arterien, Arteriolen und Kapillaren bei anderenorts klassifizierten Krankheiten | disease | zu wenige Quellen mit Zusammenfassung (1) für 'secondary vasculopathy' |
 | WM-DIS-0253 | Osteoporose mit pathologischer Fraktur | disease | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Titel entspricht M80 (Osteoporose mit aktueller pathologischer Fraktur). Nur Quellen zu Frakturen bzw. deren Versorgung passen; die übrigen behande |
 | WM-DIS-0255 | Osteomalazie im Erwachsenenalter | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Der Titel „Osteomalazie beim Erwachsenen“ entspricht M83 (Osteomalazie im Erwachsenenalter). Keine der Quellen behandelt Osteomalazie als Krankhei |
 | WM-DIS-0262 | Betreuung der Mutter bei festgestellter oder vermuteter Anomalie der Beckenorgane | disease | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (O34 umfasst die mütterliche Betreuung bei Anomalien der Beckenorgane (u. a. Uterusfehlbildungen, Uterusnarbe, Zervixinsuffizienz) in der Schwangers |
 | WM-DIS-0265 | Schädlicher Gebrauch von nichtabhängigkeitserzeugenden Substanzen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'non-substance abuse' |
+| WM-DIS-0280 | Perikarditis bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (I32 meint Perikarditis als Begleiterkrankung bei anderenorts klassifizierten Krankheiten (z. B. bakterielle Perikarditis bei Tuberkulose, Perikard |
 | WM-DIS-0283 | Krankheiten des Weichteilgewebes im Zusammenhang mit Beanspruchung, Überbeanspruchung und Druck | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (ICD-10-GM M70 umfasst Weichteilerkrankungen durch Überbeanspruchung und Druck (z. B. chronische Tendinopathie/Bursitis, Überlastungssyndrome). Der |
 | WM-DIS-0284 | Enthesopathien der unteren Extremität mit Ausnahme des Fußes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower extremity enthesopathy' |
 | WM-DIS-0296 | Cataracta senilis | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
@@ -291,13 +295,16 @@ Stand: 31.10.2026 06:25. Warteschlange: claimed 2, duplicate 445, planned 3563, 
 --- Validation Sum |
 | WM-DIS-0860 | Sonstige Krankheiten der Niere und des Ureters, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (N28 umfasst mehrere Erkrankungen (u. a. erworbene Nierenzyste N28.1, Ureterstriktur, Nierenatrophie usw.). Der Titel „Sonstige Nierenerkrank |
 | WM-DIS-0861 | Sonstige Krankheiten der Harnröhre | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Harnröhrenstrikturen (ICD-10 N35), nicht N36 (sonstige Harnröhrenkrankheiten wie Fistel, Divertikel, Karunkel, Prolap |
+| WM-DIS-0869 | Eitrige und nicht näher bezeichnete Otitis media | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (H66 umfasst eitrige und nicht näher bezeichnete Otitis media, also vor allem die akute eitrige Form und die chronisch-eitrige Form. Alle zwö |
 | WM-DIS-0890 | Lokalisierte Schwellung, Raumforderung und Knoten der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Hautknoten und subkutane Raumforderungen“ entspricht R22 (lokalisierte Schwellung, Raumforderung und Knoten der Haut und Unterhaut). Kei |
 | WM-DIS-0893 | Sonstige Lähmungssyndrome | disease | zu wenige Quellen mit Zusammenfassung (1) für 'paralytic syndromes' |
+| WM-DIS-0898 | Folsäure-Mangelanämie | disease | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Titel entspricht D52. Nur wenige Quellen behandeln die Folsäure-Mangelanämie; die meisten betreffen Vitamin B12, allgemeinen Folatstatus oder ande |
 | WM-DIS-0907 | Sonstige Krankheiten der Nase und der Nasennebenhöhlen | disease | Entwurf ohne belegte Sätze |
 | WM-DIS-0913 | Affektionen des Auges und der Augenanhangsgebilde nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Der Titel entspricht H59 (Augenkomplikationen nach medizinischen Maßnahmen); Synonyme und kleine Unterschiede im Zuschnitt sind zulässig. Nur Quel |
 | WM-DIS-0914 | Zerquetschung des Thorax und traumatische Amputation von Teilen des Thorax | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (S28 meint speziell Zerquetschung des Thorax und traumatische Amputation von Thoraxteilen. Der Titel „Thoraxtrauma und Thoraxzerquetschung“ i |
 | WM-DIS-0915 | Zerquetschung des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist crush injury' |
 | WM-DIS-0916 | Zerquetschung des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'leg contusion' |
+| WM-DIS-0918 | Krankheit der Atemwege durch spezifischen organischen Staub | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (J66 umfasst Byssinose, Bagassose u. a. Erkrankungen der Atemwege durch spezifischen organischen Staub. Der Titel entspricht dieser Gruppe im Plural |
 | WM-DIS-0921 | Sonstige nichtentzündliche Krankheiten des Uterus, ausgenommen der Zervix | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (N85 umfasst mehrere nichtentzündliche Uteruserkrankungen (Endometriumhyperplasie N85.0/N85.1, Adenomyose N80 gehört nicht dazu, aber u. a. A |
 | WM-DIS-0922 | Sonstige nichtentzündliche Krankheiten der Vagina | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel „Nichtentzündliche Vagenerkrankungen“ ist ein Oberbegriff und meint nicht genau N89 („Sonstige nichtentzündliche Krankhei |
 | WM-DIS-0957 | Sensibilitätsstörungen der Haut | disease | zu wenige Quellen mit Zusammenfassung (0) für 'cutaneous sensory disturbances' |
@@ -323,6 +330,12 @@ Stand: 31.10.2026 06:25. Warteschlange: claimed 2, duplicate 445, planned 3563, 
 | WM-DIS-1096 | Myasthenia gravis und sonstige neuromuskuläre Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Fast alle Quellen behandeln Myasthenia gravis. Quelle 13 betrifft ICI-induzierte Myokarditis/Myositis-MG-Überlappung, also ein anderes Krank |
 | WM-DIS-1125 | Sonstige Mononeuropathien | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM G58 umfasst alle Mononeuropathien (z.B. periphere Nervenläsionen wie Karpaltunnelsyndrom, Radialisparese). 'Mononeuritis multiplex |
 | WM-DIS-1126 | Sonstige Krankheiten des Zentralnervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM G96 ist eine Sammelkategorie für spezifische, nicht näher bezeichnete Erkrankungen des ZNS (z.B. Enzephalopathie, Myelopathie). De |
+| WM-DIS-1138 | Abnormer Blutdruckwert ohne Diagnose | disease | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Der Titel entspricht R03 (abnormer Blutdruckwert ohne Diagnose). Keine Quelle behandelt isolierte abnorme Blutdruckwerte ohne Diagnose. Die Quelle |
+| WM-DIS-1139 | Hyperbilirubinämie, mit oder ohne Gelbsucht, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (R17 betrifft unspezifische Hyperbilirubinämie/Gelbsucht (v. a. Erwachsene); neonatale Hyperbilirubinämie ist separat kodiert (P55-P59) und passt n |
+| WM-DIS-1140 | Krämpfe, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (R56 umfasst Krampfanfälle (Konvulsionen, z. B. Fieberkrämpfe, R56.0, und sonstige Krämpfe, R56.8), nicht Muskelkrämpfe (Crampi, R25.2). Der  |
+| WM-DIS-1141 | Beschleunigte Blutkörperchensenkungsreaktion und Veränderungen der Plasmaviskosität | disease | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel entspricht R70 (erhöhte BSG und veränderte Plasmaviskosität). Nur Quelle 7 behandelt die BSG als solche, nämlich ihre klinische Anwendung |
+| WM-DIS-1142 | Abnorme Befunde bei der bildgebenden Diagnostik des Zentralnervensystems | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (R90 umfasst unspezifische abnorme ZNS-Bildgebungsbefunde ohne konkrete Diagnose. Der Titel entspricht dem. Alle zwölf Quellen behandeln jedoch spe |
+| WM-DIS-1144 | Sonstiger plötzlicher Tod unbekannter Ursache | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel „Plötzlicher unerwarteter Tod unbekannter Ursache“ entspricht R96 (sonstiger plötzlicher Tod unbekannter Ursache), ein gebräuchliches Syn |
 | WM-DIS-1158 | Hypoglykämisches Koma, nichtdiabetisch | disease | zu wenige Quellen mit Zusammenfassung (3) für 'non-diabetic hypoglycemia' |
 | WM-DIS-1161 | Kwashiorkor-Marasmus | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (E42 bezeichnet speziell die Mischform Kwashiorkor-Marasmus, eine schwere Protein-Energie-Mangelernährung, überwiegend bei Kindern. Der Titel |
 | WM-DIS-1167 | Alimentärer Kalziummangel | disease | zu wenige Quellen mit Zusammenfassung (3) für 'dietary calcium deficiency' |
@@ -333,6 +346,9 @@ Stand: 31.10.2026 06:25. Warteschlange: claimed 2, duplicate 445, planned 3563, 
 | WM-DIS-1203 | Fremdkörper im Ohr | disease | zu wenige Quellen mit Zusammenfassung (0) für 'foreign body ear' |
 | WM-DIS-1206 | Erstickung | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (T71 umfasst Erstickung durch mechanische Einwirkung (z. B. Erhängen, Strangulation); der Titel „Erstickung“ deckt dies ab. Quellen 1, 2 und 5 behan |
 | WM-DIS-1207 | Nicht näher bezeichnete Schäden durch äußere Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Schäden durch äußere Ursachen' ist ein allgemeiner Oberbegriff für ICD-10-GM T76 und lässt spezifische Formen/Schweregra |
+| WM-DIS-1255 | Neuritis nervi optici | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
 | WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
 | WM-DIS-1303 | Schrumpfniere, nicht näher bezeichnet | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit die Schrumpfniere (ICD-10-GM N26). Die Quellen behandeln andere Nierenerkrankungen (FMD, Angiomyolipom, Athero |
 | WM-DIS-1358 | Sonstige nichtorganische psychotische Störungen | disease | zu wenige Quellen mit Zusammenfassung (2) für 'functional psychosis' |
@@ -543,7 +559,53 @@ Stand: 31.10.2026 06:25. Warteschlange: claimed 2, duplicate 445, planned 3563, 
 | WM-DRUG-0660 | Fluticasonfuroat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle sechs Quellen behandeln Fluticasonfuroat (allein oder in Kombination mit Umeclidinium/Vilanterol bzw. als Nasenspray oder Inhalativum). |
 | WM-DRUG-0661 | Reslizumab | drug | Themenprüfung: nur 1 von 14 Quellen passen zum Thema (Der Titel „Reslizumab“ passt zum Wirkstoff (ATC R03DX08). Nur Quelle 6 nennt Reslizumab ausdrücklich im Titel. Die übrigen Quellen behandeln Biolo |
 | WM-DRUG-0664 | Tezepelumab | drug | zu viele nur teilweise belegte Sätze (12/29) |
+| WM-DRUG-0671 | Acetyldigitoxin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Acetyldigitoxin. 'Cardiac glycosides' ist zu allgemein und umfasst viele Substanzen. Titel passen nicht, d |
+| WM-DRUG-0672 | Acetyldigoxin | drug | Bestätigungsquote 36/63 unter 60 % |
+| WM-DRUG-0676 | Lanatosid C | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Lanatosid C ist ein spezifisches Herzglykosid (Digitalis-lanata-Glykosid, Vorstufe von Digoxin). Keine der Quellen behandelt Lanatosid C selbst. S |
+| WM-DRUG-0677 | Deslanosid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Deslanoside' |
+| WM-DRUG-0678 | Metildigoxin | drug | zu viele nur teilweise belegte Sätze (20/30) |
+| WM-DRUG-0679 | Gitoformat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Gitoxin' |
+| WM-DRUG-0680 | Pengitoxin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel sind '[Not Available]', daher keine inhaltliche Prüfung möglich. Keine Quelle bestätigt Behandlung von Pengitoxin (ATC C01AA10).) |
+| WM-DRUG-0681 | Proscillaridin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Proscillaridin' |
+| WM-DRUG-0682 | Meproscillarin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Meprosocillarin' |
+| WM-DRUG-0683 | g-Strophanthin | drug | Bestätigungsquote 38/71 unter 60 % |
+| WM-DRUG-0684 | Cymarin | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Titel Cymarin entspricht C01AC03. Keine Quelle behandelt Cymarin spezifisch; sie behandeln die Klasse der Herzglykoside allgemein, Digoxin/Digital |
+| WM-DRUG-0685 | k-Strophanthin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'k-Strophanthoside' |
+| WM-DRUG-0686 | Strophanthustinktur/-öl | drug | zu wenige Quellen mit Zusammenfassung (0) für 'strophanthus' |
+| WM-DRUG-0688 | Maiglöckchenkraut | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Titel entspricht dem Wirkstoff Maiglöckchenkraut (C01AP01). Alle Quellen behandeln aber Digitalis/Fingerhut-Glykoside (Digoxin, Digitalis purpurea) |
+| WM-DRUG-0689 | Meerzwiebel | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Squill' |
+| WM-DRUG-0690 | Peruvosid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'yellow oleander' |
+| WM-DRUG-0692 | Procainamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Procainamid. Quelle 7 erwähnt Natriumkanal-Blocker-Tests, ist aber nicht spezifisch für |
+| WM-DRUG-0693 | Disopyramid | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 7 und 8 behandeln explizit Disopyramid. Quelle 2 ist relevant, erwähnt den Wirkstoff aber nicht im Titel. Da nur 2 Quellen den Wirkstof |
+| WM-DRUG-0694 | Spartein | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Sparteine' |
+| WM-DRUG-0696 | Prajmalin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Prajmalin ist ein Antiarrhythmikum der Klasse Ia (ATC C01BA08). Praziquantel ist ein Anthelminthikum gegen Schistosomiasis und andere Wurmer |
+| WM-DRUG-0697 | Lorajmin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC C01BA12 ist Ajmalin-Derivat Prajmalin (Antiarrhythmikum), nicht Lorazepam (N05BA06). „Lorajmin“ ist kein Lorazepam; der Titel meint eine |
+| WM-DRUG-0698 | Dihydrochinidin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'dihydroquinidine' |
+| WM-DRUG-0699 | Detajmium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Detajmium (ATC C01BA33) ist ein Antiarrhythmikum der Klasse I (Ajmalin-Derivat). Der Suchbegriff „Detemir“ meint dagegen das Insulin detemir |
+| WM-DRUG-0700 | Tocainid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Tocainide' |
+| WM-DRUG-0701 | Aprindin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Aprindine' |
+| WM-DRUG-0702 | Propafenon | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 4 und 7 behandeln Propafenon direkt (Sicherheit bei struktureller Herzerkrankung, Vergleich mit Guan-Fu-Base-A-Injektion, CYP2D6-abhängi |
+| WM-DRUG-0704 | Lorcainid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Lorcainide' |
+| WM-DRUG-0705 | Encainid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Encainide' |
+| WM-DRUG-0706 | Ethacizin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ethacizin' |
+| WM-DRUG-0708 | Bretyliumtosilat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bretylium tosylate' |
+| WM-DRUG-0709 | Bunaftin | drug | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Alle Quellen behandeln Buprenorphin (Opioid), nicht Bunaftin (Antiarrhythmikum Klasse III, C01BD03). Der Titel 'Bunaftin' entspricht der Klassifik |
+| WM-DRUG-0710 | Dofetilid | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel "Dofetilid" bezeichnet denselben Wirkstoff wie die Klassifikation (ATC C01BD04). Nur Quelle 3 behandelt Dofetilid direkt. Die Quellen 1,  |
+| WM-DRUG-0711 | Ibutilid | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel „Ibutilid“ bezeichnet denselben Wirkstoff wie ATC C01BD05. Nur Quelle 7 behandelt Ibutilid spezifisch. Die übrigen Quellen sind allgemein |
+| WM-DRUG-0712 | Tedisamil | drug | zu wenige Quellen mit Zusammenfassung (2) für 'tedisamil' |
+| WM-DRUG-0713 | Moracizin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Moracizine' |
+| WM-DRUG-0714 | Tiracizin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tiracizine' |
+| WM-DRUG-0715 | Cibenzolin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cibenzoline' |
+| WM-DRUG-0716 | Etilefrin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Etilefrine' |
 | WM-DRUG-0717 | Isoprenalin | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel Isoprenalin bezeichnet denselben Wirkstoff wie die Klassifikation (ATC C01CA02). Quellen 1, 3 und 6 behandeln Isoproterenol bzw. seine An |
+| WM-DRUG-0719 | Norfenefrin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'norfenefrine' |
+| WM-DRUG-0723 | Metaraminol | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Metaraminol“ entspricht dem Wirkstoff der Klassifikation (ATC C01CA09). Keine der Quellen behandelt Metaraminol erkennbar als Thema. Es  |
+| WM-DRUG-0724 | Methoxamin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Methoxamin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC C01CA10). Keine der fünf Quellen behandelt Methoxamin selbst. Que |
+| WM-DRUG-0725 | Mephentermin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'mephentermine' |
+| WM-DRUG-0726 | Dimetofrin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dimetofrine' |
+| WM-DRUG-0727 | Prenalterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'prenalterol' |
+| WM-DRUG-0728 | Dopexamin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Dopexamine' |
+| WM-DRUG-0729 | Gepefrin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'pefrin' |
 | WM-DRUG-0741 | Orciprenalin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Isoprenaline' |
 | WM-DRUG-0753 | Ipratropiumbromid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln den Wirkstoff Ipratropiumbromid. Der ATC-Code C01CX15 gehört aber nicht zu Ipratropiumbromid (R03BB01 bzw. R01AX03),  |
 | WM-DRUG-0785 | Indometacin | drug | Entwurf ohne belegte Sätze |
