@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 03:25. Warteschlange: claimed 1, duplicate 441, planned 3876, published 1043, ready 36, redirect 252, review 1416.
+Stand: 31.10.2026 04:25. Warteschlange: claimed 1, duplicate 441, planned 3787, published 1079, ready 35, redirect 273, review 1449.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -395,6 +395,39 @@ Stand: 31.10.2026 03:25. Warteschlange: claimed 1, duplicate 441, planned 3876, 
 | WM-DRUG-0516 | Repotrectinib | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Repotrectinib' |
 | WM-DRUG-0522 | Zanidatamab | drug | zu viele nur teilweise belegte Sätze (17/38) |
 | WM-DRUG-0526 | Avelumab | drug | Bestätigungsquote 35/69 unter 60 % |
+| WM-DRUG-0528 | Tislelizumab | drug | Bestätigungsquote 21/39 unter 60 %; zu viele nur teilweise belegte Sätze (18/21) |
+| WM-DRUG-0529 | Retifanlimab | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 2, 3 und 6 behandeln explizit Retifanlimab. Quelle 1 (Avelumab) und 5 (NMSC) sind irrelevant. Quelle 4 und 7 sind zu allgemein oder behande |
+| WM-DRUG-0530 | Sugemalimab | drug | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (Nur Quellen 9, 10 und 12 behandeln explizit den Wirkstoff Sugemalimab. Quelle 11 erwähnt ihn nur im Kontext allgemeiner chinesischer Antikörper, o |
+| WM-DRUG-0531 | Serplulimab | drug | zu viele nur teilweise belegte Sätze (18/40) |
+| WM-DRUG-0533 | Catumaxomab | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel „Catumaxomab“ entspricht dem Wirkstoff (ATC L01FX03). Nur Quelle 2 behandelt Catumaxomab direkt. Die übrigen Quellen betreffen allgemeine |
+| WM-DRUG-0534 | Ipilimumab | drug | zu viele nur teilweise belegte Sätze (10/24) |
+| WM-DRUG-0537 | Elotuzumab | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Elotuzumab (z. B. bei multiplem Myelom). Sie betreffen Magen-Darm-Erkrankungen, Nierenzellkarzinom, Dermatologie, D |
+| WM-DRUG-0538 | Tafasitamab | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Tafasitamab (CD19-Antikörper bei diffusem großzelligem B-Zell-Lymphom); alle betreffen andere Themen wie IBD, GERD, |
+| WM-DRUG-0541 | Belantamab mafodotin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Belantamab mafodotin oder dessen Indikation (mehrfach rezidivierende/multiple Myelom). Alle Que |
+| WM-DRUG-0549 | Epcoritamab | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Epcoritamab (CD20xCD3 BiTE für NHL). Alle Quellen behandeln entweder andere BiTEs (Tarlatamab), ander |
+| WM-DRUG-0550 | Glofitamab | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Glofitamab oder das zugrundeliegende Krankheitsbild (diffuses großzelliges B-Zell-Lymphom). Die Quell |
+| WM-DRUG-0555 | Temoporfin | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 3 behandelt Temoporfin explizit im Titel. Quelle 2 erwähnt es implizit als BODIPY-Derivat, aber nicht spezifisch genug. Quelle 5, 6, 7 b |
+| WM-DRUG-0556 | Padeliporfin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Padeliporfin (L01XD07) oder dessen Indikation (Hepatocelluläres Karzinom). Alle Quellen behandeln allgemei |
+| WM-DRUG-0557 | Bexaroten | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quelle 1 behandelt Bexaroten direkt bei Mycosis Fungoides. Quelle 2 behandelt Bexaroten bei neurologischen Erkrankungen. Quelle 3 ist allgemein zu  |
+| WM-DRUG-0558 | Ixazomib | drug | zu viele nur teilweise belegte Sätze (17/40) |
+| WM-DRUG-0559 | Panobinostat | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 5 behandeln explizit Panobinostat. Quelle 2 ist eine allgemeine Studie zu kardiovaskulären Komplikationen, Quelle 3 zu kleinen Molekü |
+| WM-DRUG-0561 | Olaparib | drug | zu viele nur teilweise belegte Sätze (17/40) |
+| WM-DRUG-0563 | Talazoparib | drug | zu viele nur teilweise belegte Sätze (15/35) |
+| WM-DRUG-0564 | Tisagenlecleucel | drug | zu viele nur teilweise belegte Sätze (14/26) |
+| WM-DRUG-0566 | Lisocabtagen maraleucel | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel (Lisocabtagen maraleucel) bezeichnet denselben Wirkstoff wie die Klassifikation (ATC L01XL08). Keine der Quellen behandelt jedoch spezif |
+| WM-DRUG-0567 | Nadofaragen firadenovec | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Wirkstoff ist eine adenovirale Interferon-alfa-2b-Gentherapie bei BCG-unresponsivem nicht-muskelinvasivem Blasenkrebs; keine der Quellen behandelt |
+| WM-DRUG-0576 | Sotorasib | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Sotorasib' |
+| WM-DRUG-0577 | Belzutifan | drug | zu viele nur teilweise belegte Sätze (17/40) |
+| WM-DRUG-0579 | Adagrasib | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Adagrasib direkt (Metaanalyse, Entwicklung und Stellenwert in der Therapie, Erstzulassung). Quelle 2 behandelt Inhibit |
+| WM-DRUG-0582 | Toremifen | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 2 behandelt Toremifen konkret (Fallbericht zu Toremifen-Therapie). Quelle 1 und 3 sind allgemeine Übersichten zu SERMs/Brustkrebstherapi |
+| WM-DRUG-0585 | Lipegfilgrastim | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine der Quellen behandelt speziell Lipegfilgrastim. Sie betreffen andere Wirkstoffe (Efbemalenograstim alfa), G-CSF allgemein, kurzwirksames G-CS |
+| WM-DRUG-0586 | Efbemalenograstim alfa | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 2, 3 und 4 behandeln Efbemalenograstim alfa direkt. Quelle 1 ist eine allgemeine G-CSF-Leitlinie und Quelle 5 betrifft febrile Neutropenie  |
+| WM-DRUG-0587 | Interferon beta-1b | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Nur Quelle 3 und 4 behandeln explizit Interferon beta-1b. Quelle 1 und 2 behandeln Multiple Sklerose allgemein, ohne den spezifischen Wirkstoff zu  |
+| WM-DRUG-0588 | Peginterferon alfa-2a | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Peginterferon alfa-2a. Quelle 2 behandelt Ropeginterferon alfa-2b (andere Substanz), Quelle 5 behandelt Interfero |
+| WM-DRUG-0591 | Tasonermin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Tasonermin (TNF-alpha-1a, rekombinant, ATC L03AX11) ist ein Zytokin, das bei der isolierten Extremitätenperfusion gegen Weichteilsarkome ein |
+| WM-DRUG-0592 | Histamindihydrochlorid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Histamine dihydrochloride' |
+| WM-DRUG-0593 | Mifamurtid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt explizit Mifamurtid; Quellen 1-3 behandeln Osteosarkom allgemein, Quelle 4 Muramylpeptide allgemein.) |
+| WM-DRUG-0594 | Leniolisib | drug | zu wenige Quellen mit Zusammenfassung (2) für 'leniolisib' |
 | WM-DRUG-0597 | Belatacept | drug | zu viele nur teilweise belegte Sätze (20/42) |
 | WM-DRUG-0601 | Certolizumab pegol | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Der Titel bezeichnet denselben Wirkstoff wie die Klassifikation (ATC L04AB05). Es behandeln aber nur drei Quellen Certolizumab pegol spezifisch: 2  |
 | WM-DRUG-0602 | Basiliximab | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1–3 behandeln Basiliximab bzw. IL-2-Rezeptor-Antagonisten (Basiliximab) direkt. Quelle 4 (autoimmune Enzephalitis, allgemeine Therapieoptio |
