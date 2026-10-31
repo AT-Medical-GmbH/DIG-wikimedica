@@ -33,6 +33,8 @@ corrections: []
 
 # Fetaler Distress
 
+**Klassifikation:** ICD-10-GM: O68.-
+
 ## Übersicht
 
 Die pränatale Überwachung zielt primär darauf ab, das Risiko eines intrauterinen Fruchttods durch die Bewertung des fetalen Herzfrequenzmusters sowie den Einsatz von Ultraschall und Doppler-Verfahren zu minimieren.[1] Während der Geburt stellt die Überwachung der fetalen Herzfrequenz einen Standardbestandteil der Versorgung dar, wobei zwischen kontinuierlicher elektronischer Überwachung und intermittierender Auskultation unterschieden wird.[2] Die Diagnose stützt sich auf klinische Zeichen, Ultraschallbefunde und die Interpretation von Herzfrequenzmustern, wobei nicht-invasive Verfahren wie die fetale Doppler-Sonografie eine zentrale Rolle bei der Früherkennung von Durchblutungsstörungen spielen.[3]

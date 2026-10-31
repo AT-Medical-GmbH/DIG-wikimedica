@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Augentumoren
 
+**Klassifikation:** ICD-10-GM: C69.-
+
 ## Übersicht
 
 Bösartige Augentumoren bilden eine heterogene Gruppe mit unterschiedlicher Biologie und Behandlung.[1] Im Mittelpunkt der Forschung stehen vor allem das Retinoblastom und das Uveale Melanom.[2] Bei Kindern werden über 30 gutartige und bösartige Neubildungen verschiedener okulärer Strukturen unter dem Begriff seltene pädiatrische Augentumoren zusammengefasst.[3] Das Uveale Melanom gilt weltweit als häufigster intraokularer Tumor im Erwachsenenalter.[4][5]

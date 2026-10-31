@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Gelenkerkrankungen
 
+**Klassifikation:** ICD-10-GM: M25.-
+
 ## Übersicht
 
 Arthralgie bezeichnet Gelenkschmerzen, die von einer Gelenkentzündung (Arthritis) abzugrenzen sind.[1] Die verfügbaren Quellen beschreiben Arthralgie in sehr unterschiedlichen Zusammenhängen, vor allem als unerwünschte Wirkung onkologischer Therapien, als Begleitsymptom entzündlicher Systemerkrankungen und als Befund bei Vorstufen rheumatologischer Erkrankungen.[2][1][3] Gerade bei Krebspatientinnen und -patienten steht die Arthralgie als Ursache für eine eingeschränkte Therapietreue im Vordergrund.[4][5]

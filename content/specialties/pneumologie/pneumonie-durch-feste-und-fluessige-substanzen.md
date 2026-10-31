@@ -33,6 +33,8 @@ corrections: []
 
 # Aspirationspneumonie
 
+**Klassifikation:** ICD-10-GM: J69.-; ICD-11: CA71
+
 ## Übersicht
 
 Die Aspirationspneumonie ist eine Lungenentzündung, die durch das Einatmen von festen oder flüssigen Substanzen aus dem Mund- oder Rachenraum sowie dem Magen-Darm-Trakt in die unteren Atemwege entsteht.[1] Sie stellt eine bedeutende Ursache für Morbidität und Mortalität dar, insbesondere bei älteren, gebrechlichen Patienten und solchen mit chronischen Komorbiditäten.[2] Im Gegensatz zur chemischen Pneumonitis durch Magensäure handelt es sich bei der Aspirationspneumonie um eine infektiöse Entzündung des Lungengewebes, die durch pathogene Mikroorganismen ausgelöst wird.[3] Die Diagnose ist klinisch herausfordernd, da keine einheitlichen Definitionskriterien existieren und die Erkrankung häufig unterdiagnostiziert wird, besonders wenn keine offensichtlichen Aspirationsereignisse vorliegen.[4]

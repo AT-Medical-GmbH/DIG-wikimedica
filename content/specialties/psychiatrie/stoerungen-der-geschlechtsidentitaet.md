@@ -33,6 +33,8 @@ corrections: []
 
 # Geschlechtsdysphorie
 
+**Klassifikation:** ICD-10-GM: F64.-
+
 ## Übersicht
 
 Geschlechtsdysphorie beschreibt das psychische Leiden, das aus der Inkongruenz zwischen dem bei Geburt zugewiesenen Geschlecht und der eigenen Geschlechtsidentität entstehen kann.[1] Die historische Entwicklung der Diagnosen reicht von den Kriterien des DSM-III und der ICD-10 bis zu DSM-5 und ICD-11.[2] Jahrhundert wurden Fragen der sexuellen Orientierung und der Geschlechtsidentität häufig vermischt, und der Begriff Transgender setzte sich erst in den 1970er-Jahren durch.[2] Die aktuelle Versorgung wird als individualisierte, bejahende Betreuung beschrieben, die medizinische, psychische und soziale Aspekte berücksichtigt und von einem multidisziplinären Team getragen wird.[3][4]

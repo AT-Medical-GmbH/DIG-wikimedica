@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildung der Nebenniere
 
+**Klassifikation:** ICD-10-GM: C74.-
+
 ## Übersicht
 
 Bösartige Neubildungen der Nebenniere umfassen primär das adrenokortikale Karzinom (ACC) und das Phäochromozytom.[1] Das adrenokortikale Karzinom gilt als seltene, aber hochaggressive Form eines endokrinen Neoplasmas, das mit einer schlechten Prognose verbunden ist.[2] Die Diagnostik und das Management erfordern eine spezialisierte, multimodale Herangehensweise, da die Tumoren oft hormonell aktiv sind und ein hohes Metastasierungspotenzial aufweisen.[1][2] In der klinischen Praxis steht die chirurgische Resektion im Vordergrund, wobei die Qualität der Operation und die Nachsorge entscheidende Faktoren für das Überleben darstellen.[2]

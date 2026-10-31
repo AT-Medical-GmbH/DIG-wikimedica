@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Geburtshindernisse
 
+**Klassifikation:** ICD-10-GM: O66.-
+
 ## Übersicht
 
 Geburtshindernisse, im klinischen Kontext oft als Dystokie bezeichnet, umfassen Störungen des Geburtsverlaufs, die durch eine verzögerte Progression der Wehen oder eine mechanische Behinderung des Feten gekennzeichnet sind.[1] Ein spezifisches und gefürchtetes Geburtshindernis ist die Schulterdystokie, die definiert wird als eine vaginale Entbindung in Kopfstellung, bei der nach der Entbindung des Kopfes zusätzliche geburtshilfliche Manöver erforderlich sind, da sanfte Traktion versagt.[2] Diese Komplikation stellt einen obstetrischen Notfall dar, der sowohl für Mutter als auch für Kind weitreichende medizinische Folgen haben kann.[3] Die Diagnose erfolgt primär klinisch, da eine pränatale Vorhersage einzelner Fälle in der Praxis als unmöglich gilt.[1] Die Managementstrategien zielen darauf ab, den Geburtsverlauf zu standardisieren, um mütterliche und neonatale Morbidität sowie Mortalität zu reduzieren.[1] Es besteht Konsens darüber, dass trotz optimaler medizinischer Versorgung keine Geburtshindernisse vollständig verhindert oder kontrolliert werden können.[3]

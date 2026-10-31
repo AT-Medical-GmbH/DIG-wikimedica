@@ -33,6 +33,8 @@ corrections: []
 
 # Postinfektiöse und reaktive Arthritiden
 
+**Klassifikation:** ICD-10-GM: M03.-*
+
 ## Übersicht
 
 Postinfektiöse und reaktive Arthritiden stellen eine Gruppe von Gelenkentzündungen dar, die als Folge einer Infektion an einem anderen Körperort auftreten, häufig im gastrointestinalen oder urogenitalen Trakt.[1] Zu den bekannten Auslösern zählen bakterielle Enteritiden, urogenitale Infektionen sowie neuere Evidenzen zu viralen Infektionen wie COVID-19.[2][1][3] Die Therapie ist symptomatisch orientiert und umfasst nichtsteroidale Antirheumatika sowie bei schwereren Verläufen Kortikosteroide.[4][5]

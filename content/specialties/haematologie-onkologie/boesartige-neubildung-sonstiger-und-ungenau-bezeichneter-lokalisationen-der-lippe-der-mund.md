@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildungen der Lippe, Mundhöhle und des Pharynx
 
+**Klassifikation:** ICD-10-GM: C14.-
+
 ## Übersicht
 
 Bösartige Neubildungen der Lippe, der Mundhöhle und des Pharynx erfordern ein multidisziplinäres Management, bei dem die Chirurgie im Vordergrund steht, ergänzt durch Strahlen- und Chemotherapie sowie zunehmend immuntherapeutische Ansätze.[1][2] Die Therapieentscheidung hängt maßgeblich vom Tumorstadium, der Lokalisation und patientenspezifischen Faktoren ab.[1] Für rezidivierende Erkrankungen der Mundhöhle stellt die Salvage-Chirurgie eine viable Option dar, die mit günstigen Überlebensraten verbunden sein kann.[3] Die Rekonstruktion postoperativer Defekte ist entscheidend für die Wiederherstellung von Funktion und Ästhetik; während kleine Defekte oft mit lokalen Lappen versorgt werden können, gelten mikrochirurgische freie Lappen als Goldstandard für größere Defekte.[2]

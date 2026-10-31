@@ -33,6 +33,8 @@ corrections: []
 
 # Hämorrhoiden und Perianalvenenthrombose
 
+**Klassifikation:** ICD-10-GM: K64.-
+
 ## Übersicht
 
 Hämorrhoiden stellen eine häufige anorektale Erkrankung dar, deren Diagnose und Behandlung in den Zuständigkeitsbereich von Gastroenterologen und Proktologen fällt.[1] Die klinische Präsentation umfasst typischerweise Blutungen, Juckreiz, Beschwerden und/oder einen Vorfall, wobei Hämorrhoiden nur bei akuter Thrombosierung signifikante Schmerzen verursachen.[1] Scharfe Schmerzen während des Stuhlgangs deuten hingegen eher auf eine Analfissur hin.[1] Die Therapie erfolgt stufenweise, beginnend mit konservativen Maßnahmen wie Ernährungsumstellung und Lebensstiländerungen, gefolgt von instrumentellen Eingriffen im Bürosetting und chirurgischen Optionen bei fortgeschrittenen Stadien oder Versagen konservativer Therapien.[1][2]

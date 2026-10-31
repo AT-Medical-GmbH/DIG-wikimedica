@@ -33,6 +33,8 @@ corrections: []
 
 # Abnorme Befunde in der Bildgebung
 
+**Klassifikation:** ICD-10-GM: R93.-
+
 ## Übersicht
 
 Diese Befunde werden als unbeabsichtigte und unerwartete Entdeckungen von Pathologien definiert, die klinisch signifikant sein können, aber in der Regel asymptomatisch sind und keinen direkten Bezug zur ursprünglichen Indikation der Untersuchung haben.[1] Die Identifizierung solcher Zufallsbefunde erfordert eine differenzierte Abwägung zwischen der Notwendigkeit weiterer diagnostischer Schritte und dem Risiko unnötiger Belastungen für Patientinnen und Patienten sowie dem Gesundheitssystem.[1] Während viele dieser Befunde harmlos sind und keiner weiteren Abklärung bedürfen, können andere auf ernste Erkrankungen hinweisen, die eine zeitnahe Intervention erfordern.[2] Die Managementstrategien variieren stark je nach betroffener Organstruktur, der Art des Befundes und dem klinischen Kontext des Patienten.[2]

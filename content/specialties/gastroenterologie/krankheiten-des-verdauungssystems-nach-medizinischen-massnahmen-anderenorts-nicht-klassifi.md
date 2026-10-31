@@ -33,6 +33,8 @@ corrections: []
 
 # Krankheiten des Verdauungssystems nach medizinischen Maßnahmen
 
+**Klassifikation:** ICD-10-GM: K91.-
+
 ## Übersicht
 
 Die Inzidenz postoperativer Komplikationen liegt bei bis zu 20 % der Fälle, wobei die Pathophysiologie oft auf den durch die Operation und Anästhesie induzierten Stress sowie auf nachfolgende Entzündungsreaktionen zurückzuführen ist.[1] Zu den häufigsten Manifestationen gehören gastrointestinale Motilitätsstörungen, Infektionen der Operationsstelle und metabolische Dysregulationen.[1] Die Prävention und das Management erfordern einen multidisziplinären Ansatz, der präoperative Risikobewertungen, intraoperative Strategien zur Stressreduktion und postoperative Überwachungsprotokolle integriert.[2]

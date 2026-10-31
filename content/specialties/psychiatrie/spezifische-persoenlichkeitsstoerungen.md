@@ -33,6 +33,8 @@ corrections: []
 
 # Spezifische Persönlichkeitsstörungen
 
+**Klassifikation:** ICD-10-GM: F60.-
+
 ## Übersicht
 
 Spezifische Persönlichkeitsstörungen sind komplexe psychische Erkrankungen, die durch starre und maladaptive Muster in der Wahrnehmung der eigenen Person und der Umwelt sowie in zwischenmenschlichen Beziehungen gekennzeichnet sind.[1] Die Diagnosestellung erfolgt in der deutschsprachigen Praxis primär nach dem ICD-10-GM, wobei die ICD-11 einen neuen, dimensionalen Ansatz mit Fokus auf der Schwere der Persönlichkeitspathologie einführt.[2][3] Zu den häufigsten spezifischen Störungen zählen die Borderline-Persönlichkeitsstörung, die antisoziale Persönlichkeitsstörung sowie Störungen der Cluster-C-Gruppe wie die zwanghafte und die vermeidende Persönlichkeitsstörung.[4][1] Diese Erkrankungen gehen mit erheblichen funktionellen Einschränkungen, einem erhöhten Inanspruchnahmeverhalten im Gesundheitswesen und einer hohen Komorbidität mit anderen psychischen Störungen einher.[1][5]

@@ -33,6 +33,8 @@ corrections: []
 
 # Gastrointestinale Beteiligung bei systemischen Erkrankungen
 
+**Klassifikation:** ICD-10-GM: K93.-*
+
 ## Übersicht
 
 Die vorliegenden Übersichtsarbeiten betreffen den systemischen Lupus erythematodes (SLE), die systemische Sklerose (SSc), den Morbus Fabry und die common variable immunodeficiency (CVID).[1][2][3][4] Die Evidenzlage unterscheidet sich dabei deutlich zwischen den Erkrankungen und ist insgesamt überwiegend beobachtender Natur.[1][2][3][4]

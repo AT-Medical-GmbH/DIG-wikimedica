@@ -37,6 +37,8 @@ corrections: []
 
 # Allergische Rhinitis
 
+**Klassifikation:** ICD-10-GM: J30.1, J30.4
+
 Die **allergische Rhinitis** ist eine IgE-vermittelte Entzündung der Nasenschleimhaut nach Allergenkontakt. Niesreiz, Fließschnupfen, Nasenblockade und Juckreiz stehen im Vordergrund; häufig bestehen auch okuläre Beschwerden.[1]
 
 ## Diagnostik und Behandlung

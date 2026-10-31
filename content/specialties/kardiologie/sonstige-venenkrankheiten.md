@@ -33,6 +33,8 @@ corrections: []
 
 # Venenerkrankungen
 
+**Klassifikation:** ICD-10-GM: I87.-
+
 ## Übersicht
 
 Chronische Venenerkrankungen (Chronic Venous Disease, CVD) sind eine dauerhafte Veränderung des venösen Abflusses, die durch Klappeninsuffizienz und/oder eine Abflussbehinderung entsteht.[1] Bei den Beinvenen unterscheidet man als Ursachen eine primäre Klappeninsuffizienz, eine zurückliegende tiefe Venenthrombose und eine extrinsische venöse Obstruktion.[2] Die Erkrankung gilt als häufigste Gefäßerkrankung des Menschen, wird nach Einschätzung einer Übersichtsarbeit jedoch weiterhin zu selten diagnostiziert und behandelt.[3] Das klinische Spektrum reicht von Teleangiektasien und retikulären Venen bis zu venösen Ulzerationen, wobei Krampfadern die häufigste Ausprägung darstellen.[4] Zur Beschreibung wird die CEAP-Klassifikation (Clinical, Etiologic, Anatomic, Pathophysiologic) verwendet.[3][5]

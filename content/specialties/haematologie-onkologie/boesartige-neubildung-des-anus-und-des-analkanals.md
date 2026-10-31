@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildung des Anus und des Analkanals
 
+**Klassifikation:** ICD-10-GM: C21.-
+
 ## Übersicht
 
 Bösartige Neubildungen des Anus und des Analkanals sind selten, machen aber nach einer aktuellen Leitlinie etwa zwei Prozent aller Tumoren des Verdauungstrakts aus und nehmen zu.[1][2] Die überwiegende Mehrzahl sind Plattenepithelkarzinome.[2] Nahezu alle Analkarzinome entstehen auf dem Boden einer persistierenden Infektion mit humanen Papillomviren (HPV).[3] Die Leitlinienempfehlungen betonen, dass bei Verdacht eine histologische Sicherung, eine korrekte lokale Stadieneinteilung mittels MRT sowie eine Fernstadiendiagnostik erfolgen müssen und die Behandlung in einem multidisziplinären Team erfolgen sollte.[1][4] Für frühe und lokal fortgeschrittene Stadien gilt die Radiochemotherapie als Standard, bei metastasierter Erkrankung steht eine systemische Chemotherapie im Vordergrund.[1][2]

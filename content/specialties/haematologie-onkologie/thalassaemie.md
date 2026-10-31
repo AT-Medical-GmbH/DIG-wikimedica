@@ -33,6 +33,8 @@ corrections: []
 
 # Thalassämie
 
+**Klassifikation:** ICD-10-GM: D56.-
+
 ## Übersicht
 
 Thalassämien sind eine Gruppe erblicher hämatologischer Erkrankungen, die durch hereditäre Defekte in der Synthese der Alpha- oder Beta-Globinketten des Hämoglobins gekennzeichnet sind.[1][2] Diese Defekte führen zu einem Ungleichgewicht der Globinketten, was ineffektive Erythropoese, verkürzte Überlebensdauer der roten Blutkörperchen und chronische hämolytische Anämie zur Folge hat.[1][2] Klinisch werden die Erkrankungen in Minor-, Intermedia- und Major-Formen unterteilt, wobei die Schwere des Krankheitsbildes von einem stummen Trägerstatus bis hin zu lebensbedrohlichen, transfusionspflichtigen Verläufen reicht.[1][2] Die Therapie zielt primär auf die Korrektur der Anämie, die Unterdrückung der ineffektiven Erythropoese und die Verhinderung von Komplikationen wie Eisenüberladung ab.[3]

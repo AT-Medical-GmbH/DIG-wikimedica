@@ -33,6 +33,8 @@ corrections: []
 
 # Volumenmangel
 
+**Klassifikation:** ICD-10-GM: E86; ICD-11: 5C70
+
 ## Übersicht
 
 Ein Volumenmangel entsteht, wenn extrazelluläre Flüssigkeit oder Blut verloren geht.[1] Seine rasche Erkennung ist klinisch bedeutsam, weil sie in akuten Situationen lebensrettend sein kann.[1] Bettseitige Verfahren zur Beurteilung des intravasalen Volumenstatus gelten allerdings häufig als wenig verlässlich, was die Einschätzung im Akutfall erschwert.[2] Die Nieren steuern das extrazelluläre Volumen und können die Salzretention über mehrere, teilweise redundante Wege beeinflussen, darunter das sympathische Nervensystem und das Renin-Angiotensin-Aldosteron-System.[3] Sowohl Volumenmangel als auch Volumenüberschuss sind mit ungünstigen Verläufen assoziiert, weshalb das Volumenmanagement einen zentralen Bestandteil der stationären und ambulanten Versorgung darstellt.[3]

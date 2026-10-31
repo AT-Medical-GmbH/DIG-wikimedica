@@ -33,6 +33,8 @@ corrections: []
 
 # Nicht-melanozytärer Hautkrebs
 
+**Klassifikation:** ICD-10-GM: C44.-
+
 ## Übersicht
 
 Auch die Aktinische Keratose wird dieser Gruppe zugeordnet.[1] Er gilt als häufigste Krebserkrankung bei Menschen mit heller Haut.[2][1] Das maligne Melanom ist demgegenüber seltener, verläuft jedoch gefährlicher.[1] Die Versorgung umfasst chirurgische, strahlentherapeutische und weitere Verfahren, die je nach Tumorstadium und Risikoprofil eingesetzt werden.[3][4][5]

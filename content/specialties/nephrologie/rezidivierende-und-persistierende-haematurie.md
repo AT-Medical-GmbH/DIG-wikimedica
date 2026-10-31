@@ -33,6 +33,8 @@ corrections: []
 
 # Hämaturie
 
+**Klassifikation:** ICD-10-GM: N02.-
+
 ## Übersicht
 
 Sie kann mit bloßem Auge sichtbar sein (makroskopisch) oder erst im Mikroskop erkannt werden (mikroskopisch).[1][2] Eine makroskopische Hämaturie wird in beiden Fällen als eigenständiger Befund betrachtet, der nicht übergangen werden sollte.[2] Bei symptomatischer oder persistierender Hämaturie ist die Abklärung der Ursache unverzichtbar.[3] Für die Einordnung im Versorgungsalltag ist daher entscheidend, ob der Befund wiederholt auftritt oder anhaltend besteht, ob Beschwerden vorliegen und ob die Blutung glomerulär oder nichtglomerulär bedingt sein könnte.[3] Für Kinder und Jugendliche unterscheidet die amerikanische Leitlinie isolierte, nicht schmerzhafte Hämaturien, schmerzhafte Hämaturien im Rahmen einer vermuteten Nieren- oder Harnleitersteinerkrankung sowie Hämaturien nach Nierentrauma.[1] Bei Erwachsenen werden insbesondere die Abklärung der mikroskopischen Hämaturie und die Bewertung der makroskopischen Hämaturie thematisiert.[4][2]

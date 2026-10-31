@@ -33,6 +33,8 @@ corrections: []
 
 # Viruspneumonien
 
+**Klassifikation:** ICD-10-GM: J12.-
+
 ## Übersicht
 
 Viruspneumonien sind in den vergangenen Jahren zu einer erheblichen Herausforderung für die öffentliche Gesundheit geworden, besonders während der COVID-19-Pandemie.[1] Sie können durch verschiedene Viren verursacht werden, zu den wichtigsten gehören Influenzaviren, das respiratorische Synzytialvirus (RSV) und Adenoviren.[1][2] Auch Rhinoviren sind häufige Ursachen,[2] und Coronaviren waren Auslöser der Ausbrüche von SARS, MERS und COVID-19.[2] Verschiedene Viren können ähnliche Symptome hervorrufen.[3] Das klinische Spektrum reicht von milden Infektionen der oberen Atemwege bis zu schwerer Pneumonitis mit respiratorischer Insuffizienz.[3][2] Schwere Verläufe können rasch zu septischem Schock, Gerinnungsstörungen und Multiorganversagen fortschreiten.[3] Die Unterscheidung zwischen viraler und bakterieller Pneumonie ist klinisch schwierig, da auch die radiologischen Befunde meist unspezifisch sind.[4][5] Eine möglichst genaue ätiologische Zuordnung ist dennoch bedeutsam, weil sie Maßnahmen zur Infektionskontrolle und Entscheidungen über die Behandlung beeinflusst.[4] Die Therapieoptionen sind bislang begrenzt, weshalb neue Behandlungsstrategien weiterhin erforscht werden.[4][2]

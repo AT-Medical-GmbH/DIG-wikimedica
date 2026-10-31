@@ -33,6 +33,8 @@ corrections: []
 
 # Spondylose und sonstige Wirbelsäulenerkrankungen
 
+**Klassifikation:** ICD-10-GM: M48.-
+
 ## Übersicht
 
 Die zervikale Spondylose ist eine degenerative Erkrankung der Halswirbelsäule.[1] Durch Irritation und Kompression der Nervenwurzeln kann eine zervikale spondylotische Radikulopathie entstehen, die sich über sensible, motorische und reflektorische Störungen äußert.[2] Die Erkrankung beeinträchtigt die Lebensqualität der Betroffenen deutlich, und konservative Behandlungsansätze gelten häufig als bevorzugte Option.[3]

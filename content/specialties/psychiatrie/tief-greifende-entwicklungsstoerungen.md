@@ -33,6 +33,8 @@ corrections: []
 
 # Tief greifende Entwicklungsstörungen
 
+**Klassifikation:** ICD-10-GM: F84.-
+
 ## Übersicht
 
 Die Autismus-Spektrum-Störung (ASS) ist eine komplexe neuroentwicklungsbedingte Störung, die durch Defizite in der Kommunikation und sozialen Interaktion sowie durch eingeschränkte, repetitive Verhaltensweisen, Interessen und Aktivitäten gekennzeichnet ist.[1][2] Wegen der Heterogenität des Störungsbildes und des Fehlens eines Biomarkers muss die diagnostische Abklärung nach internationalen Klassifikationen umfassend und multidisziplinär erfolgen.[1] Inzwischen wird die Störung nicht mehr allein als Kindheitserkrankung betrachtet, sondern als Bedingung, die die gesamte Lebensspanne betrifft.[3][4] Die Ätiologie gilt für die meisten Betroffenen als weitgehend ungeklärt und wird als multifaktoriell verstanden.[1]

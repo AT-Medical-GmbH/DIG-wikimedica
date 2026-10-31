@@ -33,6 +33,8 @@ corrections: []
 
 # Peritonitis
 
+**Klassifikation:** ICD-10-GM: K65.-; ICD-11: DC50
+
 ## Übersicht
 
 Die verfügbaren Quellen behandeln vor allem die spontane bakterielle Peritonitis (SBP) bei Leberzirrhose, die Peritonealdialyse-assoziierte Peritonitis, die sekundäre Peritonitis nach Perforation sowie die fetale Mekoniumperitonitis.[1][2][3][4] Die SBP ist eine häufige Komplikation der dekompensierten Leberzirrhose, die mit hoher Morbidität und Mortalität einhergeht.[1] Bei Kindern unter Peritonealdialyse gelten infektionsbedingte Komplikationen als wichtigste Ursache für Morbidität und Technikversagen.[5] Auch bei Erwachsenen wird die Peritonitis im Rahmen der Peritonealdialyse als zentrales Problem beschrieben, das Betroffene und Behandelnde gleichermaßen beschäftigt.[6]

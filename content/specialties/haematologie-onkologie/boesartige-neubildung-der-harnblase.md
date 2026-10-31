@@ -33,6 +33,8 @@ corrections: []
 
 # Harnblasenkarzinom
 
+**Klassifikation:** ICD-10-GM: C67.-
+
 ## Übersicht
 
 Das Harnblasenkarzinom ist die häufigste Malignität des Harntrakts und gehört weltweit zu den verbreitetsten Krebserkrankungen.[1] Klinisch unterscheidet man drei Kategorien mit jeweils eigener Prognose, eigenem Management und eigenen therapeutischen Zielen: das nicht-muskelinvasive Harnblasenkarzinom (NMIBC), das muskelinvasive, nicht metastasierte Karzinom und das metastasierte Harnblasenkarzinom.[2] Histologisch handelt es sich am häufigsten um Urothelkarzinome.[2] Die Diagnosestellung stützt sich auf die Zystoskopie und die histologische Untersuchung von Gewebeproben.[3][4]

@@ -33,6 +33,8 @@ corrections: []
 
 # Komplikationen bei Herzerkrankungen
 
+**Klassifikation:** ICD-10-GM: I51.-
+
 ## Epidemiologie
 
 Bei hospitalisierten Patientinnen und Patienten mit laborbestätigter Influenzainfektion entwickeln etwa 9,9 % kardiovaskuläre Komplikationen, wobei die kumulative Inzidenz für Herzinsuffizienz mit 17,47 % am höchsten ist, gefolgt von Arrhythmien (6,12 %) und Myokarditis (2,56 %).[1] Im Kontext von COVID-19-Infektionen liegt die gepoolte Prävalenz kardiovaskulärer Komplikationen bei Erwachsenen bei 23,45 %.[2] Dabei sind akute Myokardverletzungen mit 19,38 % und Arrhythmien mit 11,16 % besonders prevalent.[2] Andere Analysen zu COVID-19 berichten von einer Inzidenz von Myokardverletzungen von 21,2 % und Arrhythmien von 15,3 %.[3] Bei Malaria-Infektionen beträgt die Prävalenz kardiovaskulärer Komplikationen bei symptomatischen Erwachsenen 7 %.[4] Bei Patientinnen und Patienten mit Typ-2-Diabetes mellitus und Adipositas ist das Risiko für kardiovaskuläre Ereignisse erhöht, wobei über zwei Drittel der Todesfälle bei Diabetespatienten auf kardiovaskuläre Komplikationen zurückzuführen sind.[5] Bei chronischer Nierenerkrankung (CKD) sind kardiovaskuläre Komplikationen die häufigste Todesursache, insbesondere im Stadium der Niereninsuffizienz.[6] Bei Patientinnen und Patienten mit Down-Syndrom liegt das Vorkommen angeborener Herzfehler bei bis zu 50 %.[7]

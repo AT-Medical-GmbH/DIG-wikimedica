@@ -33,6 +33,8 @@ corrections: []
 
 # Primäre Myopathien
 
+**Klassifikation:** ICD-10-GM: G71.-
+
 ## Übersicht
 
 Primäre Myopathien sind erbliche Erkrankungen des Skelettmuskels, deren krankhafte Ursache distal der neuromuskulären Endplatte liegt.[1] Die Konsensusleitlinie der European Malignant Hyperthermia Group fasst darunter kongenitale, mitochondriale und metabolische Myopathien, Muskeldystrophien, Myotonien und familiäre periodische Paralysen zusammen.[1] Die Einteilung folgt dort der ICD-11-CM; eine Zuordnung nach ICD-10-GM wird in den ausgewerteten Quellen nicht behandelt.[1] Neben diesen meist angeborenen Formen werden auch späte primäre Muskelerkrankungen beschrieben, die im höheren Lebensalter auftreten.[2] Dazu gehören unter anderem die Einschlusskörperchen-Myositis, die sporadische späte nemaline Myopathie, Muskeldystrophien sowie distale, myofibrilläre, metabolische und mitochondriale Myopathien.[2] Perioperative Auffälligkeiten bei Patientinnen und Patienten mit primären Myopathien können Merkmalen einer Krise durch maligne Hyperthermie ähneln.[1] Aus diesem Grund werden Betroffene häufig an MH-Zentren zur perioperativen Beratung überwiesen.[1] Die Autorinnen und Autoren der Leitlinie beschreiben, dass die Literatur, auf die sich Behandelnde dabei stützen, uneinheitlich und teilweise nicht mehr aktuell ist.[1] Da mehrere Gewebe betroffen sein können, stellt sich die Behandlung als komplex dar.[3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Polyarteritis nodosa
 
+**Klassifikation:** ICD-10-GM: M30.-
+
 ## Übersicht
 
 Die Polyarteritis nodosa (PAN) ist eine seltene, nekrotisierende Vaskulitis, die vorwiegend mittelgroße Arterien betrifft und sich durch eine heterogene klinische Präsentation auszeichnet.[1] Die Erkrankung kann nahezu jedes Organsystem involvieren, wobei die Haut, das Nervensystem und der Gastrointestinaltrakt besonders häufig betroffen sind.[1] Historisch war die PAN eng mit einer Hepatitis-B-Virus-Infektion (HBV) assoziiert, doch hat sich dieses Bild durch sinkende HBV-Prävalenzraten und die Identifizierung neuer ätiologischer Faktoren gewandelt.[1] Heute werden neben primären Formen auch sekundäre Ursachen wie Malignome, hämatologische Erkrankungen und genetische Syndrome wie der Adenosin-Deaminase-2-Mangel (DADA2) diskutiert.[1][2] Die Diagnosestellung stützt sich auf den Ausschluss anderer Vaskulitiden, insbesondere das Fehlen von Granulomen, Glomerulonephritis und ANCA-Antikörpern.[1] Die Prognose hat sich durch moderne immunsuppressive Therapien deutlich verbessert, wobei die 5-Jahres-Überlebensrate heute bei über 80 % liegt.[2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Infektiöse und parasitäre Krankheiten der Mutter
 
+**Klassifikation:** ICD-10-GM: O98.-
+
 ## Übersicht
 
 Infektiöse und parasitäre Erkrankungen während der Schwangerschaft, Geburt und im Wochenbett stellen eine signifikante Ursache für mütterliche und neonatale Morbidität sowie Mortalität dar.[1][2] Die Prävention und Behandlung dieser Infektionen ist von entscheidender Bedeutung, um Komplikationen für den sich entwickelnden Fötus zu reduzieren und die neonatalen Ergebnisse zu verbessern.[1] Zu den wichtigsten klinischen Entitäten gehören bakterielle Infektionen wie Harnwegsinfekte, sexuell übertragbare Infektionen, Malaria sowie Infektionen mit Group-B-Streptokokken (GBS).[1][3][2][4][5] Die Diagnostik und das Management erfordern eine sorgfältige Abwägung zwischen dem Nutzen einer frühzeitigen Intervention und den potenziellen Risiken einer antimikrobiellen Exposition während der Schwangerschaft.[5] Internationale Leitlinien zeigen zwar in vielen Bereichen Einigkeit, bestehen jedoch in einigen Aspekten, wie etwa der antenatalen GBS-Screening-Strategie, erhebliche Diskrepanzen.[2]

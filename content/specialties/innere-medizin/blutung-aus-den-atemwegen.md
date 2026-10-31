@@ -33,6 +33,8 @@ corrections: []
 
 # Hämoptyse
 
+**Klassifikation:** ICD-10-GM: R04.-
+
 ## Übersicht
 
 Hämoptyse bezeichnet das Aushusten von Blut aus dem unteren Respirationstrakt und reicht klinisch von blutigem Auswurf bis hin zu massiven, lebensbedrohlichen Blutungen.[1][2] Die klinische Bedeutung variiert stark; während die meisten Fälle mild und selbstlimitierend verlaufen, kann die Hämoptyse eine akute Notfallsituation darstellen, die primär durch Asphyxie oder hämorrhagischen Schock zum Tod führt.[2][3] Die Definition einer massiven Hämoptyse ist in der Literatur uneinheitlich und basiert oft auf quantitativen Schätzungen, die klinisch schwer genau zu erfassen sind.[4] Einige Leitlinien definieren massive Blutungen ab einem Volumen von 100 Milliliter pro 24 Stunden, andere verwenden Schwellenwerte von 300 bis 600 Milliliter oder das Auftreten von mehr als drei Episoden innerhalb einer Woche.[4][5] Eine praxisnahe und sicherere Definition fasst massive Hämoptyse als jede blutungsbedingte Gefährdung der Atemwege, die zu einer Obstruktion oder Asphyxie führen kann, unabhängig vom exakten Blutvolumen.[4] Die Mortalität bei massiver Hämoptyse liegt zwischen 6,5 und 38 Prozent bzw. kann in perioperativen Notfällen sogar 50 Prozent überschreiten.[4][3]

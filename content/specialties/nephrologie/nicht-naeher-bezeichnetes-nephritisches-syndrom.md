@@ -33,6 +33,8 @@ corrections: []
 
 # Nephritisches Syndrom
 
+**Klassifikation:** ICD-10-GM: N05.-
+
 ## Übersicht
 
 Das nephritische Syndrom ist eine klinische Entität, die durch eine Kombination aus Hämaturie, Proteinurie, Hypertonie und einer Einschränkung der Nierenfunktion gekennzeichnet ist.[1] Es handelt sich um ein heterogenes Krankheitsbild, das auf einer glomerulären Entzündung basiert, wobei die Schwere der Symptome variieren kann.[1] In der pädiatrischen Population stellt die akute postinfektiöse Glomerulonephritis (APGN) eine der häufigsten Ursachen für ein akutes nephritisches Syndrom dar.[2] Die Diagnosestellung erfolgt primär klinisch und laborchemisch, wobei die Nierenbiopsie als Goldstandard zur Bestätigung der zugrunde liegenden pathologischen Läsion gilt.[3][1] Die Therapie konzentriert sich in den meisten Fällen auf supportive Maßnahmen, während immunsuppressive Therapien oder eine Nierenersatztherapie nur in spezifischen, schweren Verlaufsformen erforderlich sind.[2]

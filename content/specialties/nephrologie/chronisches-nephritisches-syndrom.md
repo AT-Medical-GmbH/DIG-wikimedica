@@ -33,6 +33,8 @@ corrections: []
 
 # Chronische Glomerulonephritis
 
+**Klassifikation:** ICD-10-GM: N03.-
+
 ## Übersicht
 
 Die chronische Glomerulonephritis (CGN) ist eine primäre Glomerulopathie, also eine Erkrankung, die vorrangig die Nierenkörperchen betrifft.[1][2] Sie ist durch anhaltende Entzündung, Fibrose und mitochondriale Dysfunktion im Glomerulum und in den umliegenden Kapillaren gekennzeichnet, die zum Verlust der glomerulären Integrität und Funktion führen.[3] Gegenüber der akuten Glomerulonephritis, bei der meist eine erregerbedingte Immunantwort im Vordergrund steht, gilt die chronische Form als schwerer verlaufend.[3] Charakteristisch ist ein irreversibler Verlust der glomerulären Struktur, der häufig in eine terminale Niereninsuffizienz münden kann.[3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Vestibuläre Störungen
 
+**Klassifikation:** ICD-10-GM: H81.-; ICD-11: AB34
+
 ## Übersicht
 
 Vestibuläre Störungen sind Erkrankungen, die die vestibuläre Struktur des peripheren oder zentralen Systems oder dessen Funktionsmechanismus betreffen.[1] Dieser Begriff ist weiter gefasst und umfasst auch Beschwerden, die nur teilweise oder gar nicht mit dem Vestibularapparat zusammenhängen.[1] Schwindel gehört sowohl in der ambulanten Versorgung als auch in der Notaufnahme zu den häufigsten Hauptbeschwerden, und das Vorgehen beginnt deshalb mit der Klärung der Ätiologie.[2] Der Vestibularapparat liegt im Innenohr neben den Hörorganen und ist für die Gleichgewichtskontrolle von zentraler Bedeutung.[3] Die Diagnostik stützt sich auf objektive vestibuläre Tests, etwa die Messung des optokinetischen Nachnystagmus und die Wahrnehmung der visuellen Vertikalen.[4][5] Therapeutisch ist die vestibuläre Rehabilitation etabliert, und virtuelle sowie erweiterte Realität werden als ergänzende Verfahren untersucht.[6]

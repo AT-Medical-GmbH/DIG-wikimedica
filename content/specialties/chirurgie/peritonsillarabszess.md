@@ -33,6 +33,8 @@ corrections: []
 
 # Peritonsillarabszess
 
+**Klassifikation:** ICD-10-GM: J36; ICD-11: CA0K.1
+
 ## Übersicht
 
 Der Peritonsillarabszess ist eine lokalisierte Infektion im peritonsillären Raum.[1] Er gilt als häufigste tiefe Halsinfektion und entsteht entweder aus einer bakteriellen akuten Tonsillitis oder aus einer Infektion der Weber-Drüsen.[2] Die klinische Abgrenzung von einer peritonsillären Zellulitis ist schwierig, weil sich viele Merkmale beider Krankheitsbilder überschneiden.[3] Die körperliche Untersuchung allein erreicht für die Diagnose eines Peritonsillarabszesses nur eine Sensitivität von etwa 75 % und eine Spezifität von etwa 50 %.[3]

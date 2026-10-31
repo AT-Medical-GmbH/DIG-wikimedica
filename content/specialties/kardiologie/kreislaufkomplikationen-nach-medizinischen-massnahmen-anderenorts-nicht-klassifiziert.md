@@ -33,6 +33,8 @@ corrections: []
 
 # Kreislaufkomplikationen nach medizinischen Maßnahmen
 
+**Klassifikation:** ICD-10-GM: I97.-
+
 ## Epidemiologie
 
 Bei hospitalisierten Patienten mit laborbestätigter Influenzainfektion entwickeln etwa 9,9 % kardiovaskuläre Ereignisse, wobei die kumulative Inzidenz für Herzinsuffizienz mit 17,47 % am höchsten ist, gefolgt von Arrhythmien (6,12 %) und Myokarditis (2,56 %).[1] Im Kontext der COVID-19-Erkrankung liegt die gepoolte Prävalenz kardiovaskulärer Komplikationen bei Erwachsenen bei 23,45 %.[2] Dabei sind akute Myokardschäden mit 19,38 % und Arrhythmien mit 11,16 % am häufigsten.[2] Bei nicht überlebenden COVID-19-Patienten steigt die Inzidenz von Herzinsuffizienz auf 47,8 % und von Myokardschäden auf 61,7 % signifikant an.[3] Auch bei Malaria-Infektionen treten kardiovaskuläre Komplikationen auf, wobei bei symptomatischen Erwachsenen eine Prävalenz von 7 % für beliebige kardiovaskuläre Auffälligkeiten berichtet wird.[4]

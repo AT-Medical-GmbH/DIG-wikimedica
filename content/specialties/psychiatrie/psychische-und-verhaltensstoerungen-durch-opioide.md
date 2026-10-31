@@ -33,6 +33,8 @@ corrections: []
 
 # Opioide Abhängigkeit und Missbrauch
 
+**Klassifikation:** ICD-10-GM: F11.-
+
 ## Übersicht
 
 Die Opioidgebrauchsstörung (OUD) ist eine behandelbare chronische Erkrankung, die mit Phasen von Remission und Rückfall verläuft.[1] Sie ist durch einen Verlust der Kontrolle über den Opioidkonsum, zwanghaftes Konsumverhalten und die Fortsetzung des Konsums trotz schädlicher Folgen gekennzeichnet.[1] Unbehandelt geht die Störung mit erheblicher Morbidität und Mortalität einher.[1] Nach einer aktuellen Übersichtsarbeit ist die OUD weltweit die dritthäufigste substanzbezogene Störung.[2] Die Versorgung stützt sich auf medikamentöse Behandlung, psychosoziale Angebote und Schadensminimierung.[1][3] Ärztinnen und Ärzte spielen eine wichtige Rolle bei der Diagnose der OUD und ihrer Begleiterkrankungen, beim Angebot evidenzbasierter Therapien sowie bei der Überdosierungsprävention.[1]

@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildung des Ovars
 
+**Klassifikation:** ICD-10-GM: C56
+
 ## Übersicht
 
 Es ist außerdem eine der führenden Ursachen krebsbedingter Todesfälle bei Frauen.[1][2] Eine aktuelle Übersichtsarbeit nennt es die achthäufigste Krebsart und ebenfalls die achthäufigste Ursache krebsbedingter Todesfälle bei Frauen weltweit.[1] Etwa 90 % der Ovarialkarzinome sind epitheliale Malignome, und innerhalb dieser Gruppe machen hochgradig seröse Karzinome den größten Anteil aus.[1][3] Seltener sind endometrioide, klarzellige, niedriggradig seröse, muzinöse und karzinosarkomatöse Subtypen.[1][4] Die Subtypen unterscheiden sich klinisch und genetisch, teilen sich aber einige reproduktive und hormonelle Risikofaktoren.[3] Die Therapie kombiniert operative Maßnahmen, systemische Chemotherapie und, je nach Situation, Erhaltungstherapien.[1][5] Die Empfehlungen verschiedener Fachgesellschaften stimmen in vielen Punkten überein, unterscheiden sich aber in einzelnen Fragen, etwa beim Stellenwert der hyperthermen intraperitonealen Chemotherapie.[5][6][7][8]

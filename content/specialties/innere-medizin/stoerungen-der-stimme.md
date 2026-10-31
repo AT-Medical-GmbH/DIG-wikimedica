@@ -33,6 +33,8 @@ corrections: []
 
 # Stimmstörungen
 
+**Klassifikation:** ICD-10-GM: R49.-; ICD-11: MA82
+
 ## Epidemiologie
 
 In allgemeinen militärischen Populationen wird die Prävalenz auf etwa 3,3 % geschätzt, wobei die Unsicherheit dieser Schätzung aufgrund extremer statistischer Streuung sehr hoch ist.[1] Bei Personal mit hoher vokaler Belastung, wie Drillinstruktoren, steigt die Prävalenz signifikant an und liegt bei etwa 40,0 %.[1] Noch höher ist die Rate bei exponierten Gruppen, beispielsweise bei Veteranen mit chemischer Belastung, wo bis zu 72,8 % der Betroffenen betroffen sein können.[1] Eine Metaanalyse ergab eine Gesamtprävalenz von Dysphonie von 44,0 %.[2] Dabei ist die Detektionsrate je nach Methode unterschiedlich: Selbstberichte und subjektive Bewertungen liegen bei etwa 43,9 %, während auditive Beurteilungen durch Experten höhere Raten von 53,0 % zeigen.[2] Besonders Lehrer und Dozenten an Hochschulen sind betroffen; bei Universitätsprofessoren liegt die Prävalenz bei 41 %, wobei regionale Unterschiede bestehen und in einigen Ländern Werte von bis zu 69 % erreicht werden.[3] Bei älteren Erwachsenen in der Allgemeinbevölkerung liegt die Prävalenz bei etwa 18,8 %, während sie in institutionell versorgten Senioren auf über 33 % ansteigt.[4]

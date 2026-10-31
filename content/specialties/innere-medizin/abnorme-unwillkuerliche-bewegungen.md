@@ -33,6 +33,8 @@ corrections: []
 
 # Unwillkürliche Bewegungsstörungen
 
+**Klassifikation:** ICD-10-GM: R25.-; ICD-11: MB46
+
 ## Übersicht
 
 Zu den typischen Erscheinungsformen zählen Tremor, Tics und Dystonien.[1] Sie können in jedem Lebensabschnitt auftreten, und ihre Ursachen sind aufgrund komplexer neurobiologischer Mechanismen häufig schwer zu bestimmen.[1] Auch Antidepressiva, Antihistaminika, Antiepileptika, Antiarrhythmika und Medikamente des Magen-Darm-Trakts können solche Störungen auslösen.[2]

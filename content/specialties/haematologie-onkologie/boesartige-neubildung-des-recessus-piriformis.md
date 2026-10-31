@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildung des Recessus piriformis
 
+**Klassifikation:** ICD-10-GM: C12
+
 ## Übersicht
 
 Die bösartigen Neubildungen des Recessus piriformis zählen zu den Hypopharyngeakarzinomen, die als eine der seltensten und prognostisch ungünstigsten Entitäten im Kopf-Hals-Bereich gelten.[1] Aufgrund der tiefen anatomischen Lage und der unspezifischen Frühbeschwerden werden diese Tumoren häufig erst in fortgeschrittenen Stadien diagnostiziert.[1] Die Therapie erfordert einen interdisziplinären Ansatz, der chirurgische, strahlentherapeutische und medikamentöse Verfahren kombiniert, wobei die Erhaltung der Lebensqualität und der Funktion im Fokus steht.[2] Für Patienten mit lokal fortgeschrittenen Erkrankungen, die keine organerhaltende Therapie zulassen, bleibt die radikale Chirurgie mit totaler Laryngektomie eine zentrale Option, insbesondere als Salvage-Verfahren.[3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Mesotheliom
 
+**Klassifikation:** ICD-10-GM: C45.-
+
 ## Übersicht
 
 Das Mesotheliom ist eine seltene, aber hochaggressive maligne Tumorerkrankung, die von den mesothelialen Zellen der Serosa ausgeht und primär die Pleura, das Peritoneum oder seltener das Perikard betrifft.[1][2] Die Inzidenz steigt weltweit an und korreliert historisch mit der Exposition gegenüber Asbestfasern, die als Karzinogene der Gruppe 1 eingestuft werden.[3][2] Die Diagnose ist oft schwierig, da die Erkrankung klinisch und radiologisch anderen Pathologien ähnelt und häufig erst im fortgeschrittenen Stadium erkannt wird.[1][4] Die Therapie hat sich in den letzten Jahren gewandelt; während Chemotherapie lange der Standard war, gelten heute Immuncheckpoint-Inhibitoren als First-Line-Option für das pleurale Mesotheliom.[2] Die Prognose bleibt insgesamt ungünstig, wobei das histologische Subtyp und das Stadium entscheidende Faktoren für den Krankheitsverlauf sind.[2][5]

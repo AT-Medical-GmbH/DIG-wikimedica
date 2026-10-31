@@ -37,6 +37,8 @@ corrections: []
 
 # Asthma bronchiale
 
+**Klassifikation:** ICD-10-GM: J45.-
+
 **Asthma bronchiale** ist eine heterogene chronische Atemwegserkrankung mit variablen respiratorischen Beschwerden und variabler Atemflusslimitierung. Entzündung, bronchiale Hyperreagibilität und unterschiedliche klinische Phänotypen spielen eine Rolle.[1]
 
 ## Klinik und Diagnostik

@@ -33,6 +33,8 @@ corrections: []
 
 # Hörverlust
 
+**Klassifikation:** ICD-10-GM: H91.-
+
 ## Übersicht
 
 Hörverlust ist ein häufiger Zustand, der in jedem Lebensalter auftreten kann, angeboren oder erworben sein kann und auf einer großen Bandbreite von Ursachen beruht.[1] Die Symptome verschiedener Formen überlappen oft stark, sodass die klinische Untersuchung allein nicht immer zu einer ätiologischen Diagnose führt.[1] Die Klärung der Ursache kann jedoch das Management beeinflussen, die Prognoseeinschätzung verbessern und die genetische Beratung sowie die Abschätzung des Wiederholungsrisikos bei Angehörigen unterstützen.[1] Zu den klinisch relevanten Erscheinungsformen gehören die altersassoziierte Schwerhörigkeit [2] und der plötzliche Hörverlust.[3] Sprachliche und kulturelle Identitäten gehörloser oder schwerhöriger Menschen können den Zugang zur Versorgung erschweren; diese Hürden lassen sich verringern, wenn genetische und andere Gesundheitsleistungen sprachlich und kulturell sensibel erbracht werden.[1]

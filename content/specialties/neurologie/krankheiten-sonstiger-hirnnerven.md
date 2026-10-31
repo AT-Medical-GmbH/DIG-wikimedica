@@ -33,6 +33,8 @@ corrections: []
 
 # Hirnnervenerkrankungen
 
+**Klassifikation:** ICD-10-GM: G52.-
+
 ## Übersicht
 
 Eine Übersichtsarbeit aus dem Jahr 2026 betont, dass Hirnnervenausfälle zwar häufig Anlass für eine neurologische Konsultation sind, ihre Diagnose aber wegen des breiten ätiologischen Spektrums und überlappender Krankheitsbilder schwierig bleibt.[1] Die Autoren ordnen die Ursachen daher nach zugrunde liegenden Mechanismen, wobei seltene und wenig beachtete Entitäten besonders berücksichtigt werden.[1] Eine Schwierigkeit besteht in der uneinheitlichen Terminologie, die die Unterscheidung zwischen peripherer Hirnnervenbeteiligung und Hirnstammsyndromen mit Kernbeteiligung verwischen kann.[1]

@@ -33,6 +33,8 @@ corrections: []
 
 # Prostatitis
 
+**Klassifikation:** ICD-10-GM: N41.-
+
 ## Übersicht
 
 Unter Prostatitis werden Infektionen, Entzündungen und Schmerzzustände der Prostata zusammengefasst.[1] Klinisch unterscheidet man üblicherweise vier Formen: die akute bakterielle Prostatitis, die chronisch bakterielle Prostatitis, das chronische Beckenschmerzsyndrom bei Prostatitis (CP/CPPS) und die asymptomatische Prostatitis.[2] Jede dieser Formen wird unterschiedlich diagnostiziert und behandelt, weshalb die Zuordnung für das weitere Vorgehen maßgeblich ist.[1] Die asymptomatische Form erfordert keine Behandlung und wird meist zufällig bei der Abklärung anderer urologischer Beschwerden entdeckt.[2]

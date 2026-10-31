@@ -33,6 +33,8 @@ corrections: []
 
 # Zungenkarzinom
 
+**Klassifikation:** ICD-10-GM: C02.-
+
 ## Übersicht
 
 Das Zungenkarzinom, klassifiziert als bösartige Neubildung sonstiger und nicht näher bezeichneter Teile der Zunge, stellt eine signifikante onkologische Herausforderung dar, deren Management einen multidisziplinären Ansatz erfordert.[1] Während die Chirurgie im frühen Stadium die primäre Säule der Behandlung bleibt, gewinnt die Immuntherapie insbesondere bei fortgeschrittenen oder rezidivierenden Erkrankungen an Bedeutung, da sie als vierte Säule neben operativer, strahlentherapeutischer und chemotherapeutischer Behandlung etabliert ist.[2]

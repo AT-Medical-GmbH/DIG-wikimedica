@@ -38,6 +38,8 @@ corrections: []
 
 # Vorhofflimmern
 
+**Klassifikation:** ICD-10-GM: I48.-
+
 > **Redaktioneller Status: Entwurf – keine medizinische Fachfreigabe.** Referenzen sind Quellen für die obligatorische medizinische Nachprüfung. Für Notfälle gilt der lokale Rettungsdienst (Deutschland: 112).
 
 **Vorhofflimmern** ist eine supraventrikuläre Arrhythmie mit unkoordinierter elektrischer Aktivierung der Vorhöfe. Im EKG fehlen regelhafte P-Wellen; die RR-Intervalle sind ohne zusätzliche Leitungsstörung typischerweise unregelmäßig. Die Rhythmusstörung kann anfallsartig, persistierend oder dauerhaft auftreten und ist mit Schlaganfall, Herzinsuffizienz sowie verminderter Lebensqualität assoziiert. [1]

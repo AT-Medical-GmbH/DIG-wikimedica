@@ -33,6 +33,8 @@ corrections: []
 
 # Subarachnoidalblutung
 
+**Klassifikation:** ICD-10-GM: I60.-
+
 ## Übersicht
 
 Die aneurysmatische Subarachnoidalblutung (aSAH) ist eine schwere Erkrankung mit hoher Letalität und bleibenden Folgen für Überlebende.[1][2] Sie gilt als bedeutende globale Bedrohung der öffentlichen Gesundheit.[1] Die Versorgung umfasst die Prävention, Diagnostik und Behandlung der Blutung und ihrer Folgen, wobei sich die aktuellen Leitlinienempfehlungen auf die Verbesserung der Versorgungsqualität und die Orientierung an den Interessen der Betroffenen und ihrer Angehörigen richten.[1] Die Behandlung hat drei zentrale Ziele: die frühe Sicherung des rupturierten Aneurysmas, die Verhinderung einer Reblutung und die Vermeidung sekundärer Hirnschäden.[2][3] Zusätzlich werden systemische Komplikationen überwacht, da Störungen in Atmung und Kreislauf zu einer sekundären Hirnschädigung beitragen können.[2][3]

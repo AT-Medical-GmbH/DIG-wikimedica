@@ -33,6 +33,8 @@ corrections: []
 
 # Erkrankungen des Thymus
 
+**Klassifikation:** ICD-10-GM: E32.-; ICD-11: 4B40
+
 ## Übersicht
 
 Thymome und thymische Karzinome sind seltene Mediastinaltumoren, die vom Thymusepithel ausgehen und überwiegend im vorderen Mediastinum lokalisiert sind.[1][2] Thymome stellen die häufigste Form der mediastinalen epithelialen Tumoren dar, während thymische Karzinome eine aggressivere Verlaufsform repräsentieren.[1][2] Die Diagnosestellung und das Management erfordern zwingend die Einbindung eines multidisziplinären Teams mit spezifischer Expertise für thymische Neoplasien.[1] Die Klassifikation erfolgt histologisch nach der WHO-Klassifikation sowie klinisch-pathologisch mittels des Masaoka- oder Masaoka-Koga-Stadiumssystems.[3][2] Thymome können mit autoimmunen Paraneoplasien einhergehen, was sie von thymischen Karzinomen unterscheidet, bei denen solche Begleiterkrankungen typischerweise fehlen.[1]

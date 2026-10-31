@@ -33,6 +33,8 @@ corrections: []
 
 # Hypopharynxkarzinom
 
+**Klassifikation:** ICD-10-GM: C13.-
+
 ## Übersicht
 
 Im Verhältnis zur gesamten Arbeitslast bei Kopf-Hals-Tumoren macht es nur einen kleinen Anteil aus, weshalb die Datenlage für das Management vergleichsweise schmal ist.[1] In Registerdaten zeigt sich eine schlechtere Prognose als bei Oropharynxkarzinomen, und zwar in allen lokoregionären Tumorstadien und unabhängig von der gewählten Behandlungsmethode.[2]

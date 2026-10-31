@@ -37,6 +37,8 @@ corrections: []
 
 # Insomnie
 
+**Klassifikation:** ICD-10-GM: F51.0
+
 **Insomnie** bezeichnet Ein- oder Durchschlafstörungen oder nicht erholsamen Schlaf mit relevanter Beeinträchtigung am Tage. Sie kann akut oder chronisch auftreten und mit psychischen, körperlichen oder schlafmedizinischen Erkrankungen zusammenhängen.[1]
 
 ## Diagnostik und Behandlung

@@ -33,6 +33,8 @@ corrections: []
 
 # Pneumonie durch Haemophilus influenzae
 
+**Klassifikation:** ICD-10-GM: J14; ICD-11: CA40.02
+
 ## Übersicht
 
 Haemophilus influenzae ist ein opportunistisches Bakterium, das sowohl invasive Erkrankungen als auch Infektionen der unteren Atemwege verursachen kann.[1][2] In der klinischen Praxis wird die Pneumonie durch H. influenzae häufig im Kontext von Komplikationen nach viraler Influenza oder bei Patienten mit strukturellen Lungenerkrankungen wie Bronchiektasen diskutiert.[3][4] Die epidemiologische Bedeutung des Erregers hat sich durch die Einführung der Hib-Impfung gegen invasive Erkrankungen verändert, während nicht-kapsulierte Stämme weiterhin bei respiratorischen Infektionen eine Rolle spielen.[5][6] Die Diagnostik stützt sich auf klinische Kriterien und mikrobiologische Nachweise, wobei die Resistenzlage, insbesondere gegenüber Ampicillin, die Therapieentscheidung beeinflusst.[2]

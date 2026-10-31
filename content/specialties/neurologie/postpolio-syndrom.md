@@ -33,6 +33,8 @@ corrections: []
 
 # Postpolio-Syndrom
 
+**Klassifikation:** ICD-10-GM: G14
+
 ## Übersicht
 
 Das Postpolio-Syndrom (PPS) bezeichnet neue neurologische und muskuloskelettale Beschwerden bei Menschen mit Folgezuständen einer akuten schlaffen Poliomyelitis, die nach einer längeren Phase neurologischer und funktioneller Stabilität auftreten.[1] Es handelt sich um eine Ausschlussdiagnose, bei der andere Ursachen ähnlicher Symptome zuvor abgeklärt werden müssen.[2][3] Da Alterungsprozesse bei Menschen mit früheren Poliofolgen ähnliche Symptome hervorrufen können, ist die Abgrenzung im Einzelfall nicht immer einfach.[1] Als Unterscheidungsmerkmale gelten vor allem die Geschwindigkeit des Kraftverlusts und dessen funktionelle Auswirkung.[1]

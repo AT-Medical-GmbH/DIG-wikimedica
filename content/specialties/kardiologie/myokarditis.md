@@ -40,6 +40,8 @@ corrections: []
 
 # Myokarditis
 
+**Klassifikation:** ICD-10-GM: I40.-
+
 Die **Myokarditis** ist eine entzündliche Erkrankung des Herzmuskels. Sie kann sehr unterschiedlich verlaufen: von wenigen oder keinen Beschwerden bis zu Herzinsuffizienz, Herzrhythmusstörungen oder einer hämodynamisch kritischen Erkrankung. Die aktuelle ESC-Leitlinie ordnet Myokarditis und Perikarditis im Spektrum entzündlicher myoperikardialer Syndrome ein.[1]
 
 ## Ursachen und Pathophysiologie

@@ -33,6 +33,8 @@ corrections: []
 
 # Pellagra (Niazinmangel)
 
+**Klassifikation:** ICD-10-GM: E52
+
 ## Übersicht
 
 Pellagra ist ein klinisches Syndrom, das durch einen Mangel an Niacin (Vitamin B3) und/oder dessen Vorstufe Tryptophan verursacht wird.[1] Die Erkrankung äußert sich typischerweise durch eine Trias aus Dermatitis, Durchfall und Demenz, wobei im schwersten Verlauf der Tod eintreten kann.[1] Die Diagnose stützt sich primär auf das klinische Bild, während unterstützende Tests eine untergeordnete Rolle spielen.[2] Aufgrund der niedrigen Prävalenz in vielen Regionen sind Ärzte mit der Erkennung der Erkrankung oft nicht vertraut, was häufig zu Diagnoseverzögerungen und damit verbundenen Behandlungsdefiziten führt.[2] Eine frühzeitige kausale Therapie mit Niacinamid ist entscheidend, da ein Unterlassen der Behandlung in frühen Stadien tödlich enden kann.[2]

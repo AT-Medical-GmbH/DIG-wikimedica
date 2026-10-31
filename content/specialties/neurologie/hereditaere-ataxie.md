@@ -33,6 +33,8 @@ corrections: []
 
 # Hereditäre Ataxien
 
+**Klassifikation:** ICD-10-GM: G11.-; ICD-11: 8A03.1
+
 ## Übersicht
 
 Hereditäre Ataxien sind seltene Erkrankungen.[1] Wegen kleiner Kohorten und hoher Entwicklungskosten wird für sie die Wirkstoffneuverwendung (Drug Repurposing) als pragmatischer Weg diskutiert.[1] Next-Generation-Sequencing hat sich als robustes klinisches Instrument zur Diagnostik etabliert.[2] In klinischen Studien wird die Scale for the Assessment and Rating of Ataxia (SARA) am häufigsten als primärer Endpunkt verwendet.[3] Neben motorischen Störungen treten bei spinozerebellären Ataxien (SCA) kognitive Einbußen und sozioaffektive Schwierigkeiten auf, die die soziale Funktionsfähigkeit beeinträchtigen können.[4]

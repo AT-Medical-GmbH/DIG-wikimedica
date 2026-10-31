@@ -33,6 +33,8 @@ corrections: []
 
 # Erworbene hämolytische Anämien
 
+**Klassifikation:** ICD-10-GM: D59.-
+
 ## Übersicht
 
 Erworbene hämolytische Anämien (AIHA) sind eine heterogene Gruppe von Erkrankungen, die durch vorzeitigen Abbau roter Blutkörperchen aufgrund von Autoantikörpern mit oder ohne Komplementaktivierung gekennzeichnet sind.[1] Die häufigste Form ist die warmreaktive AIHA (wAIHA), die etwa 60 bis 70 Prozent der Fälle ausmacht und durch IgG-Autoantikörper verursacht wird, die bei Körpertemperatur reagieren.[1] Die kaltreaktive AIHA (CAD) macht etwa 20 bis 25 Prozent der Fälle aus und wird durch IgM-Autoantikörper verursacht, die typischerweise bei Temperaturen unter 20 °C reagieren und eine starke Komplementaktivierung auslösen.[1] Seltene Formen umfassen die gemischte AIHA (Kombination aus wAIHA und CAD) sowie die paroxysmale kalte Hämoglobinurie.[1] Die Erkrankung verläuft hochgradig heterogen, von vollständig kompensierter, niedriggradiger Hämolyse bis hin zu lebensbedrohlichen Verläufen, und zeigt häufig einen rezidivierenden Charakter.[1][2]

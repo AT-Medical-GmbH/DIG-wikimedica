@@ -33,6 +33,8 @@ corrections: []
 
 # Vorzeitige Wehen und Entbindung
 
+**Klassifikation:** ICD-10-GM: O60.-; ICD-11: JB00
+
 ## Übersicht
 
 Vorzeitige Wehen und Entbindungen stellen eine der häufigsten und schwerwiegendsten Komplikationen in der Schwangerschaft dar und sind weltweit die führende Ursache für neonatale Mortalität sowie die häufigste Indikation für eine stationäre Aufnahme während der Schwangerschaft.[1][2][3][4] Die Diagnose stützt sich auf klinische Kriterien, die körperliche Untersuchung, die Messung der zervikalen Länge mittels transvaginaler Sonografie und den Einsatz von Biomarkern, wobei sich die Leitlinien in der Wahl des primären diagnostischen Tests unterscheiden.[5] Das primäre therapeutische Ziel besteht darin, die Entbindung um mindestens 48 Stunden hinauszuzögern, um die Gabe von antenatalen Kortikosteroiden, Magnesiumsulfat zur fetalen Neuroprotektion und gegebenenfalls die Verlegung in ein perinatales Zentrum der Versorgungsstufe III zu ermöglichen.[6][5] Die Identifikation von Frauen, die vorzeitig gebären werden, bleibt ein ungenaues Verfahren, da die Ursachen der vorzeitigen Wehen vielfältig und oft nicht vollständig verstanden sind.[1][2][3]

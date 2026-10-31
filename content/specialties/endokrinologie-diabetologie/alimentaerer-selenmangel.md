@@ -33,6 +33,8 @@ corrections: []
 
 # Selenmangel
 
+**Klassifikation:** ICD-10-GM: E59
+
 ## Übersicht
 
 Selen ist ein essentielles Spurenelement, das für zahlreiche metabolische Prozesse, den Schutz vor oxidativem Stress und die Aufrechterhaltung der kardiovaskulären Funktion unverzichtbar ist.[1] Es wird in Form der Aminosäure Selenocystein in Selenoproteine eingebaut, die unter anderem als Antioxidantien wirken, den Calciumflux regulieren und am Schilddrüsenhormonstoffwechsel beteiligt sind.[1] Ein Mangel an Selen kann die Synthese dieser Proteine stören und zu einer erhöhten Anfälligkeit für verschiedene Erkrankungen führen.[1] Der alimentäre Selenmangel ist eine vermeidbare Ursache für ernste Gesundheitsstörungen, die durch eine unzureichende Zufuhr über die Nahrung entsteht.[2] In Regionen mit generell niedriger Selenversorgung im Boden und in der Nahrung ist das Risiko für einen Mangel erhöht, weshalb in einigen Ländern wie Finnland seit Jahrzehnten Selen zur Nahrungskette hinzugefügt wird.[2]

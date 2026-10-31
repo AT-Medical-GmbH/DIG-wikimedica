@@ -33,6 +33,8 @@ corrections: []
 
 # Frühgeburt und niedriges Geburtsgewicht
 
+**Klassifikation:** ICD-10-GM: P07.-
+
 ## Übersicht
 
 Frühgeborene und Neugeborene mit niedrigem Geburtsgewicht haben im Vergleich zu reif geborenen Kindern ein erhöhtes Risiko für Morbidität und Mortalität.[1] In den herangezogenen Studien werden häufig sehr niedriges Geburtsgewicht (höchstens 1 500 g) und sehr frühe Geburt (unter 32 Schwangerschaftswochen) als gemeinsame Einschlusskriterien verwendet.[2][3] Die Entlassung aus der neonatologischen Intensivstation richtet sich vor allem nach physiologischen Kompetenzen wie Thermoregulation, respiratorischer Stabilität und Fütterungsfähigkeit.[4] Daneben gelten die Unterstützung durch die Familie, die Fähigkeit der Eltern zur Versorgung des Kindes und eine sorgfältig geplante Entlassung als tragende Voraussetzungen für einen erfolgreichen Übergang nach Hause.[4]

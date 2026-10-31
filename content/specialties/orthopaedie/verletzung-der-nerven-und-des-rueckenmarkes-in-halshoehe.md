@@ -33,6 +33,8 @@ corrections: []
 
 # Verletzungen des Rückenmarks im Halsbereich
 
+**Klassifikation:** ICD-10-GM: S14.-
+
 ## Übersicht
 
 Verletzungen des Rückenmarks im Halsbereich stellen eine schwere neurologische und systemische Erkrankung dar, die häufig zu erheblichen motorischen und sensorischen Defiziten unterhalb der Läsion führt.[1][2] Die Pathophysiologie umfasst nicht nur die direkte Schädigung der vorderen Hornzellen und respiratorischer neuraler Bahnen, sondern auch eine gestörte Regulation des Atemzentrums sowie eine beeinträchtigte Abwehrfunktion der Atemwege.[3] Die klinische Versorgung erfordert ein multidisziplinäres Management, da die Verletzungen oft komplexe Auswirkungen auf die Lungenfunktion, die Schluckfähigkeit und die motorische Kontrolle der oberen Extremitäten haben.[3][4][5]

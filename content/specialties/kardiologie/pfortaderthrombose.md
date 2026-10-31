@@ -33,6 +33,8 @@ corrections: []
 
 # Pfortaderthrombose
 
+**Klassifikation:** ICD-10-GM: I81; ICD-11: DB98.3
+
 ## Übersicht
 
 Die Pfortaderthrombose (PVT) ist eine nicht-maligne Obstruktion der Pfortader, ihrer Äste oder Radikeln und zählt zu den häufigsten vaskulären Komplikationen bei Leberzirrhose.[1] Sie tritt gehäuft bei fortgeschrittener Lebererkrankung auf und ist mit einem erhöhten Risiko für portale Hypertension, Varizenblutungen und Mortalität assoziiert.[2] Die Diagnosestellung erfolgt primär mittels Bildgebung, wobei die Unterscheidung zwischen akuter und chronischer Thrombose sowie die Abgrenzung zu einer malignen Gefäßinvasion entscheidend für das weitere Management sind.[3] Die Therapie zielt darauf ab, die Thrombusausbreitung zu stoppen, die Rekanalisation zu fördern und Komplikationen wie die intestinale Ischämie zu verhindern.[3] Bei Patienten mit Zirrhose stellt die Antikoagulation eine zentrale Säule der Behandlung dar, wobei das individuelle Risiko-Nutzen-Verhältnis unter Berücksichtigung der Leberfunktionsklasse und des Blutungsrisikos abgewogen werden muss.[4]

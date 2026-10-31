@@ -33,6 +33,8 @@ corrections: []
 
 # Herzgeräusche und andere Herz-Schallphänomene
 
+**Klassifikation:** ICD-10-GM: R01.-; ICD-11: MC83
+
 ## Übersicht
 
 Herzgeräusche sind akustische Phänomene, die während der kardialen Auskultation wahrgenommen werden und auf turbulente Blutströmungen oder strukturelle Anomalien des Herzens hinweisen können.[1] Sie stellen ein häufiges Auffinden bei der körperlichen Untersuchung dar und erfordern eine differenzierte Einordnung, um zwischen physiologischen Varianten und pathologischen Befunden zu unterscheiden.[2] Die traditionelle Methode zur Detektion und Charakterisierung von Herzgeräuschen ist die Auskultation mit dem Stethoskop, die seit Jahrzehnten Standard in der medizinischen Ausbildung und klinischen Praxis ist.[1] In jüngerer Zeit wird die Point-of-Care-Ultraschalluntersuchung (POCUS) als ergänzende oder alternative Modalität diskutiert, um die diagnostische Genauigkeit zu erhöhen und die Visualisierung von Herzstrukturen sowie Blutflussdynamiken in Echtzeit zu ermöglichen.[1] Trotz des wachsenden Interesses an der Integration von POCUS in die medizinische Ausbildung bestehen weiterhin Unsicherheiten bezüglich ihrer langfristigen Wirksamkeit im klinischen Alltag, da die Literaturlage hierzu noch Lücken aufweist.[1] Die korrekte Interpretation von Herzgeräuschen ist entscheidend, um Patienten mit potenziell schwerwiegenden Herzklappenerkrankungen frühzeitig zu identifizieren und weitere diagnostische Schritte einzuleiten.[3]

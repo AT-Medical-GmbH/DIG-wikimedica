@@ -33,6 +33,8 @@ corrections: []
 
 # Erfrierungen
 
+**Klassifikation:** ICD-10-GM: T35.-
+
 ## Übersicht
 
 Subzerokalte Temperaturen führen direkt zum Gewebegefrieren, zu Elektrolytverschiebungen und pH-Veränderungen, mikrovaskulären Schäden und schließlich zum Zelltod.[1] Nach der Wiedererwärmung können entzündliche Reperfusionsschäden und Thrombosen das Gewebe weiter schädigen.[1] Als schwere Erfrierung gilt in der Leitlinienliteratur eine durch Atmosphärenkälte verursachte Perfusionsstörung der Extremitäten.[2] Die systematische Übersicht zur Behandlung schloss Erfrierungen Grad 2 bis 4 ein.[3] Eine Leitlinie der Wilderness Medical Society liegt 2024 in aktualisierter Fassung vor, die eine Version von 2019 fortschreibt.[4][5] Für den militärischen Bereich existiert eine prähospitale Behandlungsleitlinie.[6]

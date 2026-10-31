@@ -33,6 +33,8 @@ corrections: []
 
 # Manische Episode
 
+**Klassifikation:** ICD-10-GM: F30.-
+
 ## Übersicht
 
 Eine manische Episode ist ein schwerwiegender, zeitlich begrenzter Zustand mit einer pathologisch erhöhten, gereizten oder expansiven Stimmung, der mit einer deutlichen Zunahme an zielgerichtetem Aktivitätsniveau oder Energie einhergeht.[1] Sie stellt das definierende Merkmal der bipolaren Störung Typ I dar und gilt als häufiges, aber dramatisch einschränkendes Ereignis im Krankheitsverlauf.[2] Innerhalb der Gruppe der bipolaren Störung Typ I kommt es bei einem signifikanten Teil der Patientinnen und Patienten zu sogenannten unipolaren manischen Episoden, bei denen keine Vorgeschichte depressiver Episoden vorliegt.[3] Metaanalysen schätzen die Prävalenz dieser unipolaren Manie auf etwa 21,1 %, wobei die Raten je nach geografischer Region und Studiengüte variieren.[3]

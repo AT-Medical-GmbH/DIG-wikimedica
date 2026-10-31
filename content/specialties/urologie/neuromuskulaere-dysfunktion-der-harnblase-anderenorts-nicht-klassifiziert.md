@@ -33,6 +33,8 @@ corrections: []
 
 # Neurogene Blasenentleerungsstörung
 
+**Klassifikation:** ICD-10-GM: N31.-; ICD-11: GC01.4
+
 ## Übersicht
 
 Eine neurogene Blasenfunktionsstörung liegt vor, wenn eine Veränderung des zentralen oder peripheren Nervensystems zu einer Fehlfunktion von Harnblase und Blasenschließmuskel führt.[1] Betroffen sein können die Füllungs- und Speicherphase, die Entleerungsphase oder beide Phasen; die daraus resultierenden Harnwegsbeschwerden wirken sich deutlich auf die Lebensqualität aus.[1] Art und Ausmaß der Funktionsstörung hängen von Lokalisation und Ausprägung der neurologischen Läsion ab.[2] Das Behandlungsziel umfasst die Verhinderung urologischer und extraurologischer Komplikationen, die Verbesserung der Lebensqualität sowie die Förderung der Selbstständigkeit der Betroffenen.[2] Angestrebt werden eine ausreichende Blasenentleerung, ein niedriger Blasendruck und eine befriedigende Widerstandsfähigkeit des Harnröhrenverschlusses.[2] Soziale Faktoren, Körperbau und Funktion der Extremitäten können die Versorgung beeinflussen, weshalb ein ganzheitlicher Ansatz empfohlen wird.[3][4]

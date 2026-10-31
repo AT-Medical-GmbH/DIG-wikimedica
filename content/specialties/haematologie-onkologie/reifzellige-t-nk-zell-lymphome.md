@@ -33,6 +33,8 @@ corrections: []
 
 # Reife T- und NK-Zell-Lymphome
 
+**Klassifikation:** ICD-10-GM: C84.-
+
 ## Übersicht
 
 Die WHO-Klassifikation von 2017 hat einige reife T-Zell-Lymphome neu zugeordnet und neue, vorläufige Entitäten eingeführt.[1] Da T-Zell-Lymphome insgesamt seltener sind als B-Zell-Lymphome, ist die frühe Diagnose für Kliniker und Radiologen schwierig, weil sich klinische und bildgebende Befunde mit häufigeren Erkrankungen überlappen.[2] Für die einzelnen Entitäten liegen meist nur kleine, überwiegend retrospektive Serien vor, weshalb Therapieentscheidungen häufig aus Erfahrungen mit Erwachsenen abgeleitet werden.[3][4]

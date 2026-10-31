@@ -33,6 +33,8 @@ corrections: []
 
 # Juvenile Arthritis
 
+**Klassifikation:** ICD-10-GM: M08.-
+
 ## Übersicht
 
 Die juvenile idiopathische Arthritis (JIA) ist eine der häufigsten systemisch-entzündlichen rheumatischen Erkrankungen im Kindes- und Jugendalter, die das muskuloskelettale System betrifft.[1] Sie wird durch chronische Gelenkentzündungen und Gewebeschäden charakterisiert, wobei die klinische Präsentation und der Krankheitsverlauf stark variieren können.[1] In den letzten Jahren hat sich das Verständnis der Pathophysiologie erweitert, wobei neben klassischen autoimmunen Mechanismen auch monogene Defekte und Störungen des Immunsystems eine Rolle spielen.[2][3] Die Behandlung zielt darauf ab, die Entzündung zu kontrollieren, Gelenkschäden zu verhindern und die Lebensqualität der betroffenen Kinder zu erhalten.[4][5]

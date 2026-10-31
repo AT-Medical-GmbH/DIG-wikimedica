@@ -33,6 +33,8 @@ corrections: []
 
 # Oropharynxkarzinom
 
+**Klassifikation:** ICD-10-GM: C10.-
+
 ## Übersicht
 
 Das Oropharynxkarzinom ist eine bösartige Neubildung, deren Inzidenz in hochentwickelten Ländern aufgrund des steigenden Anteils humanpapillomavirusassoziierter Tumoren rapide zunimmt.[1] Die Erkrankung betrifft häufiger jüngere Patienten als HPV-negative Kopf-Hals-Tumoren.[1] Die Behandlung hat sich in den letzten zwei Jahrzehnten von klassischen offenen Verfahren hin zu transoralen Resektionen sowie adjuvanten radio- oder radiochemotherapeutischen Ansätzen gewandelt.[2] Transorale chirurgische Techniken wie die transorale Laser-Mikrochirurgie und die transorale roboterassistierte Chirurgie werden als schonende, minimalinvasive Verfahren mit guten späten funktionellen Ergebnissen propagiert.[2] Für frühe Stadien können primäre Chirurgie oder Radiochemotherapie mit vergleichbaren Überlebenschancen eingesetzt werden, wobei die Entscheidung von Tumorausdehnung und funktionellen Defiziten abhängt.[3]

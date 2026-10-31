@@ -33,6 +33,8 @@ corrections: []
 
 # Emotionale Störungen im Kindes- und Jugendalter
 
+**Klassifikation:** ICD-10-GM: F93.-
+
 ## Übersicht
 
 Emotionale Störungen im Kindes- und Jugendalter, insbesondere Angststörungen, gehören zu den häufigsten psychischen Erkrankungen in dieser Altersgruppe und gehen oft mit erheblichen funktionellen Einschränkungen in verschiedenen Lebensbereichen einher.[1] Die kognitiven und biologischen Modelle bilden die theoretische Grundlage für das Verständnis der Entstehung und Aufrechterhaltung dieser Störungen.[1] Kognitive Voraussetzungen wie die Bedrohungswahrnehmung, das Zukunftsdenken und die Generalisierung spielen eine zentrale Rolle bei der Entwicklung von Angst.[2] Die kognitive Verhaltenstherapie (KVT) gilt als wirksame Behandlungsmethode, wobei Expositionen und selektive Serotonin-Wiederaufnahmehemmer oder Serotonin-Noradrenalin-Wiederaufnahmehemmer evidenzbasierte Therapieoptionen darstellen.[1]

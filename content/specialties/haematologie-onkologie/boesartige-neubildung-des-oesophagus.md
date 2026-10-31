@@ -33,6 +33,8 @@ corrections: []
 
 # Karzinom der Speiseröhre
 
+**Klassifikation:** ICD-10-GM: C15.-
+
 ## Übersicht
 
 Das Karzinom der Speiseröhre ist eine aggressive Malignität, die weltweit zu den häufigsten Todesursachen durch Krebs zählt und jährlich etwa 500.000 Tote verursacht.[1] Die Fünf-Jahres-Überlebensrate liegt insgesamt selten über 20 %, wobei sich die Prognose in den letzten Jahrzehnten durch verbesserte Diagnostik und multimodale Therapien leicht verbessert hat.[1][2] Die Erkrankung umfasst zwei Hauptsubtypen: das Plattenepithelkarzinom und das Adenokarzinom, die sich in ihrer Epidemiologie, Pathophysiologie und ihrem Ansprechen auf Therapien unterscheiden.[3][1] Die Behandlung erfordert zwingend eine multidisziplinäre Entscheidungsfindung, da die Therapieoptionen stark vom Tumorstadium, der Histologie und dem allgemeinen Gesundheitszustand des Patienten abhängen.[4][3]

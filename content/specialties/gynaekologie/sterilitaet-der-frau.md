@@ -33,6 +33,8 @@ corrections: []
 
 # Weibliche Infertilität
 
+**Klassifikation:** ICD-10-GM: N97.-; ICD-11: GA31
+
 ## Übersicht
 
 Eine aktuelle Leitlinie nennt zwölf Monate bei Patientinnen unter 35 Jahren und sechs Monate ab 35 Jahren.[1] Infertilität kann auch vorliegen, wenn trotz Berücksichtigung von Anamnese, Alter, körperlichem Befund, Diagnostik und gegebenenfalls medizinischer Intervention keine erfolgreiche Schwangerschaft erreicht wird.[1] Die Ursachen sind vielfältig und betreffen sowohl die Frau als auch den Mann oder das Paar als Einheit.[2] Die Abklärung erfordert daher in der Regel eine gemeinsame Betrachtung der reproduktiven Anamnese beider Partner.[1][2]

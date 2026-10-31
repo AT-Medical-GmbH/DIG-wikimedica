@@ -33,6 +33,8 @@ corrections: []
 
 # Zystische Fibrose
 
+**Klassifikation:** ICD-10-GM: E84.-; ICD-11: CA25
+
 ## Übersicht
 
 Die Zystische Fibrose (CF) ist eine seltene, autosomal-rezessive Erbkrankheit, die durch Funktionsverlust-Mutationen im CFTR-Gen verursacht wird.[1] Das CFTR-Protein fungiert als Ionenkanal, der für den korrekten Ionentransport und die Flüssigkeitsbalance an den Epithelzellen der Atemwege sowie anderer Organe entscheidend ist.[1] Eine Dysfunktion dieses Proteins führt zu einer komplexen Multisystemerkrankung, wobei die Morbidität und Mortalität heute vor allem auf mukobstruktive Lungenerkrankungen zurückzuführen sind.[1] Die Diagnosestellung erfolgt weltweit standardisiert durch die Evaluierung der CFTR-Funktion mittels Schweißchloridtest.[2] Durch die Einführung des Neugeborenenscreenings und hochwirksamer CFTR-Modulatoren hat sich das therapeutische Landschaft grundlegend gewandelt, was die Prognose für bis zu 90 % der genetisch eligibleen Patientinnen und Patienten signifikant verbessert hat.[1]

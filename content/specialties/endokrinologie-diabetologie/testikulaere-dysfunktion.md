@@ -33,6 +33,8 @@ corrections: []
 
 # Testikuläre Dysfunktion
 
+**Klassifikation:** ICD-10-GM: E29.-
+
 ## Übersicht
 
 Diese Zustände sind eng mit metabolischen Erkrankungen wie Adipositas und Diabetes mellitus verknüpft, wobei chronische Entzündungen und oxidativer Stress zentrale pathogenetische Mechanismen darstellen.[1] Neben metabolischen Ursachen spielen auch iatrogene Schäden durch Strahlentherapie bei pädiatrischen Krebserkrankungen sowie epigenetische Modifikationen durch Lebensstilfaktoren eine bedeutende Rolle.[2][3] Die Diagnostik erfolgt primär durch die Bestimmung von Sexualhormonen und die Beurteilung der Samenqualität, während die Therapie je nach Ätiologie auf die Korrektur des zugrunde liegenden metabolischen Defizits oder den Schutz der Keimzelle abzielt.[4][1]

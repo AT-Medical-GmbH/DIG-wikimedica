@@ -33,6 +33,8 @@ corrections: []
 
 # Schizoaffektive Störung
 
+**Klassifikation:** ICD-10-GM: F25.-
+
 ## Übersicht
 
 Die schizoaffektive Störung ist eine schwere psychische Erkrankung, die durch das Nebeneinander affektiver und psychotischer Merkmale gekennzeichnet ist.[1] Sie gehört zu den komplexesten und zugleich umstrittensten Diagnosen der klinischen Psychiatrie.[2] Typisch sind Stimmungssymptome wie Manie und/oder Depression, die mit schizophrenen Symptomen wie Halluzinationen und/oder Wahn einhergehen.[3] Die Einordnung der Störung unterscheidet sich zwischen den Revisionen der ICD und dem DSM-5, und die Konzeptualisierung gilt bis heute als unvollständig.[2] Da die Datenlage lange lückenhaft war, wurden Leitlinienempfehlungen häufig von Patientinnen und Patienten mit Schizophrenie oder bipolarer Störung abgeleitet.[4]

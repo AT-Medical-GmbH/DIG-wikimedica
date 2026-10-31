@@ -33,6 +33,8 @@ corrections: []
 
 # Psychische Störungen inf. Gehirnschädigung
 
+**Klassifikation:** ICD-10-GM: F06.-
+
 ## Übersicht
 
 Künstliche Intelligenz, insbesondere maschinelles und tiefes Lernen, wird zunehmend zur Analyse hochdimensionaler Neuroimaging-Daten eingesetzt, um Muster zu identifizieren, die für die Früherkennung und Klassifizierung von Hirnerkrankungen relevant sind.[1][2] Gleichzeitig rücken neuere Forschungsansätze in den Fokus, die psychische Erkrankungen nicht mehr ausschließlich als lokale Funktionsstörungen spezifischer Hirnareale betrachten, sondern als globale, dynamische Umorganisationen der Hirnaktivität verstehen.[3] Therapeutisch eröffnen sich neue Perspektiven durch den Einsatz von Nanokörpern und nanomedizinischen Ansätzen, die darauf abzielen, die Blut-Hirn-Schranke zu überwinden und zielgerichtet Therapeutika im Zentralnervensystem zu applizieren.[4][1]

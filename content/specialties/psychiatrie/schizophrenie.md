@@ -37,6 +37,8 @@ corrections: []
 
 # Schizophrenie
 
+**Klassifikation:** ICD-10-GM: F20.-; ICD-11: 6A20
+
 **Schizophrenie** ist eine psychische Erkrankung mit möglichen Veränderungen von Wahrnehmung, Denken, Antrieb, Affekt und sozialer Funktion. Verlauf und Ausprägung sind individuell sehr unterschiedlich.[1]
 
 ## Diagnostik und Behandlung

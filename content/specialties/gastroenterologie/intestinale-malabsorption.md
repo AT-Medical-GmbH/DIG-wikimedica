@@ -33,6 +33,8 @@ corrections: []
 
 # Intestinale Malabsorption
 
+**Klassifikation:** ICD-10-GM: K90.-; ICD-11: DA96.0
+
 ## Epidemiologie
 
 In einer systematischen Übersicht wurden 55 pädiatrische Fälle dokumentiert, bei denen die Ingestion von Magneten zu gastrointestinalen Fisteln führte.[1] Das mittlere Alter dieser Patienten betrug 4,6 Jahre.[1] SIBO tritt bei Patienten mit anatomischen oder funktionellen Risikofaktoren auf und ist durch eine übermäßige Besiedlung des Dünndarms gekennzeichnet.[2]

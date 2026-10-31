@@ -33,6 +33,8 @@ corrections: []
 
 # Leistenbruch
 
+**Klassifikation:** ICD-10-GM: K40.-; ICD-11: DD51
+
 ## Übersicht
 
 Der Leistenbruch gehört zu den häufigsten Operationen weltweit.[1] Dabei tritt ein Teil des Darms durch die Bauchmuskulatur im Leistenbereich nach außen.[2] Bei fortbestehenden oder zunehmenden Beschwerden ist in der Regel eine Operation erforderlich, die offen oder laparoskopisch durchgeführt werden kann.[2] Ein abwartendes Vorgehen („watchful waiting“) gilt als vertretbare Option, da das Risiko lebensbedrohlicher Komplikationen durch Leistenbrüche gering ist.[3] Ziel einer Operation ist neben der Linderung von Beschwerden die Vorbeugung von Einklemmung und Strangulation.[3] Wirksame und sichere Verfahren entwickelten sich erst, nachdem die anatomischen Verhältnisse der Leistenregion genauer beschrieben worden waren.[4] Heute dominieren drei spannungsfreie Reparaturverfahren die Praxis: die offene Lichtenstein-Technik, die laparoskopische transabdominell präperitoneale Reparatur (TAPP) und die total extraperitoneale Reparatur (TEP).[4] Daneben wird die spannungsbehaftete Shouldice-Technik eingesetzt.[4]

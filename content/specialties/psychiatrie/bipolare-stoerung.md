@@ -37,6 +37,8 @@ corrections: []
 
 # Bipolare Störung
 
+**Klassifikation:** ICD-10-GM: F31.-
+
 Eine **bipolare Störung** ist durch Episoden erhöhter oder gereizter Stimmung und Aktivität (Manie oder Hypomanie) sowie depressive Episoden gekennzeichnet. Verlauf und Schweregrad können stark variieren.[1]
 
 ## Diagnostik und Behandlung

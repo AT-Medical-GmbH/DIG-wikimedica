@@ -33,6 +33,8 @@ corrections: []
 
 # Gastrojejunalulkus (Ulcus pepticum jejuni)
 
+**Klassifikation:** ICD-10-GM: K28.-
+
 ## Übersicht
 
 Als Marginalulkus wird ein Schleimhautdefekt bezeichnet, der nach einem Magenbypass an der gastrojejunalen Anastomose auftreten kann.[1] In der Literatur finden sich dafür auch Begriffe wie anastomotische Mundulzera.[2] Die Komplikation ist vor allem nach einem Roux-en-Y-Magenbypass (RYGB) beschrieben, einem der weltweit am häufigsten durchgeführten bariatrischen Eingriffe.[3] Sie gilt als anerkannte postoperative Komplikation, auch wenn der RYGB insgesamt eine wirksame Verbesserung obesitasassoziierter Begleiterkrankungen erzielt.[3] Dort werden sie als seltene, aber bedeutsame Komplikation eingeordnet.[4] Der OAGB gilt inzwischen als dritthäufigste bariatrische Operationstechnik weltweit.[2] Aufgrund seiner Konfiguration kann er spezifische chronische Komplikationen begünstigen, zu denen neben den Ulzera auch der Gallerückfluss gehört.[2] Für die Praxis ist die frühzeitige Erkennung entscheidend, da Verzögerungen das Risiko weiterer Komplikationen erhöhen können.[1]

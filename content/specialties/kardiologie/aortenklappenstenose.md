@@ -40,6 +40,8 @@ corrections: []
 
 # Aortenklappenstenose
 
+**Klassifikation:** ICD-10-GM: I35.0; ICD-11: BB70
+
 > **Medizinisch nicht freigegebener KI-Entwurf.** Fachreview und Sicherheitsprüfung sind vor regulärer Veröffentlichung erforderlich.
 
 Die **Aortenklappenstenose** bezeichnet eine Verengung der Öffnungsfläche der Aortenklappe, durch die das Blut in der Systole aus dem linken Ventrikel in die Aorta ausgeworfen wird. Eine relevante Stenose erzeugt eine Druckbelastung des linken Ventrikels und kann über längere Zeit kompensiert bleiben. Mit Fortschreiten drohen Belastungsdyspnoe, Angina pectoris, Synkope und Herzinsuffizienz. [1][2]

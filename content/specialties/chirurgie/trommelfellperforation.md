@@ -33,6 +33,8 @@ corrections: []
 
 # Trommelfellperforation
 
+**Klassifikation:** ICD-10-GM: H72.-; ICD-11: AB13
+
 ## Übersicht
 
 Die Trommelfellperforation ist ein häufiges Krankheitsbild mit unterschiedlicher Ätiologie und variabler klinischer Präsentation.[1] Sie gehört nach übereinstimmender Einschätzung in der Hals-Nasen-Ohren-Heilkunde weltweit zu den häufigsten Erkrankungen.[2] Die Spannbreite reicht von kleinen Defekten bis zu großen Verletzungen, und die Größe der Perforation, ihre Ursache und das Vorliegen einer Infektion bestimmen maßgeblich den weiteren Verlauf.[1] Neben einer Schallleitungsschwerhörigkeit können Perforationen Folgezustände wie Otitis media, Retraktionstaschen und Cholesteatom nach sich ziehen.[3]

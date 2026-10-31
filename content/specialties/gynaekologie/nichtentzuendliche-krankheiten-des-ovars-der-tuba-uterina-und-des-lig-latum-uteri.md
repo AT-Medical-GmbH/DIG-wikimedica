@@ -33,6 +33,8 @@ corrections: []
 
 # Ovarialzysten
 
+**Klassifikation:** ICD-10-GM: N83.-
+
 ## Übersicht
 
 Bei Kindern und Jugendlichen treten funktionelle Zysten, Torsionen, benigne Tumoren und Malignome in unterschiedlicher Häufigkeit auf.[1] Ovarialzysten werden in der Regel zufällig entdeckt.[2] Bei Frauen mit Ovarialzysten steht meist die Abgrenzung zwischen harmlosen und behandlungsbedürftigen Befunden im Vordergrund, wobei die Kenntnis des Alters und des Hormonstatus eine wichtige Rolle spielt.[3][1]

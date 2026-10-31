@@ -33,6 +33,8 @@ corrections: []
 
 # Ösophagitis
 
+**Klassifikation:** ICD-10-GM: K20.-; ICD-11: DA24
+
 ## Übersicht
 
 Die schwere Form der refluxbedingten Ösophagitis (Los-Angeles-Grad C/D) gilt als schwere Manifestation der gastroösophagealen Refluxkrankheit, die eine aktive Behandlung und engmaschige Nachkontrollen erfordert.[1] Die akute Strahlenösophagitis ist eine häufige Komplikation der Strahlentherapie maligner Tumoren.[2] Im Mittelpunkt dieses Artikels steht die eosinophile Ösophagitis (EoE), eine chronische, immunvermittelte Erkrankung der Speiseröhre.[3] Die EoE gilt als häufigste eosinophile Erkrankung des Gastrointestinaltrakts und wird als Typ-2-vermittelte Entzündung beschrieben.[4] Die Diagnose beruht auf Symptomen einer Ösophagusdysfunktion und einem eosinophil-prädominanten Infiltrat der Speiseröhre.[3] Da die Erkrankung in Gastroenterologie, Allergologie, Notfallmedizin und Primärversorgung auftritt, ist ein multidisziplinäres Vorgehen vorgesehen.[3][5]

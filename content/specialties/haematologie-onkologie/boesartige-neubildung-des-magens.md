@@ -33,6 +33,8 @@ corrections: []
 
 # Magenkarzinom
 
+**Klassifikation:** ICD-10-GM: C16.-
+
 ## Übersicht
 
 Das Magenkarzinom ist eine bösartige Neubildung des Magens, wobei mehr als 95 % der Fälle Adenokarzinome sind.[1][2] Die Tumoren werden typischerweise nach ihrer anatomischen Lokalisation und ihrem histologischen Typ klassifiziert.[1] Die Erkrankung wird häufig erst in einem fortgeschrittenen Stadium diagnostiziert, was die Prognose insgesamt ungünstig macht.[1]

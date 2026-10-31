@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildungen der Nasennebenhöhlen
 
+**Klassifikation:** ICD-10-GM: C31.-
+
 ## Übersicht
 
 Bösartige Neubildungen der Nasennebenhöhlen sind seltene Tumoren, die drei bis fünf Prozent aller Kopf-Hals-Tumoren ausmachen.[1] Die häufigste histologische Subtyp ist das Plattenepithelkarzinom, das in verschiedenen Studienanteilen zwischen 54 Prozent und der Mehrheit der Fälle einnimmt.[2] Weitere signifikante histopathologische Subtypen sind das Esthesioneuroblastom (ca. 9,9 Prozent), das Melanom (ca. 9,8 Prozent), das adenokarzinom (ca. 7,5 Prozent), das Sarkom (ca. 7,3 Prozent), das adenozystische Karzinom (ca. 7,1 Prozent), das undifferenzierte Karzinom der Nasennebenhöhlen (ca. 3,9 Prozent) und das neuroendokrine Karzinom der Nasennebenhöhlen (ca. 2,8 Prozent).[2] Die Diagnosestellung erfolgt häufig in fortgeschrittenen Stadien, da die frühen Symptome unspezifisch sind und die anatomische Lage der Tumoren eine frühe Erkennung erschwert.[1] Die Behandlung erfordert einen interdisziplinären Ansatz und eine multimodale Therapie, die individuell an Tumorstadium, Histologie und Patientenzustand angepasst wird.[2][3]

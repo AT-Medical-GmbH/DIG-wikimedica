@@ -33,6 +33,8 @@ corrections: []
 
 # Schwangerschaftsinduzierte Hypertonie
 
+**Klassifikation:** ICD-10-GM: O13
+
 ## Übersicht
 
 Die Gestationshypertonie ist neben der Präeklampsie eine der beiden Hauptformen hypertensiver Schwangerschaftserkrankungen.[1] Für dieses Krankheitsbild wird synonym auch der Begriff schwangerschaftsinduzierte Hypertonie verwendet.[2][3] Gestationshypertonie und Präeklampsie treten häufig um den Zeitpunkt der Geburt auf.[4] Milde Verläufe nahe am Termin verursachen laut einer Übersichtsarbeit meist nur wenige Komplikationen für Mutter und Kind.[4] Die Hauptsorge betrifft jedoch die Progression zu Präeklampsie, Eklampsie oder HELLP-Syndrom.[4][5]

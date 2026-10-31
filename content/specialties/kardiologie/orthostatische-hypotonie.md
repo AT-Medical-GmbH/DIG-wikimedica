@@ -39,6 +39,8 @@ corrections: []
 
 # Orthostatische Hypotonie
 
+**Klassifikation:** ICD-10-GM: I95.1; ICD-11: BA21
+
 Von **orthostatischer Hypotonie** spricht man bei einem klinisch relevanten Blutdruckabfall nach dem Aufstehen. Sie ist ein Befund mit vielen möglichen Ursachen und keine einheitliche Grunderkrankung. Als gebräuchliche Definition gelten ein Abfall des systolischen Blutdrucks um mindestens 20 mmHg oder des diastolischen Blutdrucks um mindestens 10 mmHg innerhalb von drei Minuten nach dem Aufstehen.[1]
 
 ## Ursachen, Beschwerden und Diagnostik

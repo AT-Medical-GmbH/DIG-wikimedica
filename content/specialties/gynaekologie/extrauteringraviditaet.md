@@ -33,6 +33,8 @@ corrections: []
 
 # Extrauteringravidität
 
+**Klassifikation:** ICD-10-GM: O00.-; ICD-11: JA01
+
 ## Übersicht
 
 Eine Extrauteringravidität ist definiert als eine Schwangerschaft, die außerhalb der Gebärmutterhöhle implantiert.[1] Sie stellt die häufigste Ursache für mütterliche Todesfälle im ersten Trimenon dar.[2] Die meisten ektopen Schwangerschaften implantieren in der Eileiter.[1] Bei frühzeitiger Diagnose können die meisten ektopen Schwangerschaften erfolgreich entweder durch minimalinvasive Chirurgie oder durch eine medizinische Behandlung mit Methotrexat therapiert werden.[1] Eine ektopische Schwangerschaft bei einem hämodynamisch instabilen Patienten ist jedoch ein medizinischer Notfall, der eine sofortige chirurgische Intervention erfordert.[1]

@@ -33,6 +33,8 @@ corrections: []
 
 # Melanozytäre Nävi
 
+**Klassifikation:** ICD-10-GM: D22.-
+
 ## Übersicht
 
 Sie werden aus kosmetischen oder diagnostischen Gründen entfernt, wobei chirurgische, laserbasierte und destruierende Verfahren zur Verfügung stehen.[1] Die vergleichende Evidenz zu Wirksamkeit, Rezidivrisiko, kosmetischem Ergebnis und Sicherheit ist uneinheitlich.[1] Neben den gewöhnlichen Nävi sind angeborene melanozytäre Nävi (congenital melanocytic nevi, CMN) abzugrenzen, die im Kindesalter auftreten und mit extrakutanen Befunden einhergehen können.[2] Eine eigene diagnostische Herausforderung stellen dysplastische Nävi dar, deren Abgrenzung gegenüber dem Melanom schwierig ist.[3]

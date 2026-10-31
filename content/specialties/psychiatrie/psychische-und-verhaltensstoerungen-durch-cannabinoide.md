@@ -33,6 +33,8 @@ corrections: []
 
 # Cannabisbezogene Störungen
 
+**Klassifikation:** ICD-10-GM: F12.-
+
 ## Übersicht
 
 Gemeint ist ein problematisches Konsummuster, das zu klinisch bedeutsamer Beeinträchtigung oder Leidensdruck führt.[1] Die Störung ist chronisch und rezidivierend und zeichnet sich durch anhaltenden Konsum trotz nachteiliger Folgen aus.[2] Das DSM-5 fasst die früheren Kategorien Missbrauch und Abhängigkeit zu einer einheitlichen Störung mit elf Kriterien zusammen, ergänzt um Craving und Entzug, während substanzbezogene juristische Probleme entfielen.[2] Die aktuelle Fassung, das DSM-5-TR, umfasst Items zu eingeschränkter Kontrolle über den Konsum, sozialen Beeinträchtigungen, riskantem Gebrauch und pharmakologischen Indikatoren.[2] Nationale Erhebungen berichten teils noch nach früheren DSM-Versionen, weshalb die Befunde nur eingeschränkt vergleichbar sind.[2]

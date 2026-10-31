@@ -33,6 +33,8 @@ corrections: []
 
 # Skorbut (Ascorbinsäuremangel)
 
+**Klassifikation:** ICD-10-GM: E54
+
 ## Übersicht
 
 Skorbut ist eine durch einen schweren Mangel an Ascorbinsäure (Vitamin C) verursachte Erkrankung, die historisch als ausgerottet galt, in hochentwickelten Ländern jedoch wieder auftritt.[1] Die Erkrankung betrifft heute vorwiegend vulnerable Bevölkerungsgruppen mit spezifischen Risikofaktoren.[1] Ascorbinsäure ist essenziell für die Kollagensynthese, die Immunfunktion und die Neurotransmitterproduktion.[2] Ein Mangel führt zu einer Beeinträchtigung der Bindegewebsstruktur und manifestiert sich multisystemisch.[3] Die Diagnose wird häufig verzögert gestellt, da die klinischen Symptome unspezifisch sind und die Erkrankung häufige Pathologien imitiert.[4] Eine frühzeitige Erkennung ist entscheidend, um unnötige invasive Diagnostik zu vermeiden und schwerwiegende Komplikationen zu verhindern.[5]

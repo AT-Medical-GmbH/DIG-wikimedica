@@ -37,6 +37,8 @@ corrections: []
 
 # Gicht
 
+**Klassifikation:** ICD-10-GM: M10.-
+
 **Gicht** ist eine entzündliche Gelenkerkrankung durch Ablagerung von Mononatriumuratkristallen bei Hyperurikämie. Sie kann akut mit sehr starken Schmerzen auftreten und bei chronischem Verlauf Gelenke, Weichteile und Nieren betreffen.[1]
 
 ## Klinik und Diagnostik

@@ -33,6 +33,8 @@ corrections: []
 
 # Zerebrovaskuläre Erkrankungen
 
+**Klassifikation:** ICD-10-GM: G46.-*; ICD-11: 8B26
+
 ## Übersicht
 
 Klinisch zeigen sie sich häufig als akutes neurologisches Defizit, also als Schlaganfall.[1] Seltener stehen Kopfschmerzen oder Krampfanfälle im Vordergrund.[1] Nach den in einer Leitlinie angegebenen Anteilen sind etwa 87 Prozent der Schlaganfälle ischämisch, rund 10 Prozent entstehen durch eine intrazerebrale Blutung und etwa 3 Prozent durch eine Subarachnoidalblutung.[1] Für die Abklärung ist die Bildgebung zentral, wobei die verschiedenen Modalitäten jeweils eigene Stärken und Grenzen haben.[1]

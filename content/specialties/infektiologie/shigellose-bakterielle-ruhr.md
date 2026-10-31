@@ -33,6 +33,8 @@ corrections: []
 
 # Shigellose
 
+**Klassifikation:** ICD-10-GM: A03.-
+
 ## Übersicht
 
 Die Shigellose, auch als bakterielle Ruhr bekannt, ist eine durch Bakterien der Gattung Shigella verursachte Darminfektion.[1] Es handelt sich um gramnegative, fakultativ intrazelluläre Erreger aus der Familie der Enterobacteriaceae, die säureresistent sind und somit die Magensäure überstehen können.[1] Der Mensch ist das einzige natürliche Reservoir für diese Erreger.[1] Die Infektion führt typischerweise zu einer schweren Darmerkrankung, die durch Zerstörung und Entzündung der Dickdarmschleimhaut gekennzeichnet ist und mit akutem Durchfall, Fieber und Bauchschmerzen einhergeht.[2] Weltweit stellt die Shigellose die häufigste Ursache für invasive blutige Durchfälle bei Kindern unter fünf Jahren dar.[1]

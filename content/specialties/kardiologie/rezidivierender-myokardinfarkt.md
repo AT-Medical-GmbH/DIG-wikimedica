@@ -33,6 +33,8 @@ corrections: []
 
 # Rezidivierender Myokardinfarkt
 
+**Klassifikation:** ICD-10-GM: I22.-; ICD-11: BA42
+
 ## Übersicht
 
 Ein rezidivierender Myokardinfarkt stellt eine wachsende klinische Herausforderung dar, da Fortschritte in der Akutversorgung die Überlebensraten erhöhen, gleichzeitig aber die Prävalenz von Hochrisikopatienten mit vorangegangenen Infarkten steigt.[1] Im Vergleich zu einem erstmaligen akuten Koronarsyndrom ist ein rezidivierender Myokardinfarkt unabhängig mit einer signifikant höheren In-Hospital-Mortalität sowie einem erhöhten Risiko für kardiovaskuläre Komplikationen wie kardiogenen Schock, Herzstillstand und ventrikuläre Arrhythmien assoziiert.[1] Die Patienten weisen zudem eine höhere Komorbiditätslast auf, darunter Diabetes, chronische Lungenerkrankungen und fortgeschrittene Nierenerkrankungen, was zu längeren Krankenhausaufenthalten und höheren Behandlungskosten führt.[1] Die Diagnostik und Risikoeinschätzung stützt sich auf Symptome, elektrokardiographische Veränderungen und Troponinerhöhungen, wobei alternative Ursachen wie ein Myokardinfarkt Typ 2 ausgeschlossen werden müssen.[2] Eine zeitnahe Koronarangiographie ist entscheidend, um okklusive koronare Herzkrankheiten zu identifizieren und die Eignung für eine Revaskularisation zu beurteilen.[2]

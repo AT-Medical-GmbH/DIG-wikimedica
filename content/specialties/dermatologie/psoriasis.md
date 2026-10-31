@@ -37,6 +37,8 @@ corrections: []
 
 # Psoriasis
 
+**Klassifikation:** ICD-10-GM: L40.-; ICD-11: EA90
+
 Die **Psoriasis** ist eine immunvermittelte, chronisch-entzündliche Erkrankung, die häufig mit scharf begrenzten schuppenden Hautveränderungen einhergeht. Sie kann Nägel und Gelenke betreffen und mit weiteren Erkrankungen assoziiert sein.[1]
 
 ## Diagnostik und Behandlung

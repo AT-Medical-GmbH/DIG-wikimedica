@@ -33,6 +33,8 @@ corrections: []
 
 # Biomechanische Funktionsstörungen
 
+**Klassifikation:** ICD-10-GM: M99.-; ICD-11: ME93
+
 ## Übersicht
 
 Die segmentale und somatische Dysfunktion gilt als zentrale Diagnose der Manuellen Medizin, auf der die Indikation zu manualmedizinischen Interventionen beruht.[1][2] Im deutschsprachigen Raum wird dieser Befund häufig als Blockierung bezeichnet.[3][2] Im ICD-10-GM ist sie unter M99.0X kodiert und in der Klassifikation der biomechanischen Funktionsstörungen, anderenorts nicht klassifiziert, geführt.[1] Damit eine manuelle Therapie die Beschwerden bessern kann, müssen diese also tatsächlich Folge einer solchen Dysfunktion sein; die Auflösung der Dysfunktion wirkt dann mittelbar auf die Symptome.[1] Eine adäquate manualmedizinische Diagnose ist daher Voraussetzung für eine sinnvolle Behandlung.[1] Aus osteopathischer Sicht wird sie als veränderte regulative Funktion beschrieben, die mit tastbaren Befunden im Bewegungsapparat in verschiedenen Körperregionen einhergeht und mit entzündlichen Zeichen verbunden sein kann.[2] Der konzeptionelle Rahmen und sein Nutzen für die Praxis werden in der osteopathischen Fachwelt weiterhin diskutiert.[2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Ticstörungen
 
+**Klassifikation:** ICD-10-GM: F95.-; ICD-11: 8A05
+
 ## Übersicht
 
 Ticstörungen sind neuropsychiatrische Erkrankungen, die häufig in Kindheit oder Adoleszenz beginnen.[1] Charakteristisch sind motorische und phonische Tics, wie sie für das Tourette-Syndrom beschrieben werden.[2][3] Das Spektrum verwandter Verhaltensweisen umfasst zusätzlich Aufmerksamkeitsprobleme, Zwänge, Impulsivität und komplexe Tics.[2] Die Erkrankung kann die Lebensqualität der Betroffenen erheblich beeinträchtigen.[4][3]

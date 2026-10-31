@@ -33,6 +33,8 @@ corrections: []
 
 # Peptisches Ulkus
 
+**Klassifikation:** ICD-10-GM: K27.-; ICD-11: DA61
+
 ## Übersicht
 
 Das peptische Ulkus ist eine durch Säure- und Pepsinwirkung verursachte Läsion der Magenschleimhaut oder des Zwölffingerdarms, die in die tieferen Schleimhautschichten reicht.[1][2] Die Erkrankung ist weltweit verbreitet, wobei die Inzidenz und Mortalität in den letzten Jahrzehnten aufgrund verbesserter Präventions- und Therapiemaßnahmen deutlich zurückgegangen sind.[1][3] Zu den Hauptursachen zählen eine Infektion mit *Helicobacter pylori* sowie die Einnahme von nichtsteroidalen Antirheumatika (NSAR) oder Acetylsalicylsäure (ASS).[2][3] In einem erheblichen Teil der Fälle bleibt die Ursache jedoch idiopathisch oder wird durch seltene Erreger wie nicht-*H. pylori*-Helicobacter-Arten verursacht.[4] Die Diagnose erfolgt primär endoskopisch, wobei die Therapie auf der Beseitigung der zugrunde liegenden Ursache, der Säurehemmung und der Behandlung von Komplikationen wie Blutungen oder Perforationen basiert.[2][3]

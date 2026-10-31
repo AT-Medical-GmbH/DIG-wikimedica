@@ -33,6 +33,8 @@ corrections: []
 
 # Chronische Rhinitis, Rhinopharyngitis und Pharyngitis
 
+**Klassifikation:** ICD-10-GM: J31.-
+
 ## Übersicht
 
 Chronische Rhinitis ist eine Entzündung und Reizung der Nasenschleimhaut, die mit nasaler Verstopfung, Rhinorrhoe, Niesen und Postnasal-Drip einhergeht und mindestens zwölf Wochen andauert.[1] Man unterscheidet allergische und nichtallergische Formen.[2][3] Viele Betroffene sprechen auf medikamentöse Standardtherapien nur unzureichend an oder setzen die Behandlung nicht konsequent fort, weshalb interventionelle und chirurgische Verfahren zunehmend untersucht werden.[1][4]

@@ -33,6 +33,8 @@ corrections: []
 
 # Maligne Knochentumoren der Extremitäten
 
+**Klassifikation:** ICD-10-GM: C40.-
+
 ## Übersicht
 
 Bösartige Neubildungen des Knochens und des Gelenkknorpels der Extremitäten stellen eine heterogene Gruppe von Tumoren dar, zu denen primäre Knochensarkome wie das Osteosarkom und das Ewing-Sarkom zählen.[1] Das Osteosarkom ist das häufigste primäre Knochensarkom und tritt gehäuft in der zweiten und dritten Lebensdekade auf.[2] Die Diagnosestellung erfordert eine präzise radiologische und histopathologische Abklärung, da die Überlebensraten bei Kindern, Jugendlichen und jungen Erwachsenen (CAYA) im Vergleich zu anderen frühkindlichen Krebserkrankungen weiterhin unzureichend sind.[1] Eine frühzeitige Erkennung und Therapieeinleitung sind entscheidend, um das Risiko eines fortgeschrittenen Krankheitsstadiums bei Diagnose zu verringern.[1] Die klinische Versorgung dieser Patientengruppe ist durch komplexe diagnostische Pfade und multimodale Therapiekonzepte gekennzeichnet, wobei die neoadjuvante Chemotherapie, wie das MAP-Schema (Methotrexat, Doxorubicin, Cisplatin), eine zentrale Rolle in der Behandlung des Osteosarkoms spielt.[2]

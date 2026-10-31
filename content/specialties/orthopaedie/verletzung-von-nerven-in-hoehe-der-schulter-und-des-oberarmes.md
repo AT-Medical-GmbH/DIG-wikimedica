@@ -33,6 +33,8 @@ corrections: []
 
 # Nervenverletzung in Schulter- und Oberarmregion
 
+**Klassifikation:** ICD-10-GM: S44.-
+
 ## Übersicht
 
 Die klinische Versorgung erfordert einen multidisziplinären Ansatz, der Fachkräfte aus der peripheren Nervenchirurgie, Neurologie, Handtherapie, Physiotherapie, Schmerztherapie sowie psychosozialen Bereichen umfasst.[1] Die Behandlung zielt darauf ab, die funktionellen Ergebnisse zu optimieren und chronische Schmerzsyndrome zu vermeiden, die bei traumatischen Verletzungen häufig auftreten.[2] Die Prognose variiert stark je nach Ätiologie, wobei Geburtsverletzungen und traumatische Ereignisse unterschiedliche Managementstrategien erfordern.[3] Eine strukturierte Diagnostik und zeitnahe Intervention sind entscheidend für den Behandlungserfolg.[1]

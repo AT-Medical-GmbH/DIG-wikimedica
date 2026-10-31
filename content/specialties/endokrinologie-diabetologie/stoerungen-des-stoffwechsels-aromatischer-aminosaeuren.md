@@ -33,6 +33,8 @@ corrections: []
 
 # Störungen des Phenylalanin- und Tyrosinstoffwechsels
 
+**Klassifikation:** ICD-10-GM: E70.-
+
 ## Übersicht
 
 Die Phenylketonurie (PKU) ist eine autosomal-rezessiv vererbte Störung des Phenylalaninstoffwechsels.[1][2] Ursache ist ein Mangel an der Phenylalaninhydroxylase, dem Enzym, das Phenylalanin in Tyrosin umwandelt.[1][3] Der Mangel betrifft damit den Abbauweg einer aromatischen Aminosäure, und die Folge ist eine Anreicherung von Phenylalanin im Organismus.[2][3] Der PAH-Mangel gilt als der häufigste angeborene Defekt im Aminosäurestoffwechsel des Menschen.[3] Die Erkrankung ist gut untersucht, die Wirkung auf das Gehirn ist jedoch noch nicht vollständig verstanden.[3] Wichtig für die Einordnung ist außerdem, dass eine seltene Ursache in einem Defekt des Kofaktors Tetrahydrobiopterin (BH4) liegt und nicht im Enzym selbst.[2] Die Ausprägung der Erkrankung reicht von schweren klassischen Formen bis zu milden Formen der Phenylalaninhyperphenylalaninämie und gutartigen Verläufen.[2]

@@ -37,6 +37,8 @@ corrections: []
 
 # Reizdarmsyndrom
 
+**Klassifikation:** ICD-10-GM: K58.-; ICD-11: DD91.0
+
 Das **Reizdarmsyndrom** ist eine Störung der Darm-Hirn-Interaktion mit wiederkehrenden Bauchschmerzen in Verbindung mit Veränderungen von Stuhlgang oder Stuhlform. Beschwerden können erheblich belasten, ohne dass eine strukturelle Erkrankung vorliegt.[1]
 
 ## Diagnostik und Behandlung

@@ -33,6 +33,8 @@ corrections: []
 
 # Entwicklungsstörung der Motorik
 
+**Klassifikation:** ICD-10-GM: F82.-
+
 ## Übersicht
 
 Sie ist durch eine beeinträchtigte motorische Koordination und Handlungsplanung gekennzeichnet, die nicht besser durch andere Erkrankungen erklärt wird.[1] In der Fachliteratur dominiert dagegen der Begriff „Developmental Coordination Disorder“ (DCD), den auch das DSM-5 verwendet.[2] Die Störung gilt als häufige neuroentwicklungsbedingte Erkrankung, deren motorische Auffälligkeiten bereits in den ersten Lebensjahren sichtbar sein können.[3]

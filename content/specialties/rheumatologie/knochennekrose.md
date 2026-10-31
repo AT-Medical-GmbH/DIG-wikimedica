@@ -33,6 +33,8 @@ corrections: []
 
 # Knochennekrose
 
+**Klassifikation:** ICD-10-GM: M87.-; ICD-11: FB81
+
 ## Übersicht
 
 Knochennekrose bezeichnet das Absterben von Knochengewebe infolge einer unzureichenden Gefäßversorgung.[1] Je nach Lokalisation werden unterschiedliche Begriffe verwendet: Bei Beteiligung der Epiphyse spricht man auch von avaskulärer oder aseptischer Nekrose, bei Beteiligung der Metaphyse von einem Knocheninfarkt.[1] Häufige Manifestationsorte sind der Femurkopf, der Humeruskopf, die Tibia- und Femurmetaphyse, das Kahnbein, das Mondbein und das Sprungbein.[1] Die nichttraumatische Femurkopfnekrose (ONFH) kann in allen Altersgruppen zu einer relevanten Behinderung führen und tritt mit unterschiedlichem Schweregrad auf, symptomatisch oder asymptomatisch.[2] Die medikamentenassoziierte Kiefernekrose (MRONJ) ist eine schwerwiegende unerwünschte Arzneimittelreaktion, die mit einer erheblichen Krankheitslast und einer Beeinträchtigung der Lebensqualität einhergeht.[3]

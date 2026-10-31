@@ -33,6 +33,8 @@ corrections: []
 
 # Exogen-allergische Alveolitis
 
+**Klassifikation:** ICD-10-GM: J67.-; ICD-11: CA70
+
 ## Übersicht
 
 Die exogen-allergische Alveolitis, auch als hypersensitive Pneumonitis bezeichnet, ist eine seltene, durch eine immunvermittelte Entzündungsreaktion des Lungengewebes und der terminalen Bronchiolen gekennzeichnete Erkrankung.[1][2] Sie entsteht bei sensibilisierten und prädisponierten Individuen primär durch die Inhalation auslösender Antigene, wobei es sich meist um hochmolekulare (Glyko)proteine mikrobieller, tierischer oder pflanzlicher Herkunft handelt.[1] Die Erkrankung kann in verschiedene klinische Verlaufsformen unterteilt werden, wobei die aktuelle Leitlinie eine Einteilung in akute, chronisch nicht-fibrotische und chronisch fibrotische Formen vorsieht.[1][2] Diese Unterscheidung ist von entscheidender Bedeutung für die Differentialdiagnose, da die klinische Präsentation oft unspezifisch ist und die Therapieansätze sich je nach Vorliegen einer Fibrose unterscheiden.[1][2]

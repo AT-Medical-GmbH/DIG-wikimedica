@@ -33,6 +33,8 @@ corrections: []
 
 # Verhaltens- und psychologische Symptome
 
+**Klassifikation:** ICD-10-GM: R46.-; ICD-11: MB23
+
 ## Übersicht
 
 Diese Symptomatik ist insbesondere bei Demenzerkrankungen wie der Alzheimer-Krankheit von hoher klinischer Relevanz und stellt eine der häufigsten Indikationen für pharmakologische Interventionen dar.[1] In der klinischen Praxis haben sich Antipsychotika wie Olanzapin und Risperidon als am weitesten verbreitete Kurzzeittherapien etabliert.[1] Aktuelle Leitlinien betonen die Notwendigkeit einer standardisierten Erfassung und eines individuellen Managements dieser Symptome, wobei erhebliche Unterschiede in den Empfehlungen und der Evidenzbasis bestehen.[2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Ellenbogenluxation und Bandverletzungen des Ellenbogens
 
+**Klassifikation:** ICD-10-GM: S53.-
+
 ## Übersicht
 
 Von ihr abzugrenzen sind komplexe Luxationen mit Frakturen sowie Kombinationsverletzungen des Unterarms.[1][2] Aktuelle systematische Übersichtsarbeiten betonen, dass die konservative Behandlung mit früher funktioneller Übung weiterhin die Erstlinientherapie darstellt, während operative Verfahren bei bestimmten Befundkonstellationen vergleichbare Ergebnisse hinsichtlich Beweglichkeit und Funktionsscores zeigen.[3]

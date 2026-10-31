@@ -33,6 +33,8 @@ corrections: []
 
 # Schambeinbruch (Hernia femoralis)
 
+**Klassifikation:** ICD-10-GM: K41.-; ICD-11: DD52
+
 ## Übersicht
 
 Weltweit werden jährlich mehr als 20 Millionen Eingriffe an der Leiste durchgeführt, wobei die Femoralhernie einen spezifischen, wenn auch kleineren Anteil an dieser Gesamtzahl ausmacht.[1] Im Gegensatz zur häufigeren inguinalen Hernie ist die Femoralhernie bei Frauen deutlich häufiger anzutreffen und macht dort etwa 22 % aller Leistenhernienoperationen aus, während sie bei Männern nur etwa 1,1 % ausmacht.[2] Die Diagnose stützt sich primär auf die klinische Untersuchung; bei Unklarheiten können bildgebende Verfahren wie Ultraschall hinzugezogen werden.[3] Die einzige kurative Therapieoption für erwachsene Patienten ist der operative Verschluss des Defekts.[3]

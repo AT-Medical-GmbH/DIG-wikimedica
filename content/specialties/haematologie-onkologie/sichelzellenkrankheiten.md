@@ -33,6 +33,8 @@ corrections: []
 
 # Sichelzellenanämie
 
+**Klassifikation:** ICD-10-GM: D57.-
+
 ## Übersicht
 
 Die Sichelzellenanämie ist eine vererbte Hämoglobinopathie, die durch eine Mutation im Gen für die Beta-Globin-Kette gekennzeichnet ist und zur Produktion abnormaler Hämoglobinmoleküle führt.[1] Diese Mutation führt zur Bildung von Hämoglobin S, das unter Sauerstoffmangelbedingungen polymerisiert und rote Blutkörperchen in eine sichelförmige Gestalt zwingt.[2][1] Die Folge sind eine chronische Hämolyse, eine Vasookklusion sowie eine fortschreitende Schädigung verschiedener Organsysteme.[2][3] Weltweit sind Millionen von Menschen betroffen, wobei die Prävalenz in Subsahara-Afrika, Indien, dem Mittelmeerraum und dem Nahen Osten am höchsten ist.[2][3] In den USA leben schätzungsweise 100.000 Betroffene, während jährlich weltweit etwa 300.000 Neugeborene mit dieser Erkrankung zur Welt kommen.[3] Die Erkrankung geht mit einer signifikanten Morbidität und einer um etwa 20 Jahre reduzierten Lebenserwartung im Vergleich zur Allgemeinbevölkerung einher.[3]

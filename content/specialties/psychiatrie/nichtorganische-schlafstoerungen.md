@@ -33,6 +33,8 @@ corrections: []
 
 # Nicht-organische Schlafstörungen
 
+**Klassifikation:** ICD-10-GM: F51.-
+
 ## Übersicht
 
 Nichtorganische Schlafstörungen, im klinischen Kontext häufig als chronische Insomnie bezeichnet, stellen eine der häufigsten Schlafstörungen dar und gehen mit erheblichen negativen Auswirkungen auf die Lebensqualität sowie das medizinische und psychische Wohlbefinden einher.[1] Die Leitlinien betonen, dass diese Störung oft untererkannt und unzureichend behandelt wird, wobei insbesondere bei Patientinnen und Patienten mit Krebserkrankungen eine höhere Prävalenz als in der Allgemeinbevölkerung beobachtet wird.[2] Die aktuelle evidenzbasierte Praxis empfiehlt kognitive Verhaltenstherapie für Insomnie (CBT-I) als First-Line-Therapie für Erwachsene jeden Alters, einschließlich solcher mit Komorbiditäten.[3][4][5] Pharmakologische Interventionen werden primär als Ergänzung oder bei unzureichender Wirksamkeit von CBT-I sowie in der Kurzzeitbehandlung eingesetzt.[3][5]

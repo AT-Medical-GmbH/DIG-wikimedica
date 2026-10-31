@@ -33,6 +33,8 @@ corrections: []
 
 # Polytoxikomanie (multipler Substanzgebrauch)
 
+**Klassifikation:** ICD-10-GM: F19.-
+
 ## Übersicht
 
 Dieser Mehrfachgebrauch ist trotz bekannter Risiken weit verbreitet.[1][2] Eine einheitliche Definition fehlt bislang.[3] Für Substanzkombinationen, die sowohl Alkohol als auch Opioide umfassen, wird eine Übersichtsarbeit konkreter: Beide Substanzen gelten als Mehrfachgebrauch, wenn sie zusammen oder innerhalb eines kurzen Zeitfensters konsumiert werden, sodass beide zugleich im Organismus vorhanden sind.[4] Auch in der Forschung besteht kein Konsens darüber, wie Personen mit multiplem Substanzgebrauch identifiziert und klassifiziert werden sollten.[1] Diese Verfahren fassen Personen mit ähnlichen Konsummustern zu Untergruppen zusammen.[1] Die Ergebnisse hängen jedoch stark von der methodischen Umsetzung ab.[1]

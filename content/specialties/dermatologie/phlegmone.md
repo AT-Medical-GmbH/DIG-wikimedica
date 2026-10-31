@@ -33,6 +33,8 @@ corrections: []
 
 # Phlegmone
 
+**Klassifikation:** ICD-10-GM: L03.-
+
 ## Übersicht
 
 Gemeint ist eine Infektion der tiefen Dermis und des subkutanen Gewebes, die in der hier ausgewerteten Fachliteratur als Cellulitis bezeichnet wird.[1] Sie zählt zu den häufigen Infektionen der Haut und Unterhaut und wird überwiegend durch grampositive Erreger verursacht.[2] Die Diagnose ist klinischer Natur und beruht auf Anamnese und körperlicher Untersuchung; ein Goldstandard existiert nicht.[1][3] Die Erkrankung neigt zu Rezidiven und ist mit kurz- und langfristiger Morbidität sowie erheblichen Versorgungskosten verbunden.[4] Diese sind jedoch häufig knapp formuliert und bieten wenig konkrete Strategien für das Management lokaler Risikofaktoren.[5] In der methodischen Bewertung nach dem AGREE-II-Instrument schnitten die meisten eingeschlossenen Leitlinien vor allem bei der Entwicklungsrigorosität schwach ab.[5]

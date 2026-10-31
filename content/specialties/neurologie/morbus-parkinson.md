@@ -37,6 +37,8 @@ corrections: []
 
 # Morbus Parkinson
 
+**Klassifikation:** ICD-10-GM: G20.-; ICD-11: 8A00.0
+
 Der **Morbus Parkinson** ist eine neurodegenerative Erkrankung, die sich motorisch unter anderem durch Bradykinese, Rigor, Tremor und Haltungsinstabilität äußern kann. Nichtmotorische Symptome wie Schlafstörungen, autonome Beschwerden, Schmerzen oder psychische Veränderungen sind ebenfalls häufig.[1]
 
 ## Diagnostik und Behandlung

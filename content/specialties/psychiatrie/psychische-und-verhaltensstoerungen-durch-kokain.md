@@ -33,6 +33,8 @@ corrections: []
 
 # Kokainbedingte Störungen
 
+**Klassifikation:** ICD-10-GM: F14.-
+
 ## Übersicht
 
 Die Kokain-Gebrauchsstörung (Cocaine Use Disorder, CUD) wird in der aktuellen Fachliteratur als chronische Erkrankung mit schwerwiegenden Folgen und hoher Rückfallrate beschrieben.[1] Sie belastet sowohl die Betroffenen als auch die Gesellschaft, und die Behandlungsmöglichkeiten sind eng begrenzt.[2][3] Für die klinische Praxis ist zudem relevant, dass Kokainprobleme häufig gemeinsam mit anderen psychischen Störungen auftreten, insbesondere mit der Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) und bipolaren Störungen.[4][5][6]

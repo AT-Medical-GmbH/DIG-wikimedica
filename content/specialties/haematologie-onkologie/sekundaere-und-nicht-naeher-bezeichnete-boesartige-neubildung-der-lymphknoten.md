@@ -33,6 +33,8 @@ corrections: []
 
 # Sekundäre maligne Neubildung der Lymphknoten
 
+**Klassifikation:** ICD-10-GM: C77.-
+
 ## Übersicht
 
 Sekundäre maligne Neubildungen der Lymphknoten stellen eine häufige Manifestation der Metastasierung von Primärtumoren dar und gelten als entscheidender prognostischer Faktor in der Onkologie.[1] Die Lymphknoten fungieren als zentrale Knotenpunkte für das Arrestieren und Wachstum metastasierender Zellen sowie für die sekundäre Dissemination in entfernte Organe.[1] Die Diagnose und das Management dieser Metastasen sind von großer klinischer Bedeutung, da sie die Tumorstadieneinteilung, die Therapieplanung und das Überleben der Patienten maßgeblich beeinflussen.[1] Traditionell dienten Lymphknoten als Barriere gegen die systemische Ausbreitung von Pathogenen, doch maligne Tumorzellen nutzen das Lymphsystem, um ihre Metastasierung zu erleichtern.[1] In jüngster Zeit rücken neue diagnostische Ansätze, insbesondere Radiomics und künstliche Intelligenz, in den Fokus, um die Genauigkeit der Detektion zu verbessern und personalisierte Behandlungsstrategien zu ermöglichen.[2][3]

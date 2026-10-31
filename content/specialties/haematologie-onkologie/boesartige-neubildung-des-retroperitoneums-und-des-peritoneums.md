@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildungen des Peritoneums und Retroperitoneums
 
+**Klassifikation:** ICD-10-GM: C48.-
+
 ## Übersicht
 
 Ihr Management gilt als komplex und sollte an einem spezialisierten PSM-Zentrum erfolgen.[1] Im Laufe der letzten Jahrzehnte hat sich die Rolle der zytoreduktiven Chirurgie (CRS), gegebenenfalls kombiniert mit regionalen peritonealen Therapien wie der hypertherm intraperitonealen Chemotherapie (HIPEC), weiterentwickelt.[2] Die Pathologie ist für das Management zentral, da sie sowohl die Behandlungsentscheidung als auch die Einschätzung der Prognose beeinflusst.[3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Gutartige Knochentumoren
 
+**Klassifikation:** ICD-10-GM: D16.-
+
 ## Übersicht
 
 Das Osteochondrom gilt als häufigster gutartiger Knochentumor, während das Osteoidosteom den dritten Platz einnimmt.[1][2] Die aneurysmatische Knochenzyste macht etwa ein Prozent aller primären Knochentumoren aus.[3] Die Therapieoptionen reichen von konservativen Ansätzen über minimal-invasive Eingriffe bis hin zu operativen Resektionen; die Wahl der Methode hängt von der Aggressivität der Läsion, der Lokalisation und dem Rezidivrisiko ab.[4][3][5][6][1][2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Ischämie des Darms
 
+**Klassifikation:** ICD-10-GM: K55.-
+
 ## Übersicht
 
 Die mesenteriale Ischämie beschreibt eine unzureichende Durchblutung des Darms, die akut oder chronisch verlaufen kann.[1] Sie gilt als ernsthafte Erkrankung, bei der die Gefäßversorgung des Dünndarms nicht ausreicht.[2] Die akute Form ist mit hoher Morbidität und Mortalität verbunden und lässt sich klinisch schwer erkennen.[1] Die chronische Form entsteht, wenn der Darm nach einer Mahlzeit nicht mehr ausreichend durchblutet werden kann; meist liegt eine atherosklerotische Okklusion an den Ursprüngen der Darmgefäße zugrunde.[3] Die Ursachen lassen sich nach grundlegenden Mechanismen ordnen: unzureichender arterieller Zufluss bei Okklusion, unzureichender venöser Abfluss, globale Minderperfusion (nicht-okklusive mesenteriale Ischämie, NOMI) und strangulierende Darmobstruktion.[4] Für alle Ursachen ist die Erkennung einer transmuralen Darmnekrose von zentraler Bedeutung.[4] Die Einteilung nach dem Pathomechanismus bestimmt auch Bildgebung, Prognose und Therapieplanung.[4]

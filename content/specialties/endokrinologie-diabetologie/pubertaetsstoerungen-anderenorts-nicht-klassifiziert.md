@@ -33,6 +33,8 @@ corrections: []
 
 # Pubertätsstörungen, anderenorts nicht klassifiziert
 
+**Klassifikation:** ICD-10-GM: E30.-
+
 ## Epidemiologie
 
 Bei Kindern mit juveniler idiopathischer Arthritis treten pubertäre Verzögerungen gehäuft auf, wobei das mittlere Alter der Menarche zwischen 12,0 und 13,39 Jahren liegt und damit signifikant später als in der Kontrollgruppe ist.[1] Im Allgemeinen betrifft die Adipositas-Epidemie ein Drittel der Kinder und Jugendlichen in den Vereinigten Staaten, wobei sechs Prozent der Jugendlichen stark adipös sind, was mit einer erhöhten Prävalenz pubertärer Störungen einhergeht.[2]

@@ -33,6 +33,8 @@ corrections: []
 
 # Verschluss und Stenose zerebraler Arterien
 
+**Klassifikation:** ICD-10-GM: I66.-
+
 ## Epidemiologie
 
 Etwa 70 % der Patientinnen und Patienten mit SAH entwickeln bis zum dritten Tag nach der Blutung einen zerebralen Vasospasmus, wobei die höchste Inzidenz zwischen dem siebten und achten Tag liegt.[1] Von den Patientinnen und Patienten mit aneurysmatischer SAH entwickeln etwa 30 % eine verzögerte zerebrale Ischämie (DCI) zwischen dem vierten und zehnten Tag.[1] Bei der Moyamoya-Erkrankung, einer seltenen zerebrovaskulären Störung, ist ein fortschreitender Verschluss der intrakraniellen Arterien charakteristisch; bei einigen Patientinnen und Patienten ist neben der vorderen auch die hintere Strombahn betroffen, wobei die Erkrankung oft im Kindesalter beginnt und sich über Jahre progredient verschlechtert.[2]

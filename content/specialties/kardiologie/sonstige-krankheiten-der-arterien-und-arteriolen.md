@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Erkrankungen der Arterien und Arteriolen
 
+**Klassifikation:** ICD-10-GM: I77.-
+
 ## Übersicht
 
 Die fibromuskuläre Dysplasie (FMD) ist eine nicht-atherosklerotische, nicht-entzündliche Arteriopathie, die vor allem mittelgroße Muskelarterien betrifft.[1][2] Sie gilt als idiopathisch und segmental und wird als systemische Erkrankung verstanden, die mehrere Gefäßgebiete betreffen kann.[3][4] Prinzipiell kann jedes Arterienbett betroffen sein, am häufigsten sind die Nierenarterien und die extrakraniellen Karotiden.[1] Die Diagnose setzt nach dem Konsens der europäischen Leitlinie von 2014 voraus, dass andere Ursachen einer Stenose oder aneurysmatischen Veränderung zuvor ausgeschlossen wurden.[1]

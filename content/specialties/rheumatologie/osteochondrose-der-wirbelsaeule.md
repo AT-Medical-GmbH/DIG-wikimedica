@@ -33,6 +33,8 @@ corrections: []
 
 # Osteochondrose der Wirbelsäule
 
+**Klassifikation:** ICD-10-GM: M42.-
+
 ## Übersicht
 
 Die Osteochondrose der Wirbelsäule, im klinischen Kontext häufig als Morbus Scheuermann oder juvenile dorsale Kyphose bezeichnet, ist die häufigste Form der strukturellen Kyphose im Jugendalter.[1] Die Diagnose stützt sich primär auf radiologische Kriterien, wobei klassische Definitionen eine Keilung von mindestens drei aufeinanderfolgenden Wirbeln um jeweils fünf Grad oder mehr am Apex der Deformität fordern.[1] Alternativ werden Kriterien wie eine thorakale Kyphose von über 45 Grad in Kombination mit mindestens einem keilförmigen Wirbel oder eine Kyphose von mindestens 35 Grad mit einem keilförmigen Wirbel herangezogen.[1] Die Prävalenz variiert in der Literatur stark zwischen 0,4 und 10 Prozent, wobei große multinationale Studien eine Häufigkeit von etwa 8 Prozent bei gleicher Verteilung zwischen den Geschlechtern nahelegen.[1] Atypische Verläufe, bei denen die Wirbelveränderungen im thorakolumbalen oder lumbalen Bereich auftreten, sind seltener und wurden ursprünglich vor allem bei jungen Sportlern beschrieben.[1]

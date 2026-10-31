@@ -33,6 +33,8 @@ corrections: []
 
 # Hodgkin-Lymphom
 
+**Klassifikation:** ICD-10-GM: C81.-; ICD-11: 2B30
+
 ## Übersicht
 
 Das Hodgkin-Lymphom ist eine seltene maligne Erkrankung des lymphatischen Systems und gehört zu den B-Zell-Lymphomen.[1][2] Es macht etwa zehn Prozent aller Lymphome aus.[1] Die Erkrankung besteht aus zwei getrennten Entitäten: dem klassischen Hodgkin-Lymphom (cHL) und dem nodulär lymphozytenprädominanten Hodgkin-Lymphom (NLPHL).[1] Die klassische Form umfasst die Subgruppen noduläre Sklerose, gemischtzellige Form, lymphozytäre Depletion und lymphozytenreiche Form.[1] Das cHL besitzt charakteristische histopathologische Merkmale und hat im Allgemeinen eine günstige Prognose.[2] Der Fortschritt im Verständnis der Pathogenese, verfeinerte Diagnose- und Stagingverfahren sowie neue Therapiestrategien haben das Management der Erkrankung deutlich verändert.[2] Quellen beschreiben das Hodgkin-Lymphom auch heute noch als in Teilen rätselhafte lymphoide Neoplasie, deren Biologie erst zunehmend verstanden wird.[3] Die Einführung weniger toxischer und zugleich wirksamerer Regime hat die Heilungsraten signifikant vorangebracht.[4][5]

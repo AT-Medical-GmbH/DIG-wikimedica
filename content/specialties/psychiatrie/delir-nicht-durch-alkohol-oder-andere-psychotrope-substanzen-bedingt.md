@@ -33,6 +33,8 @@ corrections: []
 
 # Delir
 
+**Klassifikation:** ICD-10-GM: F05.-
+
 ## Übersicht
 
 Delir ist ein akutes, fluktuierendes Syndrom, das durch Unaufmerksamkeit, desorganisiertes Denken und eine veränderte Bewusstseinslage gekennzeichnet ist.[1] Es stellt eine häufige und schwerwiegende Komplikation im klinischen Alltag dar, die mit erhöhter Morbidität, Mortalität und Kosten verbunden ist.[1] Die Prävalenz variiert je nach Setting, wobei in kritischen Versorgungseinheiten bis zu 56 % der Patienten betroffen sein können.[1] Unter stationären Allgemeinpatienten liegt die Häufigkeit bei etwa 18 % bis 25 %, in der Intensivmedizin sind die Raten noch höher.[2] Die frühzeitige Erkennung und Diagnose ist entscheidend, da sie die Grundlage für präventive und therapeutische Maßnahmen bildet, die die Inzidenz senken und die klinischen Ergebnisse verbessern können.[1]

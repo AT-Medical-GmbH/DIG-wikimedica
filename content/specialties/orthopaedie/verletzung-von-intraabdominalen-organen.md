@@ -33,6 +33,8 @@ corrections: []
 
 # Verletzungen der Bauchorgane
 
+**Klassifikation:** ICD-10-GM: S36.-; ICD-11: NB91
+
 ## Übersicht
 
 Verletzungen intraabdominaler Organe umfassen ein breites Spektrum: Neben festen Organen können Hohlorgane, das Mesenterium und Gefäßstrukturen betroffen sein.[1] Bei Kindern werden Organverletzungen nach der Organverletzungsskala der American Association for the Surgery of Trauma (AAST) eingeteilt.[1] Für die Diagnostik stumpfer Bauchtraumata gilt die multislice-Computertomographie (MSCT) als Goldstandard, da sie unter den verfügbaren Verfahren die höchste Sensitivität und Spezifität aufweist.[2]

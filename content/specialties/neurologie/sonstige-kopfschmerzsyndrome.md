@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Kopfschmerzsyndrome
 
+**Klassifikation:** ICD-10-GM: G44.-
+
 ## Übersicht
 
 Trigeminale autonomezephalgien (TAC) bilden eine Gruppe primärer Kopfschmerzsyndrome, die durch einseitige Schmerzen und ipsilaterale autonome Symptome gekennzeichnet sind.[1] Zu dieser Gruppe gehören das Cluster-Kopfschmerzsyndrom, die paroxysmale Hemicrania, die Hemicrania continua sowie die Kurzzeit-Kopfschmerzen mit unilateralen neuralgiformen Attacken und Konjunktivalinjektion sowie Tränenfluss (SUNCT) und die Kurzzeit-Kopfschmerzen mit unilateralen neuralgiformen Attacken und autonomen Symptomen (SUNA).[1][2] Diese Syndrome unterscheiden sich klinisch durch die Dauer, Häufigkeit und Intensität der Attacken sowie durch das Ansprechen auf spezifische Therapien.[3] Eine frühzeitige und korrekte Diagnose ist entscheidend, da sie gezielte Therapien ermöglicht, die die Lebensqualität der Betroffenen signifikant verbessern können.[1] Obwohl die Pathophysiologie noch nicht vollständig aufgeklärt ist, wird eine Dysfunktion des Hypothalamus und eine Störung der Interaktion zwischen trigeminovaskulären, trigeminoautonomen und zirkadianen Systemen als zugrunde liegend angenommen.[4]

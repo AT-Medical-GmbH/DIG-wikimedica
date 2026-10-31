@@ -37,6 +37,8 @@ corrections: []
 
 # Akute Bronchitis
 
+**Klassifikation:** ICD-10-GM: J20.-; ICD-11: CA42
+
 Eine **akute Bronchitis** ist meist eine vorübergehende, überwiegend viral bedingte Entzündung der Bronchien mit Husten als Leitsymptom. Die Abgrenzung zu Pneumonie, Asthmaexazerbation und anderen Ursachen ist wichtig.[1]
 
 ## Behandlung und Warnzeichen

@@ -33,6 +33,8 @@ corrections: []
 
 # Rhizarthrose (Daumensattelgelenk-Arthrose)
 
+**Klassifikation:** ICD-10-GM: M18.-
+
 ## Übersicht
 
 Die Rhizarthrose, auch als Arthrose des Daumensattelgelenks bezeichnet, stellt die häufigste Form der Arthrose an der Hand dar und erfordert in vielen Fällen eine operative Intervention, wenn konservative Maßnahmen versagen.[1] Die Erkrankung betrifft primär das erste Karpometokarpalgelenk (CMC I) und führt bei fortschreitendem Verschleiß zu schmerzbedingten Funktionseinbußen, die sich auf die gesamte Hand auswirken können.[1] Historisch wurden verschiedene chirurgische Verfahren entwickelt, wobei die Trapezecktomie als etablierte Standardtherapie gilt.[1] In jüngerer Zeit gewinnen jedoch auch endoprothetische Lösungen sowie innovative nicht-chirurgische Technologien an Bedeutung, wobei ein einheitlicher Konsens über die optimale Behandlungsmethode noch fehlt.[2] Die Diagnosestellung stützt sich auf klinische Untersuchungen und bildgebende Verfahren, wobei die diagnostische Genauigkeit der einzelnen Methoden variiert.[3]

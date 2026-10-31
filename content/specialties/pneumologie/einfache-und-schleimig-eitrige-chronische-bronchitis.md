@@ -33,6 +33,8 @@ corrections: []
 
 # Chronische Bronchitis
 
+**Klassifikation:** ICD-10-GM: J41.-
+
 ## Übersicht
 
 Die chronische Bronchitis ist ein klinisches Syndrom, das durch chronischen Husten und Auswurfproduktion definiert wird und erhebliche Einschränkungen der Lebensqualität sowie eine erhöhte Morbidität und Mortalität nach sich zieht.[1] In der internationalen Klassifikation der Krankheiten (ICD-10) werden die einfache und schleimig-eitrige chronische Bronchitis primär durch die Codes J40, J41 und J42 erfasst, wobei J44 auch bei Vorliegen einer obstruktiven Komponente verwendet wird.[2] Die Erkrankung tritt sowohl als eigenständiges Phänomen als auch als wichtiger Phänotyp der chronisch obstruktiven Lungenerkrankung (COPD) auf.[3] Während die Diagnose in der klinischen Praxis oft auf der Anamnese basiert, stellt die Definition über elektronische Gesundheitsakten eine Herausforderung dar, da Inkonsistenzen bei der Kodierung die Vergleichbarkeit von Forschungsdaten erschweren können.[2]

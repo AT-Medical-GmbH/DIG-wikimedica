@@ -33,6 +33,8 @@ corrections: []
 
 # Psoriasis-Arthritis und enteropathische Arthritis
 
+**Klassifikation:** ICD-10-GM: M07.-*
+
 ## Übersicht
 
 Die Psoriasis-Arthritis ist eine chronische, entzündliche, immunvermittelte Erkrankung, die zur Gruppe der Spondyloarthritiden zählt und häufig mit einer kutanen Psoriasis einhergeht, aber auch spontan auftreten kann.[1] Die Erkrankung ist klinisch heterogen und kann sowohl muskuloskelettale Manifestationen wie periphere Arthritis, Enthesitis, Dactylitis und axiale Entzündungen als auch nicht-muskuloskelettale Symptome wie Uveitis und entzündliche Darmerkrankungen umfassen.[1] Aufgrund dieser Vielfalt wird der Begriff „Psoriatische Erkrankung“ verwendet, um alle betroffenen Domänen zu erfassen.[1] Die Diagnosestellung erfolgt primär klinisch, da spezifische diagnostische Biomarker zur sicheren Unterscheidung von anderen rheumatischen Erkrankungen wie der Osteoarthritis derzeit nicht verfügbar sind.[2] Die Behandlung erfordert einen multidisziplinären Ansatz unter Leitung von Rheumatologen, wobei bei signifikanter Hautbeteiligung die Zusammenarbeit mit Dermatologen essenziell ist.[3] Ziel der Therapie ist die Eliminierung der Entzündung und die Optimierung der Lebensqualität durch eine Shared-Decision-Making-Strategie, die Wirksamkeit, Sicherheit, Patientenpräferenzen und Kosten berücksichtigt.[4]

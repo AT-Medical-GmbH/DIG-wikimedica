@@ -33,6 +33,8 @@ corrections: []
 
 # Polyurie, Pollakisurie und Nykturie
 
+**Klassifikation:** ICD-10-GM: R35.-; ICD-11: MF55
+
 ## Übersicht
 
 Polyurie, Pollakisurie und Nykturie sind häufige Symptome, die unter dem Oberbegriff der unteren Harntraktbeschwerden (LUTS) zusammengefasst werden können.[1] Diese Symptomatik tritt sowohl bei Männern als auch bei Frauen auf und hat einen erheblichen Einfluss auf die Lebensqualität der Betroffenen.[1] Bei Männern über 50 Jahren leiden bis zu 40 % an LUTS, zu denen unter anderem Harndrang, Nykturie und ein schwacher Harnstrahl gehören.[1] Die Ursachen sind vielfältig und reichen von benignen Prostatavergrößerungen über eine überaktive Blase bis hin zu schlafbezogenen Störungen.[2][1] Eine strukturierte Diagnostik ist erforderlich, um die zugrunde liegende Pathophysiologie zu klären und die Therapie entsprechend auszurichten.[3]

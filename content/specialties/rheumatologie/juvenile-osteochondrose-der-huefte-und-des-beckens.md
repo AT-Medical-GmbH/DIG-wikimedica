@@ -33,6 +33,8 @@ corrections: []
 
 # Perthes-Krankheit
 
+**Klassifikation:** ICD-10-GM: M91.-
+
 ## Übersicht
 
 Die Perthes-Krankheit, auch Legg-Calvé-Perthes-Erkrankung genannt, ist eine idiopathische, sterile Nekrose des Femurkopfes bei Kindern.[1][2] Der Verlauf folgt einem typischen Muster aus Knochenabsterben, Revaskularisierung, Knochenresorption sowie schließlich Reossifikation und Heilung.[2] Sie zählt zu den wichtigen Ursachen für Hinken und Hüftschmerzen bei präpubertären Kindern.[3] Die Behandlung zielt darauf ab, die Beweglichkeit der Hüfte zu erhalten, die Überdachung des Femurkopfes (Containment) aufrechtzuerhalten und die mechanische Belastung des Femurkopfes zu begrenzen.[2]

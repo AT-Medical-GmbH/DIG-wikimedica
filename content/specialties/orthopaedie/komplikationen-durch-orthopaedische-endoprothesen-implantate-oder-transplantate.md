@@ -33,6 +33,8 @@ corrections: []
 
 # Komplikationen durch orthopädische Endoprothesen und Implantate
 
+**Klassifikation:** ICD-10-GM: T84.-
+
 ## Übersicht
 
 Die vorliegenden Quellen betreffen Knie- und Hüftprothesen sowie unterschiedliche Ursachen.[1][2][3][4] Periprothetische Frakturen nach Knieendoprothesen sind eine komplexe Situation mit hohem Behandlungsrisiko.[1] Prothesenassoziierte Infektionen werden häufig durch *Staphylococcus aureus* verursacht und sind aufgrund von MRSA-Stämmen und Biofilmbildung schwer zu behandeln.[3] Seltener sind Pilzinfektionen periprothetischer Hüftgelenke, die jedoch schwer verlaufen können.[4]

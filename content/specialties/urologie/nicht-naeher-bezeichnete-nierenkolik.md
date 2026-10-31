@@ -33,6 +33,8 @@ corrections: []
 
 # Nierenkolik
 
+**Klassifikation:** ICD-10-GM: N23
+
 ## Übersicht
 
 Die Nierenkolik ist durch akute, intensive abdominelle Schmerzen gekennzeichnet.[1] Ursache ist in der Regel die Obstruktion der Harnwege durch einen Stein, wobei der Schmerz mit peristaltischen Bewegungen des Ureters zusammenhängt.[2] Die Erkrankung steht im Kontext der Urolithiasis, die als häufige Erkrankung mit global zunehmender Inzidenz gilt.[1] In der Akutversorgung wird die Schmerzkontrolle als erster Schritt des Managements betrachtet.[1]

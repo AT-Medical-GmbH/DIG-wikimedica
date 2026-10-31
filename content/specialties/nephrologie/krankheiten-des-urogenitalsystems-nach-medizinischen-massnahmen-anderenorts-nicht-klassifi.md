@@ -33,6 +33,8 @@ corrections: []
 
 # Urogenitale Komplikationen nach medizinischen Eingriffen
 
+**Klassifikation:** ICD-10-GM: N99.-
+
 ## Übersicht
 
 Die postoperative Harnverhaltung (englisch: Postoperative Urinary Retention, POUR) ist eine häufige Komplikation nach operativen Eingriffen und nach Allgemeinanästhesie.[1][2] Sie liegt vor, wenn Betroffene nach einem Eingriff trotz gefüllter Harnblase nicht spontan Wasser lassen können.[3] Ein klinisches Konsensstatement der American Urogynecologic Society bezieht sich auf Harnverhaltungen innerhalb der ersten sechs Wochen nach einer Operation.[4] Die Komplikation ist insbesondere deshalb relevant, weil sie mit Delir, Schmerzen, verlängertem Krankenhausaufenthalt und langfristig veränderter Blasenkontraktilität in Verbindung gebracht wird.[3]

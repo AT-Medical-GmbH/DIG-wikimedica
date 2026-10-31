@@ -37,6 +37,8 @@ corrections: []
 
 # Karpaltunnelsyndrom
 
+**Klassifikation:** ICD-10-GM: G56.0; ICD-11: 8C10.0
+
 Das **Karpaltunnelsyndrom** entsteht durch eine Einengung des Nervus medianus im Bereich des Handgelenks. Typisch sind nächtliche Missempfindungen, Kribbeln oder Taubheit an Teilen der Hand und bei fortgeschrittenem Verlauf Kraftminderung.[1]
 
 ## Diagnostik und Behandlung

@@ -33,6 +33,8 @@ corrections: []
 
 # Schädelfraktur
 
+**Klassifikation:** ICD-10-GM: S02.-; ICD-11: NA02
+
 ## Übersicht
 
 Schädelfrakturen betreffen die knöchernen Strukturen des Schädels, wobei Schädelbasis und Schädeldach (Kalotte) getrennt betrachtet werden können.[1] In der Bildgebung werden sie häufig anhand von Computertomographie-Aufnahmen beurteilt, wobei die Komplexität der darunterliegenden Anatomie die Befundung erschwert.[2] Für die Einordnung im klinischen Alltag sind vor allem drei Konstellationen relevant: die akute Fraktur nach Schädel-Hirn-Trauma, die eingedrückte Fraktur sowie das sogenannte wachsende Schädelfraktur-Syndrom (Growing Skull Fracture, GSF), das als späte Komplikation nach Kopfverletzungen auftreten kann.[3][4][5] Eine eingedrückte Schädelfraktur liegt vor, wenn die Impression unter das Niveau der inneren Tabula reicht.[3]

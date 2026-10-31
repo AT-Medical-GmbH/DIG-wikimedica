@@ -33,6 +33,8 @@ corrections: []
 
 # Follikuläres Lymphom
 
+**Klassifikation:** ICD-10-GM: C82.-; ICD-11: 2A80
+
 ## Übersicht
 
 Das follikuläre Lymphom (FL) ist das häufigste indolente B-Zell-Lymphom [1] und macht annähernd ein Drittel aller Non-Hodgkin-Lymphome aus.[2] In westlichen Ländern gehört es zu den zwei häufigsten B-Zell-Lymphomen.[3] Die Erkrankung verläuft meist indolent mit einer insgesamt verlängerten Gesamtüberlebenszeit.[3] Trotz guter initialer Ansprechraten kommt es bei den meisten Betroffenen zu Rezidiven, und ein frühes Fortschreiten gilt als Hinweis auf eine ungünstige Prognose.[3] Das FL wird trotz der verbesserten Therapiemöglichkeiten weiterhin als nicht heilbar betrachtet.[2] Die Leitlinien betonen, dass es sich um eine heterogene Erkrankung handelt, die ein individualisiertes Management erfordert.[3]

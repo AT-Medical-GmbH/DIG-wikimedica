@@ -33,6 +33,8 @@ corrections: []
 
 # Krankheiten der Speicheldrüsen
 
+**Klassifikation:** ICD-10-GM: K11.-; ICD-11: DA04
+
 ## Übersicht
 
 Krankheiten der Speicheldrüsen zählen zu den häufigsten Erkrankungen im oralen und maxillofazialen Bereich und lassen sich primär in tumoröse und nicht-tumoröse Kategorien einteilen.[1] Zu den nicht-tumorösen Erkrankungen gehören verschiedene Formen der Entzündung, das Sjögren-Syndrom, granulomatöse Erkrankungen sowie Entwicklungsanomalien.[1] Diese Erkrankungen können lokal begrenzt sein oder eng mit systemischen Erkrankungen verknüpft sein, wobei häufig eine Beeinträchtigung der Speichelsekretionsfunktion auftritt.[1] Die daraus resultierende Xerostomie und sekundäre Läsionen haben erhebliche Auswirkungen auf die orale Gesundheit und die Lebensqualität der Betroffenen.[2] Die großen Speicheldrüsen, bestehend aus den paarigen Ohrspeicheldrüsen, Unterkieferspeicheldrüsen und Zungenspeicheldrüsen, können sowohl im Drüsengewebe selbst als auch in ihrem Ausscheidungssystem erkranken.[3] Während tumoröse Erkrankungen selten sind und meist gutartig verlaufen, stellen entzündliche und obstruktive Prozesse eine häufige Ursache für Beschwerden dar.[3]

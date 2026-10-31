@@ -33,6 +33,8 @@ corrections: []
 
 # Distorsionen und Luxationen von Handgelenk und Hand
 
+**Klassifikation:** ICD-10-GM: S63.-
+
 ## Übersicht
 
 Verletzungen von Hand und Handgelenk gehören zu den häufigen Anlässen für muskuloskelettale Vorstellungen in der Notaufnahme.[1] Zum Verletzungsspektrum zählen Frakturen, Luxationen, Verstauchungen und Zerrungen.[2] Bei den Weichteilverletzungen stehen Schäden an Bändern, Sehnen und volaren Platten im Vordergrund.[3] Bei unzureichender Behandlung können diese Verletzungen jedoch erhebliche Schmerzen, Einschränkungen und langfristige Funktionsverluste verursachen.[4]

@@ -37,6 +37,8 @@ corrections: []
 
 # Kolorektales Karzinom
 
+**Klassifikation:** ICD-10-GM: C18.-, C19, C20
+
 Das **kolorektale Karzinom** umfasst bösartige Tumoren des Dick- und Mastdarms. Blut im Stuhl, veränderte Stuhlgewohnheiten oder eine Anämie können Hinweise sein, sind aber nicht beweisend.[1]
 
 ## Diagnostik und Behandlung

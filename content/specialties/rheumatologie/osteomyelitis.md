@@ -33,6 +33,8 @@ corrections: []
 
 # Osteomyelitis
 
+**Klassifikation:** ICD-10-GM: M86.-
+
 ## Übersicht
 
 Die Osteomyelitis ist eine ernste Entzündung des Knochengewebes, die häufig aus diabetischen Fußulzera, Trauma oder chirurgischen Eingriffen resultiert.[1] Die Infektion des muskuloskelettalen Systems umfasst Knochen, Gelenke und Weichteile und stellt ein häufiges klinisches Szenario sowohl im ambulanten als auch im notfallmedizinischen Bereich dar.[2] Die Differenzierung zwischen einer Weichteilinfektion und einer knöchernen Infektion ist entscheidend für die Wahl des geeigneten therapeutischen Verlaufs.[3] Die Diagnosestellung erfordert oft einen multimodalen Ansatz, da verschiedene bildgebende Verfahren unterschiedliche Zwecke in der Beurteilung verdächtiger muskuloskelettaler Infektionen erfüllen.[4] Die Pathophysiologie und der klinische Verlauf variieren stark je nach Ätiologie, darunter hämatogene Ausbreitung, kontinuitätsgleiche Infektionen oder spezifische Erreger wie Salmonellen.[5]

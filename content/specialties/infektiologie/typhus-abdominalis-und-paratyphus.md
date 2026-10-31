@@ -33,6 +33,8 @@ corrections: []
 
 # Typhus und Paratyphus
 
+**Klassifikation:** ICD-10-GM: A01.-
+
 ## Übersicht
 
 Typhus abdominalis und Paratyphus werden zusammenfassend als Enterisches Fieber bezeichnet und sind invasive bakterielle Infektionen, die durch *Salmonella enterica* Serovar Typhi bzw. Paratyphi A, B und C verursacht werden.[1] Die Erreger sind streng humanpathogen und werden primär über den fäkal-oralen Weg übertragen, wobei eine Infektion typischerweise mit unzureichender Wasser-, Sanitär- und Hygieneinfrastruktur in Verbindung steht.[1][2] Die klinische Präsentation umfasst ein unspezifisches, fieberhaftes Krankheitsbild, das sich oft über mehrere Tage entwickelt und eine hohe Differentialdiagnostik zu anderen fieberhaften Erkrankungen erfordert.[1][2] Die Diagnose stützt sich auf den mikrobiologischen Nachweis im Blut oder Knochenmark, während die Therapie durch lokale Resistenzmuster determiniert wird.[1][2] Präventiv stehen Impfungen, insbesondere neuere Typhus-Konjugatimpfstoffe, sowie Maßnahmen zur Verbesserung der Hygiene im Vordergrund.[1][3]

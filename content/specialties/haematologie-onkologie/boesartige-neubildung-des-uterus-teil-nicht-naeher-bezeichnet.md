@@ -33,6 +33,8 @@ corrections: []
 
 # Gebärmutterkrebs
 
+**Klassifikation:** ICD-10-GM: C55
+
 ## Übersicht
 
 Bösartige Neubildungen des Uterus stellen eine heterogene Gruppe gynäkologischer Malignome dar, deren Inzidenz und Mortalität sowohl regional als auch global zunehmen.[1] Die Erkrankung ist die einzige gynäkologische Malignität, bei der ein steigender Trend sowohl bei der Häufigkeit als auch bei der Sterblichkeit beobachtet wird.[1] Traditionell wird das Endometriumkarzinom in zwei Typen unterteilt: Typ I umfasst häufige, hormonrezeptorpositive Tumoren mit besserer Prognose, während Typ II seltene, hormonrezeptornegative und hochgradige Tumoren wie seröse oder klarzellige Karzinome mit schlechterem Verlauf umfasst.[2] Diese vier Subtypen sind das endometriale Hypermutierte (POLE-ultramutiert), das Mikrosatelliteninstabile Hypermutierte, das Kopienzahl-Niedrige und das Kopienzahl-Hohe.[2] Diese Einteilung ermöglicht eine präzisere Einschätzung der Biologie des Tumors und beeinflusst direkt die therapeutischen Entscheidungen.[2]

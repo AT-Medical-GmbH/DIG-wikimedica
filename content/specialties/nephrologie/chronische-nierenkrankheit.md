@@ -37,6 +37,8 @@ corrections: []
 
 # Chronische Nierenkrankheit
 
+**Klassifikation:** ICD-10-GM: N18.-; ICD-11: GB61
+
 Eine **chronische Nierenkrankheit** liegt bei über mindestens drei Monate bestehenden Auffälligkeiten der Nierenstruktur oder -funktion mit gesundheitlicher Relevanz vor. Die Einordnung berücksichtigt unter anderem geschätzte glomeruläre Filtrationsrate und Albuminurie.[1]
 
 ## Diagnostik und Behandlung

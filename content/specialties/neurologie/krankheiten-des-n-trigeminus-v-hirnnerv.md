@@ -33,6 +33,8 @@ corrections: []
 
 # Trigeminusneuralgie
 
+**Klassifikation:** ICD-10-GM: G50.-; ICD-11: 8B82
+
 ## Übersicht
 
 Sie äußert sich in wiederkehrenden, einseitigen, kurzen, elektrisierend anmutenden Schmerzattacken, die abrupt beginnen und enden, auf einen oder mehrere Trigeminusäste begrenzt sind und durch harmlose Reize ausgelöst werden.[1] Sie wird als chronischer neuropathischer Schmerzzustand eingeordnet.[2] Die aktuelle Klassifikation unterscheidet eine primäre Form, die klassische oder idiopathische Ausprägung umfasst, von einer sekundären Form, die durch eine andere Ursache als einen neurovaskulären Kontakt bedingt ist.[3] Die Einteilung richtet sich dabei nach dem Grad des neurovaskulären Kontakts bzw. nach dem Vorliegen einer anderen Grunderkrankung.[3][2]

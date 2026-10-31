@@ -33,6 +33,8 @@ corrections: []
 
 # Spondylose der Wirbelsäule
 
+**Klassifikation:** ICD-10-GM: M47.-
+
 ## Übersicht
 
 Die Spondylose der Wirbelsäule ist eine degenerative Erkrankung, die durch altersbedingte Veränderungen der Wirbelsäulenstrukturen gekennzeichnet ist und häufig zu Schmerzen sowie neurologischen Ausfällen führt.[1] Die Behandlung umfasst konservative und chirurgische Optionen, wobei der Therapieerfolg stark von der Schwere der neurologischen Defizite und der Lokalisation der Degeneration abhängt.[2][3]

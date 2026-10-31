@@ -33,6 +33,8 @@ corrections: []
 
 # Lungenabszess
 
+**Klassifikation:** ICD-10-GM: J85.-; ICD-11: CA43
+
 ## Übersicht
 
 Ein Lungenabszess ist eine nekrotisierende Infektion des Lungengewebes, die zur Zerstörung gesunden Lungengewebes führt und sich über mehrere Wochen entwickelt.[1] Pathophysiologisch handelt es sich um eine Hohlraumbildung mit einer gut definierten Wand, die durch eine mikrobielle Infektion entsteht.[2] Die Erkrankung stellt eine schwere und komplexe respiratorische Infektion dar, bei der der Körper versucht, die Ausbreitung der Infektion einzudämmen.[3] Die konservative Behandlung mit systemischen Antibiotika gilt als Goldstandard und führt in 63 bis 67 Prozent der Fälle zum Erfolg.[3] Bei einem Versagen der initialen antimikrobiellen Therapie oder bei Komplikationen sind invasive Drainageverfahren oder chirurgische Resektionen erforderlich.[2][3]

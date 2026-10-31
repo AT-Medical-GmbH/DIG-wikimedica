@@ -38,6 +38,8 @@ corrections: []
 
 # Periphere arterielle Verschlusskrankheit
 
+**Klassifikation:** ICD-10-GM: I70.2-
+
 > **Medizinisch nicht freigegebener KI-Entwurf.** Fachreview und Sicherheitsprüfung sind vor regulärer Veröffentlichung erforderlich.
 
 Die **periphere arterielle Verschlusskrankheit (pAVK)** ist eine meist atherosklerotisch bedingte Durchblutungsstörung der Extremitätenarterien, insbesondere der Beine. Sie ist nicht nur ein lokales Beinproblem, sondern häufig Hinweis auf eine systemische atherosklerotische Erkrankung mit erhöhtem Risiko für Herzinfarkt und Schlaganfall. [1]

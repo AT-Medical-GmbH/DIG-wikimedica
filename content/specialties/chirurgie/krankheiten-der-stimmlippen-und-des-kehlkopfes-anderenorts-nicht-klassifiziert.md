@@ -33,6 +33,8 @@ corrections: []
 
 # Krankheiten der Stimmlippen und des Kehlkopfes
 
+**Klassifikation:** ICD-10-GM: J38.-; ICD-11: CA0H
+
 ## Übersicht
 
 Die Office-Laryngologie, einschließlich Laryngoskopie und Stroboskopie, gilt heute als Goldstandard zur Analyse der Kehlkopfanatomie und -funktion.[1] Diese Verfahren ermöglichen es, viele diagnostische und therapeutische Eingriffe wie Stimmlippeninjektionen oder Laserablationen sicher in der Praxis durchzuführen, was die Notwendigkeit einer Vollnarkose und damit verbundener Risiken minimiert.[2][1] Die topische Anästhesie in Kombination mit einer angemessenen Patientenführung und Lagerung trägt dabei maßgeblich zum Komfort und zum Erfolg dieser Eingriffe bei.[1]

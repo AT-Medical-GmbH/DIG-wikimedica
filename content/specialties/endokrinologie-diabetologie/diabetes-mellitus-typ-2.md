@@ -39,6 +39,8 @@ corrections: []
 
 # Diabetes mellitus Typ 2
 
+**Klassifikation:** ICD-10-GM: E11.-; ICD-11: 5A11
+
 **Diabetes mellitus Typ 2** ist eine chronische Stoffwechselerkrankung mit fortschreitender Störung der Insulinsekretion und häufig gleichzeitig bestehender Insulinresistenz. Er kann in jedem Erwachsenenalter auftreten und wird nicht allein durch Körpergewicht oder Alter definiert.[1]
 
 ## Diagnostik und Folgen

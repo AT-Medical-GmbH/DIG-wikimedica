@@ -33,6 +33,8 @@ corrections: []
 
 # Akute vorübergehende psychotische Störungen
 
+**Klassifikation:** ICD-10-GM: F23.-
+
 ## Übersicht
 
 Die ICD-10 führte dafür die Kategorie der akuten und vorübergehenden psychotischen Störungen ein, die polymorphe, schizophreniforme und vorwiegend wahnhafte Subtypen umfasst.[1] In der ICD-11 wird die Kategorie laut einer Metaanalyse auf die polymorphe psychotische Störung beschränkt, während das DSM-5 die kurze psychotische Störung führt.[1][2] Diese unterschiedliche Systematik zeigt, dass zwischen den beiden Klassifikationssystemen keine vollständige Übereinstimmung besteht.[2] Nach einer konzeptionellen Analyse besteht jedoch nur wenig Kontinuität zu den modernen beschreibenden Kategorien.[2]

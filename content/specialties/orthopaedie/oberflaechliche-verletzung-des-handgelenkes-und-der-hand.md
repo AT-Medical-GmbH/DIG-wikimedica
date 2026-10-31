@@ -33,6 +33,8 @@ corrections: []
 
 # Oberflächliche Verletzung des Handgelenks und der Hand
 
+**Klassifikation:** ICD-10-GM: S60.-
+
 ## Übersicht
 
 Oberflächliche Verletzungen des Handgelenks und der Hand stellen eine häufige Ursache für traumatische Verletzungen der oberen Extremität dar, wobei Fingerlaserationen die häufigste Verletzungsart im Rahmen von Verletzungen durch Konsumgüter darstellen.[1] Diese Verletzungen können zu erheblichen funktionellen Einschränkungen führen, wobei eine der häufigsten und oft behindernden Spätfolgen die Kälteintoleranz ist.[2] Die Kälteintoleranz äußert sich durch eine übermäßige oder schmerzhafte Reaktion auf Kälteexposition und ist mit Symptomen wie Schmerzen, Taubheitsgefühl, Steifheit, Farbveränderungen und verminderter Geschicklichkeit verbunden.[2] Die Diagnostik und Triage solcher Verletzungen hat sich durch den Einsatz von Telemedizin erweitert, wobei Fotodokumentation und Video-Konsultationen als praktikable Surrogate für face-to-face-Bewertungen in der Notaufnahme gelten.[1] Diese digitalen Methoden ermöglichen eine hohe Übereinstimmung der Behandlungsentscheidungen im Vergleich zur persönlichen Untersuchung und tragen dazu bei, unnötige Verlegungen zu reduzieren.[1]

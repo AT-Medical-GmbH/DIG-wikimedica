@@ -37,6 +37,8 @@ corrections: []
 
 # Multiple Sklerose
 
+**Klassifikation:** ICD-10-GM: G35.-; ICD-11: 8A40
+
 Die **Multiple Sklerose** ist eine immunvermittelte Erkrankung des zentralen Nervensystems. Sie kann schubförmig oder progredient verlaufen und vielfältige neurologische Symptome verursachen.[1]
 
 ## Diagnostik und Behandlung

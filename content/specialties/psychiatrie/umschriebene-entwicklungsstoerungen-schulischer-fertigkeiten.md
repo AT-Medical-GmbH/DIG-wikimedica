@@ -33,6 +33,8 @@ corrections: []
 
 # Lese-Rechtschreib-Störung
 
+**Klassifikation:** ICD-10-GM: F81.-
+
 ## Übersicht
 
 Sie können anhaltende Schwierigkeiten beim Lesen, beim schriftlichen Ausdruck und/oder beim Rechnen umfassen.[1][2] Die Dyslexie als häufigste Form ist durch Defizite in Geschwindigkeit und Genauigkeit des Wortlesens, eine unzureichende Dekodierfähigkeit und ein schwaches Rechtschreibvermögen gekennzeichnet.[1] Nach aktueller Auffassung ist sie durch eine unerwartete Leseschwierigkeit bei Personen gekennzeichnet, die grundsätzlich in der Lage wären, deutlich besser zu lesen.[3] Die Störung gilt international als hoch erblich, ihre genaue biologische Grundlage ist jedoch noch nicht geklärt.[1] Lesestörungen werden außerdem häufig gemeinsam mit Sprach-, Aufmerksamkeits- und Rechenstörungen beobachtet.[4] Die Diagnosestellung, insbesondere bei Erwachsenen, ist methodisch umstritten, weil es an einer stabilen Definition und an empirisch validierten Kriterien fehlt, die eine Abgrenzung gegenüber normaler akademischer Variabilität oder gegenüber sozialem Nachteil erlauben.[2][5]

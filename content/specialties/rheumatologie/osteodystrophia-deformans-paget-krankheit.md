@@ -33,6 +33,8 @@ corrections: []
 
 # Morbus Paget des Knochens
 
+**Klassifikation:** ICD-10-GM: M88.-
+
 ## Übersicht
 
 Der Morbus Paget des Knochens, auch als Osteodystrophia deformans bezeichnet, ist eine fokale Skeletterkrankung, die durch eine lokal überaktive und gestörte Knochenumbauaktivität gekennzeichnet ist.[1] Im Zentrum der Pathophysiologie steht eine verstärkte osteoklastische Knochenresorption, die mit einer kompensatorischen, jedoch unorganisierten Knochenneubildung einhergeht.[1] Dies führt zu einer Beeinträchtigung der Knochenqualität und kann in der Folge zu Knochenverformungen, pathologischen Frakturen und einer Einschränkung der Lebensqualität führen.[2] Die Erkrankung tritt häufiger im höheren Lebensalter auf und ist in der klinischen Praxis oft asymptomatisch oder nur paucisymptomatisch, wodurch die Diagnose häufig zufällig im Rahmen anderer Untersuchungen gestellt wird.[2] Die Prävalenz variiert geografisch stark; während sie in Großbritannien historisch höher war, ist sie in anderen Regionen geringer, wobei ein Rückgang der Erkrankungshäufigkeit in den letzten Jahrzehnten dokumentiert wurde.[3]

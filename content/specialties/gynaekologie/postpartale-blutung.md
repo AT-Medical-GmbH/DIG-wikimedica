@@ -33,6 +33,8 @@ corrections: []
 
 # Postpartale Blutung
 
+**Klassifikation:** ICD-10-GM: O72.-; ICD-11: JA43
+
 ## Übersicht
 
 Die postpartale Blutung (PPH) gilt weltweit als führende Ursache für mütterliche Mortalität.[1][2] Besonders in ressourcenarmen und abgelegenen Versorgungssituationen ist die Belastung hoch.[1] Eine nordamerikanische Leitlinie bezeichnet als Hämorrhagie einen kumulativen Blutverlust von mindestens 1000 ml oder einen Blutverlust mit Zeichen oder Symptomen einer Hypovolämie innerhalb von 24 Stunden nach dem Geburtsvorgang.[2][3] Epidemiologische Analysen zu vaginalen Geburten arbeiten dagegen mit Schwellen von 500 ml und 1000 ml.[4] Zeitlich wird häufig zwischen einer primären oder frühen PPH (innerhalb der ersten 24 Stunden) und einer späten oder verzögerten PPH (zwischen 24 Stunden und sechs Wochen) unterschieden.[5] Die visuelle Schätzung gilt als weit verbreitet, aber ungenau; sie führt häufig zu einer Unterdiagnose und zu einer verzögerten oder ausbleibenden Reaktion.[1] Die FIGO betont, dass das technische Wissen zum Management der PPH gut etabliert ist und die eigentliche Herausforderung in der konsistenten Erkennung und der kontextangemessenen Anwendung liegt.[1]

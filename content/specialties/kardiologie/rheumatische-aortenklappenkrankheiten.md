@@ -33,6 +33,8 @@ corrections: []
 
 # Rheumatische Aortenklappenkrankheit
 
+**Klassifikation:** ICD-10-GM: I06.-
+
 ## Übersicht
 
 Die rheumatische Aortenklappenerkrankung ist eine chronische Folgeerkrankung des akuten rheumatischen Fiebers, das durch eine Autoimmunreaktion auf eine Infektion mit Gruppe-A-Streptokokken ausgelöst wird.[1][2] Obwohl das akute rheumatische Fieber in Industrieländern weitgehend verschwunden ist, bleibt die rheumatische Herzkrankheit weltweit eine der häufigsten Ursachen für erworbene Herzerkrankungen bei Kindern und jungen Erwachsenen, insbesondere in Ländern mit niedrigem und mittlerem Einkommen.[3][4][1] Die Erkrankung führt zu dauerhaften Schäden an den Herzklappen, wobei die Mitralklappe am häufigsten betroffen ist, gefolgt von der Aortenklappe.[3] Die Diagnose und das Management erfordern einen multidisziplinären Ansatz, der von der Früherkennung über die sekundäre Prophylaxe bis hin zu chirurgischen Eingriffen reicht.[3][1]

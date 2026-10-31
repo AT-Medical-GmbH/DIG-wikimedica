@@ -33,6 +33,8 @@ corrections: []
 
 # Pneumonie durch sonstige Erreger
 
+**Klassifikation:** ICD-10-GM: J16.-
+
 ## Übersicht
 
 Als atypische Pneumonie werden Lungenentzündungen bezeichnet, die durch Erreger wie *Mycoplasma pneumoniae*, *Chlamydia pneumoniae* oder *Legionella*-Arten ausgelöst werden.[1][2] Diese Erreger unterscheiden sich in ihren Eigenschaften und in ihrem klinischen Verlauf deutlich von typischen bakteriellen Pneumonieerregern.[2][3] Sie lassen sich in der Gramfärbung nicht darstellen und sind mit Standardverfahren nicht ohne Weiteres kultivierbar.[3] Die klinische Zuordnung ist schwierig, da die Symptome häufig unspezifisch sind und sich mit denen anderer Atemwegsinfektionen überschneiden.[1][2]

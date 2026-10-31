@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildung der großen Speicheldrüsen
 
+**Klassifikation:** ICD-10-GM: C08.-
+
 ## Übersicht
 
 Bösartige Neubildungen der großen Speicheldrüsen stellen eine heterogene Gruppe seltener Kopf-Hals-Tumoren dar, die etwa zwei bis sechs Prozent aller malignen Kopf-Hals-Erkrankungen ausmachen.[1] Die Behandlung erfordert ein multidisziplinäres Vorgehen in spezialisierten Zentren, da die anatomische Komplexität und die histologische Vielfalt die Therapieplanung erschweren.[2] Die primäre Therapieoption für lokalisierte Tumoren ist in der Regel die chirurgische Resektion, ergänzt durch adjuvante Strahlentherapie bei Vorliegen ungünstiger prognostischer Faktoren.[3] Für fortgeschrittene, rezidivierende oder metastasierte Erkrankungen stehen systemische Therapieoptionen zur Verfügung, deren Auswahl stark vom histologischen Subtyp und molekularen Profilen abhängt.[4] Aufgrund der Seltenheit der Erkrankung liegen nur begrenzte Daten aus prospektiven Studien vor, weshalb viele Empfehlungen auf retrospektiven Analysen und Konsensverfahren basieren.[5]

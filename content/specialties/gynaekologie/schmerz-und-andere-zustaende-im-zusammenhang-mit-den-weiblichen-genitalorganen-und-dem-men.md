@@ -33,6 +33,8 @@ corrections: []
 
 # Menstruationsschmerzen
 
+**Klassifikation:** ICD-10-GM: N94.-
+
 ## Übersicht
 
 Sie können Schule, Studium und Erwerbstätigkeit deutlich beeinträchtigen.[1] Die primäre Form wird als globales Public-Health-Thema beschrieben, das Lebensqualität, Produktivität und Gesundheitskosten belastet.[2] Dadurch können sowohl Betroffene als auch Fachpersonen die Beschwerden herunterspielen.[3] Neben der primären Dysmenorrhoe wird eine sekundäre Form diskutiert, die im Zusammenhang mit gynäkologischen Diagnosen wie Endometriose oder Myomen steht.[3]

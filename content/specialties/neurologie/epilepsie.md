@@ -37,6 +37,8 @@ corrections: []
 
 # Epilepsie
 
+**Klassifikation:** ICD-10-GM: G40.-
+
 **Epilepsie** bezeichnet eine Erkrankung mit anhaltender Neigung zu epileptischen Anfällen. Die Ursachen, Anfallsformen und Prognosen sind vielfältig.[1]
 
 ## Diagnostik und Behandlung

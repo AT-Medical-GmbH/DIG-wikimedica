@@ -37,6 +37,8 @@ corrections: []
 
 # Pneumonie
 
+**Klassifikation:** ICD-10-GM: J18.-
+
 Eine **Pneumonie** ist eine Infektion des Lungengewebes. Erreger, Schweregrad, Alter, Vorerkrankungen und Versorgungsort bestimmen Diagnostik und Behandlung. Die ambulant erworbene Pneumonie muss von nosokomialen und immunsuppressionsassoziierten Situationen abgegrenzt werden.[1]
 
 ## Klinik und Diagnostik

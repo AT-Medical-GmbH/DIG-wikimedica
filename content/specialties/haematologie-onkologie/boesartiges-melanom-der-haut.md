@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartiges Melanom der Haut
 
+**Klassifikation:** ICD-10-GM: C43.-
+
 ## Übersicht
 
 Das kutane Melanom ist ein maligner Tumor der Haut, der von Melanozyten ausgeht und mit einer erheblichen Krankheitslast einhergeht.[1] Es gilt als die gefährlichste Form der Hauttumoren und ist für den überwiegenden Teil der hautkrebsbedingten Todesfälle verantwortlich.[2][3] In Australien und Neuseeland, Europa und Nordamerika zählt es zu den häufigen Krebserkrankungen, und die Inzidenz steigt in vielen Regionen weiter an.[4] Das Tumorstadium bei der Diagnose ist für die Prognose bedeutsamer als bei nahezu jeder anderen Krebsart.[4] Lokalisierte Erkrankungen und dünnere Primärtumoren gehen mit einer günstigeren Prognose einher.[5]

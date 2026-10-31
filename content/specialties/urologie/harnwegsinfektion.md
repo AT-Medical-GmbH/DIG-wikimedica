@@ -37,6 +37,8 @@ corrections: []
 
 # Harnwegsinfektion
 
+**Klassifikation:** ICD-10-GM: N39.0
+
 Eine **Harnwegsinfektion** bezeichnet eine durch Mikroorganismen verursachte Infektion der Harnwege. Die klinische Einordnung unterscheidet unter anderem untere und obere Harnwegsinfektionen sowie unkomplizierte und komplizierte Situationen.[1]
 
 ## Diagnostik und Behandlung

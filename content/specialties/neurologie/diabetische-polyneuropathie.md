@@ -37,6 +37,8 @@ corrections: []
 
 # Diabetische Polyneuropathie
 
+**Klassifikation:** ICD-10-GM: E10.4-, E11.4-
+
 Die **diabetische Polyneuropathie** ist eine häufige neurologische Komplikation des Diabetes mellitus. Am häufigsten ist eine distal-symmetrische, überwiegend sensible Neuropathie; autonome Neuropathien können weitere Organsysteme betreffen.[1]
 
 ## Klinik und Diagnostik

@@ -33,6 +33,8 @@ corrections: []
 
 # Toxische Lebererkrankung
 
+**Klassifikation:** ICD-10-GM: K71.-
+
 ## Übersicht
 
 Die toxische Lebererkrankung, im klinischen Kontext häufig als medikamenteninduzierte Leberschädigung (DILI) bezeichnet, ist eine schwerwiegende unerwünschte Arzneimittelwirkung, die sowohl die Behandlung der Grunderkrankung erschweren als im schweren Verlauf zu akutem Leberversagen oder zum Tod führen kann.[1][2][3] Die Diagnose stellt eine Herausforderung dar, da es sich um eine Ausschlussdiagnose handelt und keine spezifischen Biomarker zur sicheren Abgrenzung von anderen Lebererkrankungen verfügbar sind.[4][5][6] Die Identifizierung erfordert daher eine hohe klinische Wachsamkeit, die sorgfältige Erhebung der Anamnese und den systematischen Ausschluss alternativer Ätiologien.[1][2][3][4] In der Praxis sind häufig Antibiotika, nichtsteroidale Antirheumatika, pflanzliche Nahrungsergänzungsmittel sowie Antituberkulotika und Antineoplastika die Hauptverursacher.[1][7]

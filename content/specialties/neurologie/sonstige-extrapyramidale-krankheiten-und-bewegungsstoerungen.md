@@ -33,6 +33,8 @@ corrections: []
 
 # Extrapyramidale Erkrankungen und Bewegungsstörungen
 
+**Klassifikation:** ICD-10-GM: G25.-
+
 ## Übersicht
 
 Extrapyramidale Erkrankungen und Bewegungsstörungen umfassen eine heterogene Gruppe von neurologischen Störungen, die durch Hyperkinese, Hypokinese oder Ataxie gekennzeichnet sind.[1] Die Diagnostik ist oft komplex, da sich die klinischen Phänotypen überschneiden und die Genotyp-Phänotyp-Beziehungen vielfältig sind.[1] Die Klassifikation unterscheidet primär zwischen hyperkinetischen und hypokinetischen Bewegungsstörungen sowie der Ataxie.[1] Während bei Kindern hyperkinetische Störungen wie Tics, Dystonien und Chorea häufiger auftreten, sind hypokinetische Syndrome wie das Parkinson-Syndrom in der pädiatrischen Population selten.[1] Die Ätiologie reicht von genetischen Defekten über erworbene metabolische Störungen bis hin zu medikamenteninduzierten oder autoimmunen Mechanismen.[1][2][3]

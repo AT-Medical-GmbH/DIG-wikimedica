@@ -33,6 +33,8 @@ corrections: []
 
 # Schluckstörung
 
+**Klassifikation:** ICD-10-GM: R13.-; ICD-11: MD93
+
 ## Übersicht
 
 Dysphagie bezeichnet allgemein eine Störung des Schluckvorgangs, die je nach Quelle unterschiedlich präzise definiert wird.[1][2] Eine international einheitliche Definition existiert bislang nicht, und verschiedene Fachgesellschaften verwenden unterschiedliche Formulierungen.[3] In einer dänischen Delphi-Studie wurde eine interdisziplinär weithin akzeptierte Definition formuliert, nach der eine Dysphagie eine funktionelle Beeinträchtigung ist, die die Aufnahme von Nahrung und Flüssigkeit verhindert oder einschränkt und das Schlucken unsicher, ineffizient oder unangenehm macht oder die Lebensqualität beeinflusst.[3] Für die klinische Einordnung wird meist zwischen oropharyngealer und ösophagealer Dysphagie unterschieden.[3][4] Die oropharyngeale Dysphagie betrifft die oralen und pharyngealen Phasen des Schluckakts und führt zu Schwierigkeiten, den Bolus sicher und wirksam vom Mund über den Rachen in die Speiseröhre zu befördern.[3] Die ösophageale Dysphagie wird als Schluckbeschwerde beschrieben, die meist retrosternal empfunden wird und auf die Speiseröhre oder den unteren Ösophagussphinkter zurückzuführen ist.[3] Eine Abgrenzung beider Formen ist in den Quellen nicht vollständig etabliert; eine Expertenkonsens-Definition der ösophagealen Dysphagie wurde jedoch vorgeschlagen.[3] Die Dysphagie wird in der ICD-10 allgemein unter den Symptomen und Zeichen geführt.[3] Die oropharyngeale Dysphagie wird dagegen in einer Quelle unter den digestiven Symptomen und Zeichen eingeordnet.[3]

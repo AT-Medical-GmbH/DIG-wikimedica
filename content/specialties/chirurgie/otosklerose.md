@@ -33,6 +33,8 @@ corrections: []
 
 # Otosklerose
 
+**Klassifikation:** ICD-10-GM: H80.-; ICD-11: AB33
+
 ## Übersicht
 
 Die Otosklerose ist eine häufige Ursache für eine leitungsbedingte Schwerhörigkeit, die durch eine gestörte Knochenremodellierung der Gehörkapsel gekennzeichnet ist.[1] Die Erkrankung betrifft etwa 0,3 % der Bevölkerung und manifestiert sich typischerweise im Erwachsenenalter.[1] Bei der Hälfte der Patientinnen und Patienten liegt eine positive Familienanamnese vor, was auf eine genetische Komponente hindeutet.[1] Die Diagnose erfolgt primär klinisch und audiologisch, wobei die ICD-10-Codes H80 bis H80.9 zur Klassifizierung herangezogen werden.[1] Die Behandlung zielt darauf ab, die leitungsbedingte Hörstörung zu beheben, wobei die Stapesoperation als Goldstandard gilt.[2] Alternativ kommen Hörgeräte oder, in seltenen Fällen, implantierbare Hörgeräte zum Einsatz.[3]

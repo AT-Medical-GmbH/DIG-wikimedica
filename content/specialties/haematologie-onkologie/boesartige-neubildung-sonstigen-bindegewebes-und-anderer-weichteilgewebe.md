@@ -33,6 +33,8 @@ corrections: []
 
 # Weichteilsarkome
 
+**Klassifikation:** ICD-10-GM: C49.-
+
 ## Übersicht
 
 Weichteilsarkome sind maligne Tumoren mesenchymalen Ursprungs, die aus Fett-, Muskel-, Nerven-, Gefäß- und anderem Bindegewebe entstehen können.[1][2] Sie zeigen ein heterogenes Spektrum klinischer und pathologischer Merkmale.[1][2] Für die Behandlung sind Histotyp, Grading und Lokalisation maßgeblich, da die Therapieentscheidung davon abhängt.[3][4] Die Versorgung erfordert ein multidisziplinäres Team mit nachgewiesener Expertise in der Behandlung dieser Tumoren.[1]

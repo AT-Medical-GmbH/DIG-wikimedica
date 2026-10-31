@@ -33,6 +33,8 @@ corrections: []
 
 # Genitalprolaps der Frau
 
+**Klassifikation:** ICD-10-GM: N81.-
+
 ## Übersicht
 
 Der Genitalprolaps der Frau, in der Fachliteratur meist als Beckenorganprolaps (POP) bezeichnet, wird als häufige, gutartige Erkrankung beschrieben.[1][2] Er kann eine vaginale Vorwölbung und Druckgefühl verursachen sowie Störungen der Blasen-, Darm- und Sexualfunktion hervorrufen, die die Lebensqualität beeinträchtigen können.[1][2] Die Diagnose ist klinischer Natur.[3] Behandlungsoptionen umfassen Beobachtung, konservative und operative Verfahren; die Auswahl soll auf die medizinische Situation und die persönlichen funktionellen Ziele der Patientin abgestimmt werden.[4]

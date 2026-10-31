@@ -33,6 +33,8 @@ corrections: []
 
 # Luxation und Zerrung des Hüftgelenkes
 
+**Klassifikation:** ICD-10-GM: S73.-
+
 ## Übersicht
 
 Luxationen und Zerrungen des Hüftgelenks stellen orthopädische Notfälle dar, die eine rasche Diagnostik und Therapie erfordern, um langfristige funktionelle Einschränkungen zu vermeiden.[1] Während Zerrungen als Weichteilverletzungen klassifiziert werden, bezeichnet eine Luxation die vollständige oder teilweise Verlagerung des Femurkopfes aus der Pfanne, wobei traumatische Ursachen im Vordergrund stehen.[1] Die Behandlung zielt primär auf die schnelle Reposition und die Stabilisierung des Gelenks ab, wobei der Erfolg maßgeblich von der Dauer der Fehlstellung und begleitenden Verletzungen abhängt.[1]

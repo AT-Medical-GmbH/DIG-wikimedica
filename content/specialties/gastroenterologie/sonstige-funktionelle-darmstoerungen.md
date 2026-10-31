@@ -33,6 +33,8 @@ corrections: []
 
 # Funktionelle Darmstörungen
 
+**Klassifikation:** ICD-10-GM: K59.-
+
 ## Übersicht
 
 Funktionelle Darmstörungen sind durch chronische gastrointestinale Beschwerden gekennzeichnet, für die sich mit den üblichen diagnostischen Verfahren keine morphologische, metabolische oder neurologische Ursache nachweisen lässt.[1][2] Beide Krankheitsbilder überschneiden sich klinisch und pathophysiologisch so stark, dass sie in der Praxis häufig nicht sicher voneinander zu trennen sind.[3][1] Sie können erhebliche persönliche, gesundheitliche und soziale Folgen haben und die Lebensqualität der Betroffenen beeinträchtigen.[3] Die Diagnose stützt sich auf die Rom-Kriterien, wobei die aktuelle Leitlinie die Rom-IV-Kriterien zugrunde legt.[3][1]

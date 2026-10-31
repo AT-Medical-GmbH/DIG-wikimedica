@@ -33,6 +33,8 @@ corrections: []
 
 # Silikose
 
+**Klassifikation:** ICD-10-GM: J62.-; ICD-11: CA60.0
+
 ## Übersicht
 
 Die Silikose ist eine Pneumokoniose, die durch die Einatmung von alveolengängigem kristallinem Siliziumdioxid (Quarzstaub) entsteht.[1][2] In Deutschland ist sie als Berufskrankheit Nr. 4101 der Berufskrankheiten-Verordnung (BKV) erfasst.[3][4] Die Erkrankung ist durch Lungengewebeschädigung, Entzündung und Lungenfibrose gekennzeichnet, wobei die Fibrose irreversibel ist.[1][2] Die aktuellen Begutachtungsleitlinien dienen der Beurteilung des Kausalzusammenhangs mit der beruflichen Exposition, möglicher funktioneller Beeinträchtigungen und der Minderung der Erwerbsfähigkeit (MdE).[3][4]

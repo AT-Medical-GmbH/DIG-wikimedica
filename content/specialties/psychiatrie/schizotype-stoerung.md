@@ -33,6 +33,8 @@ corrections: []
 
 # Schizotype Störung
 
+**Klassifikation:** ICD-10-GM: F21; ICD-11: 6A22
+
 ## Übersicht
 
 Die schizotype Persönlichkeitsstörung gehört zu den Persönlichkeitsstörungen des Clusters A und wird dem Schizophrenie-Spektrum zugeordnet.[1][2] Kennzeichnend sind Beeinträchtigungen der Kognition und der Realitätsprüfung, der Affektregulation sowie der zwischenmenschlichen Funktion.[1] Phänomenologische, genetische und neurobiologische Auffälligkeiten ähneln denen der Schizophrenie, sind jedoch schwächer ausgeprägt.[1] Die Störung wird deshalb zugleich als stabiles Persönlichkeitsmuster und als mildere Form schizophrenieartiger Psychopathologie verstanden.[2] Die Diagnose ist seit 1980 in der Nomenklatur der American Psychiatric Association verankert, ihre historischen Wurzeln reichen jedoch mehr als hundert Jahre zurück, und zwar unter Bezeichnungen wie latente oder ambulante Schizophrenie.[2] Die kategoriale Operationalisierung ist seit rund vier Jahrzehnten weitgehend unverändert.[2] Das alternative Modell für Persönlichkeitsstörungen (AMPD) übernimmt viele Aspekte der schizotypen Störung und kombiniert Beeinträchtigungen der Persönlichkeitsfunktion mit spezifischen pathologischen Persönlichkeitsmerkmalen.[2]

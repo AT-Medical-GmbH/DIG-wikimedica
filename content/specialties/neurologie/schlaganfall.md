@@ -38,6 +38,8 @@ corrections: []
 
 # Schlaganfall
 
+**Klassifikation:** ICD-10-GM: I63.-, I61.-
+
 > **Medizinisch nicht freigegebener KI-Entwurf.** Fachreview und Sicherheitsprüfung sind vor regulärer Veröffentlichung erforderlich.
 
 Ein **Schlaganfall** ist eine akut einsetzende Funktionsstörung des Gehirns durch eine Gefäßursache. Zu unterscheiden sind insbesondere **ischämische Hirninfarkte** aufgrund einer Minderdurchblutung und **intrazerebrale Blutungen**. Eine **transitorische ischämische Attacke (TIA)** ist eine vorübergehende fokale neurologische Funktionsstörung durch Ischämie ohne nachweisbaren akuten Gewebeinfarkt. Auch vollständig rückläufige Symptome sind ein dringlicher Abklärungsgrund. [1]

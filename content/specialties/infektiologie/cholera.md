@@ -33,6 +33,8 @@ corrections: []
 
 # Cholera
 
+**Klassifikation:** ICD-10-GM: A00.-; ICD-11: 1A00
+
 ## Übersicht
 
 Cholera ist eine akute, durch Toxin bildende Stämme von *Vibrio cholerae* der Serogruppen O1 und O139 verursachte Infektionskrankheit, die sich klinisch durch wässrigen Durchfall manifestiert und ohne rasche Rehydratation schnell tödlich verlaufen kann.[1][2][3] Die Übertragung erfolgt primär fäkal-oral über kontaminiertes Trinkwasser oder Lebensmittel, wobei Wasser als Hauptübertragungsweg gilt.[4][2] Weltweit werden jährlich schätzungsweise 2,9 Millionen bis 4 Millionen Fälle sowie bis zu 143.000 Todesfälle registriert, wobei die Erkrankung in etwa 60 Ländern endemisch ist und regelmäßig Epidemien ausbricht.[1][2][3] In Industrieländern wie den USA ist Cholera selten und betrifft vorwiegend Reisende aus Endemiegebieten.[1] Die Prävention basiert auf dem Zugang zu sicherem Wasser, angemessener Sanitärversorgung und Hygiene (WaSH), während die Therapie auf einer prompten Flüssigkeits- und Elektrolytersatztherapie beruht.[1][2][3]

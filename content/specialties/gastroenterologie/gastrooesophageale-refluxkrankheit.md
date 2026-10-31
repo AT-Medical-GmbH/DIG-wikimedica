@@ -37,6 +37,8 @@ corrections: []
 
 # Gastroösophageale Refluxkrankheit
 
+**Klassifikation:** ICD-10-GM: K21.-; ICD-11: DA22
+
 Die **gastroösophageale Refluxkrankheit** bezeichnet Beschwerden oder Komplikationen durch Rückfluss von Mageninhalt in die Speiseröhre. Sodbrennen und saures Aufstoßen sind typische Symptome.[1]
 
 ## Diagnostik und Behandlung

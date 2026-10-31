@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Tumoren der peripheren Nerven
 
+**Klassifikation:** ICD-10-GM: C47.-
+
 ## Übersicht
 
 Bösartige Tumoren der peripheren Nerven, klinisch als maligne periphere Nervenscheidentumoren (MPNST) bezeichnet, sind hochaggressive, invasive Weichteilsarkome, die etwa 5 bis 10 % aller malignen Weichteilsarkome ausmachen.[1][2] Sie entstehen aus peripheren Nerven oder Nervenscheidenzellen und gelten als seltene Neoplasien mit insgesamt schlechter Prognose.[3][4] Die Erkrankung tritt sowohl sporadisch als auch im Rahmen genetischer Syndrome auf, wobei die Assoziation mit der Neurofibromatose Typ 1 (NF1) besonders bedeutsam ist.[1][2] MPNST stellen die häufigste Todesursache bei Patientinnen und Patienten mit NF1 dar.[1] Die Diagnosestellung ist aufgrund der Seltenheit und der oft unspezifischen klinischen Präsentation herausfordernd, und es existieren derzeit keine standardisierten Behandlungs- oder Nachsorgeprotokolle.[5]

@@ -37,6 +37,8 @@ corrections: []
 
 # Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung
 
+**Klassifikation:** ICD-10-GM: F90.-
+
 Die **Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)** ist eine neuroentwicklungsbezogene Störung mit Unaufmerksamkeit, Hyperaktivität und/oder Impulsivität, die in mehreren Lebensbereichen relevant beeinträchtigen kann.[1]
 
 ## Diagnostik und Behandlung

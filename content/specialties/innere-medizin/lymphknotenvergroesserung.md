@@ -33,6 +33,8 @@ corrections: []
 
 # Lymphknotenvergrößerung
 
+**Klassifikation:** ICD-10-GM: R59.-; ICD-11: MA01
+
 ## Übersicht
 
 Lymphknotenvergrößerungen sind ein häufiges klinisches Phänomen, das in etwa 0,6 % der Bevölkerung jährlich auftritt und in den meisten Fällen benignen Ursprungs ist.[1] Die Differentialdiagnose umfasst ein breites Spektrum an Ursachen, von akuten und chronischen Infektionen über maligne Erkrankungen bis hin zu iatrogenen oder immunologischen Reaktionen.[2][3] Die klinische Bewertung erfordert eine differenzierte Anamnese und körperliche Untersuchung, um zwischen lokalisierter und generalisierter Lymphadenopathie zu unterscheiden, wobei generalisierte Formen häufiger auf systemische Erkrankungen hinweisen.[1][4] Die Diagnostik stützt sich auf bildgebende Verfahren wie Ultraschall, Computertomographie und PET-CT sowie auf zytologische oder histologische Gewinnungsverfahren.[5][6] Die Therapie ist ätiologisch bestimmt; während viele Formen selbstlimitierend verlaufen, erfordern maligne oder persistierende Befunde invasive Diagnostik und gezielte Behandlungen.[1][3]

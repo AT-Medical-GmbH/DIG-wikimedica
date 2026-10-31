@@ -37,6 +37,8 @@ corrections: []
 
 # Cholezystolithiasis
 
+**Klassifikation:** ICD-10-GM: K80.-; ICD-11: DC11
+
 **Cholezystolithiasis** bezeichnet Gallensteine in der Gallenblase. Viele bleiben asymptomatisch; symptomatische Steine können Gallenkoliken, Cholezystitis oder Komplikationen im Gallengangssystem auslösen.[1]
 
 ## Diagnostik und Behandlung

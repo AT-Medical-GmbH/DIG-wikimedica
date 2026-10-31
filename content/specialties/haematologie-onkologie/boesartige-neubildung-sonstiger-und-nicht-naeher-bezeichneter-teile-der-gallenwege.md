@@ -33,6 +33,8 @@ corrections: []
 
 # Gallenwegskarzinom
 
+**Klassifikation:** ICD-10-GM: C24.-
+
 ## Übersicht
 
 Das Gallenwegskarzinom umfasst bösartige Neubildungen der Gallenwege, zu denen intrahepatische, perihiläre und distale Gallengangkarzinome sowie Karzinome der Gallenblase und des Ampullenbereichs gehören.[1][2] Diese Entitäten unterscheiden sich in klinischen, molekularen und therapeutischen Merkmalen, weshalb ihre getrennte Betrachtung für das Management wichtig ist.[2] Die Erkrankung gilt als aggressiv und in der Regel tödlich verlaufend.[3] Die chirurgische Resektion mit freien Resektionsrändern ist derzeit die einzige kurativ wirksame Behandlung.[3][4]

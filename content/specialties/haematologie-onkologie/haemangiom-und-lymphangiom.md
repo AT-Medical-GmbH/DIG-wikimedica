@@ -33,6 +33,8 @@ corrections: []
 
 # Hämangiome und Lymphangiome
 
+**Klassifikation:** ICD-10-GM: D18.-
+
 ## Übersicht
 
 Sie werden pränatal oder später im Kindes- oder Erwachsenenalter diagnostiziert.[1] Grundlegend werden Gefäßmalformationen von Gefäßtumoren unterschieden.[1][2] Gefäßtumoren können gutartig, lokal aggressiv, grenzwertig oder maligne verlaufen.[1] Das infantile Hämangiom gehört zu den Gefäßtumoren, tritt in der Neonatalperiode auf und bildet sich anschließend zurück.[1] Gefäßmalformationen werden weiter in Low-flow- und Fast-flow-Läsionen eingeteilt.[1] Die heutige Klassifikation geht auf die Trennung von Hämangiomen und übrigen Gefäßanomalien zurück und mündet in die ISSVA-Klassifikation.[3]

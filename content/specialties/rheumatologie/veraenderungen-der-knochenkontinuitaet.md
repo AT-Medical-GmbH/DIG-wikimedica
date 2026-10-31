@@ -33,6 +33,8 @@ corrections: []
 
 # Pseudarthrose und Störungen der Knochenheilung
 
+**Klassifikation:** ICD-10-GM: M84.-
+
 ## Übersicht
 
 Die Literatur beschreibt die Störung als klinische Herausforderung, obwohl die Frakturchirurgie durch moderne Technik und regenerative Verfahren fortgeschritten ist.[1] Eine Verzögerung entsteht meist durch das Zusammenspiel mechanischer, biologischer und systemischer Faktoren am Ort des Gewebeumbaus.[1] Ein Ungleichgewicht zwischen mechanischer Umgebung und biologischen Faktoren kann die Knochenheilung beeinträchtigen und zu einer verzögerten Heilung oder Pseudarthrose führen.[2]

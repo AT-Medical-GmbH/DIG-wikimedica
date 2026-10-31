@@ -33,6 +33,8 @@ corrections: []
 
 # Komplikationen kardiovaskulärer Implantate und Prothesen
 
+**Klassifikation:** ICD-10-GM: T82.-
+
 ## Übersicht
 
 Für das kommende Jahrzehnt wird ein weiterer Anstieg der Implantationszahlen erwartet.[1] Zu den neueren Systemen gehören das MitraClip-System zur Behandlung der Mitralklappeninsuffizienz, Vorhofohr-Verschlussvorrichtungen, Septumverschlussvorrichtungen, kabellose Herzschrittmacher und der subkutane implantierbare Kardioverter-Defibrillator (S-ICD).[2] Diese Verfahren kommen überwiegend bei Patientinnen und Patienten mit hohem chirurgischem Risiko oder erhöhtem Infektionsrisiko zum Einsatz.[2] Zu den relevanten Komplikationen zählen technische Schwierigkeiten bei der Implantation, Funktionsprobleme im Alltag, Infektionen sowie Risiken durch Cyberangriffe.[3][4][1]

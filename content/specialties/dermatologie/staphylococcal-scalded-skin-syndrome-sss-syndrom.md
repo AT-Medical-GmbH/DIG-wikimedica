@@ -33,6 +33,8 @@ corrections: []
 
 # Staphylokokken-Syndrom der verbrühten Haut
 
+**Klassifikation:** ICD-10-GM: L00.-; ICD-11: EA50.2
+
 ## Übersicht
 
 Das Staphylokokken-Syndrom der verbrühten Haut (Staphylococcal scalded skin syndrome, SSSS; auch als Ritter-Krankheit bezeichnet) ist eine potenziell lebensbedrohliche Infektion durch bestimmte Stämme von *Staphylococcus aureus*, die exfoliative Toxine freisetzen.[1] Klinisch zeigt sich eine generalisierte, exfoliierende Hauterkrankung mit großflächiger Blasenbildung und Abschilferung.[2][1] Die Erkrankung ist toxinvermittelt: Die Exotoxine besitzen Serinproteaseaktivität und spalten Desmoglein-1 in der oberflächlichen Epidermis, wodurch sich Erythem, Blasen und Hautablösung entwickeln.[2] Von der bullösen Impetigo lässt sich das SSSS abgrenzen, da die Impetigo auf die lokale Freisetzung der Toxine zurückgeht, während das SSSS aus der systemischen Ausbreitung der Toxine resultiert und zu einem ausgedehnteren Ausschlag führt.[1]

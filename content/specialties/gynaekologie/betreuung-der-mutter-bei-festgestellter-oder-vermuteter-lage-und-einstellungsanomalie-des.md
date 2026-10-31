@@ -33,6 +33,8 @@ corrections: []
 
 # Betreuung bei fetaler Lage- und Einstellungsanomalie
 
+**Klassifikation:** ICD-10-GM: O32.-
+
 ## Übersicht
 
 Zu den häufigsten Anomalien zählen die Hinterhauptslage (Occiput-Posterior oder Occiput-Transvers), bei der der Rücken des fetalen Kopfes posterior oder transvers im mütterlichen Becken liegt, sowie die Mentoanterior- oder Mentotransvers-Lage, bei der das Kinn anterior oder transvers steht.[1] Diese Fehlstellungen sind mit einem erhöhten Risiko für mütterliche und fetale Komplikationen verbunden, darunter eine verlängerte Geburtsdauer, fetaler Distress, mütterliche Erschöpfung sowie eine erhöhte Inzidenz von Kaiserschnitten und instrumentellen vaginalen Entbindungen.[1][2] Zudem steigt das Risiko für Perineumtraumata und Schließmuskelverletzungen des Anus.[1] Die Diagnostik stützt sich traditionell auf die vaginale Untersuchung, die jedoch als subjektiv und schlecht reproduzierbar gilt.[2] Moderne Ansätze integrieren zunehmend die intrapartale Sonografie, um die Position und Einstellung des fetalen Kopfes objektiver zu erfassen.[2]

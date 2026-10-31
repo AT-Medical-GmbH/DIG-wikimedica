@@ -33,6 +33,8 @@ corrections: []
 
 # Komplikationen bei Mehrlingsschwangerschaft
 
+**Klassifikation:** ICD-10-GM: O31.-
+
 ## Übersicht
 
 Zu den besonders häufig genannten Faktoren zählen Frühgeburtlichkeit, ein niedriges Geburtsgewicht und angeborene Fehlbildungen.[1] Darüber hinaus gibt es seltenere Konstellationen, etwa die gleichzeitige Entwicklung einer kompletten Blasenmole mit einem normal entwickelten Fetus, sowie eine mögliche Assoziation mit einer peripartalen Kardiomyopathie.[2][3]

@@ -33,6 +33,8 @@ corrections: []
 
 # Sekundäres Parkinson-Syndrom
 
+**Klassifikation:** ICD-10-GM: G21.-; ICD-11: 8A00.2
+
 ## Übersicht
 
 Als sekundäres Parkinson-Syndrom gilt ein parkinsonistisches Bild, das nicht auf eine idiopathische neurodegenerative Erkrankung zurückgeht, sondern auf eine andere Ursache.[1] Zu den bekannten Auslösern zählen strukturelle Hirnläsionen, Medikamente, vaskuläre, metabolische, toxische, infektiöse und immunvermittelte Prozesse.[2][1] Die Ursachen können akut oder chronisch auftreten, ein- oder beidseitig manifest werden und sind klinisch oft nur schwer von einem idiopathischen Parkinson-Syndrom zu unterscheiden.[2] Die Kenntnis dieser seltenen Ursachen ist für die moderne diagnostische Abklärung wichtig, weil sich die Therapieoptionen von der levodopabasierten Behandlung des idiopathischen Parkinson-Syndroms unterscheiden können.[1]

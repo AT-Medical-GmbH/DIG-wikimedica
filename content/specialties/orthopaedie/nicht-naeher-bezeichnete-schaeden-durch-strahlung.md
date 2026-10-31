@@ -33,6 +33,8 @@ corrections: []
 
 # Strahlenschäden
 
+**Klassifikation:** ICD-10-GM: T66
+
 ## Übersicht
 
 Schäden durch ionisierende Strahlung entstehen durch direkte DNA-Schädigung und oxidativen Stress, die zu verschiedenen Formen des Zelltods wie Apoptose, Nekrose und Ferroptose führen.[1][2] Die klinische Manifestation hängt stark von der Dosis und dem Bestrahlungsvolumen ab und reicht von lokalen Gewebeschäden nach einer Strahlentherapie bis hin zum akuten Strahlensyndrom bei hochdosierter Ganzkörperbestrahlung.[1] Die Diagnostik stellt insbesondere bei der Abgrenzung von strahleninduzierten Läsionen von Tumorrezidiven eine große Herausforderung dar, da konventionelle bildgebende Verfahren oft keine eindeutigen Unterscheidungsmerkmale liefern.[3] Therapeutisch stehen Radioprotektiva, Strahlenminderer und spezifische Therapeutika zur Verfügung, wobei die Behandlung oft symptomatisch und unterstützend erfolgt.[1][4] Traditionelle chinesische Medizin und pflanzliche Polysaccharide zeigen in der Forschung vielversprechende radioprotektive Effekte durch Modulation von oxidativem Stress und Immunantwort, sind jedoch noch nicht flächendeckend in der klinischen Standardversorgung etabliert.[5][6]

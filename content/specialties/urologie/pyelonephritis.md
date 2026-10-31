@@ -37,6 +37,8 @@ corrections: []
 
 # Pyelonephritis
 
+**Klassifikation:** ICD-10-GM: N10
+
 Eine **Pyelonephritis** ist eine Infektion des Nierenbeckens und Nierengewebes, meist im Rahmen einer aufsteigenden Harnwegsinfektion. Sie kann mit Fieber, Flankenschmerzen und ausgeprägtem Krankheitsgefühl einhergehen.[1]
 
 ## Diagnostik und Behandlung

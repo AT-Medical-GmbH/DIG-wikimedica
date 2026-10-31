@@ -33,6 +33,8 @@ corrections: []
 
 # Bösartige Neubildung der Trachea
 
+**Klassifikation:** ICD-10-GM: C33
+
 ## Übersicht
 
 Primäre bösartige Neubildungen der Trachea sind extrem seltene Tumoren, deren Diagnostik und Behandlung aufgrund der geringen Inzidenz und der anatomischen Besonderheiten des Atemwegs hohe Expertise erfordern.[1] Die klinische Versorgung erfordert ein individuelles, multidisziplinäres Konzept, das je nach Tumorstadium und Histologie von der interventionellen Entfernung gutartiger Läsionen bis hin zu multimodalen Strategien bei fortgeschrittenen malignen Tumoren reicht.[1] Eine präzise Diagnostik ist entscheidend, um Patienten zu identifizieren, die für eine kurative Operation in Frage kommen, von solchen, die einer palliativen Behandlung bedürfen.[1] Die häufigsten histologischen Subtypen bei Erwachsenen sind das Plattenepithelkarzinom und das adenoidzystische Karzinom, die zusammen mehr als zwei Drittel der primären Tracheatumoren ausmachen.[2]

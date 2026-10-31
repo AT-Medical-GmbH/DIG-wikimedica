@@ -33,6 +33,8 @@ corrections: []
 
 # Myositis
 
+**Klassifikation:** ICD-10-GM: M60.-
+
 ## Übersicht
 
 Idiopathische inflammatorische Myopathien (IIM) bilden eine heterogene Gruppe seltener, autoimmun vermittelter Erkrankungen, bei denen die Skelettmuskulatur entzündlich geschädigt wird.[1][2] Üblicherweise werden fünf Hauptsubtypen unterschieden: die Inclusion-Body-Myositis (IBM), die immunvermittelte nekrotisierende Myopathie, das Antisynthetase-Syndrom, die Overlap-Myositis und die Dermatomyositis.[1] IBM und immunvermittelte nekrotisierende Myopathien betreffen vorwiegend die Muskulatur, während Antisynthetase-Syndrom, Overlap-Myositis und Dermatomyositis systemische Erkrankungen sind, die Haut, Gelenke und Lunge einbeziehen und lebensbedrohlich verlaufen können.[1] Myositisspezifische Autoantikörper sind für die Diagnosestellung, die Subtypisierung und die Prognoseabschätzung von zentraler Bedeutung.[1][3] Zudem werden Myositiden unter Immun-Checkpoint-Inhibitoren als eigenständiges, potenziell fatales Krankheitsbild beschrieben.[4]

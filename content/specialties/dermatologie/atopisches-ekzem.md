@@ -37,6 +37,8 @@ corrections: []
 
 # Atopisches Ekzem
 
+**Klassifikation:** ICD-10-GM: L20.-
+
 Das **atopische Ekzem** (atopische Dermatitis) ist eine chronisch-entzündliche Hauterkrankung mit gestörter Hautbarriere und meist ausgeprägtem Juckreiz. Verlauf, Lokalisation und Schweregrad können stark variieren.[1]
 
 ## Diagnostik und Behandlung

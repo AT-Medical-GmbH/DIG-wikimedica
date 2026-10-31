@@ -33,6 +33,8 @@ corrections: []
 
 # Bauchwandhernie
 
+**Klassifikation:** ICD-10-GM: K43.-
+
 ## Übersicht
 
 Bauchwandhernien, klassifiziert als Hernia ventralis, gehören zu den häufigsten chirurgischen Eingriffen weltweit.[1] Die Behandlung erfordert eine individuelle Abwägung verschiedener chirurgischer Techniken, da kein einheitlicher Konsens über die sicherste und effektivste Methode besteht.[1] Die Wahl des Verfahrens hängt von patientenspezifischen Faktoren, der Expertise des Chirurgen und den Ressourcen der Einrichtung ab, um sowohl klinische als auch wirtschaftliche Ergebnisse zu optimieren.[1] Während offene Verfahren kosteneffektiver sind, weisen sie ein höheres Risiko für Wundinfektionen auf.[1] Minimalinvasive Ansätze wie die laparoskopische und roboterassistierte Chirurgie bieten Vorteile bei der Reduktion von Wundkomplikationen und der Krankenhausaufenthaltsdauer, gehen jedoch mit längeren Operationszeiten einher.[1][2][3]

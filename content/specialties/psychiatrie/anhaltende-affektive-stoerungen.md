@@ -33,6 +33,8 @@ corrections: []
 
 # Anhaltende affektive Störungen
 
+**Klassifikation:** ICD-10-GM: F34.-
+
 ## Übersicht
 
 Zu diesen Erkrankungen zählen sowohl die Major Depression als auch die bipolare Störung.[1] Die Behandlung erfordert einen biopsychosozialen Ansatz, der pharmakologische Interventionen mit psychosozialen Maßnahmen kombiniert.[2] Die Leitlinien betonen die Bedeutung einer personalisierten Versorgung, die auf der Schwere der Erkrankung und der individuellen Patientensituation basiert.[3] Ziel der Therapie ist es, die Remission zu erreichen, die funktionale Genesung zu optimieren und Rückfällen vorzubeugen.[4]

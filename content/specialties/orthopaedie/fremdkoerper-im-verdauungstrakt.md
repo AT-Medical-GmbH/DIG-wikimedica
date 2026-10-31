@@ -33,6 +33,8 @@ corrections: []
 
 # Fremdkörper im Magen-Darm-Trakt
 
+**Klassifikation:** ICD-10-GM: T18.-; ICD-11: ND73
+
 ## Übersicht
 
 Die Aufnahme von Fremdkörpern in den Verdauungstrakt ist weltweit ein häufiges klinisches Problem.[1] Eine unangemessene Behandlung kann zusätzliche Verletzungen und finanzielle Belastungen für die Betroffenen nach sich ziehen.[2] Das Vorgehen richtet sich nach Art, Größe und Lage des Objekts sowie nach dem klinischen Zustand der Patientin oder des Patienten.[3]

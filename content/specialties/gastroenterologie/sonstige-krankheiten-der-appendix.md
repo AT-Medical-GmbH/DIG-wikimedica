@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Erkrankungen des Wurmfortsatzes
 
+**Klassifikation:** ICD-10-GM: K38.-
+
 ## Übersicht
 
 Der Wurmfortsatz ist Sitz eines breiten Spektrums entzündlicher, infektiöser, gutartiger und bösartiger Veränderungen, das weit über die akute Appendizitis hinausgeht.[1] Die akute Appendizitis bleibt die häufigste appendikuläre Notfallsituation, doch zahlreiche andere Entitäten können ähnliche klinische Beschwerden mit überlappenden Bildgebungsbefunden verursachen.[1] Dazu zählen reaktive Entzündungen, chronisch-entzündliche Darmerkrankungen, Endometriose des Appendix, muzinöse und nichtmuzinöse Neoplasien, Lymphome sowie selten mesenchymale Tumoren.[1] Auch aus pathologischer Sicht wird betont, dass der Appendix trotz seines Rufs als unkompliziertes Präparat klinisch und prognostisch bedeutsame Krankheitsbilder aufweist, darunter Infektionen, Entzündungen unterschiedlicher Ätiologie, Endometriose und Divertikulose.[2] Eine Mucocele des Appendix umfasst muzinöse Zystadenome und muzinöse Zystadenokarzinome und ist durch die Ansammlung von Schleim im Lumen des Wurmfortsatzes gekennzeichnet.[3] Die korrekte Abgrenzung dieser Befunde ist wesentlich, da das Management von der konservativen medikamentösen Therapie über die Appendektomie und die Hemikolektomie rechts bis hin zur zytoreduktiven Chirurgie oder systemischen onkologischen Behandlung reichen kann.[1]

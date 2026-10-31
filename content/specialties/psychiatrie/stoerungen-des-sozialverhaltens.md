@@ -33,6 +33,8 @@ corrections: []
 
 # Störungen des Sozialverhaltens
 
+**Klassifikation:** ICD-10-GM: F91.-
+
 ## Übersicht
 
 Eine präzise Diagnostik erfordert die Berücksichtigung spezifischer Symptomdimensionen, insbesondere von Merkmalen mit eingeschränkten prosozialen Emotionen, um Verzerrungen in der klinischen Urteilsbildung zu minimieren.[1]

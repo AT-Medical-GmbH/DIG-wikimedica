@@ -33,6 +33,8 @@ corrections: []
 
 # Zwangsstörungen
 
+**Klassifikation:** ICD-10-GM: F42.-; ICD-11: 6B20
+
 ## Übersicht
 
 Die Zwangsstörung ist eine neuropsychiatrische Erkrankung, die durch wiederkehrende, aufdringliche Gedanken, Impulse oder Bilder (Obsessionen) und durch repetitive Verhaltensweisen oder mentale Handlungen (Kompulsionen) gekennzeichnet ist.[1][2] Obsessionen werden als belastend erlebt, und Kompulsionen dienen häufig dazu, den damit verbundenen Druck zu verringern oder befürchtete Schäden abzuwenden.[1] Die Symptome beanspruchen oft viel Zeit und können das alltägliche Funktionieren erheblich beeinträchtigen.[1][2] Die Erkrankung betrifft Erwachsene ebenso wie Kinder und Jugendliche.[2][3] In Klinik und Forschung gilt sie als schwer zu erfassen, da sie häufig verkannt und unzureichend behandelt wird.[2] Die aktuelle Literatur beschreibt vier teilweise voneinander abgrenzbare Symptomsubtypen.[4] Für die Einordnung im Versorgungsalltag sind außerdem die hohe Begleiterkrankungsrate und der oft chronische Verlauf ohne wirksame Behandlung von Bedeutung.[1][5]

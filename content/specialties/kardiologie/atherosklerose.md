@@ -33,6 +33,8 @@ corrections: []
 
 # Arteriosklerose
 
+**Klassifikation:** ICD-10-GM: I70.-
+
 ## Übersicht
 
 Arteriosklerose, im engeren Sinne die Atherosklerose, ist eine chronische, entzündliche Erkrankung der Arterienwand, die weltweit zu den häufigsten Ursachen für Morbidität und Mortalität durch kardiovaskuläre Ereignisse zählt.[1] Der pathologische Prozess beginnt bereits in der Kindheit und kann sich über Jahrzehnte entwickeln, wobei die Prävalenz modifizierbarer Risikofaktoren wie Adipositas, Bluthochdruck und Dyslipidämie in jungen Bevölkerungsgruppen zunimmt.[1] Die Erkrankung manifestiert sich klinisch als koronare Herzkrankheit, periphere arterielle Verschlusskrankheit oder zerebrovaskuläre Ereignisse.[1][2][3] Die Diagnostik umfasst die Risikoeinschätzung durch Bildgebung und Laborparameter, während die Therapie auf der Reduktion kardiovaskulärer Risikofaktoren, der medikamentösen Stabilisierung von Plaques und bei indizierten Fällen auf interventionellen Maßnahmen beruht.[2][4][3]

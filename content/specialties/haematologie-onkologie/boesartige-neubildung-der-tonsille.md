@@ -33,6 +33,8 @@ corrections: []
 
 # Tonsillenkarzinom
 
+**Klassifikation:** ICD-10-GM: C09.-
+
 ## Übersicht
 
 Das Tonsillenkarzinom ist ein Plattenepithelkarzinom der Gaumenmandel und wird innerhalb des Oropharynx betrachtet, der sich in die Subsites Tonsille, Zungengrund, weichen Gaumen und hintere Rachenwand gliedert.[1] Therapeutische Empfehlungen beziehen sich in den aktuellen Übersichtsarbeiten ausdrücklich nur auf tonsilläre Primärtumoren und nicht auf Karzinome des weichen Gaumens oder des Zungengrundes.[2] Ein relevanter Aspekt ist die Frage, ob bei einem Tonsillentumor auch die Gegenseite des Halses bereits tumorbefallen sein kann, ohne klinisch oder bildgebend erkennbar zu sein.[3][1]

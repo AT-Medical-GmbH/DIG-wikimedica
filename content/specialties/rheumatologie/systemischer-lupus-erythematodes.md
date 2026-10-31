@@ -33,6 +33,8 @@ corrections: []
 
 # Systemischer Lupus erythematodes
 
+**Klassifikation:** ICD-10-GM: M32.-; ICD-11: 4A40.0
+
 ## Übersicht
 
 Der systemische Lupus erythematodes (SLE) ist eine chronische, lebenslange Autoimmunerkrankung mit multisystemischer Beteiligung, die durch Entzündungsprozesse und daraus resultierende Organschäden gekennzeichnet ist.[1] Die Pathogenese wird als komplexes Zusammenspiel genetischer, umweltbedingter, immunologischer und hormonaler Faktoren betrachtet.[1] Die Diagnosestellung erfolgt anhand klinischer und immunologischer Kriterien, wobei die 2019 von EULAR und der American College of Rheumatology (ACR) entwickelten Klassifikationskriterien eine hohe Sensitivität und Spezifität aufweisen.[2] Diese Kriterien setzen einen positiven Nachweis von Antinukleären Antikörpern (ANA) als obligatorisches Eintrittskriterium voraus und gewichten weitere klinische und immunologische Domänen additiv.[2] Das primäre Behandlungsziel ist die Unterdrückung der systemischen Krankheitsaktivität, die Verhinderung von Organschäden und die Verbesserung der Lebensqualität der Patientinnen und Patienten.[1]

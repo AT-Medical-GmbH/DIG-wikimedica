@@ -33,6 +33,8 @@ corrections: []
 
 # Fehlgeburt
 
+**Klassifikation:** ICD-10-GM: O03.-
+
 ## Übersicht
 
 Als Fehlgeburt gilt der Verlust einer Schwangerschaft vor der Lebensfähigkeit.[1] Schwangerschaftswoche.[2] Woche, die häufig als intrauterine Fruchttode bezeichnet werden, waren in dieser Übersicht ausgeschlossen.[3] Für die Einordnung von Studienergebnissen ist deshalb die jeweils verwendete Gestationsgrenze relevant.[2][3] Frühe Schwangerschaftsblutungen werden in der Literatur als drohende Fehlgeburt bezeichnet.[2] Eine Leitlinie zur Progestogentherapie bei drohender Fehlgeburt und unerklärtem wiederkehrendem Schwangerschaftsverlust weist darauf hin, dass die Empfehlungen verschiedener Leitlinien uneinheitlich sind, was das Management in der Praxis erschwert.[4]

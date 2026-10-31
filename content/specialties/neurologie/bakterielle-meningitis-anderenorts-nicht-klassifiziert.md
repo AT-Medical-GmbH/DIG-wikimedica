@@ -33,6 +33,8 @@ corrections: []
 
 # Bakterielle Meningitis
 
+**Klassifikation:** ICD-10-GM: G00.-
+
 ## Übersicht
 
 Die akute bakterielle Meningitis ist eine schwere Infektion des zentralen Nervensystems, die trotz medizinischer Fortschritte weiterhin eine hohe globale Krankheitslast aufweist.[1][2][3] Die Inzidenz variiert stark zwischen Hoch- und Niedriglohnländern, wobei sie in letzteren bis zu 80 Fälle pro 100.000 Einwohner pro Jahr betragen kann, während sie in Industrieländern bei etwa 0,9 pro 100.000 liegt.[4] Die Letalität ist trotz verbesserter Therapiemöglichkeiten hoch und liegt global bei etwa 18 %, wobei sie in Niedriglohnländern bis zu 54 % erreichen kann.[5][4] Überlebende leiden häufig unter schweren neurologischen Spätfolgen, die bis zu 24 % der Überlebenden betreffen können.[4] Eine der wichtigsten prognostischen Faktoren ist die rasche Einleitung einer adäquaten antimikrobiellen Therapie, die idealerweise innerhalb einer Stunde nach Krankenhausaufnahme erfolgen sollte.[1][2][3]

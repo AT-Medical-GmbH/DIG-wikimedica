@@ -33,6 +33,8 @@ corrections: []
 
 # Eklampsie
 
+**Klassifikation:** ICD-10-GM: O15.-
+
 ## Übersicht
 
 Die Eklampsie ist eine schwere hypertensive Schwangerschaftserkrankung, die vor allem durch das Auftreten generalisierter Grand-mal-Krampfanfälle ohne andere ursächliche Erkrankungen gekennzeichnet ist.[1] Sie gilt als die gravierendste Komplikation der Schwangerschaft und zählt zu den Hauptursachen für die Sterblichkeit schwangerer und gebärender Frauen.[2] Die Diagnose wird klinisch gestellt, Laboruntersuchungen dienen der Abschätzung möglicher Komplikationen.[1] Das Management zielt auf die Beherrschung der Krampfanfälle und die Behandlung der Hypertonie.[1] Die definitive Therapie ist die Beendigung der Schwangerschaft durch Entbindung.[1][3] Da die Erkrankung in vielen Zentren selten vorkommt, wird betont, dass geburtshilfliche Teams auf den akuten Umgang vorbereitet sein müssen.[2][4]

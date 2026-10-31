@@ -37,6 +37,8 @@ corrections: []
 
 # Osteoporose
 
+**Klassifikation:** ICD-10-GM: M80.-, M81.-
+
 **Osteoporose** ist eine Skeletterkrankung mit verminderter Knochenfestigkeit und erhöhtem Risiko für Fragilitätsfrakturen. Sie kann primär oder sekundär auftreten und bleibt bis zu einer Fraktur häufig unbemerkt.[1]
 
 ## Risikofaktoren und Klinik

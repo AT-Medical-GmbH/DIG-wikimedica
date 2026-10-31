@@ -33,6 +33,8 @@ corrections: []
 
 # Plasmazellneoplasien und multiples Myelom
 
+**Klassifikation:** ICD-10-GM: C90.-
+
 ## Übersicht
 
 Plasmazellneoplasien umfassen eine heterogene Gruppe von Erkrankungen, zu der das multiple Myelom, die monoklonale Gammopathie unbestimmter Signifikanz (MGUS) und das symptomatische multiple Myelom (SMM) zählen.[1] Das multiple Myelom ist durch eine klonale Proliferation maligner Plasmazellen im Knochenmark gekennzeichnet, die zu endorganschädigenden Prozessen führt.[1] Im Gegensatz dazu stellt das SMM eine asymptomatische Vorstufe dar, die klinisch und biologisch zwischen MGUS und dem aktiven Myelom angesiedelt ist.[1] Extramedulläre Plasmozytome sind seltene Manifestationen, die außerhalb des Knochenmarks auftreten und häufig im Kopf-Hals-Bereich lokalisiert sind, wobei eine Beteiligung der Gebärmutterhalsregion extrem selten ist.[2] Die Diagnostik und Risikoeinschätzung stützt sich zunehmend auf zytogenetische und molekulare Marker, während die Therapieentscheidungen stark vom Stadium und dem individuellen Risikoprofil der Erkrankung abhängen.[3]

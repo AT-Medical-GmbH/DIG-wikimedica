@@ -33,6 +33,8 @@ corrections: []
 
 # Anorektale Erkrankungen
 
+**Klassifikation:** ICD-10-GM: K62.-
+
 ## Übersicht
 
 Zu den häufigsten gutartigen Vertretern zählen Hämorrhoidalleiden, Analfissuren, dyssynergische Defäkation und Stuhlinkontinenz.[1] Viele dieser Erkrankungen teilen gemeinsame Leitsymptome wie Schmerzen oder Blutungen, weshalb sie in der Notfallversorgung häufig gemeinsam betrachtet werden.[2] Die Fachgebiete der Behandlung haben sich in den letzten Jahren verändert: Die Versorgung entwickelt sich von einer stark erfahrungsbasierten Praxis hin zu einer stärker präzisionsmedizinisch ausgerichteten Behandlung.[3]

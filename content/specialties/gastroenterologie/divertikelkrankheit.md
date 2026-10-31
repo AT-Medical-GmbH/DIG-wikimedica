@@ -37,6 +37,8 @@ corrections: []
 
 # Divertikelkrankheit
 
+**Klassifikation:** ICD-10-GM: K57.-
+
 Die **Divertikelkrankheit** umfasst Ausstülpungen der Dickdarmwand und mögliche Beschwerden oder Komplikationen. Eine Divertikulitis bezeichnet die Entzündung eines Divertikels.[1]
 
 ## Diagnostik und Behandlung

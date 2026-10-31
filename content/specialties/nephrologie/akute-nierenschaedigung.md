@@ -37,6 +37,8 @@ corrections: []
 
 # Akute Nierenschädigung
 
+**Klassifikation:** ICD-10-GM: N17.-
+
 Eine **akute Nierenschädigung** ist eine plötzlich auftretende Verschlechterung der Nierenfunktion. Sie kann im Zusammenhang mit Volumenmangel, Infektionen, Durchblutungsstörungen, Abflussbehinderung, Medikamenten oder anderen Erkrankungen auftreten.[1]
 
 ## Diagnostik und Behandlung

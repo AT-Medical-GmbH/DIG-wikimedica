@@ -33,6 +33,8 @@ corrections: []
 
 # Misslungene Geburtseinleitung
 
+**Klassifikation:** ICD-10-GM: O61.-; ICD-11: JB01
+
 ## Übersicht
 
 Die Geburtseinleitung ist eine häufige obstetrische Intervention, deren Ziel die vaginale Entbindung bei minimaler maternaler und neonataler Morbidität ist.[1] In entwickelten Ländern liegen die Raten der Geburtseinleitung bis zu 25 %, wobei in den USA zwischen 2016 und 2019 mehr als ein Drittel der Geburten nach Einleitung stattfanden.[2][1] Ein zentrales Problem in der klinischen Praxis und Forschung ist das Fehlen einer einheitlichen Definition für eine misslungene Geburtseinleitung.[2] Diese Heterogenität erschwert den Vergleich von Studien zu Wirksamkeit und Ergebnissen verschiedener Einleitungsprotokolle und limitiert die Möglichkeit, valide Metaanalysen zur Leitlinienentwicklung zu generieren.[2] Eine Standardisierung der Definitionen wird als dringend erforderlich angesehen, um die Vergleichbarkeit von Studienergebnissen zu erhöhen.[2]

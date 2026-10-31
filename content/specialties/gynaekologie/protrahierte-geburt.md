@@ -33,6 +33,8 @@ corrections: []
 
 # Protrahierte Geburt
 
+**Klassifikation:** ICD-10-GM: O63.-; ICD-11: JB03
+
 ## Übersicht
 
 Die protrahierte Geburt, im klinischen Kontext oft als Geburtsverzögerung oder Labor-Dystokie bezeichnet, ist eine der häufigsten Komplikationen während der Geburt und stellt eine bedeutende Ursache für intrapartale Kaiserschnitte dar.[1][2] Sie ist definiert als ein unphysiologisch langsamer Fortschritt der Geburt, der sich in einer verzögerten Zervixdilatation und/oder einem verzögerten Abstieg des kindlichen Kopfes äußert.[2] Die Diagnosestellung ist komplex, da es international keine einheitliche Definition gibt; verschiedene Studien verwenden zeitbasierte, fortschrittsbasierte oder klinisch orientierte Kriterien, was zu einer Heterogenität in der Erfassung und im Vergleich von Inzidenzen führt.[1] Die moderne Geburtshilfe strebt jedoch eine Standardisierung an, um physiologische Geburtsverläufe zu respektieren und unnötige Interventionen zu vermeiden.[1] Ein zentrales Instrument zur Überwachung des Geburtsfortschritts ist das WHO Labor Care Guide (LCG), das 2020 eingeführt wurde und den klassischen Partogramm-Standard ablösen soll.[3] Das LCG definiert den Beginn der aktiven Phase der ersten Geburtsphase bei einer Zervixeröffnung von 5 cm, im Gegensatz zu den früheren 4 cm beim klassischen Partogramm.[3] Zudem legt das LCG eine normale Mindestrate der Zervixdilatation von 0,5 cm pro Stunde fest, was als realistischerer Wert für viele Frauen angesehen wird als die frühere Annahme von 1 cm pro Stunde.[3] Die FIGO empfiehlt die universelle Einführung des LCG, um mütterliche und perinatale Mortalität zu reduzieren und die Umsetzung der WHO-Empfehlungen für eine positive Geburtserfahrung zu unterstützen.[3]

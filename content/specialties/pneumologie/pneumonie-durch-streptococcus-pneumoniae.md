@@ -33,6 +33,8 @@ corrections: []
 
 # Pneumokokken-Pneumonie
 
+**Klassifikation:** ICD-10-GM: J13; ICD-11: CA40.07
+
 ## Übersicht
 
 Die Pneumokokken-Pneumonie wird durch *Streptococcus pneumoniae* verursacht, einen grampositiven Diplococcus.[1][2] Der Erreger gilt als wichtigste Ursache der ambulant erworbenen Pneumonie.[3] Daneben ist er eine bedeutende Ursache weiterer Erkrankungen wie Otitis media, Meningitis und Sepsis.[1] Die Erkrankung ist mit erheblicher Morbidität und Mortalität verbunden, insbesondere bei älteren Erwachsenen.[4][5] Obwohl Pneumokokkenimpfstoffe seit vielen Jahren verfügbar sind, bleibt die Krankheitslast in der älteren Bevölkerung hoch.[4] Für die klinische Praxis ist zudem bedeutsam, dass sich Pneumokokken-Pneumonien und Sepsis-Syndrome in ihren Merkmalen überlappen.[6]

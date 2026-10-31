@@ -37,6 +37,8 @@ corrections: []
 
 # Mammakarzinom
 
+**Klassifikation:** ICD-10-GM: C50.-
+
 Das **Mammakarzinom** ist ein bösartiger Tumor der Brustdrüse. Befunde werden durch Bildgebung und bei Verdacht durch Gewebeentnahme abgeklärt; die Behandlung orientiert sich an Tumorbiologie, Stadium und persönlichen Zielen.[1]
 
 ## Diagnostik und Behandlung

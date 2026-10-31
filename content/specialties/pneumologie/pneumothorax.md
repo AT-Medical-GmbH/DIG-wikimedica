@@ -33,6 +33,8 @@ corrections: []
 
 # Pneumothorax
 
+**Klassifikation:** ICD-10-GM: J93.-; ICD-11: CB21
+
 ## Übersicht
 
 In Deutschland werden jährlich etwa 10.000 Fälle eines spontanen Pneumothorax stationär behandelt.[1][2] Die deutsche S3-Leitlinie zum spontanen und postinterventionellen Pneumothorax wurde unter Beteiligung der Fachgesellschaften für Thoraxchirurgie, Pneumologie, Radiologie und Innere Medizin erarbeitet.[1][2] Die Algorithmen unterscheiden sich unter anderem in der Indikation zur CT-Untersuchung, zur Thoraxdrainage und zur videoassistierten Thoraxchirurgie (VATS).[1][2] Für den postinterventionellen Pneumothorax wird eine ähnliche Therapie wie beim primären spontanen Pneumothorax beschrieben.[1][2] Das Management gilt international als umstritten, weil verschiedene Vorgehensweisen vorgeschlagen werden.[3][4] Zu den in den Quellen beschriebenen Optionen gehören Beobachtung, Nadelaspiration, Anlage einer Thoraxdrainage und chirurgische Verfahren.[5][6] Die Indikation zur Operation wird laut deutscher Leitlinie individuell gestellt, wobei Rezidivrisiko, Lebensumstände, Patientenpräferenzen und Eingriffsrisiken berücksichtigt werden.[1][2]

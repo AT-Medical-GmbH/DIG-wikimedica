@@ -33,6 +33,8 @@ corrections: []
 
 # Lippenkrebs
 
+**Klassifikation:** ICD-10-GM: C00.-
+
 ## Übersicht
 
 Lippenkarzinome sind häufig Plattenepithelkarzinome, die sich aus einer fortschreitenden Dysplasie der Schleimhaut entwickeln.[1][2] Ihre Zuordnung ist uneinheitlich, denn sie werden je nach Quelle den Mundhöhlenkarzinomen, den Hauttumoren oder den Kopf-Hals-Tumoren zugerechnet.[3] Die Lippe ist im Vergleich zu anderen Lokalisationen wenig untersucht.[3]

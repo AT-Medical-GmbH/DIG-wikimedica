@@ -33,6 +33,8 @@ corrections: []
 
 # Persönlichkeitsstörungen
 
+**Klassifikation:** ICD-10-GM: F69
+
 ## Übersicht
 
 Persönlichkeitsstörungen gehen nach übereinstimmender Einschätzung der Fachliteratur häufig mit funktioneller Beeinträchtigung und psychischer Behinderung einher.[1] Die ICD-11 setzt auf einen dimensionalen, am Schweregrad orientierten Ansatz, bei dem fünf Domänen zur Beschreibung der Persönlichkeitspathologie zur Verfügung stehen.[2] Gegenüber kategorialen Modellen werden für dimensionale Verfahren klinische Vorteile erwartet.[3] Im Forschungsschrifttum werden außerdem Kohorten mit nicht näher spezifizierten Persönlichkeitsstörungsdiagnosen untersucht.[4]

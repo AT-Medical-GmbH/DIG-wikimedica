@@ -33,6 +33,8 @@ corrections: []
 
 # Dystonien
 
+**Klassifikation:** ICD-10-GM: G24.-
+
 ## Übersicht
 
 Dystonie wird nach der aktualisierten Konsensusdefinition als Bewegungsstörung beschrieben, die durch anhaltende oder intermittierende abnorme Bewegungen, Haltungen oder beides gekennzeichnet ist.[1] Dystone Bewegungen und Haltungen sind typischerweise musterhaft und repetitiv, können tremorartig oder ruckartig sein und werden häufig durch willkürliche Handlungen ausgelöst oder verstärkt; oft treten zusätzlich Mitbewegungen auf.[1] Die Revision der Definition aus dem Jahr 2013 hat die Begriffsbestimmung im Kern beibehalten und lediglich sprachlich präzisiert.[1] Achse I erfasst die klinischen Merkmale, darunter Erkrankungsalter, Familienanamnese, Körperverteilung, zeitliches Muster, Phänomenologie sowie die Frage, ob eine isolierte Dystonie oder eine Kombination mit weiteren neurologischen oder internistischen Problemen vorliegt.[1] Achse II ordnet die ätiologische Grundlage ein, also genetische, erworbene und anatomische Ursachen sowie gemeinsame Krankheitsmechanismen.[1] Dystonien sind klinisch und genetisch stark heterogen.[2]

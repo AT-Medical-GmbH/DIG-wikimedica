@@ -33,6 +33,8 @@ corrections: []
 
 # Nicht näher bezeichnete Energie- und Eiweißmangelernährung
 
+**Klassifikation:** ICD-10-GM: E46
+
 ## Übersicht
 
 Die nicht näher bezeichnete Energie- und Eiweißmangelernährung (ICD-10-GM) stellt eine klinisch relevante Störung der Nährstoffversorgung dar, die durch einen Mangel an Kalorien und Proteinen gekennzeichnet ist und zu einem ungewollten Verlust von Körpermasse und Muskelsubstanz führt.[1] Diese Form der Mangelernährung ist kein isoliertes Phänomen, sondern tritt häufig in Verbindung mit anderen katabolen Zuständen wie Sarkopenie und Gebrechlichkeit (Frailty) auf, wobei sich die pathophysiologischen Mechanismen und klinischen Folgen oft überschneiden.[2] Für die betroffenen Personen, insbesondere im höheren Lebensalter, hat die Erkrankung weitreichende Konsequenzen für die körperliche Funktion, die Lebensqualität und die Inanspruchnahme des Gesundheitssystems.[1] Die Diagnosestellung ist aufgrund der Multikausalität der Ursachen und der Heterogenität der klinischen Präsentation herausfordernd, weshalb ein systematisches Screening und eine differenzierte Ursachenklärung essenziell sind.[3] Die Therapie zielt primär auf die Korrektur des Nährstoffdefizits ab, wobei der Einsatz von medizinischer Ernährungstherapie durch qualifizierte Fachpersonen als wirksamer Ansatz gilt, jedoch die Evidenzlage für einzelne Endpunkte je nach Versorgungssetting variiert.[4]

@@ -38,6 +38,8 @@ corrections: []
 
 # Koronare Herzkrankheit
 
+**Klassifikation:** ICD-10-GM: I25.-
+
 > **Redaktioneller Status: Entwurf – keine medizinische Fachfreigabe.** Referenzen sind Quellen für die obligatorische medizinische Nachprüfung. Für Notfälle gilt der lokale Rettungsdienst (Deutschland: 112).
 
 Die **koronare Herzkrankheit (KHK)** beschreibt eine Erkrankung der Herzkranzgefäße, meist auf Grundlage koronarer Atherosklerose. Sie kann zu einer Durchblutungsstörung des Herzmuskels und zu stabilen Beschwerden, aber auch zu akuten Koronarsyndromen führen. Nicht jede Angina pectoris beruht auf einer hochgradigen epikardialen Stenose: Koronare Vasomotionsstörungen und mikrovaskuläre Funktionsstörungen sind wichtige Differenzialdiagnosen. [1]

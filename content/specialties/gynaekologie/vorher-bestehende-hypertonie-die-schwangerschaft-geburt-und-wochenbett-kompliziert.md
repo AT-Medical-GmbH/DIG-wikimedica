@@ -33,6 +33,8 @@ corrections: []
 
 # Chronische Hypertonie in der Schwangerschaft
 
+**Klassifikation:** ICD-10-GM: O10.-; ICD-11: JA20
+
 ## Übersicht
 
 Eine chronische Hypertonie kann vor oder während einer Schwangerschaft bestehen und erhebliche maternale, fetale und neonatale Morbidität und Mortalität verursachen.[1][2] Mehrere Leitlinien und Übersichtsarbeiten befassen sich mit ihrer Definition, Diagnostik und Behandlung.[1][3] Die Leitlinien stimmen in der Definition und im grundsätzlichen Management überein.[3] Auf Grundlage neuerer Daten werden Empfehlungen für ein rationales Vorgehen formuliert, das auch pathophysiologische und pharmakologische Gesichtspunkte berücksichtigt.[1]

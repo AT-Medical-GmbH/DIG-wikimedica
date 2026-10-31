@@ -33,6 +33,8 @@ corrections: []
 
 # Rheumatische Herzkrankheit
 
+**Klassifikation:** ICD-10-GM: I09.-
+
 ## Übersicht
 
 Die rheumatische Herzkrankheit ist die chronische Folgeerkrankung des akuten rheumatischen Fiebers, einer autoimmunen Reaktion nach einer Infektion mit Streptococcus pyogenes der Gruppe A.[1][2] Sie bleibt weltweit die häufigste kardiovaskuläre Erkrankung bei Kindern und jungen Erwachsenen.[3] Durch bleibende Herzklappenschäden stellt sie einen wesentlichen Grund für vermeidbare kardiovaskuläre Mortalität und Behinderung, vor allem in Ländern mit niedrigem und mittlerem Einkommen, dar.[1][2] Die Erkrankung ist verhütbar und behandelbar, weshalb Primär- und Sekundärprävention sowie eine frühe Erkennung im Mittelpunkt der Versorgung stehen.[4][5]

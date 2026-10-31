@@ -33,6 +33,8 @@ corrections: []
 
 # Spinale Muskelatrophie
 
+**Klassifikation:** ICD-10-GM: G12.-
+
 ## Übersicht
 
 Die spinale Muskelatrophie (SMA) ist eine neurodegenerative Erkrankung, die durch Mutationen im SMN1-Gen verursacht wird, das für das Survival-Motor-Neuron-Protein (SMN) kodiert.[1] Sie gilt als schwere neuromuskuläre Erkrankung.[2] Seit der Zulassung mehrerer krankheitsmodifizierender Therapien hat sich das Versorgungsbild deutlich verändert, und in vielen Ländern werden die meisten Patientinnen und Patienten inzwischen mit einer dieser neuen Therapien behandelt.[1]

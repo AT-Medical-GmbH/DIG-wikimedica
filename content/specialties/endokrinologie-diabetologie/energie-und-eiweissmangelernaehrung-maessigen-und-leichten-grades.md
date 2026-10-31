@@ -33,6 +33,8 @@ corrections: []
 
 # Mäßige und leichte Energie- und Eiweißmangelernährung
 
+**Klassifikation:** ICD-10-GM: E44.-
+
 ## Übersicht
 
 Die Energie- und Eiweißmangelernährung stellt ein signifikantes klinisches Problem dar, das die Prognose verschiedener Erkrankungen, insbesondere bei älteren, chirurgischen und kritisch kranken Patienten, maßgeblich beeinflusst.[1] Sie ist durch einen Mangel an Energie und Protein gekennzeichnet, der zu einer Verschlechterung des Gesundheitszustands, erhöhter Morbidität und Mortalität führt.[2] Die genaue Diagnose und Behandlung ist entscheidend, um klinische Entscheidungen zu verbessern und die Patientenprognose zu optimieren.[1] Die Identifizierung erfolgt häufig über standardisierte Screening- und Assessmentsysteme, die in Leitlinien empfohlen werden.[3]

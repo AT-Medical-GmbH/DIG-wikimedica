@@ -33,6 +33,8 @@ corrections: []
 
 # Hydrozephalus
 
+**Klassifikation:** ICD-10-GM: G91.-
+
 ## Übersicht
 
 Hydrozephalus ist eine Störung der Liquorzirkulation, die zu einer Erweiterung der Hirnventrikel und zu einem erhöhten intrakraniellen Druck führt.[1] Im Erwachsenenalter werden verschiedene Subtypen unterschieden, darunter der idiopathische Normaldruckhydrozephalus (iNPH), posthämorrhagische, postinfektiöse, posttraumatische und tumorassoziierte Formen.[2] Aktuelle Leitlinien trennen den iNPH klar von Formen mit kongenitaler oder erworbener Ursache.[3] Bei Kindern werden angeborene Formen, die bei oder kurz nach der Geburt bestehen, von erworbenen Formen unterschieden, die im Verlauf nach einer Infektion des zentralen Nervensystems oder nach einer Blutung auftreten können.[4]

@@ -33,6 +33,8 @@ corrections: []
 
 # Bakterielle Pneumonie
 
+**Klassifikation:** ICD-10-GM: J15.-
+
 ## Übersicht
 
 Sie können alle Altersgruppen betreffen, wobei Menschen mit geschwächtem Immunsystem, kleine Kinder und ältere Menschen ein höheres Risiko tragen.[1] Klinisch wird eine Pneumonie als neu aufgetretenes pulmonales Infiltrat mit Hinweisen auf eine infektiöse Ursache definiert, etwa neu aufgetretenes Fieber, eitriges Sputum, eine Leukozytose oder eine Verschlechterung der Oxygenierung.[2] Die im Krankenhaus erworbene Pneumonie (HAP) liegt bei der Aufnahme nicht vor und beginnt frühestens 48 Stunden nach der Aufnahme.[2] Die beatmungsassoziierte Pneumonie (VABP) ist eine Unterform der im Krankenhaus erworbenen Infektion, bei der häufig multiresistente Erreger die Ursache sind.[3]

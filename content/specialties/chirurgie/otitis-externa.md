@@ -33,6 +33,8 @@ corrections: []
 
 # Otitis externa (Außenohrentzündung)
 
+**Klassifikation:** ICD-10-GM: H60.-
+
 ## Übersicht
 
 Die Otitis externa ist eine diffuse Entzündung des äußeren Gehörgangs, die typischerweise durch Feuchtigkeitsexposition und Traumata des Gehörgangs begünstigt wird.[1] Die akute Form verläuft meist rasch und wird überwiegend bakteriell verursacht.[2] Sie wird in der Literatur auch als Zellulitis des äußeren Gehörgangs beschrieben[3] und im Alltag als Schwimmohr bezeichnet.[4] Anamnese und körperliche Untersuchung helfen, diese voneinander zu unterscheiden.[1] Die nekrotisierende Form ist eine schwere Infektion, die je nach Sichtweise auch als maligne Otitis externa bezeichnet wird.[5][6] Für diese Bezeichnung hat ein internationaler Konsens den Begriff „nekrotisierend“ dem Begriff „maligne“ vorgezogen, da der Begriff „maligne“ als Krebserkrankung missverstanden werden und Patientenangst auslösen könne.[5] Das Spektrum möglicher Erreger reicht von häufigen Pilzinfektionen des Gehörgangs, der sogenannten Otomykose, bis zu lebensbedrohlichen Verläufen.[7] Die Behandlung verfolgt mehrere Ziele: Eliminierung der Infektion, Schmerzkontrolle, Aufklärung der Betroffenen und Vorbeugung eines Rezidivs.[1] Bei unkomplizierten Fällen steht die topische Therapie im Vordergrund, komplizierte Präsentationen können zusätzlich eine systemische Therapie erfordern.[1]

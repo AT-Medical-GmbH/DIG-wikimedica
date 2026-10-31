@@ -33,6 +33,8 @@ corrections: []
 
 # Paraparese und Paraplegie, Tetraparese und Tetraplegie
 
+**Klassifikation:** ICD-10-GM: G82.-
+
 ## Übersicht
 
 Die Ursachen lassen sich in traumatische und nicht-traumatische Ereignisse unterteilen, wobei beide Kategorien eine erhebliche Morbidität und Mortalität verursachen.[1] Die akute Phase der Behandlung zielt primär auf die Stabilisierung des Patienten, die Vermeidung sekundärer Schäden sowie die frühzeitige chirurgische Dekompression und Stabilisierung ab.[2][3] In der chronischen Phase steht die Rehabilitation im Vordergrund, um die Funktion wiederherzustellen, Komplikationen zu reduzieren und die soziale Teilhabe zu fördern.[4]

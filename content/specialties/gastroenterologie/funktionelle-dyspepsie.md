@@ -33,6 +33,8 @@ corrections: []
 
 # Funktionelle Dyspepsie
 
+**Klassifikation:** ICD-10-GM: K30; ICD-11: DD90.3
+
 ## Übersicht
 
 Die funktionelle Dyspepsie (FD) ist eine häufige Störung der Darm-Hirn-Interaktion, die durch chronische oder rezidivierende dyspeptische Symptome ohne identifizierbare organische, systemische oder metabolische Ursache gekennzeichnet ist.[1][2][3] Sie zählt zu den prevalentesten Erkrankungen des oberen Gastrointestinaltrakts und hat einen erheblichen Einfluss auf die Lebensqualität der Betroffenen.[4][5] Die Diagnose wird nach den Römischen Kriterien (Rome IV) gestellt, die die Erkrankung in zwei Subtypen unterteilen: das postprandiale Distress-Syndrom (PDS) und das epigastrische Schmerzsyndrom (EPS).[4][3] Das PDS ist durch mahlzeitengeduzierte Symptome wie postprandiales Völlegefühl und frühes Sättigungsgefühl gekennzeichnet, während das EPS durch epigastrische Schmerzen oder Brennen definiert ist.[3] Bei einem Teil der Patienten überlappen sich die Symptome beider Subtypen.[3] Die Erkrankung wird als Diagnose der Ausschlussdiagnose betrachtet, wobei primär organische Ursachen ausgeschlossen werden müssen.[4]

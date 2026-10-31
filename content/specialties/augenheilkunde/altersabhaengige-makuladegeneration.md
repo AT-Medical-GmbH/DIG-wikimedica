@@ -37,6 +37,8 @@ corrections: []
 
 # Altersabhängige Makuladegeneration
 
+**Klassifikation:** ICD-10-GM: H35.3-; ICD-11: 9B78.3
+
 Die **altersabhängige Makuladegeneration** betrifft die Makula, den Bereich des schärfsten Sehens. Sie kann zentrale Sehverschlechterung, Verzerrungen oder einen zentralen Fleck verursachen.[1]
 
 ## Diagnostik und Behandlung

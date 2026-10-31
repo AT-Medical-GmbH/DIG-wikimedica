@@ -33,6 +33,8 @@ corrections: []
 
 # Sonstige Krankheiten des Verdauungssystems
 
+**Klassifikation:** ICD-10-GM: K92.-
+
 ## Epidemiologie
 
 Gastrointestinale Blutungen sind eine häufige Ursache für Krankenhauseinweisungen und gehen mit einer erheblichen Inanspruchnahme von Krankenhausressourcen sowie einer signifikanten Morbidität und Mortalität einher.[1] Nicht-krampfbezogene obere gastrointestinale Blutungen (NVUGIB) sind eine wichtige Ursache für Notfallbesuche und tragen maßgeblich zur Krankheitslast bei.[2] Die Inzidenz und Prävalenz von NVUGIB sind trotz des Aufkommens wirksamer säurehemmender Medikamente wie Protonenpumpenhemmer (PPI) aufgrund der alternden Bevölkerung und der zunehmenden Anwendung von Antikoagulantien und NSAR nicht rückläufig.[2] Bei Patienten mit Leberzirrhose und oberer gastrointestinaler Blutung ist die Mortalität besonders hoch, wobei die meisten Blutungen variköser Natur sind.[3]

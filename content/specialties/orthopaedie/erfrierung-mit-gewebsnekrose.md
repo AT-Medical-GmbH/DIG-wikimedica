@@ -33,6 +33,8 @@ corrections: []
 
 # Erfrierungen und Kälteschäden
 
+**Klassifikation:** ICD-10-GM: T34.-; ICD-11: NE41
+
 ## Übersicht
 
 Erfrierungen mit Gewebsnekrose stellen eine schwere Verletzung durch Kälteeinwirkung dar, die zu einem Perfusionsdefizit in den Extremitäten führt und langfristige Sequelen verursachen kann.[1][2] Die Behandlung erfordert eine strukturierte Herangehensweise, die von der präklinischen Versorgung bis zur spezialisierten stationären Betreuung reicht.[1] Zu den Kernmaßnahmen gehören die rasche Wiedererwärmung, die Rehydrierung, eine adäquate Analgesie sowie die Wundversorgung.[1][3] Bei schweren Verletzungen können thrombolytische Verfahren oder die Gabe von Iloprost den Gewebeerhalt verbessern und Amputationen reduzieren.[2][4] Die Prognose hängt stark von der Schwere der Verletzung, der Dauer der Ischämie und der Qualität der Nachsorge ab.[4][5]

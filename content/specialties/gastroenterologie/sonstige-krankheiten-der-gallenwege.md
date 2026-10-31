@@ -33,6 +33,8 @@ corrections: []
 
 # Erkrankungen der Gallenwege
 
+**Klassifikation:** ICD-10-GM: K83.-
+
 ## Übersicht
 
 Erkrankungen der Gallenwege umfassen eine heterogene Gruppe von Krankheiten, zu der immunvermittelte Cholangiopathien wie die primäre biliäre Cholangitis (PBC) und die primäre sklerosierende Cholangitis (PSC) gehören.[1] Für Diagnostik und Management sind minimal-invasive endoskopische Verfahren und die Histopathologie zentral.[2][3] Zunehmend gewinnen zudem medikamentös assoziierte Gallenblasen- und Gallenwegserkrankungen an Bedeutung, insbesondere unter Behandlung mit Glucagon-like-Peptide-1-Rezeptoragonisten (GLP-1-RA) und Tirzepatid.[4][5]

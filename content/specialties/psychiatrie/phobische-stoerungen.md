@@ -33,6 +33,8 @@ corrections: []
 
 # Phobische Störungen
 
+**Klassifikation:** ICD-10-GM: F40.-
+
 ## Übersicht
 
 Phobische Störungen sind durch eine übermäßige, irrational befürchtete Angst vor spezifischen Objekten, Situationen oder Aktivitäten gekennzeichnet, die die Lebensqualität der Betroffenen erheblich beeinträchtigen kann.[1] Die Lebenszeitprävalenz bei Erwachsenen liegt zwischen 7,7 % und 12,5 %.[1] Im Gegensatz zu normalen Ängsten führen phobische Störungen oft zu Vermeidungsverhalten, das den Alltag einschränkt.[1] Die Diagnostik erfolgt klinisch, wobei spezifische Fragebögen und Verhaltensbeobachtungen zur Bewertung der Symptomatik herangezogen werden.[1] Zu den etablierten Behandlungsmethoden gehören kognitive Verhaltenstherapien und Expositionstherapien, wobei neuere Ansätze wie die Augmented-Reality-Expositionstherapie (ARET) vielversprechende Ergebnisse liefern.[1]

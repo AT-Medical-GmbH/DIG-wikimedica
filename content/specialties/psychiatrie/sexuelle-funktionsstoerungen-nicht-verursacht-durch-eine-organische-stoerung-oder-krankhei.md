@@ -33,6 +33,8 @@ corrections: []
 
 # Sexuelle Funktionsstörungen ohne organische Ursache
 
+**Klassifikation:** ICD-10-GM: F52.-
+
 ## Übersicht
 
 Sexuelle Funktionsstörungen ohne organische Ursache umfassen eine Vielzahl von Zuständen, die durch persönliche Belastung in den Bereichen sexuelles Verlangen, Erregung, Orgasmus oder Schmerzen gekennzeichnet sind.[1] Diese Störungen können in jedem Lebensabschnitt auftreten und die Lebensqualität erheblich beeinträchtigen.[2] Gesundheitsfachpersonen sind angehalten, diese Thematik aktiv anzusprechen, da Patientinnen und Patienten diese Probleme oft nicht von sich aus thematisieren.[1]

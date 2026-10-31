@@ -33,6 +33,8 @@ corrections: []
 
 # Status epilepticus
 
+**Klassifikation:** ICD-10-GM: G41.-; ICD-11: 8A66
+
 ## Übersicht
 
 Der Status epilepticus ist ein neurologischer Notfall, der durch anhaltende oder wiederholte Krampfanfälle ohne dazwischenliegende Erholung gekennzeichnet ist und mit erheblicher Morbidität und Mortalität einhergeht.[1] Die International League Against Epilepsy hat 2015 eine neue Definition und Klassifikation vorgeschlagen, die vier Achsen umfasst: Symptomatik, Ätiologie, EEG-Befund und Alter.[2] Für die Definition sind zwei zeitliche Schwellen maßgeblich: der Zeitpunkt, ab dem ein Anfall nicht mehr von selbst endet, und der Zeitpunkt, ab dem langfristige Folgen wie neuronale Schädigungen auftreten können.[1][3] Bei Erwachsenen gilt der Status epilepticus als zweithäufigster neurologischer Notfall.[4] Eine rasche Erkennung und gezielte Behandlung können das Risiko für Komplikationen und Tod verringern.[1] Die erfolgreiche Versorgung umfasst sowohl die frühzeitige Beendigung der Anfallsaktivität als auch die möglichst rasche Identifikation der Ursache, die gegebenenfalls eine eigenständige akute Behandlung erfordert.[2]

@@ -38,6 +38,8 @@ corrections: []
 
 # Akutes Koronarsyndrom und Myokardinfarkt
 
+**Klassifikation:** ICD-10-GM: I21.-, I20.0; ICD-11: BA41, BA40.0
+
 > **Redaktioneller Status: Entwurf – keine medizinische Fachfreigabe.** Referenzen sind Quellen für die obligatorische medizinische Nachprüfung. Für Notfälle gilt der lokale Rettungsdienst (Deutschland: 112).
 
 Das **akute Koronarsyndrom (ACS)** umfasst eine Gruppe akuter klinischer Konstellationen, die durch eine vermutete oder nachgewiesene plötzliche Störung der myokardialen Perfusion gekennzeichnet sind. Klinisch werden insbesondere **ST-Hebungsinfarkt (STEMI)**, **Nicht-ST-Hebungsinfarkt (NSTEMI)** und **instabile Angina pectoris** unterschieden. Ein Myokardinfarkt setzt eine akute myokardiale Schädigung mit klinischen Hinweisen auf Ischämie voraus; nicht jede Troponinerhöhung ist ein Infarkt. [1]

@@ -33,6 +33,8 @@ corrections: []
 
 # Wirbelsäulendeformitäten
 
+**Klassifikation:** ICD-10-GM: M43.-
+
 ## Übersicht
 
 Wirbelsäulendeformitäten im Erwachsenenalter umfassen ein breites Spektrum an Fehlstellungen, die vor allem die thorakolumbale Wirbelsäule betreffen und die Ausrichtung in der sagittalen und/oder koronalen Ebene verändern.[1][2] Die Behandlung reicht von konservativen Maßnahmen bis zu komplexen operativen Korrekturen, die mit einem erheblichen Komplikationsrisiko verbunden sein können.[2][3]

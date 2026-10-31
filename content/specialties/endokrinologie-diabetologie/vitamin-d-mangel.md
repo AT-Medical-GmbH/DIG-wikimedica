@@ -37,6 +37,8 @@ corrections: []
 
 # Vitamin-D-Mangel
 
+**Klassifikation:** ICD-10-GM: E55.-; ICD-11: 5B57
+
 Ein **Vitamin-D-Mangel** beschreibt eine unzureichende Vitamin-D-Versorgung, deren klinische Bedeutung vom Alter, der zugrunde gelegten Grenzwertdefinition und individuellen Risikofaktoren abhängt. Vitamin D ist für den Calcium- und Knochenstoffwechsel wichtig; ein ausgeprägter Mangel kann bei Kindern zu Rachitis und bei Erwachsenen zu Osteomalazie beitragen.[1]
 
 ## Risikofaktoren und Diagnostik

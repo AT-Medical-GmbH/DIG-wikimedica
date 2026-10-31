@@ -33,6 +33,8 @@ corrections: []
 
 # Akute Cholezystitis
 
+**Klassifikation:** ICD-10-GM: K81.-; ICD-11: DC12
+
 ## Übersicht
 
 Die akute Cholezystitis ist eine verbreitete Erkrankung, die schwerwiegende Komplikationen nach sich ziehen kann und deshalb zeitnah diagnostiziert und behandelt werden sollte.[1] Sie ist in der Regel mit dem Vorliegen von Gallensteinen verbunden.[1] Die frühe laparoskopische Cholezystektomie wird in Übersichtsarbeiten und Leitlinien übereinstimmend als Behandlung der Wahl angesehen.[1][2][3] Für Patientinnen und Patienten, bei denen eine Operation nicht möglich oder nicht sinnvoll ist, stehen perkutane und endoskopische Verfahren der Gallenblasendrainage zur Verfügung.[1][4] Die Auswahl des Vorgehens hängt von individuellen Merkmalen der Patientin oder des Patienten sowie von der Expertise des jeweiligen Zentrums ab.[4][5]

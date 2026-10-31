@@ -37,6 +37,8 @@ corrections: []
 
 # Colitis ulcerosa
 
+**Klassifikation:** ICD-10-GM: K51.-; ICD-11: DD71
+
 Die **Colitis ulcerosa** ist eine chronisch-entzündliche Darmerkrankung mit kontinuierlicher Entzündung der Kolonschleimhaut, typischerweise beginnend im Rektum. Sie verläuft häufig in Schüben.[1]
 
 ## Diagnostik und Behandlung

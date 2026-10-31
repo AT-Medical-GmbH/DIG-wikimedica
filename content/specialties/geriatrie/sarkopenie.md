@@ -37,6 +37,8 @@ corrections: []
 
 # Sarkopenie
 
+**Klassifikation:** ICD-10-GM: M62.5-
+
 **Sarkopenie** beschreibt eine beeinträchtigte Muskelkraft und Muskelmasse beziehungsweise Muskelqualität mit Funktionsverlust. Sie ist besonders im höheren Lebensalter relevant, kann aber auch bei chronischen Erkrankungen, Immobilität oder Mangelernährung auftreten.[1]
 
 ## Diagnostik und Behandlung

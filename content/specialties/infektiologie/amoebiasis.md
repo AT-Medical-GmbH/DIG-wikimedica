@@ -33,6 +33,8 @@ corrections: []
 
 # Amöbenruhr und Amöbiasis
 
+**Klassifikation:** ICD-10-GM: A06.-; ICD-11: 1A36
+
 ## Übersicht
 
 Die Amöbiasis ist eine durch den einzelligen Parasiten *Entamoeba histolytica* verursachte Erkrankung, die sowohl den Darm als auch extraintestinale Organe betreffen kann.[1] Weltweit sind schätzungsweise 50 Millionen Menschen jährlich infiziert, wobei die Mehrheit der Infektionen asymptomatisch verläuft.[1] In etwa 10 % der Fälle entwickelt sich eine invasive Erkrankung, die klinisch als Amöbenruhr oder als Amöbenleberabszess manifestieren kann.[2] Die Diagnose unterscheidet pathogene von nicht-pathogenen Amöbenarten, da andere Spezies wie *Entamoeba dispar* morphologisch ähnlich sind, aber keine Krankheit verursachen.[1] Moderne molekulare Diagnostik ermöglicht eine präzise Unterscheidung und ist entscheidend für die korrekte Therapie, da eine Fehldiagnose als entzündliche Darmerkrankung zu lebensbedrohlichen Komplikationen führen kann.[1]

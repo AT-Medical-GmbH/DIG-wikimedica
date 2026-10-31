@@ -33,6 +33,8 @@ corrections: []
 
 # Luxation, Verstauchung und Zerrung von Gelenken und Bändern des Schultergürtels
 
+**Klassifikation:** ICD-10-GM: S43.-
+
 ## Übersicht
 
 Die Schulter ist das Gelenk mit dem größten Bewegungsumfang im menschlichen Körper, was sie im Vergleich zu anderen Gelenken anfälliger für Luxationen und Instabilitäten macht.[1] Die Behandlung zielt darauf ab, die Stabilität wiederherzustellen, Schmerzen zu lindern und die Funktion sowie die Rückkehr zu sportlichen Aktivitäten zu ermöglichen.[2] Während konservative Maßnahmen bei bestimmten Patientengruppen erfolgreich sein können, ist bei wiederkehrender Instabilität oder signifikantem Knochenverlust oft ein chirurgischer Eingriff erforderlich.[3] Die Wahl zwischen operativen und nicht-operativen Strategien sowie zwischen arthroskopischen und offenen Verfahren hängt von individuellen Risikofaktoren, der Art der Instabilität und den Anforderungen des Patienten ab.[4]

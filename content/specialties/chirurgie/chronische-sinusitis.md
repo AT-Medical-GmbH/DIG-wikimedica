@@ -33,6 +33,8 @@ corrections: []
 
 # Chronische Sinusitis
 
+**Klassifikation:** ICD-10-GM: J32.-
+
 ## Übersicht
 
 Die chronische Rhinosinusitis, im deutschen Sprachgebrauch meist als chronische Sinusitis bezeichnet, ist eine langanhaltende Entzündung der Nasenschleimhaut und der Nasennebenhöhlen.[1] Sie gilt als klinisch sehr heterogene Erkrankung, und ihre Ursachen sind trotz intensiver Forschung nicht vollständig geklärt.[2] Für die Fachwelt ist die Abgrenzung zur akuten Rhinosinusitis ein zentrales Thema, da die Unterscheidung für eine zeitgerechte Diagnose und eine angemessene Beratung der Betroffenen wichtig ist.[3]

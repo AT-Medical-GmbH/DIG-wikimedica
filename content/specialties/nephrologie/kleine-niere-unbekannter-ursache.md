@@ -33,6 +33,8 @@ corrections: []
 
 # Kleine Niere unbekannter Genese
 
+**Klassifikation:** ICD-10-GM: N27.-
+
 ## Epidemiologie
 
 Die Inzidenz kleiner Nierenmassen hat in den letzten Jahren durch die weitverbreitete Anwendung der Schnittbildgebung (CT und MRT) signifikant zugenommen, wobei viele dieser Läsionen als Zufallsbefunde bei asymptomatischen Patienten entdeckt werden.[1] In Metaanalysen zu kleinen Nierenmassen werden Patientendurchschnitte von über 50 Jahren berichtet, wobei die mittlere Tumorgröße in den untersuchten Kohorten zwischen 1,7 und 2,9 cm liegt.[2] Bei der Betrachtung zystischer Nierenmassen, die oft im Rahmen der Bosniak-Klassifikation beurteilt werden, liegt das mittlere Alter der Patienten bei etwa 64,7 Jahren, wobei Männer häufiger betroffen sind als Frauen.[3] Die Prävalenz asymptomatischer kleiner Nierensteine, die ebenfalls als kleine Raumforderungen oder Begleitpathologien in Betracht gezogen werden können, liegt bei Nierenspendern bei etwa 5,3 %.[4]
