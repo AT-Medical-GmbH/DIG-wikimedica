@@ -141,6 +141,7 @@ def article_index() -> dict[str, dict]:
                     "title": title, "specialty": fm.get("specialty"), "type": fm.get("article_type"),
                     "icd": sorted({m2.group(0) for c in fm.get("icd10") or [] if (m2 := ICD_RE.match(str(c).upper()))}),
                     "atc": sorted({str(c).upper() for c in fm.get("atc_codes") or [] if c}),
+                    "related": str(fm.get("related_professional_article") or ""),
                 }
         _ARTICLE_INDEX = index
     return _ARTICLE_INDEX
@@ -155,7 +156,7 @@ def related_articles(slug: str, fm: dict, limit: int = 6) -> list[str]:
     atc = {str(c).upper() for c in fm.get("atc_codes") or [] if c}
     icd = [m.group(0) for c in fm.get("icd10") or [] if (m := ICD_RE.match(str(c).upper()))]
     for other, info in index.items():
-        if other == slug or info["title"] == str(fm.get("title", "")).strip():
+        if other == slug or info["title"] == str(fm.get("title", "")).strip() or info.get("type") == "patient":
             continue
         if atc and info["atc"]:
             best = max((len(a) for a in info["atc"] for b in atc for a in [_common(a, b)]), default=0)
@@ -194,6 +195,11 @@ def page_extras(slug: str, fm: dict, body: str) -> tuple[str, str]:
         rel = related_articles(slug, fm)
         if rel:
             see = "== Siehe auch ==\n" + "\n".join(f"* [[{t}]]" for t in rel)
+    # Rückverweis auf die zugehörige Patienteninformation (SEO E9, Entscheidung Andreas 31.10.2026)
+    patient = sorted(i["title"] for i in article_index().values() if i.get("related") == slug and i.get("type") == "patient")
+    if patient:
+        block = "== Für Patientinnen und Patienten ==\n" + "\n".join(f"* [[{t}]] (allgemein verständlich)" for t in patient)
+        see = block + ("\n\n" + see if see else "")
     try:
         cats = categories(fm)
     except KeyError:
