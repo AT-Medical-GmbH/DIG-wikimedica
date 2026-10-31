@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 18:25. Warteschlange: duplicate 446, planned 2978, published 1364, redirect 371, review 1908.
+Stand: 31.10.2026 22:25. Warteschlange: claimed 1, duplicate 446, planned 2997, published 1364, ready 12, redirect 371, review 1916.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -706,6 +706,7 @@ Stand: 31.10.2026 18:25. Warteschlange: duplicate 446, planned 2978, published 1
 | WM-DRUG-0785 | Indometacin | drug | Entwurf ohne belegte Sätze |
 | WM-DRUG-0786 | Creatinolfosfat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel wird nicht genannt. Creatinolfosfat (ATC C01EB05) ist nicht identisch mit Kreatinphosphat bzw. Phosphokreatin, das die Qu |
 | WM-DRUG-0787 | Fosfocreatin | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Fosfocreatin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC C01EB06). Nur Quelle 1 behandelt Kreatinphosphat als Arzneimitt |
+| WM-DRUG-0789 | Adenosin | drug | Themenprüfung: nur 2 von 20 Quellen passen zum Thema (Nur Quellen 2 und 6 behandeln den Wirkstoff Adenosin direkt in einem klinischen Kontext. Quelle 13 ist ein Mechanismus-Review ohne spezifische Arz |
 | WM-DRUG-0790 | Acadesin | drug | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Acadesin (AICA-Ribosid, AMPK-Aktivator) ist ein Adenosin-Analogon; der Titel bezeichnet den Wirkstoff der Klassifikation korrekt (ATC C01EB13). Ke |
 | WM-DRUG-0792 | Fleischextrakt | drug | zu wenige Quellen mit Zusammenfassung (1) für 'meat extract' |
 | WM-DRUG-0793 | Meldonium | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln Meldonium direkt (Sportleistung, Therapieanwendungen, Einsatz bei Profisportlern). Quelle 3 (Kynurenin-Stoffwechselweg |
@@ -731,6 +732,7 @@ Stand: 31.10.2026 18:25. Warteschlange: duplicate 446, planned 2978, published 1
 | WM-DRUG-0816 | Indoramin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'indoramin' |
 | WM-DRUG-0817 | Trimazosin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'alpha-1 adrenoceptor antagonists' |
 | WM-DRUG-0818 | Doxazosin | drug | Bestätigungsquote 20/44 unter 60 %; zu viele nur teilweise belegte Sätze (9/20) |
+| WM-DRUG-0819 | Urapidil | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Nur Quelle 3 und 8 behandeln explizit Urapidil. Quelle 1, 2, 4, 7 sind allgemeine Übersichten zu Hypertonie/HF ohne Fokus auf Urapidil. Quelle 5 un |
 | WM-DRUG-0820 | Bunazosin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'alpha-adrenergic antagonist' |
 | WM-DRUG-0821 | Terazosin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Terazosin“ bezeichnet denselben Wirkstoff wie ATC C02CA08. Keine der Quellen behandelt Terazosin spezifisch. Sie betreffen Clonidin bei  |
 | WM-DRUG-0822 | Betanidin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Betanidin (C02CC01) ist ein antihypertensiver adrenerger Neuronenblocker (Guanethidin-Typ). Alle Quellen behandeln Betacyanine/Betalaine als Pflanz |
@@ -1208,6 +1210,7 @@ Stand: 31.10.2026 18:25. Warteschlange: duplicate 446, planned 2978, published 1
 | WM-DRUG-1465 | Ketobemidon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ketobemidone' |
 | WM-DRUG-1466 | Pethidin | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel „Pethidin“ entspricht ATC N02AB02. Passend sind nur Quellen, die Pethidin selbst untersuchen: Quelle 10 (intrathekales Pethidin gegen Shiver |
 | WM-DRUG-1467 | Dextromoramid | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Dextromoramid ist ein synthetisches Opioid der Diphenylpropylamin-Gruppe (Pyrrolidin-Derivat, ATC N02AC01) und kein Morphinan. Keine der Quellen b |
+| WM-DRUG-1468 | Piritramid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Piritramide' |
 | WM-DRUG-1469 | Dextropropoxyphen | drug | zu wenige Quellen mit Zusammenfassung (3) für 'propoxyphene' |
 | WM-DRUG-1470 | Bezitramid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bezitramide' |
 | WM-DRUG-1471 | Levomethadon | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Levomethadon' bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N02AC06). Keine der fünf Quellen behandelt Levomethadon spezifi |
@@ -1645,6 +1648,7 @@ Stand: 31.10.2026 18:25. Warteschlange: duplicate 446, planned 2978, published 1
 | WM-DRUG-2051 | Silbereiweiß-Acetyltannat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'silver protein acetyltannate' |
 | WM-DRUG-2052 | Kälberblutextrakt | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Kälberblutextrakt“ (ATC A02XA01, deproteinisierter Kälberblutextrakt, z. B. Actovegin/Solcoseryl) bezeichnet denselben Wirkstoff wie die |
 | WM-DRUG-2053 | Guajazulen | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 5 behandelt Guajazulen (Guaiazulene) direkt. Quellen 4 und 7 betreffen Azulen und Derivate allgemein, Quelle 1 Mukosaprotektiva bei GERD |
+| WM-DRUG-2142 | Dimenhydrinat | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 2, 3 und 4 behandeln Dimenhydrinat explizit. Quelle 1 ist zu allgemein (Nausea/Vomiting in Pregnancy ohne Wirkstofffokus). Da nur 3 Quellen |
 | WM-DRUG-2145 | Diphenhydramin | drug | zu viele nur teilweise belegte Sätze (19/46) |
 | WM-DRUG-2150 | Triflupromazin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'phenothiazine antipsychotics' |
 | WM-DRUG-2191 | Phospholipide | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine Quelle behandelt Phospholipide als Arzneimittel (essentielle Phospholipide bei Lebererkrankungen); alle befassen sich mit Phospholipiden als |
@@ -1693,12 +1697,14 @@ Stand: 31.10.2026 18:25. Warteschlange: duplicate 446, planned 2978, published 1
 | WM-DRUG-2445 | Pizotifen | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel bezeichnet den Wirkstoff Pizotifen (der ATC-Code A15AA02 ist eher unpassend, Pizotifen ist N02CX01). Quellen 4–6 behandeln wahrscheinlich Piz |
 | WM-DRUG-2478 | Dicoumarol | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Dicoumarol ist ein spezifischer Vitamin-K-Antagonist (Cumarin-Derivat, heute kaum noch verwendet). Alle acht Quellen behandeln Vitamin-K-Antagonist |
 | WM-DRUG-2479 | Phenindion | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Phenindione' |
+| WM-DRUG-2481 | Phenprocoumon | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Phenprocoumon. Quelle 2, 3, 4, 5, 7 behandeln allgemeine Antikoagulantien oder NOACs ohne spezifischen Fokus auf Ph |
 | WM-DRUG-2482 | Acenocoumarol | drug | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Der Titel 'Acenocoumarol' entspricht dem Wirkstoff (ATC B01AA07). Nur Quelle 10 behandelt Acenocoumarol direkt. Die übrigen Quellen betreffen Anti |
 | WM-DRUG-2483 | Ethylbiscoumacetat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ethyl biscoumacetate' |
 | WM-DRUG-2484 | Clorindion | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Artikeltitel „Clorindion“ ist ein Antikoagulans (Indandion-Derivat, ATC B01AA09), während die Suchbegriff- und Quellenbasis „Clindamycin |
 | WM-DRUG-2485 | Diphenadion | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Diphenadione' |
 | WM-DRUG-2486 | Tioclomarol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tioclomarol' |
 | WM-DRUG-2487 | Fluindion | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Fluindione' |
+| WM-DRUG-2488 | Heparin | drug | Themenprüfung: nur 1 von 20 Quellen passen zum Thema (Nur Quelle 1 behandelt direkt die Anwendung und Überwachung von Heparin (unfractionated heparin) als Wirkstoff. Die anderen Quellen behandeln Nebe |
 | WM-DRUG-2489 | Dalteparin | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Dalteparin ist ein niedermolekulares Heparin (ATC B01AB04), der Titel passt. Quellen 2, 3 und 4 behandeln Dalteparin direkt (Vergleich mit Apixaban |
 | WM-DRUG-2490 | Nadroparin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel 'Nadroparin' bezeichnet denselben Wirkstoff wie ATC B01AB06 (niedermolekulares Heparin). Keine der vier Quellen behandelt Nadroparin als  |
 | WM-DRUG-2491 | Parnaparin | drug | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Der Titel „Parnaparin“ entspricht dem Wirkstoff der Klassifikation (ATC B01AB07, niedermolekulares Heparin). Keine der Quellen behandelt jedoch Pa |
@@ -1718,6 +1724,7 @@ Stand: 31.10.2026 18:25. Warteschlange: duplicate 446, planned 2978, published 1
 | WM-DRUG-2513 | Vorapaxar | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel „Vorapaxar“ entspricht ATC B01AC26 (PAR-1-Antagonist). Nur die Quellen 4, 6 und 7 behandeln Vorapaxar direkt. Quelle 1, 2, 3 und 5 behand |
 | WM-DRUG-2514 | Limaprost | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quelle 1 behandelt Limaprost direkt (zusammen mit Pregabalin bei Spinalkanalstenose). Quelle 4 behandelt Prostaglandin-E1-Analoga, zu denen Limapro |
 | WM-DRUG-2515 | Streptokinase | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel „Streptokinase“ entspricht dem Wirkstoff ATC B01AD01. Quelle 3 vergleicht Streptokinase direkt mit Tenecteplase beim Myokardinfarkt. Quel |
+| WM-DRUG-2516 | Alteplase | drug | Bestätigungsquote 23/45 unter 60 % |
 | WM-DRUG-2517 | Anistreplase | drug | zu wenige Quellen mit Zusammenfassung (1) für 'APSAC' |
 | WM-DRUG-2518 | Urokinase | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Nur Quelle 2 (Urokinase bei tuberkulöser Pleuritis) und Quelle 7 (Urokinase beim akuten ischämischen Schlaganfall) behandeln den Wirkstoff Urokina |
 | WM-DRUG-2519 | Fibrinolysin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Fibrinolysin (Plasmin, ATC B01AD05) ist ein Wirkstoff aus der Gruppe der Enzyme/Fibrinolytika. Die Quellen 1–3 behandeln Ocriplasmin, ein verkürzte |
@@ -1850,6 +1857,7 @@ Stand: 31.10.2026 18:25. Warteschlange: duplicate 446, planned 2978, published 1
 | WM-DRUG-3162 | Penicillamin | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Nur Quelle 4 behandelt direkt D-Penicillamin bei Wilson-Krankheit und Quelle 9 ist ein Review zu D-Penicillamin. Quelle 2, 6, 10 behandeln Zystinu |
 | WM-DRUG-3163 | Bucillamin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Bucillamine' |
 | WM-DRUG-3167 | Nifenazon | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 3 und 4 behandeln explizit Fenamate (die Wirkstoffklasse von Niflumic acid) bzw. deren Eigenschaften und Abbau. Quelle 1 ist zu allgemein ( |
+| WM-DRUG-3203 | Rocuroniumbromid | drug | Bestätigungsquote 28/50 unter 60 % |
 | WM-DRUG-3282 | Nedocromil | drug | zu wenige Quellen mit Zusammenfassung (3) für 'nedocromil' |
 | WM-DRUG-3283 | Flunisolid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'flunisolide' |
 | WM-DRUG-3284 | Ciclesonid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'ciclesonide' |
