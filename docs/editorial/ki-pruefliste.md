@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 10:25. Warteschlange: duplicate 445, planned 3275, published 1242, ready 12, redirect 365, review 1726.
+Stand: 31.10.2026 11:25. Warteschlange: duplicate 445, planned 3209, published 1254, ready 15, redirect 365, review 1777.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1079,6 +1079,57 @@ Stand: 31.10.2026 10:25. Warteschlange: duplicate 445, planned 3275, published 1
 | WM-DRUG-1326 | Indinavir | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt Indinavir als Hauptthema. Es geht um Wechselwirkungen antiretroviraler Substanzen allgemein, Antibiotika bei Sepsis, CO |
 | WM-DRUG-1327 | Nelfinavir | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Nelfinavir spezifisch. Sie betreffen antiretrovirale Wirkstoffe allgemein, COVID-19-Repurposing, Remimazolam oder Herpe |
 | WM-DRUG-1328 | Amprenavir | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt Amprenavir spezifisch. Die Quellen 1 und 2 betreffen antiretrovirale Wirkstoffe allgemein (Wechselwirkungen mit Nahrung |
+| WM-DRUG-1329 | Fosamprenavir | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel 'Fosamprenavir' entspricht dem Wirkstoff der Klassifikation (J05AE07). Keine der vier Quellen behandelt jedoch speziell Fosamprenavir. Qu |
+| WM-DRUG-1330 | Zidovudin | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Der Titel „Zidovudin“ bezeichnet denselben Wirkstoff wie ATC J05AF01. Quelle 2 behandelt Zidovudin plus Interferon alfa bei ATLL, Quelle 8 den Zido |
+| WM-DRUG-1331 | Didanosin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Didanosin schwerpunktmäßig. Sie betreffen HIV-Diabetesprädiktoren, allgemeine ART-Wechselwirkungen, HIV-Neuropathie, Vi |
+| WM-DRUG-1332 | Zalcitabin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Zalcitabin“ bezeichnet denselben Wirkstoff wie ATC J05AF03. Keine der Quellen behandelt jedoch Zalcitabin. Die Quellen betreffen Lamivud |
+| WM-DRUG-1333 | Stavudin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Titel „Stavudin“ entspricht dem Wirkstoff laut ATC J05AF04. Keine der Quellen behandelt Stavudin schwerpunktmäßig: Sie betreffen Diabetes-Prädiktor |
+| WM-DRUG-1334 | Adefovirdipivoxil | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Titel „Adefovirdipivoxil“ bezeichnet zwar den Wirkstoff der Klassifikation (ATC J05AF08), aber nur die Quellen 4 und 5 behandeln Adefovi |
+| WM-DRUG-1335 | Telbivudin | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 8 behandelt Telbivudin spezifisch (Fallbericht Rhabdomyolyse). Die übrigen Arbeiten betreffen Nukleos(t)id-Analoga allgemein, Lamivudin  |
+| WM-DRUG-1336 | Clevudin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Clevudine' |
+| WM-DRUG-1337 | Delavirdin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Delavirdin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC J05AG02). Die vier Quellen sind aber allgemeine Übersichtsarbeite |
+| WM-DRUG-1338 | Elsulfavirin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'elsulfavirin' |
+| WM-DRUG-1339 | Peramivir | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Titel 'Peramivir' entspricht dem Wirkstoff der Klassifikation (ATC J05AH03). Nur Quelle 7 behandelt Peramivir explizit im Titel. Die übrigen Quell |
+| WM-DRUG-1340 | Laninamivir | drug | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (Der Titel 'Laninamivir' entspricht dem Wirkstoff (ATC J05AH04). Die Titel der Quellen nennen Laninamivir jedoch meist nicht ausdrücklich. Wahrsche |
+| WM-DRUG-1341 | Elvitegravir | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Der Titel „Elvitegravir“ entspricht dem Wirkstoff der Klassifikation (J05AJ02). Nur Quelle 8 behandelt Elvitegravir ausdrücklich, nämlich analytis |
+| WM-DRUG-1344 | Telaprevir | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Telaprevir' |
+| WM-DRUG-1345 | Boceprevir | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 3 behandelt Boceprevir direkt (Resistenzselektion bei SARS-CoV-2 Mpro). Die Quellen 1, 2 und 4 sind allgemeine Übersichten zu Kräutersto |
+| WM-DRUG-1346 | Faldaprevir | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Faldaprevir' |
+| WM-DRUG-1347 | Simeprevir | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Simeprevir' |
+| WM-DRUG-1348 | Asunaprevir | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Asunaprevir explizit (zusammen mit Daclatasvir und Beclabuvir). Die Quellen 1, 2, 3 und 5 betreffen andere Wirkstoffe, Wirks |
+| WM-DRUG-1351 | Dasabuvir | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt Dasabuvir als Wirkstoff. Quelle 1 betrifft DAA-Regime bei HCV und Niereninsuffizienz allgemein (Dasabuvir wird darin al |
+| WM-DRUG-1354 | Coblopasvir | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel 'Coblopasvir' bezeichnet denselben Wirkstoff wie die Klassifikation (ATC J05AP12, NS5A-Inhibitor gegen HCV). Keine der Quellen behandelt  |
+| WM-DRUG-1355 | Ravidasvir | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine der Quellen behandelt Ravidasvir speziell; es handelt sich um allgemeine HCV-Therapie-Übersichten bzw. andere DAAs (z. B. Sofosbuvir/Velpatas |
+| WM-DRUG-1356 | Narlaprevir | drug | zu wenige Quellen mit Zusammenfassung (2) für 'NS3/4A protease inhibitors' |
+| WM-DRUG-1357 | Moroxydin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Moroxydine' |
+| WM-DRUG-1358 | Inosin pranobex | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Inosin pranobex' bezeichnet denselben Wirkstoff wie ATC J05AX05. Die Quellen 1, 4 und 5 behandeln Inosine pranobex direkt. Quelle 2 ist  |
+| WM-DRUG-1359 | Pleconaril | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Pleconaril ist ein antiviraler Capsid-Binder (Picornaviren, ATC J05AX06); der Titel passt zum Wirkstoff. Nur Quelle 4 (EV-D68-Therapeutika) und Que |
+| WM-DRUG-1361 | Enisamiumiodid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Enisamium iodide' |
+| WM-DRUG-1363 | Tiloron | drug | zu wenige Quellen mit Zusammenfassung (2) für 'tilorone' |
+| WM-DRUG-1364 | Imidazolylethanamidoglutarsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Imidazolylethanamide pentanedioic acid' |
+| WM-DRUG-1365 | Kagocel | drug | zu wenige Quellen mit Zusammenfassung (1) für 'gossypol derivative' |
+| WM-DRUG-1366 | Ibalizumab | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Ibalizumab“ entspricht dem Wirkstoff der Klassifikation (ATC J05AX23). Nur Quelle 6 behandelt Ibalizumab direkt. Quelle 4 und Quelle 5 b |
+| WM-DRUG-1368 | Amenamevir | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Der Titel „Amenamevir“ bezeichnet denselben Wirkstoff wie ATC J05AX26. Nur Quelle 3 behandelt Amenamevir direkt. Die übrigen Quellen sind allgemein |
+| WM-DRUG-1372 | Riamilovir | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel Riamilovir bezeichnet denselben Wirkstoff wie ATC J05AX32 (Triazavirin ist ein Synonym). Quellen 4, 5 und 6 behandeln Triazavirin/Riamilo |
+| WM-DRUG-1373 | Labuvirtid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Albuvirtide' |
+| WM-DRUG-1376 | Schlangengift-Antiserum | drug | Bestätigungsquote 35/60 unter 60 % |
+| WM-DRUG-1377 | Botulismus-Antitoxin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Botulismus-Antitoxin“ entspricht dem Wirkstoff J06AA04. Quelle 3 behandelt direkt das Antitoxin (BAT). Quelle 1 sind Leitlinien zur Botu |
+| WM-DRUG-1378 | Gasbrand-Serum | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Gas gangrene antitoxin' |
+| WM-DRUG-1379 | Tollwut-Serum | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Der Titel „Tollwut-Serum“ entspricht dem Wirkstoff Tollwut-Immunglobulin (J06AA06). Nur Quellen 4 und 5 behandeln Tollwut-Postexpositionsprophylaxe |
+| WM-DRUG-1382 | Varicella/Zoster-Immunglobulin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Varicella-zoster immunoglobulin human' |
+| WM-DRUG-1383 | Tollwut-Immunglobulin | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel „Tollwut-Immunglobulin“ entspricht dem Wirkstoff der Klassifikation (ATC J06BB05). Quellen 1–3 behandeln Tollwut-Immunglobulin bzw. desse |
+| WM-DRUG-1384 | Röteln-Immunglobulin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der vier Quellen behandelt Röteln-Immunglobulin als Wirkstoff. Sie befassen sich mit Masern-/Rötelnepidemiologie, Schnelltests, dem kongenita |
+| WM-DRUG-1385 | Kuhpocken-Immunglobulin | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel „Kuhpocken-Immunglobulin“ ist das deutsche Synonym für Vaccinia-Immunglobulin (ATC J06BB07) und bezeichnet denselben Wirkstoff. Nur Quell |
+| WM-DRUG-1386 | Staphylococcus-Immunglobulin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Staphylococcus immunoglobulin' |
+| WM-DRUG-1389 | Hepatitis-A-Immunglobulin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Hepatitis A immunoglobulin' |
+| WM-DRUG-1390 | FSME-Immunglobulin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'tick-borne encephalitis immunoglobulin' |
+| WM-DRUG-1392 | Masern-Immunglobulin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Immunoglobulin, normal human' |
+| WM-DRUG-1393 | Mumps-Immunglobulin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mumps immunoglobulin' |
+| WM-DRUG-1394 | Anthrax-Immunglobulin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Anthrax immunoglobulin' |
+| WM-DRUG-1395 | Nebacumab | drug | zu wenige Quellen mit Zusammenfassung (1) für 'anti-endotoxin antibody' |
+| WM-DRUG-1396 | Raxibacumab | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Raxibacumab“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC J06BC02). Quellen 1 und 5 behandeln die zugelassenen Anthrax-Ant |
+| WM-DRUG-1398 | Obiltoxaximab | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Der Titel „Obiltoxaximab“ entspricht dem Wirkstoff der Klassifikation (ATC J06BC04). Nur Quelle 2 behandelt zugelassene Therapien gegen Anthrax ein |
+| WM-DRUG-1399 | Motavizumab | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Motavizumab' entspricht dem Wirkstoff der Klassifikation (J06BD02). Die Quellen 1, 3 und 4 behandeln RSV-Antikörper als Netzwerk-Metaana |
 | WM-DRUG-1430 | Methohexital | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Methohexital“ bezeichnet denselben Wirkstoff wie ATC N01AF01. Quelle 1 vergleicht Propofol mit Methohexital bei EKT, Quelle 5 gibt einen |
 | WM-DRUG-1431 | Hexobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Hexobarbital' |
 | WM-DRUG-1432 | Thiopental | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Titel und ATC-Code N01AF03 bezeichnen beide Thiopental. Thiopental ist explizit Gegenstand von Quelle 11 (Propofol vs. Thiopental bei Sectio). Que |
