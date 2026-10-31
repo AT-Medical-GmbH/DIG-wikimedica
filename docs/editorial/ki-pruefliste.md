@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 09:25. Warteschlange: duplicate 445, planned 3299, published 1229, ready 13, redirect 365, review 1714.
+Stand: 31.10.2026 10:25. Warteschlange: duplicate 445, planned 3275, published 1242, ready 12, redirect 365, review 1726.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1067,6 +1067,18 @@ Stand: 31.10.2026 09:25. Warteschlange: duplicate 445, planned 3299, published 1
 | WM-DRUG-1302 | Protionamid | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Protionamid“ bezeichnet denselben Wirkstoff wie ATC J04AD01. Keine der Quellen behandelt aber Protionamid als Hauptthema. Quelle 1 und 4 |
 | WM-DRUG-1303 | Tiocarlid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'tiocarlide' |
 | WM-DRUG-1304 | Ethionamid | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Der Titel 'Ethionamid' entspricht dem Wirkstoff (ATC J04AD03). Keine der Quellen behandelt Ethionamid als Hauptthema. Quelle 5 nennt es nur als ein |
+| WM-DRUG-1307 | Terizidon | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Terizidon ist ein Antituberkulotikum (Cycloserin-Derivat) bei MDR-Tuberkulose. Nur Quelle 7 behandelt Cycloserin in diesem Kontext; die übrigen bet |
+| WM-DRUG-1308 | Morinamid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'morpholine derivatives' |
+| WM-DRUG-1309 | Thioacetazon | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Thioacetazone' |
+| WM-DRUG-1312 | Aldesulfonnatrium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'aldesulfone sodium' |
+| WM-DRUG-1313 | Metisazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Methisazone' |
+| WM-DRUG-1319 | Brivudin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Nur die Quellen 1 und 2 behandeln Brivudin direkt. Quelle 3 (HSV-Resistenz), 4 (akute Retinanekrose), 5 (Herpes zoster allgemein) und 6 (VZV-Infekt |
+| WM-DRUG-1322 | Rimantadin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Rimantadin spezifisch. Quelle 1 (Postexpositionsprophylaxe der Influenza), 2 (antivirale Substanzen bei Influenza-Pande |
+| WM-DRUG-1324 | Fosfonet | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Titel Fosfonet entspricht J05AD02 (Phosphonoessigsäure). Keine Quelle behandelt Phosphonoessigsäure selbst; sie betreffen Herpesvirus-Infektionen a |
+| WM-DRUG-1325 | Saquinavir | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quelle 8 behandelt Saquinavir direkt, Quelle 2 untersucht unter anderem Saquinavir (QT-/PR-Verlängerung). Die übrigen Quellen behandeln Saquina |
+| WM-DRUG-1326 | Indinavir | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt Indinavir als Hauptthema. Es geht um Wechselwirkungen antiretroviraler Substanzen allgemein, Antibiotika bei Sepsis, CO |
+| WM-DRUG-1327 | Nelfinavir | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Nelfinavir spezifisch. Sie betreffen antiretrovirale Wirkstoffe allgemein, COVID-19-Repurposing, Remimazolam oder Herpe |
+| WM-DRUG-1328 | Amprenavir | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt Amprenavir spezifisch. Die Quellen 1 und 2 betreffen antiretrovirale Wirkstoffe allgemein (Wechselwirkungen mit Nahrung |
 | WM-DRUG-1430 | Methohexital | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Methohexital“ bezeichnet denselben Wirkstoff wie ATC N01AF01. Quelle 1 vergleicht Propofol mit Methohexital bei EKT, Quelle 5 gibt einen |
 | WM-DRUG-1431 | Hexobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Hexobarbital' |
 | WM-DRUG-1432 | Thiopental | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Titel und ATC-Code N01AF03 bezeichnen beide Thiopental. Thiopental ist explizit Gegenstand von Quelle 11 (Propofol vs. Thiopental bei Sectio). Que |
