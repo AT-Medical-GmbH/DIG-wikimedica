@@ -2,15 +2,17 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 04:25. Warteschlange: claimed 1, duplicate 441, planned 3787, published 1079, ready 35, redirect 273, review 1449.
+Stand: 31.10.2026 05:25. Warteschlange: claimed 3, duplicate 444, planned 3663, published 1114, ready 35, redirect 308, review 1498.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
 | WM-DIS-0101 | Binnenschädigung des Kniegelenkes internal derangement | disease | Entwurf ohne belegte Sätze |
+| WM-DIS-0105 | Spondylopathien bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (M49 umfasst Spondylopathien bei anderenorts klassifizierten Grundkrankheiten (z. B. tuberkulöse, brucellöse, neuropathische Spondylopathie). Der Ti |
 | WM-DIS-0133 | Spontanruptur der Synovialis und von Sehnen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'spontaneous tendon rupture' |
 | WM-DIS-0140 | Sekundäre Hypertonie | disease | Bestätigungsquote 33/57 unter 60 % |
 | WM-DIS-0163 | Gutartige Neubildung des Kolons, des Rektums, des Analkanals und des Anus | disease | zu wenige Quellen mit Zusammenfassung (0) für 'benign colon tumors' |
 | WM-DIS-0189 | Verschluss und Stenose präzerebraler Arterien ohne resultierenden Hirninfarkt | disease | zu wenige Quellen mit Zusammenfassung (1) für 'extracranial artery stenosis' |
+| WM-DIS-0194 | Pneumonie bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle 13 Quellen behandeln Pneumocystis-Pneumonie, also genau das gesuchte Krankheitsbild. J17 (Pneumonie bei anderenorts klassifizierten Kra |
 | WM-DIS-0205 | Krankheiten des autonomen Nervensystems | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel entspricht G90 (Krankheiten des autonomen Nervensystems). Passend sind nur Quelle 1 (Elektrophysiologie peripherer und zentraler autonome |
 | WM-DIS-0208 | Komplikationen bei Anästhesie während der Wehentätigkeit und bei der Entbindung | disease | Bestätigungsquote 15/40 unter 60 % |
 | WM-DIS-0212 | Fraktur des Unterschenkels, einschließlich des oberen Sprunggelenkes | disease | Bestätigungsquote 23/42 unter 60 % |
@@ -142,6 +144,7 @@ Stand: 31.10.2026 04:25. Warteschlange: claimed 1, duplicate 441, planned 3787, 
 | WM-DIS-0600 | Oberflächliche Verletzung des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
 | WM-DIS-0601 | Offene Wunde des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (2) für 'lower leg wound' |
 | WM-DIS-0610 | Mangel an sonstigen Spurenelementen | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt ICD-10 E61 spezifisch; alle sind kontextspezifisch (z.B. systemischer Sklerose, Kamele, bariatrische Chirurgie, psychische S |
+| WM-DIS-0613 | Krankheiten der Atemwege nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | zu wenige Quellen mit Zusammenfassung (0) für 'iatrogenic respiratory disease' |
 | WM-DIS-0616 | Oberflächliche Verletzung der Schulter und des Oberarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S40 bezeichnet oberflächliche Verletzungen (z.B. Prellungen, Abschürfungen). Die Quelle 'shoulder injury' ist zu allgemein und umf |
 | WM-DIS-0617 | Verletzung von Muskeln und Sehnen in Höhe des Handgelenkes und der Hand | disease | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Titel passt zur ICD-10-GM S66. Quelle 1 (Radiocarpal dislocations) und 8 (Spaghetti Wrist Injury, typisch für Sehnenverletzungen) behandeln spezif |
 | WM-DIS-0621 | Schäden durch Hitze und Sonnenlicht | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Hitzeschäden und Sonnenbrand' ist irreführend, da er 'Sonnenbrand' (Hautschädigung) impliziert, ICD-10-GM T67 jedoch sys |
@@ -167,6 +170,7 @@ Stand: 31.10.2026 04:25. Warteschlange: claimed 1, duplicate 441, planned 3787, 
 | WM-DIS-0665 | Bösartige Neubildung des Gaumens | disease | zu wenige Quellen mit Zusammenfassung (1) für 'palate cancer' |
 | WM-DIS-0666 | Bösartige Neubildung sonstiger und nicht näher bezeichneter Teile des Mundes | disease | zu viele nur teilweise belegte Sätze (19/34) |
 | WM-DIS-0678 | Sonstige Krankheiten des Ösophagus | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (ICD-10-GM K22 umfasst sonstige Ösophaguserkrankungen (u. a. Achalasie, Ulkus, Obstruktion, Perforation, Dyskinesie, Divertikel, Ösophagitis-Folgen) |
+| WM-DIS-0679 | Affektionen des Augapfels | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (H44 umfasst Affektionen des Augapfels (u. a. eitrige Endophthalmitis H44.0, sonstige Endophthalmitis H44.1, degenerative Myopie, Hypotonie, Blutun |
 | WM-DIS-0682 | Verletzung von Blutgefäßen in Höhe der Schulter und des Oberarmes | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel entspricht S45 (Gefäßverletzungen an Schulter und Oberarm) mit kleinem Unterschied im Zuschnitt. Quellen 2 und 3 behandeln stumpfe Verlet |
 | WM-DIS-0683 | Verletzung von Muskeln und Sehnen in Höhe der Schulter und des Oberarmes | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Verletzungen der Rotatorenmanschette“ entspricht S46 (Sehnen und Muskeln der Schulter, v. a. Rotatorenmanschette), Synonym und Mehrzahl  |
 | WM-DIS-0684 | Verletzung von Nerven in Höhe des Unterarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'forearm nerve injury' |
@@ -177,6 +181,15 @@ Stand: 31.10.2026 04:25. Warteschlange: claimed 1, duplicate 441, planned 3787, 
 | WM-DIS-0690 | Luxationen, Verstauchungen und Zerrungen mit Beteiligung mehrerer Körperregionen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'multiple dislocations and sprains' |
 | WM-DIS-0691 | Schäden durch Luft- und Wasserdruck | disease | Entwurf ohne belegte Sätze |
 | WM-DIS-0694 | Tubulointerstitielle Nephritis, nicht als akut oder chronisch bezeichnet | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel „Tubulointerstitielle Nephritis“ entspricht N12 (Synonym, kleiner Unterschied im Zuschnitt). Nur Quelle 7 behandelt die tubulointerstitie |
+| WM-DIS-0697 | Affektionen des Tränenapparates | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-0698 | Sonstiger Strabismus | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-0699 | Sehstörungen | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
 | WM-DIS-0702 | Erosion und Ektropium der Cervix uteri | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical ectopy' |
 | WM-DIS-0703 | Neigung zu habituellem Abort | disease | Bestätigungsquote 27/50 unter 60 % |
 | WM-DIS-0708 | Bösartige Neubildung des Mundbodens | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Der Titel „Maligne Tumoren des Mundbodens“ entspricht C04 (Mundboden). Alle zwölf Quellen behandeln jedoch Mundhöhlenkrebs insgesamt (C00–C06), al |
@@ -192,16 +205,35 @@ Stand: 31.10.2026 04:25. Warteschlange: claimed 1, duplicate 441, planned 3787, 
 | WM-DIS-0725 | Verletzung von Muskeln und Sehnen in Höhe des Knöchels und des Fußes | disease | zu wenige Quellen mit Zusammenfassung (2) für 'ankle tendon injuries' |
 | WM-DIS-0726 | Fremdkörper im Urogenitaltrakt | disease | zu wenige Quellen mit Zusammenfassung (0) für 'foreign body urogenital' |
 | WM-DIS-0727 | Schäden durch sonstigen Mangel | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM T73 umfasst Schäden durch Hunger, Durst, Erschöpfung und sonstigen Mangel (z. B. Entbehrung von Nahrung/Wasser, Überanstrengung).  |
+| WM-DIS-0729 | Affektionen der Orbita | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-0730 | Konjunktivitis | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-0731 | Akkommodationsstörungen und Refraktionsfehler | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-0732 | Blindheit und Sehbeeinträchtigung | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Titel passt zur ICD-10-GM H54. Nur Quelle 3 und 5 behandeln explizit visuelle Beeinträchtigung/Blindheit. Quelle 1 ist zu allgemein (neurodevelopme |
 | WM-DIS-0741 | Chronische Hepatitis, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (K73 umfasst nur chronische Hepatitis, anderenorts nicht klassifiziert, also nicht die chronische Virushepatitis (B, C, D; diese stehen unter |
 | WM-DIS-0743 | Sonstige Verletzungen unter der Geburt | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM O71 bezeichnet körperliche Geburtstraumata (z.B. Dammrisse, Frakturen), während die Quelle 'birth trauma' meist psychische Traumat |
 | WM-DIS-0744 | Sonstige Komplikationen bei Wehentätigkeit und Entbindung, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 O75 (Komplikationen bei Wehentätigkeit/Entbindung wie Uterusruptur, Nabelschnurvorfall etc.). Alle Quelle |
 | WM-DIS-0746 | Überfunktion der Hypophyse | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (E22 umfasst die Überfunktion der Hypophyse (hormonaktive Hypophysenadenome, z. B. Akromegalie, Hyperprolaktinämie). Der Titel „Überfunktion der Hyp |
+| WM-DIS-0747 | Krankheiten der Zunge | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (K14 umfasst Glossitis, Landkartenzunge, Makroglossie, Glossodynie, Zungenatrophie u. a.; „Erkrankungen der Zunge“ ist ein passendes Synonym. Passen |
 | WM-DIS-0748 | Sonstige Krankheiten des Darmes | disease | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Titel entspricht K63 (sonstige Darmkrankheiten). Nur Quelle 3 behandelt nichttraumatische Darmperforation bei Erwachsenen; die übrigen betreffen p |
+| WM-DIS-0751 | Keratitis | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-0752 | Strabismus paralyticus | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Titel ist korrekt. Quelle 1 ist zu allgemein (Genetic Syndromes), 2 behandelt Botulinum-Toxin (Therapie, nicht primär Diagnose/Krankheitsbild im en |
 | WM-DIS-0753 | Sonstige Kataraktformen | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Titel passt zu H26. Nur Quellen 1 und 6 behandeln Katarakt allgemein/leitliniengerecht. Quelle 10 ist Meta-Analyse zu Blindheit, keine klinische Q |
 | WM-DIS-0754 | Traumatische Amputation am oberen Sprunggelenk und Fuß | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel entspricht S98 (Fuß und oberes Sprunggelenk, traumatische Amputation). Keine der Quellen behandelt jedoch die traumatische Amputation: Di |
 | WM-DIS-0755 | Bösartige Neubildung des Zahnfleisches | disease | zu wenige Quellen mit Zusammenfassung (1) für 'Gingival carcinoma' |
 | WM-DIS-0757 | Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen des Atmungssystems und sonstiger intrathorakaler Organe | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der ICD-10-C39-Codes umfasst alle bösartigen Neubildungen des Atmungssystems und intrathorakaler Organe (z.B. Lunge, Bronchien, Pleura, Medi |
 | WM-DIS-0759 | Bösartige Neubildung der Meningen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-C70 bezeichnet primäre maligne Neubildungen der Meningen (z.B. Meningeome, primäre Meningealkarzinome), während 'leptomeningeal metas |
+| WM-DIS-0764 | Netzhautablösung und Netzhautriss | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-0765 | Affektionen des Glaskörpers | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (H43 umfasst Glaskörperaffektionen (Glaskörperblutung, -trübungen, -abhebung, Synchisis usw.). Der Titel „Erkrankungen des Glaskörpers“ entspricht d |
 | WM-DIS-0766 | Angeborenes Jodmangelsyndrom | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel "Angeborenes Jodmangelsyndrom" entspricht ICD-10-GM E00 (Synonym u. a. Kretinismus). Keine der Quellen behandelt aber speziell das angebo |
 | WM-DIS-0769 | Hyperaldosteronismus | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln den primären Hyperaldosteronismus (E26.0). Der Titel ist aber enger als E26, das auch sekundären und sonstigen Hypera |
 | WM-DIS-0775 | Mangel an sonstigen Vitaminen des Vitamin-B-Komplexes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Vitamin-B-Mangel' ist ein Oberbegriff für den ganzen B-Komplex und schließt auch Thiamin (E51) und Niacin (E52) ein, die nicht zu E53 |
@@ -211,10 +243,25 @@ Stand: 31.10.2026 04:25. Warteschlange: claimed 1, duplicate 441, planned 3787, 
 | WM-DIS-0789 | Traumatische Amputation von Teilen des Kopfes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'traumatic facial amputation' |
 | WM-DIS-0790 | Zerquetschung und traumatische Amputation von Teilen des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (0) für 'pelvic crush injury' |
 | WM-DIS-0791 | Fremdkörper im äußeren Auge | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (T15 meint Fremdkörper im äußeren Auge (Hornhaut, Bindehaut). Die Quellen behandeln intraokulare Fremdkörper bzw. offene Bulbusverletzungen,  |
+| WM-DIS-0794 | Gangrän, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Titel entspricht R02. Nur die Quellen 6 und 13 behandeln Gangrän allgemein. Die übrigen betreffen diabetische Gangrän, Fournier-Gangrän, gangränös |
 | WM-DIS-0803 | Sonstige Krankheiten der oberen Atemwege | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (J39 umfasst sonstige Krankheiten der oberen Atemwege (ohne z. B. Rhinitis, Sinusitis, Pharyngitis, die in anderen Kategorien codiert sind).  |
+| WM-DIS-0806 | Iridozyklitis | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-0807 | Chorioretinitis | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-0808 | Netzhautgefäßverschluss | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (H34 „Netzhautgefäßverschluss“ umfasst Arterien- und Venenverschlüsse (H34.0 transitorische Arterienverschlüsse, H34.1 Zentralarterienverschl |
 | WM-DIS-0809 | Bösartige Neubildung der Nasenhöhle und des Mittelohres | disease | zu wenige Quellen mit Zusammenfassung (3) für 'nasal cavity cancer' |
 | WM-DIS-0810 | Bösartige Neubildung ohne Angabe der Lokalisation | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Alle Quellen behandeln spezifische Lokalisationen (z.B. Ösophagus, Leber, Kinderkrebs) oder sind allgemeine Übersichten zu Komplikationen/Therapien |
 | WM-DIS-0811 | Sonstige Krankheiten der Gallenblase | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (K82 meint sonstige Gallenblasenkrankheiten (ohne Steine K80, Cholezystitis K81, Karzinom C23); der Titel „Erkrankungen der Gallenblase“ ist  |
+| WM-DIS-0814 | Nachweis von Drogen und anderen Substanzen, die normalerweise nicht im Blut vorhanden sind | disease | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Der Titel 'Nachweis von Drogen im Blut' entspricht im Wesentlichen R78. Alle zehn Quellen behandeln 'drug screening' im Sinne der Wirkstoffforschu |
+| WM-DIS-0815 | Abnorme Liquorbefunde | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (R83 umfasst abnorme Liquorbefunde allgemein, und der Titel „Abnorme Liquorbefunde“ entspricht dem. Nur Quelle 6 behandelt die Liquoranalyse allgeme |
+| WM-DIS-0816 | Abnorme Befunde in Untersuchungsmaterialien aus Atemwegen und Thorax | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (R84 umfasst abnorme Befunde in Untersuchungsmaterialien aus Atemwegen und Thorax (z. B. Sputum, Bronchialsekret, Pleuraflüssigkeit, Zytologi |
+| WM-DIS-0817 | Abnorme Befunde in Untersuchungsmaterialien aus Verdauungsorganen und Bauchhöhle | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (R85 betrifft abnorme Befunde in Untersuchungsmaterialien (z. B. Stuhl, Peritonealflüssigkeit, Aspirate) aus Verdauungsorganen und Bauchhöhle |
+| WM-DIS-0818 | Abnorme Befunde in Untersuchungsmaterialien aus den männlichen Genitalorganen | disease | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (R86 umfasst abnorme Befunde in Untersuchungsmaterialien der männlichen Genitalorgane, z. B. abnormes Spermiogramm. Der Titel „Auffällige Befunde i |
+| WM-DIS-0819 | Abnorme Befunde in Untersuchungsmaterialien aus den weiblichen Genitalorganen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (R87 umfasst abnorme Befunde in Untersuchungsmaterialien aus allen weiblichen Genitalorganen (u. a. Vagina, Vulva, Ovar, Zervix), der Titel b |
+| WM-DIS-0820 | Abnorme Befunde in Untersuchungsmaterialien aus anderen Körperorganen, -systemen und -geweben | disease | zu wenige Quellen mit Zusammenfassung (0) für 'abnormal findings specimens' |
 | WM-DIS-0821 | Sonstige Krankheiten der Harnblase | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel "Krankheiten der Harnblase" entspricht im Wesentlichen N32 (sonstige Krankheiten der Harnblase), kleine Unterschiede im Zuschnitt sind ak |
 | WM-DIS-0822 | Komplikationen durch sonstige interne Prothesen, Implantate oder Transplantate | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (T85 umfasst alle Komplikationen durch sonstige interne Prothesen, Implantate und Transplantate (mechanisch, infektiös, thrombotisch usw.). D |
 | WM-DIS-0837 | Zerquetschung des Halses | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neck crush injury' |
@@ -225,19 +272,41 @@ Stand: 31.10.2026 04:25. Warteschlange: claimed 1, duplicate 441, planned 3787, 
 | WM-DIS-0842 | Traumatische Amputation an Hüfte und Oberschenkel | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel entspricht S78 (traumatische Amputation an Hüfte und Oberschenkel). Quelle 1 und 2 behandeln traumatische Amputationen der unteren Extrem |
 | WM-DIS-0843 | Traumatische Amputation am Unterschenkel | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Titel entspricht S88. Quellen 1 und 2 behandeln traumatische Amputation der unteren Extremität (Unterschenkel eingeschlossen). Quellen 3 und 4 betr |
 | WM-DIS-0844 | Zerquetschung des oberen Sprunggelenkes und des Fußes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'ankle foot crush injury' |
+| WM-DIS-0847 | Symptome, die die Stimmung betreffen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (R45 umfasst unspezifische Stimmungssymptome (z. B. Nervosität, Reizbarkeit, Feindseligkeit, Traurigkeit), keine diagnostizierten Stimmungsst |
+| WM-DIS-0850 | Abnorme Ergebnisse von Funktionsprüfungen | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (R94 umfasst abnorme Ergebnisse von Funktionsprüfungen (z. B. Lungenfunktion, Herz-Kreislauf, ZNS, Nieren, Leber). Der Titel „Abnormale Befunde bei  |
+| WM-DIS-0851 | Sonstige Krankheiten des Gehirns | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G93 umfasst viele verschiedene Hirnkrankheiten (u. a. Hirnödem, Enzephalopathie, Hirnkompression, anoxischer Hirnschaden, Reye-Syndrom). Der |
+| WM-DIS-0856 | Affektionen der Sklera | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-0857 | Hornhautnarben und -trübungen | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
 | WM-DIS-0860 | Sonstige Krankheiten der Niere und des Ureters, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (N28 umfasst mehrere Erkrankungen (u. a. erworbene Nierenzyste N28.1, Ureterstriktur, Nierenatrophie usw.). Der Titel „Sonstige Nierenerkrank |
 | WM-DIS-0861 | Sonstige Krankheiten der Harnröhre | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Harnröhrenstrikturen (ICD-10 N35), nicht N36 (sonstige Harnröhrenkrankheiten wie Fistel, Divertikel, Karunkel, Prolap |
+| WM-DIS-0890 | Lokalisierte Schwellung, Raumforderung und Knoten der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Hautknoten und subkutane Raumforderungen“ entspricht R22 (lokalisierte Schwellung, Raumforderung und Knoten der Haut und Unterhaut). Kei |
+| WM-DIS-0893 | Sonstige Lähmungssyndrome | disease | zu wenige Quellen mit Zusammenfassung (1) für 'paralytic syndromes' |
 | WM-DIS-0907 | Sonstige Krankheiten der Nase und der Nasennebenhöhlen | disease | Entwurf ohne belegte Sätze |
 | WM-DIS-0914 | Zerquetschung des Thorax und traumatische Amputation von Teilen des Thorax | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (S28 meint speziell Zerquetschung des Thorax und traumatische Amputation von Thoraxteilen. Der Titel „Thoraxtrauma und Thoraxzerquetschung“ i |
 | WM-DIS-0915 | Zerquetschung des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist crush injury' |
 | WM-DIS-0916 | Zerquetschung des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'leg contusion' |
+| WM-DIS-0921 | Sonstige nichtentzündliche Krankheiten des Uterus, ausgenommen der Zervix | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (N85 umfasst mehrere nichtentzündliche Uteruserkrankungen (Endometriumhyperplasie N85.0/N85.1, Adenomyose N80 gehört nicht dazu, aber u. a. A |
+| WM-DIS-0922 | Sonstige nichtentzündliche Krankheiten der Vagina | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel „Nichtentzündliche Vagenerkrankungen“ ist ein Oberbegriff und meint nicht genau N89 („Sonstige nichtentzündliche Krankhei |
+| WM-DIS-0989 | Sonstige nichtentzündliche Krankheiten der Cervix uteri | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (N88 umfasst sonstige nichtentzündliche Zervixkrankheiten (z. B. Zervixinsuffizienz, Striktur, Elongation, Ulkus, Leukoplakie). Zervixdysplas |
 | WM-DIS-1001 | Sonstige lokale Infektionen der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine Quelle behandelt spezifisch L08 (lokale Infektionen der Haut/Unterhaut ohne spezifische Erregerangabe wie Orf, Mykobakterien oder spezifische |
 | WM-DIS-1045 | Sonstige Veränderungen des Fruchtwassers und der Eihäute | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Titel deckt ICD-10-GM O41 ab. Quelle 1 behandelt Amnionflüssigkeitsanomalien. Quelle 3 behandelt Liquor-Anomalien (Synonym). Quelle 2 (Kabuki) und  |
+| WM-DIS-1046 | Sonstige degenerative Krankheiten der Basalganglien | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM G23 umfasst nur bestimmte „sonstige“ degenerative Basalganglienkrankheiten (u. a. Hallervorden-Spatz/NBIA G23.0, progressive supra |
 | WM-DIS-1082 | Bösartige Neubildung des Zungengrundes | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Titel passt zur ICD-10-C01. Quelle 1 und 2 behandeln explizit 'base of tongue cancer'. Quelle 3 und 4 sind zu allgemein (Oropharynx), Quelle 5 irre |
 | WM-DIS-1088 | Bösartige Neubildung der Plazenta | disease | zu wenige Quellen mit Zusammenfassung (0) für 'placental malignancy' |
 | WM-DIS-1090 | Bösartige Neubildung des Nierenbeckens | disease | zu wenige Quellen mit Zusammenfassung (2) für 'renal pelvis cancer' |
 | WM-DIS-1091 | Bösartige Neubildung des Ureters | disease | zu wenige Quellen mit Zusammenfassung (3) für 'ureteral carcinoma' |
 | WM-DIS-1093 | Bösartige Neubildungen als Primärtumore an mehreren Lokalisationen | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel entspricht ICD-Code. Quellen 3, 4, 5 behandeln direkt Multiple Primary Malignancies. Quelle 1 (Metastasen) und 2 (Sarcoma) passen nicht. Quel |
+| WM-DIS-1094 | Sonstige abnorme Konzeptionsprodukte | disease | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Titel entspricht O02 (Windei, Fleischmole u. a.). Keine Quelle behandelt abnorme Konzeptionsprodukte; sie betreffen Hyperemesis, Angst, Präeklampsi |
+| WM-DIS-1095 | Meningitis durch sonstige und nicht näher bezeichnete Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G03 umfasst Meningitis sonstiger/nicht näher bezeichneter Ursache (z. B. aseptisch, chronisch, rheumatoid). Bakterielle (G00), tuberkulöse,  |
+| WM-DIS-1096 | Myasthenia gravis und sonstige neuromuskuläre Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Fast alle Quellen behandeln Myasthenia gravis. Quelle 13 betrifft ICI-induzierte Myokarditis/Myositis-MG-Überlappung, also ein anderes Krank |
+| WM-DIS-1158 | Hypoglykämisches Koma, nichtdiabetisch | disease | zu wenige Quellen mit Zusammenfassung (3) für 'non-diabetic hypoglycemia' |
+| WM-DIS-1161 | Kwashiorkor-Marasmus | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (E42 bezeichnet speziell die Mischform Kwashiorkor-Marasmus, eine schwere Protein-Energie-Mangelernährung, überwiegend bei Kindern. Der Titel |
+| WM-DIS-1167 | Alimentärer Kalziummangel | disease | zu wenige Quellen mit Zusammenfassung (3) für 'dietary calcium deficiency' |
+| WM-DIS-1170 | Lokalisierte Adipositas | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Lokalisierte Adipositas“ entspricht der Klassifikation E65. Keine der Quellen behandelt aber die lokalisierte Fettansammlung (z. B. Reit |
 | WM-DIS-1199 | Verletzung von Muskeln und Sehnen in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cervical strain' |
 | WM-DIS-1200 | Traumatische Amputation in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical amputation' |
 | WM-DIS-1201 | Zerquetschung der Schulter und des Oberarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'shoulder contusion' |
@@ -246,6 +315,7 @@ Stand: 31.10.2026 04:25. Warteschlange: claimed 1, duplicate 441, planned 3787, 
 | WM-DIS-1207 | Nicht näher bezeichnete Schäden durch äußere Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Schäden durch äußere Ursachen' ist ein allgemeiner Oberbegriff für ICD-10-GM T76 und lässt spezifische Formen/Schweregra |
 | WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
 | WM-DIS-1303 | Schrumpfniere, nicht näher bezeichnet | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit die Schrumpfniere (ICD-10-GM N26). Die Quellen behandeln andere Nierenerkrankungen (FMD, Angiomyolipom, Athero |
+| WM-DIS-1358 | Sonstige nichtorganische psychotische Störungen | disease | zu wenige Quellen mit Zusammenfassung (2) für 'functional psychosis' |
 | WM-DRUG-0106 | Blutgerinnungsfaktor VIII | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Blutgerinnungsfaktor VIII' entspricht dem Wirkstoff Faktor VIII (ATC B02BD02). Die Quellen 1–3 behandeln Faktor VIII als Protein und Wir |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0121 | Bevacizumab | drug | zu viele nur teilweise belegte Sätze (22/35) |
@@ -439,6 +509,9 @@ Stand: 31.10.2026 04:25. Warteschlange: claimed 1, duplicate 441, planned 3787, 
 | WM-DRUG-0627 | Danicopan | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Nur die Quellen 4 und 5 behandeln Danicopan direkt. Die Quellen 1–3 sind allgemeine Übersichten zur Komplementinhibition bzw. zu PNH-Therapien, in  |
 | WM-DRUG-0628 | Vilobelimab | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Vilobelimab (Anti-C5a-Antikörper, ATC L04AJ10) wird in den Quellen 1, 2 und 5 direkt behandelt. Quelle 3 und 4 sind allgemeine Übersichten zu Immun |
 | WM-DRUG-0632 | Tegomilfumarat | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Titel entspricht dem Wirkstoff laut ATC L04AX10. Die Quellen sind allgemeine Psoriasis-Übersichten oder betreffen Fumarsäureester bzw. Dimethylfum |
+| WM-DRUG-0633 | Atosiban | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-0635 | Thyrotropin alfa | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Thyrotropin alfa ist rekombinantes humanes TSH, das als Diagnostikum und zur Ablationsvorbereitung beim differenzierten Schilddrüsenkarzinom einge |
+| WM-DRUG-0636 | Mecasermin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Mecasermin' |
 | WM-DRUG-0646 | Osilodrostat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'osilodrostat' |
 | WM-DRUG-0660 | Fluticasonfuroat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle sechs Quellen behandeln Fluticasonfuroat (allein oder in Kombination mit Umeclidinium/Vilanterol bzw. als Nasenspray oder Inhalativum). |
 | WM-DRUG-0661 | Reslizumab | drug | Themenprüfung: nur 1 von 14 Quellen passen zum Thema (Der Titel „Reslizumab“ passt zum Wirkstoff (ATC R03DX08). Nur Quelle 6 nennt Reslizumab ausdrücklich im Titel. Die übrigen Quellen behandeln Biolo |
