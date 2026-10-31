@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 00:25. Warteschlange: claimed 1, duplicate 441, planned 4144, published 948, ready 25, redirect 205, review 1301.
+Stand: 31.10.2026 01:25. Warteschlange: claimed 3, duplicate 441, planned 4041, published 973, ready 35, redirect 228, review 1344.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -105,6 +105,7 @@ Stand: 31.10.2026 00:25. Warteschlange: claimed 1, duplicate 441, planned 4144, 
 | WM-DIS-0533 | Verletzung sonstiger und nicht näher bezeichneter intrathorakaler Organe | disease | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (S27 umfasst Verletzungen sonstiger intrathorakaler Organe (Lunge/Pleura wie Pneumo-/Hämatothorax, Herz, Zwerchfell, Mediastinum), nicht Rippen- od |
 | WM-DIS-0536 | Fraktur der Lendenwirbelsäule und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lumbar and pelvic fractures' |
 | WM-DIS-0538 | Sonstige zerebrovaskuläre Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle 16 Quellen behandeln Moyamoya-Krankheit, die in ICD-10-GM unter I67.5 fällt und damit Teil von I67 ist. Der Titel „Sonstige zerebrovask |
+| WM-DIS-0539 | Störungen des Mineralstoffwechsels | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel passt zu ICD-10 E83. Quelle 1, 3 und 6 behandeln Mineralstoffwechselstörungen im Kontext von CKD (chronische Nierenerkrankung), was ein Haupt |
 | WM-DIS-0540 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neck sprain' |
 | WM-DIS-0542 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern der Lendenwirbelsäule und des Beckens | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel „Verstauchung und Zerrung der Lendenwirbelsäule“ entspricht dem Kern von S33 (Zerrung/Verstauchung der LWS) und ist als Zuschnitt in Ord |
 | WM-DIS-0543 | Bestimmte Frühkomplikationen eines Traumas, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (ICD-10-GM T79 umfasst bestimmte Frühkomplikationen eines Traumas (z. B. traumatische Luftembolie, Fettembolie, posttraumatisches Kompartmentsyndrom |
@@ -129,6 +130,7 @@ Stand: 31.10.2026 00:25. Warteschlange: claimed 1, duplicate 441, planned 4144, 
 | WM-DIS-0580 | Bösartige Neubildung sonstiger und nicht näher bezeichneter weiblicher Genitalorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (C57 umfasst nur sonstige und nicht näher bezeichnete weibliche Genitalorgane (u. a. Tube, Ligamente, Parametrium), nicht Vulva (C51), Vagina |
 | WM-DIS-0581 | Bösartige Neubildung des Rückenmarkes, der Hirnnerven und anderer Teile des Zentralnervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (C72 umfasst bösartige Tumoren des Rückenmarks, der Hirnnerven und anderer Teile des ZNS (ohne Gehirn, C71). Der Titel „Tumoren des zentralen |
 | WM-DIS-0582 | Bösartige Neubildung sonstiger endokriner Drüsen und verwandter Strukturen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (C75 umfasst bösartige Neubildungen sonstiger endokriner Drüsen (u. a. Nebenschilddrüse, Hypophyse, Zirbeldrüse, Paraganglien, pluriglandulär |
+| WM-DIS-0586 | Leberversagen, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (K72 umfasst akutes/fulminantes, subakutes und chronisches Leberversagen. Der Titel „Akutes Leberversagen“ ist ein vertretbarer Zuschnitt. Rein ACL |
 | WM-DIS-0589 | Sonstige kardiale Erregungsleitungsstörungen | disease | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel „Störungen der Erregungsleitung im Herzen“ entspricht I45 (sonstige kardiale Erregungsleitungsstörungen). Nur die Quellen 3 (progressive  |
 | WM-DIS-0591 | Offene Wunde des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist and hand open wound' |
 | WM-DIS-0594 | Fraktur im Bereich des Halses | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S12 bezeichnet Frakturen der Halswirbelsäule (Cervical spine), während 'Hüftfraktur' (Hip fracture) die Hüfte betrifft. Titel und  |
@@ -139,11 +141,13 @@ Stand: 31.10.2026 00:25. Warteschlange: claimed 1, duplicate 441, planned 4144, 
 | WM-DIS-0599 | Offene Wunde der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip open wound' |
 | WM-DIS-0600 | Oberflächliche Verletzung des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
 | WM-DIS-0601 | Offene Wunde des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (2) für 'lower leg wound' |
+| WM-DIS-0610 | Mangel an sonstigen Spurenelementen | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt ICD-10 E61 spezifisch; alle sind kontextspezifisch (z.B. systemischer Sklerose, Kamele, bariatrische Chirurgie, psychische S |
 | WM-DIS-0616 | Oberflächliche Verletzung der Schulter und des Oberarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S40 bezeichnet oberflächliche Verletzungen (z.B. Prellungen, Abschürfungen). Die Quelle 'shoulder injury' ist zu allgemein und umf |
 | WM-DIS-0617 | Verletzung von Muskeln und Sehnen in Höhe des Handgelenkes und der Hand | disease | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Titel passt zur ICD-10-GM S66. Quelle 1 (Radiocarpal dislocations) und 8 (Spaghetti Wrist Injury, typisch für Sehnenverletzungen) behandeln spezif |
 | WM-DIS-0621 | Schäden durch Hitze und Sonnenlicht | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Hitzeschäden und Sonnenbrand' ist irreführend, da er 'Sonnenbrand' (Hautschädigung) impliziert, ICD-10-GM T67 jedoch sys |
 | WM-DIS-0623 | Induzierte wahnhafte Störung | disease | zu wenige Quellen mit Zusammenfassung (0) für 'folie  deux' |
 | WM-DIS-0624 | Nicht näher bezeichnete nichtorganische Psychose | disease | zu wenige Quellen mit Zusammenfassung (2) für 'functional psychosis' |
+| WM-DIS-0627 | Endokrine und Stoffwechselstörungen nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | Bestätigungsquote 24/44 unter 60 % |
 | WM-DIS-0628 | Sonstiges Aneurysma und sonstige Dissektion | disease | zu wenige Quellen mit Zusammenfassung (2) für 'arterial aneurysm dissection' |
 | WM-DIS-0631 | Bösartige Neubildung des Nasopharynx | disease | zu viele nur teilweise belegte Sätze (19/46) |
 | WM-DIS-0635 | Bösartige Neubildung des Herzens, des Mediastinums und der Pleura | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM C38 umfasst bösartige Neubildungen von Herz, Mediastinum und Pleura. Der Titel entspricht dem weitgehend, daher wäre er grundsätzl |
@@ -188,18 +192,31 @@ Stand: 31.10.2026 00:25. Warteschlange: claimed 1, duplicate 441, planned 4144, 
 | WM-DIS-0725 | Verletzung von Muskeln und Sehnen in Höhe des Knöchels und des Fußes | disease | zu wenige Quellen mit Zusammenfassung (2) für 'ankle tendon injuries' |
 | WM-DIS-0726 | Fremdkörper im Urogenitaltrakt | disease | zu wenige Quellen mit Zusammenfassung (0) für 'foreign body urogenital' |
 | WM-DIS-0727 | Schäden durch sonstigen Mangel | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM T73 umfasst Schäden durch Hunger, Durst, Erschöpfung und sonstigen Mangel (z. B. Entbehrung von Nahrung/Wasser, Überanstrengung).  |
+| WM-DIS-0741 | Chronische Hepatitis, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (K73 umfasst nur chronische Hepatitis, anderenorts nicht klassifiziert, also nicht die chronische Virushepatitis (B, C, D; diese stehen unter |
 | WM-DIS-0743 | Sonstige Verletzungen unter der Geburt | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM O71 bezeichnet körperliche Geburtstraumata (z.B. Dammrisse, Frakturen), während die Quelle 'birth trauma' meist psychische Traumat |
 | WM-DIS-0744 | Sonstige Komplikationen bei Wehentätigkeit und Entbindung, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 O75 (Komplikationen bei Wehentätigkeit/Entbindung wie Uterusruptur, Nabelschnurvorfall etc.). Alle Quelle |
+| WM-DIS-0746 | Überfunktion der Hypophyse | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (E22 umfasst die Überfunktion der Hypophyse (hormonaktive Hypophysenadenome, z. B. Akromegalie, Hyperprolaktinämie). Der Titel „Überfunktion der Hyp |
 | WM-DIS-0748 | Sonstige Krankheiten des Darmes | disease | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Titel entspricht K63 (sonstige Darmkrankheiten). Nur Quelle 3 behandelt nichttraumatische Darmperforation bei Erwachsenen; die übrigen betreffen p |
 | WM-DIS-0753 | Sonstige Kataraktformen | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Titel passt zu H26. Nur Quellen 1 und 6 behandeln Katarakt allgemein/leitliniengerecht. Quelle 10 ist Meta-Analyse zu Blindheit, keine klinische Q |
 | WM-DIS-0754 | Traumatische Amputation am oberen Sprunggelenk und Fuß | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel entspricht S98 (Fuß und oberes Sprunggelenk, traumatische Amputation). Keine der Quellen behandelt jedoch die traumatische Amputation: Di |
+| WM-DIS-0755 | Bösartige Neubildung des Zahnfleisches | disease | zu wenige Quellen mit Zusammenfassung (1) für 'Gingival carcinoma' |
+| WM-DIS-0757 | Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen des Atmungssystems und sonstiger intrathorakaler Organe | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der ICD-10-C39-Codes umfasst alle bösartigen Neubildungen des Atmungssystems und intrathorakaler Organe (z.B. Lunge, Bronchien, Pleura, Medi |
+| WM-DIS-0759 | Bösartige Neubildung der Meningen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-C70 bezeichnet primäre maligne Neubildungen der Meningen (z.B. Meningeome, primäre Meningealkarzinome), während 'leptomeningeal metas |
+| WM-DIS-0766 | Angeborenes Jodmangelsyndrom | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel "Angeborenes Jodmangelsyndrom" entspricht ICD-10-GM E00 (Synonym u. a. Kretinismus). Keine der Quellen behandelt aber speziell das angebo |
+| WM-DIS-0769 | Hyperaldosteronismus | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln den primären Hyperaldosteronismus (E26.0). Der Titel ist aber enger als E26, das auch sekundären und sonstigen Hypera |
+| WM-DIS-0775 | Mangel an sonstigen Vitaminen des Vitamin-B-Komplexes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Vitamin-B-Mangel' ist ein Oberbegriff für den ganzen B-Komplex und schließt auch Thiamin (E51) und Niacin (E52) ein, die nicht zu E53 |
+| WM-DIS-0776 | Störungen des Stoffwechsels verzweigter Aminosäuren und des Fettsäurestoffwechsels | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM E71 umfasst Störungen des Stoffwechsels verzweigtkettiger Aminosäuren und des Fettsäurestoffwechsels. Der geplante Titel bildet da |
+| WM-DIS-0779 | Störungen des Purin- und Pyrimidinstoffwechsels | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Der Titel entspricht E79 (Störungen des Purin- und Pyrimidinstoffwechsels). Nur Quelle 1 behandelt angeborene Nukleotidstoffwechselstörungen mit ne |
 | WM-DIS-0788 | Zerquetschung des Kopfes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'crush head injury' |
 | WM-DIS-0789 | Traumatische Amputation von Teilen des Kopfes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'traumatic facial amputation' |
 | WM-DIS-0790 | Zerquetschung und traumatische Amputation von Teilen des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (0) für 'pelvic crush injury' |
 | WM-DIS-0791 | Fremdkörper im äußeren Auge | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (T15 meint Fremdkörper im äußeren Auge (Hornhaut, Bindehaut). Die Quellen behandeln intraokulare Fremdkörper bzw. offene Bulbusverletzungen,  |
 | WM-DIS-0803 | Sonstige Krankheiten der oberen Atemwege | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (J39 umfasst sonstige Krankheiten der oberen Atemwege (ohne z. B. Rhinitis, Sinusitis, Pharyngitis, die in anderen Kategorien codiert sind).  |
+| WM-DIS-0809 | Bösartige Neubildung der Nasenhöhle und des Mittelohres | disease | zu wenige Quellen mit Zusammenfassung (3) für 'nasal cavity cancer' |
+| WM-DIS-0810 | Bösartige Neubildung ohne Angabe der Lokalisation | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Alle Quellen behandeln spezifische Lokalisationen (z.B. Ösophagus, Leber, Kinderkrebs) oder sind allgemeine Übersichten zu Komplikationen/Therapien |
 | WM-DIS-0811 | Sonstige Krankheiten der Gallenblase | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (K82 meint sonstige Gallenblasenkrankheiten (ohne Steine K80, Cholezystitis K81, Karzinom C23); der Titel „Erkrankungen der Gallenblase“ ist  |
 | WM-DIS-0821 | Sonstige Krankheiten der Harnblase | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel "Krankheiten der Harnblase" entspricht im Wesentlichen N32 (sonstige Krankheiten der Harnblase), kleine Unterschiede im Zuschnitt sind ak |
+| WM-DIS-0822 | Komplikationen durch sonstige interne Prothesen, Implantate oder Transplantate | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (T85 umfasst alle Komplikationen durch sonstige interne Prothesen, Implantate und Transplantate (mechanisch, infektiös, thrombotisch usw.). D |
 | WM-DIS-0837 | Zerquetschung des Halses | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neck crush injury' |
 | WM-DIS-0838 | Traumatische Amputation an Schulter und Oberarm | disease | zu wenige Quellen mit Zusammenfassung (1) für 'traumatic upper extremity amputation' |
 | WM-DIS-0839 | Zerquetschung des Unterarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'crush injury forearm' |
@@ -214,7 +231,15 @@ Stand: 31.10.2026 00:25. Warteschlange: claimed 1, duplicate 441, planned 4144, 
 | WM-DIS-0914 | Zerquetschung des Thorax und traumatische Amputation von Teilen des Thorax | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (S28 meint speziell Zerquetschung des Thorax und traumatische Amputation von Thoraxteilen. Der Titel „Thoraxtrauma und Thoraxzerquetschung“ i |
 | WM-DIS-0915 | Zerquetschung des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist crush injury' |
 | WM-DIS-0916 | Zerquetschung des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'leg contusion' |
+| WM-DIS-1001 | Sonstige lokale Infektionen der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine Quelle behandelt spezifisch L08 (lokale Infektionen der Haut/Unterhaut ohne spezifische Erregerangabe wie Orf, Mykobakterien oder spezifische |
+| WM-DIS-1199 | Verletzung von Muskeln und Sehnen in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cervical strain' |
+| WM-DIS-1200 | Traumatische Amputation in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical amputation' |
+| WM-DIS-1201 | Zerquetschung der Schulter und des Oberarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'shoulder contusion' |
+| WM-DIS-1203 | Fremdkörper im Ohr | disease | zu wenige Quellen mit Zusammenfassung (0) für 'foreign body ear' |
+| WM-DIS-1206 | Erstickung | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (T71 umfasst Erstickung durch mechanische Einwirkung (z. B. Erhängen, Strangulation); der Titel „Erstickung“ deckt dies ab. Quellen 1, 2 und 5 behan |
+| WM-DIS-1207 | Nicht näher bezeichnete Schäden durch äußere Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Schäden durch äußere Ursachen' ist ein allgemeiner Oberbegriff für ICD-10-GM T76 und lässt spezifische Formen/Schweregra |
 | WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
+| WM-DIS-1303 | Schrumpfniere, nicht näher bezeichnet | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit die Schrumpfniere (ICD-10-GM N26). Die Quellen behandeln andere Nierenerkrankungen (FMD, Angiomyolipom, Athero |
 | WM-DRUG-0106 | Blutgerinnungsfaktor VIII | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Blutgerinnungsfaktor VIII' entspricht dem Wirkstoff Faktor VIII (ATC B02BD02). Die Quellen 1–3 behandeln Faktor VIII als Protein und Wir |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0121 | Bevacizumab | drug | zu viele nur teilweise belegte Sätze (22/35) |
@@ -279,9 +304,18 @@ Stand: 31.10.2026 00:25. Warteschlange: claimed 1, duplicate 441, planned 4144, 
 | WM-DRUG-0329 | Midazolam | drug | zu viele nur teilweise belegte Sätze (13/24) |
 | WM-DRUG-0330 | Rufinamid | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Der Titel Rufinamid entspricht dem Wirkstoff der Klassifikation (ATC N03AF03). Rufinamid ist im Titel oder als eigenständiger Gegenstand nur bei Q |
 | WM-DRUG-0333 | Stiripentol | drug | zu viele nur teilweise belegte Sätze (18/39) |
+| WM-DRUG-0338 | Tolcapon | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 2 und 3 behandeln explizit Tolcapon oder COMT-Hemmer bei Parkinson. Quelle 4 ist auf Deutsch und titelt nicht auf Englisch, daher nicht  |
 | WM-DRUG-0340 | Loxapin | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel 'Loxapin' entspricht dem Wirkstoff (ATC N05AH01). Nur die Quellen 1, 5 und 6 behandeln Loxapin direkt. Quelle 2 betrifft eine Cotrimoxazo |
 | WM-DRUG-0345 | Remimazolam | drug | zu viele nur teilweise belegte Sätze (17/34) |
 | WM-DRUG-0348 | Agomelatin | drug | Bestätigungsquote 28/48 unter 60 %; zu viele nur teilweise belegte Sätze (17/28) |
+| WM-DRUG-0356 | Nalmefen | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quelle 1 behandelt COPD/Respiratory Failure, nicht den Wirkstoff als primäres Thema oder die Indikationen von Nalmefen. Quellen 2, 3 und 4 behandel |
+| WM-DRUG-0359 | Eplontersen | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Eplontersen' |
+| WM-DRUG-0361 | Trofinetid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Trofinetid oder die Indikation Rett-Syndrom. Der Suchbegriff 'Neurotrophic' ist zu unspezifisch un |
+| WM-DRUG-0364 | Somatropin | drug | zu viele nur teilweise belegte Sätze (20/32) |
+| WM-DRUG-0365 | Ganirelix | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt Ganirelix (GnRH-Antagonist, ATC H01CC01); es geht um Gastroenterologie, Onkologie, Dermatologie, Schlaf und anderes. D |
+| WM-DRUG-0366 | Glucagon | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Alle 16 Quellen behandeln GLP-1-Rezeptoragonisten (Semaglutid, Liraglutid usw.) oder GLP-1-basierte Therapien, nicht den Wirkstoff Glucagon (ATC H |
+| WM-DRUG-0367 | Cinacalcet | drug | zu viele nur teilweise belegte Sätze (18/36) |
+| WM-DRUG-0373 | Silodosin | drug | zu viele nur teilweise belegte Sätze (18/35) |
 | WM-DRUG-0374 | Epinephrin | drug | zu viele nur teilweise belegte Sätze (21/49) |
 | WM-DRUG-0393 | Insulin glulisin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'insulin glulisine' |
 | WM-DRUG-0394 | Insulin detemir | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Insulin detemir direkt (vs. NPH bzw. Glargin). Die Quellen 2, 5, 6 und 7 betreffen Basalinsuline bzw. Insulinanaloga a |
@@ -1309,3 +1343,12 @@ Stand: 31.10.2026 00:25. Warteschlange: claimed 1, duplicate 441, planned 4144, 
 | WM-DRUG-3597 | Lasofoxifen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Lasofoxifen. Quelle 10 behandelt SERMs allgemein, ist aber zu breit. Quelle 8 behandelt Raloxifen, ni |
 | WM-DRUG-3598 | Ormeloxifen | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1-3 behandeln direkt Ormeloxifen. Quelle 4 ist zu allgemein (nur Erwähnung). Quelle 5 betrifft Krebs/p53. Weniger als 4 passende Quellen.) |
 | WM-DRUG-3625 | Chondroitinsulfat | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel bezeichnet denselben Wirkstoff. Nur Quellen 1, 2 und 6 behandeln Chondroitinsulfat als Substanz bzw. Wirkstoff; 3 und 4 betreffen das Proteog |
+| WM-DRUG-3730 | Promethazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation D04AA10 bezeichnet Promethazin zur topischen Anwendung (Antipruriginosum). Der geplante Titel „Promethazin“ ist als W |
+| WM-DRUG-3743 | Doxepin | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 5 behandelt Doxepin direkt (dermatologische Anwendung, Spiegelbestimmung, Genotypisierung). Quelle 1 (Sialorrhoe unter Antipsychotika),  |
+| WM-DRUG-3745 | Bufexamac | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der sechs Quellen behandelt Bufexamac. Sie befassen sich mit anderen HDAC6-Inhibitoren (Tubastatin A, ACY-1215, JBI-802) oder allgemein mit H |
+| WM-DRUG-3761 | Demeclocyclin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt speziell Demeclocyclin; alle betreffen die Tetracyclin-Klasse allgemein oder andere Themen (Resistenz, Umweltanalytik |
+| WM-DRUG-3763 | Fusidinsäure | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 2, 3 und 4 behandeln direkt Fusidinsäure (Resistenzprävalenz, Resistenzmechanismen, Derivate und Struktur-Wirkungs-Beziehungen). Quelle 1 ( |
+| WM-DRUG-3765 | Bacitracin | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 4 behandelt Bacitracin als Wirkstoff direkt (mikrobielle Synthese). Die übrigen Quellen behandeln Bacitracin höchstens am Rande (Irrigat |
+| WM-DRUG-3774 | Sulfathiazol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Sulfathiazole' |
+| WM-DRUG-3776 | Sulfanilamid | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Sulfanilamid als Wirkstoff. Sie betreffen Sulfonamid-Derivate allgemein (MRSA, Effluxpumpen), Antibiotika-Entfernung pe |
+| WM-DRUG-3777 | Sulfamerazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfamerazine' |
