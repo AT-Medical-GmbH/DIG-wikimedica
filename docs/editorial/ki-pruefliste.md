@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 15:25. Warteschlange: claimed 3, duplicate 446, planned 3004, published 1316, ready 35, redirect 365, review 1896.
+Stand: 31.10.2026 16:25. Warteschlange: duplicate 446, planned 2990, published 1351, ready 5, redirect 371, review 1902.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -322,16 +322,19 @@ Stand: 31.10.2026 15:25. Warteschlange: claimed 3, duplicate 446, planned 3004, 
 | WM-DIS-0914 | Zerquetschung des Thorax und traumatische Amputation von Teilen des Thorax | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (S28 meint speziell Zerquetschung des Thorax und traumatische Amputation von Thoraxteilen. Der Titel „Thoraxtrauma und Thoraxzerquetschung“ i |
 | WM-DIS-0915 | Zerquetschung des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist crush injury' |
 | WM-DIS-0916 | Zerquetschung des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'leg contusion' |
+| WM-DIS-0917 | Sonstige Krankheiten der Wirbelsäule und des Rückens, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle zehn Quellen behandeln die Sakroiliakalgelenk-Dysfunktion, die unter M53.3 (Krankheiten des Os coccygis bzw. Sakrokokzygealregion, inkl |
 | WM-DIS-0918 | Krankheit der Atemwege durch spezifischen organischen Staub | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (J66 umfasst Byssinose, Bagassose u. a. Erkrankungen der Atemwege durch spezifischen organischen Staub. Der Titel entspricht dieser Gruppe im Plural |
 | WM-DIS-0921 | Sonstige nichtentzündliche Krankheiten des Uterus, ausgenommen der Zervix | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (N85 umfasst mehrere nichtentzündliche Uteruserkrankungen (Endometriumhyperplasie N85.0/N85.1, Adenomyose N80 gehört nicht dazu, aber u. a. A |
 | WM-DIS-0922 | Sonstige nichtentzündliche Krankheiten der Vagina | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel „Nichtentzündliche Vagenerkrankungen“ ist ein Oberbegriff und meint nicht genau N89 („Sonstige nichtentzündliche Krankhei |
 | WM-DIS-0924 | Carcinoma in situ sonstiger und nicht näher bezeichneter Genitalorgane | disease | zu wenige Quellen mit Zusammenfassung (1) für 'anogenital intraepithelial neoplasia' |
 | WM-DIS-0928 | Hydrozele und Spermatozele | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hydrocele and spermatocele' |
+| WM-DIS-0929 | Gutartige Mammadysplasie Brustdrüsendysplasie | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Gutartige Brusterkrankungen (Mammadysplasie)“ ist ein gebräuchliches Synonym für N60 und passt. Quelle 4 ist ein allgemeiner Überblick z |
 | WM-DIS-0935 | Krankheiten des Ohres und des Warzenfortsatzes nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | zu wenige Quellen mit Zusammenfassung (0) für 'postoperative ear complications' |
 | WM-DIS-0938 | Gutartige Neubildung des Mittelohres und des Atmungssystems | disease | zu wenige Quellen mit Zusammenfassung (0) für 'benign respiratory tract tumors' |
 | WM-DIS-0939 | Gutartige Neubildung sonstiger und nicht näher bezeichneter intrathorakaler Organe | disease | zu wenige Quellen mit Zusammenfassung (1) für 'benign thoracic tumors' |
 | WM-DIS-0940 | Gutartige Neubildung sonstiger und nicht näher bezeichneter weiblicher Genitalorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (D28 umfasst nur sonstige weibliche Genitalorgane (Vulva, Vagina, Tuba usw.), nicht Uterus (D25) und Ovar (D27); der Titel ist ein zu allgeme |
 | WM-DIS-0941 | Neubildung unsicheren oder unbekannten Verhaltens der weiblichen Genitalorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (D39 umfasst Neubildungen unsicheren oder unbekannten Verhaltens aller weiblichen Genitalorgane (Ovar D39.1, Uterus D39.0, Plazenta, sonstige |
+| WM-DIS-0945 | Carcinoma in situ sonstiger und nicht näher bezeichneter Lokalisationen | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (ICD-10-GM D09 umfasst Carcinoma in situ sonstiger und nicht näher bezeichneter Lokalisationen, d. h. nicht Mamma (D05), Cervix (D06), Haut (D04) u |
 | WM-DIS-0957 | Sensibilitätsstörungen der Haut | disease | zu wenige Quellen mit Zusammenfassung (0) für 'cutaneous sensory disturbances' |
 | WM-DIS-0967 | Hordeolum und Chalazion | disease | zu wenige Quellen mit Zusammenfassung (1) für 'stye chalazion' |
 | WM-DIS-0986 | Gutartige Neubildung des mesothelialen Gewebes | disease | zu wenige Quellen mit Zusammenfassung (2) für 'benign mesothelial tumors' |
@@ -1572,6 +1575,9 @@ Stand: 31.10.2026 15:25. Warteschlange: claimed 3, duplicate 446, planned 3004, 
 | WM-DRUG-1933 | Fesoterodin | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Der Titel 'Fesoterodin' entspricht dem Wirkstoff der Klassifikation (ATC G04BD11). Nur Quelle 10 behandelt Fesoterodin spezifisch. Die übrigen Que |
 | WM-DRUG-1936 | Vardenafil | drug | Themenprüfung: nur 3 von 15 Quellen passen zum Thema (Nur Quellen 6, 8 und 10 behandeln Vardenafil explizit. Die übrigen betreffen PDE5-Hemmer allgemein, Erektile Dysfunktion allgemein oder andere Wir |
 | WM-DRUG-1937 | Avanafil | drug | Themenprüfung: nur 2 von 14 Quellen passen zum Thema (Nur die Quellen 9 und 10 behandeln speziell Avanafil. Die übrigen Quellen betreffen die PDE5-Hemmer allgemein, andere Wirkstoffe (z. B. Lodenafil) |
+| WM-DRUG-1940 | Natriummonofluorphosphat | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Natriummonofluorphosphat“ bezeichnet denselben Wirkstoff wie ATC A01AA02. Keine der vier Quellen behandelt Natriummonofluorphosphat als  |
+| WM-DRUG-1941 | Olaflur | drug | zu wenige Quellen mit Zusammenfassung (2) für 'amine fluoride' |
+| WM-DRUG-1943 | Fluorsilan | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fluorosilane' |
 | WM-DRUG-1950 | Neomycin | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Nur Quelle 2 (Kontaktallergie gegen Neomycin) und Quelle 10 (Modifikationen von Neomycin und Paromomycin) behandeln Neomycin direkt. Die übrigen Q |
 | WM-DRUG-1953 | Verschiedene | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC A01AB11 steht für „Verschiedene“ innerhalb der Gruppe A01AB (Antiinfektiva und Antiseptika zur oralen Lokalbehandlung), also keinen einz |
 | WM-DRUG-1962 | Chlortetracyclin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt Chlortetracyclin gezielt. Die Arbeiten befassen sich mit Antibiotikarückständen allgemein (1, 2, 4, 7), mit Tetracyclin |
