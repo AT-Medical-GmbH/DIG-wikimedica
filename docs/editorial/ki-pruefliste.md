@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 11:25. Warteschlange: duplicate 445, planned 3209, published 1254, ready 15, redirect 365, review 1777.
+Stand: 31.10.2026 12:25. Warteschlange: duplicate 445, planned 3153, published 1269, ready 15, redirect 365, review 1818.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1130,9 +1130,32 @@ Stand: 31.10.2026 11:25. Warteschlange: duplicate 445, planned 3209, published 1
 | WM-DRUG-1396 | Raxibacumab | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Raxibacumab“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC J06BC02). Quellen 1 und 5 behandeln die zugelassenen Anthrax-Ant |
 | WM-DRUG-1398 | Obiltoxaximab | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Der Titel „Obiltoxaximab“ entspricht dem Wirkstoff der Klassifikation (ATC J06BC04). Nur Quelle 2 behandelt zugelassene Therapien gegen Anthrax ein |
 | WM-DRUG-1399 | Motavizumab | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Motavizumab' entspricht dem Wirkstoff der Klassifikation (J06BD02). Die Quellen 1, 3 und 4 behandeln RSV-Antikörper als Netzwerk-Metaana |
+| WM-DRUG-1402 | Regdanvimab | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quelle 2 (Wirksamkeit und Sicherheit von Regdanvimab, Review mit Metaanalyse) und Quelle 7 (Regdanvimab: First Approval) behandeln den Wirkstof |
+| WM-DRUG-1408 | Lactobacillus acidophilus | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Der Artikeltitel "Lactobacillus acidophilus" bezeichnet denselben Wirkstoff wie die Klassifikation (ATC J07AX04). Quellen 1, 2 und 5 behandeln L. a |
+| WM-DRUG-1418 | Typhus-Hepatitis A | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Typhoid-hepatitis A vaccine' |
+| WM-DRUG-1421 | Diethylether | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Der Titel „Diethylether“ entspricht dem Wirkstoff N01AA01. Keine der Quellen behandelt Diethylether als Anästhetikum: Es geht um PFAS-Ethersulfons |
+| WM-DRUG-1422 | Vinylether | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Wirkstoff Vinylether (Divinylether, ATC N01AA02) ist ein Inhalationsnarkotikum. Keine der sechs Quellen behandelt ihn als Arzneimittel. Es geht |
+| WM-DRUG-1423 | Halothan | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Titel „Halothan“ entspricht dem Wirkstoff Halothan (ATC N01AB01). Quelle 2 behandelt Halothan in der pädiatrischen Anästhesie, Quelle 4 die Wirkung |
+| WM-DRUG-1424 | Chloroform | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel „Chloroform“ entspricht dem Wirkstoff (ATC N01AB02, Inhalationsnarkotikum). Die Quellen 1, 5 und 6 behandeln Chloroform selbst, nämlich L |
+| WM-DRUG-1425 | Enfluran | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Der Titel „Enfluran“ bezeichnet denselben Wirkstoff wie ATC N01AB04. Nur Quelle 4 behandelt Enfluran spezifisch (berufliche Exposition und Grenzwer |
+| WM-DRUG-1426 | Trichlorethylen | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Der Artikel behandelt Trichlorethylen als Arzneimittelwirkstoff (Inhalationsanästhetikum, ATC N01AB05). Alle neun Quellen behandeln Trichlorethylen |
 | WM-DRUG-1430 | Methohexital | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Methohexital“ bezeichnet denselben Wirkstoff wie ATC N01AF01. Quelle 1 vergleicht Propofol mit Methohexital bei EKT, Quelle 5 gibt einen |
 | WM-DRUG-1431 | Hexobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Hexobarbital' |
 | WM-DRUG-1432 | Thiopental | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Titel und ATC-Code N01AF03 bezeichnen beide Thiopental. Thiopental ist explizit Gegenstand von Quelle 11 (Propofol vs. Thiopental bei Sectio). Que |
+| WM-DRUG-1433 | Narcobarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Narcobarbital' |
+| WM-DRUG-1435 | Phenoperidin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'phenoperidine' |
+| WM-DRUG-1436 | Anileridin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Anileridine' |
+| WM-DRUG-1439 | Propanidid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Propanidid' |
+| WM-DRUG-1440 | Alfaxalon | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 6 behandelt Alfaxalon gezielt. Die übrigen Quellen sind allgemeine Übersichten zu Anästhesie bei Tieren oder zu anderen Anästhetika und  |
+| WM-DRUG-1445 | Metabutethamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Metabutethamine' |
+| WM-DRUG-1446 | Chloroprocain | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel 'Chloroprocain' entspricht dem Wirkstoff (ATC N01BA04). Nur Quelle 1 (Spinalanästhetika im ambulanten Bereich, Chloroprocain ist dort ein |
+| WM-DRUG-1448 | Prilocain | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln direkt EMLA bzw. Lidocain-Prilocain-Creme (Verbrennungen, Hysterosalpingographie, Impfung bei Säuglingen). Quelle 3 (K |
+| WM-DRUG-1449 | Butanilicain | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel 'Butanilicain' bezeichnet denselben Wirkstoff wie ATC N01BB05. Keine der vier Quellen behandelt jedoch Butanilicain: Sie befassen sich al |
+| WM-DRUG-1450 | Etidocain | drug | zu wenige Quellen mit Zusammenfassung (0) für 'etidocaine' |
+| WM-DRUG-1454 | Cocain | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Der Artikel behandelt den Wirkstoff Cocain (ATC N01BC01, Lokalanästhetikum) und der Titel passt dazu. Nur wenige Quellen behandeln den Wirkstoff s |
+| WM-DRUG-1455 | Ethylchlorid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'ethyl chloride' |
+| WM-DRUG-1456 | Dyclonin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'dyclonine' |
+| WM-DRUG-1457 | Propipocain | drug | zu wenige Quellen mit Zusammenfassung (0) für 'propipocaine' |
 | WM-DRUG-1460 | Nicomorphin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'nicomorphine' |
 | WM-DRUG-1462 | Dihydrocodein | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Titel „Dihydrocodein“ entspricht dem Wirkstoff ATC N02AA08. Nur die Quellen 5 (Dihydrocodein-Neurotoxizität bei Peritonealdialyse) und 7 (Todesfäll |
 | WM-DRUG-1463 | Papaveretum | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Papaveretum ist ein definiertes Gemisch gereinigter Opium-Alkaloide (Morphin, Codein, Papaverin) und wird als Analgetikum verwendet. Der Titel ents |
@@ -1221,6 +1244,24 @@ Stand: 31.10.2026 11:25. Warteschlange: duplicate 445, planned 3209, published 1
 | WM-DRUG-1572 | Retigabin | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel 'Retigabin' entspricht dem Wirkstoff ATC N03AX21. Passend sind die Quellen 2 (Retigabin bis Azetukalner), 6 (Wirkmechanismus von Retigabi |
 | WM-DRUG-1576 | Beclamid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'beclamide' |
 | WM-DRUG-1577 | Kaliumbromid | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Kaliumbromid“ bezeichnet denselben Wirkstoff wie ATC N03AX31. Keine der Quellen behandelt Kaliumbromid als Schwerpunkt. Quellen 1, 3, 4  |
+| WM-DRUG-1578 | Trihexyphenidyl | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Der Titel 'Trihexyphenidyl' bezeichnet denselben Wirkstoff wie ATC N04AA01. Nur wenige Quellen behandeln Trihexyphenidyl wirklich spezifisch. Quell |
+| WM-DRUG-1579 | Biperiden | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Biperiden bzw. Anticholinergika einschließlich Biperiden (Akathisie-Therapie, kognitive Effekte einzelner Anticholiner |
+| WM-DRUG-1580 | Metixen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Metixene' |
+| WM-DRUG-1581 | Procyclidin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Procyclidine' |
+| WM-DRUG-1582 | Profenamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ethopropazine' |
+| WM-DRUG-1583 | Dexetimid | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Dexetimid ist ein zentral wirksamer Anticholinergikum-Wirkstoff (Antiparkinsonmittel, ATC N04AA08); der Titel „Dexetimid“ entspricht dem Wirkstoff |
+| WM-DRUG-1584 | Phenglutarimid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'phenglutarimide' |
+| WM-DRUG-1585 | Mazaticol | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Mazaticol ist ein Anticholinergikum gegen Parkinson (ATC N04AA10); der Titel „Mazaticol“ bezeichnet denselben Wirkstoff. Keine der Quellen behandel |
+| WM-DRUG-1586 | Bornaprin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine der Quellen behandelt Bornaprin. Es geht um inhalative Muskarinantagonisten bei COPD und Asthma (z. B. LAMA, Revefenacin, Ensifentrin), nicht |
+| WM-DRUG-1587 | Tropatepin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'tropatepine' |
+| WM-DRUG-1588 | Triperiden | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Triperiden' |
+| WM-DRUG-1589 | Etanautin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'female astronauts' |
+| WM-DRUG-1590 | Orphenadrin(chlorid) | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 2 behandelt Orphenadrin direkt (Diclofenac/Orphenadrin-Kombination bei postoperativen Schmerzen). Quelle 1 (Muskelkrämpfe bei Zirrhose), |
+| WM-DRUG-1591 | Benzatropin | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Der Titel 'Benzatropin' bezeichnet denselben Wirkstoff wie ATC N04AC01. Nur Quelle 3 behandelt Benztropin-Derivate direkt (DAT-Blocker auf Benztrop |
+| WM-DRUG-1592 | Etybenzatropin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'etybenzatropine' |
+| WM-DRUG-1593 | Melevodopa | drug | zu wenige Quellen mit Zusammenfassung (0) für 'melevodopa' |
+| WM-DRUG-1594 | Pergolid | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Pergolid ist ein Ergot-Dopaminagonist (ATC N04BC02), der u. a. beim Parkinson-Syndrom eingesetzt wurde und in der Tiermedizin bei equiner PPID (Per |
+| WM-DRUG-1595 | Dihydroergocryptinmesilat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'dihydroergocryptine' |
 | WM-DRUG-1603 | Chlorpromazin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 5 und 6 behandeln Chlorpromazin explizit; die übrigen betreffen andere Wirkstoffe, die Substanzklasse oder andere Krankheitsbilder, in  |
 | WM-DRUG-1604 | Levomepromazin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der fünf Quellen behandelt Levomepromazin als Hauptthema. Quelle 1 betrifft Antipsychotika-induzierte Myokarditis allgemein. Die Quellen 2 un |
 | WM-DRUG-1605 | Promazin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 3 behandelt Promazin direkt. Quelle 2 betrifft Phenothiazine allgemein, also eine übergeordnete Substanzklasse. Quelle 1 (Alkoholentzug) |
