@@ -33,7 +33,7 @@ corrections: []
 
 # Bösartige Neubildung der Nebenniere
 
-**Klassifikation:** ICD-10-GM: C74.-
+**Klassifikation:** ICD-10-GM: C74.-; ICD-11: 2D11
 
 ## Übersicht
 

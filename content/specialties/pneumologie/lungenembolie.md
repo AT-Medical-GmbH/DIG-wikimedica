@@ -38,7 +38,7 @@ corrections: []
 
 # Lungenembolie
 
-**Klassifikation:** ICD-10-GM: I26.-
+**Klassifikation:** ICD-10-GM: I26.-; ICD-11: BB00
 
 > **Medizinisch nicht freigegebener KI-Entwurf.** Fachreview und Sicherheitsprüfung sind vor regulärer Veröffentlichung erforderlich.
 

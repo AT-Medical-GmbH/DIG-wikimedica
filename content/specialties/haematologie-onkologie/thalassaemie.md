@@ -33,7 +33,7 @@ corrections: []
 
 # Thalassämie
 
-**Klassifikation:** ICD-10-GM: D56.-
+**Klassifikation:** ICD-10-GM: D56.-; ICD-11: 3A50
 
 ## Übersicht
 

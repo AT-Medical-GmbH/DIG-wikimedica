@@ -33,7 +33,7 @@ corrections: []
 
 # Tubuläre Nierenerkrankungen
 
-**Klassifikation:** ICD-10-GM: N25.-
+**Klassifikation:** ICD-10-GM: N25.-; ICD-11: GB90.4
 
 ## Übersicht
 

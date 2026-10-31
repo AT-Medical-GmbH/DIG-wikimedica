@@ -33,7 +33,7 @@ corrections: []
 
 # Rheumatische Herzkrankheit
 
-**Klassifikation:** ICD-10-GM: I09.-
+**Klassifikation:** ICD-10-GM: I09.-; ICD-11: BC20
 
 ## Übersicht
 

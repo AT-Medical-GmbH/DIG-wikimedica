@@ -33,7 +33,7 @@ corrections: []
 
 # Gallenkarzinom
 
-**Klassifikation:** ICD-10-GM: C23
+**Klassifikation:** ICD-10-GM: C23; ICD-11: 2C13
 
 ## Übersicht
 

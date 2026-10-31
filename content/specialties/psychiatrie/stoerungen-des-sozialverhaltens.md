@@ -33,7 +33,7 @@ corrections: []
 
 # Störungen des Sozialverhaltens
 
-**Klassifikation:** ICD-10-GM: F91.-
+**Klassifikation:** ICD-10-GM: F91.-; ICD-11: 6C91
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Betreuung bei fetaler Lage- und Einstellungsanomalie
 
-**Klassifikation:** ICD-10-GM: O32.-
+**Klassifikation:** ICD-10-GM: O32.-; ICD-11: JA82
 
 ## Übersicht
 

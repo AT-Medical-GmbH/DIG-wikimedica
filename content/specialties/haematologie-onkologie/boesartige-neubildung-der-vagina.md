@@ -33,7 +33,7 @@ corrections: []
 
 # Bösartige Neubildung der Vagina
 
-**Klassifikation:** ICD-10-GM: C52
+**Klassifikation:** ICD-10-GM: C52; ICD-11: 2C71
 
 ## Übersicht
 

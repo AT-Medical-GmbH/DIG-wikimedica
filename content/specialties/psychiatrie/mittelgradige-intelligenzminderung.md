@@ -33,7 +33,7 @@ corrections: []
 
 # Mittelgradige Intelligenzminderung
 
-**Klassifikation:** ICD-10-GM: F71.-
+**Klassifikation:** ICD-10-GM: F71.-; ICD-11: 6A00.1
 
 ## Übersicht
 

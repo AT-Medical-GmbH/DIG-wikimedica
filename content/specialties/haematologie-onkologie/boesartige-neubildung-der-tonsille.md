@@ -33,7 +33,7 @@ corrections: []
 
 # Tonsillenkarzinom
 
-**Klassifikation:** ICD-10-GM: C09.-
+**Klassifikation:** ICD-10-GM: C09.-; ICD-11: 2B69
 
 ## Übersicht
 

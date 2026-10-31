@@ -33,7 +33,7 @@ corrections: []
 
 # Vorzeitige Plazentalösung (Abruptio placentae)
 
-**Klassifikation:** ICD-10-GM: O45.-
+**Klassifikation:** ICD-10-GM: O45.-; ICD-11: JA8C
 
 ## Übersicht
 

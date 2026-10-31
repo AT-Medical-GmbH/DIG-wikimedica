@@ -33,7 +33,7 @@ corrections: []
 
 # Schizoaffektive Störung
 
-**Klassifikation:** ICD-10-GM: F25.-
+**Klassifikation:** ICD-10-GM: F25.-; ICD-11: 6A21
 
 ## Übersicht
 

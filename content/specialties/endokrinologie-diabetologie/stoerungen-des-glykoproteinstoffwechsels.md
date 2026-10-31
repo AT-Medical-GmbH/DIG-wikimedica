@@ -33,7 +33,7 @@ corrections: []
 
 # Angeborene Glykosylierungsstörungen
 
-**Klassifikation:** ICD-10-GM: E77.-
+**Klassifikation:** ICD-10-GM: E77.-; ICD-11: 5C56.2
 
 ## Übersicht
 

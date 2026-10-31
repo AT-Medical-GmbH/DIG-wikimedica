@@ -33,7 +33,7 @@ corrections: []
 
 # Bakterielle Pneumonie
 
-**Klassifikation:** ICD-10-GM: J15.-
+**Klassifikation:** ICD-10-GM: J15.-; ICD-11: CA40.0
 
 ## Übersicht
 

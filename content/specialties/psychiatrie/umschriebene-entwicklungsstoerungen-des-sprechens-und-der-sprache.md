@@ -33,7 +33,7 @@ corrections: []
 
 # Entwicklungsstörungen des Sprechens und der Sprache
 
-**Klassifikation:** ICD-10-GM: F80.-
+**Klassifikation:** ICD-10-GM: F80.-; ICD-11: 6A01
 
 ## Übersicht
 

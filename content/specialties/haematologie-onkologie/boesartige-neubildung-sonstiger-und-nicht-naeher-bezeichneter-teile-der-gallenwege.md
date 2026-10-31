@@ -33,7 +33,7 @@ corrections: []
 
 # Gallenwegskarzinom
 
-**Klassifikation:** ICD-10-GM: C24.-
+**Klassifikation:** ICD-10-GM: C24.-; ICD-11: 2C17
 
 ## Übersicht
 

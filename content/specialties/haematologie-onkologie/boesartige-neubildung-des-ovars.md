@@ -33,7 +33,7 @@ corrections: []
 
 # Bösartige Neubildung des Ovars
 
-**Klassifikation:** ICD-10-GM: C56
+**Klassifikation:** ICD-10-GM: C56; ICD-11: 2C73
 
 ## Übersicht
 

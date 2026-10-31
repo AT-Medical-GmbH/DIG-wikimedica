@@ -33,7 +33,7 @@ corrections: []
 
 # Obstruktive Uropathie und Refluxnephropathie
 
-**Klassifikation:** ICD-10-GM: N13.-
+**Klassifikation:** ICD-10-GM: N13.-; ICD-11: GB56
 
 ## Übersicht
 

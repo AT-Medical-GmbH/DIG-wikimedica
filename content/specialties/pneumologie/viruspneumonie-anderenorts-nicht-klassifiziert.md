@@ -33,7 +33,7 @@ corrections: []
 
 # Viruspneumonien
 
-**Klassifikation:** ICD-10-GM: J12.-
+**Klassifikation:** ICD-10-GM: J12.-; ICD-11: CA40.1
 
 ## Übersicht
 

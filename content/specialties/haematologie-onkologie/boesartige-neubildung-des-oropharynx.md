@@ -33,7 +33,7 @@ corrections: []
 
 # Oropharynxkarzinom
 
-**Klassifikation:** ICD-10-GM: C10.-
+**Klassifikation:** ICD-10-GM: C10.-; ICD-11: 2B6A
 
 ## Übersicht
 

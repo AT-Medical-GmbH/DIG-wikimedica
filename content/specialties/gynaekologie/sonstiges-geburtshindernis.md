@@ -33,7 +33,7 @@ corrections: []
 
 # Sonstige Geburtshindernisse
 
-**Klassifikation:** ICD-10-GM: O66.-
+**Klassifikation:** ICD-10-GM: O66.-; ICD-11: JB06
 
 ## Übersicht
 

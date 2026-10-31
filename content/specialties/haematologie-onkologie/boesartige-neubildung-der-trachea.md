@@ -33,7 +33,7 @@ corrections: []
 
 # Bösartige Neubildung der Trachea
 
-**Klassifikation:** ICD-10-GM: C33
+**Klassifikation:** ICD-10-GM: C33; ICD-11: 2C24
 
 ## Übersicht
 

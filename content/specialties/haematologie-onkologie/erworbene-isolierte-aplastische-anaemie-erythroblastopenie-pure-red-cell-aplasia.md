@@ -33,7 +33,7 @@ corrections: []
 
 # Reine Erythrozytenaplasie
 
-**Klassifikation:** ICD-10-GM: D60.-
+**Klassifikation:** ICD-10-GM: D60.-; ICD-11: 3A61
 
 ## Übersicht
 

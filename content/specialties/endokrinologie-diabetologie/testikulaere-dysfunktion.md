@@ -33,7 +33,7 @@ corrections: []
 
 # Testikuläre Dysfunktion
 
-**Klassifikation:** ICD-10-GM: E29.-
+**Klassifikation:** ICD-10-GM: E29.-; ICD-11: 5A81
 
 ## Übersicht
 

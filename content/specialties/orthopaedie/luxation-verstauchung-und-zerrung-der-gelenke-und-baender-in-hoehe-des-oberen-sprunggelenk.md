@@ -33,7 +33,7 @@ corrections: []
 
 # Distorsion des oberen Sprunggelenks
 
-**Klassifikation:** ICD-10-GM: S93.-
+**Klassifikation:** ICD-10-GM: S93.-; ICD-11: ND14
 
 ## Übersicht
 

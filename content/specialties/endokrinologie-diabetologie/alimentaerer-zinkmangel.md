@@ -33,7 +33,7 @@ corrections: []
 
 # Zinkmangel
 
-**Klassifikation:** ICD-10-GM: E60
+**Klassifikation:** ICD-10-GM: E60; ICD-11: 5B5K.2
 
 ## Übersicht
 

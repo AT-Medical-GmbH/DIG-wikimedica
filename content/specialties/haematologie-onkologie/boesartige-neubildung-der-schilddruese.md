@@ -33,7 +33,7 @@ corrections: []
 
 # Schilddrüsenkrebs
 
-**Klassifikation:** ICD-10-GM: C73
+**Klassifikation:** ICD-10-GM: C73; ICD-11: 2D10
 
 ## Übersicht
 

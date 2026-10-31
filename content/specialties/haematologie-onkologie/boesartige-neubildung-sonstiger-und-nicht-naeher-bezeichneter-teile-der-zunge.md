@@ -33,7 +33,7 @@ corrections: []
 
 # Zungenkarzinom
 
-**Klassifikation:** ICD-10-GM: C02.-
+**Klassifikation:** ICD-10-GM: C02.-; ICD-11: 2B62
 
 ## Übersicht
 

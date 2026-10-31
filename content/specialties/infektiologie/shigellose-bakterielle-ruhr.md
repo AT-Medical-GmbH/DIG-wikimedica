@@ -33,7 +33,7 @@ corrections: []
 
 # Shigellose
 
-**Klassifikation:** ICD-10-GM: A03.-
+**Klassifikation:** ICD-10-GM: A03.-; ICD-11: 1A02
 
 ## Übersicht
 

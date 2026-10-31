@@ -37,7 +37,7 @@ corrections: []
 
 # Rheumatoide Arthritis
 
-**Klassifikation:** ICD-10-GM: M05.-, M06.-
+**Klassifikation:** ICD-10-GM: M05.-, M06.-; ICD-11: FA20.0, FA20
 
 Die **rheumatoide Arthritis** ist eine chronisch-entzündliche, systemische Erkrankung, die vor allem die Gelenke betrifft. Typisch sind schmerzhafte Schwellungen, Morgensteifigkeit und eine anhaltende Entzündung, die unbehandelt zu Gelenkschäden führen kann.[1]
 

@@ -37,7 +37,7 @@ corrections: []
 
 # Depressive Störung
 
-**Klassifikation:** ICD-10-GM: F32.-, F33.-
+**Klassifikation:** ICD-10-GM: F32.-, F33.-; ICD-11: 6A70, 6A71
 
 Eine **depressive Störung** ist durch anhaltend gedrückte Stimmung und/oder Interessenverlust mit weiteren psychischen und körperlichen Symptomen gekennzeichnet. Schweregrad, Verlauf, Komorbiditäten und Suizidalität bestimmen die Dringlichkeit und Behandlungsplanung.[1]
 

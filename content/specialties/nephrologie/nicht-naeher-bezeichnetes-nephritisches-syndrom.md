@@ -33,7 +33,7 @@ corrections: []
 
 # Nephritisches Syndrom
 
-**Klassifikation:** ICD-10-GM: N05.-
+**Klassifikation:** ICD-10-GM: N05.-; ICD-11: GB40
 
 ## Übersicht
 

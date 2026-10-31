@@ -33,7 +33,7 @@ corrections: []
 
 # Dünndarmkarzinom
 
-**Klassifikation:** ICD-10-GM: C17.-
+**Klassifikation:** ICD-10-GM: C17.-; ICD-11: 2B80
 
 ## Übersicht
 

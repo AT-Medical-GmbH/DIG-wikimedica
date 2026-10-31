@@ -33,7 +33,7 @@ corrections: []
 
 # Folgen des Schlaganfalls
 
-**Klassifikation:** ICD-10-GM: I69.-
+**Klassifikation:** ICD-10-GM: I69.-; ICD-11: 8B25
 
 ## Übersicht
 

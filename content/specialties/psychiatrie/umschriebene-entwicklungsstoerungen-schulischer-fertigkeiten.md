@@ -33,7 +33,7 @@ corrections: []
 
 # Lese-Rechtschreib-Störung
 
-**Klassifikation:** ICD-10-GM: F81.-
+**Klassifikation:** ICD-10-GM: F81.-; ICD-11: 6A03
 
 ## Übersicht
 

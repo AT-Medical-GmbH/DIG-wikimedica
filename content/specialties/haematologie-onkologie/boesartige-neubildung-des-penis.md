@@ -33,7 +33,7 @@ corrections: []
 
 # Peniskarzinom
 
-**Klassifikation:** ICD-10-GM: C60.-
+**Klassifikation:** ICD-10-GM: C60.-; ICD-11: 2C81
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Genitalprolaps der Frau
 
-**Klassifikation:** ICD-10-GM: N81.-
+**Klassifikation:** ICD-10-GM: N81.-; ICD-11: GC40
 
 ## Übersicht
 

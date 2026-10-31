@@ -33,7 +33,7 @@ corrections: []
 
 # Kleine Niere unbekannter Genese
 
-**Klassifikation:** ICD-10-GM: N27.-
+**Klassifikation:** ICD-10-GM: N27.-; ICD-11: MF54.2
 
 ## Epidemiologie
 

@@ -37,7 +37,7 @@ corrections: []
 
 # Alzheimer-Demenz
 
-**Klassifikation:** ICD-10-GM: G30.-, F00.-*
+**Klassifikation:** ICD-10-GM: G30.-, F00.-*; ICD-11: 8A20, 6D80
 
 Die **Alzheimer-Demenz** ist die häufigste Ursache einer Demenz. Sie ist durch einen fortschreitenden Abbau kognitiver Funktionen mit Auswirkungen auf Alltag, Selbstständigkeit und Teilhabe gekennzeichnet.[1]
 

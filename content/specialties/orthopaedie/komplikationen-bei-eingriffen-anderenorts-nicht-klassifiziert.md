@@ -33,7 +33,7 @@ corrections: []
 
 # Komplikationen bei chirurgischen Eingriffen
 
-**Klassifikation:** ICD-10-GM: T81.-
+**Klassifikation:** ICD-10-GM: T81.-; ICD-11: NE81
 
 ## Übersicht
 

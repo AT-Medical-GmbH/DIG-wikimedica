@@ -33,7 +33,7 @@ corrections: []
 
 # Knieluxation und Kniebandverletzungen
 
-**Klassifikation:** ICD-10-GM: S83.-
+**Klassifikation:** ICD-10-GM: S83.-; ICD-11: NC93
 
 ## Übersicht
 

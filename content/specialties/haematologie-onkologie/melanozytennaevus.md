@@ -33,7 +33,7 @@ corrections: []
 
 # Melanozytäre Nävi
 
-**Klassifikation:** ICD-10-GM: D22.-
+**Klassifikation:** ICD-10-GM: D22.-; ICD-11: 2F20
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Mukopolysaccharidosen
 
-**Klassifikation:** ICD-10-GM: E76.-
+**Klassifikation:** ICD-10-GM: E76.-; ICD-11: 5C56.3
 
 ## Übersicht
 

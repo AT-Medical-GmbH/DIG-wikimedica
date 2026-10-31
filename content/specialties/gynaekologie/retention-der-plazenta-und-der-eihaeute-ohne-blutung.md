@@ -33,7 +33,7 @@ corrections: []
 
 # Retentionsstörung der Plazenta
 
-**Klassifikation:** ICD-10-GM: O73.-
+**Klassifikation:** ICD-10-GM: O73.-; ICD-11: JB0B.1
 
 ## Übersicht
 

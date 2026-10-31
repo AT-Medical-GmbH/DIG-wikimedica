@@ -33,7 +33,7 @@ corrections: []
 
 # Varikose der unteren Extremitäten
 
-**Klassifikation:** ICD-10-GM: I86.-
+**Klassifikation:** ICD-10-GM: I86.-; ICD-11: BD75
 
 ## Übersicht
 

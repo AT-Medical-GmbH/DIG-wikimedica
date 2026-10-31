@@ -33,7 +33,7 @@ corrections: []
 
 # Komplikationen nach Infusion, Transfusion oder Injektion
 
-**Klassifikation:** ICD-10-GM: T80.-
+**Klassifikation:** ICD-10-GM: T80.-; ICD-11: NE80
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Endometriumkarzinom
 
-**Klassifikation:** ICD-10-GM: C54.-
+**Klassifikation:** ICD-10-GM: C54.-; ICD-11: 2C76
 
 ## Übersicht
 

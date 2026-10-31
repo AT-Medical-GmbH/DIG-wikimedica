@@ -33,7 +33,7 @@ corrections: []
 
 # Spinale Muskelatrophie
 
-**Klassifikation:** ICD-10-GM: G12.-
+**Klassifikation:** ICD-10-GM: G12.-; ICD-11: 8B61
 
 ## Übersicht
 

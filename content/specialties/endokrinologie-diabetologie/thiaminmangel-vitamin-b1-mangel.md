@@ -33,7 +33,7 @@ corrections: []
 
 # Thiaminmangel
 
-**Klassifikation:** ICD-10-GM: E51.-
+**Klassifikation:** ICD-10-GM: E51.-; ICD-11: 5B5A
 
 ## Übersicht
 

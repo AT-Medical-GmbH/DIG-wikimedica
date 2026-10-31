@@ -33,7 +33,7 @@ corrections: []
 
 # Krampfadern der Beine
 
-**Klassifikation:** ICD-10-GM: I83.-
+**Klassifikation:** ICD-10-GM: I83.-; ICD-11: BD74.1
 
 ## Übersicht
 

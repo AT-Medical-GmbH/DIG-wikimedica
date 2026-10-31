@@ -33,7 +33,7 @@ corrections: []
 
 # Akutes Rheumafieber ohne Kardiitis
 
-**Klassifikation:** ICD-10-GM: I00
+**Klassifikation:** ICD-10-GM: I00; ICD-11: 1B40
 
 ## Übersicht
 

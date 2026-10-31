@@ -33,7 +33,7 @@ corrections: []
 
 # Eklampsie
 
-**Klassifikation:** ICD-10-GM: O15.-
+**Klassifikation:** ICD-10-GM: O15.-; ICD-11: JA25.3
 
 ## Übersicht
 

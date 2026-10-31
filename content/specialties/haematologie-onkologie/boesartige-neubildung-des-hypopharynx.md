@@ -33,7 +33,7 @@ corrections: []
 
 # Hypopharynxkarzinom
 
-**Klassifikation:** ICD-10-GM: C13.-
+**Klassifikation:** ICD-10-GM: C13.-; ICD-11: 2B6D
 
 ## Übersicht
 

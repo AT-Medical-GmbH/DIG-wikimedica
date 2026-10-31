@@ -33,7 +33,7 @@ corrections: []
 
 # Chronische Sinusitis
 
-**Klassifikation:** ICD-10-GM: J32.-
+**Klassifikation:** ICD-10-GM: J32.-; ICD-11: CA0A
 
 ## Übersicht
 

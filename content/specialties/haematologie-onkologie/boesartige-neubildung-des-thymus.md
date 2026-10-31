@@ -33,7 +33,7 @@ corrections: []
 
 # Bösartige Neubildung des Thymus
 
-**Klassifikation:** ICD-10-GM: C37
+**Klassifikation:** ICD-10-GM: C37; ICD-11: 2C27
 
 ## Übersicht
 

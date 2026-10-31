@@ -33,7 +33,7 @@ corrections: []
 
 # Karzinom der Speiseröhre
 
-**Klassifikation:** ICD-10-GM: C15.-
+**Klassifikation:** ICD-10-GM: C15.-; ICD-11: 2B70
 
 ## Übersicht
 

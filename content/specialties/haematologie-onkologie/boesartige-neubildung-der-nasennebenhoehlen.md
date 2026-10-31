@@ -33,7 +33,7 @@ corrections: []
 
 # Bösartige Neubildungen der Nasennebenhöhlen
 
-**Klassifikation:** ICD-10-GM: C31.-
+**Klassifikation:** ICD-10-GM: C31.-; ICD-11: 2C22
 
 ## Übersicht
 

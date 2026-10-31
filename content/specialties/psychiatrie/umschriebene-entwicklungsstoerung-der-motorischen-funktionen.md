@@ -33,7 +33,7 @@ corrections: []
 
 # Entwicklungsstörung der Motorik
 
-**Klassifikation:** ICD-10-GM: F82.-
+**Klassifikation:** ICD-10-GM: F82.-; ICD-11: 6A04
 
 ## Übersicht
 

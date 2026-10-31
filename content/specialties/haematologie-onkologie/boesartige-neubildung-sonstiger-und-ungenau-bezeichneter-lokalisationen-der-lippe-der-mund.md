@@ -33,7 +33,7 @@ corrections: []
 
 # Bösartige Neubildungen der Lippe, Mundhöhle und des Pharynx
 
-**Klassifikation:** ICD-10-GM: C14.-
+**Klassifikation:** ICD-10-GM: C14.-; ICD-11: 2B6E
 
 ## Übersicht
 

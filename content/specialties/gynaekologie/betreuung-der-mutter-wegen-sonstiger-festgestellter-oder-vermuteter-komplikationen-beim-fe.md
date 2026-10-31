@@ -33,7 +33,7 @@ corrections: []
 
 # Betreuung der Schwangeren bei fetalen Komplikationen
 
-**Klassifikation:** ICD-10-GM: O36.-
+**Klassifikation:** ICD-10-GM: O36.-; ICD-11: JA86
 
 ## Übersicht
 

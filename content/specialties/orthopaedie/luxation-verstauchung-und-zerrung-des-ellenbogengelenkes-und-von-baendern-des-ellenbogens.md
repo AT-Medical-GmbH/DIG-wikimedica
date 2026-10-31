@@ -33,7 +33,7 @@ corrections: []
 
 # Ellenbogenluxation und Bandverletzungen des Ellenbogens
 
-**Klassifikation:** ICD-10-GM: S53.-
+**Klassifikation:** ICD-10-GM: S53.-; ICD-11: NC33
 
 ## Übersicht
 

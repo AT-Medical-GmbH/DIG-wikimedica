@@ -33,7 +33,7 @@ corrections: []
 
 # Fetaler Distress
 
-**Klassifikation:** ICD-10-GM: O68.-
+**Klassifikation:** ICD-10-GM: O68.-; ICD-11: JB07
 
 ## Übersicht
 

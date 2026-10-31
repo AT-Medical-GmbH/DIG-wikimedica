@@ -33,7 +33,7 @@ corrections: []
 
 # Plasmazellneoplasien und multiples Myelom
 
-**Klassifikation:** ICD-10-GM: C90.-
+**Klassifikation:** ICD-10-GM: C90.-; ICD-11: 2A83
 
 ## Übersicht
 

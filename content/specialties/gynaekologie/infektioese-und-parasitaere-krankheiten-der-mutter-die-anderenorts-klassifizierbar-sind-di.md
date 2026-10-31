@@ -33,7 +33,7 @@ corrections: []
 
 # Infektiöse und parasitäre Krankheiten der Mutter
 
-**Klassifikation:** ICD-10-GM: O98.-
+**Klassifikation:** ICD-10-GM: O98.-; ICD-11: JB63
 
 ## Übersicht
 
