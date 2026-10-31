@@ -105,7 +105,10 @@ def import_article(path: Path, revision: str) -> dict:
         if not marker or marker.group(1) != path.stem:
             raise ValueError("existing page is not owned by this BETA article; refusing overwrite")
         content = previous.split("\n", 1)[1] if "\n" in previous else ""
-        if hashlib.sha256(normalize(content).encode("utf-8")).hexdigest() != marker.group(2):
+        # build_page hasht den Inhalt ohne abschließenden Zeilenumbruch (Seiten enden seit den Kategorien auf
+        # „[[Kategorie:…]]“); MediaWiki liefert ihn je nach Version mit. Beide Formen gelten als unverändert.
+        digests = {hashlib.sha256(v.encode("utf-8")).hexdigest() for v in (normalize(content), normalize(content).rstrip("\n"))}
+        if marker.group(2) not in digests:
             raise ValueError("manual page changes detected; refusing overwrite")
         if normalize(previous) == normalize(target):
             return {"article": title, "result": "unchanged", "verified": True}
