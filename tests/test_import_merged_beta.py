@@ -69,3 +69,16 @@ def test_page_extras_merges_specialty_aliases():
     _, cats = imp.page_extras("amiodaron", fm, "Text.")
     assert "[[Kategorie:Endokrinologie/Diabetologie]]" in cats
     assert "[[Kategorie:Endokrinologie]]" not in cats
+
+
+def test_page_extras_links_patient_information(monkeypatch):
+    index = {
+        "arterielle-hypertonie-patienteninformation": {"title": "Bluthochdruck – Patienteninformation", "specialty": "Kardiologie",
+                                                        "type": "patient", "icd": ["I10"], "atc": [], "related": "arterielle-hypertonie"},
+    }
+    monkeypatch.setattr(imp, "_ARTICLE_INDEX", index)
+    fm = {"title": "Arterielle Hypertonie", "specialty": "Kardiologie", "article_type": "professional", "content_kind": "article",
+          "risk_level": "moderate", "icd10": ["I10"]}
+    see, _ = imp.page_extras("arterielle-hypertonie", fm, "Text.")
+    assert "== Für Patientinnen und Patienten ==" in see
+    assert "[[Bluthochdruck – Patienteninformation]]" in see
