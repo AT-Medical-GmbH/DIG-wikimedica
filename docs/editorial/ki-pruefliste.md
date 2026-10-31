@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 01:25. Warteschlange: claimed 3, duplicate 441, planned 4041, published 973, ready 35, redirect 228, review 1344.
+Stand: 31.10.2026 02:25. Warteschlange: claimed 1, duplicate 441, planned 3946, published 1008, ready 36, redirect 244, review 1389.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -232,6 +232,12 @@ Stand: 31.10.2026 01:25. Warteschlange: claimed 3, duplicate 441, planned 4041, 
 | WM-DIS-0915 | Zerquetschung des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist crush injury' |
 | WM-DIS-0916 | Zerquetschung des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'leg contusion' |
 | WM-DIS-1001 | Sonstige lokale Infektionen der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine Quelle behandelt spezifisch L08 (lokale Infektionen der Haut/Unterhaut ohne spezifische Erregerangabe wie Orf, Mykobakterien oder spezifische |
+| WM-DIS-1045 | Sonstige Veränderungen des Fruchtwassers und der Eihäute | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Titel deckt ICD-10-GM O41 ab. Quelle 1 behandelt Amnionflüssigkeitsanomalien. Quelle 3 behandelt Liquor-Anomalien (Synonym). Quelle 2 (Kabuki) und  |
+| WM-DIS-1082 | Bösartige Neubildung des Zungengrundes | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Titel passt zur ICD-10-C01. Quelle 1 und 2 behandeln explizit 'base of tongue cancer'. Quelle 3 und 4 sind zu allgemein (Oropharynx), Quelle 5 irre |
+| WM-DIS-1088 | Bösartige Neubildung der Plazenta | disease | zu wenige Quellen mit Zusammenfassung (0) für 'placental malignancy' |
+| WM-DIS-1090 | Bösartige Neubildung des Nierenbeckens | disease | zu wenige Quellen mit Zusammenfassung (2) für 'renal pelvis cancer' |
+| WM-DIS-1091 | Bösartige Neubildung des Ureters | disease | zu wenige Quellen mit Zusammenfassung (3) für 'ureteral carcinoma' |
+| WM-DIS-1093 | Bösartige Neubildungen als Primärtumore an mehreren Lokalisationen | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel entspricht ICD-Code. Quellen 3, 4, 5 behandeln direkt Multiple Primary Malignancies. Quelle 1 (Metastasen) und 2 (Sarcoma) passen nicht. Quel |
 | WM-DIS-1199 | Verletzung von Muskeln und Sehnen in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cervical strain' |
 | WM-DIS-1200 | Traumatische Amputation in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical amputation' |
 | WM-DIS-1201 | Zerquetschung der Schulter und des Oberarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'shoulder contusion' |
@@ -317,15 +323,51 @@ Stand: 31.10.2026 01:25. Warteschlange: claimed 3, duplicate 441, planned 4041, 
 | WM-DRUG-0367 | Cinacalcet | drug | zu viele nur teilweise belegte Sätze (18/36) |
 | WM-DRUG-0373 | Silodosin | drug | zu viele nur teilweise belegte Sätze (18/35) |
 | WM-DRUG-0374 | Epinephrin | drug | zu viele nur teilweise belegte Sätze (21/49) |
+| WM-DRUG-0376 | Atropin | drug | Bestätigungsquote 26/45 unter 60 % |
+| WM-DRUG-0379 | Cholsäure | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 3 und 5 behandeln explizit Cholsäure als Wirkstoff oder dessen Anwendung bei spezifischen Erkrankungen (Bile Acid Synthesis Defects, Cer |
+| WM-DRUG-0380 | Maralixibatchlorid | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 4 behandelt explizit Maralixibat. Quelle 2 ist zu allgemein, Quelle 5 behandelt Odevixibat (anderer Wirkstoff).) |
+| WM-DRUG-0381 | Odevixibat | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 2 behandelt systemische Bile-Acid-Transporter-Inhibitoren, was Odevixibat direkt entspricht. Die anderen Quellen behandeln Krebs, Hepato |
+| WM-DRUG-0384 | Mannitol | drug | zu viele nur teilweise belegte Sätze (13/24) |
+| WM-DRUG-0386 | Naloxegol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Naloxegol' |
+| WM-DRUG-0388 | Naldemedin | drug | zu viele nur teilweise belegte Sätze (19/42) |
+| WM-DRUG-0389 | Linaclotid | drug | zu viele nur teilweise belegte Sätze (21/36) |
 | WM-DRUG-0393 | Insulin glulisin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'insulin glulisine' |
 | WM-DRUG-0394 | Insulin detemir | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Insulin detemir direkt (vs. NPH bzw. Glargin). Die Quellen 2, 5, 6 und 7 betreffen Basalinsuline bzw. Insulinanaloga a |
 | WM-DRUG-0398 | Saxagliptin | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Der Titel „Saxagliptin“ entspricht dem Wirkstoff der Klassifikation (ATC A10BH03). Keine der Quellen behandelt aber Saxagliptin als Hauptthema. Di |
 | WM-DRUG-0399 | Alogliptin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Alogliptin“ entspricht dem Wirkstoff (ATC A10BH04). Keine der Quellen behandelt jedoch Alogliptin spezifisch. Alle betreffen die Wirksto |
 | WM-DRUG-0400 | Linagliptin | drug | zu viele nur teilweise belegte Sätze (22/44) |
 | WM-DRUG-0406 | Teplizumab | drug | zu viele nur teilweise belegte Sätze (24/41) |
+| WM-DRUG-0407 | Tocofersolan | drug | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Nur Quelle 2 behandelt Vitamin-E-Derivate allgemein und damit wohl auch Tocofersolan (TPGS). Die übrigen Quellen betreffen Vitamin-E-Acetat bzw. E |
 | WM-DRUG-0408 | Prasteron | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 1 behandelt gezielt die DHEA-Supplementierung (Prasteron), nämlich bei Anorexia nervosa und Knochengesundheit. Die Quellen 2 und 3 betre |
+| WM-DRUG-0409 | Imiglucerase | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Imiglucerase“ bezeichnet denselben Wirkstoff wie ATC A16AB02. Von den Quellen behandelt nur Quelle 2 Arzneimitteltherapien bei Morbus Ga |
+| WM-DRUG-0410 | Agalsidase alfa | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Agalsidase alfa“ entspricht dem Wirkstoff der Klassifikation (ATC A16AB03). Nur Quelle 5 behandelt Agalsidase alfa ausdrücklich. Die übr |
+| WM-DRUG-0411 | Agalsidase beta | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel entspricht dem Wirkstoff. Nur die Quellen 2, 8 und 10 behandeln Agalsidase beta spezifisch; die übrigen betreffen Morbus Fabry bzw. ERT allg |
+| WM-DRUG-0412 | Laronidase | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Laronidase (ATC A16AB05) ist die Enzymersatztherapie bei MPS I (Hurler-Syndrom); Idursulfase ist ein anderer Wirkstoff (MPS II, Hunter-Syndr |
+| WM-DRUG-0414 | Idursulfase | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quelle 1 (systematische Übersicht zu intravenösem Idursulfase bei MPS II) und Quelle 4 (Idursulfase-behandelte und unbehandelte Patienten mit MPS I |
+| WM-DRUG-0415 | Velaglucerase alfa | drug | Themenprüfung: nur 2 von 14 Quellen passen zum Thema (Der Titel bezeichnet denselben Wirkstoff wie die Klassifikation (Velaglucerase alfa, A16AB10). Nur Quelle 3 behandelt Velaglucerase alfa direkt, Q |
+| WM-DRUG-0416 | Elosulfase alfa | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Der Titel 'Elosulfase alfa' entspricht dem Wirkstoff der Klassifikation (ATC A16AB12). Quelle 5 behandelt den Wirkstoff direkt. Die Quellen 1 und 2 |
+| WM-DRUG-0417 | Velmanase alfa | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 1–3 behandeln die humane Alpha-Mannosidose, für die Velmanase alfa als Enzymersatztherapie eingesetzt wird. Quelle 4 betrifft pflanzentoxin |
+| WM-DRUG-0418 | Vestronidase alfa | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln speziell MPS VII (Sly-Syndrom), die Indikation von Vestronidase alfa. Quellen 2 und 5 behandeln MPS allgemein, ohne Sc |
+| WM-DRUG-0419 | Pegvaliase | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt Pegvaliase direkt. Die Quellen 2 und 3 betreffen mikrobielle bzw. pflanzliche Phenylalanin-Ammoniak-Lyase ohne Bezug zum Wir |
+| WM-DRUG-0420 | Pegunigalsidase alfa | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Pegunigalsidase alfa ist eine Enzymersatztherapie bei Morbus Fabry. Die Quellen behandeln MPS VII (Sly-Syndrom, β-Glucuronidase-Mangel), also eine  |
+| WM-DRUG-0421 | Pegzilarginase | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Pegzilarginase' |
+| WM-DRUG-0423 | Eladocagen exuparvovec | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Titel bezeichnet den Wirkstoff korrekt (AADC-Gentherapie); keine der Quellen behandelt Eladocagen exuparvovec oder AADC-Defizienz, sondern andere G |
+| WM-DRUG-0424 | Zinkacetat | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Zinkacetat (ATC A16AX05) wird bei Morbus Wilson eingesetzt; der Titel bezeichnet den Wirkstoff korrekt. Nur Quelle 1 behandelt Zinktherapie bei Mor |
+| WM-DRUG-0425 | Glycerolphenylbutyrat | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Der Titel „Glycerolphenylbutyrat“ bezeichnet denselben Wirkstoff wie ATC A16AX09. Nur Quelle 3 behandelt Glycerolphenylbutyrat direkt. Quelle 1 ist |
+| WM-DRUG-0426 | Eliglustat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Eliglustat' |
+| WM-DRUG-0428 | Lumasiran | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt Lumasiran oder primäre Hyperoxalurie Typ 1; alle betreffen andere Themen (Nierenzellkarzinom, Magen-Darm-Erkrankungen, |
+| WM-DRUG-0429 | Fosdenopterin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Fosdenopterin' |
+| WM-DRUG-0430 | Leriglitazon | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Leriglitazone' |
+| WM-DRUG-0431 | Sepiapterin | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Die Quellen 1–3 behandeln den Wirkstoff Sepiapterin (Sepiapterin, Therapie der Phenylketonurie). Quelle 4 betrifft die Hemmung der Sepiapterin-Redu |
 | WM-DRUG-0438 | Tenecteplase | drug | zu viele nur teilweise belegte Sätze (16/24) |
 | WM-DRUG-0442 | Fondaparinux | drug | zu viele nur teilweise belegte Sätze (17/34) |
+| WM-DRUG-0445 | Von Willebrand-Faktor | drug | zu viele nur teilweise belegte Sätze (15/28) |
+| WM-DRUG-0446 | Catridecacog | drug | zu wenige Quellen mit Zusammenfassung (1) für 'recombinant factor XIII' |
+| WM-DRUG-0454 | Darbepoetin alfa | drug | Bestätigungsquote 27/53 unter 60 %; zu viele nur teilweise belegte Sätze (15/27) |
+| WM-DRUG-0455 | Methoxy-Polyethylenglycol-Epoetin beta | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Methoxy-Polyethylenglycol-Epoetin beta (CERA). Quelle 4 behandelt ESA allgemein, aber nicht den spezifischen |
+| WM-DRUG-0459 | Aminosäuren | drug | zu viele nur teilweise belegte Sätze (25/39) |
+| WM-DRUG-0460 | Conestat alfa | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Conestat alfa ist ein rekombinanter C1-Esterase-Inhibitor zur Behandlung des hereditären Angioödems. Alle zehn Quellen behandeln Eculizumab, einen |
+| WM-DRUG-0462 | Berotralstat | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel „Berotralstat“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC B06AC06, Plasmakallikrein-Inhibitor zur Prophylaxe des heredit |
 | WM-DRUG-0597 | Belatacept | drug | zu viele nur teilweise belegte Sätze (20/42) |
 | WM-DRUG-0601 | Certolizumab pegol | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Der Titel bezeichnet denselben Wirkstoff wie die Klassifikation (ATC L04AB05). Es behandeln aber nur drei Quellen Certolizumab pegol spezifisch: 2  |
 | WM-DRUG-0602 | Basiliximab | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1–3 behandeln Basiliximab bzw. IL-2-Rezeptor-Antagonisten (Basiliximab) direkt. Quelle 4 (autoimmune Enzephalitis, allgemeine Therapieoptio |
@@ -1352,3 +1394,6 @@ Stand: 31.10.2026 01:25. Warteschlange: claimed 3, duplicate 441, planned 4041, 
 | WM-DRUG-3774 | Sulfathiazol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Sulfathiazole' |
 | WM-DRUG-3776 | Sulfanilamid | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Sulfanilamid als Wirkstoff. Sie betreffen Sulfonamid-Derivate allgemein (MRSA, Effluxpumpen), Antibiotika-Entfernung pe |
 | WM-DRUG-3777 | Sulfamerazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfamerazine' |
+| WM-DRUG-3812 | Mometason | drug | Bestätigungsquote 25/45 unter 60 %; zu viele nur teilweise belegte Sätze (16/25) |
+| WM-DRUG-3815 | Fluticason | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation D07AC17 bezeichnet Fluticason als topisches Glukokortikoid (Dermatologikum). Der Titel „Fluticason“ nennt den Wirksto |
+| WM-DRUG-3923 | Oxaceprol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Oxaceprol' |
