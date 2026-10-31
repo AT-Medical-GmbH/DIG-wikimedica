@@ -33,7 +33,7 @@ corrections: []
 
 # Blasenmole
 
-**Klassifikation:** ICD-10-GM: O01.-
+**Klassifikation:** ICD-10-GM: O01.-; ICD-11: JA02
 
 ## Übersicht
 

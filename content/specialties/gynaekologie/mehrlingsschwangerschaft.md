@@ -33,7 +33,7 @@ corrections: []
 
 # Mehrlingsschwangerschaft
 
-**Klassifikation:** ICD-10-GM: O30.-
+**Klassifikation:** ICD-10-GM: O30.-; ICD-11: JA80
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Gastrojejunalulkus (Ulcus pepticum jejuni)
 
-**Klassifikation:** ICD-10-GM: K28.-
+**Klassifikation:** ICD-10-GM: K28.-; ICD-11: DA62
 
 ## Übersicht
 

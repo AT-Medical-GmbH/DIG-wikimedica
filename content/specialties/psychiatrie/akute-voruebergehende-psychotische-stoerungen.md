@@ -33,7 +33,7 @@ corrections: []
 
 # Akute vorübergehende psychotische Störungen
 
-**Klassifikation:** ICD-10-GM: F23.-
+**Klassifikation:** ICD-10-GM: F23.-; ICD-11: 6A23
 
 ## Übersicht
 

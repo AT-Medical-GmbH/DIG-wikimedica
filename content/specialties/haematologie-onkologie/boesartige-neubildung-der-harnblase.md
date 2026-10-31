@@ -33,7 +33,7 @@ corrections: []
 
 # Harnblasenkarzinom
 
-**Klassifikation:** ICD-10-GM: C67.-
+**Klassifikation:** ICD-10-GM: C67.-; ICD-11: 2C94
 
 ## Übersicht
 

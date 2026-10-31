@@ -33,7 +33,7 @@ corrections: []
 
 # Bösartige Neubildung des Recessus piriformis
 
-**Klassifikation:** ICD-10-GM: C12
+**Klassifikation:** ICD-10-GM: C12; ICD-11: 2B6C
 
 ## Übersicht
 

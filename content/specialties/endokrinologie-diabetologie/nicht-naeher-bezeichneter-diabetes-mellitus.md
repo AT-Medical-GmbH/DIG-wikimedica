@@ -33,7 +33,7 @@ corrections: []
 
 # Diabetes mellitus
 
-**Klassifikation:** ICD-10-GM: E14.-
+**Klassifikation:** ICD-10-GM: E14.-; ICD-11: 5A14
 
 ## Übersicht
 

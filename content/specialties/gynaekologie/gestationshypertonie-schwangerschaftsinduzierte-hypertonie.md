@@ -33,7 +33,7 @@ corrections: []
 
 # Schwangerschaftsinduzierte Hypertonie
 
-**Klassifikation:** ICD-10-GM: O13
+**Klassifikation:** ICD-10-GM: O13; ICD-11: JA23
 
 ## Übersicht
 

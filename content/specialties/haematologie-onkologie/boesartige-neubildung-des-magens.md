@@ -33,7 +33,7 @@ corrections: []
 
 # Magenkarzinom
 
-**Klassifikation:** ICD-10-GM: C16.-
+**Klassifikation:** ICD-10-GM: C16.-; ICD-11: 2B72
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Placenta praevia
 
-**Klassifikation:** ICD-10-GM: O44.-
+**Klassifikation:** ICD-10-GM: O44.-; ICD-11: JA8B
 
 ## Übersicht
 

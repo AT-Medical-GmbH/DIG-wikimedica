@@ -33,7 +33,7 @@ corrections: []
 
 # Unterfunktion und andere Störungen der Hypophyse
 
-**Klassifikation:** ICD-10-GM: E23.-
+**Klassifikation:** ICD-10-GM: E23.-; ICD-11: 5A61
 
 ## Übersicht
 

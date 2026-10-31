@@ -33,7 +33,7 @@ corrections: []
 
 # Luxation, Verstauchung und Zerrung von Gelenken und Bändern des Schultergürtels
 
-**Klassifikation:** ICD-10-GM: S43.-
+**Klassifikation:** ICD-10-GM: S43.-; ICD-11: NC13
 
 ## Übersicht
 

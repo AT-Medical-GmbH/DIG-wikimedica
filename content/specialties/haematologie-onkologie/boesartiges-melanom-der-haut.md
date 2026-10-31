@@ -33,7 +33,7 @@ corrections: []
 
 # Bösartiges Melanom der Haut
 
-**Klassifikation:** ICD-10-GM: C43.-
+**Klassifikation:** ICD-10-GM: C43.-; ICD-11: 2C30
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Bösartige Neubildung des Anus und des Analkanals
 
-**Klassifikation:** ICD-10-GM: C21.-
+**Klassifikation:** ICD-10-GM: C21.-; ICD-11: 2C00
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Kokainbedingte Störungen
 
-**Klassifikation:** ICD-10-GM: F14.-
+**Klassifikation:** ICD-10-GM: F14.-; ICD-11: 6C45
 
 ## Übersicht
 

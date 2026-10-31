@@ -33,7 +33,7 @@ corrections: []
 
 # Nierenkolik
 
-**Klassifikation:** ICD-10-GM: N23
+**Klassifikation:** ICD-10-GM: N23; ICD-11: MF56
 
 ## Übersicht
 

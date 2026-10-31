@@ -33,7 +33,7 @@ corrections: []
 
 # Gebärmutterkrebs
 
-**Klassifikation:** ICD-10-GM: C55
+**Klassifikation:** ICD-10-GM: C55; ICD-11: 2C78
 
 ## Übersicht
 

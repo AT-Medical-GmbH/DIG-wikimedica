@@ -33,7 +33,7 @@ corrections: []
 
 # Bakterielle Meningitis
 
-**Klassifikation:** ICD-10-GM: G00.-
+**Klassifikation:** ICD-10-GM: G00.-; ICD-11: 1D01.0
 
 ## Übersicht
 

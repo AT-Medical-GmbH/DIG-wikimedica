@@ -33,7 +33,7 @@ corrections: []
 
 # Betreuung bei fetaler Anomalie oder Schädigung in der Schwangerschaft
 
-**Klassifikation:** ICD-10-GM: O35.-
+**Klassifikation:** ICD-10-GM: O35.-; ICD-11: JA85
 
 ## Übersicht
 

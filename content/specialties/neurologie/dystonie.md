@@ -33,7 +33,7 @@ corrections: []
 
 # Dystonien
 
-**Klassifikation:** ICD-10-GM: G24.-
+**Klassifikation:** ICD-10-GM: G24.-; ICD-11: 8A02
 
 ## Übersicht
 

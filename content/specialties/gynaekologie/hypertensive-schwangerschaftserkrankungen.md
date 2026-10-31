@@ -37,7 +37,7 @@ corrections: []
 
 # Hypertensive Schwangerschaftserkrankungen
 
-**Klassifikation:** ICD-10-GM: O10.-, O11, O13, O14.-, O15.-
+**Klassifikation:** ICD-10-GM: O10.-, O11, O13, O14.-, O15.-; ICD-11: JA20, JA21, JA23, JA24, JA25.3
 
 Hypertensive Schwangerschaftserkrankungen umfassen chronische Hypertonie, schwangerschaftsinduzierte Hypertonie, Präeklampsie und Eklampsie. Sie können mit mütterlichen und fetalen Komplikationen verbunden sein.[1]
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Juvenile Arthritis
 
-**Klassifikation:** ICD-10-GM: M08.-
+**Klassifikation:** ICD-10-GM: M08.-; ICD-11: FA24
 
 ## Übersicht
 

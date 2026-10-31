@@ -33,7 +33,7 @@ corrections: []
 
 # Koxarthrose
 
-**Klassifikation:** ICD-10-GM: M16.-
+**Klassifikation:** ICD-10-GM: M16.-; ICD-11: FA00
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Lippenkrebs
 
-**Klassifikation:** ICD-10-GM: C00.-
+**Klassifikation:** ICD-10-GM: C00.-; ICD-11: 2B60
 
 ## Übersicht
 

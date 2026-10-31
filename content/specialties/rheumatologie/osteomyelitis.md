@@ -33,7 +33,7 @@ corrections: []
 
 # Osteomyelitis
 
-**Klassifikation:** ICD-10-GM: M86.-
+**Klassifikation:** ICD-10-GM: M86.-; ICD-11: FB84
 
 ## Übersicht
 

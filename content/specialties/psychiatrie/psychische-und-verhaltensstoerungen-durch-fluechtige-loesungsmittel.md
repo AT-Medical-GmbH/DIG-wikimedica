@@ -33,7 +33,7 @@ corrections: []
 
 # Störungen durch flüchtige Lösungsmittel (Inhalantien)
 
-**Klassifikation:** ICD-10-GM: F18.-
+**Klassifikation:** ICD-10-GM: F18.-; ICD-11: 6C4B
 
 ## Übersicht
 

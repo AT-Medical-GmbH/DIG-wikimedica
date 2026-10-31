@@ -33,7 +33,7 @@ corrections: []
 
 # Tabakabhängigkeit und schädlicher Tabakkonsum
 
-**Klassifikation:** ICD-10-GM: F17.-
+**Klassifikation:** ICD-10-GM: F17.-; ICD-11: 6C4A
 
 ## Übersicht
 

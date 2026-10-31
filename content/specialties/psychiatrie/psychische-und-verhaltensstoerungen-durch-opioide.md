@@ -33,7 +33,7 @@ corrections: []
 
 # Opioide Abhängigkeit und Missbrauch
 
-**Klassifikation:** ICD-10-GM: F11.-
+**Klassifikation:** ICD-10-GM: F11.-; ICD-11: 6C43
 
 ## Übersicht
 

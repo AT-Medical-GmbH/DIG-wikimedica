@@ -33,7 +33,7 @@ corrections: []
 
 # Pellagra (Niazinmangel)
 
-**Klassifikation:** ICD-10-GM: E52
+**Klassifikation:** ICD-10-GM: E52; ICD-11: 5B5C
 
 ## Übersicht
 

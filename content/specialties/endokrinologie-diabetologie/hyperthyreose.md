@@ -37,7 +37,7 @@ corrections: []
 
 # Hyperthyreose
 
-**Klassifikation:** ICD-10-GM: E05.-
+**Klassifikation:** ICD-10-GM: E05.-; ICD-11: 5A02
 
 Eine **Hyperthyreose** bezeichnet eine klinisch relevante Überfunktion der Schilddrüse durch gesteigerte Bildung oder Freisetzung von Schilddrüsenhormonen. Häufige Ursachen sind ein Morbus Basedow, autonome Schilddrüsenareale und entzündliche Schilddrüsenerkrankungen. Eine Thyreotoxikose beschreibt die hormonelle Überwirkung unabhängig von ihrer Ursache.[1]
 

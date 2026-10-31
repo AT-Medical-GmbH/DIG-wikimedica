@@ -33,7 +33,7 @@ corrections: []
 
 # Wahnhafte Störung
 
-**Klassifikation:** ICD-10-GM: F22.-
+**Klassifikation:** ICD-10-GM: F22.-; ICD-11: 6A24
 
 ## Übersicht
 

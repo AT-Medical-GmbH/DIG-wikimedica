@@ -33,7 +33,7 @@ corrections: []
 
 # Vitamin-B12-Mangelanämie
 
-**Klassifikation:** ICD-10-GM: D51.-
+**Klassifikation:** ICD-10-GM: D51.-; ICD-11: 3A01
 
 ## Übersicht
 

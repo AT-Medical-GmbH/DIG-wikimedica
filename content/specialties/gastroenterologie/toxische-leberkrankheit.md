@@ -33,7 +33,7 @@ corrections: []
 
 # Toxische Lebererkrankung
 
-**Klassifikation:** ICD-10-GM: K71.-
+**Klassifikation:** ICD-10-GM: K71.-; ICD-11: DB95
 
 ## Übersicht
 

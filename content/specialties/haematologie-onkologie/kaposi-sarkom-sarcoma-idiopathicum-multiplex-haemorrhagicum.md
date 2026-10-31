@@ -33,7 +33,7 @@ corrections: []
 
 # Kaposi-Sarkom
 
-**Klassifikation:** ICD-10-GM: C46.-
+**Klassifikation:** ICD-10-GM: C46.-; ICD-11: 2B57
 
 ## Übersicht
 

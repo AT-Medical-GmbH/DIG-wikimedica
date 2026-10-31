@@ -33,7 +33,7 @@ corrections: []
 
 # Pilonidalsinus
 
-**Klassifikation:** ICD-10-GM: L05.-
+**Klassifikation:** ICD-10-GM: L05.-; ICD-11: EG63.1
 
 ## Übersicht
 

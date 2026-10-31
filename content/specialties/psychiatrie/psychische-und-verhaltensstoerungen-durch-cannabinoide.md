@@ -33,7 +33,7 @@ corrections: []
 
 # Cannabisbezogene Störungen
 
-**Klassifikation:** ICD-10-GM: F12.-
+**Klassifikation:** ICD-10-GM: F12.-; ICD-11: 6C41
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Dekubitus und Druckzone
 
-**Klassifikation:** ICD-10-GM: L89.-
+**Klassifikation:** ICD-10-GM: L89.-; ICD-11: EH90
 
 ## Übersicht
 

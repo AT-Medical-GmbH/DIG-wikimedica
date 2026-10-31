@@ -37,7 +37,7 @@ corrections: []
 
 # Morbus Crohn
 
-**Klassifikation:** ICD-10-GM: K50.-
+**Klassifikation:** ICD-10-GM: K50.-; ICD-11: DD70
 
 **Morbus Crohn** ist eine chronisch-entzündliche Darmerkrankung, die den gesamten Verdauungstrakt befallen kann und häufig schubförmig verläuft. Entzündungen sind typischerweise segmental und transmural.[1]
 

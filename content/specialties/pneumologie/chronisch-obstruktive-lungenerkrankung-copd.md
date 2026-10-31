@@ -37,7 +37,7 @@ corrections: []
 
 # Chronisch obstruktive Lungenerkrankung (COPD)
 
-**Klassifikation:** ICD-10-GM: J44.-
+**Klassifikation:** ICD-10-GM: J44.-; ICD-11: CA22
 
 Die **chronisch obstruktive Lungenerkrankung (COPD)** ist eine häufige, vermeid- und behandelbare Erkrankung mit persistierenden Atemwegsbeschwerden und einer nicht vollständig reversiblen Atemflusslimitierung. Tabakrauch ist ein zentraler Risikofaktor; auch andere inhalative Noxen und individuelle Faktoren sind relevant.[1]
 

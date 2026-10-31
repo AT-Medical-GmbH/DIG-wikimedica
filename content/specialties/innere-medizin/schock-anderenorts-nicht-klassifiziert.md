@@ -33,7 +33,7 @@ corrections: []
 
 # Schock Pathophysiologie, Diagnostik und Therapie
 
-**Klassifikation:** ICD-10-GM: R57.-
+**Klassifikation:** ICD-10-GM: R57.-; ICD-11: MG40
 
 ## Übersicht
 

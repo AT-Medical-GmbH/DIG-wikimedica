@@ -33,7 +33,7 @@ corrections: []
 
 # Morbus Paget des Knochens
 
-**Klassifikation:** ICD-10-GM: M88.-
+**Klassifikation:** ICD-10-GM: M88.-; ICD-11: FB85
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Betreuung bei Cephalopelvic Disproportion
 
-**Klassifikation:** ICD-10-GM: O33.-
+**Klassifikation:** ICD-10-GM: O33.-; ICD-11: JA83
 
 ## Übersicht
 

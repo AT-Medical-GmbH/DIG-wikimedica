@@ -33,7 +33,7 @@ corrections: []
 
 # Rheumatisches Fieber mit Herzbeteiligung
 
-**Klassifikation:** ICD-10-GM: I01.-
+**Klassifikation:** ICD-10-GM: I01.-; ICD-11: 1B41
 
 ## Übersicht
 

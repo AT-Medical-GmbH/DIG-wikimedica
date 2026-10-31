@@ -33,7 +33,7 @@ corrections: []
 
 # Vorzeitiger Blasensprung
 
-**Klassifikation:** ICD-10-GM: O42.-
+**Klassifikation:** ICD-10-GM: O42.-; ICD-11: JA89
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Distorsionen und Luxationen von Handgelenk und Hand
 
-**Klassifikation:** ICD-10-GM: S63.-
+**Klassifikation:** ICD-10-GM: S63.-; ICD-11: NC54
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Rippenfraktur
 
-**Klassifikation:** ICD-10-GM: S22.-
+**Klassifikation:** ICD-10-GM: S22.-; ICD-11: NA82
 
 ## Übersicht
 

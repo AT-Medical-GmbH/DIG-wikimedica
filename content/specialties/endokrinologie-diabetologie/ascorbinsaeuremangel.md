@@ -33,7 +33,7 @@ corrections: []
 
 # Skorbut (Ascorbinsäuremangel)
 
-**Klassifikation:** ICD-10-GM: E54
+**Klassifikation:** ICD-10-GM: E54; ICD-11: 5B56
 
 ## Übersicht
 

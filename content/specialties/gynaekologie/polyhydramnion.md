@@ -33,7 +33,7 @@ corrections: []
 
 # Fruchtwassermenge zu hoch (Polyhydramnion)
 
-**Klassifikation:** ICD-10-GM: O40
+**Klassifikation:** ICD-10-GM: O40; ICD-11: JA87
 
 ## Übersicht
 

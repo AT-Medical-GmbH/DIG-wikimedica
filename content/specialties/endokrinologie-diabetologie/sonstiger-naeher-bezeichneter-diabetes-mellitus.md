@@ -33,7 +33,7 @@ corrections: []
 
 # Sonstiger Diabetes mellitus
 
-**Klassifikation:** ICD-10-GM: E13.-
+**Klassifikation:** ICD-10-GM: E13.-; ICD-11: 5A13
 
 ## Übersicht
 

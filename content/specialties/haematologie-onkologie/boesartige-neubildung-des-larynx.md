@@ -33,7 +33,7 @@ corrections: []
 
 # Kehlkopfkrebs
 
-**Klassifikation:** ICD-10-GM: C32.-
+**Klassifikation:** ICD-10-GM: C32.-; ICD-11: 2C23
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Selenmangel
 
-**Klassifikation:** ICD-10-GM: E59
+**Klassifikation:** ICD-10-GM: E59; ICD-11: 5B5K.7
 
 ## Übersicht
 

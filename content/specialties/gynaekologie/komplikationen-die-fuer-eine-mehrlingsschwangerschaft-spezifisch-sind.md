@@ -33,7 +33,7 @@ corrections: []
 
 # Komplikationen bei Mehrlingsschwangerschaft
 
-**Klassifikation:** ICD-10-GM: O31.-
+**Klassifikation:** ICD-10-GM: O31.-; ICD-11: JA81
 
 ## Übersicht
 

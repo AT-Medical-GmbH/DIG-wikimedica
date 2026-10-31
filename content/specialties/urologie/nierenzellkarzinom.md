@@ -37,7 +37,7 @@ corrections: []
 
 # Nierenzellkarzinom
 
-**Klassifikation:** ICD-10-GM: C64
+**Klassifikation:** ICD-10-GM: C64; ICD-11: 2C90
 
 Das **Nierenzellkarzinom** ist ein bösartiger Tumor des Nierenparenchyms. Viele Befunde werden zufällig entdeckt; Beschwerden wie Blut im Urin oder Flankenschmerz sind möglich, aber nicht spezifisch.[1]
 

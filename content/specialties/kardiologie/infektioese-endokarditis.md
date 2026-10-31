@@ -40,7 +40,7 @@ corrections: []
 
 # Infektiöse Endokarditis
 
-**Klassifikation:** ICD-10-GM: I33.0
+**Klassifikation:** ICD-10-GM: I33.0; ICD-11: BB40
 
 Die **infektiöse Endokarditis** ist eine schwere Infektion der Herzinnenhaut, häufig mit Befall von Herzklappen, prothetischem Material oder kardialen Implantaten. Sie kann zu Klappendestruktion, Embolien, Herzinsuffizienz und systemischen Komplikationen führen.[1]
 

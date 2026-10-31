@@ -33,7 +33,7 @@ corrections: []
 
 # Vulvakarzinom
 
-**Klassifikation:** ICD-10-GM: C51.-
+**Klassifikation:** ICD-10-GM: C51.-; ICD-11: 2C70
 
 ## Übersicht
 

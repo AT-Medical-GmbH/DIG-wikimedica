@@ -33,7 +33,7 @@ corrections: []
 
 # Hodentumore
 
-**Klassifikation:** ICD-10-GM: C62.-
+**Klassifikation:** ICD-10-GM: C62.-; ICD-11: 2C80
 
 ## Übersicht
 

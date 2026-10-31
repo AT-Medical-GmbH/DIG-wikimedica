@@ -33,7 +33,7 @@ corrections: []
 
 # Karzinom der Parotisdrüse
 
-**Klassifikation:** ICD-10-GM: C07
+**Klassifikation:** ICD-10-GM: C07; ICD-11: 2B67
 
 ## Übersicht
 
