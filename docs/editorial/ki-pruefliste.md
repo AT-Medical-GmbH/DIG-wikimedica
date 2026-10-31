@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 12:25. Warteschlange: duplicate 445, planned 3153, published 1269, ready 15, redirect 365, review 1818.
+Stand: 31.10.2026 13:25. Warteschlange: duplicate 445, planned 3125, published 1284, ready 12, redirect 365, review 1834.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1262,6 +1262,8 @@ Stand: 31.10.2026 12:25. Warteschlange: duplicate 445, planned 3153, published 1
 | WM-DRUG-1593 | Melevodopa | drug | zu wenige Quellen mit Zusammenfassung (0) für 'melevodopa' |
 | WM-DRUG-1594 | Pergolid | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Pergolid ist ein Ergot-Dopaminagonist (ATC N04BC02), der u. a. beim Parkinson-Syndrom eingesetzt wurde und in der Tiermedizin bei equiner PPID (Per |
 | WM-DRUG-1595 | Dihydroergocryptinmesilat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'dihydroergocryptine' |
+| WM-DRUG-1599 | Budipin | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt Budipin (Antiparkinsonmittel, Parkinson-Therapie). Sie betreffen Ketamin, Memantin, MK-801 oder allgemeine NMDA-Antago |
+| WM-DRUG-1601 | Ethylbenzhydramin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ethylbenzhydramine' |
 | WM-DRUG-1603 | Chlorpromazin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 5 und 6 behandeln Chlorpromazin explizit; die übrigen betreffen andere Wirkstoffe, die Substanzklasse oder andere Krankheitsbilder, in  |
 | WM-DRUG-1604 | Levomepromazin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der fünf Quellen behandelt Levomepromazin als Hauptthema. Quelle 1 betrifft Antipsychotika-induzierte Myokarditis allgemein. Die Quellen 2 un |
 | WM-DRUG-1605 | Promazin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 3 behandelt Promazin direkt. Quelle 2 betrifft Phenothiazine allgemein, also eine übergeordnete Substanzklasse. Quelle 1 (Alkoholentzug) |
@@ -1488,6 +1490,20 @@ Stand: 31.10.2026 12:25. Warteschlange: duplicate 445, planned 3153, published 1
 | WM-DRUG-1879 | Viquidil | drug | zu wenige Quellen mit Zusammenfassung (0) für 'viquidil' |
 | WM-DRUG-1881 | Organextrakte | drug | zu wenige Quellen mit Zusammenfassung (2) für 'organotherapy' |
 | WM-DRUG-1882 | Dihydroergotoxin | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Dihydroergotoxin (Co-dergocrin, ATC N06DX21) ist ein hydriertes Mutterkornalkaloid-Gemisch, das bei Demenz bzw. kognitiven Störungen eingesetzt wi |
+| WM-DRUG-1885 | Distigmin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Distigmine' |
+| WM-DRUG-1886 | Ambenonium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ambenonium chloride' |
+| WM-DRUG-1887 | Carbachol | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Carbachol (ATC N07AB01) ist ein Parasympathomimetikum, der Titel passt. Keine der Quellen behandelt jedoch speziell Carbachol: Quelle 1 behandelt P |
+| WM-DRUG-1888 | Bethanechol | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Nur Quellen 1 und 4 behandeln Bethanechol direkt (4 allerdings veterinärmedizinisch). Quellen 2 und 3 behandeln andere Themen (Radiojod-Speicheldrü |
+| WM-DRUG-1889 | Acetylcholin | drug | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (ATC N07AB03 ist Acetylcholin als Arzneimittelwirkstoff (Parasympathomimetikum, z. B. Provokationstest bei Koronarspasmus). Nur die Quellen 12 und  |
+| WM-DRUG-1891 | Cholinalfoscerat | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel 'Cholinalfoscerat' bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N07AX02, Cholinalfoscerat = Cholin-Alfoscerat = Gliatilin). |
+| WM-DRUG-1892 | Cevimelin | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 3 und 4 behandeln Cevimelin selbst; die übrigen betreffen andere Wirkstoffe oder allgemeine Sjögren-/Xerostomie- bzw. Muskarinagonisten |
+| WM-DRUG-1894 | Cytisiniclin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Cytisiniclin“ bezeichnet denselben Wirkstoff wie ATC N07BA04 (Cytisinicline, deutsche Schreibweise). Passend sind nur Quelle 4 (Evaluati |
+| WM-DRUG-1896 | Calciumcarbimid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'calcium carbimide' |
+| WM-DRUG-1897 | Acamprosat | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel 'Acamprosat' entspricht dem Wirkstoff (ATC N07BB03). Nur Quelle 2 behandelt Acamprosat spezifisch. Die übrigen Quellen sind allgemeine Üb |
+| WM-DRUG-1899 | Ondelopran | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Ondelopran' |
+| WM-DRUG-1900 | Nitrefazol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'nitrefazole' |
+| WM-DRUG-1902 | Levacetylmethadol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Levomethadyl acetate' |
+| WM-DRUG-1903 | Lofexidin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel 'Lofexidin' entspricht dem Wirkstoff der Klassifikation (ATC N07BC04). Nur Quelle 5 behandelt das Management von Opioidentzugssymptomen,  |
 | WM-DRUG-1923 | Mestranol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Mestranol' |
 | WM-DRUG-1924 | Follitropin beta | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Follitropin beta (ATC G03GA06) ist ein rekombinantes FSH. Quelle 1 behandelt Infertilitätsbehandlung bei Epilepsie ganz allgemein, ohne Bezug zu di |
 | WM-DRUG-1925 | Lutropin alfa | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Lutropin alfa“ (rekombinantes LH, ATC G03GA07) passt zur Klassifikation. Nur Quelle 2 behandelt rekombinantes LH direkt. Die Quellen 1,  |
