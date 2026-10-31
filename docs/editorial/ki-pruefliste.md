@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 16:25. Warteschlange: duplicate 446, planned 2990, published 1351, ready 5, redirect 371, review 1902.
+Stand: 31.10.2026 17:25. Warteschlange: duplicate 446, planned 2965, published 1356, ready 8, redirect 371, review 1919.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1578,11 +1578,28 @@ Stand: 31.10.2026 16:25. Warteschlange: duplicate 446, planned 2990, published 1
 | WM-DRUG-1940 | Natriummonofluorphosphat | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Natriummonofluorphosphat“ bezeichnet denselben Wirkstoff wie ATC A01AA02. Keine der vier Quellen behandelt Natriummonofluorphosphat als  |
 | WM-DRUG-1941 | Olaflur | drug | zu wenige Quellen mit Zusammenfassung (2) für 'amine fluoride' |
 | WM-DRUG-1943 | Fluorsilan | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fluorosilane' |
+| WM-DRUG-1947 | Polynoxylin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Polynoxylin' |
+| WM-DRUG-1948 | Domiphen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'domiphen bromide' |
+| WM-DRUG-1949 | Oxychinolin | drug | Bestätigungsquote 22/37 unter 60 % |
 | WM-DRUG-1950 | Neomycin | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Nur Quelle 2 (Kontaktallergie gegen Neomycin) und Quelle 10 (Modifikationen von Neomycin und Paromomycin) behandeln Neomycin direkt. Die übrigen Q |
+| WM-DRUG-1951 | Miconazol | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel 'Miconazol' bezeichnet denselben Wirkstoff wie ATC A01AB09 (Miconazol zur oralen Anwendung bei Mundinfektionen). Quelle 6 behandelt Micon |
 | WM-DRUG-1953 | Verschiedene | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC A01AB11 steht für „Verschiedene“ innerhalb der Gruppe A01AB (Antiinfektiva und Antiseptika zur oralen Lokalbehandlung), also keinen einz |
+| WM-DRUG-1954 | Hexetidin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'hexetidine' |
+| WM-DRUG-1956 | Benzoxoniumchlorid | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Benzoxoniumchlorid ist ein quartäres Ammoniumantiseptikum (ATC A01AB14, Mundantiseptikum). Der Titel entspricht dem Wirkstoff. Keine der Quellen b |
+| WM-DRUG-1957 | Tibezoniumiodid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'tibezonium iodide' |
+| WM-DRUG-1958 | Mepartricin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Mepartricin' |
+| WM-DRUG-1960 | Clotrimazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC A01AB18 ist Clotrimazol als Wirkstoff zur oralen Lokaltherapie (Stomatologika). Der Artikeltitel „Clotrimazol“ bezeichnet den Wirkstoff, |
+| WM-DRUG-1961 | Natriumperborat | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel 'Natriumperborat' entspricht dem Wirkstoff (ATC A01AB19, lokale Mundtherapie). Nur Quelle 2 behandelt Natriumperborat direkt. Quelle 1 vergle |
 | WM-DRUG-1962 | Chlortetracyclin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt Chlortetracyclin gezielt. Die Arbeiten befassen sich mit Antibiotikarückständen allgemein (1, 2, 4, 7), mit Tetracyclin |
+| WM-DRUG-1965 | Octenidin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Nur Quelle 1 (Octenidin-Mundspülung) und Quelle 5 (Review zu Octenidindihydrochlorid) behandeln direkt den Wirkstoff Octenidin. Quelle 2 (Wundreini |
 | WM-DRUG-1966 | Oxytetracyclin | drug | Themenprüfung: nur 2 von 13 Quellen passen zum Thema (Der Titel „Oxytetracyclin“ entspricht dem Wirkstoff der Klassifikation (ATC A01AB25). Nur die Quellen 10 (photokatalytischer Abbau von Oxytetracyc |
+| WM-DRUG-1967 | Aluminiumchlorid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Aluminium chloride' |
+| WM-DRUG-1968 | Ethacridinlactat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Ethacridine lactate' |
+| WM-DRUG-1971 | Natriumpercarbonat | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt Natriumpercarbonat als Arzneimittelwirkstoff (ATC A01AB32, Mundhygiene/Antiseptikum). Die Quellen 1, 4 und 5 betreffen  |
+| WM-DRUG-1973 | Aluminiumchlorat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'aluminium chlorate' |
+| WM-DRUG-1974 | Aluminiumsulfat | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Aluminiumsulfat“ entspricht dem Wirkstoff der Klassifikation (ATC A01AB37, lokale Mundbehandlung). Keine der Quellen behandelt Aluminium |
 | WM-DRUG-1976 | Triamcinolon | drug | zu viele nur teilweise belegte Sätze (14/28) |
+| WM-DRUG-1981 | Adrenalon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Adrenalone' |
 | WM-DRUG-1982 | Amlexanox | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Nur Quelle 7 behandelt Amlexanox direkt; die übrigen betreffen RAS-Therapien allgemein, andere Wirkstoffe oder TBK1/IKKε-Kinasen ohne Fokus auf Am |
 | WM-DRUG-1984 | Cholinsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'choline salicylate' |
 | WM-DRUG-1985 | Carbenoxolon | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur die Quellen 1 und 2 behandeln Carbenoxolon direkt als Wirkstoff. Die übrigen Quellen betreffen Pannexin-Kanäle, Adipositas, Lungenkrebs oder di |
