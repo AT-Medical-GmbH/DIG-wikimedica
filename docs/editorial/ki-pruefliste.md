@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 31.10.2026 02:25. Warteschlange: claimed 1, duplicate 441, planned 3946, published 1008, ready 36, redirect 244, review 1389.
+Stand: 31.10.2026 03:25. Warteschlange: claimed 1, duplicate 441, planned 3876, published 1043, ready 36, redirect 252, review 1416.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -368,6 +368,33 @@ Stand: 31.10.2026 02:25. Warteschlange: claimed 1, duplicate 441, planned 3946, 
 | WM-DRUG-0459 | Aminosäuren | drug | zu viele nur teilweise belegte Sätze (25/39) |
 | WM-DRUG-0460 | Conestat alfa | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Conestat alfa ist ein rekombinanter C1-Esterase-Inhibitor zur Behandlung des hereditären Angioödems. Alle zehn Quellen behandeln Eculizumab, einen |
 | WM-DRUG-0462 | Berotralstat | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel „Berotralstat“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC B06AC06, Plasmakallikrein-Inhibitor zur Prophylaxe des heredit |
+| WM-DRUG-0463 | Garadacimab | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Garadacimab ist ein monoklonaler Antikörper gegen Faktor XIIa zur Prophylaxe des hereditären Angioödems, kein JAK-Inhibitor. Keine der Quellen beh |
+| WM-DRUG-0464 | Sebetralstat | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur die Quellen 3 und 4 behandeln Sebetralstat direkt. Die übrigen Quellen betreffen hereditäres Angioödem, Studiendesigns, Leitlinien oder Kallikr |
+| WM-DRUG-0466 | Exagamglogen autotemcel | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Exagamglogen autotemcel“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC B06AX05). Nur Quelle 4 behandelt explizit exa-cel. Q |
+| WM-DRUG-0471 | Treosulfan | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Treosulfan' |
+| WM-DRUG-0472 | Carmustin | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel „Carmustin“ entspricht dem Wirkstoff der Klassifikation (ATC L01AD01). Quelle 1 behandelt Carmustin direkt, Quelle 3 die Carmustin-Wafer  |
+| WM-DRUG-0474 | Clofarabin | drug | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Nur Quelle 4 (Metaanalyse zu Clofarabin bei ALL) und Quelle 8 (Clofarabin: zytotoxische, genotoxische und radiosensibilisierende Effekte) behandel |
+| WM-DRUG-0477 | Vinflunin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Vinflunin; sie behandeln allgemeine Urothelkarzinom-Therapien, andere Vinca-Alkaloide oder Enfortumab |
+| WM-DRUG-0478 | Cabazitaxel | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/32 unter 60 % |
+| WM-DRUG-0484 | Dacomitinib | drug | Themenprüfung: nur 2 von 14 Quellen passen zum Thema (Nur Quellen 7 und 10 nennen explizit 'Dacomitinib' im Titel. Quelle 10 behandelt spezifisch Dacomitinib. Quelle 7 ist eine Kostenwirksamkeitsstudi |
+| WM-DRUG-0486 | Vemurafenib | drug | zu viele nur teilweise belegte Sätze (25/39) |
+| WM-DRUG-0488 | Tovorafenib | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 5 und 6 behandeln explizit Tovorafenib. Quelle 3 erwähnt es im Kontext von Low-Grade Glioma, ist aber zu allgemein. Quellen 1, 2 und 4 beha |
+| WM-DRUG-0490 | Alectinib | drug | zu viele nur teilweise belegte Sätze (25/41) |
+| WM-DRUG-0497 | Neratinib | drug | zu viele nur teilweise belegte Sätze (24/53) |
+| WM-DRUG-0498 | Tucatinib | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Tucatinib' |
+| WM-DRUG-0499 | Fedratinib | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Fedratinib (JAK2-Inhibitor bei Myelofibrose). Die Quellen betreffen Gastroenterologie, Dermatologie, Dengue, Schlaf |
+| WM-DRUG-0503 | Zanubrutinib | drug | Bestätigungsquote 33/59 unter 60 %; zu viele nur teilweise belegte Sätze (16/33) |
+| WM-DRUG-0504 | Alpelisib | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Alpelisib oder dessen Indikation (PIK3CA-mutierter, hormonrezeptorpositiver, HER2-negativer Bru |
+| WM-DRUG-0507 | Futibatinib | drug | zu wenige Quellen mit Zusammenfassung (3) für 'futibatinib' |
+| WM-DRUG-0508 | Regorafenib | drug | Bestätigungsquote 25/50 unter 60 %; zu viele nur teilweise belegte Sätze (13/25) |
+| WM-DRUG-0510 | Quizartinib | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Quizartinib oder die FLT3-ITD-positive akute myeloische Leukämie; es handelt sich um Übersichtsarbeiten zu Gastroen |
+| WM-DRUG-0511 | Gilteritinib | drug | zu viele nur teilweise belegte Sätze (24/50) |
+| WM-DRUG-0512 | Entrectinib | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Entrectinib; sie betreffen andere Wirkstoffe oder Krankheitsbilder (z. B. Nierenzellkarzinom, Magen-Darm-Erkrankung |
+| WM-DRUG-0513 | Avapritinib | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 4 und 5 behandeln Avapritinib direkt (Vergleich mit Midostaurin bei fortgeschrittener systemischer Mastozytose, Fallbericht mit sequenzi |
+| WM-DRUG-0514 | Selpercatinib | drug | zu viele nur teilweise belegte Sätze (18/36) |
+| WM-DRUG-0516 | Repotrectinib | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Repotrectinib' |
+| WM-DRUG-0522 | Zanidatamab | drug | zu viele nur teilweise belegte Sätze (17/38) |
+| WM-DRUG-0526 | Avelumab | drug | Bestätigungsquote 35/69 unter 60 % |
 | WM-DRUG-0597 | Belatacept | drug | zu viele nur teilweise belegte Sätze (20/42) |
 | WM-DRUG-0601 | Certolizumab pegol | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Der Titel bezeichnet denselben Wirkstoff wie die Klassifikation (ATC L04AB05). Es behandeln aber nur drei Quellen Certolizumab pegol spezifisch: 2  |
 | WM-DRUG-0602 | Basiliximab | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1–3 behandeln Basiliximab bzw. IL-2-Rezeptor-Antagonisten (Basiliximab) direkt. Quelle 4 (autoimmune Enzephalitis, allgemeine Therapieoptio |
