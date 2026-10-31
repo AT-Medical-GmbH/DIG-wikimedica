@@ -61,3 +61,11 @@ def test_related_articles_need_three_and_respect_codes(monkeypatch):
     monkeypatch.setattr(imp, "_ARTICLE_INDEX", drugs)
     rel = imp.related_articles("atenolol", {"title": "Atenolol", "atc_codes": ["C07AB03"]})
     assert rel == ["Bisoprolol", "Metoprolol", "Propranolol"]
+
+
+def test_page_extras_merges_specialty_aliases():
+    fm = {"title": "Amiodaron", "specialty": "Pharmakologie", "secondary_specialties": ["Kardiologie", "Endokrinologie"],
+          "article_type": "pharmaka", "content_kind": "article", "risk_level": "high"}
+    _, cats = imp.page_extras("amiodaron", fm, "Text.")
+    assert "[[Kategorie:Endokrinologie/Diabetologie]]" in cats
+    assert "[[Kategorie:Endokrinologie]]" not in cats

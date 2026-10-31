@@ -176,6 +176,17 @@ def _common(a: str, b: str) -> str:
     return a[:n]
 
 
+# Nicht kanonische Fachgebietsnamen aus älteren Metadaten -> kanonischer Name (data/metadata/article-schema.yaml)
+SPECIALTY_ALIAS = {
+    "Endokrinologie": "Endokrinologie/Diabetologie", "Diabetologie": "Endokrinologie/Diabetologie",
+    "Hämatologie": "Hämatologie/Onkologie", "Onkologie": "Hämatologie/Onkologie",
+    "Gynäkologie": "Gynäkologie/Geburtshilfe", "Geburtshilfe": "Gynäkologie/Geburtshilfe",
+    "Orthopädie": "Orthopädie/Unfallchirurgie", "Unfallchirurgie": "Orthopädie/Unfallchirurgie",
+    "Ophthalmologie": "Augenheilkunde", "Hepatologie": "Gastroenterologie",
+    "Viszeralchirurgie": "Chirurgie", "Gefäßchirurgie": "Chirurgie",
+}
+
+
 def page_extras(slug: str, fm: dict, body: str) -> tuple[str, str]:
     """(„Siehe auch“-Abschnitt, Kategorie-Zeilen) aus den Metadaten des Quellbestands (Auftrag Andreas 29.10.2026, #140)."""
     see = ""
@@ -187,7 +198,12 @@ def page_extras(slug: str, fm: dict, body: str) -> tuple[str, str]:
         cats = categories(fm)
     except KeyError:
         cats = []
-    return see, "\n".join(f"[[Kategorie:{c}]]" for c in cats)
+    merged: list[str] = []
+    for c in cats:  # doppelte Fachgebiete zusammenführen (SEO E12, Freigabe Andreas 31.10.2026)
+        c = SPECIALTY_ALIAS.get(c, c)
+        if c not in merged:
+            merged.append(c)
+    return see, "\n".join(f"[[Kategorie:{c}]]" for c in merged)
 
 
 def build_page(path: Path, revision: str) -> tuple[str, str, str]:
