@@ -33,7 +33,7 @@ corrections: []
 
 # Akute Rhinopharyngitis (Erkältung)
 
-**Klassifikation:** ICD-10-GM: J00
+**Klassifikation:** ICD-10-GM: J00; ICD-11: CA00
 
 ## Übersicht
 

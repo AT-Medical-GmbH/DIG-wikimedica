@@ -33,7 +33,7 @@ corrections: []
 
 # Narbige Alopezie
 
-**Klassifikation:** ICD-10-GM: L66.-
+**Klassifikation:** ICD-10-GM: L66.-; ICD-11: ED70.5
 
 ## Übersicht
 
