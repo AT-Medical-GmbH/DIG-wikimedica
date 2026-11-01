@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 15:25. Warteschlange: duplicate 470, merged 5, planned 1945, published 1630, ready 8, redirect 391, review 2662.
+Stand: 01.11.2026 22:25. Warteschlange: claimed 1, duplicate 470, merged 12, planned 1917, published 1638, ready 4, redirect 391, review 2678.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -2642,6 +2642,22 @@ Stand: 01.11.2026 15:25. Warteschlange: duplicate 470, merged 5, planned 1945, p
 | WM-DRUG-3351 | Seratrodast | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Seratrodast' |
 | WM-DRUG-3352 | Thymianöl | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 5 behandelt Thymianöl direkt. Quelle 1-4 sind irrelevant. Da nur 1 Quelle passt (<4), wird ein besserer Suchbegriff vorgeschlagen.) |
 | WM-DRUG-3353 | Sole | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln explizit Natriumchlorid als Wirkstoff/Substanz in klinischen oder experimentellen Kontexten. Quelle 4 behandelt Wundr |
+| WM-DRUG-3355 | Tyloxapol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tyloxapol' |
+| WM-DRUG-3357 | Guaifenesin | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln Muskelrelaxanzien, nicht Guaifenesin. Quelle 3 behandelt Guaifenesin direkt. Quelle 4 ist ein Review über Guaifenesin. Nu |
+| WM-DRUG-3358 | Antimonpentasulfid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Antimony sulfide' |
+| WM-DRUG-3359 | Kreosot | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Kreosot (ATC R05CA08) ist ein Hustenstillungsmittel. Die Quellen behandeln Psoriasis (Hauterkrankung) oder Kohleteer als Material für Energi |
+| WM-DRUG-3360 | Guajacolsulfonat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Guaiacolsulfonate' |
+| WM-DRUG-3361 | Levoverbenon | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Levoverbenon ist ein Expektorans (R05CA11); der Suchbegriff Levomepromazin meint ein Phenothiazin-Neuroleptikum. Alle Quellen behandeln Antipsychot |
+| WM-DRUG-3362 | Caseinhydrolysat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Casein hydrolysate' |
+| WM-DRUG-3364 | Bromhexin | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 4 behandelt Bromhexin ausdrücklich (zusammen mit Ambroxol). Die übrigen Quellen betreffen Ambroxol, den Metaboliten von Bromhexin, oder  |
+| WM-DRUG-3365 | Carbocistein | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel 'Carbocistein' entspricht dem Wirkstoff (ATC R05CB03). Nur Quelle 3 (Carbocistein bei COPD) und Quelle 7 (Carbocistein-Creme) behandeln d |
+| WM-DRUG-3366 | Eprazinon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Eprazinone' |
+| WM-DRUG-3367 | Sobrerol | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt Sobrerol (Mukolytikum, ATC R05CB07). Es geht um andere Themen wie Magen-Darm-Erkrankungen, Dermatologie, Onkologie und |
+| WM-DRUG-3368 | Domiodol | drug | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Domiodol (R05CB08) ist ein Mukolytikum; Domperidon (A03FA03) ist ein anderer Wirkstoff (Prokinetikum/Antiemetikum). Alle Quellen behandeln Domperi |
+| WM-DRUG-3369 | Letostein | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Arzneimittelwirkstoff Letostein' ist irreführend/falsch geschrieben (sollte Letrozol sein) und impliziert einen allgemeinen Wirkstoff |
+| WM-DRUG-3370 | Stepronin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Stepronin (Betamethason-17-valerat) spezifisch; alle Quellen beziehen sich auf Betamethason, Betamethas |
+| WM-DRUG-3372 | Neltenexin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Neltenexin (ATC R05CB14) ist ein Antitussivum. Der Suchbegriff 'Nelfinavir' bezeichnet ein Antiretrovirum (HIV-Proteaseinhibit |
+| WM-DRUG-3374 | Cuprum aceticum | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Copper acetate' |
 | WM-DRUG-3502 | Tinidazol | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Der Titel 'Tinidazol' entspricht dem Wirkstoff der Klassifikation (ATC G01AF21). Nur Quelle 2 (Tinidazol vs. Metronidazol bei bakterieller Vaginos |
 | WM-DRUG-3522 | Fenoterol | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Fenoterol' bezeichnet denselben Wirkstoff wie ATC G02CA03. Keine der Quellen behandelt Fenoterol als Thema. Quelle 1 betrifft SABA-Monot |
 | WM-DRUG-3524 | Lisurid | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Lisurid direkt (5-HT2A-Agonismus, nicht-halluzinogen). Die übrigen Quellen betreffen Wochenbett, Schlafstörungen bei Stimula |
