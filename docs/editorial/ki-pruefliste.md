@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 04:25. Warteschlange: claimed 1, duplicate 446, planned 2569, published 1444, ready 13, redirect 374, review 2260.
+Stand: 01.11.2026 05:25. Warteschlange: claimed 1, duplicate 446, planned 2495, published 1457, ready 20, redirect 374, review 2314.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -2080,7 +2080,61 @@ Stand: 01.11.2026 04:25. Warteschlange: claimed 1, duplicate 446, planned 2569, 
 | WM-DRUG-2589 | Eisen(II)succinat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Ferrous succinate' |
 | WM-DRUG-2591 | Eisen(II)tartrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iron tartrate' |
 | WM-DRUG-2592 | Eisen(II)aspartat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'iron aspartate' |
+| WM-DRUG-2593 | Eisen(II)ascorbat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Ferrous ascorbate' |
+| WM-DRUG-2594 | Eisen(II)iodat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ferrous iodate' |
+| WM-DRUG-2595 | Eisen(II)natriumcitrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'iron sodium citrate' |
+| WM-DRUG-2596 | Eisen(II)polystyrol-sulfonat | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Keine der Quellen behandelt Eisen(II)polystyrol-sulfonat. „ISP“ steht in den Quellen für andere Begriffe (Intra Spinal Pressure, Interspinous Proc |
+| WM-DRUG-2597 | Ammoniumeisen(II)sulfat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ammonium iron sulfate' |
+| WM-DRUG-2598 | Eisen(III)natriumcitrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ferric sodium citrate' |
+| WM-DRUG-2599 | Eisen(III)oxid-Saccharose-Komplex | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle sechs Quellen behandeln Iron sucrose (Eisen(III)-Saccharose-Komplex) als Studien- bzw. Vergleichssubstanz und passen damit zum Wirkstof |
+| WM-DRUG-2600 | Natriumferedetat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'NaFeEDTA' |
+| WM-DRUG-2601 | Eisen(III)hydroxid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Eisen(III)hydroxid als Wirkstoff. Quelle 1 vergleicht intravenöse und orale Eisenpräparate allgemein bei Herzins |
+| WM-DRUG-2602 | Eisen(III)hydroxid-Polymaltose-Komplex | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Eisen(III)hydroxid-Polymaltose-Komplex“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC B03AB05, iron polymaltose). Keine Que |
+| WM-DRUG-2603 | Chondroitinsulfat-Eisen(III)-Komplex | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chondroitin sulfate iron complex' |
+| WM-DRUG-2604 | Eisen(III)acetyltransferrin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ferric acetyltransferrin' |
+| WM-DRUG-2605 | Eisen(III)proteinsuccinylat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'iron protein succinylate' |
+| WM-DRUG-2606 | Eisen(III)-maltol | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 2, 5 und 6 behandeln Eisen(III)-maltol (ferric maltol) direkt. Quelle 1 (Cochrane-Review zur Eisenmangelanämie bei CED), Quelle 3 (orale Ei |
+| WM-DRUG-2607 | Kalium-Eisen(III)phosphat-Citrat-Komplex | drug | zu wenige Quellen mit Zusammenfassung (1) für 'ferric ammonium citrate' |
+| WM-DRUG-2608 | Eisen(III)sorbit-Zitronensäure-Komplex | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ferric sorbitol citric acid complex' |
+| WM-DRUG-2609 | Eisen(III)sorbit-Gluconsäure-Komplex | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ferric sorbitol gluconate complex' |
+| WM-DRUG-2610 | Eisen(III)hydroxid-Dextran-Komplex | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt gezielt den Wirkstoff Eisen(III)hydroxid-Dextran-Komplex. Quelle 1 betrifft RLS-Leitlinien allgemein. Quellen 2 und 3 v |
+| WM-DRUG-2611 | Eisen(III)natrium-Gluconat-Komplex | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sodium ferric gluconate complex' |
+| WM-DRUG-2614 | Cyanocobalamin-Tannin-Komplex | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cyanocobalamin tannate' |
+| WM-DRUG-2618 | Peginesatid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Peginesatide' |
+| WM-DRUG-2625 | Fluorocarbon-Blutersatzmittel | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Fluorocarbon-Blutersatzmittel' bezeichnet Fluorokohlenstoff-Präparate (ATC B05AA03), während die Quelle 'Hemoglobin-based oxygen carr |
+| WM-DRUG-2626 | Dextran | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Dextran (ATC B05AA05) als Arzneimittel zur Volumenersatztherapie; alle beziehen sich auf Dextran-Derivate in der Fors |
+| WM-DRUG-2627 | Gelatine-haltige Mittel | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf den Wirkstoff (Gelatine-haltige Mittel), nicht auf eine spezifische Indikation/Krankheitsbild. Quellen 1, 2, 3 und 16 |
+| WM-DRUG-2629 | Hämoglobin crosfumaril | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff Hämoglobin crosfumaril (ein Hämaglobin-Konjugat zur parenteralen Eisensubstitution). Alle  |
+| WM-DRUG-2630 | Hämoglobin raffimer | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Hemoglobin' ist zu allgemein und bezieht sich auf den Biomarker, nicht auf den spezifischen Wirkstoff 'Hämoglobin raffimer' |
+| WM-DRUG-2632 | Erythrozyten | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Begriff 'Erythrozyten' bezeichnet rote Blutkörperchen (Zellen), während ATC B05AX01 für 'Erythrozyten-Präparate' (z.B. zur Bluttransfusi |
+| WM-DRUG-2633 | Thrombozyten | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Thrombozyten' (ATC B05AX02) bezeichnet einen spezifischen Wirkstoff (Thrombozytenkonzentrat zur Transfusion). ATC B05AX0 |
+| WM-DRUG-2634 | Blutplasma | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Blutplasma' (ATC B05AX03) bezeichnet Plasma als therapeutisches Arzneimittel zur Volumenersatztherapie. Die Quellen behandeln |
+| WM-DRUG-2635 | Granulozyten | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der ATC-Code B05AX05 bezeichnet 'Granulozyten' (Zelltransfusion), nicht 'Granulozyten-kolonien-stimulierende Faktoren' (G-CSF). Keine der Qu |
+| WM-DRUG-2636 | Leukozyten | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC B05AX06 ist 'Leukocyte concentrate' (Blutbestandteil/Therapeutikum). Die Quellen behandeln entweder Leukozyten als Zelltyp in Diagnostik |
+| WM-DRUG-2637 | Vollblut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Vollblut' (Whole Blood) als Arzneimittel zur Volumenexpansion oder Transfusion wird von den Quellen nicht behandelt. Die Quel |
+| WM-DRUG-2638 | Sonstige Blutprodukte | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC B05AX10 'Sonstige Blutprodukte' ist ein sehr spezifischer Code für Blutprodukte, die nicht unter andere spezifische Kategorien fallen (z |
+| WM-DRUG-2639 | Sonstige Blutprodukte ohne Pharmazentralnummer | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch 'Sonstige Blutprodukte ohne Pharmazentralnummer' (ATC B05AX40). Die Quellen behandeln allgemeine Transfusi |
+| WM-DRUG-2641 | Thrombozyten ohne Pharmazentralnummer | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC B05AX42 bezeichnet Thrombozytenkonzentrate zur Infusion (Bluttransfusion). Die Quellen behandeln ausschließlich lokale Anwendungen (Orth |
+| WM-DRUG-2642 | Blutplasma ohne Pharmazentralnummer | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Blutplasma (ATC B05AX43) oder dessen Indikationen. Alle Quellen befassen sich mit anderen mediz |
+| WM-DRUG-2644 | Leukozyten ohne Pharmazentralnummer | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Leukozyten ohne Pharmazentralnummer' ist irreführend oder falsch, da Leukozyten körpereigene Zellen und keine Arzneimitt |
+| WM-DRUG-2645 | Vollblut ohne Pharmazentralnummer | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff Vollblut (ATC B05AX47) als therapeutische Substanz. Quellen zu 'blood' beziehen sich auf B |
+| WM-DRUG-2647 | Kohlenhydrate | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC B05BA03 bezeichnet 'Carbohydrates' als Infusionslösung (parenterale Ernährung). Keine Quelle behandelt diesen spezifischen pharmazeutisc |
+| WM-DRUG-2648 | Proteinhydrolysate | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle 12 behandelt Proteinhydrolysate als Substitut bei PKU (Aminoacidopathies, A80), nicht als parenterale Ernährung (B05BA04). Alle a |
+| WM-DRUG-2649 | Glucose | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Glucose (ATC B05BA11) als Arzneimittel. Alle Quellen befassen sich mit Glukose als Biomarker, physiolog |
+| WM-DRUG-2650 | Fructose | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Fructose' (ATC B05BA12) bezeichnet eine Infusionslösung (Kohlenhydrat-Elektrolyt-Lösung) zur parenteralen Ernährung. Die |
+| WM-DRUG-2653 | Trometamol | drug | Bestätigungsquote 28/62 unter 60 % |
+| WM-DRUG-2654 | Physiologische Kochsalzlösung | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff 'Physiologische Kochsalzlösung' (ATC B05BB11) als Arzneimittel zur Volumenersatztherapie oder Infusion. |
+| WM-DRUG-2655 | Ringerlösung | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Ringerlösung' (ATC B05BB12) ist eine spezifische Elektrolytlösung. Die Quellen behandeln fast ausschließlich 'Lactated Ringer |
+| WM-DRUG-2656 | Ringerlactatlösung | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Ringerlactatlösung als primären Wirkstoff; Quellen behandeln allgemeine Flüssigkeitstherapie, andere Lösun |
+| WM-DRUG-2657 | Ringeracetatlösung | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Ringeracetatlösung' (B05BB14) ist chemisch und therapeutisch nicht identisch mit 'Lactated Ringer's Solution' (Ringer-Lactat, |
+| WM-DRUG-2658 | Harnstoff | drug | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Quellen 3 und 4 behandeln die therapeutische Anwendung von Harnstoff (ATC B05BC02) als Arzneimittel. Quelle 1 betrifft Harnstoffzyklusstörungen (K |
+| WM-DRUG-2660 | Nitrofural | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Nitrofural' (ATC B05CA03) bezeichnet spezifisch Nitrofuralsäure/Nitrofurantoin-Präparate zur Harnwegstherapie. Quelle 5 behandelt Nit |
 | WM-DRUG-2661 | Sulfamethizol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfamethizole' |
+| WM-DRUG-2664 | Noxytiolin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Noxythiolin' |
+| WM-DRUG-2665 | Natriumcitrat | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Nur Quelle 11 behandelt explizit Natriumcitrat (Sodium Citrate) als Supplement. Die anderen Quellen behandeln allgemeine Supplementierung, andere  |
+| WM-DRUG-2666 | Natriumbicarbonat | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-2667 | Glycin | drug | Bestätigungsquote 18/55 unter 60 % |
+| WM-DRUG-2668 | Ammoniumchlorid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Ammoniumchlorid als Arzneimittelwirkstoff.) |
 | WM-DRUG-2800 | Ofatumumab | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Titel „Ofatumumab“ entspricht dem Wirkstoff der Klassifikation (L01FA02). Keine der Quellen behandelt spezifisch Ofatumumab: Sie betreffen die ges |
 | WM-DRUG-2947 | Antilymphozytäres Immunglobulin (Pferd) | drug | zu wenige Quellen mit Zusammenfassung (2) für 'equine antithymocyte globulin' |
 | WM-DRUG-2948 | Antithymozytäres Immunglobulin (Kaninchen) | drug | Bestätigungsquote 25/68 unter 60 %; zu viele nur teilweise belegte Sätze (15/25) |
