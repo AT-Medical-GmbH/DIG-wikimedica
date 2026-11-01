@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 09:25. Warteschlange: claimed 1, duplicate 469, failed 11, merged 1, planned 2331, published 1507, ready 22, redirect 374, review 2395.
+Stand: 01.11.2026 10:25. Warteschlange: claimed 1, duplicate 469, failed 11, merged 1, planned 2264, published 1529, ready 17, redirect 374, review 2445.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -2235,6 +2235,56 @@ Stand: 01.11.2026 09:25. Warteschlange: claimed 1, duplicate 469, failed 11, mer
 | WM-DRUG-2845 | Rucaparib | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/50 unter 60 % |
 | WM-DRUG-2847 | Pamiparib | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 7 behandelt explizit Pamiparib. Die anderen Quellen behandeln PARP-Inhibitoren allgemein oder andere Themen.) |
 | WM-DRUG-2848 | Sitimagen ceradenovec | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Sitagenimceradenovec ist ein Gentransfer-Vektor für die Behandlung der Hämophilie B (Faktor-IX-Mangel). Die Quellen behandeln entweder Hämop |
+| WM-DRUG-2852 | Idecabtagen vicleucel | drug | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Nur Quellen 8, 9 und 12 behandeln explizit Idecabtagene vicleucel (ide-cel). Quelle 10 behandelt nur die Zielstruktur (BCMA), nicht den spezifisch |
+| WM-DRUG-2853 | Tabelecleucel | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit Tabelecleucel. Quelle 2 ist zu allgemein (Adoptive Cell Immunotherapy), Quelle 1, 4 und 5 behandeln andere oder übe |
+| WM-DRUG-2855 | Obecabtagen autoleucel | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1–3 behandeln explizit Obecabtagene autoleucel. Quelle 4 ist eine allgemeine ALL-Übersicht über mehrere Therapien, Quelle 5 behandelt Brexu |
+| WM-DRUG-2856 | Enasidenib | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Enasidenib direkt (IDH2-Inhibitor, zusammen mit Ivosidenib bzw. anderen IDH-Inhibitoren bei AML). Quelle 2 ist themati |
+| WM-DRUG-2857 | Olutasidenib | drug | zu viele nur teilweise belegte Sätze (21/38) |
+| WM-DRUG-2858 | Amsacrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Amsacrin; sie behandeln allgemeine Wirkstoffklassen (Acridine, Topoisomerase-II-Inhibitoren) oder and |
+| WM-DRUG-2859 | Altretamin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Altretamine' |
+| WM-DRUG-2860 | Lonidamin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Lonidamine' |
+| WM-DRUG-2861 | Pentostatin | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/36 unter 60 % |
+| WM-DRUG-2863 | Masoprocol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Masoprocol' |
+| WM-DRUG-2864 | Estramustin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Estramustine' |
+| WM-DRUG-2865 | Mitoguazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mitoguazone' |
+| WM-DRUG-2866 | Tiazofurin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Tiazofurin' |
+| WM-DRUG-2867 | Denileukindiftitox | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 2 behandelt explizit Denileukin diftitox. Quelle 1 und 4 behandeln GVHD (falsche Indikation), Quelle 3 und 5 sind allgemeine Übersichten |
+| WM-DRUG-2869 | Oblimersen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Oblimersen; alle behandeln die Wirkstoffklasse allgemein oder andere ASO-Therapien.) |
+| WM-DRUG-2870 | Omacetaxinmepesuccinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Omacetaxine mepesuccinate' |
+| WM-DRUG-2871 | Vosaroxin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Vosaroxin oder dessen Indikation (Refraktäres AML). Alle Quellen behandeln andere medizinische  |
+| WM-DRUG-2872 | Plitidepsin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Plerixafor' (ein CXCR4-Antagonist zur Stammzellmobilisation) ist nicht identisch mit 'Plitidepsin' (ein Aphidion-Derivat zu |
+| WM-DRUG-2873 | Epacadostat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Epacadostat spezifisch; Titel sind zu allgemein (IDO1-Inhibitoren, Krebsimmuntherapie) oder behandeln andere Themen.) |
+| WM-DRUG-2875 | Navitoclax | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Nur 3 Quellen behandeln Navitoclax explizit; Quelle 2 erwähnt BCL-2-Inhibitoren allgemein, 4 Bcl-2-Pathway allgemein, 5 ALL allgemein, 8/9 Senolyti |
+| WM-DRUG-2876 | Darinaparsin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'darinaparsin' |
+| WM-DRUG-2877 | para-Toluolsulfonamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt den Einzelwirkstoff para-Toluolsulfonamid (Sulfanilamid). Die Quellen verwenden fast ausschließlich den Suchb |
+| WM-DRUG-2878 | Pelabresib | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 4 behandelt explizit Pelabresib. Die anderen Quellen behandeln Myelofibrose allgemein, andere Wirkstoffe (Ruxolitinib) oder allgemeine T |
+| WM-DRUG-2879 | Idroxiölsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Hydroxyoleic acid' |
+| WM-DRUG-2880 | Calaspargase pegol | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Nur Quellen 2 und 4 behandeln Asparaginase/PEG-asparaginase im Kontext von ALL. Quelle 1 (NK/T-Zell-Lymphom) und 3 (CLL/T-Lymphoblastisches Lymphom |
+| WM-DRUG-2881 | Polyestradiolphosphat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Polyestradiol phosphate' |
+| WM-DRUG-2882 | Fosfestrol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'fosfestrol' |
+| WM-DRUG-2883 | Histrelin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Histrelin; alle nennen nur die Wirkstoffklasse (GnRH-Agonisten) oder sind zu allgemein.) |
+| WM-DRUG-2886 | Flutamid | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 2, 5 und 7 behandeln explizit Flutamid. Quelle 1 (Alopezie) ist ein off-label/verwandtes Indikationsgebiet, aber keine primäre Standardindi |
+| WM-DRUG-2887 | Nilutamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 1 behandelt explizit Nilutamide. Quelle 2 und 3 sind zu allgemein (Imidazolone/Hydantoins als Klassen). Quelle 4 behandelt Androg |
+| WM-DRUG-2890 | Aminoglutethimid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Aminoglutethimid explizit; Quelle 1 erwähnt Aromatasehemmer allgemein, Quelle 3 Etomidat, Quelle 2 und 4 andere Thera |
+| WM-DRUG-2891 | Formestan | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Formestane' |
+| WM-DRUG-2892 | Anastrozol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 3 Quellen behandeln Anastrozol direkt. Quelle 1, 2, 6, 7, 8, 9 behandeln andere Wirkstoffe, allgemeine Endokrinologie oder andere Krebsa |
+| WM-DRUG-2894 | Vorozol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Suchbegriff 'voriconazole' ist korrekt für den Wirkstoff, aber der Titel 'Vorozol' ist falsch (falsche Transkription/Verwechslu |
+| WM-DRUG-2896 | Testolacton | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Testolactone' |
+| WM-DRUG-2897 | Abarelix | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Abarelix oder dessen spezifische Indikation (Prostatakrebs). Alle Quellen beziehen sich auf IVF/ICSI, E |
+| WM-DRUG-2899 | Molgramostim | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln Autoimmune Pulmonary Alveolar Proteinosis (APP), nicht den Wirkstoff Molgramostim. Quellen 1, 2 und 4 behandeln APP, nicht M |
+| WM-DRUG-2900 | Lenograstim | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit Lenograstim. Quelle 1, 2 und 4 behandeln G-CSF allgemein oder Neutropenie, nicht den spezifischen Wirkstoff Lenogra |
+| WM-DRUG-2901 | Ancestim | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Ancestim ist ein rekombinanter humaner Oncostatin-M-Rezeptor (Fusionsprotein), der als Granulozyten-Kolonie-stimulierender Faktor (G-CSF) wi |
+| WM-DRUG-2902 | Balugrastim | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Balugrastim' |
+| WM-DRUG-2905 | Eflapegrastim | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Eflapegrastim' |
+| WM-DRUG-2906 | Interferon gamma | drug | Bestätigungsquote 16/47 unter 60 % |
+| WM-DRUG-2907 | Interferon alfa-2a | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit Interferon alfa-2a. Quelle 1 nennt nur 'interferon' (nicht spezifisch alfa-2a), Quelle 2 Hepatitis D (kein Wirkstof |
+| WM-DRUG-2908 | Interferon alfa-2b | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Interferon alfa-2b spezifisch; Quelle 6 behandelt den analogen Wirkstoff ropeginterferon alfa-2b.) |
+| WM-DRUG-2909 | Interferon alfa-n1 | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Interferon alfa-n1 (ATC L03AB06). Quelle 1 erwähnt Interferon allgemein bei Hepatitis B, Quelle 3 Interfer |
+| WM-DRUG-2910 | Interferon alfacon-1 | drug | zu wenige Quellen mit Zusammenfassung (0) für 'interferon alfacon-1' |
+| WM-DRUG-2912 | Albinterferon alfa-2b | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Albinterferon alfa-2b oder dessen Indikation (z.B. Hepatitis C). Alle Titel beziehen sich auf ande |
+| WM-DRUG-2914 | Peginterferon alfacon-2 | drug | zu wenige Quellen mit Zusammenfassung (0) für 'peginterferon alfacon-1' |
+| WM-DRUG-2916 | Interferon gamma-1b | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Interferon gamma-1b oder damit verbundene Indikationen (z.B. chronische granulomatöse Erkrankun |
+| WM-DRUG-2917 | Aldesleukin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Aldesleukin (rekombinantes IL-2) als Wirkstoff oder dessen spezifische Indikationen (z.B. metastasiertes N |
 | WM-DRUG-2947 | Antilymphozytäres Immunglobulin (Pferd) | drug | zu wenige Quellen mit Zusammenfassung (2) für 'equine antithymocyte globulin' |
 | WM-DRUG-2948 | Antithymozytäres Immunglobulin (Kaninchen) | drug | Bestätigungsquote 25/68 unter 60 %; zu viele nur teilweise belegte Sätze (15/25) |
 | WM-DRUG-2949 | Alefacept | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt Alefacept spezifisch. Es handelt sich um allgemeine Arbeiten zu Biologika bei Psoriasis, Vitiligo, Diabetes oder Naturs |
