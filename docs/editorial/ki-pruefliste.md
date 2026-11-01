@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 05:25. Warteschlange: claimed 1, duplicate 446, planned 2495, published 1457, ready 20, redirect 374, review 2314.
+Stand: 01.11.2026 06:25. Warteschlange: claimed 1, duplicate 446, planned 2435, published 1477, ready 20, redirect 374, review 2354.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -2135,6 +2135,46 @@ Stand: 01.11.2026 05:25. Warteschlange: claimed 1, duplicate 446, planned 2495, 
 | WM-DRUG-2666 | Natriumbicarbonat | drug | Entwurf ohne belegte Sätze |
 | WM-DRUG-2667 | Glycin | drug | Bestätigungsquote 18/55 unter 60 % |
 | WM-DRUG-2668 | Ammoniumchlorid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Ammoniumchlorid als Arzneimittelwirkstoff.) |
+| WM-DRUG-2669 | Natriumacetat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Natriumacetat als Arzneimittelwirkstoff oder spezifische Indikation. Quelle 1 erwähnt Plasma-Lyte (enthält Natri |
+| WM-DRUG-2670 | Magnesiumphosphat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle behandelt den Wirkstoff Magnesiumphosphat (ATC B05XA10) als Elektrolytzusatz in der Intensivmedizin. Alle 7 Quellen befassen sich |
+| WM-DRUG-2671 | Zinkchlorid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Zinkchlorid (ATC B05XA12) als Arzneimittel. Quelle 3 behandelt Zink allgemein, Quelle 5 |
+| WM-DRUG-2672 | Dinatrium-1-glycerophosphat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Dinatrium-1-glycerophosphat (ATC B05XA14). Quellen zu Cholin (1, 4) oder anderen Phospholipiden (5, 7) sin |
+| WM-DRUG-2673 | Kaliumlactat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Potassium lactate' |
+| WM-DRUG-2674 | Kardioplege Lösungen | drug | zu viele nur teilweise belegte Sätze (19/40) |
+| WM-DRUG-2675 | Kaliumacetat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Potassium acetate' |
+| WM-DRUG-2676 | Kalium L-malat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Potassium L-malate' |
+| WM-DRUG-2678 | Alanylglutamin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt explizit den Wirkstoff Alanylglutamin; sie behandeln Peritonealdialyse allgemein.) |
+| WM-DRUG-2679 | Lysin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Lysin (ATC B05XB03) als Arzneimittel zur parenteralen Ernährung/Flüssigkeitstherapie. Quellen beziehen  |
+| WM-DRUG-2680 | Ethanol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Ethanol als systemischen Arzneimittelwirkstoff (ATC B05XX04, Infusionslösung zur Volumenersatztherapie). Alle Treffer |
+| WM-DRUG-2681 | Verschiedene Hämofiltrate | drug | zu wenige Quellen mit Zusammenfassung (3) für 'hemofiltrate' |
+| WM-DRUG-2683 | Chymotrypsin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den therapeutischen Wirkstoff Chymotrypsin (ATC B06AA04). Alle Quellen befassen sich mit der viralen Protease 3C |
+| WM-DRUG-2684 | Trypsin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Trypsin (ATC B06AA07) als Arzneimittel zur Behandlung einer Indikation. Alle Quellen befassen sich mit  |
+| WM-DRUG-2685 | Desoxyribonuclease | drug | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Nur Quellen 1 und 12 behandeln explizit die Anwendung von Deoxyribonuclease als Arzneimittelwirkstoff bei Pleurainfektionen/Empyem. Quelle 2, 6, 1 |
+| WM-DRUG-2686 | Serrapeptase | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 2, 3 und 5 behandeln spezifisch Serratiopeptidase. Quelle 1 ist zu allgemein (Anti-Inflammatory Therapeutics), Quelle 4 behandelt Amyloidbi |
+| WM-DRUG-2687 | Hemin | drug | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Nur Quelle 10 behandelt direkt die Therapie mit Hemin (bei akuter hepatischer Porphyrie). Die anderen Quellen befassen sich mit Häm-Metabolismus,  |
+| WM-DRUG-2691 | Betibeglogen autotemcel | drug | zu wenige Quellen mit Zusammenfassung (1) für 'ZVT' |
+| WM-DRUG-2693 | Lovotibeglogen autotemcel | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Lovotibeglogen autotemcel' |
+| WM-DRUG-2694 | Mozafancogen autotemcel | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Mozafancogen autotemcel (Mozaf-cel) ist ein spezifisches CD19-spezifisches CAR-T-Zellprodukt zur Behandlung von rezidivierter/ |
+| WM-DRUG-2696 | Chlorambucil | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 2 von 13 Quellen behandeln Chlorambucil explizit. Quelle 11 bezieht sich auf chlorambucil-haltige Moleküle, Quelle 12 auf den klinischen |
+| WM-DRUG-2698 | Trofosfamid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Trofosfamide' |
+| WM-DRUG-2699 | Prednimustin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'prednimustine' |
+| WM-DRUG-2701 | Mannosulfan | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'mancozeb' (Fungizid) passt nicht zum Wirkstoff 'Mannosulfan' (ATC L01AB03, Antineoplastikum). Keine Quelle behandelt Mannosulfa |
+| WM-DRUG-2702 | Triaziquon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Triaziquone' |
+| WM-DRUG-2703 | Carboquon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Carboquone' |
+| WM-DRUG-2705 | Semustin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Semustin (CCNU/Lomustin). Die Quellen behandeln allgemein Glioblastom-Therapien, andere |
+| WM-DRUG-2707 | Fotemustin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Fotemustin; Quellen behandeln allgemeine Glioblastoma-Therapien oder Melanom.) |
+| WM-DRUG-2709 | Ranimustin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ranimustine' |
+| WM-DRUG-2710 | Uramustin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Estramustine' |
+| WM-DRUG-2711 | Etoglucid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Etoglucid (ATC L01AG01) oder dessen Indikation. Alle Titel beziehen sich auf andere medizinisch |
+| WM-DRUG-2712 | Mitobronitol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Mitobronitol; alle behandeln mitochondriale Toxizität allgemein oder bei anderen Substa |
+| WM-DRUG-2713 | Pipobroman | drug | zu wenige Quellen mit Zusammenfassung (0) für 'pipobroman' |
+| WM-DRUG-2715 | Raltitrexed | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Raltitrexed' |
+| WM-DRUG-2716 | Pralatrexat | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 2 behandelt explizit Pralatrexat. Quelle 1 und 3 sind zu allgemein (PTCL ohne Wirkstofffokus). Quelle 4 ist zu allgemein (Antifolates).  |
+| WM-DRUG-2721 | Carmofur | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff im Thema ist Carmofur (S-1), nicht Capecitabine. Die Quellen behandeln Capecitabine oder sind zu allgemein. Da weniger als 4 Q |
+| WM-DRUG-2723 | Floxuridin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 7 behandelt explizit den Wirkstoff Floxuridin. Die anderen Quellen befassen sich mit hepatischer arterieller Infusion (HAI) im Al |
+| WM-DRUG-2724 | Vinblastin | drug | zu viele nur teilweise belegte Sätze (22/41) |
+| WM-DRUG-2726 | Vindesin | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel „Vindesin“ bezeichnet denselben Wirkstoff wie ATC L01CA03. Nur Quelle 2 behandelt Vindesin spezifisch (intrathekale Fehlapplikation). Que |
+| WM-DRUG-2728 | Vintafolid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Vintafolide' |
 | WM-DRUG-2800 | Ofatumumab | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Titel „Ofatumumab“ entspricht dem Wirkstoff der Klassifikation (L01FA02). Keine der Quellen behandelt spezifisch Ofatumumab: Sie betreffen die ges |
 | WM-DRUG-2947 | Antilymphozytäres Immunglobulin (Pferd) | drug | zu wenige Quellen mit Zusammenfassung (2) für 'equine antithymocyte globulin' |
 | WM-DRUG-2948 | Antithymozytäres Immunglobulin (Kaninchen) | drug | Bestätigungsquote 25/68 unter 60 %; zu viele nur teilweise belegte Sätze (15/25) |
