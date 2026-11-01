@@ -33,8 +33,6 @@ corrections: []
 
 # Varikose der unteren Extremitäten
 
-**Klassifikation:** ICD-10-GM: I86.-; ICD-11: BD75
-
 ## Übersicht
 
 Varikose der unteren Extremitäten gehört zu den häufigsten Erkrankungen in der Allgemeinbevölkerung.[1] Sie kann Beschwerden verursachen, die die Lebensqualität beeinträchtigen, und ist mit potenziell bedrohlichen klinischen Zuständen verbunden, darunter chronische venöse Ulzera, Blutungen aus geborstenen Varizen und venöse Thromboembolien.[1] Die Diagnostik und das Management stützen sich auf internationale Konsensusdokumente, die Terminologie, Symptomatik, Klassifikation und Duplex-Untersuchung der Varikose vereinheitlichen.[1] Für die Beschreibung der Erkrankung ist die CEAP-Klassifikation etabliert, die klinische Zeichen, Ätiologie, Anatomie und Pathophysiologie erfasst.[2] Die CEAP-Klasse C2 bezeichnet die Varikose, während sich die Klassen C2 bis C6 auf Patienten mit Varizen und chronischer venöser Insuffizienz (CVI) beziehen.[2][3]

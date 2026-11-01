@@ -33,7 +33,7 @@ corrections: []
 
 # Vaskuläre Demenz
 
-**Klassifikation:** ICD-10-GM: F01.-
+**Klassifikation:** ICD-10-GM: F01.-; ICD-11: 6D81
 
 ## Übersicht
 

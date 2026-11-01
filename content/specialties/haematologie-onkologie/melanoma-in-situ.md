@@ -33,7 +33,7 @@ corrections: []
 
 # Melanom in situ
 
-**Klassifikation:** ICD-10-GM: D03.-
+**Klassifikation:** ICD-10-GM: D03.-; ICD-11: 2E63
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Veränderungen der Leukozyten
 
-**Klassifikation:** ICD-10-GM: R72
+**Klassifikation:** ICD-10-GM: R72; ICD-11: MA16.1
 
 ## Übersicht
 

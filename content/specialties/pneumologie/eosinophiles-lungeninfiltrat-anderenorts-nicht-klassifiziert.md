@@ -33,7 +33,7 @@ corrections: []
 
 # Pulmonale Eosinophilie
 
-**Klassifikation:** ICD-10-GM: J82
+**Klassifikation:** ICD-10-GM: J82; ICD-11: CB02
 
 ## Übersicht
 

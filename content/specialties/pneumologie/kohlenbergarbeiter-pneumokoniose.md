@@ -33,7 +33,7 @@ corrections: []
 
 # Kohlenstaublunge (Kohlenbergarbeiter-Pneumokoniose)
 
-**Klassifikation:** ICD-10-GM: J60
+**Klassifikation:** ICD-10-GM: J60; ICD-11: CA60.1
 
 ## Übersicht
 

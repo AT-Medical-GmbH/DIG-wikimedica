@@ -33,7 +33,7 @@ corrections: []
 
 # Pleuraerguss
 
-**Klassifikation:** ICD-10-GM: J90
+**Klassifikation:** ICD-10-GM: J90; ICD-11: CB27
 
 ## Übersicht
 

@@ -33,7 +33,7 @@ corrections: []
 
 # Pulmonale Rundherde (Lungenrundherde)
 
-**Klassifikation:** ICD-10-GM: R91
+**Klassifikation:** ICD-10-GM: R91; ICD-11: MD41
 
 ## Übersicht
 
