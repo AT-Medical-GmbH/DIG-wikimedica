@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 02:25. Warteschlange: claimed 1, duplicate 446, planned 2699, published 1410, ready 18, redirect 374, review 2159.
+Stand: 01.11.2026 03:25. Warteschlange: claimed 1, duplicate 446, planned 2630, published 1428, ready 16, redirect 374, review 2212.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1934,8 +1934,61 @@ Stand: 01.11.2026 02:25. Warteschlange: claimed 1, duplicate 446, planned 2699, 
 | WM-DRUG-2400 | Kaliumcitrat | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Kaliumcitrat als Wirkstoff (Knochenumsatz, Ökonomie und NNT bei Harnsteinprophylaxe). Quelle 2 betrifft diätetische Ma |
 | WM-DRUG-2401 | Kaliumhydrogentartrat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Potassium bitartrate' |
 | WM-DRUG-2402 | Kaliumhydrogencarbonat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Potassium bicarbonate' |
+| WM-DRUG-2403 | Kaliumgluconat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Potassium gluconate' |
+| WM-DRUG-2404 | Kaliumadipat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Potassium adipate' |
+| WM-DRUG-2405 | Kaliumsulfid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Potassium sulfide' |
+| WM-DRUG-2406 | Natriumchlorid | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-2408 | Zinkgluconat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 2 Quellen behandeln Zinkgluconat oder Zink spezifisch genug; Quelle 2 behandelt Zink (inkl. Gluconat) bei Erkältung, Quelle 5 behandelt  |
+| WM-DRUG-2409 | Zinkprotein-Komplex | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff 'Zinkprotein-Komplex' (ATC A12CB03). Die Quellen behandeln allgemeines Zink, Zinkmangel oder |
+| WM-DRUG-2410 | Zinkorotat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Zinc orotate' |
+| WM-DRUG-2411 | Zinkhydrogenaspartat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Zinc aspartate' |
+| WM-DRUG-2412 | Magnesiumchlorid | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Nur Quelle 5 behandelt Magnesiumchlorid als Nahrungsergänzung/Wirkstoff. Quelle 1 ist molekularbiologisch (PCR), Quelle 3 ist unspezifisch (Elektr |
+| WM-DRUG-2413 | Magnesiumgluconat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'magnesium gluconate' |
+| WM-DRUG-2414 | Magnesiumaspartat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Magnesium aspartate' |
+| WM-DRUG-2415 | Magnesiumlactat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'magnesium lactate' |
+| WM-DRUG-2416 | Magnesiumlevulinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'magnesium levulinate' |
+| WM-DRUG-2417 | Magnesiumpidolat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'magnesium pidolate' |
+| WM-DRUG-2418 | Magnesiumorotat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'magnesium orotate' |
+| WM-DRUG-2419 | Magnesiumascorbat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'magnesium ascorbate' |
+| WM-DRUG-2420 | Magnesiumhydrogenglutamat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Magnesium glutamate' |
+| WM-DRUG-2421 | Magnesiumadipat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Magnesium adipate' |
+| WM-DRUG-2422 | Natriumselenat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Natriumselenat (ATC A12CE01) als Arzneimittelwirkstoff; Quellen befassen sich mit Epilepsie (neurologisch, nicht phar |
+| WM-DRUG-2426 | Kieselerde | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Kieselerde (ATC A12CX01) als Nahrungsergänzungsmittel zur Behandlung von Mangelzuständen. Alle gefunden |
+| WM-DRUG-2427 | Glutaminsäure | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt den Wirkstoff Glutaminsäure (ATC A13AA01) als Arzneimittel zur Behandlung von Mangelzuständen. Alle Treffer beziehen s |
+| WM-DRUG-2428 | Lebertran | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Lebertran (Cod liver oil) als Wirkstoff oder Indikation; alle behandeln nur Vitamin D oder allgemeine |
+| WM-DRUG-2429 | Eleutherococcuswurzel | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 2 behandelt spezifisch Eleutherococcus senticosus. Quelle 1 ist zu allgemein (HPA-Achse), Quelle 3 bezieht sich auf Lyme-Beschwer |
 | WM-DRUG-2431 | Androstanolon | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Androstanolon ist Dihydrotestosteron (DHT), als Arzneimittel (ATC A14AA01) ein anaboles Steroid. Der Titel passt zur Klassifikation. Keine der Que |
+| WM-DRUG-2432 | Stanozolol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'Anabolic steroids' ist zu allgemein und umfasst Veterinärmedizin, Glukokortikoide und andere Substanzen; keine Quelle behandelt |
+| WM-DRUG-2433 | Metandienon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Methandienone' |
+| WM-DRUG-2434 | Metenolon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Methenolone' |
+| WM-DRUG-2435 | Oxymetholon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Oxymetholon; alle verwenden den Oberbegriff 'anabolic steroids' ohne Spezifikation des Wirkstoffs.) |
+| WM-DRUG-2436 | Quinbolon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Quinbolon ist ein Chinolon-Antibiotikum. Die Suche nach 'quinolone antibiotics' ist zu allgemein und umfasst Umweltrisiken, Resistenzmechani |
+| WM-DRUG-2438 | Norethandrolon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Norethandrolon; alle Quellen behandeln nur die allgemeine Klasse 'Anabolic steroids' oder andere Substanze |
+| WM-DRUG-2439 | Chlordehydromethyltestosteron | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chlormethenotestosterone' |
+| WM-DRUG-2440 | Clostebol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Clostebol; alle behandeln die Obergruppe Anabolic-Androgenic Steroids.) |
+| WM-DRUG-2442 | Ethylestrenol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ethylestrenol' |
+| WM-DRUG-2443 | Oxaboloncipionat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'oxabenzol' |
+| WM-DRUG-2444 | Cyproheptadin | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Quellen 1 und 7 behandeln Cyproheptadin explizit. Quelle 4 ist relevant, da Cyproheptadin ein etablierter Appetitstimulans ist, auch wenn der Tite |
 | WM-DRUG-2445 | Pizotifen | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel bezeichnet den Wirkstoff Pizotifen (der ATC-Code A15AA02 ist eher unpassend, Pizotifen ist N02CX01). Quellen 4–6 behandeln wahrscheinlich Piz |
+| WM-DRUG-2448 | Glutamin | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln Tiere bzw. Industrie, nicht den menschlichen Wirkstoff Glutamin (ATC A16AA03). Quellen 3, 4 und 5 behandeln Glutamin beim |
+| WM-DRUG-2450 | Alglucerase | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Alglucerase ist spezifisch für die Behandlung der Gaucher-Krankheit vom Typ 1. Die Quellen behandeln die Gaucher-Krankheit all |
+| WM-DRUG-2451 | Sacrosidase | drug | zu wenige Quellen mit Zusammenfassung (3) für 'sacrosidase' |
+| WM-DRUG-2452 | Galsulfase | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln spezifisch MPS VII (Sly Syndrome) und Galsulfase. Quelle 2 behandelt alle MPS, Quelle 5 behandelt MPS allgemein (nicht |
+| WM-DRUG-2453 | Taliglucerase alfa | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Taliglucerase alfa oder Gaucher-Krankheit. Alle Quellen beziehen sich auf andere Indikationen wie Pompe-Kr |
+| WM-DRUG-2456 | Idursulfase beta | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quelle 1 behandelt Idursulfase direkt. Quelle 4 behandelt Idursulfase bei MPS II (der Indikation für Idursulfase beta). Quelle 2 und 3 behandeln MP |
+| WM-DRUG-2457 | Cerliponase alfa | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln explizit CLN2 Disease. Quelle 3 ist zu allgemein (NCL). Quelle 4 fokussiert auf Retinopathie. Quelle 6 ist ein Review  |
+| WM-DRUG-2458 | Atidarsagen autotemcel | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quelle 1, 3 und 4 behandeln spezifisch MPS VII (Sly Syndrome), welches die Indikation für Atidarsagen autotemcel ist. Quelle 2 behandelt alle MPS,  |
+| WM-DRUG-2459 | Avalglucosidase alfa | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Avalglucosidase alfa oder Gaucher-Krankheit; alle sind allgemeine Übersichten zu Gentherapie/Vektoren |
+| WM-DRUG-2461 | Pabinafusp alfa | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Pabinafusp alfa' |
+| WM-DRUG-2462 | Verenafusp alfa | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Verenafusp alfa' |
+| WM-DRUG-2464 | Anetholtrithion | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Anethole trithione' |
+| WM-DRUG-2465 | Natriumbenzoat | drug | zu viele nur teilweise belegte Sätze (16/32) |
+| WM-DRUG-2466 | Trientin | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quelle 2 behandelt den Wirkstoff Trientin direkt. Quelle 3 behandelt die Anwendung von Trientin bei hypertropher Kardiomyopathie, was ein spezifisc |
+| WM-DRUG-2467 | Uridintriacetat | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln explizit Uridintriacetat. Quelle 3 behandelt Capecitabin-Toxizität ohne Nennung des Antidots. Quelle 4 behandelt 5-FU-Kar |
+| WM-DRUG-2469 | Telotristat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt explizit Telotristat; alle beziehen sich auf Carcinoid-Syndrom oder NETs allgemein.) |
+| WM-DRUG-2470 | Triheptanoin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Triheptanoin' |
+| WM-DRUG-2472 | Elivaldogen autotemcel | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Elivaldogen autotemcel ist die lentivirale Gentherapie für zerebrale X-ALD; nur Quellen 4 und 5 behandeln diese. Die übrigen betreffen andere Erkra |
+| WM-DRUG-2473 | Thiomolybdänsäure | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Thiomolybdates' |
 | WM-DRUG-2478 | Dicoumarol | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Dicoumarol ist ein spezifischer Vitamin-K-Antagonist (Cumarin-Derivat, heute kaum noch verwendet). Alle acht Quellen behandeln Vitamin-K-Antagonist |
 | WM-DRUG-2479 | Phenindion | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Phenindione' |
 | WM-DRUG-2481 | Phenprocoumon | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Phenprocoumon. Quelle 2, 3, 4, 5, 7 behandeln allgemeine Antikoagulantien oder NOACs ohne spezifischen Fokus auf Ph |
