@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, merged 2, planned 2152, published 1569, ready 28, redirect 374, review 2504.
+Stand: 01.11.2026 13:25. Warteschlange: claimed 1, duplicate 470, merged 4, planned 2093, published 1595, ready 22, redirect 385, review 2541.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -15,6 +15,7 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DIS-0140 | Sekundäre Hypertonie | disease | Bestätigungsquote 33/57 unter 60 % |
 | WM-DIS-0158 | Krankheiten des Weichteilgewebes bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel passt zur ICD-10-GM M73. Quelle 2 ist zu allgemein (Muskel-Skelett), 4 fokussiert auf Schmerz/Primärversorgung, 5 auf Nanomaterialien, 6 auf  |
 | WM-DIS-0163 | Gutartige Neubildung des Kolons, des Rektums, des Analkanals und des Anus | disease | zu wenige Quellen mit Zusammenfassung (0) für 'benign colon tumors' |
+| WM-DIS-0188 | Krankheiten der Synovialis und der Sehnen bei anderenorts klassifizierten Krankheiten | disease | zu wenige Quellen mit Zusammenfassung (0) für 'synovitis tendinitis' |
 | WM-DIS-0189 | Verschluss und Stenose präzerebraler Arterien ohne resultierenden Hirninfarkt | disease | zu wenige Quellen mit Zusammenfassung (1) für 'extracranial artery stenosis' |
 | WM-DIS-0194 | Pneumonie bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle 13 Quellen behandeln Pneumocystis-Pneumonie, also genau das gesuchte Krankheitsbild. J17 (Pneumonie bei anderenorts klassifizierten Kra |
 | WM-DIS-0200 | Endokarditis und Herzklappenkrankheiten bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (I39 umfasst Endokarditis und Herzklappenkrankheiten bei anderenorts klassifizierten Krankheiten (z. B. syphilitische Endokarditis, Endokardi |
@@ -80,6 +81,7 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DIS-0417 | Polyp des weiblichen Genitaltraktes | disease | zu wenige Quellen mit Zusammenfassung (1) für 'female genital tract polyps' |
 | WM-DIS-0418 | Komplikationen im Zusammenhang mit künstlicher Befruchtung | disease | zu wenige Quellen mit Zusammenfassung (2) für 'IVF complications' |
 | WM-DIS-0435 | Myeloische Leukämie | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-C92 umfasst akute und chronische myeloische Leukämien. Der Titel 'Myeloische Leukämie' ist ein Oberbegriff, der die spezifische Form  |
+| WM-DIS-0437 | Krankheiten der Harnröhre bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM N37 bezeichnet spezifisch Harnröhrenkrankheiten bei anderenorts klassifizierten Krankheiten (z.B. Tuberkulose, Syphilis, Trachom). |
 | WM-DIS-0438 | Hernia umbilicalis | disease | Bestätigungsquote 25/46 unter 60 % |
 | WM-DIS-0444 | Sonstige erworbene Deformitäten der Extremitäten | disease | zu wenige Quellen mit Zusammenfassung (0) für 'acquired limb deformity' |
 | WM-DIS-0445 | Sonstige näher bezeichnete Gelenkschädigungen | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel entspricht M24. Nur Quelle 1 (Knorpel-/osteochondrale Defekte, M24.1) passt; 2 ist ein Tumor, 3 septische Arthritis (M00), 4 überwiegend Arth |
@@ -241,6 +243,7 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DIS-0755 | Bösartige Neubildung des Zahnfleisches | disease | zu wenige Quellen mit Zusammenfassung (1) für 'Gingival carcinoma' |
 | WM-DIS-0757 | Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen des Atmungssystems und sonstiger intrathorakaler Organe | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der ICD-10-C39-Codes umfasst alle bösartigen Neubildungen des Atmungssystems und intrathorakaler Organe (z.B. Lunge, Bronchien, Pleura, Medi |
 | WM-DIS-0759 | Bösartige Neubildung der Meningen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-C70 bezeichnet primäre maligne Neubildungen der Meningen (z.B. Meningeome, primäre Meningealkarzinome), während 'leptomeningeal metas |
+| WM-DIS-0763 | Bakterielle Infektion nicht näher bezeichneter Lokalisation | disease | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (ICD-10-GM A49 ist ein Code für nicht näher bezeichnete bakterielle Infektionen. Alle 15 Quellen behandeln spezifische Lokalisationen (z.B. Harntra |
 | WM-DIS-0764 | Netzhautablösung und Netzhautriss | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
 --- Validation Sum |
@@ -371,6 +374,9 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DIS-1041 | Neubildung unsicheren oder unbekannten Verhaltens der Meningen | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (ICD-10-GM D42 umfasst Meningeome nur, wenn Verhalten unsicher/unbekannt ist (v. a. nicht klar gradierte Tumoren; Meningeome sind meist D32 gutartig |
 | WM-DIS-1045 | Sonstige Veränderungen des Fruchtwassers und der Eihäute | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Titel deckt ICD-10-GM O41 ab. Quelle 1 behandelt Amnionflüssigkeitsanomalien. Quelle 3 behandelt Liquor-Anomalien (Synonym). Quelle 2 (Kabuki) und  |
 | WM-DIS-1046 | Sonstige degenerative Krankheiten der Basalganglien | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM G23 umfasst nur bestimmte „sonstige“ degenerative Basalganglienkrankheiten (u. a. Hallervorden-Spatz/NBIA G23.0, progressive supra |
+| WM-DIS-1049 | Interstitielles Emphysem und verwandte Zustände mit Ursprung in der Perinatalperiode | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel passt zum ICD-Code. Nur Quelle 1 behandelt spezifisch interstitielles Emphysem bei Neugeborenen. Quelle 2 ist Pneumomediastinum, 3 ist allgem |
+| WM-DIS-1050 | Sonstiger Darmverschluss beim Neugeborenen | disease | zu wenige Quellen mit Zusammenfassung (3) für 'neonatal bowel obstruction' |
+| WM-DIS-1051 | Störungen des Muskeltonus beim Neugeborenen | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Titel entspricht ICD-10-GM P94. Quelle 3 und 5 behandeln explizit neonatale Hypotonie. Quelle 1, 2, 4 und 6 behandeln spezifische Syndrome (Xia-Gib |
 | WM-DIS-1066 | Hepatomegalie und Splenomegalie, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Der Titel entspricht R16 (Hepatomegalie und Splenomegalie als Symptom). Nur Quelle 10 behandelt Hepatosplenomegalie als Symptom bzw. diagnostische |
 | WM-DIS-1067 | Schmerzen beim Wasserlassen | disease | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel entspricht R30 (Schmerzen beim Wasserlassen, Dysurie). Nur Quelle 4 behandelt Dysurie direkt (Abklärung und Differenzialdiagnose). Quelle |
 | WM-DIS-1071 | Malaise und Fatigue | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (R53 meint Malaise und Fatigue als unspezifisches Symptom; der Titel „Fatigue und Malaise“ entspricht dem. Die Quellen behandeln jedoch jeweils spe |
@@ -385,6 +391,8 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DIS-1095 | Meningitis durch sonstige und nicht näher bezeichnete Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G03 umfasst Meningitis sonstiger/nicht näher bezeichneter Ursache (z. B. aseptisch, chronisch, rheumatoid). Bakterielle (G00), tuberkulöse,  |
 | WM-DIS-1096 | Myasthenia gravis und sonstige neuromuskuläre Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Fast alle Quellen behandeln Myasthenia gravis. Quelle 13 betrifft ICI-induzierte Myokarditis/Myositis-MG-Überlappung, also ein anderes Krank |
 | WM-DIS-1097 | Carcinoma in situ der Mundhöhle, des Ösophagus und des Magens | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM D00 umfasst Carcinoma in situ der Mundhöhle, des Ösophagus und des Magens. Der Suchbegriff 'oral squamous cell carcinoma' bezieht  |
+| WM-DIS-1112 | Lungenblutung mit Ursprung in der Perinatalperiode | disease | zu wenige Quellen mit Zusammenfassung (1) für 'neonatal pulmonary hemorrhage' |
+| WM-DIS-1113 | Chronische Atemwegskrankheit mit Ursprung in der Perinatalperiode | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Chronische Atemwegserkrankung' ist ein zu allgemeiner Oberbegriff und lässt den spezifischen Schweregrad und die Untergr |
 | WM-DIS-1122 | Akute obstruktive Laryngitis Krupp und Epiglottitis | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Krupp und Epiglottitis“ entspricht der Klassifikation J05. Quellen 2 und 4 behandeln Krupp (Adrenalin bzw. Kortikoide) und passen. Quell |
 | WM-DIS-1123 | Gutartige Neubildung des Weichteilgewebes des Retroperitoneums und des Peritoneums | disease | zu wenige Quellen mit Zusammenfassung (3) für 'retroperitoneal lipoma' |
 | WM-DIS-1125 | Sonstige Mononeuropathien | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM G58 umfasst alle Mononeuropathien (z.B. periphere Nervenläsionen wie Karpaltunnelsyndrom, Radialisparese). 'Mononeuritis multiplex |
@@ -405,9 +413,11 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DIS-1203 | Fremdkörper im Ohr | disease | zu wenige Quellen mit Zusammenfassung (0) für 'foreign body ear' |
 | WM-DIS-1206 | Erstickung | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (T71 umfasst Erstickung durch mechanische Einwirkung (z. B. Erhängen, Strangulation); der Titel „Erstickung“ deckt dies ab. Quellen 1, 2 und 5 behan |
 | WM-DIS-1207 | Nicht näher bezeichnete Schäden durch äußere Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Schäden durch äußere Ursachen' ist ein allgemeiner Oberbegriff für ICD-10-GM T76 und lässt spezifische Formen/Schweregra |
+| WM-DIS-1225 | Sonstige juvenile Osteochondrosen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM M92 umfasst juvenile Osteochondrosen wie Morbus Perthes, Morbus Scheuermann und Morbus Kienböck. Der Suchbegriff 'osteochondritis  |
 | WM-DIS-1255 | Neuritis nervi optici | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
 --- Validation Sum |
+| WM-DIS-1267 | Sonstige erworbene Deformitäten des Muskel-Skelett-Systems und des Bindegewebes | disease | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Titel passt zu M95. Quellen 2 (Plattfuß), 5 (Hüftdysplasie) und 6 (Torticollis) behandeln erworbene oder im Kontext der Deformitäten-Diagnostik rel |
 | WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
 | WM-DIS-1280 | Akute Blutungsanämie | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Akute Blutungsanämie“ entspricht D62. Nur Quelle 2 passt: Sie behandelt Patienten, bei denen Transfusionen nicht möglich sind, also vor  |
 | WM-DIS-1303 | Schrumpfniere, nicht näher bezeichnet | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit die Schrumpfniere (ICD-10-GM N26). Die Quellen behandeln andere Nierenerkrankungen (FMD, Angiomyolipom, Athero |
@@ -730,7 +740,6 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DRUG-0785 | Indometacin | drug | Entwurf ohne belegte Sätze |
 | WM-DRUG-0786 | Creatinolfosfat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel wird nicht genannt. Creatinolfosfat (ATC C01EB05) ist nicht identisch mit Kreatinphosphat bzw. Phosphokreatin, das die Qu |
 | WM-DRUG-0787 | Fosfocreatin | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Fosfocreatin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC C01EB06). Nur Quelle 1 behandelt Kreatinphosphat als Arzneimitt |
-| WM-DRUG-0789 | Adenosin | drug | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DRUG-0790 | Acadesin | drug | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Acadesin (AICA-Ribosid, AMPK-Aktivator) ist ein Adenosin-Analogon; der Titel bezeichnet den Wirkstoff der Klassifikation korrekt (ATC C01EB13). Ke |
 | WM-DRUG-0792 | Fleischextrakt | drug | zu wenige Quellen mit Zusammenfassung (1) für 'meat extract' |
 | WM-DRUG-0793 | Meldonium | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln Meldonium direkt (Sportleistung, Therapieanwendungen, Einsatz bei Profisportlern). Quelle 3 (Kynurenin-Stoffwechselweg |
@@ -756,7 +765,6 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DRUG-0816 | Indoramin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'indoramin' |
 | WM-DRUG-0817 | Trimazosin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'alpha-1 adrenoceptor antagonists' |
 | WM-DRUG-0818 | Doxazosin | drug | Bestätigungsquote 20/44 unter 60 %; zu viele nur teilweise belegte Sätze (9/20) |
-| WM-DRUG-0819 | Urapidil | drug | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DRUG-0820 | Bunazosin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'alpha-adrenergic antagonist' |
 | WM-DRUG-0821 | Terazosin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Terazosin“ bezeichnet denselben Wirkstoff wie ATC C02CA08. Keine der Quellen behandelt Terazosin spezifisch. Sie betreffen Clonidin bei  |
 | WM-DRUG-0822 | Betanidin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Betanidin (C02CC01) ist ein antihypertensiver adrenerger Neuronenblocker (Guanethidin-Typ). Alle Quellen behandeln Betacyanine/Betalaine als Pflanz |
@@ -1753,7 +1761,6 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DRUG-2138 | Boldoblätter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Boldoblätter (Eucalyptus globulus) zur Behandlung von gastrointestinalen Erkrankungen (ATC A |
 | WM-DRUG-2140 | Tropisetron | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Nur 3 Quellen behandeln Tropisetron explizit; Quelle 1, 2, 4, 6, 10, 11 sind allgemein zu 5-HT3-Antagonisten oder Antiemetika ohne Fokus auf Tropi |
 | WM-DRUG-2141 | Dolasetron | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Dolasetron spezifisch; alle beziehen sich auf die Wirkstoffklasse der 5-HT3-Antagonisten allgemein.) |
-| WM-DRUG-2142 | Dimenhydrinat | drug | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DRUG-2143 | Thiethylperazin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Thiethylperazine' |
 | WM-DRUG-2144 | Meclozin | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln direkt Meclozin/Cyclizine und seine Anwendung bei Übelkeit/Erbrechen. Quelle 3 ist irrelevant (Chemie), Quelle 4 ist irre |
 | WM-DRUG-2145 | Diphenhydramin | drug | zu viele nur teilweise belegte Sätze (19/46) |
@@ -2011,14 +2018,12 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DRUG-2477 | Apraglutid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Apraglutid; sie behandeln allgemein GLP-2-Analoga oder andere Indikationen.) |
 | WM-DRUG-2478 | Dicoumarol | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Dicoumarol ist ein spezifischer Vitamin-K-Antagonist (Cumarin-Derivat, heute kaum noch verwendet). Alle acht Quellen behandeln Vitamin-K-Antagonist |
 | WM-DRUG-2479 | Phenindion | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Phenindione' |
-| WM-DRUG-2481 | Phenprocoumon | drug | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DRUG-2482 | Acenocoumarol | drug | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Der Titel 'Acenocoumarol' entspricht dem Wirkstoff (ATC B01AA07). Nur Quelle 10 behandelt Acenocoumarol direkt. Die übrigen Quellen betreffen Anti |
 | WM-DRUG-2483 | Ethylbiscoumacetat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ethyl biscoumacetate' |
 | WM-DRUG-2484 | Clorindion | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Artikeltitel „Clorindion“ ist ein Antikoagulans (Indandion-Derivat, ATC B01AA09), während die Suchbegriff- und Quellenbasis „Clindamycin |
 | WM-DRUG-2485 | Diphenadion | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Diphenadione' |
 | WM-DRUG-2486 | Tioclomarol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tioclomarol' |
 | WM-DRUG-2487 | Fluindion | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Fluindione' |
-| WM-DRUG-2488 | Heparin | drug | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DRUG-2489 | Dalteparin | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Dalteparin ist ein niedermolekulares Heparin (ATC B01AB04), der Titel passt. Quellen 2, 3 und 4 behandeln Dalteparin direkt (Vergleich mit Apixaban |
 | WM-DRUG-2490 | Nadroparin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel 'Nadroparin' bezeichnet denselben Wirkstoff wie ATC B01AB06 (niedermolekulares Heparin). Keine der vier Quellen behandelt Nadroparin als  |
 | WM-DRUG-2491 | Parnaparin | drug | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Der Titel „Parnaparin“ entspricht dem Wirkstoff der Klassifikation (ATC B01AB07, niedermolekulares Heparin). Keine der Quellen behandelt jedoch Pa |
@@ -2037,7 +2042,6 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DRUG-2513 | Vorapaxar | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel „Vorapaxar“ entspricht ATC B01AC26 (PAR-1-Antagonist). Nur die Quellen 4, 6 und 7 behandeln Vorapaxar direkt. Quelle 1, 2, 3 und 5 behand |
 | WM-DRUG-2514 | Limaprost | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quelle 1 behandelt Limaprost direkt (zusammen mit Pregabalin bei Spinalkanalstenose). Quelle 4 behandelt Prostaglandin-E1-Analoga, zu denen Limapro |
 | WM-DRUG-2515 | Streptokinase | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel „Streptokinase“ entspricht dem Wirkstoff ATC B01AD01. Quelle 3 vergleicht Streptokinase direkt mit Tenecteplase beim Myokardinfarkt. Quel |
-| WM-DRUG-2516 | Alteplase | drug | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DRUG-2517 | Anistreplase | drug | zu wenige Quellen mit Zusammenfassung (1) für 'APSAC' |
 | WM-DRUG-2518 | Urokinase | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Nur Quelle 2 (Urokinase bei tuberkulöser Pleuritis) und Quelle 7 (Urokinase beim akuten ischämischen Schlaganfall) behandeln den Wirkstoff Urokina |
 | WM-DRUG-2519 | Fibrinolysin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Fibrinolysin (Plasmin, ATC B01AD05) ist ein Wirkstoff aus der Gruppe der Enzyme/Fibrinolytika. Die Quellen 1–3 behandeln Ocriplasmin, ein verkürzte |
@@ -2215,11 +2219,8 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DRUG-2766 | Temsirolimus | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Temsirolimus' |
 | WM-DRUG-2768 | Ridaforolimus | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ridaforolimus' |
 | WM-DRUG-2769 | Zongertinib | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Zongertinib' |
-| WM-DRUG-2770 | Pacritinib | drug | HTTPError: HTTP Error 500: Internal Server Error |
-| WM-DRUG-2771 | Momelotinib | drug | HTTPError: HTTP Error 500: Internal Server Error |
-| WM-DRUG-2772 | Cediranib | drug | HTTPError: HTTP Error 500: Internal Server Error |
-| WM-DRUG-2773 | Fruquintinib | drug | HTTPError: HTTP Error 500: Internal Server Error |
-| WM-DRUG-2774 | Rivoceranib | drug | HTTPError: HTTP Error 500: Internal Server Error |
+| WM-DRUG-2772 | Cediranib | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Cediranib. Quelle 4 ist zu allgemein (VEGFR-Inhibitoren ohne Nennung von Cediranib).) |
+| WM-DRUG-2774 | Rivoceranib | drug | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Nur Quelle 10 behandelt explizit Rivoceranib. Die anderen Quellen behandeln Hepatozelluläres Karzinom oder andere Tumoren ohne spezifischen Fokus  |
 | WM-DRUG-2775 | Orelabrutinib | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Nur 3 Quellen behandeln Orelabrutinib explizit. Quelle 1, 2, 3, 5 behandeln BTK-Inhibitoren allgemein oder andere Wirkstoffe.) |
 | WM-DRUG-2777 | Tirabrutinib | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Nur Quellen 2 und 7 behandeln explizit den Wirkstoff Tirabrutinib. Quelle 1, 3, 5, 6 behandeln BTK-Inhibitoren allgemein oder andere Indikationen.  |
 | WM-DRUG-2780 | Duvelisib | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Duvelisib oder dessen Indikationen (z.B. CLL, SLL). Alle Titel beziehen sich auf andere Krankhe |
@@ -2378,6 +2379,19 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DRUG-3014 | Brinzolamid | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 1 und 3 behandeln explizit Brinzolamid. Quelle 2 behandelt Latanoprostenbunod, Quelle 4 Thiophene, Quelle 5 Pyrazole/CA-Hemmer allgemei |
 | WM-DRUG-3018 | Emedastin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Emedastine' |
 | WM-DRUG-3019 | Verteporfin | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln explizit Verteporfin-PDT. Quelle 5 ist eine Übersicht zu Chorioretinal Conditions, was den Wirkstoff abdeckt. Quelle 3 |
+| WM-DRUG-3024 | Corticotropin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Corticotropin-Releasing Hormone/Factor (CRH/CRF) oder dessen Rezeptoren, nicht den Wirkstoff Corticotropin (ACTH, ATC |
+| WM-DRUG-3025 | Tetracosactid | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit den Synacthen-Test (Tetracosactid). Quelle 1 untersucht ACTH (natürliches Hormon), nicht den synthetischen Wirkstof |
+| WM-DRUG-3026 | Somatrem | drug | zu wenige Quellen mit Zusammenfassung (1) für 'growth hormone analogs' |
+| WM-DRUG-3027 | Sermorelin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Sermorelin (GHRH-Analogon) als therapeutischen Wirkstoff; alle Quellen sind zu allgemein (Peptide im Sport |
+| WM-DRUG-3028 | Mecaserminrinfabat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'mecasermin rinfabet' |
+| WM-DRUG-3029 | Tesamorelin | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1 und 2 behandeln Tesamorelin direkt. Quelle 6 behandelt Tesamorelin im Kontext metabolischer/endokriner Erkrankungen. Quelle 3, 4 und 5 fo |
+| WM-DRUG-3034 | Ornipressin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Ornipressin. Quelle 1 behandelt Vasopressin-Rezeptor-Agonisten allgemein, Quelle 3 Vasopressin und Analoga |
+| WM-DRUG-3035 | Demoxytocin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'tetracycline' bezieht sich auf Antibiotika, während der Wirkstoff 'Demoxytocin' (ATC H01BB01) ein Peptidhormon ist. Es gibt |
+| WM-DRUG-3038 | Gonadorelin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Gonadorelin ist ein natives GnRH-Analogon zur Stimulation der Gonadotropin-Ausschüttung. Die Quellen behandeln überwiegend GnRH-Agonisten zu |
+| WM-DRUG-3039 | Nafarelin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln IVF/Endometriose/Prostatakrebs, nicht Nafarelin spezifisch; Suchbegriff 'Nafarelin' erforderlich.) |
+| WM-DRUG-3040 | Leuprorelin | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Nur Quellen 1 und 7 behandeln explizit Leuproreid/Leuprolide. Quelle 2, 3, 4 behandeln Endometriose (Leuproreid ist eine Option, aber nicht im Tit |
+| WM-DRUG-3042 | Buserelin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Buserelin; alle nennen nur die Wirkstoffklasse 'GnRH agonists'.) |
+| WM-DRUG-3046 | Vapreotid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Vapreotide' |
 | WM-DRUG-3048 | Aldosteron | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Das Thema 'Aldosteron' (ATC H02AA01) bezieht sich auf den Wirkstoff als Arzneimittel (Glukokortikoid). Die Quellen behandeln das endogene Ho |
 | WM-DRUG-3049 | Fludrocortison | drug | Bestätigungsquote 23/41 unter 60 % |
 | WM-DRUG-3050 | Desoxycorton | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 2 und 6 behandeln direkt Desoxycorticosteron (DOC) oder CYP11B1-Mangel (Ursache von DOC-Anhäufung). Quelle 1 ist zu allgemein (Aldosteronis |
@@ -2392,6 +2406,18 @@ Stand: 01.11.2026 12:25. Warteschlange: claimed 1, duplicate 470, failed 11, mer
 | WM-DRUG-3061 | Prednisolon-Depot | drug | Bestätigungsquote 12/37 unter 60 % |
 | WM-DRUG-3063 | Trilostan | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Trilostan. Quelle 2 ist allgemein zu Schilddrüsenmedikamenten, Quelle 3 zu Somatotropin/Insulinresistenz, Quelle 4  |
 | WM-DRUG-3064 | Levoketoconazol | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 4 und 7 behandeln explizit Levoketoconazol. Quelle 1, 2, 3, 5, 6 behandeln Cushing-Syndrom allgemein oder andere Medikamente.) |
+| WM-DRUG-3068 | Methylthiouracil | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf Methylthiouracil (PTU), Quelle sucht Methimazole. Methimazole ist ein anderer Wirkstoff (ATC H03BA02 vs H03BA01). Que |
+| WM-DRUG-3070 | Benzylthiouracil | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Benzylthiouracil' |
+| WM-DRUG-3071 | Carbimazol | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 2 und 3 behandeln explizit Carbimazol oder Antithyreotika im Kontext von Schwangerschaft/Sicherheit. Quelle 4 behandelt Thyreotoxikose a |
+| WM-DRUG-3073 | Kaliumperchlorat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Potassium perchlorate' |
+| WM-DRUG-3074 | Natriumperchlorat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'sodium perchlorate' |
+| WM-DRUG-3075 | Wolfstrappkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel sind '[Not Available]', daher keine inhaltliche Prüfung möglich. ATC H03BP01 ist kein standardisierter Code für 'Wolfstrappkraut' (The |
+| WM-DRUG-3076 | Diiodtyrosin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Diiodotyrosine' |
+| WM-DRUG-3077 | Dibromtyrosin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dibromotyrosine' |
+| WM-DRUG-3079 | Nebenschilddrüsenextrakt | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'Parathyroid hormone' ist zu unspezifisch (hormon vs. extrakt/analog). Quellen 1 und 6 behandeln Hypoparathyreoidismus (Indikati |
+| WM-DRUG-3081 | Palopegteriparatid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'TPT' wird in den Quellen fast ausschließlich für 'Tuberculosis Preventive Treatment' verwendet. Palopegteriparatid ist ein  |
+| WM-DRUG-3082 | Glandulae parathyreoidea | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf den Wirkstoff 'Glandulae parathyreoidea' (ATC H05AH01), was pharmakologisch unüblich ist und vermutlich  |
+| WM-DRUG-3083 | Elcatonin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'calcitonin gene-related peptide' (CGRP) bezieht sich auf einen anderen Wirkstoff als 'Elcatonin' (ATC H05BA04, ein syntheti |
 | WM-DRUG-3087 | Phenylbutazon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Phenylbutazon; alle sind zu allgemein (NSAR) oder themenfremd.) |
 | WM-DRUG-3088 | Mofebutazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mofebutazone' |
 | WM-DRUG-3089 | Oxyphenbutazon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxyphenbutazone' |
