@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, planned 1824, published 1641, ready 7, redirect 391, review 2764.
+Stand: 02.11.2026 00:25. Warteschlange: claimed 1, duplicate 470, merged 13, planned 1764, published 1648, ready 30, redirect 391, review 2794.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -319,6 +319,7 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-0879 | Neubildung unsicheren oder unbekannten Verhaltens des Gehirns und des Zentralnervensystems | disease | zu wenige Quellen mit Zusammenfassung (0) für 'CNS tumors uncertain behavior' |
 | WM-DIS-0882 | Ausgebliebene, zu schwache oder zu seltene Menstruation | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Ausbleibende und zu seltene Regelblutung“ entspricht im Wesentlichen N91 (Amenorrhoe, Oligomenorrhoe). Keine der Quellen behandelt Ameno |
 | WM-DIS-0886 | Carcinoma in situ sonstiger und nicht näher bezeichneter Verdauungsorgane | disease | zu wenige Quellen mit Zusammenfassung (0) für 'gastrointestinal carcinoma in situ' |
+| WM-DIS-0887 | Streptokokken und Staphylokokken als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind | disease | zu wenige Quellen mit Zusammenfassung (0) für 'strep staph infection' |
 | WM-DIS-0890 | Lokalisierte Schwellung, Raumforderung und Knoten der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Hautknoten und subkutane Raumforderungen“ entspricht R22 (lokalisierte Schwellung, Raumforderung und Knoten der Haut und Unterhaut). Kei |
 | WM-DIS-0893 | Sonstige Lähmungssyndrome | disease | zu wenige Quellen mit Zusammenfassung (1) für 'paralytic syndromes' |
 | WM-DIS-0898 | Folsäure-Mangelanämie | disease | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Titel entspricht D52. Nur wenige Quellen behandeln die Folsäure-Mangelanämie; die meisten betreffen Vitamin B12, allgemeinen Folatstatus oder ande |
@@ -348,6 +349,7 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-0945 | Carcinoma in situ sonstiger und nicht näher bezeichneter Lokalisationen | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (ICD-10-GM D09 umfasst Carcinoma in situ sonstiger und nicht näher bezeichneter Lokalisationen, d. h. nicht Mamma (D05), Cervix (D06), Haut (D04) u |
 | WM-DIS-0954 | Granulomatöse Krankheiten der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt ICD-10 L92 allgemein; alle 6 Quellen fokussieren spezifische Unterformen (z.B. Palisaded Neutrophilic Granulomatous Dermatit |
 | WM-DIS-0957 | Sensibilitätsstörungen der Haut | disease | zu wenige Quellen mit Zusammenfassung (0) für 'cutaneous sensory disturbances' |
+| WM-DIS-0965 | Störungen der Zahnentwicklung und des Zahndurchbruchs | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Titel deckt ICD-10 K00 ab. Quelle 1 behandelt Eruptionsequestration (Komplikation, kein Entwicklungsstörung). Quelle 3 behandelt metabolische Knoch |
 | WM-DIS-0967 | Hordeolum und Chalazion | disease | zu wenige Quellen mit Zusammenfassung (1) für 'stye chalazion' |
 | WM-DIS-0971 | Intrakranielle Verletzung und Blutung durch Geburtsverletzung | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel ist präzise. Nur Quelle 1 behandelt intrakranielle Blutungen (IVH) bei Neugeborenen; Quellen 2-4 behandeln FNAIT (Thrombozytopenie), was eine |
 | WM-DIS-0972 | Geburtsverletzung der behaarten Kopfhaut | disease | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch 'caput succedaneum' (Geburtsverletzung der behaarten Kopfhaut); sie befassen sich mit Ultraschall in der Geb |
@@ -360,6 +362,7 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-0988 | Neubildung unsicheren oder unbekannten Verhaltens der männlichen Genitalorgane | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel entspricht D40 (Neubildung unsicheren oder unbekannten Verhaltens der männlichen Genitalorgane: Hoden, Prostata, Nebenhoden, Penis usw.). |
 | WM-DIS-0989 | Sonstige nichtentzündliche Krankheiten der Cervix uteri | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (N88 umfasst sonstige nichtentzündliche Zervixkrankheiten (z. B. Zervixinsuffizienz, Striktur, Elongation, Ulkus, Leukoplakie). Zervixdysplas |
 | WM-DIS-0990 | Tod infolge jeder gestationsbedingten Ursache nach mehr als 42 Tagen bis unter einem Jahr nach der Entbindung | disease | zu wenige Quellen mit Zusammenfassung (1) für 'late maternal death' |
+| WM-DIS-0992 | Dentofaziale Anomalien einschließlich fehlerhafter Okklusion | disease | Bestätigungsquote 22/44 unter 60 % |
 | WM-DIS-0994 | Otalgie und Ohrenfluss | disease | zu wenige Quellen mit Zusammenfassung (0) für 'otalgia otorrhea' |
 | WM-DIS-0995 | Dermatitis solaris acuta | disease | Entwurf ohne belegte Sätze |
 | WM-DIS-0997 | Sonstiger Haarausfall ohne Narbenbildung | disease | Bestätigungsquote 34/57 unter 60 % |
@@ -368,6 +371,7 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1001 | Sonstige lokale Infektionen der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine Quelle behandelt spezifisch L08 (lokale Infektionen der Haut/Unterhaut ohne spezifische Erregerangabe wie Orf, Mykobakterien oder spezifische |
 | WM-DIS-1013 | Störungen des Geruchs- und Geschmackssinnes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Störungen des Geruchs- und Geschmackssinnes' umfasst auch den Geschmackssinn (ICD-10-GM R43), die Quellen behandeln jedo |
 | WM-DIS-1015 | Schmerz, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 R52 (Schmerz, anderenorts nicht klassifiziert) als primäres Diagnosekriterium oder Krankheitsbild; alle be |
+| WM-DIS-1030 | Parapsoriasis | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 8 behandelt explizit 'Parapsoriasis'. Quelle 5 erwähnt es nur im Kontext von MF/Lymphomatoid Papulose. Quellen 1,3,4,6,9 behandeln Mucha |
 | WM-DIS-1032 | Akute Tonsillitis | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel entspricht J03 (akute Tonsillitis). Passend sind nur die Quellen zur akuten Tonsillitis selbst: 2 (eitrige akute Tonsillitis, Xiyanping), |
 | WM-DIS-1033 | Akute Laryngitis und Tracheitis | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt die humane (stenosierende) Laryngotracheitis (Pseudokrupp), die unter J04 fällt, auch wenn sie nur einen Teilaspekt (Therapi |
 | WM-DIS-1038 | Pleuraplaques | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Pleuraplaques“ entspricht ICD-10-GM J92 (Pleuraplaques, mit und ohne Asbestexposition). Nur Quelle 2 behandelt benigne asbestbedingte Pl |
@@ -403,6 +407,9 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1141 | Beschleunigte Blutkörperchensenkungsreaktion und Veränderungen der Plasmaviskosität | disease | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel entspricht R70 (erhöhte BSG und veränderte Plasmaviskosität). Nur Quelle 7 behandelt die BSG als solche, nämlich ihre klinische Anwendung |
 | WM-DIS-1142 | Abnorme Befunde bei der bildgebenden Diagnostik des Zentralnervensystems | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (R90 umfasst unspezifische abnorme ZNS-Bildgebungsbefunde ohne konkrete Diagnose. Der Titel entspricht dem. Alle zwölf Quellen behandeln jedoch spe |
 | WM-DIS-1144 | Sonstiger plötzlicher Tod unbekannter Ursache | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel „Plötzlicher unerwarteter Tod unbekannter Ursache“ entspricht R96 (sonstiger plötzlicher Tod unbekannter Ursache), ein gebräuchliches Syn |
+| WM-DIS-1150 | Störungen im Zusammenhang mit langer Schwangerschaftsdauer und hohem Geburtsgewicht | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel deckt ICD-10-GM P08 ab. Nur Quelle 3 behandelt explizit Postterm Pregnancy/Late-Term. Quellen 1 und 2 sind allgemein zur Weheneinleitung, Que |
+| WM-DIS-1151 | Intrauterine Hypoxie | disease | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Titel entspricht ICD-Code P20. Quelle 2 behandelt den Mechanismus direkt, Quelle 4 die Folgen. Quelle 5 ist zu allgemein (Prenatal Hypoxia), 6 bezi |
+| WM-DIS-1153 | Nabelblutung beim Neugeborenen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'umbilical bleeding' |
 | WM-DIS-1158 | Hypoglykämisches Koma, nichtdiabetisch | disease | zu wenige Quellen mit Zusammenfassung (3) für 'non-diabetic hypoglycemia' |
 | WM-DIS-1161 | Kwashiorkor-Marasmus | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (E42 bezeichnet speziell die Mischform Kwashiorkor-Marasmus, eine schwere Protein-Energie-Mangelernährung, überwiegend bei Kindern. Der Titel |
 | WM-DIS-1167 | Alimentärer Kalziummangel | disease | zu wenige Quellen mit Zusammenfassung (3) für 'dietary calcium deficiency' |
@@ -414,12 +421,14 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1206 | Erstickung | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (T71 umfasst Erstickung durch mechanische Einwirkung (z. B. Erhängen, Strangulation); der Titel „Erstickung“ deckt dies ab. Quellen 1, 2 und 5 behan |
 | WM-DIS-1207 | Nicht näher bezeichnete Schäden durch äußere Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Schäden durch äußere Ursachen' ist ein allgemeiner Oberbegriff für ICD-10-GM T76 und lässt spezifische Formen/Schweregra |
 | WM-DIS-1225 | Sonstige juvenile Osteochondrosen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM M92 umfasst juvenile Osteochondrosen wie Morbus Perthes, Morbus Scheuermann und Morbus Kienböck. Der Suchbegriff 'osteochondritis  |
+| WM-DIS-1227 | Hydrops fetalis durch hämolytische Krankheit | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Nur Quelle 12 behandelt explizit die hämolytische Erkrankung des Feten/Neugeborenen (HDN), die die Ursache für ICD-10-GM P56 ist. Die anderen Quel |
 | WM-DIS-1255 | Neuritis nervi optici | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
 --- Validation Sum |
 | WM-DIS-1267 | Sonstige erworbene Deformitäten des Muskel-Skelett-Systems und des Bindegewebes | disease | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Titel passt zu M95. Quellen 2 (Plattfuß), 5 (Hüftdysplasie) und 6 (Torticollis) behandeln erworbene oder im Kontext der Deformitäten-Diagnostik rel |
 | WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
 | WM-DIS-1280 | Akute Blutungsanämie | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Akute Blutungsanämie“ entspricht D62. Nur Quelle 2 passt: Sie behandelt Patienten, bei denen Transfusionen nicht möglich sind, also vor  |
+| WM-DIS-1285 | Sonstige Verletzungen der Wirbelsäule und des Rumpfes, Höhe nicht näher bezeichnet | disease | Bestätigungsquote 22/53 unter 60 % |
 | WM-DIS-1303 | Schrumpfniere, nicht näher bezeichnet | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit die Schrumpfniere (ICD-10-GM N26). Die Quellen behandeln andere Nierenerkrankungen (FMD, Angiomyolipom, Athero |
 | WM-DIS-1304 | Sterbefall während der Gestationsperiode nicht näher bezeichneter Ursache | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10 O95 definiert Sterbefälle unbekannter Ursache, während 'Müttersterblichkeit' (Maternal Mortality) alle Todesfälle während Schwangersc |
 | WM-DIS-1309 | Vorhauthypertrophie, Phimose und Paraphimose | disease | zu wenige Quellen mit Zusammenfassung (1) für 'phimosis paraphimosis' |
@@ -436,6 +445,8 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1352 | Glukosurie | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln renale Glukosurie bzw. die Abklärung der Glukosurie bei Kindern und passen zum Thema. Quelle 3 (proximale renale tubuläre |
 | WM-DIS-1355 | Tod ohne Anwesenheit anderer Personen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'unattended death' |
 | WM-DIS-1358 | Sonstige nichtorganische psychotische Störungen | disease | zu wenige Quellen mit Zusammenfassung (2) für 'functional psychosis' |
+| WM-DIS-1360 | Nicht näher bezeichnete Demenz | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch F03 (unspecified dementia). Quelle 2 behandelt Demenz allgemein, Quelle 1 und 4 Neurodegeneration allgemein, Quel |
+| WM-DIS-1367 | Nicht näher bezeichnete Knoten in der Mamma Brustdrüse | disease | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Titel passt zur ICD-10-GM N63. Nur 3 Quellen behandeln explizit 'breast lump' als primäres oder relevantes Symptom/Krankheitsbild in diesem Kontex |
 | WM-DIS-1390 | Folgen von Komplikationen während Schwangerschaft, Geburt und Wochenbett | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (O94 bezeichnet ausschließlich die Folgen (Spätfolgen, Sequelae) von Komplikationen in Schwangerschaft, Geburt und Wochenbett. Der geplante T |
 | WM-DIS-1411 | Folgen entzündlicher Krankheiten des Zentralnervensystems | disease | zu wenige Quellen mit Zusammenfassung (1) für 'neuroinflammatory sequelae' |
 | WM-DIS-1412 | Sonstige Krankheiten des peripheren Nervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G64 meint 'Sonstige Krankheiten des peripheren Nervensystems' (nicht näher bezeichnete/sonstige Neuropathien; spezifische Ursachen wie diabe |
@@ -740,6 +751,7 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-0785 | Indometacin | drug | Entwurf ohne belegte Sätze |
 | WM-DRUG-0786 | Creatinolfosfat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel wird nicht genannt. Creatinolfosfat (ATC C01EB05) ist nicht identisch mit Kreatinphosphat bzw. Phosphokreatin, das die Qu |
 | WM-DRUG-0787 | Fosfocreatin | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Fosfocreatin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC C01EB06). Nur Quelle 1 behandelt Kreatinphosphat als Arzneimitt |
+| WM-DRUG-0789 | Adenosin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'adenosine supraventricular tachycardia' |
 | WM-DRUG-0790 | Acadesin | drug | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Acadesin (AICA-Ribosid, AMPK-Aktivator) ist ein Adenosin-Analogon; der Titel bezeichnet den Wirkstoff der Klassifikation korrekt (ATC C01EB13). Ke |
 | WM-DRUG-0792 | Fleischextrakt | drug | zu wenige Quellen mit Zusammenfassung (1) für 'meat extract' |
 | WM-DRUG-0793 | Meldonium | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln Meldonium direkt (Sportleistung, Therapieanwendungen, Einsatz bei Profisportlern). Quelle 3 (Kynurenin-Stoffwechselweg |
@@ -765,6 +777,7 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-0816 | Indoramin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'indoramin' |
 | WM-DRUG-0817 | Trimazosin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'alpha-1 adrenoceptor antagonists' |
 | WM-DRUG-0818 | Doxazosin | drug | Bestätigungsquote 20/44 unter 60 %; zu viele nur teilweise belegte Sätze (9/20) |
+| WM-DRUG-0819 | Urapidil | drug | zu wenige Quellen mit Zusammenfassung (3) für 'alpha-1 antagonist' |
 | WM-DRUG-0820 | Bunazosin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'alpha-adrenergic antagonist' |
 | WM-DRUG-0821 | Terazosin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Terazosin“ bezeichnet denselben Wirkstoff wie ATC C02CA08. Keine der Quellen behandelt Terazosin spezifisch. Sie betreffen Clonidin bei  |
 | WM-DRUG-0822 | Betanidin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Betanidin (C02CC01) ist ein antihypertensiver adrenerger Neuronenblocker (Guanethidin-Typ). Alle Quellen behandeln Betacyanine/Betalaine als Pflanz |
@@ -1761,6 +1774,7 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-2138 | Boldoblätter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Boldoblätter (Eucalyptus globulus) zur Behandlung von gastrointestinalen Erkrankungen (ATC A |
 | WM-DRUG-2140 | Tropisetron | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Nur 3 Quellen behandeln Tropisetron explizit; Quelle 1, 2, 4, 6, 10, 11 sind allgemein zu 5-HT3-Antagonisten oder Antiemetika ohne Fokus auf Tropi |
 | WM-DRUG-2141 | Dolasetron | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Dolasetron spezifisch; alle beziehen sich auf die Wirkstoffklasse der 5-HT3-Antagonisten allgemein.) |
+| WM-DRUG-2142 | Dimenhydrinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'dimenhydrinate antiemetic' |
 | WM-DRUG-2143 | Thiethylperazin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Thiethylperazine' |
 | WM-DRUG-2144 | Meclozin | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln direkt Meclozin/Cyclizine und seine Anwendung bei Übelkeit/Erbrechen. Quelle 3 ist irrelevant (Chemie), Quelle 4 ist irre |
 | WM-DRUG-2145 | Diphenhydramin | drug | zu viele nur teilweise belegte Sätze (19/46) |
@@ -2018,6 +2032,7 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-2477 | Apraglutid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Apraglutid; sie behandeln allgemein GLP-2-Analoga oder andere Indikationen.) |
 | WM-DRUG-2478 | Dicoumarol | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Dicoumarol ist ein spezifischer Vitamin-K-Antagonist (Cumarin-Derivat, heute kaum noch verwendet). Alle acht Quellen behandeln Vitamin-K-Antagonist |
 | WM-DRUG-2479 | Phenindion | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Phenindione' |
+| WM-DRUG-2481 | Phenprocoumon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'phenprocoumon anticoagulation' |
 | WM-DRUG-2482 | Acenocoumarol | drug | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Der Titel 'Acenocoumarol' entspricht dem Wirkstoff (ATC B01AA07). Nur Quelle 10 behandelt Acenocoumarol direkt. Die übrigen Quellen betreffen Anti |
 | WM-DRUG-2483 | Ethylbiscoumacetat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ethyl biscoumacetate' |
 | WM-DRUG-2484 | Clorindion | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Artikeltitel „Clorindion“ ist ein Antikoagulans (Indandion-Derivat, ATC B01AA09), während die Suchbegriff- und Quellenbasis „Clindamycin |
@@ -2744,6 +2759,21 @@ Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-3466 | Pimethixen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pimethixene' |
 | WM-DRUG-3467 | Epinastin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Epinastine' |
 | WM-DRUG-3468 | Mizolastin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Mizolastine' |
+| WM-DRUG-3470 | Rupatadin | drug | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Nur 3 Quellen behandeln explizit Rupatadin. Quelle 13 ist relevant trotz Fokus auf Kinder, da Rupatadin explizit genannt wird. Quellen 1, 2, 5, 7, |
+| WM-DRUG-3472 | Etoloxamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Etoloxamine' |
+| WM-DRUG-3473 | Quifenadin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Quifenadin (Antihistaminikum) wurde fälschlicherweise mit Quinapril (ACE-Hemmer) verwechselt. Keine der Quellen behandelt Quif |
+| WM-DRUG-3474 | Sequifenadin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sevifenadine' |
+| WM-DRUG-3476 | Natürliche Phospholipide aus Schweinelunge | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff 'Natürliche Phospholipide aus Schweinelunge' (ATC R07AA04). Die Quellen behandeln allgemein  |
+| WM-DRUG-3477 | Natürliche Phospholipide aus Rinderlunge | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Natürliche Phospholipide aus Rinderlunge' (ATC R07AA05) ist ein spezifisches Präparat zur Behandlung von Atemwegserkrankungen |
+| WM-DRUG-3478 | Doxapram | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Quellen 1 und 3 behandeln explizit Doxapram. Quelle 4 behandelt Apnoe, aber nicht spezifisch Doxapram. Quelle 2, 5, 6, 7 behandeln andere Themen od |
+| WM-DRUG-3479 | Nikethamid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nikethamide' |
+| WM-DRUG-3480 | Pentetrazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Pentetrazol (Pentylenetetrazol) als Wirkstoff oder dessen spezifische Anwendung (z.B. Convulsant-Test). Al |
+| WM-DRUG-3481 | Etamivan | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Etamivan' |
+| WM-DRUG-3482 | Bemegrid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bemegride' |
+| WM-DRUG-3483 | Prethcamid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Prethcamide' |
+| WM-DRUG-3484 | Almitrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 2 behandelt explizit Almitrin. Quelle 1, 3, 5 behandeln Atemstimulanzien/V/Q-Mismatch allgemein. Quelle 4, 6, 7 behandeln andere  |
+| WM-DRUG-3485 | Dimeflin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dimefline' |
+| WM-DRUG-3486 | Mepixanox | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mepixanox' |
 | WM-DRUG-3502 | Tinidazol | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Der Titel 'Tinidazol' entspricht dem Wirkstoff der Klassifikation (ATC G01AF21). Nur Quelle 2 (Tinidazol vs. Metronidazol bei bakterieller Vaginos |
 | WM-DRUG-3522 | Fenoterol | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Fenoterol' bezeichnet denselben Wirkstoff wie ATC G02CA03. Keine der Quellen behandelt Fenoterol als Thema. Quelle 1 betrifft SABA-Monot |
 | WM-DRUG-3524 | Lisurid | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Lisurid direkt (5-HT2A-Agonismus, nicht-halluzinogen). Die übrigen Quellen betreffen Wochenbett, Schlafstörungen bei Stimula |
