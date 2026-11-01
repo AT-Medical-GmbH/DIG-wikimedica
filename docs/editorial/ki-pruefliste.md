@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 03:25. Warteschlange: claimed 1, duplicate 446, planned 2630, published 1428, ready 16, redirect 374, review 2212.
+Stand: 01.11.2026 04:25. Warteschlange: claimed 1, duplicate 446, planned 2569, published 1444, ready 13, redirect 374, review 2260.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1989,6 +1989,10 @@ Stand: 01.11.2026 03:25. Warteschlange: claimed 1, duplicate 446, planned 2630, 
 | WM-DRUG-2470 | Triheptanoin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Triheptanoin' |
 | WM-DRUG-2472 | Elivaldogen autotemcel | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Elivaldogen autotemcel ist die lentivirale Gentherapie für zerebrale X-ALD; nur Quellen 4 und 5 behandeln diese. Die übrigen betreffen andere Erkra |
 | WM-DRUG-2473 | Thiomolybdänsäure | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Thiomolybdates' |
+| WM-DRUG-2474 | Govorestat | drug | zu viele nur teilweise belegte Sätze (16/36) |
+| WM-DRUG-2475 | Nedosiran | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 3 und 4 behandeln explizit Nedosiran. Quelle 1 behandelt Nierensteine allgemein, Quelle 2 siRNA-Modifikationen allgemein.) |
+| WM-DRUG-2476 | Glepaglutid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Glepaglutid ist ein spezifischer GLP-2-Analogon. Die Quellen behandeln GLP-2 allgemein oder andere Indikationen (z.B. Crohn), nicht den spez |
+| WM-DRUG-2477 | Apraglutid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Apraglutid; sie behandeln allgemein GLP-2-Analoga oder andere Indikationen.) |
 | WM-DRUG-2478 | Dicoumarol | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Dicoumarol ist ein spezifischer Vitamin-K-Antagonist (Cumarin-Derivat, heute kaum noch verwendet). Alle acht Quellen behandeln Vitamin-K-Antagonist |
 | WM-DRUG-2479 | Phenindion | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Phenindione' |
 | WM-DRUG-2481 | Phenprocoumon | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Phenprocoumon. Quelle 2, 3, 4, 5, 7 behandeln allgemeine Antikoagulantien oder NOACs ohne spezifischen Fokus auf Ph |
@@ -2032,6 +2036,50 @@ Stand: 01.11.2026 03:25. Warteschlange: claimed 1, duplicate 446, planned 2630, 
 | WM-DRUG-2529 | Ximelagatran | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel „Ximelagatran“ entspricht dem Wirkstoff mit ATC B01AE05. Nur Quelle 2 behandelt orale direkte Thrombininhibitoren, zu denen Ximelagatran  |
 | WM-DRUG-2531 | Betrixaban | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Der Titel Betrixaban bezeichnet denselben Wirkstoff wie ATC B01AF04. Nur Quelle 7 (Betrixaban oder Rivaroxaban zur verlängerten Thromboseprophylax |
 | WM-DRUG-2532 | Chondroitinsulfat B | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Chondroitinsulfat B ist ein Synonym für Dermatansulfat (ATC B01AX04). Der Titel passt also zum Wirkstoff. Die Quellen 1 und 3 behandeln Dermatansul |
+| WM-DRUG-2534 | Aminocapronsäure | drug | Bestätigungsquote 24/47 unter 60 % |
+| WM-DRUG-2536 | Aminomethylbenzoesäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Aminomethylbenzoesäure (ATC B02AA03) oder dessen spezifische Indikation (Hämostase). Quelle 1 und 3 beh |
+| WM-DRUG-2541 | Menadion | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 2 und 3 behandeln explizit Menadion. Quelle 1 ist zu allgemein (Triaptosis), 4 behandelt Vitamin K allgemein/CKD, 5 und 6 sind zu breit (Ub |
+| WM-DRUG-2542 | Absorbierbarer Gelatineschwamm | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Gelatineschwämme (Gels) zur Embolisation. Quelle 2 verwendet einen biologischen Plug, Quelle 3 und 4 behandeln ande |
+| WM-DRUG-2543 | Oxidierte Zellulose | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit Oxidierte Zellulose. Quelle 8 erwähnt Surgicel (ein Handelsname für oxidierte Zellulose), ist aber primär ein Imagi |
+| WM-DRUG-2544 | Tetragalacturonsäurehydroxymethylester | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tetragalacturonic acid hydroxymethyl ester' |
+| WM-DRUG-2546 | Kollagen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC B02BC07 ist ein veralteter/inkorrekter Code für Kollagen (B02BC ist Hämostyptika, Kollagen hat keinen spezifischen ATC-Code als Wirkstof |
+| WM-DRUG-2547 | Calciumalginat | drug | Bestätigungsquote 24/45 unter 60 % |
+| WM-DRUG-2548 | Thromboplastin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Thromboplastin (ATC B02BC12) ist ein Wirkstoff (Gewinnung aus Thrombin/Thromboplastin-Präparaten zur Blutstillung). Alle 15 Quellen behandel |
+| WM-DRUG-2549 | Polyglycolsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Polylactic acid' (Polymilchsäure) ist falsch für den Wirkstoff 'Polyglycolsäure' (Polyglykolsäure, PGA). Die Quellen behand |
+| WM-DRUG-2550 | Gelatine | drug | Bestätigungsquote 39/67 unter 60 % |
+| WM-DRUG-2551 | Faktor-VIII-Inhibitor-bypass-Aktivität | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Faktor-VIII-Inhibitor-bypass-Aktivität' bezeichnet eine Wirkmechanismus-Klasse (Bypass-Agents), während Emicizumab ein m |
+| WM-DRUG-2554 | Nonacog alfa | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Nonacog alfa' ist spezifischer als 'Factor IX' (allgemein). Viele Quellen behandeln nur Faktor IX allgemein oder andere Hämophilie-Be |
+| WM-DRUG-2556 | Susoctocog alfa | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 6 behandeln explizit efmoroctocog alfa. Quelle 3 vergleicht rVIII-SingleChain mit zwei anderen Produkten (nicht efmoroctocog alfa) |
+| WM-DRUG-2557 | Etranacogen dezaparvovec | drug | Bestätigungsquote 19/41 unter 60 % |
+| WM-DRUG-2558 | Fidanacogen elaparvovec | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 2 behandelt den Wirkstoff etranacogene dezaparvovec (AAV5-basiert) für Hämophilie B. Quelle 1 ist zu allgemein (retinale Erkrankungen),  |
+| WM-DRUG-2559 | Arvenacogen sanparvovec | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Arvenacogen sanparvovec ist ein AAV5-basierter Gentransfer für Hämophilie B. Quelle 2 behandelt Etranacogene dezaparvovec (AAV |
+| WM-DRUG-2560 | Octocog alfa | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Octocog alfa' |
+| WM-DRUG-2562 | Moroctocog alfa | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Hemlibra' |
+| WM-DRUG-2563 | Efmoroctocog alfa | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Nur Quellen 2 und 6 behandeln explizit den Wirkstoff Efmoroctocog alfa. Quelle 1 behandelt Efanesoctocog, Quelle 4 Damoctocog alfa pegol, Quelle 3  |
+| WM-DRUG-2564 | Albutrepenonacog alfa | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Albutrepenonacog alfa' |
+| WM-DRUG-2565 | Eftrenonacog alfa | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Factor VIII' ist zu allgemein und identifiziert keine spezifische Quelle zu Eftrenonacog alfa (ein rekombinantes Faktor VII |
+| WM-DRUG-2566 | Lonoctocog alfa | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Lonoctocog alfa; alle Quellen behandeln Hemophilie A allgemein oder andere Wirkstoffe.) |
+| WM-DRUG-2567 | Nonacog beta pegol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Nonacog beta pegol' |
+| WM-DRUG-2569 | Rurioctocog alfa pegol | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit Rurioctocog alfa pegol. Quelle 1, 2, 4, 5 und 6 behandeln andere FVIII-Produkte oder allgemeine FVIII-Therapien, ab |
+| WM-DRUG-2570 | Damoctocog alfa pegol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Damoctocog alfa pegol' |
+| WM-DRUG-2571 | Vonicog alfa | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Vonicog alfa' |
+| WM-DRUG-2572 | Turoctocog alfa pegol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Hemophilia A' ist zu allgemein und identifiziert die Krankheit, aber nicht den spezifischen Wirkstoff 'Turoctocog alfa pego |
+| WM-DRUG-2573 | Eptacog beta (aktiviert) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf den Wirkstoff Eptacog beta (aktiviert) / aPCC. Quellen 1, 2, 3, 4, 8, 9, 10 behandeln andere Wirkstoffe (DOACs, Emici |
+| WM-DRUG-2574 | Turoctocog alfa | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'Hemophilia A' ist zu allgemein und umfasst viele Quellen zu Emicizumab, Gen-Therapie, acquired hemophilia oder allgemeinen Aspe |
+| WM-DRUG-2575 | Simoctocog alfa | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Simoctocog alfa' ist spezifischer als 'Hemophilia A'. Quellen behandeln meist die Krankheit allgemein oder andere Wirkstoffe (Emicizu |
+| WM-DRUG-2577 | Etamsylat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Etamsylat; alle beziehen sich auf allgemeine topische oder systemische Hämostytika ohne Nennung des W |
+| WM-DRUG-2578 | Carbazochrom | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln explizit Carbazochrome. Quelle 3 ist zu allgemein (chronic pelvic pain ohne Wirkstofffokus), Quelle 4 behandelt eine ande |
+| WM-DRUG-2579 | Batroxobin | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 2, 4 und 5 behandeln Batroxobin direkt. Quelle 1 behandelt Defibrinogenisierung (Wirkung von Batroxobin), aber nicht den Wirkstoff spezifis |
+| WM-DRUG-2580 | Lusutrombopag | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln Lusutrombopag explizit. Quelle 3 behandelt TPO-Rezeptor-Agonisten allgemein in der Pädiatrie (nicht spezifisch Lusutrombo |
+| WM-DRUG-2583 | Fitusiran | drug | zu viele nur teilweise belegte Sätze (19/35) |
+| WM-DRUG-2584 | Eisen(II)glycinsulfat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'iron glycine sulfate' |
+| WM-DRUG-2585 | Eisen(II)fumarat | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Eisen(II)fumarat“ entspricht dem Wirkstoff ATC B03AA02. Nur Quelle 1 behandelt gezielt gängige Eisenfortifikanten, zu denen Eisen(II)fum |
+| WM-DRUG-2586 | Eisen(II)gluconat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Ferrous gluconate' |
+| WM-DRUG-2587 | Eisen(II)carbonat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ferrous carbonate' |
+| WM-DRUG-2588 | Eisen(II)chlorid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Ferrous Chloride' |
+| WM-DRUG-2589 | Eisen(II)succinat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Ferrous succinate' |
+| WM-DRUG-2591 | Eisen(II)tartrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iron tartrate' |
+| WM-DRUG-2592 | Eisen(II)aspartat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'iron aspartate' |
 | WM-DRUG-2661 | Sulfamethizol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfamethizole' |
 | WM-DRUG-2800 | Ofatumumab | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Titel „Ofatumumab“ entspricht dem Wirkstoff der Klassifikation (L01FA02). Keine der Quellen behandelt spezifisch Ofatumumab: Sie betreffen die ges |
 | WM-DRUG-2947 | Antilymphozytäres Immunglobulin (Pferd) | drug | zu wenige Quellen mit Zusammenfassung (2) für 'equine antithymocyte globulin' |
