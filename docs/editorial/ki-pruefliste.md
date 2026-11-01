@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 10:25. Warteschlange: claimed 1, duplicate 469, failed 11, merged 1, planned 2264, published 1529, ready 17, redirect 374, review 2445.
+Stand: 01.11.2026 11:25. Warteschlange: claimed 1, duplicate 469, failed 11, merged 1, planned 2199, published 1546, ready 24, redirect 374, review 2486.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -71,6 +71,7 @@ Stand: 01.11.2026 10:25. Warteschlange: claimed 1, duplicate 469, failed 11, mer
 | WM-DIS-0385 | Mononeuropathien der unteren Extremität | disease | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Der Titel entspricht G57 (Mononeuropathien der unteren Extremität, z. B. N. ischiadicus, N. peroneus, Tarsaltunnelsyndrom, Meralgia paraesthetica) |
 | WM-DIS-0391 | Komplikationen bei Wehen und Entbindung durch intrapartale Blutung, anderenorts nicht klassifiziert | disease | Bestätigungsquote 17/38 unter 60 % |
 | WM-DIS-0392 | Harnstein bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (N22 meint Harnstein bei anderenorts klassifizierten Krankheiten (z. B. bei Gicht, Hyperparathyreoidismus, Schistosomiasis). Der Titel „Harnsteinle |
+| WM-DIS-0402 | Krankheiten der Gallenblase, der Gallenwege und des Pankreas bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM K87 bezeichnet spezifisch Krankheiten der Gallenblase/Gallenwege bei anderenorts klassifizierten Krankheiten (sekundäre Affektione |
 | WM-DIS-0405 | Oberflächliche Verletzung des Kopfes | disease | zu wenige Quellen mit Zusammenfassung (2) für 'scalp injury' |
 | WM-DIS-0409 | Andere Persönlichkeits- und Verhaltensstörungen | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel entspricht der ICD-10-GM-Kategorie F68. Alle Quellen behandeln Persönlichkeitsstörungen allgemein oder F60-Störungen wie Borderline, ant |
 | WM-DIS-0410 | Kombinierte Störung des Sozialverhaltens und der Emotionen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'conduct and emotional disorders' |
@@ -329,20 +330,24 @@ Stand: 01.11.2026 10:25. Warteschlange: claimed 1, duplicate 469, failed 11, mer
 | WM-DIS-0924 | Carcinoma in situ sonstiger und nicht näher bezeichneter Genitalorgane | disease | zu wenige Quellen mit Zusammenfassung (1) für 'anogenital intraepithelial neoplasia' |
 | WM-DIS-0928 | Hydrozele und Spermatozele | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hydrocele and spermatocele' |
 | WM-DIS-0929 | Gutartige Mammadysplasie Brustdrüsendysplasie | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Gutartige Brusterkrankungen (Mammadysplasie)“ ist ein gebräuchliches Synonym für N60 und passt. Quelle 4 ist ein allgemeiner Überblick z |
+| WM-DIS-0932 | Krankheiten der ekkrinen Schweißdrüsen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'eccrine sweat gland diseases' |
 | WM-DIS-0935 | Krankheiten des Ohres und des Warzenfortsatzes nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | zu wenige Quellen mit Zusammenfassung (0) für 'postoperative ear complications' |
 | WM-DIS-0938 | Gutartige Neubildung des Mittelohres und des Atmungssystems | disease | zu wenige Quellen mit Zusammenfassung (0) für 'benign respiratory tract tumors' |
 | WM-DIS-0939 | Gutartige Neubildung sonstiger und nicht näher bezeichneter intrathorakaler Organe | disease | zu wenige Quellen mit Zusammenfassung (1) für 'benign thoracic tumors' |
 | WM-DIS-0940 | Gutartige Neubildung sonstiger und nicht näher bezeichneter weiblicher Genitalorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (D28 umfasst nur sonstige weibliche Genitalorgane (Vulva, Vagina, Tuba usw.), nicht Uterus (D25) und Ovar (D27); der Titel ist ein zu allgeme |
 | WM-DIS-0941 | Neubildung unsicheren oder unbekannten Verhaltens der weiblichen Genitalorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (D39 umfasst Neubildungen unsicheren oder unbekannten Verhaltens aller weiblichen Genitalorgane (Ovar D39.1, Uterus D39.0, Plazenta, sonstige |
 | WM-DIS-0945 | Carcinoma in situ sonstiger und nicht näher bezeichneter Lokalisationen | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (ICD-10-GM D09 umfasst Carcinoma in situ sonstiger und nicht näher bezeichneter Lokalisationen, d. h. nicht Mamma (D05), Cervix (D06), Haut (D04) u |
+| WM-DIS-0954 | Granulomatöse Krankheiten der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt ICD-10 L92 allgemein; alle 6 Quellen fokussieren spezifische Unterformen (z.B. Palisaded Neutrophilic Granulomatous Dermatit |
 | WM-DIS-0957 | Sensibilitätsstörungen der Haut | disease | zu wenige Quellen mit Zusammenfassung (0) für 'cutaneous sensory disturbances' |
 | WM-DIS-0967 | Hordeolum und Chalazion | disease | zu wenige Quellen mit Zusammenfassung (1) für 'stye chalazion' |
+| WM-DIS-0984 | Carcinoma in situ des Mittelohres und des Atmungssystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Carcinoma in situ des Mittelohres' bezeichnet eine maligne Präkanzerose, während die ICD-10-GM D02 auch das Atmungssyste |
 | WM-DIS-0986 | Gutartige Neubildung des mesothelialen Gewebes | disease | zu wenige Quellen mit Zusammenfassung (2) für 'benign mesothelial tumors' |
 | WM-DIS-0987 | Gutartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (D36 umfasst gutartige Neubildungen sonstiger und nicht näher bezeichneter Lokalisationen, u. a. gutartige Weichteiltumoren; der Titel entspricht de |
 | WM-DIS-0988 | Neubildung unsicheren oder unbekannten Verhaltens der männlichen Genitalorgane | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel entspricht D40 (Neubildung unsicheren oder unbekannten Verhaltens der männlichen Genitalorgane: Hoden, Prostata, Nebenhoden, Penis usw.). |
 | WM-DIS-0989 | Sonstige nichtentzündliche Krankheiten der Cervix uteri | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (N88 umfasst sonstige nichtentzündliche Zervixkrankheiten (z. B. Zervixinsuffizienz, Striktur, Elongation, Ulkus, Leukoplakie). Zervixdysplas |
 | WM-DIS-0990 | Tod infolge jeder gestationsbedingten Ursache nach mehr als 42 Tagen bis unter einem Jahr nach der Entbindung | disease | zu wenige Quellen mit Zusammenfassung (1) für 'late maternal death' |
 | WM-DIS-0994 | Otalgie und Ohrenfluss | disease | zu wenige Quellen mit Zusammenfassung (0) für 'otalgia otorrhea' |
+| WM-DIS-0995 | Dermatitis solaris acuta | disease | Entwurf ohne belegte Sätze |
 | WM-DIS-1001 | Sonstige lokale Infektionen der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine Quelle behandelt spezifisch L08 (lokale Infektionen der Haut/Unterhaut ohne spezifische Erregerangabe wie Orf, Mykobakterien oder spezifische |
 | WM-DIS-1013 | Störungen des Geruchs- und Geschmackssinnes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Störungen des Geruchs- und Geschmackssinnes' umfasst auch den Geschmackssinn (ICD-10-GM R43), die Quellen behandeln jedo |
 | WM-DIS-1015 | Schmerz, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 R52 (Schmerz, anderenorts nicht klassifiziert) als primäres Diagnosekriterium oder Krankheitsbild; alle be |
@@ -366,6 +371,7 @@ Stand: 01.11.2026 10:25. Warteschlange: claimed 1, duplicate 469, failed 11, mer
 | WM-DIS-1095 | Meningitis durch sonstige und nicht näher bezeichnete Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G03 umfasst Meningitis sonstiger/nicht näher bezeichneter Ursache (z. B. aseptisch, chronisch, rheumatoid). Bakterielle (G00), tuberkulöse,  |
 | WM-DIS-1096 | Myasthenia gravis und sonstige neuromuskuläre Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Fast alle Quellen behandeln Myasthenia gravis. Quelle 13 betrifft ICI-induzierte Myokarditis/Myositis-MG-Überlappung, also ein anderes Krank |
 | WM-DIS-1122 | Akute obstruktive Laryngitis Krupp und Epiglottitis | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Krupp und Epiglottitis“ entspricht der Klassifikation J05. Quellen 2 und 4 behandeln Krupp (Adrenalin bzw. Kortikoide) und passen. Quell |
+| WM-DIS-1123 | Gutartige Neubildung des Weichteilgewebes des Retroperitoneums und des Peritoneums | disease | zu wenige Quellen mit Zusammenfassung (3) für 'retroperitoneal lipoma' |
 | WM-DIS-1125 | Sonstige Mononeuropathien | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM G58 umfasst alle Mononeuropathien (z.B. periphere Nervenläsionen wie Karpaltunnelsyndrom, Radialisparese). 'Mononeuritis multiplex |
 | WM-DIS-1126 | Sonstige Krankheiten des Zentralnervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM G96 ist eine Sammelkategorie für spezifische, nicht näher bezeichnete Erkrankungen des ZNS (z.B. Enzephalopathie, Myelopathie). De |
 | WM-DIS-1138 | Abnormer Blutdruckwert ohne Diagnose | disease | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Der Titel entspricht R03 (abnormer Blutdruckwert ohne Diagnose). Keine Quelle behandelt isolierte abnorme Blutdruckwerte ohne Diagnose. Die Quelle |
@@ -390,6 +396,7 @@ Stand: 01.11.2026 10:25. Warteschlange: claimed 1, duplicate 469, failed 11, mer
 | WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
 | WM-DIS-1280 | Akute Blutungsanämie | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Akute Blutungsanämie“ entspricht D62. Nur Quelle 2 passt: Sie behandelt Patienten, bei denen Transfusionen nicht möglich sind, also vor  |
 | WM-DIS-1303 | Schrumpfniere, nicht näher bezeichnet | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit die Schrumpfniere (ICD-10-GM N26). Die Quellen behandeln andere Nierenerkrankungen (FMD, Angiomyolipom, Athero |
+| WM-DIS-1304 | Sterbefall während der Gestationsperiode nicht näher bezeichneter Ursache | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10 O95 definiert Sterbefälle unbekannter Ursache, während 'Müttersterblichkeit' (Maternal Mortality) alle Todesfälle während Schwangersc |
 | WM-DIS-1332 | Übelkeit und Erbrechen | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (ICD-10-GM R11 umfasst unspezifische Übelkeit und Erbrechen als Symptom. Nur Quelle 1 behandelt chronische Übelkeit und Erbrechen allgemein, also d |
 | WM-DIS-1334 | Flatulenz und verwandte Zustände | disease | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Der Titel „Blähungen“ ist ein gebräuchliches Synonym für Flatulenz und verwandte Zustände (R14). Passend sind nur die Quellen 7 (Aufstoßen, Blähgef |
 | WM-DIS-1342 | Schwindel und Taumel | disease | Bestätigungsquote 28/54 unter 60 % |
@@ -606,6 +613,7 @@ Stand: 01.11.2026 10:25. Warteschlange: claimed 1, duplicate 469, failed 11, mer
 | WM-DRUG-0658 | Givinostat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln HDAC-Inhibitoren allgemein oder andere spezifische Substanzen (Romidepsin, HBI-8000, Chrysin) im Kontext von Onkologi |
 | WM-DRUG-0660 | Fluticasonfuroat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle sechs Quellen behandeln Fluticasonfuroat (allein oder in Kombination mit Umeclidinium/Vilanterol bzw. als Nasenspray oder Inhalativum). |
 | WM-DRUG-0661 | Reslizumab | drug | Themenprüfung: nur 1 von 14 Quellen passen zum Thema (Der Titel „Reslizumab“ passt zum Wirkstoff (ATC R03DX08). Nur Quelle 6 nennt Reslizumab ausdrücklich im Titel. Die übrigen Quellen behandeln Biolo |
+| WM-DRUG-0664 | Tezepelumab | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Tezepelumab“ bezeichnet denselben Wirkstoff wie ATC R03DX11. Quelle 1 behandelt Tezepelumab direkt. Quelle 5 behandelt die TSLP-Blockade |
 | WM-DRUG-0671 | Acetyldigitoxin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Acetyldigitoxin. 'Cardiac glycosides' ist zu allgemein und umfasst viele Substanzen. Titel passen nicht, d |
 | WM-DRUG-0672 | Acetyldigoxin | drug | Bestätigungsquote 36/63 unter 60 % |
 | WM-DRUG-0676 | Lanatosid C | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Lanatosid C ist ein spezifisches Herzglykosid (Digitalis-lanata-Glykosid, Vorstufe von Digoxin). Keine der Quellen behandelt Lanatosid C selbst. S |
@@ -780,6 +788,7 @@ Stand: 01.11.2026 10:25. Warteschlange: claimed 1, duplicate 469, failed 11, mer
 | WM-DRUG-0877 | Kaliumcanrenoat | drug | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Der Titel „Kaliumcanrenoat“ bezeichnet den Wirkstoff (Prodrug von Canrenon, ATC C03DA02) und passt zur Klassifikation. Keine der Quellen behandelt |
 | WM-DRUG-0878 | Canrenon | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Der Titel Canrenon bezeichnet den Wirkstoff (ATC C03DA03) korrekt. Keine der Quellen behandelt jedoch speziell Canrenon. Die Quellen 1, 2, 4, 5, 6  |
 | WM-DRUG-0879 | Eplerenon | drug | Bestätigungsquote 22/40 unter 60 %; zu viele nur teilweise belegte Sätze (17/22) |
+| WM-DRUG-0881 | Amilorid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'ENaC blocker' |
 | WM-DRUG-0882 | Triamteren | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Triamteren“ bezeichnet denselben Wirkstoff wie ATC C03DB02. Keine der Quellen behandelt jedoch Triamteren als Schwerpunkt. Quelle 1 betr |
 | WM-DRUG-0883 | Conivaptan | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel „Conivaptan“ entspricht dem Wirkstoff der Klassifikation (ATC C03XA02, Vasopressin-Antagonist). Nur die Quellen 1 und 2 behandeln Vaptane |
 | WM-DRUG-0884 | Schachtelhalmkraut | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Schachtelhalmkraut“ (Equisetum arvense herba, ATC C03XP01) bezeichnet denselben Wirkstoff wie die Klassifikation. Nur Quelle 1 behandelt |
@@ -2285,6 +2294,29 @@ Stand: 01.11.2026 10:25. Warteschlange: claimed 1, duplicate 469, failed 11, mer
 | WM-DRUG-2914 | Peginterferon alfacon-2 | drug | zu wenige Quellen mit Zusammenfassung (0) für 'peginterferon alfacon-1' |
 | WM-DRUG-2916 | Interferon gamma-1b | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Interferon gamma-1b oder damit verbundene Indikationen (z.B. chronische granulomatöse Erkrankun |
 | WM-DRUG-2917 | Aldesleukin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Aldesleukin (rekombinantes IL-2) als Wirkstoff oder dessen spezifische Indikationen (z.B. metastasiertes N |
+| WM-DRUG-2919 | Enterococcus faecalis | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel bezieht sich auf den ATC-Wirkstoff 'Enterococcus faecalis' (L03AG01, Immunstimulanzien). Die Liste enthält jedoch aussc |
+| WM-DRUG-2920 | Bacillus subtilis | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den humanmedizinischen Wirkstoff Bacillus subtilis (ATC L03AG02) als Immunstimulans; alle Quellen beziehen sich auf T |
+| WM-DRUG-2921 | Mycobacterium phlei | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Mycobacterium phlei' |
+| WM-DRUG-2922 | Bacillus cereus | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt den immunmodulatorischen Wirkstoff Bacillus cereus (ATC L03AG05) zur Behandlung von Erkrankungen. Die Quellen |
+| WM-DRUG-2924 | Echinacea angustifolia | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf Echinacea angustifolia (ATC L03AH02), die Quellen behandeln jedoch Echinacea purpurea. Dies sind untersc |
+| WM-DRUG-2925 | Echinacea-purpurea-Presssaft | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Echinacea purpurea juice' |
+| WM-DRUG-2926 | Echinacea-pallida-Wurzel | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Echinacea pallida' |
+| WM-DRUG-2928 | Roquinimex | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Roquinimex (ATC L03AX02) ist ein Immunmodulator. Der Suchbegriff 'quinapril' bezieht sich auf einen ACE-Hemmer (ATC C09AA11).  |
+| WM-DRUG-2930 | Pegademase | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pegademase bovine' |
+| WM-DRUG-2931 | Pidotimod | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln Immunstimulanzien allgemein, nicht spezifisch Pidotimod. Quellen 3 und 4 nennen Pidotimod explizit im Titel.) |
+| WM-DRUG-2932 | Poly I:C | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Poly IC' |
+| WM-DRUG-2933 | Poly ICLC | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 2 behandelt Poly-ICLC direkt und im Titel als Wirkstoff. Die übrigen Quellen sind allgemeine Arbeiten zu Impfstoffen, Adjuvanzien oder M |
+| WM-DRUG-2934 | Thymopentin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Thymopentin (Thymopoietin-Fragment 32–36, TP-5) ist ein anderer Wirkstoff als Thymosin beta-4 (Tβ4, 43 Aminosäuren). Alle Quellen behandeln Thymosi |
+| WM-DRUG-2935 | Immunocyanin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Immunocyanin (ATC L03AX10). Sie betreffen alle die Labormethode Immunfluoreszenz (Autoantikörperdi |
+| WM-DRUG-2937 | Glatirameracetat | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Nur die Quellen 2, 3 und 8 behandeln Glatirameracetat direkt. Die übrigen Quellen befassen sich allgemein mit Multipler Sklerose, mit Therapien in |
+| WM-DRUG-2938 | Sipuleucel-T | drug | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (Der Titel „Sipuleucel-T“ entspricht dem Wirkstoff (ATC L03AX17). Nur die Quellen 7, 8 und 11 behandeln Sipuleucel-T direkt. Die übrigen Quellen si |
+| WM-DRUG-2939 | Cridanimod | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cridanimod' |
+| WM-DRUG-2940 | Dasiprotimut-T | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dasiprotimut-T' |
+| WM-DRUG-2941 | Elapegademase | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Elapegademase' |
+| WM-DRUG-2942 | Motixafortid | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 2, 5 und 6 behandeln Motixafortid (Aphexda) direkt. Quelle 1 ist eine allgemeine Leitlinie zu Wachstumsfaktoren, Quelle 3 behandelt CXCR4 b |
+| WM-DRUG-2943 | Thymuspeptide | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln explizit Thymic peptides als Wirkstoff/Therapeutikum. Quelle 3 und 4 behandeln Thymus-Endokrinologie (allgemein/physiolog |
+| WM-DRUG-2944 | Milzhydrolysat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Spleen hydrolysate' |
+| WM-DRUG-2946 | Histaglobin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Histaglobin' |
 | WM-DRUG-2947 | Antilymphozytäres Immunglobulin (Pferd) | drug | zu wenige Quellen mit Zusammenfassung (2) für 'equine antithymocyte globulin' |
 | WM-DRUG-2948 | Antithymozytäres Immunglobulin (Kaninchen) | drug | Bestätigungsquote 25/68 unter 60 %; zu viele nur teilweise belegte Sätze (15/25) |
 | WM-DRUG-2949 | Alefacept | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt Alefacept spezifisch. Es handelt sich um allgemeine Arbeiten zu Biologika bei Psoriasis, Vitiligo, Diabetes oder Naturs |
@@ -2317,8 +2349,17 @@ Stand: 01.11.2026 10:25. Warteschlange: claimed 1, duplicate 469, failed 11, mer
 | WM-DRUG-2993 | Darvadstrocel | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 2, 3 und 5 behandeln Darvadstrocel bzw. allogene Stammzelltherapie (adipose-derived MSC) bei komplexen perianalen Fisteln bei Morbus Crohn. |
 | WM-DRUG-2994 | Diroximelfumarat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Diroximel fumarate' |
 | WM-DRUG-2995 | Humane allogene mesenchymale Stromazellen | drug | Themenprüfung: nur 1 von 14 Quellen passen zum Thema (ATC L04AX18 = Darvadstrocel (allogene MSC aus Fettgewebe) bei perianalen Fisteln bei Morbus Crohn; nur Quelle 7 behandelt diese Indikation. Die üb |
+| WM-DRUG-2997 | Afamelanotid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Afamelanotide' |
+| WM-DRUG-2998 | Beremagen geperpavec | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Beremagen geperpavec (ATC D03AX16, Wundheilungsförderer) oder dessen spezifische Indikation. Al |
 | WM-DRUG-3000 | Amikacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation D06AX12 bezeichnet Amikacin als topisches Antibiotikum (Dermatologikum), der Wirkstoff selbst ist aber systemisch bzw |
+| WM-DRUG-3002 | Polihexanid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Polihexanid; alle sind allgemein zu Wunddesinfektion oder -versorgung.) |
+| WM-DRUG-3009 | Tiratricol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Tiratricol' |
 | WM-DRUG-3011 | Sirolimus | drug | zu viele nur teilweise belegte Sätze (22/45) |
+| WM-DRUG-3012 | Nepafenac | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Quellen 1, 3 und 7 behandeln explizit Nepafenac. Quelle 2 ist eine Meta-Analyse zu Schmerzmanagement nach PRK, die Nepafenac als eine von vielen St |
+| WM-DRUG-3013 | Bromfenac | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Bromfenac. Quelle 2-6 behandeln NSAIDs allgemein, nicht spezifisch Bromfenac. Quelle 7 ist zu allgemein. Quelle 8 i |
+| WM-DRUG-3014 | Brinzolamid | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 1 und 3 behandeln explizit Brinzolamid. Quelle 2 behandelt Latanoprostenbunod, Quelle 4 Thiophene, Quelle 5 Pyrazole/CA-Hemmer allgemei |
+| WM-DRUG-3018 | Emedastin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Emedastine' |
+| WM-DRUG-3019 | Verteporfin | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln explizit Verteporfin-PDT. Quelle 5 ist eine Übersicht zu Chorioretinal Conditions, was den Wirkstoff abdeckt. Quelle 3 |
 | WM-DRUG-3048 | Aldosteron | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Das Thema 'Aldosteron' (ATC H02AA01) bezieht sich auf den Wirkstoff als Arzneimittel (Glukokortikoid). Die Quellen behandeln das endogene Ho |
 | WM-DRUG-3049 | Fludrocortison | drug | Bestätigungsquote 23/41 unter 60 % |
 | WM-DRUG-3050 | Desoxycorton | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 2 und 6 behandeln direkt Desoxycorticosteron (DOC) oder CYP11B1-Mangel (Ursache von DOC-Anhäufung). Quelle 1 ist zu allgemein (Aldosteronis |
