@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 08:25. Warteschlange: claimed 1, duplicate 469, failed 11, planned 2388, published 1497, ready 11, redirect 374, review 2360.
+Stand: 01.11.2026 09:25. Warteschlange: claimed 1, duplicate 469, failed 11, merged 1, planned 2331, published 1507, ready 22, redirect 374, review 2395.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -421,6 +421,7 @@ Stand: 01.11.2026 08:25. Warteschlange: claimed 1, duplicate 469, failed 11, pla
 | WM-DRUG-0189 | Glycopyrroniumbromid | drug | Bestätigungsquote 22/39 unter 60 % |
 | WM-DRUG-0198 | Topotecan | drug | Bestätigungsquote 29/52 unter 60 % |
 | WM-DRUG-0203 | Eribulin | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/55 unter 60 % |
+| WM-DRUG-0208 | Pirfenidon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'pirfenidone idiopathic pulmonary fibrosis' |
 | WM-DRUG-0215 | Carglumsäure | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt explizit Carglumic acid. Quelle 2 ist zu allgemein (Urea Cycle Disorders). Quelle 1 und 3 sind irrelevant.) |
 | WM-DRUG-0216 | Betain | drug | Bestätigungsquote 39/67 unter 60 % |
 | WM-DRUG-0217 | Natriumphenylbutyrat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'sodium phenylbutyrate' |
@@ -434,11 +435,13 @@ Stand: 01.11.2026 08:25. Warteschlange: claimed 1, duplicate 469, failed 11, pla
 | WM-DRUG-0244 | Fulvestrant | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Der Titel 'Fulvestrant' entspricht dem Wirkstoff (ATC L02BA03). Nur die Quellen 2, 3 und 4 behandeln Fulvestrant ausdrücklich, nämlich in Kombinat |
 | WM-DRUG-0246 | Interferon beta-1a | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Nur die Quellen 5, 6 und 10 behandeln Interferon beta-1a direkt (subkutan bzw. intramuskulär). Die übrigen Quellen betreffen Multiple Sklerose all |
 | WM-DRUG-0254 | Febuxostat | drug | zu viele nur teilweise belegte Sätze (13/31) |
+| WM-DRUG-0255 | Indacaterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'indacaterol COPD' |
 | WM-DRUG-0256 | Mexiletin | drug | zu viele nur teilweise belegte Sätze (17/38) |
 | WM-DRUG-0257 | Dronedaron | drug | zu viele nur teilweise belegte Sätze (14/34) |
 | WM-DRUG-0258 | Vernakalant | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Vernakalant“ bezeichnet denselben Wirkstoff wie ATC C01BG11. Nur die Quellen 3 und 7 behandeln Vernakalant ausdrücklich. Die übrigen Que |
 | WM-DRUG-0260 | Ranolazin | drug | zu viele nur teilweise belegte Sätze (25/40) |
 | WM-DRUG-0262 | Acoramidis | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 3 behandelt Acoramidis direkt. Quelle 1 ist eine Meta-Analyse zu TTR-Stabilisatoren allgemein (Tafamidis, ggf. Acoramidis), aber nicht s |
+| WM-DRUG-0265 | Sotatercept | drug | zu wenige Quellen mit Zusammenfassung (0) für 'sotatercept pulmonary arterial hypertension' |
 | WM-DRUG-0273 | Colesevelam | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Colesevelam“ entspricht dem Wirkstoff der Klassifikation (ATC C10AC04). Nur Quelle 5 behandelt Colesevelam hydrochloride ausdrücklich. D |
 | WM-DRUG-0277 | Volanesorsen | drug | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Titel und ATC C10AX18 bezeichnen beide Volanesorsen. Nur die Quellen 5, 6 und 13 behandeln den Wirkstoff direkt. Olezarsen (1) ist ein anderer Wir |
 | WM-DRUG-0281 | Ceftarolinfosamil | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 2, 3 und 6 behandeln Ceftarolinfosamil direkt. Quelle 1 ist eine Netzwerk-Metaanalyse zu sechs Antibiotika bei MRSA-Infektionen und nicht s |
@@ -513,6 +516,7 @@ Stand: 01.11.2026 08:25. Warteschlange: claimed 1, duplicate 469, failed 11, pla
 | WM-DRUG-0430 | Leriglitazon | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Leriglitazone' |
 | WM-DRUG-0431 | Sepiapterin | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Die Quellen 1–3 behandeln den Wirkstoff Sepiapterin (Sepiapterin, Therapie der Phenylketonurie). Quelle 4 betrifft die Hemmung der Sepiapterin-Redu |
 | WM-DRUG-0438 | Tenecteplase | drug | zu viele nur teilweise belegte Sätze (16/24) |
+| WM-DRUG-0442 | Fondaparinux | drug | zu wenige Quellen mit Zusammenfassung (0) für 'fondaparinux venous thromboembolism' |
 | WM-DRUG-0445 | Von Willebrand-Faktor | drug | zu viele nur teilweise belegte Sätze (15/28) |
 | WM-DRUG-0446 | Catridecacog | drug | zu wenige Quellen mit Zusammenfassung (1) für 'recombinant factor XIII' |
 | WM-DRUG-0454 | Darbepoetin alfa | drug | Bestätigungsquote 27/53 unter 60 %; zu viele nur teilweise belegte Sätze (15/27) |
@@ -1812,6 +1816,7 @@ Stand: 01.11.2026 08:25. Warteschlange: claimed 1, duplicate 469, failed 11, pla
 | WM-DRUG-2255 | Huminsäuren | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Arzneimittelwirkstoff Huminsäuren (ATC A07BC08) für medizinische Indikationen; Quellen behandeln Umwel |
 | WM-DRUG-2256 | Kaffeekohle | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Aktivkohle als Adsorbens in Umwelttechnik, Materialwissenschaft oder Biotechnologie, nicht als Arzneimittel zur Gastr |
 | WM-DRUG-2257 | Diphenoxylat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Diphenoxylat. Quelle 1 behandelt Antimotilitätsmittel allgemein, Quelle 3 Opiumtinktur, Quelle 4 Opioide a |
+| WM-DRUG-2259 | Loperamid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'loperamide diarrhea' |
 | WM-DRUG-2260 | Difenoxin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Difenoxin' |
 | WM-DRUG-2261 | Loperamidoxid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'loperamide N-oxide' |
 | WM-DRUG-2262 | Eluxadolin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Eluxadolin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC A07DA06). Nur Quelle 6 behandelt Eluxadolin direkt. Quelle 3 unte |
@@ -2199,7 +2204,37 @@ Stand: 01.11.2026 08:25. Warteschlange: claimed 1, duplicate 469, failed 11, pla
 | WM-DRUG-2793 | Pexidartinib | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Nur 3 Quellen behandeln explizit Pexidartinib und das spezifische Krankheitsbild Tenosynovial Giant Cell Tumor (TGCT). Quelle 1 ist zu allgemein ( |
 | WM-DRUG-2794 | Ripretinib | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Ripretinib oder dessen Indikation (GIST). Alle Quellen befassen sich mit anderen Themen (Onkolo |
 | WM-DRUG-2795 | Pralsetinib | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Pralsetinib oder dessen Indikation (RET-Mutant-Mutationen bei Krebs). Alle Quellen behandeln an |
+| WM-DRUG-2797 | Umbralisib | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Umbralisib direkt (Wirksamkeit/Sicherheit, Evidenz bei MZL/FL, Erstzulassung). Quelle 2 ist ein indirekter Vergleich m |
+| WM-DRUG-2798 | Sitravatinib | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt Sitravatinib. Sie betreffen andere Themen (u. a. IBD, Pankreasinsuffizienz, GERD, Dengue, Melasma). Die SBRT-Arbeit zu |
+| WM-DRUG-2799 | Vimseltinib | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln direkt Vimseltinib. Quelle 2 ist ein allgemeiner Überblick über Proteinkinaseinhibitoren und Quelle 5 behandelt die me |
 | WM-DRUG-2800 | Ofatumumab | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Titel „Ofatumumab“ entspricht dem Wirkstoff der Klassifikation (L01FA02). Keine der Quellen behandelt spezifisch Ofatumumab: Sie betreffen die ges |
+| WM-DRUG-2801 | Moxetumomab pasudotox | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Moxetumomab pasudotox direkt. Die übrigen Quellen sind allgemeine Übersichten zur Haarzell-Leukämie oder zu MRD und behandel |
+| WM-DRUG-2803 | Trastuzumab duocarmazin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Trastuzumab duocarmazin; alle sind allgemein zu HER2-Targeting oder anderen ADCs.) |
+| WM-DRUG-2806 | Necitumumab | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Necitumumab. Quelle 2 ist zu allgemein (EGFR-mutant), Quelle 3 behandelt Cisplatin, Quelle 4 ist ein breiter Review |
+| WM-DRUG-2810 | Prolgolimab | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Prolgolimab; alle beziehen sich auf die allgemeine Klasse der Immune Checkpoint Inhibitors.) |
+| WM-DRUG-2812 | Envafolimab | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 4 und 6 behandeln Envafolimab direkt. Quelle 2 behandelt nur ICI-Diabetes allgemein, Quelle 3 nur andere PD-1/PD-L1-Antikörper, Quelle 5 |
+| WM-DRUG-2814 | Edrecolomab | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Edrecolomab (ein murines IgM-Antikörper gegen den TAA 17-1A). Alle Quellen behandeln andere Antikörper (Anti-CD2 |
+| WM-DRUG-2817 | Olaratumab | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Olaratumab. Die Quellen behandeln allgemeine Sarkom-Therapien, andere Wirkstoffe oder andere Krebsart |
+| WM-DRUG-2818 | Bermekimab | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Bermekimab ist ein spezifischer IL-1A-Inhibitor. Die Quellen behandeln Hidradenitis suppurativa allgemein oder IL-1-Inhibitoren im Allgemein |
+| WM-DRUG-2819 | Oportuzumab monatox | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Oportuzumab monatox; alle sind allgemeine Übersichten zu ADCs oder NMIBC-Behandlungen.) |
+| WM-DRUG-2821 | Sabatolimab | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Sabatolimab (TIM-3-Inhibitor). Die Quellen sind zu allgemein (AML/MDS) oder behandeln andere Tumorentitäten  |
+| WM-DRUG-2823 | Elranatamab | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Elranatamab' |
+| WM-DRUG-2824 | Odronextamab | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 3 und 4 behandeln explizit Odronextamab. Quelle 1 ist spezifisch für CAR-T-refraktäres LBCL, was eine Untergruppe ist, aber der Titel n |
+| WM-DRUG-2825 | Patritumab deruxtecan | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Quellen 3, 6 und 7 behandeln explizit Patritumab deruxtecan. Quelle 1, 2, 4, 5, 10, 11 sind allgemein zu ADCs oder anderen Targets. Quelle 8 ist z |
+| WM-DRUG-2826 | Linvoseltamab | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Quellen 3, 4 und 5 behandeln explizit Linvoseltamab. Quelle 1 ist eine Übersicht über T-Zell-Engager (inkl. Linvoseltamab), aber kein Fokus darauf |
+| WM-DRUG-2830 | Satraplatin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'satraplatin' |
+| WM-DRUG-2831 | Polyplatillen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Polysorbate' (Tenside/Exzipienzien) ist falsch für den Wirkstoff 'Polyplatillen' (ATC L01XA05, ein Antineoplastikum). Keine |
+| WM-DRUG-2832 | Procarbazin | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Nur 3 Quellen behandeln explizit Procarbazin. Quelle 1, 3, 4, 6, 8 behandeln andere Wirkstoffe oder keine spezifische Erwähnung von Procarbazin im  |
+| WM-DRUG-2833 | Porfimer natrium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Porfimer sodium; alle behandeln Photodynamische Therapie (PDT) allgemein oder andere Wirkstoffe (z.B. |
+| WM-DRUG-2834 | Methylaminolevulinat | drug | Bestätigungsquote 23/50 unter 60 % |
+| WM-DRUG-2835 | Efaproxiral | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Efaproxiral' |
+| WM-DRUG-2839 | Belinostat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Belinostat; alle beziehen sich auf HDAC-Inhibitoren allgemein oder andere Substanzen.) |
+| WM-DRUG-2840 | Entinostat | drug | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit Entinostat. Quellen 2, 5, 7 behandeln HDAC-Inhibitoren allgemein oder in anderen Kontexten. Da nur 1 Quelle passt  |
+| WM-DRUG-2841 | Tucidinostat | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 9 behandelt explizit Tucidinostat. Quelle 3 behandelt Chidamid (anderer HDAC-Inhibitor), Quelle 5 ist zu allgemein. Da nur 1 Quelle pass |
+| WM-DRUG-2842 | Resminostat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Resminostat; alle beziehen sich auf HDAC-Inhibitoren allgemein oder andere Substanzen.) |
+| WM-DRUG-2845 | Rucaparib | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/50 unter 60 % |
+| WM-DRUG-2847 | Pamiparib | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 7 behandelt explizit Pamiparib. Die anderen Quellen behandeln PARP-Inhibitoren allgemein oder andere Themen.) |
+| WM-DRUG-2848 | Sitimagen ceradenovec | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Sitagenimceradenovec ist ein Gentransfer-Vektor für die Behandlung der Hämophilie B (Faktor-IX-Mangel). Die Quellen behandeln entweder Hämop |
 | WM-DRUG-2947 | Antilymphozytäres Immunglobulin (Pferd) | drug | zu wenige Quellen mit Zusammenfassung (2) für 'equine antithymocyte globulin' |
 | WM-DRUG-2948 | Antithymozytäres Immunglobulin (Kaninchen) | drug | Bestätigungsquote 25/68 unter 60 %; zu viele nur teilweise belegte Sätze (15/25) |
 | WM-DRUG-2949 | Alefacept | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt Alefacept spezifisch. Es handelt sich um allgemeine Arbeiten zu Biologika bei Psoriasis, Vitiligo, Diabetes oder Naturs |
