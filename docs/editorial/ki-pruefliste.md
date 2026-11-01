@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 00:25. Warteschlange: claimed 1, duplicate 446, planned 2846, published 1388, ready 11, redirect 374, review 2041.
+Stand: 01.11.2026 01:25. Warteschlange: claimed 1, duplicate 446, planned 2770, published 1398, ready 12, redirect 374, review 2106.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1772,15 +1772,80 @@ Stand: 01.11.2026 00:25. Warteschlange: claimed 1, duplicate 446, planned 2846, 
 | WM-DRUG-2187 | Ornithinaspartat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Ornithinaspartat (ATC A05BA17) oder dessen spezifische Indikation (Hyperammonämie bei Harnstoffzyklusdefekten). Quell |
 | WM-DRUG-2188 | Cianidanol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Cianidanol (Pyrogallol) ist kein Katechin. Die Quellen behandeln Katechine (z.B. EGCG), was ein chemisch anderer Wirkstoff ist. Der Suchbegr |
 | WM-DRUG-2191 | Phospholipide | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine Quelle behandelt Phospholipide als Arzneimittel (essentielle Phospholipide bei Lebererkrankungen); alle befassen sich mit Phospholipiden als |
+| WM-DRUG-2192 | Dickflüssiges Paraffin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit den Wirkstoff 'Liquid Paraffin' oder die Indikation 'functional constipation' spezifisch für diesen Wirkstoff; |
+| WM-DRUG-2193 | Docusat-Natrium | drug | zu wenige Quellen mit Zusammenfassung (3) für 'stool softener' |
+| WM-DRUG-2194 | Dünnflüssiges Paraffin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch 'liquid paraffin' als Arzneimittelwirkstoff zur Behandlung von Verstopfung (ATC A06AA03). Quelle 1 be |
+| WM-DRUG-2195 | Oxyphenisatin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Oxyphenisatin; alle beziehen sich auf Laxanzien allgemein.) |
+| WM-DRUG-2196 | Bisacodyl | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 9 behandelt explizit den Wirkstoff Bisacodyl. Die anderen Quellen behandeln allgemeinere Themen wie chronische Verstopfung oder Darmspie |
+| WM-DRUG-2198 | Phenolphthalein | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Phenolphthalein; Quellen sind zu allgemein (allgemeine Supplement-Sicherheit, forensische Tests, allgemein |
+| WM-DRUG-2199 | Rizinusöl | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Nur Quelle 8 (Toxikologie/Kosmetik) und 11 (Augenerkrankungen) behandeln explizit Castor Oil/Rizinusöl. Quelle 7 erwähnt es implizit über Ricinus  |
+| WM-DRUG-2200 | Sennoside | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Sennoside; Titel sind zu allgemein (z.B. 'stimulant laxatives', 'anthraquinones') oder behandeln andere In |
+| WM-DRUG-2201 | Cascara | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Cascara als Arzneimittelwirkstoff (ATC A06AB07) zur Behandlung von Verstopfung. Quelle 1, 3 und 5 behandel |
 | WM-DRUG-2202 | Natriumpicosulfat | drug | Bestätigungsquote 28/48 unter 60 % |
+| WM-DRUG-2203 | Bisoxatin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'Bisoprolol' (Beta-Blocker) passt nicht zum Thema 'Bisoxatin' (Abführmittel). Keine der Quellen behandelt Bisoxatin.) |
+| WM-DRUG-2205 | Aloe | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der ATC-Code A06AB13 (Aloe) ist für orale Darreichungsformen zur Behandlung von Verstopfung indiziert. Die Quellen behandeln ausschließlich  |
+| WM-DRUG-2207 | Ethulose | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Ethulose (Natrium-2-hydroxy-1-(4-sulfophenyl)ethylsulfonat) ist ein osmotisch wirksames Abführmittel. Der Suchbegriff 'Ethanolamine' bezieht |
+| WM-DRUG-2208 | Sterculia | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel bezieht sich auf den ATC-Wirkstoff 'Sterculia' (Abführmittel, Sterculia gum). Die Quellen behandeln 'Sterculia' als Pfl |
+| WM-DRUG-2209 | Leinsamen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Leinsamen (Linum usitatissimum) ist kein Arzneimittelwirkstoff im ATC-System (A06AC05 bezieht sich auf Ballaststoffe, aber Leinsamen ist pri |
+| WM-DRUG-2210 | Methylcellulose | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Methylcellulose (ATC A06AC06) als Arzneimittel zur Behandlung von Verstopfung. Quellen zu Carboxymethyl |
+| WM-DRUG-2211 | Triticum (Weizenkleie) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Triticum (Weizenkleie) als Arzneimittel (ATC A06AC07). Quellen zu Allergie, Zöliakie oder Nicht-Zöliaki |
+| WM-DRUG-2212 | Polycarbophil-Calcium | drug | zu wenige Quellen mit Zusammenfassung (1) für 'calcium polycarbophil' |
+| WM-DRUG-2213 | Magnesiumsulfat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt ausschließlich den Wirkstoff Magnesiumsulfat als primäres Thema ohne spezifische, einschränkende Indikation (z.B. nur |
+| WM-DRUG-2215 | Lactitol | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Quellen 1 und 8 behandeln funktionelle Verstopfung, für die Lactitol als osmotisches Abführmittel indiziert ist. Quellen 2-7 behandeln hepatische E |
+| WM-DRUG-2216 | Natriumsulfat | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 2 behandelt Natriumsulfat als Wirkstoff (Oral sulfate solution). Quelle 1 (Carbazochrome), 3 (Industrie), 4 (DSS, kein Natriumsulfat), 5 |
+| WM-DRUG-2217 | Pentaerythrityl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Pentaerythrityl (ATC A06AD14) oder dessen medizinische Anwendung. Die Quellen beziehen sich auf Sp |
 | WM-DRUG-2218 | Macrogol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Macrogol primär als Arzneimittelwirkstoff (z.B. zur Behandlung von Verstopfung). Quelle 2 und 4 behandeln Allergien g |
+| WM-DRUG-2219 | Natriumphosphat | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln Natriumphosphat als Wirkstoff zur Darmspiegelungsvorbereitung. Quelle 3 und 4 behandeln Dexamethason/Hydrocortison-Natriu |
+| WM-DRUG-2220 | Sorbitol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Sorbitol als Arzneimittelwirkstoff (ATC A06AD18) zur Behandlung von Durchfall oder als Abführmittel. Quellen beziehen |
+| WM-DRUG-2221 | Magnesiumcitrat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Magnesiumcitrat (ATC A06AD19) als Abführmittel; alle Quellen beziehen sich auf andere Indikationen (z.B. N |
+| WM-DRUG-2222 | Natriumtartrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sodium tartrate' |
+| WM-DRUG-2225 | Kohlendioxid freisetzende Mittel | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Carbon dioxide releasing agents' |
+| WM-DRUG-2227 | Tegaserod | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Nur Quellen 7, 8 und 9 behandeln explizit den Wirkstoff Tegaserod. Quelle 10 behandelt Bisacodyl, die anderen behandeln IBS-C allgemein ohne Fokus |
+| WM-DRUG-2228 | Plecanatid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Quellen 1, 2, 3, 7, 8, 9 behandeln entweder nur die Indikation ohne den Wirkstoff oder sind zu allgemein/anders fokussiert. Nur 4, 5 und 6 n |
+| WM-DRUG-2230 | Elobixibat | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 3 und 5 behandeln explizit Elobixibat. Quelle 2 ist eine Kostenanalyse ohne Fokus auf den Wirkstoff. Quelle 4 ist allgemein. Quelle 6 be |
 | WM-DRUG-2231 | Streptomycin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Streptomycin wird nur in den Quellen 6 und 7 direkt behandelt. Die Quellen 1 und 2 behandeln die Brucellose-Therapie allgemein |
+| WM-DRUG-2233 | Paromomycin | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Quellen 1 und 8 behandeln Paromomycin direkt. Quelle 6 behandelt Paromomycin-Modifikationen. Quelle 2, 3, 5 sind zu allgemein (Leishmaniasis allgem |
 | WM-DRUG-2234 | Kanamycin | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Kanamycin (ATC A07AA08, orales Aminoglykosid-Antibiotikum) ist der Wirkstoff; der Titel passt. Nur Quelle 3 (Kanamycin-Nachweis, Biosensoren) und  |
+| WM-DRUG-2237 | Rifamycin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Rifamycin (ATC A07AA13) ist ein Antidiarrhoikum (z.B. Rifaximin). Die Quellen behandeln Rifamycine als Antibiotika (z.B. gegen |
+| WM-DRUG-2238 | Phthalylsulfathiazol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'phthalylsulfathiazole' |
+| WM-DRUG-2239 | Sulfaguanidin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Sulfaguanidine' |
+| WM-DRUG-2240 | Succinylsulfathiazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Sulfasalazine' (ATC A07AB04 ist eigentlich Sulfasalazine, aber der Benutzer nennt Succinylsulfathiazol ATC A07AB04 - Hinwei |
+| WM-DRUG-2241 | Sulfaguanol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Sulfaguanidine' |
+| WM-DRUG-2242 | Broxychinolin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Broxyquinoline' |
+| WM-DRUG-2243 | Acetarsol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Acetarsol' |
+| WM-DRUG-2244 | Nifuroxazid | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Nur Quellen 2 und 5 behandeln explizit den Wirkstoff Nifuroxazid. Quelle 1 (Colitis), 3 (Methotrexat), 4 (IPF) und 6 (Sepsis) behandeln andere Kran |
+| WM-DRUG-2245 | Nifurzid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nifurzide' |
+| WM-DRUG-2246 | Dichlorchinolinol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chlorquinaldol' |
+| WM-DRUG-2249 | Pektin | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Keine Quelle behandelt Pektin primär als Arzneimittelwirkstoff (ATC A07BC01) zur Behandlung von Durchfallerkrankungen; alle Quellen fokussieren au |
+| WM-DRUG-2250 | Kaolin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 2 behandelt Kaolin als Arzneimittelwirkstoff (ATC A07BC02) zur Behandlung von Ulcerative Colitis. Die anderen Quellen beziehen sich auf  |
+| WM-DRUG-2251 | Crospovidon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Crospovidone' |
+| WM-DRUG-2252 | Attapulgit | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Attapulgit als Arzneimittel (ATC A07BC04) oder dessen medizinische Indikation; alle Quellen beziehen sich auf Materia |
+| WM-DRUG-2253 | Diosmectit | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 2 behandelt explizit Smectit (Diosmectit) in einem klinischen Kontext. Quelle 7 behandelt Mucoprotektiva allgemein, ohne spezifisch Dios |
+| WM-DRUG-2254 | Siliciumdioxid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Siliciumdioxid als Arzneimittelwirkstoff (Antidiarrhoikum ATC A07BC07). Alle Quellen beziehen sich auf Silikose (Beru |
+| WM-DRUG-2255 | Huminsäuren | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Arzneimittelwirkstoff Huminsäuren (ATC A07BC08) für medizinische Indikationen; Quellen behandeln Umwel |
+| WM-DRUG-2256 | Kaffeekohle | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Aktivkohle als Adsorbens in Umwelttechnik, Materialwissenschaft oder Biotechnologie, nicht als Arzneimittel zur Gastr |
+| WM-DRUG-2257 | Diphenoxylat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Diphenoxylat. Quelle 1 behandelt Antimotilitätsmittel allgemein, Quelle 3 Opiumtinktur, Quelle 4 Opioide a |
 | WM-DRUG-2259 | Loperamid | drug | Widerspruch zum medicATe-Steckbrief: Der Artikel behauptet, Naloxon sei unwirksam bei der Umkehrung von Loperamid-induzierten Arrhythmien. Der Steckbrief listet Naloxon als Antidot bei Überdosierung m |
+| WM-DRUG-2260 | Difenoxin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Difenoxin' |
+| WM-DRUG-2261 | Loperamidoxid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'loperamide N-oxide' |
+| WM-DRUG-2262 | Eluxadolin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Eluxadolin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC A07DA06). Nur Quelle 6 behandelt Eluxadolin direkt. Quelle 3 unte |
 | WM-DRUG-2263 | Prednison | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation A07EA03 bezeichnet Prednison zur lokalen Anwendung bei Darmerkrankungen (intestinale Antiphlogistika, Kortikosteroide |
+| WM-DRUG-2264 | Tixocortol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tixocortol' |
 | WM-DRUG-2265 | Beclometason | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel entspricht dem Wirkstoff Beclometason. Nur Quelle 1 behandelt Beclometason gezielt (Fixkombination bei Asthma). Die Quellen 2 und 3 sind allg |
 | WM-DRUG-2266 | Cromoglicinsäure | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Titel 'Cromoglicinsäure' entspricht dem Wirkstoff Cromoglicat (ATC A07EB01, oral bei Mastzellerkrankungen/Nahrungsmittelallergie). Nur Quelle 5 (W |
 | WM-DRUG-2267 | Sulfasalazin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Sulfasalazin“ entspricht dem Wirkstoff der Klassifikation (ATC A07EC01). Nur die Quellen 1 und 2 behandeln Sulfasalazin direkt (Hypersen |
+| WM-DRUG-2269 | Olsalazin | drug | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Das Thema ist der Wirkstoff Olsalazin, ein 5-ASA-Prodrug. Nur Quelle 15 behandelt 5-Aminosalicylate bei Colitis ulcerosa und damit die Wirkstoffkl |
+| WM-DRUG-2270 | Balsalazid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Balsalazide' |
+| WM-DRUG-2271 | Milchsäurebildner | drug | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Der Titel „Milchsäurebildner“ entspricht ATC A07FA01 (Milchsäureproduzierende Organismen, Antidiarrhoika-Mikroorganismen). Keine der Quellen behan |
+| WM-DRUG-2274 | IP-Bacillussporen | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 4 behandeln spezifisch Bacillus clausii bei gastrointestinalen Indikationen (Gastroenteritis, antibiotika-assoziierte Diarrhö), wa |
+| WM-DRUG-2275 | Albumintannat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tannin-protein complexes' |
+| WM-DRUG-2276 | Calcium-haltige Verbindungen | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-2277 | Racecadotril | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 2, 3 und 4 behandeln Racecadotril explizit. Quelle 1 ist zu allgemein (Leitlinie), 5 befasst sich mit Ileostoma (kein Racecadotril-Fokus),  |
+| WM-DRUG-2278 | Crofelemer | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Crofelemer oder die spezifische Indikation (secretory diarrhea). Alle Titel beziehen sich auf a |
+| WM-DRUG-2279 | Ceratonia | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC A07XP01 (Ceratonia) bezieht sich auf Carob-Bohnen-Mehl als Antidiarrhoikum. Die Quellen behandeln Carob (Ceratonia siliqua) als Nahrungs |
+| WM-DRUG-2280 | Uzarawurzel | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Uzarawurzel (Urtica urens) ist ein anderer Wirkstoff als Urtica dioica (Brennnessel). Zudem behandelt die ATC-Klasse A07XP02 spezifisch pfla |
+| WM-DRUG-2281 | Eichenrinde | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Eichenrinde (Quercus robur) als Arzneimittelwirkstoff. Quelle 2 und 6 behandeln Phytotherapie/Zahnfleisch, a |
+| WM-DRUG-2282 | Karottenextrakt | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen ATC-Wirkstoff Karottenextrakt (A07XP04) zur Behandlung von Durchfall; alle Quellen befassen sich mit |
 | WM-DRUG-2312 | Insulin (Rind) | drug | zu wenige Quellen mit Zusammenfassung (1) für 'insulin bovine' |
 | WM-DRUG-2313 | Insulin (Schwein) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Insulin porcine' |
 | WM-DRUG-2314 | Phenformin | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel „Phenformin“ entspricht dem Wirkstoff mit ATC A10BA01. Nur Quelle 3 behandelt Phenformin direkt und im Schwerpunkt. Die übrigen Quellen b |
