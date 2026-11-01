@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 22:25. Warteschlange: claimed 1, duplicate 470, merged 12, planned 1917, published 1638, ready 4, redirect 391, review 2678.
+Stand: 01.11.2026 23:25. Warteschlange: claimed 1, duplicate 470, merged 13, planned 1824, published 1641, ready 7, redirect 391, review 2764.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -2658,6 +2658,92 @@ Stand: 01.11.2026 22:25. Warteschlange: claimed 1, duplicate 470, merged 12, pla
 | WM-DRUG-3370 | Stepronin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Stepronin (Betamethason-17-valerat) spezifisch; alle Quellen beziehen sich auf Betamethason, Betamethas |
 | WM-DRUG-3372 | Neltenexin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Neltenexin (ATC R05CB14) ist ein Antitussivum. Der Suchbegriff 'Nelfinavir' bezeichnet ein Antiretrovirum (HIV-Proteaseinhibit |
 | WM-DRUG-3374 | Cuprum aceticum | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Copper acetate' |
+| WM-DRUG-3377 | Primelwurzel | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Primula root' |
+| WM-DRUG-3378 | Asarumwurzelstock | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Asarum rhizome' |
+| WM-DRUG-3380 | Spiköl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Spiköl' (ATC R05CP08) ist ein synthetisches Derivat des Opioids (z.B. Spironatrin), das zur Behandlung von Husten und Atemweg |
+| WM-DRUG-3381 | Ipecacuanha | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Ipecacuanha' |
+| WM-DRUG-3382 | Senegawurzel | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Senega' |
+| WM-DRUG-3383 | Wollblumen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Wollblumen (Verbascum thapsus) oder das ATC R05CP15. Alle Titel enthalten das Wort 'none' als englische |
+| WM-DRUG-3384 | Andornkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Andornkraut (Vitex agnus-castus) ist ein pflanzlicher Wirkstoff (ATC R05CP16), keine spezifische Krankheitsdiagnose. Die Quellen behandeln I |
+| WM-DRUG-3385 | Süßholzwurzel | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Arzneimittelwirkstoff Süßholzwurzel' ist irreführend, da Süßholzwurzel eine Droge (Pflanzenteil) und kein einzelner Wirk |
+| WM-DRUG-3386 | Ethylmorphin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ethylmorphine' |
+| WM-DRUG-3387 | Hydrocodon | drug | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Nur Quelle 6 (direkter Fokus auf Hydrocodon-Rescheduling) und Quelle 12 (Metabolismus/Interaktionen von Hydrocodon) behandeln den Wirkstoff spezif |
+| WM-DRUG-3389 | Normethadon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Normethadon; alle sind allgemein zu Opioiden/Abhängigkeit. Suchbegriff 'Levomethadone' ist falsch (Normeth |
+| WM-DRUG-3390 | Noscapin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Noscapin ist ein Antitussivum (ATC R05DA07). Die Quellen behandeln ausschließlich seine onkologischen (Apoptose, Tubulin-Targeting) oder imm |
+| WM-DRUG-3391 | Pholcodin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pholcodine' |
+| WM-DRUG-3393 | Thebacon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Thebacin/Thebaine; alle behandeln allgemeine Alkaloide, Opiummohn oder andere Opiode wie Oxycodon.) |
+| WM-DRUG-3394 | Dimemorfan | drug | zu wenige Quellen mit Zusammenfassung (0) für 'dimemorfan' |
+| WM-DRUG-3395 | Acetyldihydrocodein | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Acetyldihydrocodeine' |
+| WM-DRUG-3396 | Nicocodin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nicocodeine' |
+| WM-DRUG-3397 | Benzonatat | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln explizit Benzonatat. Quelle 3 behandelt Husten allgemein, Quelle 4 und 5 sind thematisch zu breit oder irrelevant. Wenige |
+| WM-DRUG-3398 | Benproperin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Benproperine' |
+| WM-DRUG-3399 | Clobutinol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Clobutinol' |
+| WM-DRUG-3400 | Isoaminil | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Isoaminile' |
+| WM-DRUG-3401 | Pentoxyverin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pentoxyverine' |
+| WM-DRUG-3402 | Oxolamin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'oxomemazine' |
+| WM-DRUG-3403 | Oxeladin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'oxeladin' |
+| WM-DRUG-3404 | Clofedanol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Clofedanol' |
+| WM-DRUG-3405 | Pipazetat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'pipotiazine' |
+| WM-DRUG-3406 | Bibenzoniumbromid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bibenzonium bromide' |
+| WM-DRUG-3407 | Butamirat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Butamirate' |
+| WM-DRUG-3408 | Fedrilat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'Fibrates' bezeichnet eine Wirkstoffklasse, nicht den spezifischen Wirkstoff 'Fedrilat'. Zudem ist Fedrilat (ATC R05DB14) ein An |
+| WM-DRUG-3409 | Zipeprol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 10 behandelt explizit Ziprasidon. Die anderen Quellen behandeln allgemeine Antipsychotika, andere Indikationen oder andere Wirkst |
+| WM-DRUG-3410 | Dibunat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dibunate' |
+| WM-DRUG-3411 | Droxypropin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'hydroxypropyl' findet sich in den Titeln, aber die Quellen behandeln Hilfsstoffe (Polymere wie HPMC, Hydroxypropylcellulose |
+| WM-DRUG-3412 | Prenoxdiazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'prenoxadizine' |
+| WM-DRUG-3413 | Dropropizin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt Dropropizin (R05DB19), ein Antitussivum. Die Quelle verwendet den Suchbegriff 'Droperidol', ein Antiemetikum/ |
+| WM-DRUG-3414 | Cloperastin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Cloperastin. Die Suche mit 'antitussive' ist zu allgemein und liefert überwiegend Übersichten zu ande |
+| WM-DRUG-3415 | Meprotixol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'meprotixol' |
+| WM-DRUG-3416 | Piperidion | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff Piperidion (ATC R05DB23) oder dessen Indikation. Die Quellen beziehen sich auf allgemeine  |
+| WM-DRUG-3417 | Tipepidin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tipepidin' |
+| WM-DRUG-3418 | Morclofon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 6 behandelt explizit Clofibrate. Quelle 2 ist zu allgemein (Fibrate in Cholestase), Quelle 5 behandelt NAFLD/PPARs nicht spezifis |
+| WM-DRUG-3419 | Nepinalon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nepinalone' |
+| WM-DRUG-3420 | Levodropropizin | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Nur 3 Quellen behandeln Levodropropizin explizit. Quellen 1, 2, 3 und 4 behandeln Husten allgemein oder andere Wirkstoffe (Cloperastin) bzw. Kontex |
+| WM-DRUG-3421 | Dimethoxanat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dimethoxanate' |
+| WM-DRUG-3422 | Butetamat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Butetamate' |
+| WM-DRUG-3423 | Menadiol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Vitamin K3' |
+| WM-DRUG-3424 | Fominoben | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fominoben' |
+| WM-DRUG-3425 | Sonnentaukraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen ATC-Wirkstoff Sonnentaukraut (R05DP01) oder dessen klinische Anwendung als Antitussivum; Quellen beh |
+| WM-DRUG-3426 | Isländisches Moos | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Cetraria Islandica' |
+| WM-DRUG-3427 | Spitzwegerich | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Spitzwegerich (Plantago lanceolata) als Arzneimittelwirkstoff für ATC R05DP04 (Husten). Quellen sind zu al |
+| WM-DRUG-3428 | Huflattichblätter | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Tussilago farfara' |
+| WM-DRUG-3429 | Ferrum phosphoricum | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Lithium-Eisenphosphat (LiFePO4) als Batteriematerial, nicht den homöopathischen Wirkstoff Ferrum phosphoricum.) |
+| WM-DRUG-3430 | Bromazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bromazine' |
+| WM-DRUG-3431 | Carbinoxamin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'Antihistamines' ist zu allgemein und deckt viele Wirkstoffe/Krankheitsbilder ab. Keine der Quellen behandelt spezifisch Carbino |
+| WM-DRUG-3432 | Trimethobenzamid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Trimethobenzamide' |
+| WM-DRUG-3433 | Piprinhydrinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'piprinhydrinate' |
+| WM-DRUG-3434 | Brompheniramin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Brompheniramin oder dessen spezifische Indikationen. Alle Titel beziehen sich auf andere medizi |
+| WM-DRUG-3435 | Dexchlorpheniramin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Dexchlorpheniramine' |
+| WM-DRUG-3437 | Dexbrompheniramin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'dexbrompheniramine' |
+| WM-DRUG-3438 | Talastin | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Quellen 1 und 3 behandeln explizit Tolterodin. Quelle 9 erwähnt 'overactive bladder medications' allgemein, ohne Tolterodin spezifisch zu priorisi |
+| WM-DRUG-3439 | Histapyrrodin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Histapyrrodin; alle beziehen sich auf den Histamin-H3-Rezeptor allgemein oder andere Indikat |
+| WM-DRUG-3440 | Methapyrilen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'methapyrilene' |
+| WM-DRUG-3441 | Alimemazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'Thioridazine' ist falsch; Alimemazin ist ein Phenothiazin, aber kein Thioridazin. Keine Quelle behandelt Alimemazin spezifisch. |
+| WM-DRUG-3442 | Methdilazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Methdilazine' |
+| WM-DRUG-3443 | Hydroxyethylpromethazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln HEp-2-Zellen (Zelllinie für Autoantikörper-Nachweis), nicht den Wirkstoff Hydroxyethylpromethazin.) |
+| WM-DRUG-3444 | Thiazinam | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Thiethylperazine' |
+| WM-DRUG-3445 | Mequitazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle behandelt Mequitazin spezifisch nicht; 'H1 antihistamines' ist eine zu breite Klasse. Kein Titel nennt Mequitazin.) |
+| WM-DRUG-3446 | Oxomemazin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'oxomemazine' |
+| WM-DRUG-3447 | Buclizin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Buclizine' |
+| WM-DRUG-3448 | Cyclizin | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln Cyclizin direkt. Quelle 3 ist irrelevant, Quelle 4 betrifft Synthese von Liganden (nicht spezifisch Cyclizin), Quelle 5 i |
+| WM-DRUG-3449 | Chlorcyclizin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Diphenhydramine' ist falsch für Chlorcyclizin (ATC R06AE04). Diphenhydramin ist ein anderer Wirkstoff (ATC R06AA02). Daher  |
+| WM-DRUG-3450 | Oxatomid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'oxatomide' |
+| WM-DRUG-3453 | Phenindamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenindamine' |
+| WM-DRUG-3454 | Triprolidin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Triprolidine' |
+| WM-DRUG-3455 | Pyrrobutamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'pyrrobutamine' |
+| WM-DRUG-3456 | Azatadin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Quellen 1-4 behandeln Azelastin nur als Teil einer Kombination oder im allgemeinen Kontext allergischer Rhinitis ohne Fokus auf den spezifis |
+| WM-DRUG-3457 | Astemizol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Astemizol oder dessen spezifische Indikationen (z.B. Allergie). Die Titel sind zu allgemein oder behandeln ander |
+| WM-DRUG-3458 | Terfenadin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Terfenadin; Quellen 1, 2 und 8 behandeln Fexofenadin (Metabolit), andere sind irrelevant.) |
+| WM-DRUG-3459 | Loratadin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quelle 1 und 4 behandeln Desloratadin (andere Substanz). Quelle 3 ist allgemein zu H1-Antihistaminika. Quelle 6 ist irrelevant. Nur 2 und 5 behande |
+| WM-DRUG-3460 | Mebhydrolin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mebhydrolin' |
+| WM-DRUG-3461 | Deptropin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'procyclidine' |
+| WM-DRUG-3462 | Ketotifen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Ketotifen oder dessen primäre Indikationen (z.B. allergische Konjunktivitis, Asthma) al |
+| WM-DRUG-3463 | Acrivastin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'acrivastine' |
+| WM-DRUG-3464 | Tritoqualin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Tritoqualin ist ein synthetisches Antihistaminikum (ATC R06AX21) und kein Triterpensaponin. Keine der sechs Quellen behandelt den Wirkstoff; sie be |
+| WM-DRUG-3465 | Ebastin | drug | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Der Titel 'Ebastin' entspricht dem Wirkstoff (ATC R06AX22). Keine der Quellen behandelt jedoch speziell Ebastin. Es handelt sich um allgemeine Arb |
+| WM-DRUG-3466 | Pimethixen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pimethixene' |
+| WM-DRUG-3467 | Epinastin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Epinastine' |
+| WM-DRUG-3468 | Mizolastin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Mizolastine' |
 | WM-DRUG-3502 | Tinidazol | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Der Titel 'Tinidazol' entspricht dem Wirkstoff der Klassifikation (ATC G01AF21). Nur Quelle 2 (Tinidazol vs. Metronidazol bei bakterieller Vaginos |
 | WM-DRUG-3522 | Fenoterol | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Fenoterol' bezeichnet denselben Wirkstoff wie ATC G02CA03. Keine der Quellen behandelt Fenoterol als Thema. Quelle 1 betrifft SABA-Monot |
 | WM-DRUG-3524 | Lisurid | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Lisurid direkt (5-HT2A-Agonismus, nicht-halluzinogen). Die übrigen Quellen betreffen Wochenbett, Schlafstörungen bei Stimula |
