@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 13:25. Warteschlange: claimed 1, duplicate 470, merged 4, planned 2093, published 1595, ready 22, redirect 385, review 2541.
+Stand: 01.11.2026 14:25. Warteschlange: claimed 1, duplicate 470, merged 4, planned 2008, published 1617, ready 14, redirect 391, review 2606.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -2418,6 +2418,8 @@ Stand: 01.11.2026 13:25. Warteschlange: claimed 1, duplicate 470, merged 4, plan
 | WM-DRUG-3081 | Palopegteriparatid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'TPT' wird in den Quellen fast ausschließlich für 'Tuberculosis Preventive Treatment' verwendet. Palopegteriparatid ist ein  |
 | WM-DRUG-3082 | Glandulae parathyreoidea | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf den Wirkstoff 'Glandulae parathyreoidea' (ATC H05AH01), was pharmakologisch unüblich ist und vermutlich  |
 | WM-DRUG-3083 | Elcatonin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'calcitonin gene-related peptide' (CGRP) bezieht sich auf einen anderen Wirkstoff als 'Elcatonin' (ATC H05BA04, ein syntheti |
+| WM-DRUG-3085 | Doxercalciferol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Doxercalciferol' |
+| WM-DRUG-3086 | Evocalcet | drug | Bestätigungsquote 16/49 unter 60 % |
 | WM-DRUG-3087 | Phenylbutazon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Phenylbutazon; alle sind zu allgemein (NSAR) oder themenfremd.) |
 | WM-DRUG-3088 | Mofebutazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mofebutazone' |
 | WM-DRUG-3089 | Oxyphenbutazon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxyphenbutazone' |
@@ -2486,8 +2488,71 @@ Stand: 01.11.2026 13:25. Warteschlange: claimed 1, duplicate 470, merged 4, plan
 | WM-DRUG-3161 | Aurothiopolypeptid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Aurothiopolypeptid (ATC M01CB06) ist ein Goldarzneimittel zur Behandlung der rheumatoiden Arthritis. Die Quellen behandeln ent |
 | WM-DRUG-3162 | Penicillamin | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Nur Quelle 4 behandelt direkt D-Penicillamin bei Wilson-Krankheit und Quelle 9 ist ein Review zu D-Penicillamin. Quelle 2, 6, 10 behandeln Zystinu |
 | WM-DRUG-3163 | Bucillamin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Bucillamine' |
+| WM-DRUG-3164 | Felbinac | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Felbinac oder eine damit assoziierte Indikation; alle behandeln andere medizinische Themen.) |
+| WM-DRUG-3165 | Bendazac | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Bendazac (ATC M02AA11) ist chemisch und pharmakologisch distinct von Benzydamin (ATC R02AA13). Die Quelle 3 ist auf Russisch u |
+| WM-DRUG-3166 | Suxibuzon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Suxibuzone' |
 | WM-DRUG-3167 | Nifenazon | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 3 und 4 behandeln explizit Fenamate (die Wirkstoffklasse von Niflumic acid) bzw. deren Eigenschaften und Abbau. Quelle 1 ist zu allgemein ( |
+| WM-DRUG-3168 | Piketoprofen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Gesuchter Wirkstoff ist Piketoprofen (ATC M02AA28), Suchbegriff war Piroxicam. Keine Quelle behandelt Piketoprofen. Quelle 1 behandelt intra |
+| WM-DRUG-3169 | Esflurbiprofen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Esflurbiprofen' |
+| WM-DRUG-3170 | Zucapsaicin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Zucapsaicin ist ein spezifisches Stereoisomer von Capsaicin. Die Quellen behandeln generisches Capsaicin oder andere Indikationen (z.B. Rhin |
+| WM-DRUG-3171 | Nonivamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nonivamid (ein Capsaicinoid) ist chemisch und pharmakologisch nicht identisch mit Nonylphenol (ein Umweltchemikalie/Endocrine Disruptor). Di |
+| WM-DRUG-3172 | Hydroxyethylsalicylat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Hydroxyethylsalicylat. 'HES' steht in den Quellen für Hypereosinophiles Syndrom, Hypertensive Erkrankungen der Schwan |
+| WM-DRUG-3173 | Methylsalicylat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Methylsalicylat als Arzneimittelwirkstoff (ATC M02AC02) zur Behandlung von Schmerzen/Schwellungen. Quellen |
+| WM-DRUG-3174 | Propylnicotinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Propyl nicotinate' |
+| WM-DRUG-3175 | Benzylnicotinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Benzyl nicotinate' |
+| WM-DRUG-3176 | Arnika | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 1-3 behandeln Arnika (Wirkstoff/Pflanze) bei Indikationen, die unter ATC M02AH02 (Schmerzmittel/Entzündungshemmer, topisch) fallen können ( |
+| WM-DRUG-3177 | Guajacum | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Guaiacum' |
+| WM-DRUG-3179 | Acmella ciliata | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Acmella ciliata oder die zugehörige Indikation (Schmerzmittel). Alle Quellen behandeln andere m |
+| WM-DRUG-3180 | Torf | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln ökologische, klimatische oder chemische Aspekte von Torf (Peat) als Bodensubstrat oder Ökosystem, nicht den pharmazeu |
+| WM-DRUG-3181 | Kiefernnadelöl | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pinus sylvestris needle oil' |
+| WM-DRUG-3182 | Capsicumfrüchte | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Capsicumfrüchte (ATC M02AP07) für die symptomatische Behandlung von Schmerzen/Muskelschmerzen. Alle Que |
+| WM-DRUG-3183 | Rosmarinöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 5 behandelt explizit Rosmarinöl. Quelle 1, 3, 4, 6, 8 behandeln Androgenetische Alopezie allgemein, aber nicht spezifisch Rosmari |
+| WM-DRUG-3184 | Idrocilamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Idrocilamid (ein Thiazid-Derivat) wurde mit dem Suchbegriff Hydrochlorothiazide (einem anderen Thiazid) verwechselt. Keine Que |
+| WM-DRUG-3185 | Tolperison | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Tolperison. Quelle 1 behandelt Analgetika bei Rückenschmerz, Quelle 2 und 3 allgemeine zentral wirksame Musk |
+| WM-DRUG-3186 | Cholinstearat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Choline salts' |
+| WM-DRUG-3188 | Fichtennadelöl | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Picea oil' |
+| WM-DRUG-3189 | Eukalyptusöl | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Nur Quelle 3 (Eukalyptusöl-induzierte Krampfanfälle) und Quelle 4 (therapeutische Anwendungen von Eukalyptus-Ätheröl) behandeln explizit den Wirks |
+| WM-DRUG-3190 | Moor | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Wetland' bezieht sich auf Feuchtgebiete (Ökologie/Umwelt), nicht auf den Wirkstoff 'Moor' (ATC M02BX01, topische Anwendung  |
+| WM-DRUG-3191 | Alcuronium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Alcuronium chloride' |
+| WM-DRUG-3192 | Tubocurarin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'curare' |
+| WM-DRUG-3193 | Dimethyltubocurarin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'd-tubocurarine' |
+| WM-DRUG-3195 | Pancuronium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandelt Wirkstoff, aber Quellen sind zu allgemein (Oberbegriff 'neuromuscular blocking agents' statt spezifisch Pancuronium) oder be |
+| WM-DRUG-3197 | Vecuronium | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 5 behandelt Vecuronium ausdrücklich (Sugammadex-Antagonisierung von Rocuronium/Vecuronium). Die übrigen Quellen betreffen neuromuskuläre |
+| WM-DRUG-3198 | Atracurium | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel 'Atracurium' entspricht dem Wirkstoff ATC M03AC04. Nur Quelle 1 behandelt Atracurium spezifisch (tödliche Selbstverabreichung mit Literat |
+| WM-DRUG-3199 | Hexafluronium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'hexafluronium' |
+| WM-DRUG-3200 | Pipecuroniumbromid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Pipecuronium' |
+| WM-DRUG-3201 | Doxacuriumchlorid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'doxacurium chloride' |
+| WM-DRUG-3202 | Fazadiniumbromid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fazadinium bromide' |
 | WM-DRUG-3203 | Rocuroniumbromid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'rocuronium bromide' |
+| WM-DRUG-3204 | Mivacuriumchlorid | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel 'Mivacuriumchlorid' entspricht dem Wirkstoff (ATC M03AC10). Keine der Quellen behandelt jedoch spezifisch Mivacurium: Sie betreffen Butyr |
+| WM-DRUG-3205 | Cisatracurium | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 5, 6, 7 behandeln ARDS, allgemeine Muskelrelaxanzien oder andere Themen, nicht spezifisch Cisatracurium. Quelle 2 nennt NMBA allgemein,  |
+| WM-DRUG-3207 | Botulinumtoxin Typ B | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 6 behandelt explizit Botulinum Toxin B. Quelle 1, 2, 4, 5, 7, 8 behandeln Botulinumtoxin allgemein oder andere Typen. Quelle 3 ist ein a |
+| WM-DRUG-3208 | Phenprobamat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenprobamate' |
+| WM-DRUG-3209 | Carisoprodol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Carisoprodol' |
+| WM-DRUG-3210 | Methocarbamol | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit Methocarbamol. Quelle 1, 4, 5 behandeln Muskelrelaxanzien allgemein oder Spinalschmerzen ohne Fokus auf Methocarbam |
+| WM-DRUG-3211 | Styramat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Styramate' |
+| WM-DRUG-3212 | Febarbamat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Febantel' |
+| WM-DRUG-3213 | Chlormezanon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chlormezanone' |
+| WM-DRUG-3214 | Chlorzoxazon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Chlorzoxazon; alle beziehen sich auf die allgemeine Klasse der Muskelrelaxantien.) |
+| WM-DRUG-3215 | Orphenadrin(citrat) | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 2 behandelt explizit Orphenadrin. Quelle 1 (Krämpfe bei Leberzirrhose) und 4 (Wirbelsäulenschmerzen) sind Indikationen, aber keine spezi |
+| WM-DRUG-3218 | Pridinol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Pridinol; alle beziehen sich auf allgemeine anticholinerge Effekte oder andere Wirkstoffe.) |
+| WM-DRUG-3220 | Mephenesin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'mephenesin' |
+| WM-DRUG-3221 | Tetrazepam | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tetrazepam' |
+| WM-DRUG-3223 | Eperison | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Eperisone' |
+| WM-DRUG-3224 | Fenyramidol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'pyrazole insecticide' |
+| WM-DRUG-3226 | Tisopurin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Purine Antagonists' |
+| WM-DRUG-3229 | Isobromindion | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Isobromindione' |
+| WM-DRUG-3230 | Lesinurad | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Lesinurad; alle behandeln allgemeine Harnsäuresenker oder Gicht allgemein.) |
+| WM-DRUG-3231 | Cinchophen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Cinchophen ist ein synthetisches 4-Quinolindion-Derivat (NSAR), keine natürliche Chinolinalkaloid. Die Quellen behandeln natürliche Alkaloid |
+| WM-DRUG-3233 | Uratoxidase | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 2, 3 und 4 behandeln explizit die Therapie oder Anwendung von Uricase (Uratoxidase) bei Gicht. Quelle 1 fokussiert auf urikasedefiziente Mo |
+| WM-DRUG-3235 | Etidronsäure | drug | Themenprüfung: nur 1 von 12 Quellen passen zum Thema (Nur Quelle 2 behandelt explizit Etidronate. Quelle 10 behandelt Etidronat, aber im Kontext von Zahnwurzelzähnen (Dentin), nicht als systemischer A |
+| WM-DRUG-3236 | Clodronsäure | drug | Bestätigungsquote 18/45 unter 60 % |
+| WM-DRUG-3237 | Pamidronsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle 'bisphosphonates' ist eine Oberklasse. Pamidronsäure ist ein spezifischer Wirkstoff dieser Klasse. Keine der Quellen behandelt au |
+| WM-DRUG-3239 | Tiludronsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Tiludronsäure; alle Quellen behandeln die allgemeine Klasse der Bisphosphonate oder andere Wirkstoffe.) |
+| WM-DRUG-3241 | Eptotermin alfa | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Eptotermin alfa (BMP-7) als therapeutischen Wirkstoff; Quellen zu BMP-7 (2, 4) behandeln andere Indikationen |
+| WM-DRUG-3242 | Ipriflavon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'isoflavone' ist zu allgemein und bezeichnet eine Stoffklasse, nicht den spezifischen Wirkstoff Ipriflavon (ein synthetische |
+| WM-DRUG-3243 | Aluminiumhydroxychlorid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf ATC M05BX02 (Osteoporose), Quellen behandeln Aluminiumhydroxid als Adjuvans in Impfstoffen (ATC J07) oder Toxikologie |
+| WM-DRUG-3244 | Strontiumranelat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 2 von 14 Quellen behandeln Strontiumranelat spezifisch. Quelle 11 und 13 nennen Strontium im Kontext von Knochenstoffwechsel/Osteoporose |
 | WM-DRUG-3282 | Nedocromil | drug | zu wenige Quellen mit Zusammenfassung (3) für 'nedocromil' |
 | WM-DRUG-3283 | Flunisolid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'flunisolide' |
 | WM-DRUG-3312 | Terbutalin | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quelle 1 behandelt Bronchodilatatoren allgemein, Quelle 4 SABA-Monotherapie allgemein, Quelle 5 Kombinationstherapien. Nur 2, 3 und 6 behandeln exp |
