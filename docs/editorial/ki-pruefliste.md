@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 14:25. Warteschlange: claimed 1, duplicate 470, merged 4, planned 2008, published 1617, ready 14, redirect 391, review 2606.
+Stand: 01.11.2026 15:25. Warteschlange: duplicate 470, merged 5, planned 1945, published 1630, ready 8, redirect 391, review 2662.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -2553,8 +2553,62 @@ Stand: 01.11.2026 14:25. Warteschlange: claimed 1, duplicate 470, merged 4, plan
 | WM-DRUG-3242 | Ipriflavon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'isoflavone' ist zu allgemein und bezeichnet eine Stoffklasse, nicht den spezifischen Wirkstoff Ipriflavon (ein synthetische |
 | WM-DRUG-3243 | Aluminiumhydroxychlorid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf ATC M05BX02 (Osteoporose), Quellen behandeln Aluminiumhydroxid als Adjuvans in Impfstoffen (ATC J07) oder Toxikologie |
 | WM-DRUG-3244 | Strontiumranelat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 2 von 14 Quellen behandeln Strontiumranelat spezifisch. Quelle 11 und 13 nennen Strontium im Kontext von Knochenstoffwechsel/Osteoporose |
+| WM-DRUG-3246 | Vosoritid | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 1 und 5 behandeln spezifisch den Knochenwachstumseffekt von CNP, der dem Wirkmechanismus von Vosoritid (Acromegaly/Growth Hormone resistanc |
+| WM-DRUG-3247 | Menatetrenon | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Menatetrenon. Quelle 2, 3, 5, 6 behandeln Vitamin K allgemein. Quelle 4 ist themenfremd. Da nur 1 Quelle passt (<4) |
+| WM-DRUG-3249 | Chymopapain | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 2 und 4 behandeln explizit Chemonucleolysis, wofür Chymopapain der relevante Wirkstoff ist. Quelle 3 ist zu allgemein (Rodent models), Q |
+| WM-DRUG-3252 | Teufelskrallenwurzel | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 1 und 5 behandeln explizit Harpagophytum procumbens bei muskuloskelettalen Schmerzen/Arthrose. Quelle 2 (Neurodegenerative) und 3, 4, 6 (al |
+| WM-DRUG-3253 | Brennnesselblätter | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Urtica dioica leaf' |
+| WM-DRUG-3254 | Weidenrinden | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Salix alba bark' |
+| WM-DRUG-3255 | Guajakholz | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Guajakholz (ATC M09AP07). Die Suchbegriffe 'Guaiacol' (Phenol) und 'Guaifenesin' (Expektorans) sind chemisch und ther |
+| WM-DRUG-3257 | Drisapersen | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Drisapersen' |
+| WM-DRUG-3258 | Aceneuraminsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf Aceneuraminsäure (ATC M09AX05, ein Muskelrelaxans), während die Quelle 'Acetylcysteine' (N-Acetylcystein |
+| WM-DRUG-3259 | Eteplirsen | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 6 behandelt explizit Eteplirsen. Quelle 4 ist zu allgemein (andere Exons/NSOls). Quelle 1, 2, 3, 7 behandeln DMD oder NSOls allgemein, n |
+| WM-DRUG-3261 | Golodirsen | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Golodirsen; alle sind allgemein zu Antisense-Oligonukleotiden oder irrelevant.) |
+| WM-DRUG-3262 | Palovaroten | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Palovarotene' |
+| WM-DRUG-3263 | Viltolarsen | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Quellen 3, 5 und 8 behandeln explizit Viltolarsen und DMD. Quelle 2 ist zu allgemein (neuromuskuläre Erkrankungen). Quelle 1, 4, 7 sind allgemeine  |
+| WM-DRUG-3264 | Casimersen | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Nur drei Quellen behandeln explizit Casimersen oder dessen spezifische Indikation (DMD). Quelle 1, 2, 4 und 7 sind allgemeine Übersichten über ASO- |
+| WM-DRUG-3265 | Delandistrogen moxeparvovec | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Delandistrogen moxeparvovec (für Sichelzellanämie/Thalassämie) oder dessen Indikation. Quellen zu Hämophili |
+| WM-DRUG-3266 | Ribonucleinsäuren | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC M09AX24 bezeichnet Ribonucleinsäuren als Arzneimittelwirkstoff (z.B. zur Behandlung von Muskelerkrankungen). Die Quellen behandeln ribon |
+| WM-DRUG-3267 | Cyclopentamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cyclopentamine' |
+| WM-DRUG-3269 | Xylometazolin | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1-3 behandeln Nasendecongestiva/Imidazoline explizit. Quelle 4 ist zu allgemein (Anästhesie+Entzündung), Quelle 5 betrifft Zahnmedizin (Pul |
+| WM-DRUG-3270 | Naphazolin | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 4 behandeln Nasendecongestiva (Wirkstoffklasse Naphazolin). Quelle 3 behandelt Konjunktivitis (indiziert, aber nicht spezifisch Na |
+| WM-DRUG-3271 | Tramazolin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tramazoline' |
+| WM-DRUG-3272 | Metizolin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Metizolin (ATC R01AA10) ist ein topischer Nasenwirkstoff zur Dekolonisation von S. aureus. Die Quelle 'methicillin' bezieht sich auf das Ant |
+| WM-DRUG-3273 | Tuaminoheptan | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Tuaminoheptan ist ein spezifisches Amphetamin-Derivat. Die Quellen behandeln entweder allgemeine Amphetamine, Methamphetamin,  |
+| WM-DRUG-3274 | Fenoxazolin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenoxazoline' |
+| WM-DRUG-3275 | Tymazolin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Tymazolin (ATC R01AA13) oder dessen Indikation (Rhinitis allergica/senilis). Alle Titel beziehe |
+| WM-DRUG-3276 | Indanazolin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Indanazolin' |
+| WM-DRUG-3277 | Amidefrin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Amidefrin' |
+| WM-DRUG-3278 | Levocabastin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'levocabastine' |
+| WM-DRUG-3279 | Azelastin | drug | zu viele nur teilweise belegte Sätze (16/38) |
+| WM-DRUG-3280 | Antazolin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Antazolin ist ein Antihistaminikum/Anticholinergikum für Rhinitis (ATC R01AC04). Die Quellen behandeln Kardioversion von Vorhofflimmern (Ant |
+| WM-DRUG-3281 | Spagluminsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'spaglumic acid' |
 | WM-DRUG-3282 | Nedocromil | drug | zu wenige Quellen mit Zusammenfassung (3) für 'nedocromil' |
 | WM-DRUG-3283 | Flunisolid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'flunisolide' |
+| WM-DRUG-3285 | Luffa operculata | drug | zu wenige Quellen mit Zusammenfassung (2) für 'sponge gourd' |
+| WM-DRUG-3286 | Niauliöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Niauliöl (ATC R01AP03) ist ein Nasenspray zur Behandlung der Rhinitis. Die Quellen behandeln Akne, Kosmetik, Neuroprotektion oder allgemeine |
+| WM-DRUG-3287 | Calciumhexaminthiocyanat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Calcium hexammine thiocyanate' |
+| WM-DRUG-3288 | Ritiometan | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Ritiometan' (ATC R01AX05) ist ein Nasenspray zur Behandlung der Rhinitis. Der Suchbegriff 'Ritodrine' bezieht sich auf ein To |
+| WM-DRUG-3289 | Meerwasser | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Meerwasser als pharmazeutischen Wirkstoff (ATC R01AX14) zur Behandlung von Nasenerkrankungen. Alle Quellen beziehen s |
+| WM-DRUG-3290 | Mesna | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel ATC R01AX17 (Nasennebenraum) passt nicht zu Mesna (Blasenschutz/Otologie). Nur 3 Quellen passen thematisch.) |
+| WM-DRUG-3291 | Hypromellose | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Hypromellose (Hydroxypropyl Methylcellulose) als Wirkstoff. Quelle 3 ist zu allgemein (Artificial Tear Ingredients) |
+| WM-DRUG-3292 | Mineralsalz | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Nasenspray-Wirkstoff Mineral Salt (ATC R01AX21). Quellen 1-3 behandeln Natriumchlorid/Mineralien im  |
+| WM-DRUG-3294 | Emser Salz | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Emser Salz (Natriumchlorid-Nasenspray) spezifisch zur Behandlung von Nasenkrankheiten; Quellen behandeln Natriumchlor |
+| WM-DRUG-3295 | Pseudoephedrin | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1, 2 und 4 behandeln explizit Pseudoephedrin. Quelle 3 betrifft die Regulierung, Quelle 5 die Adipositas-Behandlung (abgelehnt). Da nur 3 Q |
+| WM-DRUG-3296 | Cinnabaris | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 4 behandeln allgemeine Umweltkontamination bzw. allgemeine Mineralienreinigung, nicht spezifisch Cinnabaris als Arzneimittel. Quelle  |
+| WM-DRUG-3297 | Pollen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf den Wirkstoff 'Pollen' (ATC R01BP01, Allergene, Pollen). Die Quellen behandeln jedoch primär 'Pollen' al |
+| WM-DRUG-3298 | Cafaminol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Cafaminol (ATC R01BX02) oder dessen Indikation (z.B. Bronchodilatation bei COPD/Asthma). Alle Quellen bezi |
+| WM-DRUG-3299 | Ambazon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Ambazon ist ein lokaler Antiseptikum zur Behandlung von Hals- und Racheninfektionen (Angina tonsillaris, Pharyngitis). Die Quellen behandeln |
+| WM-DRUG-3300 | Dichlorbenzylalkohol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff Dichlorbenzylalkohol (DCBA) oder die Indikation R02AA03 (Halsschmerzen). Die Quellen behan |
+| WM-DRUG-3301 | Benzethonium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 2 von 4 Quellen behandeln Benzethonium direkt. Quelle 1 ist irrelevant, Quelle 3 behandelt nur allgemein quartäre Ammoniumverbindungen.) |
+| WM-DRUG-3302 | Myristylbenzalkonium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Myristylbenzalkonium ist ein spezifischer Ester des Benzalkoniumchlorids (BAK). Die Quellen behandeln BAK allgemein oder Toxizität/Resistenz |
+| WM-DRUG-3303 | Hexylresorcinol | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt explizit Hexylresorcinol (4-Hexylresorcinol) und dessen Anwendung. Quelle 1 erwähnt es nicht im Titel, 2 und 3 sind irreleva |
+| WM-DRUG-3304 | Acriflaviniumchlorid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln Krebs/Leukämie, nicht R02AA13 (Hals/Rachen). Nur 3 Quellen passen.) |
+| WM-DRUG-3305 | Aluminium-haltige Verbindungen | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln Adjuvantien im Allgemeinen oder spezifische Impfstoffe, nicht den Wirkstoff Aluminium-haltige Verbindungen als solches. Q |
+| WM-DRUG-3306 | Acetylaminonitropropoxybenzol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel bezieht sich auf ATC R02AA33 (Antitussiva, Hustenstiller). Der Suchbegriff 'acetaminophen' (Paracetamol) und die Quelle |
+| WM-DRUG-3307 | Silber-haltige Verbindungen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf ATC R02AA40 (Antiseptika/Desinfektionsmittel im Halsbereich), Quellen behandeln zahnärztliche Anwendungen (Karies) od |
+| WM-DRUG-3308 | Fusafungin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Fusafungin (ATC R02AB03) ist chemisch und pharmacologisch nicht identisch mit Fusidinsäure (ein Antibiotikum gegen Gram-positi |
+| WM-DRUG-3309 | Gramicidin | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Nur Quellen 2 und 3 behandeln explizit Gramicidin (bzw. Analoga). Quelle 1 behandelt topische Antibiotika allgemein, 6 und 7 antimikrobielle Peptid |
 | WM-DRUG-3312 | Terbutalin | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quelle 1 behandelt Bronchodilatatoren allgemein, Quelle 4 SABA-Monotherapie allgemein, Quelle 5 Kombinationstherapien. Nur 2, 3 und 6 behandeln exp |
 | WM-DRUG-3313 | Rimiterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Rimiterol; alle Quellen beziehen sich auf allgemeine SABA-Klassen (z.B. Salbutamol) oder and |
 | WM-DRUG-3314 | Hexoprenalin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Hexoprenalin ist ein spezifischer Beta-2-Agonist. Albuterol (Salbutamol) ist ein anderer Wirkstoff. Die Quellen behandeln Albuterol oder all |
@@ -2586,6 +2640,8 @@ Stand: 01.11.2026 14:25. Warteschlange: claimed 1, duplicate 470, merged 4, plan
 | WM-DRUG-3349 | Ibudilast | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 1 und 5 behandeln explizit den Wirkstoff Ibudilast. Quelle 2, 3, 8 sind zu allgemein oder behandeln andere Substanzen/Krankheitsbilder  |
 | WM-DRUG-3350 | Eprozinol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Eprozinol' |
 | WM-DRUG-3351 | Seratrodast | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Seratrodast' |
+| WM-DRUG-3352 | Thymianöl | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 5 behandelt Thymianöl direkt. Quelle 1-4 sind irrelevant. Da nur 1 Quelle passt (<4), wird ein besserer Suchbegriff vorgeschlagen.) |
+| WM-DRUG-3353 | Sole | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln explizit Natriumchlorid als Wirkstoff/Substanz in klinischen oder experimentellen Kontexten. Quelle 4 behandelt Wundr |
 | WM-DRUG-3502 | Tinidazol | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Der Titel 'Tinidazol' entspricht dem Wirkstoff der Klassifikation (ATC G01AF21). Nur Quelle 2 (Tinidazol vs. Metronidazol bei bakterieller Vaginos |
 | WM-DRUG-3522 | Fenoterol | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Fenoterol' bezeichnet denselben Wirkstoff wie ATC G02CA03. Keine der Quellen behandelt Fenoterol als Thema. Quelle 1 betrifft SABA-Monot |
 | WM-DRUG-3524 | Lisurid | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Lisurid direkt (5-HT2A-Agonismus, nicht-halluzinogen). Die übrigen Quellen betreffen Wochenbett, Schlafstörungen bei Stimula |
