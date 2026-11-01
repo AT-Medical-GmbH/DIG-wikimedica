@@ -33,8 +33,6 @@ corrections: []
 
 # Mangelernährung
 
-**Klassifikation:** ICD-10-GM: E12.-; ICD-11: 5A12
-
 ## Übersicht
 
 Mangelernährung ist definiert als ein Defizit, ein Überschuss oder ein Ungleichgewicht an Nährstoffen und stellt eine häufige Komplikation bei verschiedenen chronischen Erkrankungen dar.[1] Sie wirkt sich negativ auf die Prognose, die Morbidität und die Mortalität der betroffenen Patientinnen und Patienten aus.[2][3] Die frühzeitige Identifizierung und Behandlung ist entscheidend, um klinische Ergebnisse zu verbessern und die Lebensqualität zu erhalten.[3] In der klinischen Praxis wird Mangelernährung oft nicht angemessen diagnostiziert oder behandelt, obwohl ihre klinischen und wirtschaftlichen Folgen erheblich sind.[4] Eine standardisierte Diagnosestellung nach internationalen Kriterien wie den GLIM-Kriterien (Global Leadership Initiative on Malnutrition) ermöglicht einen vergleichbaren Ansatz und fördert die Entwicklung einheitlicher Versorgungsstandards.[2][5]

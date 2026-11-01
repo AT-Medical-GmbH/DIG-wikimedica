@@ -33,7 +33,7 @@ corrections: []
 
 # Auffällige Befunde in der Brustbildgebung
 
-**Klassifikation:** ICD-10-GM: R92
+**Klassifikation:** ICD-10-GM: R92; ICD-11: MG00
 
 ## Übersicht
 
