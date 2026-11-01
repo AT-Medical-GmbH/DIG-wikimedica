@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 01.11.2026 01:25. Warteschlange: claimed 1, duplicate 446, planned 2770, published 1398, ready 12, redirect 374, review 2106.
+Stand: 01.11.2026 02:25. Warteschlange: claimed 1, duplicate 446, planned 2699, published 1410, ready 18, redirect 374, review 2159.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1846,6 +1846,31 @@ Stand: 01.11.2026 01:25. Warteschlange: claimed 1, duplicate 446, planned 2770, 
 | WM-DRUG-2280 | Uzarawurzel | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Uzarawurzel (Urtica urens) ist ein anderer Wirkstoff als Urtica dioica (Brennnessel). Zudem behandelt die ATC-Klasse A07XP02 spezifisch pfla |
 | WM-DRUG-2281 | Eichenrinde | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Eichenrinde (Quercus robur) als Arzneimittelwirkstoff. Quelle 2 und 6 behandeln Phytotherapie/Zahnfleisch, a |
 | WM-DRUG-2282 | Karottenextrakt | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen ATC-Wirkstoff Karottenextrakt (A07XP04) zur Behandlung von Durchfall; alle Quellen befassen sich mit |
+| WM-DRUG-2283 | Apfelfruchtextrakt | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den ATC-Wirkstoff Apfelfruchtextrakt (A07XP05) als Arzneimittel zur Behandlung von Durchfall; alle Quellen |
+| WM-DRUG-2284 | Tormentillwurzelstock | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Potentilla erecta' |
+| WM-DRUG-2285 | Phentermin | drug | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (Quellen 1, 2, 3, 8, 9, 11, 12 behandeln Adipositas allgemein ohne Fokus auf Phentermin. Quelle 7 ist chemische Synthese. Quelle 10 betrifft Pädiat |
+| WM-DRUG-2287 | Amfepramon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Amfepramone' |
+| WM-DRUG-2288 | Dexfenfluramin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Dexfenfluramin. Quelle 4 behandelt Fenfluramin (Racemat), Quelle 3 ist zu allgemein.) |
+| WM-DRUG-2289 | Mazindol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Mazindol' |
+| WM-DRUG-2290 | Etilamfetamin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'ethylamphetamine' |
+| WM-DRUG-2291 | Cathin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Cathin' (ATC A08AA07) ist ein spezifisches Antihelminthikum (Wurmmittel). Die Quellen behandeln 'Synthetic Cathinones' (Desig |
+| WM-DRUG-2292 | Clobenzorex | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Clobenzorex oder das ATC A08AA08 (Gewichtsreduktion). Alle Titel beziehen sich auf andere mediz |
+| WM-DRUG-2293 | Mefenorex | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mefenorex' |
+| WM-DRUG-2295 | Lorcaserin | drug | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Nur Quellen 5, 10 und 11 behandeln explizit Lorcaserin. Quelle 10 bezieht sich auf Dravet-Syndrom, ist aber relevant für den Wirkstoff. Quelle 11  |
+| WM-DRUG-2297 | Phenylpropanolamin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Phenylpropanolamin; sie befassen sich mit anderen Wirkstoffen (Anticholinergika, Mirabegron, Botulinumtoxin) ode |
+| WM-DRUG-2298 | Phendimetrazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phendimetrazine' |
+| WM-DRUG-2299 | Madar | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Madar (Orlistat) oder die Indikation Adipositas. Alle Titel beziehen sich auf andere Erkrankung |
+| WM-DRUG-2300 | Fucus vesiculosus | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 5 behandelt explizit Fucus vesiculosus. Quelle 1, 2, 3, 4, 6 sind zu allgemein oder behandeln andere Algen/Nanopartikel. Weniger als 4 Q |
+| WM-DRUG-2301 | Rimonabant | drug | Themenprüfung: nur 1 von 12 Quellen passen zum Thema (Nur Quelle 8 behandelt explizit Rimonabant. Quelle 10 erwähnt CB1-Antagonisten allgemein, nicht spezifisch Rimonabant. Quelle 6 behandelt Adiposit |
+| WM-DRUG-2302 | Diastase | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Diastase (ATC A09AA01). Quelle 6 behandelt Rektusdiastase (Krankheitsbild), nicht den Wirkstoff. Quelle |
+| WM-DRUG-2303 | Pepsin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Pepsin als Arzneimittel (ATC A09AA03) zur Verdauungshilfe; alle Quellen befassen sich mit Pepsin als Bi |
+| WM-DRUG-2304 | Tilactase | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Tilactase' (ATC A09AA04) ist ein spezifisches Enzympräparat zur Behandlung der Laktoseintoleranz. Die Quellen behandeln entwe |
+| WM-DRUG-2305 | Aspergillus oryzae | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 5 behandelt medizinische Anwendungen. Die anderen Quellen befassen sich mit molekularer Biologie, Enzymproduktion oder Synthesebiologie  |
+| WM-DRUG-2306 | Glutaminsäurehydrochlorid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Glutaminsäurehydrochlorid (ATC A09AB01) als Arzneimittel zur Appetitregulation. Alle Treffer beziehen s |
+| WM-DRUG-2308 | Salzsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Salzsäure (ATC A09AB03) als Arzneimittel zur Behandlung von Verdauungsstörungen. Quelle 6 behandelt Sal |
+| WM-DRUG-2309 | Zitronensäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Citric Acid als systemischen Arzneimittelwirkstoff (ATC A09AB04) zur Behandlung von Verdauungsstörungen. Alle Quellen |
+| WM-DRUG-2310 | Wermutkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Wermutkraut (Artemisia absinthium) als Arzneimittelwirkstoff ATC A09AP02. Quelle 2 behandelt Artemisia ann |
+| WM-DRUG-2311 | Enzianwurzel | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Gentiana lutea' |
 | WM-DRUG-2312 | Insulin (Rind) | drug | zu wenige Quellen mit Zusammenfassung (1) für 'insulin bovine' |
 | WM-DRUG-2313 | Insulin (Schwein) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Insulin porcine' |
 | WM-DRUG-2314 | Phenformin | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel „Phenformin“ entspricht dem Wirkstoff mit ATC A10BA01. Nur Quelle 3 behandelt Phenformin direkt und im Schwerpunkt. Die übrigen Quellen b |
@@ -1881,6 +1906,34 @@ Stand: 01.11.2026 01:25. Warteschlange: claimed 1, duplicate 446, planned 2770, 
 | WM-DRUG-2356 | Guar-Mehl | drug | Bestätigungsquote 15/62 unter 60 %; zu viele nur teilweise belegte Sätze (10/15) |
 | WM-DRUG-2357 | Copalchirindenextrakt | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Copalchi bark extract' |
 | WM-DRUG-2358 | Donislecel | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Donislecel (Lantidra) ist ein allogenes, aus Spenderpankreas gewonnenes Inselzellpräparat für Typ-1-Diabetes, und der Titel bezeichnet denselben Wi |
+| WM-DRUG-2361 | Ergocalciferol | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Nur Quellen 5, 7 und 13 behandeln explizit Ergocalciferol (Vitamin D2) oder vergleichen es direkt mit anderen Formen im Kontext seiner Wirkung. Qu |
+| WM-DRUG-2362 | Dihydrotachysterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Dihydrotachysterol; alle beziehen sich auf Vitamin-D-Analoga allgemein oder andere Indikationen.) |
+| WM-DRUG-2363 | Alfacalcidol | drug | Themenprüfung: nur 1 von 12 Quellen passen zum Thema (Nur Quelle 9 behandelt explizit Alfacalcidol. Quelle 1, 2 und 7 behandeln Eldecalcitol (ein anderer Wirkstoff). Quelle 11 behandelt Vitamin-D-Anal |
+| WM-DRUG-2369 | Sulbutiamin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Sulbutiamine' |
+| WM-DRUG-2372 | Thiaminpyrophosphat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 3 Quellen behandeln Thiamin/Thiaminpyrophosphat direkt im klinischen Kontext. Quelle 3 ist evolutionär, 1 ist Sepsis-nutritionell, 5 ist |
+| WM-DRUG-2376 | Pyridoxin (Vitamin B6) | drug | Bestätigungsquote 22/68 unter 60 % |
+| WM-DRUG-2380 | Pyridoxalphosphat | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 1 behandelt den Wirkstoff Pyridoxal-5'-Phosphat (P5P) als therapeutische Intervention bei einer spezifischen Indikation (PNPO-Mangel). Q |
+| WM-DRUG-2382 | Calciumpantothenat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 3 Quellen behandeln Vitamin B5/Calciumpantothenat spezifisch. Quelle 1 ist zu allgemein (Vitamine in Muttermilch), Quelle 2 (TB), 3 (Mil |
+| WM-DRUG-2383 | Pantethin | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quelle 2 behandelt Pantethin/Vitamin B5-Derivate bei Herzinsuffizienz. Quelle 4 listet Pantethin explizit auf. Quelle 1 ist zu allgemein (CoA-Biosy |
+| WM-DRUG-2384 | Calciumphosphat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt den Wirkstoff Calciumphosphat als Nahrungsergänzungsmittel (ATC A12AA01). Alle 13 Quellen befassen sich mit C |
+| WM-DRUG-2385 | Calciumglubionat | drug | Themenprüfung: nur 1 von 14 Quellen passen zum Thema (Nur Quelle 6 behandelt Calciumgluconat als spezifische Therapie bei Hydrofluorsäurevergiftung. Quelle 13 behandelt Calciumkanalblocker-Überdosieru |
+| WM-DRUG-2386 | Calciumgluconat | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Titel „Calciumgluconat“ entspricht dem Wirkstoff A12AA03. Passend sind nur Quellen, die Calciumgluconat bzw. intravenöses Calcium als Wirkstoff be |
+| WM-DRUG-2387 | Calciumlactat | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der Quellen behandelt Calciumlactat als Arzneimittelwirkstoff (ATC A12AA05). Quelle 1 behandelt extrazelluläre Puffer (Bicarbonat, Citrat, La |
+| WM-DRUG-2388 | Calciumlactogluconat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'calcium lactogluconate' |
+| WM-DRUG-2389 | Calciumchlorid | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Titel 'Calciumchlorid' entspricht dem Wirkstoff (ATC A12AA07). Passend sind Quelle 1 (intravenöse Calciumgabe in der Herzchirurgie), Quelle 2 (int |
+| WM-DRUG-2390 | Calciumglycerylphosphat | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine Quelle behandelt Calciumglycerophosphat als Wirkstoff; die Treffer betreffen MIH-Remineralisierung bzw. Polyphosphate allgemein.) |
+| WM-DRUG-2391 | Calciumcitratlysin-Komplex | drug | zu wenige Quellen mit Zusammenfassung (0) für 'calcium citrate lysinate' |
+| WM-DRUG-2392 | Calciumglucoheptonat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Calcium glucoheptonate' |
+| WM-DRUG-2393 | Calciumpangamat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Calcium pangamate' |
+| WM-DRUG-2394 | Calciumcitrat | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel Calciumcitrat entspricht dem Wirkstoff. Nur Quelle 1 (Calciumcitrat vs. -carbonat nach bariatrischer Chirurgie) und Quelle 5 (Calciumcitr |
+| WM-DRUG-2395 | Calciumlaevulat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Calcium levulinate' |
+| WM-DRUG-2396 | Calciumthiosulfat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Calcium thiosulfate' |
+| WM-DRUG-2397 | Calciumdiaspartat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'calcium diaspartate' |
+| WM-DRUG-2398 | Calciumorotat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'calcium ascorbate' |
+| WM-DRUG-2399 | Kaliumchlorid | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Passend sind nur Quellen, die Kaliumchlorid als Wirkstoff behandeln: Bioverfügbarkeit von Kaliumsalzen (5), Kaliumchlorid-Infusion zur Fetalredukt |
+| WM-DRUG-2400 | Kaliumcitrat | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Kaliumcitrat als Wirkstoff (Knochenumsatz, Ökonomie und NNT bei Harnsteinprophylaxe). Quelle 2 betrifft diätetische Ma |
+| WM-DRUG-2401 | Kaliumhydrogentartrat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Potassium bitartrate' |
+| WM-DRUG-2402 | Kaliumhydrogencarbonat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Potassium bicarbonate' |
 | WM-DRUG-2431 | Androstanolon | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Androstanolon ist Dihydrotestosteron (DHT), als Arzneimittel (ATC A14AA01) ein anaboles Steroid. Der Titel passt zur Klassifikation. Keine der Que |
 | WM-DRUG-2445 | Pizotifen | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel bezeichnet den Wirkstoff Pizotifen (der ATC-Code A15AA02 ist eher unpassend, Pizotifen ist N02CX01). Quellen 4–6 behandeln wahrscheinlich Piz |
 | WM-DRUG-2478 | Dicoumarol | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Dicoumarol ist ein spezifischer Vitamin-K-Antagonist (Cumarin-Derivat, heute kaum noch verwendet). Alle acht Quellen behandeln Vitamin-K-Antagonist |
