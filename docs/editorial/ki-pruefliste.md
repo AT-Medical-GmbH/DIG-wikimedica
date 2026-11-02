@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 08:25. Warteschlange: duplicate 472, failed 1, merged 19, planned 1490, published 1807, ready 10, redirect 394, review 2918.
+Stand: 02.11.2026 09:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 23, planned 1424, published 1813, ready 8, redirect 394, review 2975.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -492,6 +492,8 @@ Stand: 02.11.2026 08:25. Warteschlange: duplicate 472, failed 1, merged 19, plan
 | WM-DIS-1450 | Nicht näher bezeichnete Mykose | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (ICD-10-GM B49 ist ein Sammelbegriff für nicht näher bezeichnete Mykosen. Alle 16 Quellen behandeln spezifische Untergruppen (z. B. invasive, oberf |
 | WM-DIS-1452 | Drakunkulose | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel passt zur ICD-10-GM B72. Quelle 1, 3 und 5 behandeln explizit Guinea Worm Disease/Dracunculiasis. Quelle 2 ist biografisch, 4 ist unspezifisc |
 | WM-DIS-1455 | Trichuriasis | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Trichinose und Trichuriasis' ist irreführend, da Trichinose (Trichinellose) eine andere Erkrankung ist. Zudem sind 5 Quellen passend  |
+| WM-DIS-1459 | Folgezustände der Poliomyelitis | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel entspricht ICD-10-GM B91. Quellen 1, 3 und 4 behandeln explizit Post-Polio-Syndrom/Folgezustände. Quelle 6 behandelt Polio allgemein, nicht s |
+| WM-DIS-1460 | Folgezustände der Lepra | disease | zu wenige Quellen mit Zusammenfassung (1) für 'leprosy complications' |
 | WM-DIS-1482 | Sonstige und nicht näher bezeichnete Verletzungen des Unterarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S59 umfasst alle Verletzungen (z.B. Prellungen, Luxationen), nicht nur Frakturen. Der Titel 'Sonstige Verletzungen des Unterarms'  |
 | WM-DIS-1484 | Sonstige und nicht näher bezeichnete Verletzungen der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip and thigh injuries' |
 | WM-DIS-1485 | Sonstige und nicht näher bezeichnete Verletzungen des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
@@ -2936,6 +2938,61 @@ Stand: 02.11.2026 08:25. Warteschlange: duplicate 472, failed 1, merged 19, plan
 | WM-DRUG-3633 | Sägepalmenfrüchte | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Arzneimittelwirkstoff Sägepalmenfrüchte' ist irreführend, da er den Wirkstoff (Extrakt aus den Früchten) mit der Indikat |
 | WM-DRUG-3634 | Pygeum africanum | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln allgemeine Phytochemie/Toxizität oder andere Indikationen (Krebs), nicht spezifisch die BPH/Prostata, für die Pygeum african |
 | WM-DRUG-3635 | Fexapotid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Fexapotide' |
+| WM-DRUG-3636 | Hachimycin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Hachimycin (ATC D01AA03); alle beziehen sich auf die allgemeine Klasse der Makrolide.) |
+| WM-DRUG-3637 | Pecilocin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pecilocin' |
+| WM-DRUG-3638 | Pyrrolnitrin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'pyrrolnitrin' |
+| WM-DRUG-3639 | Griseofulvin | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Quellen 7 und 13 behandeln Griseofulvin direkt. Quelle 8 behandelt Tinea capitis (Indikation für Griseofulvin) und erwähnt Griseofulvin im Titel/K |
+| WM-DRUG-3640 | Econazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Econazol; alle behandeln allgemeine Antimykotika, Nanocarrier oder andere Indikationen.) |
+| WM-DRUG-3641 | Chlormidazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Chloramphenicol' (Breitbandantibiotikum) ist falsch für den Wirkstoff 'Chlormidazol' (ATC D01AC04, Antimykotikum). Keine de |
+| WM-DRUG-3642 | Isoconazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'nitroimidazole' ist falsch; Isoconazol ist ein Imidazol-Antimykotikum, kein Nitroimidazol. Keine Quelle behandelt Isoconazol.) |
+| WM-DRUG-3643 | Tiabendazol | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 behandelt Tungiasis (falsches Indikationsgebiet), Quelle 2 ist Materialwissenschaft. Quelle 3 (Analytik des Wirkstoffs) und 4 (Risikobewe |
+| WM-DRUG-3644 | Tioconazol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Tioconazole' |
+| WM-DRUG-3645 | Sulconazol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulconazole' |
+| WM-DRUG-3646 | Bifonazol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Bifonazole' |
+| WM-DRUG-3647 | Oxiconazol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'oxiconazole' |
+| WM-DRUG-3648 | Fenticonazol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Fenticonazole' |
+| WM-DRUG-3649 | Omoconazol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Omoconazole' |
+| WM-DRUG-3650 | Sertaconazol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Sertaconazole' |
+| WM-DRUG-3652 | Flutrimazol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Flutrimazole' |
+| WM-DRUG-3653 | Eberconazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Eberconazol/Econazol; alle behandeln allgemeine Antimykotika, Nanocarrier oder andere Indikationen.) |
+| WM-DRUG-3654 | Luliconazol | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 3, 4 und 7 behandeln explizit Luliconazol. Quelle 1 ist eine Meta-Analyse zu Onychomykose, die Luliconazol als topischen Wirkstoff einschli |
+| WM-DRUG-3656 | Neticonazol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Neticonazole' |
+| WM-DRUG-3657 | Lanoconazol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Lanoconazole' |
+| WM-DRUG-3658 | Croconazol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Crocconazole' |
+| WM-DRUG-3659 | Bromchlorsalicylanilid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bromochlorosalicylanilide' |
+| WM-DRUG-3660 | Methylrosanilin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf den Wirkstoff Methylrosanilin (Methylenblau), nicht auf ein spezifisches Krankheitsbild. 9 Quellen passen thematisch. |
+| WM-DRUG-3661 | Tribrommetacresol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tribrommetacresol' |
+| WM-DRUG-3662 | Undecylensäure | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Undecylenic acid' |
+| WM-DRUG-3663 | 2-(4-Chlorphenoxy)ethanol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'chlorphenox' |
+| WM-DRUG-3664 | Chlorphenesin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Carisoprodol' |
+| WM-DRUG-3666 | Sulbentin | drug | Bestätigungsquote 22/46 unter 60 % |
+| WM-DRUG-3667 | Ethylhydroxybenzoat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Ethylparaben' |
+| WM-DRUG-3668 | Haloprogin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Haloprogin' |
+| WM-DRUG-3669 | Salicylsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Salicylsäure primär als Arzneimittelwirkstoff (ATC D01AE12) für die menschliche Therapie; Quellen 1, 3, 6, 8, 11 beha |
+| WM-DRUG-3670 | Selendisulfid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 3 behandelt explizit Selenium Disulfide. Quelle 1 ist zu allgemein (Management), Quelle 2 ist ein breiter Review über Schwefel-De |
+| WM-DRUG-3671 | Ciclopirox | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Ciclopirox spezifisch als Hauptthema; Quelle 4 nennt es nur im Kontext von Krebs, Quelle 1-3 behandeln andere Antimyk |
+| WM-DRUG-3673 | Amorolfin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Amorolfin; alle behandeln allgemeine Onychomykose oder andere Antimykotika.) |
+| WM-DRUG-3674 | Dimazol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'dimetridazole' |
+| WM-DRUG-3675 | Tolnaftat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Tolnaftat; Quellen behandeln allgemeine Antimykotika, Dermatomykosen oder Tinea pedis ohne Fokus auf den W |
+| WM-DRUG-3676 | Tolciclat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tolmetin' |
+| WM-DRUG-3677 | Flucytosin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quelle 6 behandelt Flucytosin explizit als Wirkstoff. Quelle 3 behandelt Flucytosin im Kontext von Suszeptibilitätstests. Quelle 1, 2, 7, 9 beh |
+| WM-DRUG-3678 | Naftifin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'naftifine' |
+| WM-DRUG-3679 | Butenafin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'terbinafine' ist falsch. Butenafin und Terbinafin sind unterschiedliche Wirkstoffe. Keine der Quellen behandelt Butenafin.) |
+| WM-DRUG-3681 | Liranaftat | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel und ATC passen. Nur 3 Quellen behandeln Luliconazole direkt; Quelle 1, 2, 5, 6 sind zu allgemein oder betreffen andere Wirkstoffe/Themen.) |
+| WM-DRUG-3682 | Bromsalicylisopropylamid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bromsalicylisopropylamide' |
+| WM-DRUG-3683 | Dichlorophen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Dichlorophenols' |
+| WM-DRUG-3684 | Fosravuconazol | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 2 und 5 behandeln explizit Fosravuconazol. Quelle 1 und 7 beziehen sich auf Chagas/Trypanosoma cruzi (falsche Indikation). Quelle 3, 4  |
+| WM-DRUG-3685 | Dimeticon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Dimeticon als Wirkstoff. Quelle 1 erwähnt 'Mucosal Protective Compounds' allgemein, Quelle 2 bezieht  |
+| WM-DRUG-3686 | Phenylmethylpolysiloxan | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Dimethicone (Phenylmethylpolysiloxan) als Wirkstoff. Quelle 1 erwähnt 'Mucosal Protective Compounds' allge |
+| WM-DRUG-3687 | Polysiloxan | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Polysiloxan (ATC D02AA03) als Arzneimittel. Die Quellen befassen sich mit chemischer Synthese, Sensorik |
+| WM-DRUG-3688 | Zinkoxid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Zinkoxid als topischen Arzneimittelwirkstoff (ATC D02AB01) für Hauterkrankungen; alle Quellen beziehen sich auf Nanop |
+| WM-DRUG-3689 | Basistherapeutika | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC D02AC01 ist ein falscher Code für Metformin (Metformin ist A10BA02). D02AC01 steht für 'Salicylic acid and derivatives'. Da der geplante |
+| WM-DRUG-3690 | Linolsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt Linolsäure (ATC D02AC02, ein topischer Emollient/Weichmacher). Die Quellen behandeln Conjugated Linoleic Acid |
+| WM-DRUG-3691 | Ethyllinolat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Ethyl linoleate' |
+| WM-DRUG-3692 | Carbamidperoxid | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Nur 3 Quellen behandeln explizit Carbamide peroxide. Quelle 1, 3, 4, 5, 6, 8, 10 sind allgemein zu Bleaching oder anderen Wirkstoffen. Da weniger  |
+| WM-DRUG-3693 | Nachtkerzensamenöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Nachtkerzensamenöl' bezeichnet einen Wirkstoff (ATC D02AP01), während die Quellen sich auf Indikationen (Entzündungen, P |
+| WM-DRUG-3694 | Olivenöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Arzneimittelwirkstoff Olivenöl' ist irreführend, da Olivenöl kein Arzneimittelwirkstoff im Sinne der ATC-Klassifikation  |
+| WM-DRUG-3695 | Schwefel-haltige Mittel | drug | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Quelle 10 behandelt Schwefel-Präparate in der Dermatologie (passend zu ATC D02AX05). Quelle 11 behandelt Scabies, für das Schwefelpräparate eine S |
 | WM-DRUG-3730 | Promethazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation D04AA10 bezeichnet Promethazin zur topischen Anwendung (Antipruriginosum). Der geplante Titel „Promethazin“ ist als W |
 | WM-DRUG-3743 | Doxepin | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 5 behandelt Doxepin direkt (dermatologische Anwendung, Spiegelbestimmung, Genotypisierung). Quelle 1 (Sialorrhoe unter Antipsychotika),  |
 | WM-DRUG-3745 | Bufexamac | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der sechs Quellen behandelt Bufexamac. Sie befassen sich mit anderen HDAC6-Inhibitoren (Tubastatin A, ACY-1215, JBI-802) oder allgemein mit H |
