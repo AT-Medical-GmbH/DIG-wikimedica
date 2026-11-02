@@ -1,0 +1,89 @@
+---
+title: "Filariose"
+slug: "filariose"
+specialty: "Infektiologie"
+secondary_specialties: []
+article_type: "professional"
+content_kind: "article"
+status: "draft"
+version: "0.1.0"
+change_summary: "Automatisch erstellter, quellenbasierter Erstentwurf mit maschineller Faktenprüfung gegen PubMed-Quellen; fachärztliche Prüfung steht aus."
+authors: [{name: "WikiMedica-Redaktion"}]
+reviewers: []
+created: "2026-11-02"
+updated: "2026-11-02"
+risk_level: "moderate"
+target_audience: ["medical-professionals"]
+sex_gender_relevance: "not_assessed"
+sex_gender_notes: ""
+safety_hold: false
+language: "de"
+language_level: "professional"
+icd10: ["B74"]
+ops: []
+pubmed_ids: ["38228446", "39504323", "38933431", "33415391", "41345580", "34928944", "36467729", "34229954", "36889363", "36269701", "38420575", "35080325", "33491765", "36232271"]
+guidelines: []
+references: [{"citation": "Perles L, Dantas-Torres F, Krücken J et al.. Zoonotic dirofilariases: one, no one, or more than one parasite. Trends Parasitol. 2024;40:257-270.", "pmid": "38228446", "doi": "10.1016/j.pt.2023.12.007", "url": "https://pubmed.ncbi.nlm.nih.gov/38228446/"}, {"citation": "Bytyqi A, Karas C, Pechmann K et al.. Oro-facial filariasis-A systematic review of the literature. PLoS Negl Trop Dis. 2024;18:e0012610.", "pmid": "39504323", "doi": "10.1371/journal.pntd.0012610", "url": "https://pubmed.ncbi.nlm.nih.gov/39504323/"}, {"citation": "Waje T, Iliyasu C, Yaki LM et al.. A review of epidemiology of lymphatic filariasis in Nigeria. Pan Afr Med J. 2024;47:142.", "pmid": "38933431", "doi": "10.11604/pamj.2024.47.142.39746", "url": "https://pubmed.ncbi.nlm.nih.gov/38933431/"}, {"citation": "Bizhani N, Hashemi Hafshejani S, Mohammadi N et al.. Lymphatic filariasis in Asia: a systematic review and meta-analysis. Parasitol Res. 2021;120:411-422.", "pmid": "33415391", "doi": "10.1007/s00436-020-06991-y", "url": "https://pubmed.ncbi.nlm.nih.gov/33415391/"}, {"citation": "Galgamuwa LS, Hakmanage NM, Fernando S et al.. Risk factors of lymphatic filariasis in Asia: a systematic review. BMC Infect Dis. 2025;25:1692.", "pmid": "41345580", "doi": "10.1186/s12879-025-12158-w", "url": "https://pubmed.ncbi.nlm.nih.gov/41345580/"}, {"citation": "Delos Trinos JPCR, Wulandari LPL, Clarke N et al.. Prevalence of soil-transmitted helminth infections, schistosomiasis, and lymphatic filariasis before and after preventive chemotherapy initiation in the Philippines: A systematic review and meta-analysis. PLoS Negl Trop Dis. 2021;15:e0010026.", "pmid": "34928944", "doi": "10.1371/journal.pntd.0010026", "url": "https://pubmed.ncbi.nlm.nih.gov/34928944/"}, {"citation": "Fordjour FA, Kwarteng A. The filarial and the antibiotics: Single or combination therapy using antibiotics for filariasis. Front Cell Infect Microbiol. 2022;12:1044412.", "pmid": "36467729", "doi": "10.3389/fcimb.2022.1044412", "url": "https://pubmed.ncbi.nlm.nih.gov/36467729/"}, {"citation": "Johnston KL, Hong WD, Turner JD et al.. Anti-Wolbachia drugs for filariasis. Trends Parasitol. 2021;37:1068-1081.", "pmid": "34229954", "doi": "10.1016/j.pt.2021.06.004", "url": "https://pubmed.ncbi.nlm.nih.gov/34229954/"}, {"citation": "Breloer M, Hartmann W. Filarial infections compromise influenza vaccination efficacy: Lessons from the mouse. Immunol Lett. 2023;255:62-66.", "pmid": "36889363", "doi": "10.1016/j.imlet.2023.03.001", "url": "https://pubmed.ncbi.nlm.nih.gov/36889363/"}, {"citation": "Wilairatana P, Kotepui KU, Mala W et al.. Prevalence, probability, and characteristics of malaria and filariasis co-infections: A systematic review and meta-analysis. PLoS Negl Trop Dis. 2022;16:e0010857.", "pmid": "36269701", "doi": "10.1371/journal.pntd.0010857", "url": "https://pubmed.ncbi.nlm.nih.gov/36269701/"}, {"citation": "Reimer LJ, Pryce JD. The impact of mosquito sampling strategies on molecular xenomonitoring prevalence for filariasis: a systematic review. Bull World Health Organ. 2024;102:204-215.", "pmid": "38420575", "doi": "10.2471/BLT.23.290424", "url": "https://pubmed.ncbi.nlm.nih.gov/38420575/"}, {"citation": "Abuelazm MT, Abdelazeem B, Badr H et al.. Efficacy and safety of triple therapy versus dual therapy for lymphatic filariasis: A systematic review and meta-analysis. Trop Med Int Health. 2022;27:226-235.", "pmid": "35080325", "doi": "10.1111/tmi.13727", "url": "https://pubmed.ncbi.nlm.nih.gov/35080325/"}, {"citation": "Drews SJ, Spencer BR, Wendel S et al.. Filariasis and transfusion-associated risk: a literature review. Vox Sang. 2021;116:741-754.", "pmid": "33491765", "doi": "10.1111/vox.13073", "url": "https://pubmed.ncbi.nlm.nih.gov/33491765/"}, {"citation": "Abdul Halim AFN, Ahmad D, Miaw Yn JL et al.. Factors Associated with the Acceptability of Mass Drug Administration for Filariasis: A Systematic Review. Int J Environ Res Public Health. 2022;19.", "pmid": "36232271", "doi": "10.3390/ijerph191912971", "url": "https://pubmed.ncbi.nlm.nih.gov/36232271/"}]
+source_notes: "Eigene Zusammenfassung von PubMed-Zusammenfassungen und, wo Creative-Commons-Lizenz vorliegt, PubMed-Central-Volltextauszügen; keine wörtliche Übernahme. Alle zitierten PMIDs wurden gegen PubMed aufgelöst. Katalogbezug: ICD-10-GM 2026 (BfArM)."
+ai_assisted: true
+ai_assistance_description: "Entwurf und satzweise Faktenprüfung auf Grundlage automatisch abgerufener PubMed-Quellen (Suchbegriff, Themenprüfung, Entwurf, Faktenprüfung, Lektorat: Qwen/Qwen3.6-35B-A3B-FP8 über das AT-AI-Gateway (Hetzner)). Maschinelle Faktenprüfung: 46 von 53 Sätzen bestätigt, 7 nicht belegte Sätze entfernt. Keine menschliche fachliche Prüfung."
+wikimedica_credit: true
+corrections: []
+---
+
+# Filariose
+
+**Klassifikation:** ICD-10-GM: B74.-; ICD-11: 1F66
+
+## Übersicht
+
+Filariose ist eine durch Fadenwürmer (Nematoden) verursachte parasitäre Erkrankung, die beim Menschen vor allem das Lymphsystem, das Unterhautgewebe oder in zoonotischen Fällen andere Organe befällt.[1] Die wichtigsten humanpathogenen Erreger der lymphatischen Filariose sind *Wuchereria bancrofti*, *Brugia malayi* und *Brugia timori*, während zoonotische Formen häufig durch *Dirofilaria*-Arten wie *Dirofilaria immitis* oder *Dirofilaria repens* ausgelöst werden.[2][1] Die Erkrankung zählt zu den vernachlässigten Tropenkrankheiten und stellt in vielen endemischen Regionen ein erhebliches öffentliches Gesundheitsproblem dar.[3][4] Die Übertragung erfolgt primär durch den Stich infizierter Stechmücken, die als Vektoren fungieren, wobei der Mensch als definitiver Wirt dient.[3] Klinisch reicht das Spektrum von asymptomatischen Infektionen über akute Entzündungsreaktionen bis hin zu chronischen, schwerwiegenden Manifestationen wie Lymphödemen, Elephantiasis und Hydrozele.[5][3]
+
+## Epidemiologie
+
+In Asien bleibt die lymphatische Filariose eine große Herausforderung, wobei Metaanalysen eine gepoolte Prävalenz von etwa 3 % schätzen.[4] In Nigeria, einem Land mit hoher Krankheitslast in Afrika, wird eine Gesamtprävalenz von 11,18 % berichtet, wobei regionale Unterschiede zwischen 1,26 % im Südwesten und 4,52 % in den nördlichen Regionen bestehen.[3] In den Philippinen hat die Einführung präventiver Chemotherapie die Prävalenz der lymphatischen Filariose in den meisten Provinzen auf unter 1 % gesenkt, wobei nur noch zwei Provinzen Werte über 1 % aufweisen.[6] In asiatischen Studien wurden männliches Geschlecht, höheres Alter, niedriger sozioökonomischer Status, Tätigkeiten im Freien sowie unzureichende sanitäre Einrichtungen und schlecht gebaute Häuser als Risikofaktoren identifiziert.[5] Auch Migrationsstatus und die Nähe zu Entwässerungssystemen tragen zur Übertragung bei.[5] Bei der zoonotischen orofazialen Filariose, die überwiegend durch *Dirofilaria repens* verursacht wird, ist die Erkrankung weltweit verbreitet, mit einem Schwerpunkt in der Europäischen und Südostasiatischen Region der WHO.[2] Die Betroffenen sind hier häufiger männlich oder gleichverteilt, mit einem Medianalter von 39 Jahren.[2]
+
+## Ursachen und Pathophysiologie
+
+Die Pathophysiologie der lymphatischen Filariose wird durch die Interaktion zwischen dem Wirt und den endosymbiontischen Bakterien *Wolbachia* geprägt, die für das Überleben und die Reproduktion der Fadenwürmer essentiell sind.[7][8] Eine Infektion mit Helminthen kann zudem das Immunsystem systemisch verändern, was sich beispielsweise in einer verminderten Wirksamkeit von Influenza-Impfungen durch eine Expansion regulatorischer T-Zellen äußern kann.[9] Bei der zoonotischen Dirofilariose wandern die Larven oft in falsche Endwirte, wo sie absterben und lokale Entzündungsreaktionen, oft als Knoten oder Schwellungen, verursachen.[2] Im Gegensatz dazu entwickeln sich die humanpathogenen lymphatischen Filarien im Lymphsystem weiter, wo sie zu Obstruktionen und chronischen Entzündungen führen können.[3]
+
+## Klinik und Warnzeichen
+
+Ein Großteil der Infektionen verläuft asymptomatisch, kann aber dennoch zur Antigenämie führen.[5] Chronische Manifestationen umfassen Hydrozele, Lymphödeme, Elephantiasis und Dermatitis, die zu erheblicher Morbidität und Behinderung führen.[3] Bei der orofazialen Dirofilariose treten häufig schmerzhafte Schwellungen oder Knoten im Gesichtsbereich auf, wobei die Wange am häufigsten betroffen ist.[2] Schmerzen, Juckreiz und Dysesthesien sind die häufigsten Symptome bei symptomatischen Fällen.[2] Eine Ko-Infektion mit Malaria ist in endemischen Gebieten möglich und tritt mit einer gepoolten Prävalenz von etwa 11 % auf, wobei die Häufigkeit regional variiert.[10] Patienten mit Ko-Infektionen zeigen oft ein vermindertes Risiko für schwere Anämie und eine niedrigere Parasitendichte bei der Malaria, was auf komplexe immunologische Interaktionen hindeutet.[10]
+
+## Diagnostik
+
+Für den Nachweis von Mikrofilarien im Blut sind nächtliche Blutproben geeignet, da diese Organismen eine nächtliche Periodizität aufweisen.[3] Der Nachweis zirkulierender filarialer Antigene (CFA) ist eine gängige Methode, um Infektionen zu identifizieren, wobei die Antigenkonzentrationen bei Männern und älteren Personen tendenziell höher sind.[5] Für die Überwachung der Übertragung und die Bewertung von Kontrollprogrammen wird zunehmend auf molekulare Xenomonitoring-Verfahren zurückgegriffen, bei denen gefangene Mücken auf parasitäre DNA untersucht werden.[11] Die Wahl der Mückensammelstrategie hat einen signifikanten Einfluss auf die Nachweiswahrscheinlichkeit; Methoden, die blutsaugende Mücken ansprechen, führen zu einer höheren Nachweisrate als solche, die nicht blutsaugende Mücken sammeln.[11] Allerdings ist die Evidenz für die optimale Strategie aufgrund methodischer Limitationen und Heterogenität zwischen Studien als von niedriger Sicherheit einzustufen.[11] Bei der zoonotischen Dirofilariose erfolgt die Diagnose oft durch histopathologische Untersuchung von entfernten Knoten, wobei die Artbestimmung der Parasiten morphologisch und genomisch erfolgen sollte, um Verwechslungen mit anderen *Dirofilaria*-Arten zu vermeiden.[1]
+
+## Therapie
+
+Übliche Regime umfassen die Kombination von Ivermectin und Albendazol oder Diethylcarbamazin (DEC) und Albendazol, abhängig von der Ko-Endemie mit anderen Erkrankungen wie Onchozerkose oder Loa-Loa-Infektionen.[3] Triple-Therapie-Regime (Ivermectin, DEC und Albendazol) führen zu einer effizienteren Clearance von Mikrofilarien im Blut als Dual-Therapien, bei denen Dual-Therapien jedoch eine stärkere Reduktion der zirkulierenden Antigene bewirken können.[12] Beide Therapieregime weisen ein ähnliches Sicherheitsprofil auf.[12] Aktuelle klinische Studien untersuchen neue Wirkstoffkandidaten wie AWZ1066S und ABBV-4083, die kürzere Behandlungszyklen ermöglichen sollen.[8] Bei der zoonotischen orofazialen Dirofilariose ist die chirurgische Entfernung des Parasiten oder des betroffenen Gewebes die Standardtherapie, wobei in einigen Fällen eine zusätzliche antifilarielle Behandlung erfolgt.[2]
+
+## Verlauf und Prognose
+
+Der Verlauf der lymphatischen Filariose ist chronisch und kann zu dauerhaften Behinderungen führen, wenn sie nicht frühzeitig behandelt wird.[3] Die MDA-Programme haben in vielen Regionen, einschließlich Teilen Asiens und der Philippinen, die Krankheitslast erheblich reduziert und einige Länder haben die Filariose als öffentliches Gesundheitsproblem eliminiert.[4][6] Dennoch bleibt die Übertragung in vielen Gebieten bestehen, und eine vollständige Elimination erfordert nachhaltige Kontrollmaßnahmen, einschließlich Vektorkontrolle und Gemeinschaftsbildung.[5][3] Die Prognose der zoonotischen Dirofilariose ist in der Regel gut, da die Erkrankung oft lokal begrenzt ist und durch chirurgische Intervention geheilt werden kann.[2] Transfusionsübertragene Filariose ist selten und führt in der Regel zu keinen schweren klinischen Folgen, weshalb keine spezifischen Screening-Strategien für Blutspender in endemischen Gebieten empfohlen werden.[13]
+
+## Besonderheiten bei Frauen und Männern
+
+Bei der lymphatischen Filariose in Asien sind Männer und ältere Personen häufiger von einer nachweisbaren Antigenämie und Mikrofilariämie betroffen.[5] Sozioökonomische Faktoren wie Berufstätigkeit im Freien und Wohnverhältnisse spielen dabei eine wichtige Rolle.[5] Im Gegensatz dazu ist die orofaziale Dirofilariose geschlechtsungleich verteilt oder zeigt keine signifikante Bevorzugung, je nach Studie, wobei die Erkrankung in der Europäischen Region häufiger berichtet wird.[2] Bei der lymphatischen Filariose mit begleitendem Karzinom oder Onchozerkose sind Männer leicht überrepräsentiert.[2]
+
+## Informationen für Patientinnen und Patienten
+
+Die Akzeptanz von Massendrug-Administration-Programmen ist entscheidend für deren Erfolg und wird durch Wissen, Einstellungen, Kommunikation und den Zugang zu den Medikamenten beeinflusst.[14] Gemeinschaftsbasierte Aufklärungskampagnen sind notwendig, um Vorurteile abzubauen und die Teilnahmequote zu erhöhen.[14] Patienten sollten über die Bedeutung der regelmäßigen Einnahme der Medikamente und der Vektorkontrolle, wie die Verwendung von Mückennetzen, aufgeklärt werden.[5][3] Bei Verdacht auf Schwellungen oder Knoten, insbesondere im Gesichtsbereich nach Reisen in endemische Gebiete, sollte eine ärztliche Abklärung erfolgen.[2]
+
+## Literatur
+
+1. Perles L, Dantas-Torres F, Krücken J et al.. Zoonotic dirofilariases: one, no one, or more than one parasite. Trends Parasitol. 2024;40:257-270. PMID: 38228446. DOI: 10.1016/j.pt.2023.12.007. https://pubmed.ncbi.nlm.nih.gov/38228446/
+2. Bytyqi A, Karas C, Pechmann K et al.. Oro-facial filariasis-A systematic review of the literature. PLoS Negl Trop Dis. 2024;18:e0012610. PMID: 39504323. DOI: 10.1371/journal.pntd.0012610. https://pubmed.ncbi.nlm.nih.gov/39504323/
+3. Waje T, Iliyasu C, Yaki LM et al.. A review of epidemiology of lymphatic filariasis in Nigeria. Pan Afr Med J. 2024;47:142. PMID: 38933431. DOI: 10.11604/pamj.2024.47.142.39746. https://pubmed.ncbi.nlm.nih.gov/38933431/
+4. Bizhani N, Hashemi Hafshejani S, Mohammadi N et al.. Lymphatic filariasis in Asia: a systematic review and meta-analysis. Parasitol Res. 2021;120:411-422. PMID: 33415391. DOI: 10.1007/s00436-020-06991-y. https://pubmed.ncbi.nlm.nih.gov/33415391/
+5. Galgamuwa LS, Hakmanage NM, Fernando S et al.. Risk factors of lymphatic filariasis in Asia: a systematic review. BMC Infect Dis. 2025;25:1692. PMID: 41345580. DOI: 10.1186/s12879-025-12158-w. https://pubmed.ncbi.nlm.nih.gov/41345580/
+6. Delos Trinos JPCR, Wulandari LPL, Clarke N et al.. Prevalence of soil-transmitted helminth infections, schistosomiasis, and lymphatic filariasis before and after preventive chemotherapy initiation in the Philippines: A systematic review and meta-analysis. PLoS Negl Trop Dis. 2021;15:e0010026. PMID: 34928944. DOI: 10.1371/journal.pntd.0010026. https://pubmed.ncbi.nlm.nih.gov/34928944/
+7. Fordjour FA, Kwarteng A. The filarial and the antibiotics: Single or combination therapy using antibiotics for filariasis. Front Cell Infect Microbiol. 2022;12:1044412. PMID: 36467729. DOI: 10.3389/fcimb.2022.1044412. https://pubmed.ncbi.nlm.nih.gov/36467729/
+8. Johnston KL, Hong WD, Turner JD et al.. Anti-Wolbachia drugs for filariasis. Trends Parasitol. 2021;37:1068-1081. PMID: 34229954. DOI: 10.1016/j.pt.2021.06.004. https://pubmed.ncbi.nlm.nih.gov/34229954/
+9. Breloer M, Hartmann W. Filarial infections compromise influenza vaccination efficacy: Lessons from the mouse. Immunol Lett. 2023;255:62-66. PMID: 36889363. DOI: 10.1016/j.imlet.2023.03.001. https://pubmed.ncbi.nlm.nih.gov/36889363/
+10. Wilairatana P, Kotepui KU, Mala W et al.. Prevalence, probability, and characteristics of malaria and filariasis co-infections: A systematic review and meta-analysis. PLoS Negl Trop Dis. 2022;16:e0010857. PMID: 36269701. DOI: 10.1371/journal.pntd.0010857. https://pubmed.ncbi.nlm.nih.gov/36269701/
+11. Reimer LJ, Pryce JD. The impact of mosquito sampling strategies on molecular xenomonitoring prevalence for filariasis: a systematic review. Bull World Health Organ. 2024;102:204-215. PMID: 38420575. DOI: 10.2471/BLT.23.290424. https://pubmed.ncbi.nlm.nih.gov/38420575/
+12. Abuelazm MT, Abdelazeem B, Badr H et al.. Efficacy and safety of triple therapy versus dual therapy for lymphatic filariasis: A systematic review and meta-analysis. Trop Med Int Health. 2022;27:226-235. PMID: 35080325. DOI: 10.1111/tmi.13727. https://pubmed.ncbi.nlm.nih.gov/35080325/
+13. Drews SJ, Spencer BR, Wendel S et al.. Filariasis and transfusion-associated risk: a literature review. Vox Sang. 2021;116:741-754. PMID: 33491765. DOI: 10.1111/vox.13073. https://pubmed.ncbi.nlm.nih.gov/33491765/
+14. Abdul Halim AFN, Ahmad D, Miaw Yn JL et al.. Factors Associated with the Acceptability of Mass Drug Administration for Filariasis: A Systematic Review. Int J Environ Res Public Health. 2022;19. PMID: 36232271. DOI: 10.3390/ijerph191912971. https://pubmed.ncbi.nlm.nih.gov/36232271/
