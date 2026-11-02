@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 13:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 23, planned 1110, published 1872, ready 16, redirect 394, review 3222.
+Stand: 02.11.2026 14:26. Warteschlange: claimed 1, duplicate 473, failed 1, merged 24, planned 1062, published 1887, ready 26, redirect 394, review 3243.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -103,12 +103,14 @@ Stand: 02.11.2026 13:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-0471 | Oberflächliche Verletzung des Thorax | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (S20 meint oberflächliche Verletzungen des Thorax (Prellung, Schürfwunde, Insektenbiss, Blase, oberflächlicher Fremdkörper), also Weichteilverletzu |
 | WM-DIS-0472 | Fraktur im Bereich des Handgelenkes und der Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'wrist and hand fractures' |
 | WM-DIS-0476 | Komplikationen, die für Replantation und Amputation bezeichnend sind | disease | zu wenige Quellen mit Zusammenfassung (0) für 'amputation and replantation complications' |
+| WM-DIS-0478 | Systematrophien, vorwiegend das Zentralnervensystem betreffend, bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10-GM G13 (Systematrophien bei anderenorts klassifizierten Krankheiten). Die Quellen behandeln allgemeine neu |
 | WM-DIS-0484 | Nicht näher bezeichnete affektive Störung | disease | Import ins Wiki fehlgeschlagen: existing page is not owned by this BETA article; refusing overwrite |
 | WM-DIS-0489 | Krankheiten des Muskel-Skelett-Systems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (M96 umfasst nur Muskel-Skelett-Erkrankungen nach medizinischen Maßnahmen, z. B. Postlaminektomie-Syndrom, Pseudarthrose nach Fusion oder Feh |
 | WM-DIS-0492 | Bösartige Neubildung am Rektosigmoid, Übergang | disease | Bestätigungsquote 26/44 unter 60 % |
 | WM-DIS-0496 | Verletzung der Harnorgane und der Beckenorgane | disease | zu viele nur teilweise belegte Sätze (7/11) |
 | WM-DIS-0497 | Bösartige immunproliferative Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel ist zu allgemein; IPSID ist eine Unterform von MALT-Lymphom, nicht synonym mit C88.) |
 | WM-DIS-0498 | Oberflächliche Verletzung des Halses | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (ICD-10-GM S10 umfasst oberflächliche Verletzungen des Halses (Prellung, Schürfwunde, Blasenbildung, oberflächlicher Fremdkörper, Insektenbiss usw. |
+| WM-DIS-0499 | Meningitis bei sonstigen anderenorts klassifizierten infektiösen und parasitären Krankheiten | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (ICD-10-GM G02 bezeichnet spezifisch Meningitis bei anderenorts klassifizierten infektiösen Krankheiten (z.B. Tuberkulose, Syphilis, Brucellose, Va |
 | WM-DIS-0505 | Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen | disease | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Titel entspricht C79 (Metastasen sonstiger Lokalisationen). Keine Quelle behandelt dieses Krankheitsbild; die Quellen betreffen Zweitmalignome (th |
 | WM-DIS-0508 | Verletzung der Nerven und des lumbalen Rückenmarkes in Höhe des Abdomens, der Lumbosakralgegend und des Beckens | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cauda equina injury' |
 | WM-DIS-0509 | Monozytenleukämie | disease | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel „Monozytenleukämie“ entspricht C93 (Monozytenleukämie, inkl. akute monozytäre Leukämie). Quellen 1 (AML-M5), 2 (AML mit monozytärer Diffe |
@@ -116,6 +118,7 @@ Stand: 02.11.2026 13:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-0511 | Sonstige Krankheiten der Synovialis und der Sehnen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (M67 umfasst sonstige Synovial-/Sehnenkrankheiten; der Titel ist ein allgemeinerer Oberbegriff (Kapitelzuschnitt M65–M68). Die meisten Quelle |
 | WM-DIS-0517 | Sonstige Arthritis | disease | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel entspricht M13 (Plural). Nur Quellen 3, 6 und 7 behandeln die undifferenzierte Arthritis; die übrigen betreffen RA, PsA, JIA, Spondyloarthri |
 | WM-DIS-0524 | Leukämie nicht näher bezeichneten Zelltyps | disease | zu wenige Quellen mit Zusammenfassung (0) für 'leukemia of unspecified cell type' |
+| WM-DIS-0525 | Mononeuropathie bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Mononeuropathien bei anderenorts klassifizierten Krankheiten (z.B. diabetisch, amyloidotisch). Alle Quellen bezie |
 | WM-DIS-0526 | Toxische Enzephalopathie | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (G92 entspricht der toxischen Enzephalopathie, der Titel ist passend. Passend sind die Fallberichte zu Quecksilber (3), Abamectin (5) und Capecitabi |
 | WM-DIS-0528 | Verletzung der Nerven und des Rückenmarkes in Thoraxhöhe | disease | zu wenige Quellen mit Zusammenfassung (3) für 'thoracic spinal cord injury' |
 | WM-DIS-0529 | Verletzung an einer nicht näher bezeichneten Körperregion | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (T14 umfasst unspezifische Verletzungen ohne Angabe der Körperregion. Der Titel zu Diagnostik und Erstversorgung von Verletzungen passt dazu. Allge |
@@ -433,6 +436,7 @@ Stand: 02.11.2026 13:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-1170 | Lokalisierte Adipositas | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Lokalisierte Adipositas“ entspricht der Klassifikation E65. Keine der Quellen behandelt aber die lokalisierte Fettansammlung (z. B. Reit |
 | WM-DIS-1173 | Sonstige Leukämien näher bezeichneten Zelltyps | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM C94 umfasst spezifische, näher bezeichnete Zelltypen (z.B. chronische myeloische Leukämie, chronische lymphatische Leukämie, HCL,  |
 | WM-DIS-1185 | Erysipeloid | disease | zu wenige Quellen mit Zusammenfassung (2) für 'erysipeloid' |
+| WM-DIS-1197 | Komplikationen bei Anästhesie im Wochenbett | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM O89 bezieht sich spezifisch auf Komplikationen der Anästhesie (z.B. Hypotonie, Atemdepression, Allergie). Der geplante Titel 'Komp |
 | WM-DIS-1199 | Verletzung von Muskeln und Sehnen in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cervical strain' |
 | WM-DIS-1200 | Traumatische Amputation in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical amputation' |
 | WM-DIS-1201 | Zerquetschung der Schulter und des Oberarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'shoulder contusion' |
@@ -440,6 +444,7 @@ Stand: 02.11.2026 13:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-1206 | Erstickung | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (T71 umfasst Erstickung durch mechanische Einwirkung (z. B. Erhängen, Strangulation); der Titel „Erstickung“ deckt dies ab. Quellen 1, 2 und 5 behan |
 | WM-DIS-1207 | Nicht näher bezeichnete Schäden durch äußere Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Schäden durch äußere Ursachen' ist ein allgemeiner Oberbegriff für ICD-10-GM T76 und lässt spezifische Formen/Schweregra |
 | WM-DIS-1225 | Sonstige juvenile Osteochondrosen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM M92 umfasst juvenile Osteochondrosen wie Morbus Perthes, Morbus Scheuermann und Morbus Kienböck. Der Suchbegriff 'osteochondritis  |
+| WM-DIS-1226 | Immundefekt in Verbindung mit anderen schweren Defekten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM D82 bezeichnet spezifisch Immundefekte in Verbindung mit anderen schweren Defekten (z. B. chromosomale Defekte, Fehlbildungen). 'S |
 | WM-DIS-1227 | Hydrops fetalis durch hämolytische Krankheit | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Nur Quelle 12 behandelt explizit die hämolytische Erkrankung des Feten/Neugeborenen (HDN), die die Ursache für ICD-10-GM P56 ist. Die anderen Quel |
 | WM-DIS-1249 | Malaria quartana durch Plasmodium malariae | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Titel „Malaria“ ist ein Oberbegriff für alle Malariaformen, B52 meint nur die Malaria quartana durch Plasmodium malariae. Keine der Quel |
 | WM-DIS-1251 | Taeniasis | disease | zu wenige Quellen mit Zusammenfassung (3) für 'tapeworm infection' |
@@ -450,10 +455,12 @@ Stand: 02.11.2026 13:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
 | WM-DIS-1280 | Akute Blutungsanämie | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Akute Blutungsanämie“ entspricht D62. Nur Quelle 2 passt: Sie behandelt Patienten, bei denen Transfusionen nicht möglich sind, also vor  |
 | WM-DIS-1285 | Sonstige Verletzungen der Wirbelsäule und des Rumpfes, Höhe nicht näher bezeichnet | disease | Bestätigungsquote 22/53 unter 60 % |
+| WM-DIS-1296 | Krankheiten der Bartholin-Drüsen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'Bartholinitis' |
 | WM-DIS-1303 | Schrumpfniere, nicht näher bezeichnet | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit die Schrumpfniere (ICD-10-GM N26). Die Quellen behandeln andere Nierenerkrankungen (FMD, Angiomyolipom, Athero |
 | WM-DIS-1304 | Sterbefall während der Gestationsperiode nicht näher bezeichneter Ursache | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10 O95 definiert Sterbefälle unbekannter Ursache, während 'Müttersterblichkeit' (Maternal Mortality) alle Todesfälle während Schwangersc |
 | WM-DIS-1309 | Vorhauthypertrophie, Phimose und Paraphimose | disease | zu wenige Quellen mit Zusammenfassung (1) für 'phimosis paraphimosis' |
 | WM-DIS-1316 | Sonstige endokrine Störungen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Sonstige endokrine Störungen' (ICD-10-GM E34) ist ein Oberbegriff für verschiedene endokrine Erkrankungen. Der Suchbegri |
+| WM-DIS-1318 | Sonstige bakterielle Darminfektionen | disease | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Titel passt zur ICD-10-GM A04. Nur Quelle 7 behandelt explizit bakterielle Gastroenteritis. Quelle 1 (Enterobacteriaceae) und 5 (Salmonella) sind s |
 | WM-DIS-1326 | Gutartige Neubildung des Ovars | disease | zu wenige Quellen mit Zusammenfassung (2) für 'benign ovarian neoplasm' |
 | WM-DIS-1327 | Gutartige Neubildung der Schilddrüse | disease | zu wenige Quellen mit Zusammenfassung (0) für 'benign thyroid tumor' |
 | WM-DIS-1332 | Übelkeit und Erbrechen | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (ICD-10-GM R11 umfasst unspezifische Übelkeit und Erbrechen als Symptom. Nur Quelle 1 behandelt chronische Übelkeit und Erbrechen allgemein, also d |
@@ -469,7 +476,10 @@ Stand: 02.11.2026 13:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-1358 | Sonstige nichtorganische psychotische Störungen | disease | zu wenige Quellen mit Zusammenfassung (2) für 'functional psychosis' |
 | WM-DIS-1360 | Nicht näher bezeichnete Demenz | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch F03 (unspecified dementia). Quelle 2 behandelt Demenz allgemein, Quelle 1 und 4 Neurodegeneration allgemein, Quel |
 | WM-DIS-1367 | Nicht näher bezeichnete Knoten in der Mamma Brustdrüse | disease | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Titel passt zur ICD-10-GM N63. Nur 3 Quellen behandeln explizit 'breast lump' als primäres oder relevantes Symptom/Krankheitsbild in diesem Kontex |
+| WM-DIS-1370 | Sonstige Störungen des Aminosäurestoffwechsels | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10-GM E72 (Sonstige Störungen des Aminosäurestoffwechsels). Quelle 3 ist zu allgemein, Quelle 4 nur BCAAT, Qu |
 | WM-DIS-1376 | Hühneraugen und Horn- (Haut-) Schwielen | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Hühneraugen (Corns/Plantar Keratoses). Quelle 2, 3 und 5 sind zu allgemein oder irrelevant. Quelle 4 ist zahnmedizi |
+| WM-DIS-1383 | Sonstige entzündliche Leberkrankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM K75 umfasst eine breite Palette entzündlicher Lebererkrankungen (z.B. Autoimmunhepatitis, granulomatöse Hepatitis). Der Suchbegrif |
+| WM-DIS-1386 | Störungen des Sphingolipidstoffwechsels und sonstige Störungen der Lipidspeicherung | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel deckt ICD-10-GM E75 ab. Quellen 1, 2 und 4 behandeln explizit Sphingolipidosen. Quelle 3 (Gaucher) ist eine spezifische Untergruppe, aber der |
 | WM-DIS-1390 | Folgen von Komplikationen während Schwangerschaft, Geburt und Wochenbett | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (O94 bezeichnet ausschließlich die Folgen (Spätfolgen, Sequelae) von Komplikationen in Schwangerschaft, Geburt und Wochenbett. Der geplante T |
 | WM-DIS-1393 | Omphalitis beim Neugeborenen mit oder ohne leichte Blutung | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neonatal omphalitis' |
 | WM-DIS-1394 | Hämorrhagische Krankheit beim Fetus und Neugeborenen | disease | Bestätigungsquote 26/44 unter 60 % |
@@ -495,6 +505,8 @@ Stand: 02.11.2026 13:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-1455 | Trichuriasis | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Trichinose und Trichuriasis' ist irreführend, da Trichinose (Trichinellose) eine andere Erkrankung ist. Zudem sind 5 Quellen passend  |
 | WM-DIS-1459 | Folgezustände der Poliomyelitis | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel entspricht ICD-10-GM B91. Quellen 1, 3 und 4 behandeln explizit Post-Polio-Syndrom/Folgezustände. Quelle 6 behandelt Polio allgemein, nicht s |
 | WM-DIS-1460 | Folgezustände der Lepra | disease | zu wenige Quellen mit Zusammenfassung (1) für 'leprosy complications' |
+| WM-DIS-1465 | Sonstige Krankheiten der Schilddrüse | disease | Bestätigungsquote 23/51 unter 60 % |
+| WM-DIS-1466 | Sonstige Vitaminmangelzustände | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (ICD-10-GM E56 ist eine spezifische Diagnosekategorie für einzelne Vitaminmängel (z.B. B1, B3, B6, C, D, E). Die Quellen behandeln 'vitamin deficien |
 | WM-DIS-1482 | Sonstige und nicht näher bezeichnete Verletzungen des Unterarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S59 umfasst alle Verletzungen (z.B. Prellungen, Luxationen), nicht nur Frakturen. Der Titel 'Sonstige Verletzungen des Unterarms'  |
 | WM-DIS-1484 | Sonstige und nicht näher bezeichnete Verletzungen der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip and thigh injuries' |
 | WM-DIS-1485 | Sonstige und nicht näher bezeichnete Verletzungen des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
@@ -3248,6 +3260,14 @@ Stand: 02.11.2026 13:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DRUG-4023 | Ölsäure-Derivate | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den ATC-Wirkstoff Ölsäure-Derivate (S02DC01) für Ohrerkrankungen; Titel sind zu allgemein oder behandeln a |
 | WM-DRUG-4024 | Levisticum officinale | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Levisticum officinale (Brennnessel/Engelwurz) oder das ATC-Kodiergebiet S02DH01 (Ohrschmerzen/O |
 | WM-DRUG-4026 | Eisen(III)oxidhydroxid-Saccharose-Stärke-Komplex | drug | zu wenige Quellen mit Zusammenfassung (1) für 'iron polysaccharide' |
+| WM-DRUG-4033 | Cobicistat | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Quellen 3, 4 und 7 behandeln Cobicistat direkt oder als Bestandteil der Kombination Evotaz/Genvoya. Quelle 1 (Intranasale Steroide) und Quelle 2 (A |
+| WM-DRUG-4034 | Macimorelin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Macimorelin; alle behandeln allgemein GH-Mangel-Diagnostik.) |
+| WM-DRUG-4037 | Florbetaben(18F) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Florbetaben 18F' |
+| WM-DRUG-4038 | Flortaucipir(18F) | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel „Flortaucipir(18F)“ entspricht dem Wirkstoff der Klassifikation (ATC V09AX07). Quellen 3, 6 und 7 behandeln Flortaucipir/AV-1451 direkt. Quel |
+| WM-DRUG-4039 | (99mTc)Technetium Antigranulozytenantikörper | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium 99mTc sulesomab' |
+| WM-DRUG-4040 | Fluciclovin(18F) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle behandelt Fluciclovine (18F), ein Tracer für die Prostatakrebs-Diagnostik, der sich von PSMA-Tracern (wie 68Ga-PSMA oder 18F-DCFP |
+| WM-DRUG-4041 | Samarium(153Sm)lexidronam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Samarium Sm-153 lexidronam' |
+| WM-DRUG-4043 | (177Lu)Lutetiumoxodotreotid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Lutetium-177-dotatate; Titel sind zu allgemein oder behandeln andere Indikationen.) |
 | WM-DRUG-4254 | Methacholin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt Methacholin bzw. die Methacholin-Provokation direkt. Quelle 1 (Oszillometrie bei Asthma) und Quelle 2 (Screening bei arbeits |
 | WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
 
@@ -3259,4 +3279,5 @@ Files validated:    |
 | WM-PAT-0103 | Kyphose und Lordose | patient | Bestätigungsquote 30/53 unter 60 % |
 | WM-PAT-0162 | Alkoholische Leberkrankheit | patient | Bestätigungsquote 46/83 unter 60 % |
 | WM-PAT-0174 | Rezidivierende depressive Störung | patient | Truncated: stop_reason=max_tokens (claude-haiku-5-5) |
+| WM-PAT-0201 | Manische Episode | patient | Bestätigungsquote 37/68 unter 60 % |
 | WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
