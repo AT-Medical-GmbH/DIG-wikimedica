@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 02:25. Warteschlange: claimed 1, duplicate 470, merged 13, planned 1717, published 1692, ready 17, redirect 391, review 2810.
+Stand: 02.11.2026 03:25. Warteschlange: claimed 1, duplicate 470, merged 13, planned 1689, published 1709, ready 20, redirect 391, review 2818.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -402,12 +402,18 @@ Stand: 02.11.2026 02:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1096 | Myasthenia gravis und sonstige neuromuskuläre Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Fast alle Quellen behandeln Myasthenia gravis. Quelle 13 betrifft ICI-induzierte Myokarditis/Myositis-MG-Überlappung, also ein anderes Krank |
 | WM-DIS-1097 | Carcinoma in situ der Mundhöhle, des Ösophagus und des Magens | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM D00 umfasst Carcinoma in situ der Mundhöhle, des Ösophagus und des Magens. Der Suchbegriff 'oral squamous cell carcinoma' bezieht  |
 | WM-DIS-1100 | Diphtherie | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Nur Quelle 15 behandelt die klinische Diagnose und das Management der Diphtherie. Die anderen 15 Quellen befassen sich ausschließlich mit Impfstof |
+| WM-DIS-1103 | Akute Poliomyelitis Spinale Kinderlähmung | disease | Entwurf ohne belegte Sätze |
+| WM-DIS-1109 | Sonstiger Parasitenbefall der Haut | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Sonstige Parasitenbefälle der Haut' ist ein Oberbegriff für ICD-10-GM B88 und schließt spezifische Untergruppen aus, was |
 | WM-DIS-1112 | Lungenblutung mit Ursprung in der Perinatalperiode | disease | zu wenige Quellen mit Zusammenfassung (1) für 'neonatal pulmonary hemorrhage' |
 | WM-DIS-1113 | Chronische Atemwegskrankheit mit Ursprung in der Perinatalperiode | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Chronische Atemwegserkrankung' ist ein zu allgemeiner Oberbegriff und lässt den spezifischen Schweregrad und die Untergr |
 | WM-DIS-1122 | Akute obstruktive Laryngitis Krupp und Epiglottitis | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Krupp und Epiglottitis“ entspricht der Klassifikation J05. Quellen 2 und 4 behandeln Krupp (Adrenalin bzw. Kortikoide) und passen. Quell |
 | WM-DIS-1123 | Gutartige Neubildung des Weichteilgewebes des Retroperitoneums und des Peritoneums | disease | zu wenige Quellen mit Zusammenfassung (3) für 'retroperitoneal lipoma' |
 | WM-DIS-1125 | Sonstige Mononeuropathien | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM G58 umfasst alle Mononeuropathien (z.B. periphere Nervenläsionen wie Karpaltunnelsyndrom, Radialisparese). 'Mononeuritis multiplex |
 | WM-DIS-1126 | Sonstige Krankheiten des Zentralnervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM G96 ist eine Sammelkategorie für spezifische, nicht näher bezeichnete Erkrankungen des ZNS (z.B. Enzephalopathie, Myelopathie). De |
+| WM-DIS-1129 | Pinta Carate | disease | zu wenige Quellen mit Zusammenfassung (0) für 'pinta' |
+| WM-DIS-1130 | Fleckfieber | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel passt zu A75. Nur Quelle 4 behandelt explizit Läuse-borne Krankheiten (einschließlich epidemischer Typhus). Quelle 1 (Rickettsien allgemein), |
+| WM-DIS-1131 | Atypische Virusinfektionen des Zentralnervensystems | disease | zu wenige Quellen mit Zusammenfassung (1) für 'atypical CNS infections' |
+| WM-DIS-1136 | Pedikulose Läusebefall und Phthiriasis Filzläusebefall | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Pediculosis capitis und corporis' schließt Pediculosis pubis aus, während ICD-10-GM B85 beide umfasst. Zudem behandelt Q |
 | WM-DIS-1138 | Abnormer Blutdruckwert ohne Diagnose | disease | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Der Titel entspricht R03 (abnormer Blutdruckwert ohne Diagnose). Keine Quelle behandelt isolierte abnorme Blutdruckwerte ohne Diagnose. Die Quelle |
 | WM-DIS-1139 | Hyperbilirubinämie, mit oder ohne Gelbsucht, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (R17 betrifft unspezifische Hyperbilirubinämie/Gelbsucht (v. a. Erwachsene); neonatale Hyperbilirubinämie ist separat kodiert (P55-P59) und passt n |
 | WM-DIS-1140 | Krämpfe, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (R56 umfasst Krampfanfälle (Konvulsionen, z. B. Fieberkrämpfe, R56.0, und sonstige Krämpfe, R56.8), nicht Muskelkrämpfe (Crampi, R25.2). Der  |
@@ -1596,6 +1602,7 @@ Stand: 02.11.2026 02:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-1889 | Acetylcholin | drug | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (ATC N07AB03 ist Acetylcholin als Arzneimittelwirkstoff (Parasympathomimetikum, z. B. Provokationstest bei Koronarspasmus). Nur die Quellen 12 und  |
 | WM-DRUG-1891 | Cholinalfoscerat | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel 'Cholinalfoscerat' bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N07AX02, Cholinalfoscerat = Cholin-Alfoscerat = Gliatilin). |
 | WM-DRUG-1892 | Cevimelin | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 3 und 4 behandeln Cevimelin selbst; die übrigen betreffen andere Wirkstoffe oder allgemeine Sjögren-/Xerostomie- bzw. Muskarinagonisten |
+| WM-DRUG-1894 | Cytisiniclin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Cytisiniclin“ bezeichnet denselben Wirkstoff wie ATC N07BA04 (Cytisinicline, deutsche Schreibweise). Quellen 4 und 6 behandeln Cytisinic |
 | WM-DRUG-1896 | Calciumcarbimid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'calcium carbimide' |
 | WM-DRUG-1897 | Acamprosat | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel 'Acamprosat' entspricht dem Wirkstoff (ATC N07BB03). Nur Quelle 2 behandelt Acamprosat spezifisch. Die übrigen Quellen sind allgemeine Üb |
 | WM-DRUG-1899 | Ondelopran | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Ondelopran' |
@@ -2651,6 +2658,7 @@ Stand: 02.11.2026 02:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-3325 | Bitolterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bitolterol' |
 | WM-DRUG-3326 | Olodaterol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'ultra-LABA' |
 | WM-DRUG-3327 | Oxitropiumbromid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxitropium' |
+| WM-DRUG-3330 | Aclidiniumbromid | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Aclidiniumbromid“ entspricht dem Wirkstoff der Klassifikation (ATC R03BB05). Nur Quelle 8 behandelt Aclidinium direkt (Aclidiniumbromid/ |
 | WM-DRUG-3331 | Revefenacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Revefenacin (R03BB08) oder dessen Indikation COPD/Asthma. Alle Quellen befassen sich mit andere |
 | WM-DRUG-3332 | Fenspirid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fenspiride' |
 | WM-DRUG-3333 | Ensifentrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Ensifentrin oder dessen Indikation COPD/Asthma; alle behandeln andere Fachgebiete (Gastroentero |
