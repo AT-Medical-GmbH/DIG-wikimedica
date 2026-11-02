@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 05:25. Warteschlange: claimed 1, duplicate 470, merged 15, planned 1589, published 1746, ready 15, redirect 394, review 2881.
+Stand: 02.11.2026 06:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 15, planned 1535, published 1761, ready 33, redirect 394, review 2899.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -73,6 +73,7 @@ Stand: 02.11.2026 05:25. Warteschlange: claimed 1, duplicate 470, merged 15, pla
 | WM-DIS-0385 | Mononeuropathien der unteren Extremität | disease | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Der Titel entspricht G57 (Mononeuropathien der unteren Extremität, z. B. N. ischiadicus, N. peroneus, Tarsaltunnelsyndrom, Meralgia paraesthetica) |
 | WM-DIS-0391 | Komplikationen bei Wehen und Entbindung durch intrapartale Blutung, anderenorts nicht klassifiziert | disease | Bestätigungsquote 17/38 unter 60 % |
 | WM-DIS-0392 | Harnstein bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (N22 meint Harnstein bei anderenorts klassifizierten Krankheiten (z. B. bei Gicht, Hyperparathyreoidismus, Schistosomiasis). Der Titel „Harnsteinle |
+| WM-DIS-0394 | Glomeruläre Krankheiten bei anderenorts klassifizierten Krankheiten | disease | Bestätigungsquote 25/45 unter 60 % |
 | WM-DIS-0402 | Krankheiten der Gallenblase, der Gallenwege und des Pankreas bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM K87 bezeichnet spezifisch Krankheiten der Gallenblase/Gallenwege bei anderenorts klassifizierten Krankheiten (sekundäre Affektione |
 | WM-DIS-0405 | Oberflächliche Verletzung des Kopfes | disease | zu wenige Quellen mit Zusammenfassung (2) für 'scalp injury' |
 | WM-DIS-0409 | Andere Persönlichkeits- und Verhaltensstörungen | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel entspricht der ICD-10-GM-Kategorie F68. Alle Quellen behandeln Persönlichkeitsstörungen allgemein oder F60-Störungen wie Borderline, ant |
@@ -438,6 +439,8 @@ Stand: 02.11.2026 05:25. Warteschlange: claimed 1, duplicate 470, merged 15, pla
 | WM-DIS-1207 | Nicht näher bezeichnete Schäden durch äußere Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Schäden durch äußere Ursachen' ist ein allgemeiner Oberbegriff für ICD-10-GM T76 und lässt spezifische Formen/Schweregra |
 | WM-DIS-1225 | Sonstige juvenile Osteochondrosen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM M92 umfasst juvenile Osteochondrosen wie Morbus Perthes, Morbus Scheuermann und Morbus Kienböck. Der Suchbegriff 'osteochondritis  |
 | WM-DIS-1227 | Hydrops fetalis durch hämolytische Krankheit | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Nur Quelle 12 behandelt explizit die hämolytische Erkrankung des Feten/Neugeborenen (HDN), die die Ursache für ICD-10-GM P56 ist. Die anderen Quel |
+| WM-DIS-1249 | Malaria quartana durch Plasmodium malariae | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Titel „Malaria“ ist ein Oberbegriff für alle Malariaformen, B52 meint nur die Malaria quartana durch Plasmodium malariae. Keine der Quel |
+| WM-DIS-1251 | Taeniasis | disease | zu wenige Quellen mit Zusammenfassung (3) für 'tapeworm infection' |
 | WM-DIS-1255 | Neuritis nervi optici | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
 --- Validation Sum |
@@ -474,6 +477,9 @@ Stand: 02.11.2026 05:25. Warteschlange: claimed 1, duplicate 470, merged 15, pla
 | WM-DIS-1411 | Folgen entzündlicher Krankheiten des Zentralnervensystems | disease | zu wenige Quellen mit Zusammenfassung (1) für 'neuroinflammatory sequelae' |
 | WM-DIS-1412 | Sonstige Krankheiten des peripheren Nervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G64 meint 'Sonstige Krankheiten des peripheren Nervensystems' (nicht näher bezeichnete/sonstige Neuropathien; spezifische Ursachen wie diabe |
 | WM-DIS-1413 | Sonstige Krankheiten des Nervensystems, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G98 ist eine Restkategorie für spezifische, anderenorts nicht klassifizierte Nervensystemerkrankungen. Der Titel „Sonstige neurologische Erk |
+| WM-DIS-1482 | Sonstige und nicht näher bezeichnete Verletzungen des Unterarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S59 umfasst alle Verletzungen (z.B. Prellungen, Luxationen), nicht nur Frakturen. Der Titel 'Sonstige Verletzungen des Unterarms'  |
+| WM-DIS-1484 | Sonstige und nicht näher bezeichnete Verletzungen der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip and thigh injuries' |
+| WM-DIS-1485 | Sonstige und nicht näher bezeichnete Verletzungen des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
 | WM-DRUG-0106 | Blutgerinnungsfaktor VIII | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Blutgerinnungsfaktor VIII' entspricht dem Wirkstoff Faktor VIII (ATC B02BD02). Die Quellen 1–3 behandeln Faktor VIII als Protein und Wir |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0121 | Bevacizumab | drug | zu viele nur teilweise belegte Sätze (22/35) |
@@ -2901,7 +2907,19 @@ Stand: 02.11.2026 05:25. Warteschlange: claimed 1, duplicate 470, merged 15, pla
 | WM-DRUG-3614 | Orthosiphonblätter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Orthosiphon stamineus als diuretischen Wirkstoff (ATC G04BP03) für Harnwegs- oder Nierenerkrankungen. Quel |
 | WM-DRUG-3615 | Lespedezakraut | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Lespedeza' |
 | WM-DRUG-3616 | Goldrutenkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Goldrutenkraut (Solidago virgaurea) als Arzneimittelwirkstoff bei Harnwegserkrankungen (ATC G04BP06). Quel |
+| WM-DRUG-3618 | Acetohydroxamsäure | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 3 und 5 behandeln spezifisch Urease-Hemmer, zu denen Acetohydroxamsäure gehört. Quellen 1, 2 und 4 behandeln Nierensteine allgemein, ohne d |
+| WM-DRUG-3619 | Phenazopyridin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch den Wirkstoff Phenazopyridin. Die Quellen befassen sich mit allgemeinen urologischen Symptomen, Fisteln, Inf |
+| WM-DRUG-3620 | Succinimid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den ATC-Wirkstoff Succinimid (G04BX10) oder dessen klinische Anwendung bei Harnwegsinfekten; Quelle 3 beha |
+| WM-DRUG-3621 | Phenylsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenyl salicylate' |
+| WM-DRUG-3623 | Dapoxetin | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Nur Quellen 4 und 5 behandeln explizit Dapoxetin. Quelle 6 ist eine Umbrella-Review, die Dapoxetin einschließt, aber nicht spezifisch darauf fokus |
 | WM-DRUG-3625 | Chondroitinsulfat | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel bezeichnet denselben Wirkstoff. Nur Quellen 1, 2 und 6 behandeln Chondroitinsulfat als Substanz bzw. Wirkstoff; 3 und 4 betreffen das Proteog |
+| WM-DRUG-3626 | Alfuzosin | drug | Themenprüfung: nur 2 von 14 Quellen passen zum Thema (Nur Quellen 11 und 12 behandeln explizit Alfuzosin. Quelle 12 ist eine Übersicht zu Alfuzosin bei BPH/LUTS, Quelle 11 zu Alfuzosin und Ejakulation |
+| WM-DRUG-3629 | Sabal serrulatum | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Quellen 4 und 10 behandeln Serenoa repens (Saw Palmetto) bei benigner Prostatahyperplasie, was dem ATC G04CH01 entspricht. Quellen zu Androgenetis |
+| WM-DRUG-3631 | Brennnesselwurzel | drug | zu wenige Quellen mit Zusammenfassung (2) für 'nettle root' |
+| WM-DRUG-3632 | Pollenextrakt | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Quellen 1 und 5 behandeln explizit Pollenextrakt (purified/cytoplasmic pollen extract) und dessen Wirksamkeit. Quelle 6 behandelt Immuntherapie geg |
+| WM-DRUG-3633 | Sägepalmenfrüchte | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Arzneimittelwirkstoff Sägepalmenfrüchte' ist irreführend, da er den Wirkstoff (Extrakt aus den Früchten) mit der Indikat |
+| WM-DRUG-3634 | Pygeum africanum | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln allgemeine Phytochemie/Toxizität oder andere Indikationen (Krebs), nicht spezifisch die BPH/Prostata, für die Pygeum african |
+| WM-DRUG-3635 | Fexapotid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Fexapotide' |
 | WM-DRUG-3730 | Promethazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation D04AA10 bezeichnet Promethazin zur topischen Anwendung (Antipruriginosum). Der geplante Titel „Promethazin“ ist als W |
 | WM-DRUG-3743 | Doxepin | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 5 behandelt Doxepin direkt (dermatologische Anwendung, Spiegelbestimmung, Genotypisierung). Quelle 1 (Sialorrhoe unter Antipsychotika),  |
 | WM-DRUG-3745 | Bufexamac | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der sechs Quellen behandelt Bufexamac. Sie befassen sich mit anderen HDAC6-Inhibitoren (Tubastatin A, ACY-1215, JBI-802) oder allgemein mit H |
@@ -2917,4 +2935,5 @@ Stand: 02.11.2026 05:25. Warteschlange: claimed 1, duplicate 470, merged 15, pla
 
 --- Validation Summary ---
 Files validated:    |
+| WM-PAT-0174 | Rezidivierende depressive Störung | patient | Truncated: stop_reason=max_tokens (claude-haiku-5-5) |
 | WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
