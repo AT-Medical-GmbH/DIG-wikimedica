@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 23:25. Warteschlange: duplicate 476, failed 1, merged 30, planned 893, published 1958, ready 11, redirect 403, review 3339.
+Stand: 03.11.2026 00:25. Warteschlange: claimed 1, duplicate 476, failed 1, merged 31, planned 862, published 1968, ready 10, redirect 403, review 3359.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -483,6 +483,7 @@ Stand: 02.11.2026 23:25. Warteschlange: duplicate 476, failed 1, merged 30, plan
 | WM-DIS-1303 | Schrumpfniere, nicht näher bezeichnet | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit die Schrumpfniere (ICD-10-GM N26). Die Quellen behandeln andere Nierenerkrankungen (FMD, Angiomyolipom, Athero |
 | WM-DIS-1304 | Sterbefall während der Gestationsperiode nicht näher bezeichneter Ursache | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10 O95 definiert Sterbefälle unbekannter Ursache, während 'Müttersterblichkeit' (Maternal Mortality) alle Todesfälle während Schwangersc |
 | WM-DIS-1309 | Vorhauthypertrophie, Phimose und Paraphimose | disease | zu wenige Quellen mit Zusammenfassung (1) für 'phimosis paraphimosis' |
+| WM-DIS-1314 | Phakomatosen, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 6 behandelt explizit eine Phakomatose (Phakomatosis pigmentovascularis). Quelle 3 (TSC) und 5 (Sturge-Weber) sind spezifische Phakomatos |
 | WM-DIS-1316 | Sonstige endokrine Störungen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Sonstige endokrine Störungen' (ICD-10-GM E34) ist ein Oberbegriff für verschiedene endokrine Erkrankungen. Der Suchbegri |
 | WM-DIS-1318 | Sonstige bakterielle Darminfektionen | disease | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Titel passt zur ICD-10-GM A04. Nur Quelle 7 behandelt explizit bakterielle Gastroenteritis. Quelle 1 (Enterobacteriaceae) und 5 (Salmonella) sind s |
 | WM-DIS-1326 | Gutartige Neubildung des Ovars | disease | zu wenige Quellen mit Zusammenfassung (2) für 'benign ovarian neoplasm' |
@@ -499,6 +500,10 @@ Stand: 02.11.2026 23:25. Warteschlange: duplicate 476, failed 1, merged 30, plan
 | WM-DIS-1355 | Tod ohne Anwesenheit anderer Personen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'unattended death' |
 | WM-DIS-1358 | Sonstige nichtorganische psychotische Störungen | disease | zu wenige Quellen mit Zusammenfassung (2) für 'functional psychosis' |
 | WM-DIS-1360 | Nicht näher bezeichnete Demenz | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch F03 (unspecified dementia). Quelle 2 behandelt Demenz allgemein, Quelle 1 und 4 Neurodegeneration allgemein, Quel |
+| WM-DIS-1361 | Anenzephalie und ähnliche Fehlbildungen | disease | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel passt zur ICD-10-GM Q00. Nur 3 Quellen behandeln spezifisch Anenzephalie (1, 3, 4). Quelle 2, 5, 6 sind zu allgemein oder nur Fallberichte m |
+| WM-DIS-1362 | Lippenspalte | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM Q36 bezeichnet spezifisch 'Lippenspalte' (Cleft Lip). Der geplante Titel 'Lippenspalte' ist korrekt, aber die Quellen behandeln fa |
+| WM-DIS-1363 | Reduktionsdefekte nicht näher bezeichneter Extremität(en) | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel passt. Nur Quelle 3 behandelt spezifisch Limb Reduction Defects. Quelle 1 ist zu allgemein (fetal abnormalities), Quelle 2 fokussiert auf Hän |
+| WM-DIS-1364 | Sonstige Krankheiten der Atemwege | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM J98 ist ein Oberbegriff für diverse Atemwegserkrankungen, während 'idiopathic interstitial pneumonias' eine spezifische Untergrupp |
 | WM-DIS-1367 | Nicht näher bezeichnete Knoten in der Mamma Brustdrüse | disease | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Titel passt zur ICD-10-GM N63. Nur 3 Quellen behandeln explizit 'breast lump' als primäres oder relevantes Symptom/Krankheitsbild in diesem Kontex |
 | WM-DIS-1370 | Sonstige Störungen des Aminosäurestoffwechsels | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10-GM E72 (Sonstige Störungen des Aminosäurestoffwechsels). Quelle 3 ist zu allgemein, Quelle 4 nur BCAAT, Qu |
 | WM-DIS-1376 | Hühneraugen und Horn- (Haut-) Schwielen | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Hühneraugen (Corns/Plantar Keratoses). Quelle 2, 3 und 5 sind zu allgemein oder irrelevant. Quelle 4 ist zahnmedizi |
@@ -525,6 +530,12 @@ Stand: 02.11.2026 23:25. Warteschlange: duplicate 476, failed 1, merged 30, plan
 | WM-DIS-1412 | Sonstige Krankheiten des peripheren Nervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G64 meint 'Sonstige Krankheiten des peripheren Nervensystems' (nicht näher bezeichnete/sonstige Neuropathien; spezifische Ursachen wie diabe |
 | WM-DIS-1413 | Sonstige Krankheiten des Nervensystems, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G98 ist eine Restkategorie für spezifische, anderenorts nicht klassifizierte Nervensystemerkrankungen. Der Titel „Sonstige neurologische Erk |
 | WM-DIS-1424 | Exfoliative Dermatitis | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel entspricht ICD-10-GM L26. Quellen 4, 5, 6 behandeln Exfoliative Dermatitis/Erythroderma beim Menschen. Quelle 1 ist paraneoplastisch, 2/3 sin |
+| WM-DIS-1428 | Sonstige Affektionen der Konjunktiva | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-1429 | Sonstige Affektionen der Aderhaut | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
 | WM-DIS-1434 | Tetanus neonatorum | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel ist korrekt. Quellen 1, 5, 6 behandeln Neonatalen Tetanus explizit. Quelle 3 ist allgemein, Quelle 2 ist Craniocervical, Quelle 4 ist Polio.) |
 | WM-DIS-1437 | Scharlach | disease | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Titel bezeichnet Scharlach korrekt. Quelle 3 behandelt allgemein Group A Streptococcus, nicht spezifisch Scharlach.) |
 | WM-DIS-1439 | Lymphogranuloma inguinale (venereum) durch Chlamydien | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel entspricht der Diagnose. Nur 3 Quellen behandeln explizit LGV; Quelle 2 behandelt nicht-LGV Chlamydien, Quelle 1 ist allgemein zu ulzerativen |
@@ -542,10 +553,27 @@ Stand: 02.11.2026 23:25. Warteschlange: duplicate 476, failed 1, merged 30, plan
 | WM-DIS-1463 | Sonstige Darmkrankheiten durch Protozoen | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (ICD-10-GM A07 umfasst sonstige Darmkrankheiten durch Protozoen (u. a. Giardiasis, Kryptosporidiose, Balantidiasis, Isosporiasis). Der Titel „Darmin |
 | WM-DIS-1465 | Sonstige Krankheiten der Schilddrüse | disease | Bestätigungsquote 23/51 unter 60 % |
 | WM-DIS-1466 | Sonstige Vitaminmangelzustände | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (ICD-10-GM E56 ist eine spezifische Diagnosekategorie für einzelne Vitaminmängel (z.B. B1, B3, B6, C, D, E). Die Quellen behandeln 'vitamin deficien |
+| WM-DIS-1475 | Sonstige Störungen der Blickbewegungen | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-1476 | Sonstige Symptome, die das Verdauungssystem und das Abdomen betreffen | disease | Themenprüfung: nur 1 von 15 Quellen passen zum Thema (Titel passt zur ICD-10-GM R19. Nur Quelle 13 behandelt direkt das Symptom 'Bloating' (Blähbauch) als Hauptthema. Quelle 9 bezieht sich auf eine sp |
+| WM-DIS-1477 | Sonstige abnorme Urinbefunde | disease | zu wenige Quellen mit Zusammenfassung (2) für 'abnormal urine findings' |
 | WM-DIS-1482 | Sonstige und nicht näher bezeichnete Verletzungen des Unterarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S59 umfasst alle Verletzungen (z.B. Prellungen, Luxationen), nicht nur Frakturen. Der Titel 'Sonstige Verletzungen des Unterarms'  |
 | WM-DIS-1484 | Sonstige und nicht näher bezeichnete Verletzungen der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip and thigh injuries' |
 | WM-DIS-1485 | Sonstige und nicht näher bezeichnete Verletzungen des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
+| WM-DIS-1489 | Sonstige Entzündung des Augenlides | disease | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Titel passt zu H01. Quelle 1 behandelt Autoimmunerkrankungen (zu spezifisch/anders), Quelle 3 ist veterinärmedizinisch.) |
+| WM-DIS-1490 | Sonstige Affektionen der Linse | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Sonstige Affektionen der Linse' ist irreführend, da er den Hauptteil der ICD-10-GM H27-Kategorie (Katarakt/Linsentrübung |
+| WM-DIS-1491 | Sonstige Affektionen des Auges und der Augenanhangsgebilde | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
+| WM-DIS-1510 | Sonstige Symptome, die das Nervensystem und das Muskel-Skelett-System betreffen | disease | Bestätigungsquote 26/76 unter 60 % |
+| WM-DIS-1519 | Sonstige abnorme immunologische Serumbefunde | disease | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Der Suchbegriff 'immune dysregulation' ist zu allgemein und bezieht sich auf pathophysiologische Mechanismen in vielen Erkrankungen (Sepsis, Parki |
+| WM-DIS-1520 | Sonstige Veränderungen der Plasmaproteine | disease | zu wenige Quellen mit Zusammenfassung (0) für 'plasma protein disorders' |
+| WM-DIS-1521 | Entzündliche Krankheit der Cervix uteri | disease | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Titel passt zur ICD-10-GM N72. Nur Quelle 6 (Tuberkulöse Zervizitis) und 9 (Übersicht über Zervizitis) behandeln explizit das Krankheitsbild. Quel |
 | WM-DIS-1529 | Fraktur der oberen Extremität, Höhe nicht näher bezeichnet | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Fraktur der oberen Extremität' ist ein allgemeiner Oberbegriff, der den spezifischen ICD-10-GM-Code T10 ('Höhe nicht näh |
+| WM-DIS-1538 | Sonstige Hautveränderungen | disease | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Titel entspricht der ICD-Bezeichnung (Restkategorie unspezifischer Hautveränderungen). Die meisten Quellen behandeln spezifische Erkrankungen (Pso |
+| WM-DIS-1554 | Sonstige Symptome, die das Kreislaufsystem und das Atmungssystem betreffen | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel entspricht ICD-10-GM R09. Nur Quelle 6 behandelt explizit 'cardiorespiratory symptoms' als Hauptthema. Quelle 2 (Aortenklappenstenose) und 5  |
+| WM-DIS-1556 | Sonstige Symptome, die die Sinneswahrnehmungen und das Wahrnehmungsvermögen betreffen | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine Quelle behandelt ICD-10-GM R44 spezifisch; alle Quellen fokussieren sich auf spezifische neuropathische oder neurologische Erkrankungen (z.B |
 | WM-DRUG-0106 | Blutgerinnungsfaktor VIII | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Blutgerinnungsfaktor VIII' entspricht dem Wirkstoff Faktor VIII (ATC B02BD02). Die Quellen 1–3 behandeln Faktor VIII als Protein und Wir |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0121 | Bevacizumab | drug | zu viele nur teilweise belegte Sätze (22/35) |
