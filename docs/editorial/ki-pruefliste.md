@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 14:26. Warteschlange: claimed 1, duplicate 473, failed 1, merged 24, planned 1062, published 1887, ready 26, redirect 394, review 3243.
+Stand: 02.11.2026 15:25. Warteschlange: claimed 1, duplicate 473, failed 1, merged 24, planned 999, published 1913, ready 25, redirect 394, review 3281.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -435,6 +435,9 @@ Stand: 02.11.2026 14:26. Warteschlange: claimed 1, duplicate 473, failed 1, merg
 | WM-DIS-1167 | Alimentärer Kalziummangel | disease | zu wenige Quellen mit Zusammenfassung (3) für 'dietary calcium deficiency' |
 | WM-DIS-1170 | Lokalisierte Adipositas | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Lokalisierte Adipositas“ entspricht der Klassifikation E65. Keine der Quellen behandelt aber die lokalisierte Fettansammlung (z. B. Reit |
 | WM-DIS-1173 | Sonstige Leukämien näher bezeichneten Zelltyps | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM C94 umfasst spezifische, näher bezeichnete Zelltypen (z.B. chronische myeloische Leukämie, chronische lymphatische Leukämie, HCL,  |
+| WM-DIS-1179 | Angeborene Fehlbildungen der großen Arterien | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Angeborene Herzfehler' ist ein Oberbegriff, der auch Fehlbildungen der Herzklappen und -septen umfasst. Die ICD-10-GM Q2 |
+| WM-DIS-1183 | Osteochondrodysplasie mit Wachstumsstörungen der Röhrenknochen und der Wirbelsäule | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel passt zur ICD-Q77. Quellen 2, 3, 6 behandeln spezifisch Spondyloepiphysäre Dysplasie. Quelle 1 ist CHST3 (andere Genetik), 4 ist allgemein, 5 |
+| WM-DIS-1184 | Monosomien und Deletionen der Autosomen, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Monosomien/Deletionen der Autosomen (ICD-10 Q93). Quelle 1 ist zu allgemein (Dosage Sensitivity), Quelle 5 b |
 | WM-DIS-1185 | Erysipeloid | disease | zu wenige Quellen mit Zusammenfassung (2) für 'erysipeloid' |
 | WM-DIS-1197 | Komplikationen bei Anästhesie im Wochenbett | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM O89 bezieht sich spezifisch auf Komplikationen der Anästhesie (z.B. Hypotonie, Atemdepression, Allergie). Der geplante Titel 'Komp |
 | WM-DIS-1199 | Verletzung von Muskeln und Sehnen in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cervical strain' |
@@ -443,16 +446,31 @@ Stand: 02.11.2026 14:26. Warteschlange: claimed 1, duplicate 473, failed 1, merg
 | WM-DIS-1203 | Fremdkörper im Ohr | disease | zu wenige Quellen mit Zusammenfassung (0) für 'foreign body ear' |
 | WM-DIS-1206 | Erstickung | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (T71 umfasst Erstickung durch mechanische Einwirkung (z. B. Erhängen, Strangulation); der Titel „Erstickung“ deckt dies ab. Quellen 1, 2 und 5 behan |
 | WM-DIS-1207 | Nicht näher bezeichnete Schäden durch äußere Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Schäden durch äußere Ursachen' ist ein allgemeiner Oberbegriff für ICD-10-GM T76 und lässt spezifische Formen/Schweregra |
+| WM-DIS-1211 | Angeborene Fehlbildungen der Herzsepten | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Angeborene Herzseptumdefekte“ entspricht Q21 (angeborene Fehlbildungen der Herzsepten). Nur Quelle 2 behandelt kongenitale Septumdefekte |
+| WM-DIS-1212 | Angeborene Fehlbildungen der Pulmonal- und der Trikuspidalklappe | disease | zu wenige Quellen mit Zusammenfassung (0) für 'congenital right heart valve disease' |
+| WM-DIS-1213 | Angeborene Fehlbildungen der großen Venen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Q26 meint angeborene Fehlbildungen der großen Venen (z. B. V. cava, Lungenvenenfehlmündung). Der Titel ist ein unspezifischer Oberbegriff, u |
+| WM-DIS-1216 | Angeborene obstruktive Defekte des Nierenbeckens und angeborene Fehlbildungen des Ureters | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Begriff 'Urinary tract malformations' ist zu allgemein und umfasst auch untere Harnwege (z.B. Blase/Urethra), die nicht Teil von ICD-10-GM Q62  |
+| WM-DIS-1218 | Angeborene Muskel-Skelett-Deformitäten des Kopfes, des Gesichtes, der Wirbelsäule und des Thorax | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Angeborene Fehlbildungen des Stütz- und Bewegungsapparates' ist ein allgemeiner Oberbegriff, der spezifische Untergruppe |
+| WM-DIS-1220 | Angeborene Fehlbildungen des Muskel-Skelett-Systems, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Angeborene Fehlbildungen des Muskel-Skelett-Systems' ist ein Oberbegriff, der spezifisch das Muskel-Skelett-System betri |
 | WM-DIS-1225 | Sonstige juvenile Osteochondrosen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM M92 umfasst juvenile Osteochondrosen wie Morbus Perthes, Morbus Scheuermann und Morbus Kienböck. Der Suchbegriff 'osteochondritis  |
 | WM-DIS-1226 | Immundefekt in Verbindung mit anderen schweren Defekten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM D82 bezeichnet spezifisch Immundefekte in Verbindung mit anderen schweren Defekten (z. B. chromosomale Defekte, Fehlbildungen). 'S |
 | WM-DIS-1227 | Hydrops fetalis durch hämolytische Krankheit | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Nur Quelle 12 behandelt explizit die hämolytische Erkrankung des Feten/Neugeborenen (HDN), die die Ursache für ICD-10-GM P56 ist. Die anderen Quel |
+| WM-DIS-1229 | Angeborene Fehlbildungen des Augenlides, des Tränenapparates und der Orbita | disease | zu wenige Quellen mit Zusammenfassung (2) für 'eyelid malformations' |
+| WM-DIS-1232 | Angeborene Fehlbildungen der Gallenblase, der Gallengänge und der Leber | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Angeborene Fehlbildungen der Gallenwege und der Leber' ist ein Oberbegriff (ICD-10 Q44), der viele Erkrankungen umfasst. |
+| WM-DIS-1234 | Angeborene Fehlbildungen der Mamma Brustdrüse | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Titel passt zur ICD-10-GM Q83. Quelle 2 und 4 behandeln kongenitale Brusthypoplasie. Quelle 1 (Rekonstruktion), 3 (exogene Exposition), 5 (Tuberöse |
+| WM-DIS-1235 | Edwards-Syndrom und Patau-Syndrom | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Trisomie 13 oder 18; alle beziehen sich auf allgemeine chromosomale Anomalien, erworbene Aberrationen oder ander |
+| WM-DIS-1236 | Balancierte Chromosomen-Rearrangements und Struktur-Marker, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel passt zur ICD-10-GM Q95. Nur Quelle 1 behandelt explizit 'balanced chromosomal rearrangements'. Quelle 2 ist zu allgemein (PGT), Quelle 3 bet |
 | WM-DIS-1249 | Malaria quartana durch Plasmodium malariae | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Titel „Malaria“ ist ein Oberbegriff für alle Malariaformen, B52 meint nur die Malaria quartana durch Plasmodium malariae. Keine der Quel |
 | WM-DIS-1251 | Taeniasis | disease | zu wenige Quellen mit Zusammenfassung (3) für 'tapeworm infection' |
 | WM-DIS-1255 | Neuritis nervi optici | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
 --- Validation Sum |
+| WM-DIS-1260 | Angeborene Fehlbildungen der Aorten- und der Mitralklappe | disease | zu wenige Quellen mit Zusammenfassung (1) für 'aortic-mitral continuity' |
+| WM-DIS-1261 | Angeborene Fehlbildungen des Kehlkopfes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'laryngeal malformations' |
+| WM-DIS-1262 | Angeborene Fehlbildungen der Ovarien, der Tubae uterinae und der Ligg. lata uteri | disease | zu wenige Quellen mit Zusammenfassung (0) für 'ovarian congenital anomalies' |
 | WM-DIS-1267 | Sonstige erworbene Deformitäten des Muskel-Skelett-Systems und des Bindegewebes | disease | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Titel passt zu M95. Quellen 2 (Plattfuß), 5 (Hüftdysplasie) und 6 (Torticollis) behandeln erworbene oder im Kontext der Deformitäten-Diagnostik rel |
 | WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
+| WM-DIS-1270 | Venenkrankheiten und Hämorrhoiden als Komplikationen im Wochenbett | disease | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Titel deckt ICD-Code ab. Quellen 1, 2, 5 behandeln postpartale venöse Thromboembolie (VTE), was unter O87 fällt. Quelle 3 und 4 behandeln Placenta  |
 | WM-DIS-1280 | Akute Blutungsanämie | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Akute Blutungsanämie“ entspricht D62. Nur Quelle 2 passt: Sie behandelt Patienten, bei denen Transfusionen nicht möglich sind, also vor  |
 | WM-DIS-1285 | Sonstige Verletzungen der Wirbelsäule und des Rumpfes, Höhe nicht näher bezeichnet | disease | Bestätigungsquote 22/53 unter 60 % |
 | WM-DIS-1296 | Krankheiten der Bartholin-Drüsen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'Bartholinitis' |
@@ -478,9 +496,11 @@ Stand: 02.11.2026 14:26. Warteschlange: claimed 1, duplicate 473, failed 1, merg
 | WM-DIS-1367 | Nicht näher bezeichnete Knoten in der Mamma Brustdrüse | disease | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Titel passt zur ICD-10-GM N63. Nur 3 Quellen behandeln explizit 'breast lump' als primäres oder relevantes Symptom/Krankheitsbild in diesem Kontex |
 | WM-DIS-1370 | Sonstige Störungen des Aminosäurestoffwechsels | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10-GM E72 (Sonstige Störungen des Aminosäurestoffwechsels). Quelle 3 ist zu allgemein, Quelle 4 nur BCAAT, Qu |
 | WM-DIS-1376 | Hühneraugen und Horn- (Haut-) Schwielen | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Hühneraugen (Corns/Plantar Keratoses). Quelle 2, 3 und 5 sind zu allgemein oder irrelevant. Quelle 4 ist zahnmedizi |
+| WM-DIS-1382 | Sonstige Krankheiten mit Systembeteiligung des Bindegewebes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Systemische Bindegewebserkrankungen' ist ein allgemeiner Oberbegriff (Kollagenosen inkl. SLE, Systemsklerose, Myositis), M35 ist nur  |
 | WM-DIS-1383 | Sonstige entzündliche Leberkrankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM K75 umfasst eine breite Palette entzündlicher Lebererkrankungen (z.B. Autoimmunhepatitis, granulomatöse Hepatitis). Der Suchbegrif |
 | WM-DIS-1386 | Störungen des Sphingolipidstoffwechsels und sonstige Störungen der Lipidspeicherung | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel deckt ICD-10-GM E75 ab. Quellen 1, 2 und 4 behandeln explizit Sphingolipidosen. Quelle 3 (Gaucher) ist eine spezifische Untergruppe, aber der |
 | WM-DIS-1390 | Folgen von Komplikationen während Schwangerschaft, Geburt und Wochenbett | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (O94 bezeichnet ausschließlich die Folgen (Spätfolgen, Sequelae) von Komplikationen in Schwangerschaft, Geburt und Wochenbett. Der geplante T |
+| WM-DIS-1391 | Sonstige nekrotisierende Vaskulopathien | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Thromboangiitis obliterans (Buerger-Krankheit) ist eine spezifische Vaskulitis und nicht Teil der ICD-10-GM-Gruppe M31 (Sonstige nekrotisier |
 | WM-DIS-1393 | Omphalitis beim Neugeborenen mit oder ohne leichte Blutung | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neonatal omphalitis' |
 | WM-DIS-1394 | Hämorrhagische Krankheit beim Fetus und Neugeborenen | disease | Bestätigungsquote 26/44 unter 60 % |
 | WM-DIS-1395 | Disseminierte intravasale Gerinnung beim Fetus und Neugeborenen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neonatal disseminated intravascular coagulation' |
@@ -3268,6 +3288,24 @@ Stand: 02.11.2026 14:26. Warteschlange: claimed 1, duplicate 473, failed 1, merg
 | WM-DRUG-4040 | Fluciclovin(18F) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle behandelt Fluciclovine (18F), ein Tracer für die Prostatakrebs-Diagnostik, der sich von PSMA-Tracern (wie 68Ga-PSMA oder 18F-DCFP |
 | WM-DRUG-4041 | Samarium(153Sm)lexidronam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Samarium Sm-153 lexidronam' |
 | WM-DRUG-4043 | (177Lu)Lutetiumoxodotreotid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Lutetium-177-dotatate; Titel sind zu allgemein oder behandeln andere Indikationen.) |
+| WM-DRUG-4044 | Tilbroquinol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Tilbroquinol ist ein 8-Quinolinol-Derivat (Antiprotozoikum), keine Fluorchinolon-Antibiotika. Der Suchbegriff 'quinolone' führt zu irrelevan |
+| WM-DRUG-4045 | Nimorazol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Nimorazole' |
+| WM-DRUG-4046 | Secnidazol | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quelle 1 behandelt Blastocystis (falsches Parasit), Quelle 4 behandelt Balantioides coli (falscher Parasit). Quelle 2 behandelt bakterielle Vaginos |
+| WM-DRUG-4047 | Satranidazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 3 behandelt explizit Secnidazol. Quelle 1 ist zu allgemein (Antiparasitic Agents), Quelle 2 behandelt bakterielle Vaginose (ander |
+| WM-DRUG-4048 | Diloxanid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Diloxanide' |
+| WM-DRUG-4049 | Clefamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf Clefamid (ATC P01AC02, ein Antihistaminikum), während die Quellen Clemastin (ein anderes Antihistaminiku |
+| WM-DRUG-4050 | Etofamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Etofamid (ATC P01AC03) oder dessen Indikation. Die Quellen behandeln allgemeine Pyrethroide, |
+| WM-DRUG-4051 | Teclosan | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Teclosan (Chlorhexidine digluconate) ist ein lokaler Antiseptikum zur Wunddesinfektion (ATC P01AC04). Die Quellen behandeln systemische Infe |
+| WM-DRUG-4053 | Difetarson | drug | zu wenige Quellen mit Zusammenfassung (0) für 'difetarsone' |
+| WM-DRUG-4054 | Glycobiarsol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Glycoconjugates' ist zu allgemein und bezieht sich auf eine chemische Klasse, nicht auf den spezifischen Wirkstoff Glycobia |
+| WM-DRUG-4055 | Chiniofon | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Quinacrine ist ein Nitroimidazol-Abkömmling und erste Wahl bei refraktärer Giardiasis. Quellen 1, 3-6 behandeln andere Indikationen (CJD, Lupus, Kr |
+| WM-DRUG-4056 | Emetin | drug | Bestätigungsquote 27/47 unter 60 % |
+| WM-DRUG-4057 | Phanquinon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenquinone' |
+| WM-DRUG-4058 | Mepacrin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quelle 1 behandelt Mepacrin direkt. Quelle 6 behandelt Quinacrin (Synonym für Mepacrin). Quelle 4 behandelt Antimalaria-Drugs allgemein, nicht spez |
+| WM-DRUG-4060 | Trimetrexat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Trimetrexate' |
+| WM-DRUG-4061 | Tenonitrozol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tenonidazole' |
+| WM-DRUG-4062 | Dehydroemetin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dehydroemetine' |
+| WM-DRUG-4063 | Fumagillin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Quelle 1 behandelt direkt Fumagillin bei Mikosporidien. Quelle 9 ist eine Übersicht über Mikosporidiose, für die Fumagillin ein Standardtherapeutik |
 | WM-DRUG-4254 | Methacholin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt Methacholin bzw. die Methacholin-Provokation direkt. Quelle 1 (Oszillometrie bei Asthma) und Quelle 2 (Screening bei arbeits |
 | WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
 
