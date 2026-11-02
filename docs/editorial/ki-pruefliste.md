@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 10:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 23, planned 1353, published 1821, ready 17, redirect 394, review 3029.
+Stand: 02.11.2026 11:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 23, planned 1261, published 1838, ready 13, redirect 394, review 3108.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3052,9 +3052,87 @@ Stand: 02.11.2026 10:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DRUG-3771 | Ozenoxacin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit den Wirkstoff Ozenoxacin. Die anderen Quellen behandeln Impetigo allgemein oder Topische Antibiotika ohne spezifisc |
 | WM-DRUG-3772 | Framycetin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel und Suchbegriff 'aminoglycoside' sind zu allgemein (Klasse statt Wirkstoff 'Framycetin'). 7 Quellen passen thematisch (Framycetin ist  |
 | WM-DRUG-3774 | Sulfathiazol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Sulfathiazole' |
+| WM-DRUG-3775 | Mafenid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Mafenid; Quellen behandeln allgemein Burn Wound Care oder Suppurative Chondritis ohne Nennung des Wirkstof |
 | WM-DRUG-3776 | Sulfanilamid | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Sulfanilamid als Wirkstoff. Sie betreffen Sulfonamid-Derivate allgemein (MRSA, Effluxpumpen), Antibiotika-Entfernung pe |
 | WM-DRUG-3777 | Sulfamerazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfamerazine' |
+| WM-DRUG-3778 | Sulfisomidin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfisomidine' |
+| WM-DRUG-3779 | Idoxuridin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf das Virus 'Herpes simplex', nicht auf den Wirkstoff 'Idoxuridin'. Quellen behandeln klinisches Management oder Epidem |
+| WM-DRUG-3780 | Tromantadin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tromantadine' |
 | WM-DRUG-3781 | Aciclovir | drug | zu wenige Quellen mit Zusammenfassung (0) für 'acyclovir herpes simplex' |
+| WM-DRUG-3783 | Inosin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Inosin (ATC D06BB05) ist ein antiviraler/immunmodulatorischer Arzneistoff (oft als Inosin Pranobex). Die Quellen behandeln pri |
+| WM-DRUG-3784 | Penciclovir | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Penciclovir. Quelle 1 behandelt Herpes labialis allgemein, Quelle 4 HSV-Resistenz allge |
+| WM-DRUG-3786 | Ibacitabin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ibacitabine' |
+| WM-DRUG-3787 | Edoxudin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 1 behandelt den Wirkstoff Cytosine arabinoside direkt. Quelle 2 und 3 behandeln AML, aber nicht spezifisch den Wirkstoff. Quelle  |
+| WM-DRUG-3788 | Docosanol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Docosanol' |
+| WM-DRUG-3789 | Berdazimernatrium | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Berdazimer sodium' |
+| WM-DRUG-3790 | Vidarabin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Vidarabin (ATC D06BB15). Alle Quellen befassen sich mit anderen Wirkstoffen (Fludarabin, Busulfan, Cyclophospham |
+| WM-DRUG-3791 | Foscarnet | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 6 behandelt explizit Foscarnet. Quelle 3 und 8 behandeln acyclovir-resistente HSV-Infektionen, für die Foscarnet eine Standardtherapie i |
+| WM-DRUG-3792 | Grüner Tee | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC D06BP03 ist 'Green tea extract' für topische Anwendung (z.B. bei Hauterkrankungen). Die Quellen behandeln systemische Effekte (Krebspräv |
+| WM-DRUG-3796 | Hydrocortisonbutyrat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Hydrocortisonbutyrat (ATC D07AB02); alle Quellen behandeln allgemeine Corticosteroide, Injektionen oder an |
+| WM-DRUG-3797 | Flumetason | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Flumetasone' |
+| WM-DRUG-3798 | Fluocortin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'fluocortolone' |
+| WM-DRUG-3799 | Fluperolon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fluperolone' |
+| WM-DRUG-3800 | Flupredniden | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Fluprednisolone' |
+| WM-DRUG-3801 | Desonid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Desonide' |
+| WM-DRUG-3802 | Alclometason | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Alclometasone' |
+| WM-DRUG-3803 | Hydrocortisonbuteprat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Hydrocortisone butyrate' |
+| WM-DRUG-3804 | Clocortolon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Clocortolone' |
+| WM-DRUG-3805 | Fluclorolon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Fluclorolon (ATC D07AC02) ist ein topisches Kortikosteroid für Dermatologie. Die Quellen behandeln Fluocinolone acetonide (Int |
+| WM-DRUG-3806 | Desoximetason | drug | zu wenige Quellen mit Zusammenfassung (0) für 'desoximetasone' |
+| WM-DRUG-3807 | Diflucortolon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'diflucortolone' |
+| WM-DRUG-3808 | Fludroxycortid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Fludroxycortide' |
+| WM-DRUG-3809 | Diflorason | drug | zu wenige Quellen mit Zusammenfassung (0) für 'diflorasone diacetate' |
+| WM-DRUG-3810 | Amcinonid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Amcinonide' |
+| WM-DRUG-3811 | Halometason | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Halometasone' |
+| WM-DRUG-3813 | Methylprednisolonaceponat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Methylprednisolone aceponate' |
+| WM-DRUG-3814 | Hydrocortisonaceponat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Hydrocortisone aceponate' |
+| WM-DRUG-3816 | Prednicarbat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Prednicarbate' |
+| WM-DRUG-3817 | Difluprednat | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln explizit Difluprednate. Quelle 3 behandelt Kortikosteroide allgemein, Quelle 4 andere Therapien.) |
+| WM-DRUG-3818 | Ulobetasol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Ulobetasol (ein topischer Corticosteroid) wird in keiner Quelle spezifisch behandelt; alle Quellen behandeln Corticosteroide a |
+| WM-DRUG-3820 | Halcinonid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Halcinonide' |
+| WM-DRUG-3821 | Aminoacridin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Aminoacridin (ATC D08AA02) oder dessen spezifische Indikation. 'Acridine orange' ist ein Fluoresze |
+| WM-DRUG-3823 | Aluminiumchloridhydroxid-Komplex | drug | zu viele nur teilweise belegte Sätze (21/36) |
+| WM-DRUG-3824 | Aluminiumpulver | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Aluminiumpulver (ATC D08AB10) als Arzneimittel oder dessen medizinische Anwendung; alle Quellen befasse |
+| WM-DRUG-3825 | Dibrompropamidin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'dibrompropamidine' |
+| WM-DRUG-3826 | Propamidin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Propamocarb' |
+| WM-DRUG-3827 | Hexamidin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Hexamidin (ATC D08AC04). Quelle 2 behandelt Pentamidin, Quelle 5 ist zu allgemein. Hexamidin ist ein Diami |
+| WM-DRUG-3828 | Hexachlorophen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'hexachlorophene' |
+| WM-DRUG-3829 | Policresulen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Policresulen' |
+| WM-DRUG-3831 | Chloroxylenol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Chloroxylenol' |
+| WM-DRUG-3832 | Biphenylol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Biphenylol (ATC D08AE06) ist ein Desinfektionsmittel. Die Quellen behandeln Polychlorierte Biphenyle (PCBs), eine Gruppe von U |
+| WM-DRUG-3833 | Xylenol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Xylenol' |
+| WM-DRUG-3834 | Iodoctylphenoxypolyglycolether | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel und ATC D08AG01 (Antiseptikum) bezeichnen unterschiedliche Substanzen. Iodixanol ist ein Röntgenkontrastmittel (ATC V08AB07), kein Ant |
+| WM-DRUG-3836 | Iod | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine Quelle behandelt den Wirkstoff Iod (ATC D08AG03) als Antiseptikum/Desinfektionsmittel. Quellen zu Iod-131 (Nuklearmedizin), Iodmangel/Übersc |
+| WM-DRUG-3837 | Diiodhydroxypropan | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dihydroxypropyl diiodide' |
+| WM-DRUG-3839 | Chlorquinaldol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chlorquinaldol' |
+| WM-DRUG-3840 | Oxichinolin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'oxolinic acid' |
+| WM-DRUG-3841 | Cloxiquin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Cloxiquin (ATC D08AH10) ist ein Chinolinderivat mit antiseptischer Wirkung, während 'cloxacillin' ein Beta-Lactam-Antibiotikum |
+| WM-DRUG-3842 | Clioquinol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 2 Quellen behandeln Clioquinol direkt. Quelle 3 erwähnt es als Kandidat, Quelle 6 als Wirkstoff. Andere Quellen behandeln Alzheimer oder |
+| WM-DRUG-3844 | Cetrimonium | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Cetrimonium' |
+| WM-DRUG-3845 | Cetrimid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Cetrimid (ATC D08AJ04). Quelle 6 behandelt Quaternary Ammonium Compounds allgemein, nicht Cetrimid sp |
+| WM-DRUG-3846 | Didecyldimethylammoniumchlorid | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 2 behandelt explizit Didecyldimethylammoniumchlorid (DDAC). Quelle 1 ist irrelevant, Quelle 3 behandelt nur die Obergruppe QACs, Quelle  |
+| WM-DRUG-3847 | Benzethoniumchlorid | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 2 und 4 behandeln explizit Benzethoniumchlorid. Quelle 1 ist zu allgemein (SARS-CoV-2/Resistenz), Quelle 3 behandelt zwar die Substanz, fok |
+| WM-DRUG-3848 | Decamethoxin | drug | Bestätigungsquote 11/48 unter 60 % |
+| WM-DRUG-3849 | Quecksilberamidochlorid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mercuric amidochloride' |
+| WM-DRUG-3850 | Phenylmercuriborat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'phenylmercuric borate' |
+| WM-DRUG-3851 | Quecksilberchlorid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'mercuric chloride' |
+| WM-DRUG-3852 | Merbromin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Mercurochrome' |
+| WM-DRUG-3853 | Metallisches Quecksilber | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Arzneimittelwirkstoff 'Metallisches Quecksilber' (ATC D08AK05) als topisches Antiseptikum. Alle Quelle |
+| WM-DRUG-3854 | Thiomersal | drug | zu wenige Quellen mit Zusammenfassung (2) für 'ethylmercury' |
+| WM-DRUG-3855 | Phenylquecksilber(II)-acetat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Phenylmercuric acetate' |
+| WM-DRUG-3856 | Quecksilbercyanid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Mercury cyanide' |
+| WM-DRUG-3857 | Quecksilberiodid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mercuric iodide' |
+| WM-DRUG-3858 | Silbernitrat | drug | Themenprüfung: nur 2 von 13 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit Silbernitrat (Silver nitrate) als Wirkstoff. Quelle 12 erwähnt Silbernitrat historisch im Titel, behandelt aber ni |
+| WM-DRUG-3859 | Methenamin-Silbernitrat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Methenamin-Silbernitrat (ATC D08AL02) ist chemisch und therapeutisch nicht identisch mit Silberdiaminfluorid (SDF). SDF wird p |
+| WM-DRUG-3861 | Eosin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Eosin (ATC D08AX02) als Arzneimittel. Quellen 1, 2, 4, 5, 6 beziehen sich auf die Hämatoxylin-Eosin-Fär |
+| WM-DRUG-3863 | Tosylchloramid-Natrium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sodium N-Chlorotoluene-4-sulfonamide' |
+| WM-DRUG-3864 | Isopropanol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Isopropanol als Arzneimittelwirkstoff (ATC D08AX05) zur Behandlung einer spezifischen Indikation im Sinne eines Arzne |
+| WM-DRUG-3865 | Kaliumpermanganat | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Nur Quelle 4 behandelt explizit Kaliumpermanganat. Quelle 6 behandelt Wundantiseptika allgemein, ohne den spezifischen Wirkstoff zu fokussieren, da |
+| WM-DRUG-3866 | TCDO (Tetrachlorodecaoxygen) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tetrachlorodecaoxide' |
+| WM-DRUG-3867 | Glutaral | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Glutaral (ATC D08AX11) ist ein Desinfektionsmittel. Die Quellen behandeln Glutaraldehyd primär in industriellen, lebensmitteltechnischen ode |
+| WM-DRUG-3868 | Basisches Bismutgallat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bismuth subgallate' |
+| WM-DRUG-3870 | Terpentin-Derivate | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt 'Terpentin-Derivate' (ATC D08AX20, Desinfektionsmittel). Der Suchbegriff 'Terbinafine' (ATC D01AE02, Antimyko |
+| WM-DRUG-3871 | Phenylquecksilbernitrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenylmercuric nitrate' |
 | WM-DRUG-3923 | Oxaceprol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Oxaceprol' |
 | WM-DRUG-4254 | Methacholin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt Methacholin bzw. die Methacholin-Provokation direkt. Quelle 1 (Oszillometrie bei Asthma) und Quelle 2 (Screening bei arbeits |
 | WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
@@ -3065,5 +3143,6 @@ Files validated:    |
 | WM-DRUG-4481 | Tezacaftor | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel 'Tezacaftor' entspricht dem Wirkstoff der Klassifikation (ATC R07AX31). Nur Quelle 1 behandelt Korrektortherapien (u. a. Tezacaftor/Ivaca |
 | WM-DRUG-4482 | Vilanterol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'vilanterol trifenatate' |
 | WM-PAT-0103 | Kyphose und Lordose | patient | Bestätigungsquote 30/53 unter 60 % |
+| WM-PAT-0162 | Alkoholische Leberkrankheit | patient | Bestätigungsquote 46/83 unter 60 % |
 | WM-PAT-0174 | Rezidivierende depressive Störung | patient | Truncated: stop_reason=max_tokens (claude-haiku-5-5) |
 | WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
