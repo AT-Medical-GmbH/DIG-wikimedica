@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 09:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 23, planned 1424, published 1813, ready 8, redirect 394, review 2975.
+Stand: 02.11.2026 10:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 23, planned 1353, published 1821, ready 17, redirect 394, review 3029.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -2993,12 +2993,64 @@ Stand: 02.11.2026 09:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DRUG-3693 | Nachtkerzensamenöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Nachtkerzensamenöl' bezeichnet einen Wirkstoff (ATC D02AP01), während die Quellen sich auf Indikationen (Entzündungen, P |
 | WM-DRUG-3694 | Olivenöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Arzneimittelwirkstoff Olivenöl' ist irreführend, da Olivenöl kein Arzneimittelwirkstoff im Sinne der ATC-Klassifikation  |
 | WM-DRUG-3695 | Schwefel-haltige Mittel | drug | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Quelle 10 behandelt Schwefel-Präparate in der Dermatologie (passend zu ATC D02AX05). Quelle 11 behandelt Scabies, für das Schwefelpräparate eine S |
+| WM-DRUG-3697 | Kieselsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Kieselsäure (ATC D02AX10) oder dessen dermatologische Anwendung. Quelle 5 behandelt einen Pflanzen |
+| WM-DRUG-3698 | Aminobenzoesäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Aminobenzoesäure (PABA) im klinischen/kosmetischen Kontext (ATC D02BA01). Quelle 1 ist rein  |
+| WM-DRUG-3699 | Octinoxat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt primär Octinoxat als Arzneimittelwirkstoff (ATC D02BA02); alle Quellen fokussieren auf Umwelttoxikologie, Endokrinolo |
+| WM-DRUG-3700 | Calendula | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Quellen 6 und 10 behandeln explizit Calendula officinalis. Quelle 2 ist eine Übersicht über pflanzliche Wundheilung, die Calendula (als Marigold/C |
+| WM-DRUG-3702 | Ringelblumenblüten | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Nur Quellen 6 und 10 behandeln spezifisch Calendula officinalis im Kontext von Wundheilung (ATC D03AP02). Quelle 2 ist zu allgemein (alle Kräuter) |
+| WM-DRUG-3703 | Weizenkeimextrakt | drug | zu wenige Quellen mit Zusammenfassung (2) für 'wheat germ extract' |
+| WM-DRUG-3704 | Maiskeimöl | drug | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (Nur 3 Quellen behandeln explizit Maiskeimöl (corn oil) in einem medizinischen/klinischen Kontext. Quelle 2 vergleicht Effekte, 8 und 10 untersuche |
+| WM-DRUG-3705 | Echinaceakraut | drug | Bestätigungsquote 34/61 unter 60 % |
+| WM-DRUG-3706 | Bromelain | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/46 unter 60 % |
+| WM-DRUG-3707 | Birkenrinde | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Birkenrinde (Betula pendula) als Wirkstoff für Wundheilung (ATC D03AP09). Quelle 4 ist thematisch nah (Bur |
+| WM-DRUG-3708 | Cadexomer-Iod | drug | zu wenige Quellen mit Zusammenfassung (2) für 'iodine-impregnated' |
+| WM-DRUG-3711 | Crilanomer | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Crilanomer' |
+| WM-DRUG-3713 | Natriumchlorit | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Natriumchlorit (ATC D03AX11) ist ein spezifischer Wirkstoff zur Behandlung von Wunden und Geschwüren. Die Quelle 1 behandelt Halitosis (Zahn |
+| WM-DRUG-3714 | Trolamin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Trimethadione' |
+| WM-DRUG-3715 | Trafermin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Trafermin (ATC D03AX15) oder dessen Indikation (Wundheilung). Alle Titel beziehen sich auf ande |
+| WM-DRUG-3716 | Diperoxochlorsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Diperoxochloric acid' |
+| WM-DRUG-3718 | Sauermolkekonzentrat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Sauermolkekonzentrat (ATC D03AX25) oder dessen medizinische Indikation; alle Quellen befassen sich mit  |
+| WM-DRUG-3720 | Mineralölraffinat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Mineralölraffinat (ATC D03AX27) als Arzneimittel zur Wundheilung. Quellen zu Mineralöl beziehen sich au |
+| WM-DRUG-3722 | Fliegenlarven | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Arzneimittelwirkstoff Fliegenlarven' ist irreführend, da Fliegenlarven (Maggots) als biologisches Therapeutikum (Debride |
+| WM-DRUG-3723 | Aluminiumacetattartrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'aluminium acetotartrate' |
+| WM-DRUG-3725 | Thonzylamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Thonzylamine' |
+| WM-DRUG-3726 | Mepyramin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'mepyramine' |
+| WM-DRUG-3728 | Tripelennamin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'pyrilamine' |
+| WM-DRUG-3729 | Chloropyramin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Chlorphenamine' |
 | WM-DRUG-3730 | Promethazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation D04AA10 bezeichnet Promethazin zur topischen Anwendung (Antipruriginosum). Der geplante Titel „Promethazin“ ist als W |
+| WM-DRUG-3731 | Tolpropamin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt 'Tolpropamin' (ein fiktiver oder veralteter Name, ATC D04AA12 ist tatsächlich Tolterodin). Die Quelle 1 und 3 |
+| WM-DRUG-3732 | Dimetinden | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dimetindene' |
+| WM-DRUG-3734 | Bamipin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bamipine' |
+| WM-DRUG-3735 | Pheniramin | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 4 behandelt explizit Pheniramin. Quelle 5 behandelt Chlorpheniramin (ein Derivat, aber nicht identisch). Quelle 1, 2, 3, 6, 7 behandeln  |
+| WM-DRUG-3736 | Isothipendyl | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Isothipendyl' |
+| WM-DRUG-3737 | Diphenhydraminmethylbromid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Diphenhydraminmethylbromid' (ein quaternäres Ammoniumderivat, das die Blut-Hirn-Schranke nicht überwindet) ist chemisch und p |
+| WM-DRUG-3738 | Chlorphenoxamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chlorphenoxamine' |
+| WM-DRUG-3739 | Diphenylpyralin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Suchbegriff 'Diphenhydramine' ist falsch; Diphenylpyralin ist ein anderer Wirkstoff. Keine Quelle behandelt Diphenylpyralin.) |
+| WM-DRUG-3740 | Oxybuprocain | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Oxybuprocaine' |
+| WM-DRUG-3741 | Chinisocain | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Chinisocain (Chloroprocain); alle beziehen sich auf Lokalanästhesie im Allgemeinen oder andere Wirkstoffe. |
+| WM-DRUG-3742 | Cardiospermum | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Cardiospermum halicacabum' |
 | WM-DRUG-3743 | Doxepin | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 5 behandelt Doxepin direkt (dermatologische Anwendung, Spiegelbestimmung, Genotypisierung). Quelle 1 (Sialorrhoe unter Antipsychotika),  |
+| WM-DRUG-3744 | Crotamiton | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln Scabies (Krankheitsbild), nicht Crotamiton (Wirkstoff). Quelle 3 (Demodex) und 4 (Juckreiz allgemein) passen nicht.) |
 | WM-DRUG-3745 | Bufexamac | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der sechs Quellen behandelt Bufexamac. Sie befassen sich mit anderen HDAC6-Inhibitoren (Tubastatin A, ACY-1215, JBI-802) oder allgemein mit H |
+| WM-DRUG-3746 | Aqua calcariae | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Aqua calcariae' (ATC D04AX06) ist ein Calciumchlorid-Präparat zur Behandlung von Juckreiz. Die Quellen behandeln Calcium als  |
+| WM-DRUG-3748 | Bituminosulfonate | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bituminosulfonates' |
+| WM-DRUG-3749 | Steinkohlenteer | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Quelle 3 behandelt explizit Tars (Steinkohlenteer) bei Psoriasis. Quelle 2 erwähnt den Wirkstoffmechanismus, ist aber kein primärer Review zum Wirk |
+| WM-DRUG-3750 | Dithranol | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt Dithranol (Anthralin) explizit. Quelle 2, 4 und 5 behandeln Psoriasis allgemein oder Nanocarrier, nicht spezifisch Dithranol |
+| WM-DRUG-3751 | Trioxysalen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Trioxysalene' |
+| WM-DRUG-3752 | Methoxsalen | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 3 behandelt direkt Xanthotoxin (8-Methoxypsoralen), den chemischen Namen von Methoxsalen. Quelle 1 behandelt GvHD (Indikation, nicht den |
+| WM-DRUG-3753 | Fumarsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf Psoriasis (ATC D05AX01), Quellen behandeln Wiederkäuer, Augenentzündung, GI-Nebenwirkungen oder Ensitrelvir-Fumarat ( |
+| WM-DRUG-3755 | Tacalcitol | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel 'Tacalcitol' bezeichnet denselben Wirkstoff wie ATC D05AX04. Keine der Quellen behandelt Tacalcitol spezifisch. Die Übersichten betreffen |
+| WM-DRUG-3758 | Bergapten | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Nur Quellen 2 und 6 behandeln explizit Bergapten als Wirkstoff. Quelle 1 ist zu allgemein (Anticancer Natural Products), Quelle 3 behandelt eine Pf |
+| WM-DRUG-3759 | Etretinat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Etretinat; Quellen behandeln Retinoide allgemein, andere Indikationen oder sind thematisch irrelevant.) |
 | WM-DRUG-3761 | Demeclocyclin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt speziell Demeclocyclin; alle betreffen die Tetracyclin-Klasse allgemein oder andere Themen (Resistenz, Umweltanalytik |
+| WM-DRUG-3762 | Meclocyclin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Meclocyclin; alle beziehen sich auf die allgemeine Klasse der Tetracycline oder andere Indikationen.) |
 | WM-DRUG-3763 | Fusidinsäure | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 2, 3 und 4 behandeln direkt Fusidinsäure (Resistenzprävalenz, Resistenzmechanismen, Derivate und Struktur-Wirkungs-Beziehungen). Quelle 1 ( |
 | WM-DRUG-3765 | Bacitracin | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 4 behandelt Bacitracin als Wirkstoff direkt (mikrobielle Synthese). Die übrigen Quellen behandeln Bacitracin höchstens am Rande (Irrigat |
+| WM-DRUG-3767 | Tyrothricin | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Quellen 2 und 3 behandeln explizit Gramicidin S Analoga und deren Entwicklung als Antibiotika, was direkt mit Tyrothricin (enthält Gramicidin) zusa |
+| WM-DRUG-3769 | Virginiamycin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Virginiamycin' |
+| WM-DRUG-3770 | Retapamulin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Retapamulin' entspricht dem Wirkstoff (ATC D06AX13). Alle fünf Quellen behandeln jedoch Impetigo bzw. bakterielle Hautinfektionen allgem |
+| WM-DRUG-3771 | Ozenoxacin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 3 behandelt explizit den Wirkstoff Ozenoxacin. Die anderen Quellen behandeln Impetigo allgemein oder Topische Antibiotika ohne spezifisc |
+| WM-DRUG-3772 | Framycetin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel und Suchbegriff 'aminoglycoside' sind zu allgemein (Klasse statt Wirkstoff 'Framycetin'). 7 Quellen passen thematisch (Framycetin ist  |
 | WM-DRUG-3774 | Sulfathiazol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Sulfathiazole' |
 | WM-DRUG-3776 | Sulfanilamid | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Sulfanilamid als Wirkstoff. Sie betreffen Sulfonamid-Derivate allgemein (MRSA, Effluxpumpen), Antibiotika-Entfernung pe |
 | WM-DRUG-3777 | Sulfamerazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfamerazine' |
@@ -3010,6 +3062,8 @@ Stand: 02.11.2026 09:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 --- Validation Summary ---
 Files validated:    |
 | WM-DRUG-4479 | Omega-3-Säureethylester | drug | zu wenige Quellen mit Zusammenfassung (2) für 'omega-3 acid ethyl esters' |
+| WM-DRUG-4481 | Tezacaftor | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel 'Tezacaftor' entspricht dem Wirkstoff der Klassifikation (ATC R07AX31). Nur Quelle 1 behandelt Korrektortherapien (u. a. Tezacaftor/Ivaca |
+| WM-DRUG-4482 | Vilanterol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'vilanterol trifenatate' |
 | WM-PAT-0103 | Kyphose und Lordose | patient | Bestätigungsquote 30/53 unter 60 % |
 | WM-PAT-0174 | Rezidivierende depressive Störung | patient | Truncated: stop_reason=max_tokens (claude-haiku-5-5) |
 | WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
