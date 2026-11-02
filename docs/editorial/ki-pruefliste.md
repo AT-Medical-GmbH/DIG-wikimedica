@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 16:25. Warteschlange: claimed 1, duplicate 473, failed 1, merged 25, planned 920, published 1936, ready 21, redirect 403, review 3331.
+Stand: 02.11.2026 17:25. Warteschlange: duplicate 475, failed 1, merged 26, planned 915, published 1956, ready 1, redirect 403, review 3334.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -474,6 +474,7 @@ Stand: 02.11.2026 16:25. Warteschlange: claimed 1, duplicate 473, failed 1, merg
 | WM-DIS-1274 | Angeborene Fehlbildung des hinteren Augenabschnittes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'posterior eye malformation' |
 | WM-DIS-1275 | Angeborene Fehlbildungen der Nase | disease | zu wenige Quellen mit Zusammenfassung (2) für 'Nasal anomalies' |
 | WM-DIS-1276 | Angeborene(s) Fehlen, Atresie und Stenose des Dickdarmes | disease | zu wenige Quellen mit Zusammenfassung (3) für 'colonic atresia' |
+| WM-DIS-1278 | Angeborene Fehlbildungssyndrome durch bekannte äußere Ursachen, anderenorts nicht klassifiziert | disease | Bestätigungsquote 16/51 unter 60 % |
 | WM-DIS-1280 | Akute Blutungsanämie | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Akute Blutungsanämie“ entspricht D62. Nur Quelle 2 passt: Sie behandelt Patienten, bei denen Transfusionen nicht möglich sind, also vor  |
 | WM-DIS-1285 | Sonstige Verletzungen der Wirbelsäule und des Rumpfes, Höhe nicht näher bezeichnet | disease | Bestätigungsquote 22/53 unter 60 % |
 | WM-DIS-1296 | Krankheiten der Bartholin-Drüsen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'Bartholinitis' |
@@ -502,6 +503,10 @@ Stand: 02.11.2026 16:25. Warteschlange: claimed 1, duplicate 473, failed 1, merg
 | WM-DIS-1382 | Sonstige Krankheiten mit Systembeteiligung des Bindegewebes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Systemische Bindegewebserkrankungen' ist ein allgemeiner Oberbegriff (Kollagenosen inkl. SLE, Systemsklerose, Myositis), M35 ist nur  |
 | WM-DIS-1383 | Sonstige entzündliche Leberkrankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM K75 umfasst eine breite Palette entzündlicher Lebererkrankungen (z.B. Autoimmunhepatitis, granulomatöse Hepatitis). Der Suchbegrif |
 | WM-DIS-1386 | Störungen des Sphingolipidstoffwechsels und sonstige Störungen der Lipidspeicherung | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel deckt ICD-10-GM E75 ab. Quellen 1, 2 und 4 behandeln explizit Sphingolipidosen. Quelle 3 (Gaucher) ist eine spezifische Untergruppe, aber der |
+| WM-DIS-1388 | Sonstige Affektionen des Augenlides | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel passt zu H02. Quelle 1 ist zu allgemein (WHO-Programme), 3 behandelt Tumor (nicht H02), 6 behandelt Bewegungsstörungen. Quellen 2, 4, 5 behan |
+| WM-DIS-1389 | Sonstige Affektionen der Hornhaut | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
 | WM-DIS-1390 | Folgen von Komplikationen während Schwangerschaft, Geburt und Wochenbett | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (O94 bezeichnet ausschließlich die Folgen (Spätfolgen, Sequelae) von Komplikationen in Schwangerschaft, Geburt und Wochenbett. Der geplante T |
 | WM-DIS-1391 | Sonstige nekrotisierende Vaskulopathien | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Thromboangiitis obliterans (Buerger-Krankheit) ist eine spezifische Vaskulitis und nicht Teil der ICD-10-GM-Gruppe M31 (Sonstige nekrotisier |
 | WM-DIS-1393 | Omphalitis beim Neugeborenen mit oder ohne leichte Blutung | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neonatal omphalitis' |
