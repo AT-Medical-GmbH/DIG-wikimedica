@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 00:25. Warteschlange: claimed 1, duplicate 470, merged 13, planned 1764, published 1648, ready 30, redirect 391, review 2794.
+Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, planned 1744, published 1678, ready 14, redirect 391, review 2800.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -369,6 +369,9 @@ Stand: 02.11.2026 00:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-0998 | Follikuläre Zysten der Haut und der Unterhaut | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (ICD-10-GM L72 bezieht sich auf epidermale/epidermoidale Zysten der Haut. Quelle 2 behandelt explizit Epidermal Cysts (Haut). Quellen 1, 5, 6, 7, 8, |
 | WM-DIS-1000 | Störungen der transepidermalen Elimination | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM L87 umfasst Störungen der transepidermalen Elimination (z.B. Hyperhidrose, Bromhidrose, Anhidrose). Der geplante Titel 'Störungen  |
 | WM-DIS-1001 | Sonstige lokale Infektionen der Haut und der Unterhaut | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine Quelle behandelt spezifisch L08 (lokale Infektionen der Haut/Unterhaut ohne spezifische Erregerangabe wie Orf, Mykobakterien oder spezifische |
+| WM-DIS-1004 | Virusenzephalitis, durch Moskitos Stechmücken übertragen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'mosquito encephalitis' |
+| WM-DIS-1005 | Viruskrankheit nicht näher bezeichneter Lokalisation | disease | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (ICD-10-GM B34 bezeichnet eine unspezifische Virusinfektion ohne Lokalisationsangabe. Alle 15 Quellen behandeln spezifische Lokalisationen (z.B. re |
+| WM-DIS-1010 | Viren als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind | disease | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch die ICD-10-GM B97-Kategorie (Viren als Ursache in anderen Kapiteln klassifizierter Krankheiten) als eigenst |
 | WM-DIS-1013 | Störungen des Geruchs- und Geschmackssinnes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Störungen des Geruchs- und Geschmackssinnes' umfasst auch den Geschmackssinn (ICD-10-GM R43), die Quellen behandeln jedo |
 | WM-DIS-1015 | Schmerz, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 R52 (Schmerz, anderenorts nicht klassifiziert) als primäres Diagnosekriterium oder Krankheitsbild; alle be |
 | WM-DIS-1030 | Parapsoriasis | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 8 behandelt explizit 'Parapsoriasis'. Quelle 5 erwähnt es nur im Kontext von MF/Lymphomatoid Papulose. Quellen 1,3,4,6,9 behandeln Mucha |
@@ -447,6 +450,7 @@ Stand: 02.11.2026 00:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1358 | Sonstige nichtorganische psychotische Störungen | disease | zu wenige Quellen mit Zusammenfassung (2) für 'functional psychosis' |
 | WM-DIS-1360 | Nicht näher bezeichnete Demenz | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch F03 (unspecified dementia). Quelle 2 behandelt Demenz allgemein, Quelle 1 und 4 Neurodegeneration allgemein, Quel |
 | WM-DIS-1367 | Nicht näher bezeichnete Knoten in der Mamma Brustdrüse | disease | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Titel passt zur ICD-10-GM N63. Nur 3 Quellen behandeln explizit 'breast lump' als primäres oder relevantes Symptom/Krankheitsbild in diesem Kontex |
+| WM-DIS-1376 | Hühneraugen und Horn- (Haut-) Schwielen | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Hühneraugen (Corns/Plantar Keratoses). Quelle 2, 3 und 5 sind zu allgemein oder irrelevant. Quelle 4 ist zahnmedizi |
 | WM-DIS-1390 | Folgen von Komplikationen während Schwangerschaft, Geburt und Wochenbett | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (O94 bezeichnet ausschließlich die Folgen (Spätfolgen, Sequelae) von Komplikationen in Schwangerschaft, Geburt und Wochenbett. Der geplante T |
 | WM-DIS-1411 | Folgen entzündlicher Krankheiten des Zentralnervensystems | disease | zu wenige Quellen mit Zusammenfassung (1) für 'neuroinflammatory sequelae' |
 | WM-DIS-1412 | Sonstige Krankheiten des peripheren Nervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G64 meint 'Sonstige Krankheiten des peripheren Nervensystems' (nicht näher bezeichnete/sonstige Neuropathien; spezifische Ursachen wie diabe |
@@ -1946,6 +1950,7 @@ Stand: 02.11.2026 00:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-2358 | Donislecel | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Donislecel (Lantidra) ist ein allogenes, aus Spenderpankreas gewonnenes Inselzellpräparat für Typ-1-Diabetes, und der Titel bezeichnet denselben Wi |
 | WM-DRUG-2361 | Ergocalciferol | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Nur Quellen 5, 7 und 13 behandeln explizit Ergocalciferol (Vitamin D2) oder vergleichen es direkt mit anderen Formen im Kontext seiner Wirkung. Qu |
 | WM-DRUG-2362 | Dihydrotachysterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Dihydrotachysterol; alle beziehen sich auf Vitamin-D-Analoga allgemein oder andere Indikationen.) |
+| WM-DRUG-2363 | Alfacalcidol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'alfacalcidol osteoporosis' |
 | WM-DRUG-2369 | Sulbutiamin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Sulbutiamine' |
 | WM-DRUG-2372 | Thiaminpyrophosphat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 3 Quellen behandeln Thiamin/Thiaminpyrophosphat direkt im klinischen Kontext. Quelle 3 ist evolutionär, 1 ist Sepsis-nutritionell, 5 ist |
 | WM-DRUG-2376 | Pyridoxin (Vitamin B6) | drug | Bestätigungsquote 22/68 unter 60 % |
@@ -2828,3 +2833,7 @@ Stand: 02.11.2026 00:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-3777 | Sulfamerazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfamerazine' |
 | WM-DRUG-3781 | Aciclovir | drug | zu wenige Quellen mit Zusammenfassung (0) für 'acyclovir herpes simplex' |
 | WM-DRUG-3923 | Oxaceprol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Oxaceprol' |
+| WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
+
+--- Validation Summary ---
+Files validated:    |
