@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 06:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 15, planned 1535, published 1761, ready 33, redirect 394, review 2899.
+Stand: 02.11.2026 07:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 17, planned 1505, published 1791, ready 18, redirect 394, review 2912.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -92,6 +92,8 @@ Stand: 02.11.2026 06:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-0452 | Hals- und Brustschmerzen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neck and chest pain' |
 | WM-DIS-0454 | Bösartige Neubildung der Cervix uteri | disease | zu viele nur teilweise belegte Sätze (16/39) |
 | WM-DIS-0455 | Lymphatische Leukämie | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel passt zu C91. Nur Quelle 3 behandelt akute lymphatische Leukämie (Untergruppe von C91). Quelle 2 behandelt CLL (C91.1), wird aber oft separat |
+| WM-DIS-0458 | Krankheiten der Hirnnerven bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM G53 definiert Hirnnervenkrankheiten als Sekundärmanifestationen andererorts klassifizierter Krankheiten (z.B. bei Tumoren, Infekti |
+| WM-DIS-0459 | Kompression von Nervenwurzeln und Nervenplexus bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Nur Quelle 12 behandelt explizit Nervenwurzelkompression (G55) bei einer anderenorts klassifizierten Krankheit (Gicht/Tophi). Quelle 8 behandelt D |
 | WM-DIS-0460 | Chronische tubulointerstitielle Nephritis | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel „Chronische interstitielle Nephritis“ ist ein gebräuchliches Synonym für die chronische tubulointerstitielle Nephritis (N11). Passend sin |
 | WM-DIS-0461 | Spontangeburt eines Einlings | disease | Bestätigungsquote 24/51 unter 60 % |
 | WM-DIS-0463 | Gestationsödeme und Gestationsproteinurie schwangerschaftsinduziert ohne Hypertonie | disease | zu wenige Quellen mit Zusammenfassung (0) für 'gestational edema' |
@@ -477,9 +479,18 @@ Stand: 02.11.2026 06:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-1411 | Folgen entzündlicher Krankheiten des Zentralnervensystems | disease | zu wenige Quellen mit Zusammenfassung (1) für 'neuroinflammatory sequelae' |
 | WM-DIS-1412 | Sonstige Krankheiten des peripheren Nervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G64 meint 'Sonstige Krankheiten des peripheren Nervensystems' (nicht näher bezeichnete/sonstige Neuropathien; spezifische Ursachen wie diabe |
 | WM-DIS-1413 | Sonstige Krankheiten des Nervensystems, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G98 ist eine Restkategorie für spezifische, anderenorts nicht klassifizierte Nervensystemerkrankungen. Der Titel „Sonstige neurologische Erk |
+| WM-DIS-1424 | Exfoliative Dermatitis | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel entspricht ICD-10-GM L26. Quellen 4, 5, 6 behandeln Exfoliative Dermatitis/Erythroderma beim Menschen. Quelle 1 ist paraneoplastisch, 2/3 sin |
+| WM-DIS-1434 | Tetanus neonatorum | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel ist korrekt. Quellen 1, 5, 6 behandeln Neonatalen Tetanus explizit. Quelle 3 ist allgemein, Quelle 2 ist Craniocervical, Quelle 4 ist Polio.) |
+| WM-DIS-1437 | Scharlach | disease | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Titel bezeichnet Scharlach korrekt. Quelle 3 behandelt allgemein Group A Streptococcus, nicht spezifisch Scharlach.) |
+| WM-DIS-1439 | Lymphogranuloma inguinale (venereum) durch Chlamydien | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel entspricht der Diagnose. Nur 3 Quellen behandeln explizit LGV; Quelle 2 behandelt nicht-LGV Chlamydien, Quelle 1 ist allgemein zu ulzerativen |
+| WM-DIS-1441 | Granuloma venereum (inguinale) | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM A58 bezeichnet Granuloma venereum (Donovanose), der geplante Titel Lymphogranuloma venereum (LGV) und der Suchbegriff chancroid (H |
+| WM-DIS-1442 | Nichtvenerische Syphilis | disease | zu wenige Quellen mit Zusammenfassung (1) für 'endemic syphilis' |
+| WM-DIS-1445 | Nicht näher bezeichnete hämorrhagische Viruskrankheit | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM A99 ist ein Sammelbegriff für nicht näher bezeichnete hämorrhagische Viruskrankheiten. Der geplante Titel 'Hämorrhagische Fieber'  |
+| WM-DIS-1446 | Pocken | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel 'Pocken' entspricht ICD-10-GM B03. Quelle 1 behandelt Variola direkt. Quelle 3 behandelt Smallpox (Pocken). Quelle 5 behandelt Smallpox. Quel |
 | WM-DIS-1482 | Sonstige und nicht näher bezeichnete Verletzungen des Unterarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S59 umfasst alle Verletzungen (z.B. Prellungen, Luxationen), nicht nur Frakturen. Der Titel 'Sonstige Verletzungen des Unterarms'  |
 | WM-DIS-1484 | Sonstige und nicht näher bezeichnete Verletzungen der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip and thigh injuries' |
 | WM-DIS-1485 | Sonstige und nicht näher bezeichnete Verletzungen des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
+| WM-DIS-1529 | Fraktur der oberen Extremität, Höhe nicht näher bezeichnet | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Fraktur der oberen Extremität' ist ein allgemeiner Oberbegriff, der den spezifischen ICD-10-GM-Code T10 ('Höhe nicht näh |
 | WM-DRUG-0106 | Blutgerinnungsfaktor VIII | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Blutgerinnungsfaktor VIII' entspricht dem Wirkstoff Faktor VIII (ATC B02BD02). Die Quellen 1–3 behandeln Faktor VIII als Protein und Wir |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0121 | Bevacizumab | drug | zu viele nur teilweise belegte Sätze (22/35) |
@@ -2931,9 +2942,11 @@ Stand: 02.11.2026 06:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DRUG-3777 | Sulfamerazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfamerazine' |
 | WM-DRUG-3781 | Aciclovir | drug | zu wenige Quellen mit Zusammenfassung (0) für 'acyclovir herpes simplex' |
 | WM-DRUG-3923 | Oxaceprol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Oxaceprol' |
+| WM-DRUG-4254 | Methacholin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt Methacholin bzw. die Methacholin-Provokation direkt. Quelle 1 (Oszillometrie bei Asthma) und Quelle 2 (Screening bei arbeits |
 | WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
 
 --- Validation Summary ---
 Files validated:    |
+| WM-DRUG-4479 | Omega-3-Säureethylester | drug | zu wenige Quellen mit Zusammenfassung (2) für 'omega-3 acid ethyl esters' |
 | WM-PAT-0174 | Rezidivierende depressive Störung | patient | Truncated: stop_reason=max_tokens (claude-haiku-5-5) |
 | WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
