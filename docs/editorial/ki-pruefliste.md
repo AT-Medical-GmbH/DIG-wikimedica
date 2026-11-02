@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 18:25. Warteschlange: duplicate 475, failed 1, merged 26, planned 914, published 1957, redirect 403, review 3335.
+Stand: 02.11.2026 22:25. Warteschlange: duplicate 476, failed 1, merged 29, planned 907, published 1957, ready 2, redirect 403, review 3336.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -479,6 +479,7 @@ Stand: 02.11.2026 18:25. Warteschlange: duplicate 475, failed 1, merged 26, plan
 | WM-DIS-1280 | Akute Blutungsanämie | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Akute Blutungsanämie“ entspricht D62. Nur Quelle 2 passt: Sie behandelt Patienten, bei denen Transfusionen nicht möglich sind, also vor  |
 | WM-DIS-1285 | Sonstige Verletzungen der Wirbelsäule und des Rumpfes, Höhe nicht näher bezeichnet | disease | Bestätigungsquote 22/53 unter 60 % |
 | WM-DIS-1296 | Krankheiten der Bartholin-Drüsen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'Bartholinitis' |
+| WM-DIS-1298 | Angeborene Fehlbildungen der Trachea und der Bronchien | disease | zu wenige Quellen mit Zusammenfassung (3) für 'congenital airway anomalies' |
 | WM-DIS-1303 | Schrumpfniere, nicht näher bezeichnet | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit die Schrumpfniere (ICD-10-GM N26). Die Quellen behandeln andere Nierenerkrankungen (FMD, Angiomyolipom, Athero |
 | WM-DIS-1304 | Sterbefall während der Gestationsperiode nicht näher bezeichneter Ursache | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10 O95 definiert Sterbefälle unbekannter Ursache, während 'Müttersterblichkeit' (Maternal Mortality) alle Todesfälle während Schwangersc |
 | WM-DIS-1309 | Vorhauthypertrophie, Phimose und Paraphimose | disease | zu wenige Quellen mit Zusammenfassung (1) für 'phimosis paraphimosis' |
