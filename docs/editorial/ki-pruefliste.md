@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 07:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 17, planned 1505, published 1791, ready 18, redirect 394, review 2912.
+Stand: 02.11.2026 08:25. Warteschlange: duplicate 472, failed 1, merged 19, planned 1490, published 1807, ready 10, redirect 394, review 2918.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -487,6 +487,11 @@ Stand: 02.11.2026 07:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-1442 | Nichtvenerische Syphilis | disease | zu wenige Quellen mit Zusammenfassung (1) für 'endemic syphilis' |
 | WM-DIS-1445 | Nicht näher bezeichnete hämorrhagische Viruskrankheit | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM A99 ist ein Sammelbegriff für nicht näher bezeichnete hämorrhagische Viruskrankheiten. Der geplante Titel 'Hämorrhagische Fieber'  |
 | WM-DIS-1446 | Pocken | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel 'Pocken' entspricht ICD-10-GM B03. Quelle 1 behandelt Variola direkt. Quelle 3 behandelt Smallpox (Pocken). Quelle 5 behandelt Smallpox. Quel |
+| WM-DIS-1447 | Affenpocken | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Affensterben' ist irreführend, da er fälschlicherweise ein Massensterben von Tieren impliziert, während ICD-10-GM B04 di |
+| WM-DIS-1449 | Nicht näher bezeichnete Virusinfektion, die durch Haut- und Schleimhautläsionen gekennzeichnet ist | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel ist zu allgemein; ICD B09 ist eine Ausschlussdiagnose für spezifische Virusinfektionen, während 'Virusinfektionen mit Hautausschlag' k |
+| WM-DIS-1450 | Nicht näher bezeichnete Mykose | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (ICD-10-GM B49 ist ein Sammelbegriff für nicht näher bezeichnete Mykosen. Alle 16 Quellen behandeln spezifische Untergruppen (z. B. invasive, oberf |
+| WM-DIS-1452 | Drakunkulose | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel passt zur ICD-10-GM B72. Quelle 1, 3 und 5 behandeln explizit Guinea Worm Disease/Dracunculiasis. Quelle 2 ist biografisch, 4 ist unspezifisc |
+| WM-DIS-1455 | Trichuriasis | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Trichinose und Trichuriasis' ist irreführend, da Trichinose (Trichinellose) eine andere Erkrankung ist. Zudem sind 5 Quellen passend  |
 | WM-DIS-1482 | Sonstige und nicht näher bezeichnete Verletzungen des Unterarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S59 umfasst alle Verletzungen (z.B. Prellungen, Luxationen), nicht nur Frakturen. Der Titel 'Sonstige Verletzungen des Unterarms'  |
 | WM-DIS-1484 | Sonstige und nicht näher bezeichnete Verletzungen der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip and thigh injuries' |
 | WM-DIS-1485 | Sonstige und nicht näher bezeichnete Verletzungen des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
@@ -2948,5 +2953,6 @@ Stand: 02.11.2026 07:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 --- Validation Summary ---
 Files validated:    |
 | WM-DRUG-4479 | Omega-3-Säureethylester | drug | zu wenige Quellen mit Zusammenfassung (2) für 'omega-3 acid ethyl esters' |
+| WM-PAT-0103 | Kyphose und Lordose | patient | Bestätigungsquote 30/53 unter 60 % |
 | WM-PAT-0174 | Rezidivierende depressive Störung | patient | Truncated: stop_reason=max_tokens (claude-haiku-5-5) |
 | WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
