@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, planned 1744, published 1678, ready 14, redirect 391, review 2800.
+Stand: 02.11.2026 02:25. Warteschlange: claimed 1, duplicate 470, merged 13, planned 1717, published 1692, ready 17, redirect 391, review 2810.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -374,6 +374,7 @@ Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1010 | Viren als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind | disease | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch die ICD-10-GM B97-Kategorie (Viren als Ursache in anderen Kapiteln klassifizierter Krankheiten) als eigenst |
 | WM-DIS-1013 | Störungen des Geruchs- und Geschmackssinnes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Störungen des Geruchs- und Geschmackssinnes' umfasst auch den Geschmackssinn (ICD-10-GM R43), die Quellen behandeln jedo |
 | WM-DIS-1015 | Schmerz, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 R52 (Schmerz, anderenorts nicht klassifiziert) als primäres Diagnosekriterium oder Krankheitsbild; alle be |
+| WM-DIS-1027 | Folgezustände sonstiger und nicht näher bezeichneter infektiöser und parasitärer Krankheiten | disease | Themenprüfung: nur 0 von 13 Quellen passen zum Thema (Keine der Quellen behandelt Folgezustände allgemeiner infektiöser/parasitärer Krankheiten (ICD B94). Quellen zu COVID-19 (11, 2) sind spezifisch f |
 | WM-DIS-1030 | Parapsoriasis | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 8 behandelt explizit 'Parapsoriasis'. Quelle 5 erwähnt es nur im Kontext von MF/Lymphomatoid Papulose. Quellen 1,3,4,6,9 behandeln Mucha |
 | WM-DIS-1032 | Akute Tonsillitis | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel entspricht J03 (akute Tonsillitis). Passend sind nur die Quellen zur akuten Tonsillitis selbst: 2 (eitrige akute Tonsillitis, Xiyanping), |
 | WM-DIS-1033 | Akute Laryngitis und Tracheitis | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt die humane (stenosierende) Laryngotracheitis (Pseudokrupp), die unter J04 fällt, auch wenn sie nur einen Teilaspekt (Therapi |
@@ -384,6 +385,8 @@ Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1049 | Interstitielles Emphysem und verwandte Zustände mit Ursprung in der Perinatalperiode | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel passt zum ICD-Code. Nur Quelle 1 behandelt spezifisch interstitielles Emphysem bei Neugeborenen. Quelle 2 ist Pneumomediastinum, 3 ist allgem |
 | WM-DIS-1050 | Sonstiger Darmverschluss beim Neugeborenen | disease | zu wenige Quellen mit Zusammenfassung (3) für 'neonatal bowel obstruction' |
 | WM-DIS-1051 | Störungen des Muskeltonus beim Neugeborenen | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Titel entspricht ICD-10-GM P94. Quelle 3 und 5 behandeln explizit neonatale Hypotonie. Quelle 1, 2, 4 und 6 behandeln spezifische Syndrome (Xia-Gib |
+| WM-DIS-1056 | Frühsyphilis | disease | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 5 behandelt explizit 'Early Syphilis'. Quelle 6 ist eine allgemeine Übersicht. Die anderen Quellen behandeln Syphilis allgemein, Partner |
+| WM-DIS-1057 | Spätsyphilis | disease | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Titel passt zu ICD-10-GM A52. Quelle 2 behandelt explizit 'late syphilis'. Quelle 5 behandelt 'Tertiary Syphilis', was klinisch synonym zu Spätsyph |
 | WM-DIS-1066 | Hepatomegalie und Splenomegalie, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Der Titel entspricht R16 (Hepatomegalie und Splenomegalie als Symptom). Nur Quelle 10 behandelt Hepatosplenomegalie als Symptom bzw. diagnostische |
 | WM-DIS-1067 | Schmerzen beim Wasserlassen | disease | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel entspricht R30 (Schmerzen beim Wasserlassen, Dysurie). Nur Quelle 4 behandelt Dysurie direkt (Abklärung und Differenzialdiagnose). Quelle |
 | WM-DIS-1071 | Malaise und Fatigue | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (R53 meint Malaise und Fatigue als unspezifisches Symptom; der Titel „Fatigue und Malaise“ entspricht dem. Die Quellen behandeln jedoch jeweils spe |
@@ -398,6 +401,7 @@ Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1095 | Meningitis durch sonstige und nicht näher bezeichnete Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G03 umfasst Meningitis sonstiger/nicht näher bezeichneter Ursache (z. B. aseptisch, chronisch, rheumatoid). Bakterielle (G00), tuberkulöse,  |
 | WM-DIS-1096 | Myasthenia gravis und sonstige neuromuskuläre Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Fast alle Quellen behandeln Myasthenia gravis. Quelle 13 betrifft ICI-induzierte Myokarditis/Myositis-MG-Überlappung, also ein anderes Krank |
 | WM-DIS-1097 | Carcinoma in situ der Mundhöhle, des Ösophagus und des Magens | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM D00 umfasst Carcinoma in situ der Mundhöhle, des Ösophagus und des Magens. Der Suchbegriff 'oral squamous cell carcinoma' bezieht  |
+| WM-DIS-1100 | Diphtherie | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Nur Quelle 15 behandelt die klinische Diagnose und das Management der Diphtherie. Die anderen 15 Quellen befassen sich ausschließlich mit Impfstof |
 | WM-DIS-1112 | Lungenblutung mit Ursprung in der Perinatalperiode | disease | zu wenige Quellen mit Zusammenfassung (1) für 'neonatal pulmonary hemorrhage' |
 | WM-DIS-1113 | Chronische Atemwegskrankheit mit Ursprung in der Perinatalperiode | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Chronische Atemwegserkrankung' ist ein zu allgemeiner Oberbegriff und lässt den spezifischen Schweregrad und die Untergr |
 | WM-DIS-1122 | Akute obstruktive Laryngitis Krupp und Epiglottitis | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Krupp und Epiglottitis“ entspricht der Klassifikation J05. Quellen 2 und 4 behandeln Krupp (Adrenalin bzw. Kortikoide) und passen. Quell |
@@ -417,6 +421,7 @@ Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1161 | Kwashiorkor-Marasmus | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (E42 bezeichnet speziell die Mischform Kwashiorkor-Marasmus, eine schwere Protein-Energie-Mangelernährung, überwiegend bei Kindern. Der Titel |
 | WM-DIS-1167 | Alimentärer Kalziummangel | disease | zu wenige Quellen mit Zusammenfassung (3) für 'dietary calcium deficiency' |
 | WM-DIS-1170 | Lokalisierte Adipositas | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Lokalisierte Adipositas“ entspricht der Klassifikation E65. Keine der Quellen behandelt aber die lokalisierte Fettansammlung (z. B. Reit |
+| WM-DIS-1173 | Sonstige Leukämien näher bezeichneten Zelltyps | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM C94 umfasst spezifische, näher bezeichnete Zelltypen (z.B. chronische myeloische Leukämie, chronische lymphatische Leukämie, HCL,  |
 | WM-DIS-1199 | Verletzung von Muskeln und Sehnen in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cervical strain' |
 | WM-DIS-1200 | Traumatische Amputation in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical amputation' |
 | WM-DIS-1201 | Zerquetschung der Schulter und des Oberarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'shoulder contusion' |
@@ -1874,6 +1879,7 @@ Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-2262 | Eluxadolin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Eluxadolin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC A07DA06). Nur Quelle 6 behandelt Eluxadolin direkt. Quelle 3 unte |
 | WM-DRUG-2263 | Prednison | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation A07EA03 bezeichnet Prednison zur lokalen Anwendung bei Darmerkrankungen (intestinale Antiphlogistika, Kortikosteroide |
 | WM-DRUG-2264 | Tixocortol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tixocortol' |
+| WM-DRUG-2265 | Beclometason | drug | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (Nur drei Quellen behandeln Beclometason explizit (2, 8, 10); die übrigen betreffen allgemeine Steroid- oder andere Triple-Therapien. Der Titel bez |
 | WM-DRUG-2266 | Cromoglicinsäure | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Titel 'Cromoglicinsäure' entspricht dem Wirkstoff Cromoglicat (ATC A07EB01, oral bei Mastzellerkrankungen/Nahrungsmittelallergie). Nur Quelle 5 (W |
 | WM-DRUG-2267 | Sulfasalazin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Sulfasalazin“ entspricht dem Wirkstoff der Klassifikation (ATC A07EC01). Nur die Quellen 1 und 2 behandeln Sulfasalazin direkt (Hypersen |
 | WM-DRUG-2269 | Olsalazin | drug | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Das Thema ist der Wirkstoff Olsalazin, ein 5-ASA-Prodrug. Nur Quelle 15 behandelt 5-Aminosalicylate bei Colitis ulcerosa und damit die Wirkstoffkl |
@@ -2055,6 +2061,7 @@ Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-2499 | Cloricromen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Cloricromen' |
 | WM-DRUG-2500 | Ticlopidin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Ticlopidin“ entspricht dem Wirkstoff der Klassifikation (ATC B01AC05). Keine der Quellen behandelt aber Ticlopidin. Sie befassen sich mi |
 | WM-DRUG-2502 | Carbasalat calcium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Carbasalate calcium' |
+| WM-DRUG-2503 | Epoprostenol | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Der Titel 'Epoprostenol' entspricht dem Wirkstoff (ATC B01AC09). Nur die Quellen 8 und 11 behandeln intravenöse Prostacyclin-Analoga (wozu Epopros |
 | WM-DRUG-2505 | Sulfinpyrazon | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Sulfinpyrazone' |
 | WM-DRUG-2506 | Abciximab | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Abciximab“ entspricht dem Wirkstoff der Klassifikation (ATC B01AC13). Quelle 2 (Meta-Analyse zu Abciximab bei STEMI) und Quelle 5 (verzö |
 | WM-DRUG-2507 | Aloxiprin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Aloxiprin' |
@@ -2605,6 +2612,7 @@ Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-3281 | Spagluminsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'spaglumic acid' |
 | WM-DRUG-3282 | Nedocromil | drug | zu wenige Quellen mit Zusammenfassung (3) für 'nedocromil' |
 | WM-DRUG-3283 | Flunisolid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'flunisolide' |
+| WM-DRUG-3284 | Ciclesonid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ciclesonide asthma' |
 | WM-DRUG-3285 | Luffa operculata | drug | zu wenige Quellen mit Zusammenfassung (2) für 'sponge gourd' |
 | WM-DRUG-3286 | Niauliöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Niauliöl (ATC R01AP03) ist ein Nasenspray zur Behandlung der Rhinitis. Die Quellen behandeln Akne, Kosmetik, Neuroprotektion oder allgemeine |
 | WM-DRUG-3287 | Calciumhexaminthiocyanat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Calcium hexammine thiocyanate' |
@@ -2641,6 +2649,7 @@ Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-3323 | Reproterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Reproterol; alle beziehen sich auf die allgemeine Klasse der Beta-2-Agonisten oder andere Substanzen.) |
 | WM-DRUG-3324 | Procaterol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Procaterol' |
 | WM-DRUG-3325 | Bitolterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bitolterol' |
+| WM-DRUG-3326 | Olodaterol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'ultra-LABA' |
 | WM-DRUG-3327 | Oxitropiumbromid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxitropium' |
 | WM-DRUG-3331 | Revefenacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Revefenacin (R03BB08) oder dessen Indikation COPD/Asthma. Alle Quellen befassen sich mit andere |
 | WM-DRUG-3332 | Fenspirid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fenspiride' |
@@ -2837,3 +2846,4 @@ Stand: 02.11.2026 01:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 
 --- Validation Summary ---
 Files validated:    |
+| WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
