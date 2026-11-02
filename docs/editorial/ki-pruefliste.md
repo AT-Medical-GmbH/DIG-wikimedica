@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 04:25. Warteschlange: duplicate 470, merged 14, planned 1635, published 1727, ready 20, redirect 394, review 2851.
+Stand: 02.11.2026 05:25. Warteschlange: claimed 1, duplicate 470, merged 15, planned 1589, published 1746, ready 15, redirect 394, review 2881.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -2830,10 +2830,28 @@ Stand: 02.11.2026 04:25. Warteschlange: duplicate 470, merged 14, planned 1635, 
 | WM-DRUG-3515 | Dinoproston | drug | Bestätigungsquote 28/54 unter 60 % |
 | WM-DRUG-3516 | Gemeprost | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Gemeprost (ATC G02AD03) ist ein Prostaglandin E1-Analogon zur Induktion von Wehen oder Abort. Die Quellen behandeln Alprostadil (PGE1) bei H |
 | WM-DRUG-3517 | Carboprost | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Carboprost tromethamine' |
+| WM-DRUG-3519 | Plastik-IUP | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Plastik-IUP' (ATC G02BA01) ist ein Gynäkologikum (Uterotonikum/Oxytocikum). 'Polylactic acid' ist ein Biomaterial/Kunststoff. |
+| WM-DRUG-3520 | Nonoxinol 9 | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quelle 1 behandelt N-9 direkt. Quelle 2 behandelt N-9 als Topical Microbicide. Quelle 4 behandelt vaginale nicht-hormonelle Kontrazeptiva, wozu N-9 |
+| WM-DRUG-3521 | Ritodrin | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quelle 2 und 5 behandeln explizit Ritodrin. Quelle 1, 3, 4, 6 und 7 behandeln entweder andere Tocolytika, allgemeine Mechanismen oder Schwanger |
 | WM-DRUG-3522 | Fenoterol | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Fenoterol' bezeichnet denselben Wirkstoff wie ATC G02CA03. Keine der Quellen behandelt Fenoterol als Thema. Quelle 1 betrifft SABA-Monot |
 | WM-DRUG-3524 | Lisurid | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Lisurid direkt (5-HT2A-Agonismus, nicht-halluzinogen). Die übrigen Quellen betreffen Wochenbett, Schlafstörungen bei Stimula |
+| WM-DRUG-3525 | Cabergolin | drug | zu viele nur teilweise belegte Sätze (18/30) |
+| WM-DRUG-3526 | Quinagolid | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 2 und 5 behandeln explizit Quinagolid oder Dopaminagonisten zur Behandlung von Hyperprolaktinämie, der Indikation für Quinagolid. Quell |
+| WM-DRUG-3527 | Metergolin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'metergoline' |
+| WM-DRUG-3528 | Tergurid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Tergurid ist ein spezifisches Ergot-Derivat zur Migräneprophylaxe. Die Quellen behandeln allgemein Migräne oder andere Indikationen (Parkins |
 | WM-DRUG-3529 | Naproxen | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Der Wirkstoff Naproxen (G02CC02 = Antiphlogistika zur topischen/vaginalen Anwendung, Naproxen als Wirkstoff) passt zum Titel. Direkt zu Naproxen b |
 | WM-DRUG-3530 | Flunoxaprofen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Flunoxaprofen' |
+| WM-DRUG-3531 | Mineralöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Mineralöl als Arzneimittel (ATC G02CD01) zur Behandlung von Indikationen wie Obstipation. Quellen 3, 5, |
+| WM-DRUG-3532 | Naturmoor | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Natural peatland' |
+| WM-DRUG-3536 | Hirtentäschelkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Hirtentäschelkraut als Arzneimittelwirkstoff für ATC G02CP02; Quelle 1 ist eine allgemeine Übersicht zur P |
+| WM-DRUG-3538 | Rhapontikrhabarberwurzel | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Rhapontic Rhubarb' |
+| WM-DRUG-3539 | Gänsefingerkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Gänsefingerkraut (ATC G02CP05). Die Quellen behandeln andere Themen wie Nierenerkrankungen, Migrän |
+| WM-DRUG-3540 | Sojabohnen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quellen behandeln Pflanzenphysiologie, Stressresistenz oder allgemeine Allergien, nicht den spezifischen pharmakologischen Wirkstoff Soj |
+| WM-DRUG-3541 | Schafgarbenkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf den Wirkstoff 'Schafgarbenkraut' (Achillea millefolium), nicht auf das ATC-Krankheitsbild (Uterotonika). Nur 3 Quelle |
+| WM-DRUG-3542 | Himbeerblätter | drug | zu wenige Quellen mit Zusammenfassung (3) für 'raspberry leaf' |
+| WM-DRUG-3543 | Flibanserin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quelle 1, 2, 4, 6 behandeln HSDD allgemein oder andere Therapien ohne Fokus auf Flibanserin. Quelle 3 und 5 nennen explizit Flibanserin im Kontext  |
+| WM-DRUG-3545 | Ovarialextrakt | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Ovarialextrakt' (ATC G02CX08) ist ein phytotherapeutisches Präparat aus Eibischwurzel und Zimtrinde zur Behandlung von Menstr |
+| WM-DRUG-3546 | Milzextrakt | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Spleen extract' |
 | WM-DRUG-3548 | Lynestrenol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Lynestrenol' |
 | WM-DRUG-3549 | Levonorgestrel | drug | Bestätigungsquote 25/42 unter 60 %; zu viele nur teilweise belegte Sätze (13/25) |
 | WM-DRUG-3550 | Quingestanol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Quingestanol' |
@@ -2871,6 +2889,18 @@ Stand: 02.11.2026 04:25. Warteschlange: duplicate 470, merged 14, planned 1635, 
 | WM-DRUG-3596 | Mifepriston | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/39 unter 60 % |
 | WM-DRUG-3597 | Lasofoxifen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Lasofoxifen. Quelle 10 behandelt SERMs allgemein, ist aber zu breit. Quelle 8 behandelt Raloxifen, ni |
 | WM-DRUG-3598 | Ormeloxifen | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quellen 1-3 behandeln direkt Ormeloxifen. Quelle 4 ist zu allgemein (nur Erwähnung). Quelle 5 betrifft Krebs/p53. Weniger als 4 passende Quellen.) |
+| WM-DRUG-3599 | L-Methionin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt L-Methionin als Arzneimittelwirkstoff (ATC G04BA04) zur Behandlung einer spezifischen Indikation. Quellen beziehen si |
+| WM-DRUG-3600 | Kalium-Natrium-Hydrogencitrat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandelt urolithiasis (Nierensteine), nicht den Wirkstoff Kalium-Natrium-Hydrogencitrat (ATC G04BC01, Indikation: Renale Tubuläre Azi |
+| WM-DRUG-3601 | Emepronium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Emepronium' |
+| WM-DRUG-3602 | Flavoxat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Flavoxat oder die exakte Indikation (z.B. urologische Spasmen) als Hauptthema; 'Antispasmodic' ist zu |
+| WM-DRUG-3604 | Terodilin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Terodilin; alle beziehen sich auf die Wirkstoffklasse Antimuscarinika allgemein oder andere Substanzen.) |
+| WM-DRUG-3608 | Desfesoterodin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Desfexoterodine' |
+| WM-DRUG-3609 | Imidafenacin | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 5 behandelt explizit Imidafenacin. Die anderen Quellen behandeln nur allgemeine OAB-Therapien oder andere Wirkstoffe (Mirabegron, Vibegr |
+| WM-DRUG-3612 | Udenafil | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Udenafil; alle behandeln PDE5-Hemmer allgemein oder andere Wirkstoffe (Lodenafil).) |
+| WM-DRUG-3613 | Bärentraubenblätter | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Uva ursi' |
+| WM-DRUG-3614 | Orthosiphonblätter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Orthosiphon stamineus als diuretischen Wirkstoff (ATC G04BP03) für Harnwegs- oder Nierenerkrankungen. Quel |
+| WM-DRUG-3615 | Lespedezakraut | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Lespedeza' |
+| WM-DRUG-3616 | Goldrutenkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Goldrutenkraut (Solidago virgaurea) als Arzneimittelwirkstoff bei Harnwegserkrankungen (ATC G04BP06). Quel |
 | WM-DRUG-3625 | Chondroitinsulfat | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel bezeichnet denselben Wirkstoff. Nur Quellen 1, 2 und 6 behandeln Chondroitinsulfat als Substanz bzw. Wirkstoff; 3 und 4 betreffen das Proteog |
 | WM-DRUG-3730 | Promethazin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation D04AA10 bezeichnet Promethazin zur topischen Anwendung (Antipruriginosum). Der geplante Titel „Promethazin“ ist als W |
 | WM-DRUG-3743 | Doxepin | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 5 behandelt Doxepin direkt (dermatologische Anwendung, Spiegelbestimmung, Genotypisierung). Quelle 1 (Sialorrhoe unter Antipsychotika),  |
