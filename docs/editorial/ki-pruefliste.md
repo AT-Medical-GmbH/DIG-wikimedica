@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 11:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 23, planned 1261, published 1838, ready 13, redirect 394, review 3108.
+Stand: 02.11.2026 12:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 23, planned 1191, published 1851, ready 21, redirect 394, review 3157.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3133,7 +3133,56 @@ Stand: 02.11.2026 11:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DRUG-3868 | Basisches Bismutgallat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bismuth subgallate' |
 | WM-DRUG-3870 | Terpentin-Derivate | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt 'Terpentin-Derivate' (ATC D08AX20, Desinfektionsmittel). Der Suchbegriff 'Terbinafine' (ATC D01AE02, Antimyko |
 | WM-DRUG-3871 | Phenylquecksilbernitrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenylmercuric nitrate' |
+| WM-DRUG-3872 | Benzododecinium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Benzododecinium (D09AA05) ist ein spezifischer Wirkstoff aus der Gruppe der quartären Ammoniumverbindungen, der sich chemisch und pharmakolo |
+| WM-DRUG-3873 | Aluminiumchloridhydroxid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Aluminiumchloridhydroxid (ATC D09AA08) als Wirkstoff in der Dermatologie; Quellen behandeln allgemeine Alu |
+| WM-DRUG-3874 | Iodoform | drug | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Quellen 4, 8 und 10 behandeln explizit Iodoform. Quelle 11 ist zu allgemein (Wundantiseptika). Die anderen Quellen behandeln andere Materialien od |
+| WM-DRUG-3875 | Zink-haltige Verbände ohne Zusätze | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Zink-haltige Verbände (ATC D09AB01) zur Wundversorgung. Alle Quellen befassen sich mit Nanopartikeln, Toxizität, Umwe |
+| WM-DRUG-3876 | Bithionol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bithionol' |
+| WM-DRUG-3877 | Schwefel | drug | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Quelle 10 behandelt Schwefel in der Dermatologie (passend zu ATC D10AB02). Quelle 11 behandelt Krätze, die mit Schwefel behandelt wird; der Titel  |
+| WM-DRUG-3878 | Tioxolon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tiocyclam' |
+| WM-DRUG-3881 | Retinol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Retinol (ATC D10AD02) als primäres Thema; Quellen behandeln RBP4, Transthyretin, Retinsäure- |
+| WM-DRUG-3882 | Adapalen | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 2 und 6 behandeln explizit den Wirkstoff Adapalen. Quelle 1 behandelt Adapalen, aber im Kontext von Krebs (falsches Indikationsgebiet). |
+| WM-DRUG-3884 | Motretinid | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Quelle 1 behandelt direkt Bexarotene bei MF. Quelle 2 behandelt Bexarotene (neurologisch, aber Wirkstoff ist korrekt). Quelle 5 behandelt MF/Sézary |
+| WM-DRUG-3889 | Nadifloxacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Nadifloxacin spezifisch; Quelle 2 behandelt Levonadifloxacin, Quelle 3 ist allgemein zu Fluorchinolonen bei Keratitis |
+| WM-DRUG-3890 | Sulfacetamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Sulfacetamid oder dessen direkte klinische Anwendung. Die Titel sind zu allgemein (z.B. |
+| WM-DRUG-3891 | Resorcin | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln Resorcinol in dermatologischer/klinischer Anwendung. Quelle 3, 4 und 6 befassen sich mit Materialwissenschaft/Sensorik |
+| WM-DRUG-3893 | Aluminiumoxid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Aluminiumoxid als Arzneimittelwirkstoff (ATC D10AX04) zur Behandlung von Magen-Darm-Erkrankungen. Quelle 3 |
+| WM-DRUG-3895 | Polydimethylsiliconharz | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Polydimethylsiliconharz (Dimethicone) als Wirkstoff im Kontext von ATC D10AX07. Quelle 1 behandelt ga |
+| WM-DRUG-3896 | Natriumtetraborat | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 2 und 6 behandeln Borax/Borate im biomedizinischen/toxikologischen Kontext. Quelle 3 ist umweltbezogen, 4 und 7 materialwissenschaftlich |
+| WM-DRUG-3898 | Natriumbituminosulfonat | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt den Wirkstoff Natriumbituminosulfonat (ATC D10BX01) oder dessen spezifische dermatologische Indikation. Die Quellen bef |
+| WM-DRUG-3900 | Sofpironiumbromid | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 2 und 3 behandeln explizit Sofpironiumbromid bei Hyperhidrose. Quelle 1 ist zu allgemein (Topische Anticholinergika), Quelle 4 und 6 sind a |
+| WM-DRUG-3905 | Erdnussöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Erdnussöl (ATC D11AB06) als Arzneimittel oder spezifische Indikation; Quellen behandeln Lebensmittel, A |
+| WM-DRUG-3906 | Cadmium-haltige Verbindungen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Cadmium-haltige Verbindungen' ist irreführend/falsch für ATC D11AC02 (Zink). Nur Quelle 3 behandelt Cadmium-Exposition direkt. Quelle |
+| WM-DRUG-3907 | Selen-haltige Verbindungen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den ATC-Wirkstoff D11AC03 (Selen-haltige Verbindungen für Dermatologie/Haut). Quellen zu Schilddrüse, Kreb |
+| WM-DRUG-3908 | Schwefel-haltige Verbindungen | drug | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Nur Quelle 10 behandelt dermatologische Anwendungen von Schwefelverbindungen (ATC D11AC08). Quelle 15 betrifft Schwefel-Lost (chemische Waffe), ni |
+| WM-DRUG-3909 | Xenysalat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle behandelt den Wirkstoff 'Xenysalat' (ATC D11AC09), der in der ATC-Klassifikation als 'Lactucarium' (Lattich) geführt wird. Die Su |
+| WM-DRUG-3911 | Panthenol | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quellen 3 und 4 behandeln explizit Dexpanthenol. Quelle 1 (Windeldermatitis) ist ein Indikationsgebiet, aber der Titel nennt den Wirkstoff nicht; Q |
+| WM-DRUG-3912 | Kaliumhydroxid | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Nur Quelle 5 behandelt explizit Kaliumhydroxid (Potassium hydroxide) als Wirkstoff. Quelle 1, 2 und 4 behandeln Molluscum contagiosum, aber nicht  |
+| WM-DRUG-3913 | Fluorouracil | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf ATC D11AF05 (Hautarzneimittel), Quellen behandeln Onkologie (Darm/Pankreas) oder Dermatologie (Nicht-Schilddrüsen-Hau |
+| WM-DRUG-3914 | Chloressigsäure | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Chloroacetic acid' |
+| WM-DRUG-3915 | Ameisensäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln die chemische Synthese, Katalyse oder physikalische Eigenschaften von Ameisensäure als chemische Verbindung, nicht de |
+| WM-DRUG-3917 | Alitretinoin | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Nur Quellen 3 und 4 behandeln explizit Alitretinoin. Quelle 1 behandelt Kaposi-Sarkom (andere Indikation), Quelle 2 ist allgemein zu Handekzemen oh |
+| WM-DRUG-3920 | Gamolensäure | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Quellen 2, 4 und 6 behandeln direkt Gamma-Linolensäure (GLA) oder Evening Primrose Oil (reich an GLA) bei spezifischen Indikationen. Quelle 1 erwäh |
+| WM-DRUG-3921 | Lithiumsuccinat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 3 Quellen behandeln Lithium als Arzneimittel. Quelle 1 behandelt Demenz, 4/7 Batterietechnik, 5/8 Umwelt/Mikroben, 6/10 Mechanismen ohne |
+| WM-DRUG-3922 | Mequinol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Mequinol' |
 | WM-DRUG-3923 | Oxaceprol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Oxaceprol' |
+| WM-DRUG-3926 | Monobenzon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Monobenzone' |
+| WM-DRUG-3930 | Kaliumaminobenzoat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Potassium para-aminobenzoate' |
+| WM-DRUG-3931 | 7-Desoxycholsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für '7-deoxycholic acid' |
+| WM-DRUG-3932 | Oxymetazolin | drug | zu viele nur teilweise belegte Sätze (13/32) |
+| WM-DRUG-3934 | Bittersüßstängel | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Solanum dulcamara' |
+| WM-DRUG-3935 | Hefe | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den therapeutischen Einsatz von Saccharomyces cerevisiae (ATC D11AX33) beim Menschen. Alle Quellen beziehen sich auf  |
+| WM-DRUG-3937 | Dihydrostreptomycin | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Der Titel „Dihydrostreptomycin“ entspricht dem Wirkstoff der Klassifikation (ATC S01AA15). Keine der Quellen behandelt jedoch Dihydrostreptomycin.  |
+| WM-DRUG-3938 | Micronomicin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf den Wirkstoff Micronomicin (ATC S01AA22), der Gentamicin entspricht. Die Quellen 1, 2, 4, 5 und 8 behand |
+| WM-DRUG-3939 | Azidamfenicol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'azidamfenicol' |
+| WM-DRUG-3940 | Sulfadicramid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfadicramide' |
+| WM-DRUG-3941 | Sulfisoxazol | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 6 behandelt Sulfonamide (inkl. Sulfisoxazol) spezifisch. Quelle 2 behandelt Sulfamethoxazol (ein anderes Sulfonamid). Quellen 1, 3, 4, 5 |
+| WM-DRUG-3942 | Trifluridin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel bezieht sich auf den Wirkstoff Trifluridin (bzw. Trifluridin/Tipiracil), aber die Quellen behandeln überwiegend metastasiertes kolorek |
+| WM-DRUG-3943 | Interferon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC S01AD05 ist ein spezifischer Wirkstoffcode (Interferon alfa-2b, topisch). Nur Quelle 4 behandelt die therapeutische Anwendung von Interf |
+| WM-DRUG-3944 | Fomivirsen | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quelle 1 behandelt CMV-Retinitis (Indikation von Fomivirsen). Quelle 3 nennt Fomivirsen explizit im Titel. Quelle 2, 5 und 6 behandeln Antisense-Ol |
+| WM-DRUG-3945 | Besifloxacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Besifloxacin oder die spezifische Indikation (bakterielle Konjunktivitis). Quelle 12 behandelt Ver |
+| WM-DRUG-3946 | Quecksilber-haltige Verbindungen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Quecksilber-haltige Verbindungen' ist kein Krankheitsbild, sondern ein Wirkstoff. Quellen behandeln Toxizität, Umweltzyklus oder Zahn |
+| WM-DRUG-3947 | Zink-haltige Verbindungen | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Nur Quellen 1 und 3 behandeln explizit Zinkverbindungen (Zinc compounds) im Kontext von Erkrankungen (orale Mukosapathologien bzw. orale Gesundhei |
 | WM-DRUG-4254 | Methacholin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt Methacholin bzw. die Methacholin-Provokation direkt. Quelle 1 (Oszillometrie bei Asthma) und Quelle 2 (Screening bei arbeits |
 | WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
 
