@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 03:25. Warteschlange: claimed 1, duplicate 470, merged 13, planned 1689, published 1709, ready 20, redirect 391, review 2818.
+Stand: 02.11.2026 04:25. Warteschlange: duplicate 470, merged 14, planned 1635, published 1727, ready 20, redirect 394, review 2851.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -137,6 +137,7 @@ Stand: 02.11.2026 03:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-0566 | Fraktur des Fußes ausgenommen oberes Sprunggelenk | disease | Bestätigungsquote 24/45 unter 60 % |
 | WM-DIS-0567 | Organisches amnestisches Syndrom, nicht durch Alkohol oder andere psychotrope Substanzen bedingt | disease | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Der Titel „Organisches amnestisches Syndrom“ entspricht F04. Passend sind Quellen zum akuten bzw. subakuten amnestischen Syndrom bei fornikalen Lä |
 | WM-DIS-0568 | Nicht näher bezeichnete organische oder symptomatische psychische Störung | disease | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel entspricht der ICD-10-GM-Bezeichnung von F09. Keine der Quellen behandelt die unspezifische organische bzw. symptomatische psychische Stö |
+| WM-DIS-0569 | Psychologische Faktoren oder Verhaltensfaktoren bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Psychische und Verhaltensstörungen' bezeichnet die Kategorie F00-F99 der ICD-10, während F54 'Psychologische Faktoren... |
 | WM-DIS-0570 | Nicht näher bezeichnete Verhaltensauffälligkeiten bei körperlichen Störungen und Faktoren | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (F59 umfasst nicht näher bezeichnete Verhaltensauffälligkeiten (psychophysiologische Störungen) bei körperlichen Störungen. Der Titel „Verhaltensauf |
 | WM-DIS-0571 | Kombinierte und andere Persönlichkeitsstörungen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'mixed personality disorder' |
 | WM-DIS-0573 | Kombinierte umschriebene Entwicklungsstörungen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'comorbid developmental disorders' |
@@ -428,6 +429,7 @@ Stand: 02.11.2026 03:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1167 | Alimentärer Kalziummangel | disease | zu wenige Quellen mit Zusammenfassung (3) für 'dietary calcium deficiency' |
 | WM-DIS-1170 | Lokalisierte Adipositas | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Lokalisierte Adipositas“ entspricht der Klassifikation E65. Keine der Quellen behandelt aber die lokalisierte Fettansammlung (z. B. Reit |
 | WM-DIS-1173 | Sonstige Leukämien näher bezeichneten Zelltyps | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM C94 umfasst spezifische, näher bezeichnete Zelltypen (z.B. chronische myeloische Leukämie, chronische lymphatische Leukämie, HCL,  |
+| WM-DIS-1185 | Erysipeloid | disease | zu wenige Quellen mit Zusammenfassung (2) für 'erysipeloid' |
 | WM-DIS-1199 | Verletzung von Muskeln und Sehnen in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (2) für 'cervical strain' |
 | WM-DIS-1200 | Traumatische Amputation in Halshöhe | disease | zu wenige Quellen mit Zusammenfassung (1) für 'cervical amputation' |
 | WM-DIS-1201 | Zerquetschung der Schulter und des Oberarmes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'shoulder contusion' |
@@ -463,6 +465,12 @@ Stand: 02.11.2026 03:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DIS-1367 | Nicht näher bezeichnete Knoten in der Mamma Brustdrüse | disease | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Titel passt zur ICD-10-GM N63. Nur 3 Quellen behandeln explizit 'breast lump' als primäres oder relevantes Symptom/Krankheitsbild in diesem Kontex |
 | WM-DIS-1376 | Hühneraugen und Horn- (Haut-) Schwielen | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Hühneraugen (Corns/Plantar Keratoses). Quelle 2, 3 und 5 sind zu allgemein oder irrelevant. Quelle 4 ist zahnmedizi |
 | WM-DIS-1390 | Folgen von Komplikationen während Schwangerschaft, Geburt und Wochenbett | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (O94 bezeichnet ausschließlich die Folgen (Spätfolgen, Sequelae) von Komplikationen in Schwangerschaft, Geburt und Wochenbett. Der geplante T |
+| WM-DIS-1393 | Omphalitis beim Neugeborenen mit oder ohne leichte Blutung | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neonatal omphalitis' |
+| WM-DIS-1394 | Hämorrhagische Krankheit beim Fetus und Neugeborenen | disease | Bestätigungsquote 26/44 unter 60 % |
+| WM-DIS-1395 | Disseminierte intravasale Gerinnung beim Fetus und Neugeborenen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'neonatal disseminated intravascular coagulation' |
+| WM-DIS-1398 | Krämpfe beim Neugeborenen | disease | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/38 unter 60 % |
+| WM-DIS-1399 | Reaktionen und Intoxikationen durch Arzneimittel oder Drogen, die dem Fetus und Neugeborenen verabreicht wurden | disease | zu wenige Quellen mit Zusammenfassung (0) für 'fetal drug toxicity' |
+| WM-DIS-1408 | Schäden durch sonstige äußere Ursachen | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel entspricht ICD-10-GM T75. Quellen 1 (Urotrauma), 2 (Kopfverletzung) und 8 (TBI) behandeln spezifische externe Verletzungen. Quelle 3 behandel |
 | WM-DIS-1411 | Folgen entzündlicher Krankheiten des Zentralnervensystems | disease | zu wenige Quellen mit Zusammenfassung (1) für 'neuroinflammatory sequelae' |
 | WM-DIS-1412 | Sonstige Krankheiten des peripheren Nervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G64 meint 'Sonstige Krankheiten des peripheren Nervensystems' (nicht näher bezeichnete/sonstige Neuropathien; spezifische Ursachen wie diabe |
 | WM-DIS-1413 | Sonstige Krankheiten des Nervensystems, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G98 ist eine Restkategorie für spezifische, anderenorts nicht klassifizierte Nervensystemerkrankungen. Der Titel „Sonstige neurologische Erk |
@@ -2796,7 +2804,32 @@ Stand: 02.11.2026 03:25. Warteschlange: claimed 1, duplicate 470, merged 13, pla
 | WM-DRUG-3484 | Almitrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 2 behandelt explizit Almitrin. Quelle 1, 3, 5 behandeln Atemstimulanzien/V/Q-Mismatch allgemein. Quelle 4, 6, 7 behandeln andere  |
 | WM-DRUG-3485 | Dimeflin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dimefline' |
 | WM-DRUG-3486 | Mepixanox | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Mepixanox' |
+| WM-DRUG-3491 | Candicidin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Candidacidal' |
+| WM-DRUG-3492 | Carfecillin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Carfecillin/Carbenicillin; sie behandeln allgemeine Antibiotikaresistenzen oder andere Erreger.) |
+| WM-DRUG-3493 | Pentamycin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Pentamycin' |
+| WM-DRUG-3494 | Diiodhydroxychinolin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'diiodohydroxyquinoline' |
+| WM-DRUG-3495 | Essigsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC G01AD02 bezeichnet Essigsäure als antimikrobielles Mittel zur lokalen Anwendung (z.B. bei Vaginalinfektionen). Die gefundenen Quellen be |
+| WM-DRUG-3496 | Ascorbinsäure | drug | Titel bereits vorhanden (ascorbinsaeure-vitamin-c) |
+| WM-DRUG-3497 | Sulfatolamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt ausschließlich den Wirkstoff Sulfamethoxazol (ATC G01AE01) als primäres Thema. Alle Quellen beziehen sich auf Kombina |
+| WM-DRUG-3499 | Azanidazol | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Nur Quelle 8 behandelt Metronidazol (ein Nitroimidazol) explizit. Quelle 3 und 9 sind zu allgemein (Synthese/Allgemeine Aktivität) oder nicht klin |
+| WM-DRUG-3500 | Propenidazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Propenidazol ist ein spezifisches Benzoxazol-Derivat (ATC G01AF14). Der Suchbegriff 'oxadiazole' bezieht sich auf eine andere chemische Stru |
+| WM-DRUG-3501 | Butoconazol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Butoconazole' |
 | WM-DRUG-3502 | Tinidazol | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Der Titel 'Tinidazol' entspricht dem Wirkstoff der Klassifikation (ATC G01AF21). Nur Quelle 2 (Tinidazol vs. Metronidazol bei bakterieller Vaginos |
+| WM-DRUG-3503 | Terconazol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Terconazole' |
+| WM-DRUG-3504 | Clodantoin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Clodantoin' |
+| WM-DRUG-3505 | Nifuratel | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nifuratel' |
+| WM-DRUG-3506 | Protiofat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Protiofat' |
+| WM-DRUG-3507 | Lactobacillus | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/43 unter 60 % |
+| WM-DRUG-3508 | Kupferusnat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 2 Quellen passen (Vergiftung durch Kupfersulfat). Titel 'Kupferusnat' (Copper Ulnate) ist ein spezifischer Wirkstoff (ATC G01AX15), währ |
+| WM-DRUG-3509 | Dapivirin | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Nur Quellen 1 und 5 behandeln explizit den Dapivirin-Vaginalring. Quelle 2, 3 und 4 sind zu allgemein (allgemeine PrEP-Übersichten). Quelle 6 behan |
+| WM-DRUG-3510 | Monalazon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf 'Monalazon' (ATC G01AX26, ein Antimykotikum), während die Quellen 'Molnupiravir' (ein Antivirale gegen S |
+| WM-DRUG-3511 | Methylergometrin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'methylergometrine' |
+| WM-DRUG-3512 | Mutterkorn-Alkaloide | drug | Themenprüfung: nur 3 von 14 Quellen passen zum Thema (Quellen 2, 4 und 12 behandeln spezifisch die klinische Anwendung von Mutterkornalkaloiden (Ergotamine/Ergometrin) bei Migräne und Postpartum-Blutu |
+| WM-DRUG-3513 | Ergometrin | drug | Bestätigungsquote 16/39 unter 60 % |
+| WM-DRUG-3514 | Dinoprost | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Quellen 5 und 8 behandeln direkt Prostaglandin F2α (Wirkstoffklasse von Dinoprost) in klinischen Kontexten. Quelle 1 ist zu allgemein (Estrogene).  |
+| WM-DRUG-3515 | Dinoproston | drug | Bestätigungsquote 28/54 unter 60 % |
+| WM-DRUG-3516 | Gemeprost | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Gemeprost (ATC G02AD03) ist ein Prostaglandin E1-Analogon zur Induktion von Wehen oder Abort. Die Quellen behandeln Alprostadil (PGE1) bei H |
+| WM-DRUG-3517 | Carboprost | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Carboprost tromethamine' |
 | WM-DRUG-3522 | Fenoterol | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Fenoterol' bezeichnet denselben Wirkstoff wie ATC G02CA03. Keine der Quellen behandelt Fenoterol als Thema. Quelle 1 betrifft SABA-Monot |
 | WM-DRUG-3524 | Lisurid | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Lisurid direkt (5-HT2A-Agonismus, nicht-halluzinogen). Die übrigen Quellen betreffen Wochenbett, Schlafstörungen bei Stimula |
 | WM-DRUG-3529 | Naproxen | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Der Wirkstoff Naproxen (G02CC02 = Antiphlogistika zur topischen/vaginalen Anwendung, Naproxen als Wirkstoff) passt zum Titel. Direkt zu Naproxen b |
