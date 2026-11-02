@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 12:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 23, planned 1191, published 1851, ready 21, redirect 394, review 3157.
+Stand: 02.11.2026 13:25. Warteschlange: claimed 1, duplicate 472, failed 1, merged 23, planned 1110, published 1872, ready 16, redirect 394, review 3222.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -453,6 +453,7 @@ Stand: 02.11.2026 12:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DIS-1303 | Schrumpfniere, nicht näher bezeichnet | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt explizit die Schrumpfniere (ICD-10-GM N26). Die Quellen behandeln andere Nierenerkrankungen (FMD, Angiomyolipom, Athero |
 | WM-DIS-1304 | Sterbefall während der Gestationsperiode nicht näher bezeichneter Ursache | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10 O95 definiert Sterbefälle unbekannter Ursache, während 'Müttersterblichkeit' (Maternal Mortality) alle Todesfälle während Schwangersc |
 | WM-DIS-1309 | Vorhauthypertrophie, Phimose und Paraphimose | disease | zu wenige Quellen mit Zusammenfassung (1) für 'phimosis paraphimosis' |
+| WM-DIS-1316 | Sonstige endokrine Störungen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Sonstige endokrine Störungen' (ICD-10-GM E34) ist ein Oberbegriff für verschiedene endokrine Erkrankungen. Der Suchbegri |
 | WM-DIS-1326 | Gutartige Neubildung des Ovars | disease | zu wenige Quellen mit Zusammenfassung (2) für 'benign ovarian neoplasm' |
 | WM-DIS-1327 | Gutartige Neubildung der Schilddrüse | disease | zu wenige Quellen mit Zusammenfassung (0) für 'benign thyroid tumor' |
 | WM-DIS-1332 | Übelkeit und Erbrechen | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (ICD-10-GM R11 umfasst unspezifische Übelkeit und Erbrechen als Symptom. Nur Quelle 1 behandelt chronische Übelkeit und Erbrechen allgemein, also d |
@@ -3183,6 +3184,70 @@ Stand: 02.11.2026 12:25. Warteschlange: claimed 1, duplicate 472, failed 1, merg
 | WM-DRUG-3945 | Besifloxacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Besifloxacin oder die spezifische Indikation (bakterielle Konjunktivitis). Quelle 12 behandelt Ver |
 | WM-DRUG-3946 | Quecksilber-haltige Verbindungen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Quecksilber-haltige Verbindungen' ist kein Krankheitsbild, sondern ein Wirkstoff. Quellen behandeln Toxizität, Umweltzyklus oder Zahn |
 | WM-DRUG-3947 | Zink-haltige Verbindungen | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Nur Quellen 1 und 3 behandeln explizit Zinkverbindungen (Zinc compounds) im Kontext von Erkrankungen (orale Mukosapathologien bzw. orale Gesundhei |
+| WM-DRUG-3948 | Bibrocathol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Bibrocathol oder die spezifische Indikation (z.B. bakterielle Konjunktivitis). Quelle 11 behandelt |
+| WM-DRUG-3949 | Natriumborat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Sodium tetraborate' |
+| WM-DRUG-3950 | Natriumpropionat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Propionic acid' bezieht sich auf die Propionsäure, nicht auf den Wirkstoff Natriumpropionat (ATC S01AX10). Keine der Quelle |
+| WM-DRUG-3951 | Picloxydin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Picloxydin ist ein Antiseptikum für die Augen (ATC S01AX16). Die Quellen behandeln Wunden, Endodontie oder allgemeine chirurgische/ophthalmo |
+| WM-DRUG-3953 | Hydroxymethylchinolinium-methylsalicylat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff Hydroxymethylchinolinium-methylsalicylat (ATC S01AX31) oder dessen Anwendung in der Augenh |
+| WM-DRUG-3954 | Medryson | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Medryson (ATC S01BA08) ist ein topischer Corticosteroid-Wirkstoff für die Augen (Ophthalmologie). Alle 15 Quellen behandeln systemische, int |
+| WM-DRUG-3955 | Formocortal | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Formocortol' |
+| WM-DRUG-3957 | Mazipredon | drug | zu wenige Quellen mit Zusammenfassung (1) für 'glucocorticoid receptor agonist' |
+| WM-DRUG-3958 | Pranoprofen | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Pranoprofen' |
+| WM-DRUG-3959 | Dipivefrin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dipivefrin' |
+| WM-DRUG-3960 | Apraclonidin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel 'Apraclonidin' entspricht dem Wirkstoff (ATC S01EA03). Nur Quelle 3 behandelt Apraclonidin ausdrücklich, nämlich als pharmakologisches Mittel |
+| WM-DRUG-3961 | Ecothiopat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ecothiopate' |
+| WM-DRUG-3962 | Demecarium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Demecarium' |
+| WM-DRUG-3963 | Physostigmin | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Nur Quelle 9 behandelt explizit Physostigmin. Quelle 2, 3 und 10 behandeln Acetylcholinesterase-Hemmer allgemein, nicht spezifisch Physostigmin.) |
+| WM-DRUG-3964 | Fluostigmin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fluostigmine' |
+| WM-DRUG-3965 | Aceclidin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'aceclidine' |
+| WM-DRUG-3966 | Paraoxon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC S01EB10 ist Paracetamol; 'Paraoxon' ist ein Organophosphat. Keine Quelle behandelt Paracetamol oder Paraoxon als Wirkstoff für S01EB10.) |
+| WM-DRUG-3968 | Diclofenamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt Diclofenamid (ATC S01EC02, ein Ophthalmikum). Die Quelle 'diclofenac' bezieht sich auf Diclofenac (ein NSAID) |
+| WM-DRUG-3970 | Methazolamid | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 5 behandelt explizit Methazolamid. Quelle 1 (Maculaödem) und 2 (ZRAO) sind Indikationen, aber keine spezifischen Quellen zum Wirkstoff.  |
+| WM-DRUG-3971 | Levobunolol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Levobunolol; alle beziehen sich auf die allgemeine Klasse der Beta-Blocker.) |
+| WM-DRUG-3972 | Befunolol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Befunolol oder das zugehörige Krankheitsbild (Glaukom/Augendruck). Alle Quellen befassen sich mit  |
+| WM-DRUG-3973 | Unoproston | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Unoproston; sie behandeln andere Prostaglandin-Analoga (Latanoprost, Latanoprostene bunod) oder Glauc |
+| WM-DRUG-3975 | Latanoprostenbunod | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Xalacom' |
+| WM-DRUG-3976 | Dapiprazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Dapiprazol; alle behandeln Mydriasis allgemein oder andere Wirkstoffe.) |
+| WM-DRUG-3979 | Cyclopentolat | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 2, 3 und 5 behandeln explizit Cyclopentolat. Quelle 1 erwähnt es implizit als Dilatationsmittel, ist aber nicht spezifisch genug. Quelle 4  |
+| WM-DRUG-3980 | Homatropin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Homatropine' |
+| WM-DRUG-3981 | Tropicamid | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 2 und 5 behandeln explizit Tropicamid. Quelle 1 erwähnt Pupillenerweiterung allgemein, 3 Phenylephrin, 4 Immunologie, 6 Proparacain, 7  |
+| WM-DRUG-3982 | Cyclodrin | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln explizit den Wirkstoff Cyclizine (Cyclodrin). Quelle 3 ist zu allgemein (API-Produktion), Quelle 4 betrifft Piperazin-Lig |
+| WM-DRUG-3983 | Tyramin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 7 behandelt explizit Tyramin im klinischen Kontext (MAOI-Diät). Die anderen Quellen befassen sich mit Synephrin, p-Synephrin, Hyd |
+| WM-DRUG-3984 | Lodoxamid | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Lodoxamid oder ist eine Übersicht zum Wirkstoff. Quelle 1 behandelt Cromoglycat, 5 Mastzellen allgemein, 6 M |
+| WM-DRUG-3985 | Alcaftadin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'H1 antagonist' |
+| WM-DRUG-3986 | Proxymetacain | drug | zu wenige Quellen mit Zusammenfassung (2) für 'amethocaine' |
+| WM-DRUG-3988 | Bengalrosa-Natrium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Bengalrosa-Natrium (ATC S01JA02) spezifisch als Arzneimittelwirkstoff zur Behandlung einer Augenerkrankung. Quellen z |
+| WM-DRUG-3989 | Trypanblau | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Quellen 2, 5 und 6 behandeln explizit Trypanblau in ophthalmologischen Anwendungen (Macula, Katarakt, ILM-Peeling). Quelle 3 erwähnt Trypanblau nu |
+| WM-DRUG-3990 | Spüllösungen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC S01KX09 bezeichnet spezifisch Spüllösungen für Augen. Der Suchbegriff 'mouthwash' und die Titel beziehen sich auf orale Anwendungen (Mun |
+| WM-DRUG-3991 | Anecortav | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Anecortave acetate' |
+| WM-DRUG-3992 | Pegaptanib | drug | Themenprüfung: nur 1 von 12 Quellen passen zum Thema (Nur Quelle 9 behandelt explizit Pegaptanib. Quelle 10 ist zu allgemein (Oncology/Ophthalmology). Quellen 1, 3, 6, 7, 8 behandeln andere Anti-VEGF- |
+| WM-DRUG-3994 | Abicipar pegol | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 1 nennt Abicipar pegol explizit im Titel. Quelle 3, 4, 5 und 6 behandeln allgemein nAMD oder VEGF-Antagonisten ohne spezifische Nennung  |
+| WM-DRUG-3996 | Natriumedetat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Natriumedetat (ATC S01XA05) zur Behandlung von Augenerkrankungen. Die Quellen beziehen sich auf Ne |
+| WM-DRUG-3997 | Alaun | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Alaun als topischen Augentropfen (ATC S01XA07) zur Behandlung von Augenkrankheiten; alle Quellen beziehen sich auf Um |
+| WM-DRUG-3998 | Iodoheparinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'iodinated heparin' |
+| WM-DRUG-4000 | Cenegermin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'cenegermin' |
+| WM-DRUG-4001 | Lifitegrast | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Quellen 3 und 7 behandeln Lifitegrast explizit bei trockenen Augen. Quelle 5 analysiert die chemische Reinheit von Lifitegrast, was für eine Fachzy |
+| WM-DRUG-4002 | Riboflavin | drug | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (ATC S01XA26 ist Riboflavin für Augen. Quelle 8 (Migräne) und 10 (Kopfschmerz) behandeln Neurologie, nicht Augenheilkunde. Quelle 7 und 11 behandel |
+| WM-DRUG-4003 | Sepofarsen | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Sepofarsen' |
+| WM-DRUG-4004 | Avacincaptad pegol | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 2, 6 und 7 behandeln allgemeinere Themen (C3/C5-Inhibitoren, trockene AMD, Komplement-Inhibitoren allgemein) oder sind zu unspezifisch.  |
+| WM-DRUG-4006 | Pantothensäure | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Quellen 1 und 6 behandeln explizit Pantothenic Acid. Quelle 2 ist zu allgemein (B-Vitamine), Quelle 3 bezieht sich auf Panthenol (Provitamin, nicht |
+| WM-DRUG-4007 | Anthocyane | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante ATC-Code S01XA35 bezieht sich auf Anthocyane als Augentropfen (Ophthalmologische Mittel). Die gelisteten Quellen behandeln Anth |
+| WM-DRUG-4008 | Digitalisglykoside | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel ATC S01XA36 (Augenheilkunde) passt nicht zu Digitalisglykosiden (Kardiologie). 5 Quellen passen inhaltlich.) |
+| WM-DRUG-4009 | Pufferlösungen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Pufferlösungen (ATC S01XA38) oder dessen medizinische Anwendung. Die Titel beziehen sich auf analy |
+| WM-DRUG-4010 | Cytidin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Cytidin (ATC S01XA40) als primäres Thema. Die Quellen befassen sich mit HIV-PrEP, AML, MDS, Blasen- und |
+| WM-DRUG-4011 | Uridin-5-monophosphat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Uridin-5-monophosphat (ATC S01XB02). Alle Titel beziehen sich auf Hepatitis C, Hepatitis E oder andere Nukleosid |
+| WM-DRUG-4012 | Inosin-5-monophosphat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Inosin-5-monophosphat (ATC S01XB03) ist ein spezifisches Ophthalmikum (Augentropfen). Die Quelle 1 behandelt Inosin Pranobex ( |
+| WM-DRUG-4013 | Pirenoxin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Pirenoxine' |
+| WM-DRUG-4014 | Polyvinylalkohol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Polyvinylalkohol als Augentropfen (ATC S01XC01) zur Behandlung von Augenerkrankungen. Die Quellen bezie |
+| WM-DRUG-4015 | Povidon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Povidon (S01XC02) spezifisch als Wirkstoff in der Augenheilkunde; alle Quellen befassen sich mit Povidon-Iod (Antisep |
+| WM-DRUG-4016 | Hydroxyethylcellulose | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 1 behandelt explizit Hydroxypropyl Methylcellulose (Synonym für Hydroxyethylcellulose in diesem Kontext) bei trockenen Augen. Quelle 3 i |
+| WM-DRUG-4017 | Carbomer | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 2 behandelt explizit Carbomer. Quelle 1, 3, 4, 6 behandeln Hydrogele/Mucoadhäsion allgemein, nicht spezifisch Carbomer. Quelle 5 ist irr |
+| WM-DRUG-4018 | Carmellose | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den pharmazeutischen Wirkstoff Carmellose (ATC S01XC08) für die Augenheilkunde; alle beziehen sich auf Polymere  |
+| WM-DRUG-4019 | Euphrasia | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Eyebright' |
+| WM-DRUG-4020 | Calendula officinalis | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 2 Quellen behandeln explizit Calendula officinalis. ATC S01XH02 ist spezifisch für Augen, während die gefundenen Quellen Wundheilung und |
+| WM-DRUG-4023 | Ölsäure-Derivate | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den ATC-Wirkstoff Ölsäure-Derivate (S02DC01) für Ohrerkrankungen; Titel sind zu allgemein oder behandeln a |
+| WM-DRUG-4024 | Levisticum officinale | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Levisticum officinale (Brennnessel/Engelwurz) oder das ATC-Kodiergebiet S02DH01 (Ohrschmerzen/O |
+| WM-DRUG-4026 | Eisen(III)oxidhydroxid-Saccharose-Stärke-Komplex | drug | zu wenige Quellen mit Zusammenfassung (1) für 'iron polysaccharide' |
 | WM-DRUG-4254 | Methacholin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt Methacholin bzw. die Methacholin-Provokation direkt. Quelle 1 (Oszillometrie bei Asthma) und Quelle 2 (Screening bei arbeits |
 | WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
 
