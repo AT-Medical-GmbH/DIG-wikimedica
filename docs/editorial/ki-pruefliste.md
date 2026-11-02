@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 17:25. Warteschlange: duplicate 475, failed 1, merged 26, planned 915, published 1956, ready 1, redirect 403, review 3334.
+Stand: 02.11.2026 18:25. Warteschlange: duplicate 475, failed 1, merged 26, planned 914, published 1957, redirect 403, review 3335.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -235,6 +235,7 @@ Stand: 02.11.2026 17:25. Warteschlange: duplicate 475, failed 1, merged 26, plan
 
 --- Validation Sum |
 | WM-DIS-0732 | Blindheit und Sehbeeinträchtigung | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Titel passt zur ICD-10-GM H54. Nur Quelle 3 und 5 behandeln explizit visuelle Beeinträchtigung/Blindheit. Quelle 1 ist zu allgemein (neurodevelopme |
+| WM-DIS-0740 | Extrapyramidale Krankheiten und Bewegungsstörungen bei anderenorts klassifizierten Krankheiten | disease | zu wenige Quellen mit Zusammenfassung (2) für 'secondary movement disorders' |
 | WM-DIS-0741 | Chronische Hepatitis, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (K73 umfasst nur chronische Hepatitis, anderenorts nicht klassifiziert, also nicht die chronische Virushepatitis (B, C, D; diese stehen unter |
 | WM-DIS-0743 | Sonstige Verletzungen unter der Geburt | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM O71 bezeichnet körperliche Geburtstraumata (z.B. Dammrisse, Frakturen), während die Quelle 'birth trauma' meist psychische Traumat |
 | WM-DIS-0744 | Sonstige Komplikationen bei Wehentätigkeit und Entbindung, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 O75 (Komplikationen bei Wehentätigkeit/Entbindung wie Uterusruptur, Nabelschnurvorfall etc.). Alle Quelle |
