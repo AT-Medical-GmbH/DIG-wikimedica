@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 22:25. Warteschlange: duplicate 476, failed 1, merged 29, planned 907, published 1957, ready 2, redirect 403, review 3336.
+Stand: 02.11.2026 23:25. Warteschlange: duplicate 476, failed 1, merged 30, planned 893, published 1958, ready 11, redirect 403, review 3339.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -517,6 +517,10 @@ Stand: 02.11.2026 22:25. Warteschlange: duplicate 476, failed 1, merged 29, plan
 | WM-DIS-1398 | Krämpfe beim Neugeborenen | disease | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/38 unter 60 % |
 | WM-DIS-1399 | Reaktionen und Intoxikationen durch Arzneimittel oder Drogen, die dem Fetus und Neugeborenen verabreicht wurden | disease | zu wenige Quellen mit Zusammenfassung (0) für 'fetal drug toxicity' |
 | WM-DIS-1408 | Schäden durch sonstige äußere Ursachen | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel entspricht ICD-10-GM T75. Quellen 1 (Urotrauma), 2 (Kopfverletzung) und 8 (TBI) behandeln spezifische externe Verletzungen. Quelle 3 behandel |
+| WM-DIS-1409 | Sonstige Affektionen der Iris und des Ziliarkörpers | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10 H21 umfasst spezifisch Iris- und Ziliarkörperaffektionen (z.B. Iritis, Iridozyklitis). 'Uveitis' ist ein Oberbegriff, der oft die vor |
+| WM-DIS-1410 | Sonstige Affektionen des N. opticus II. Hirnnerv und der Sehbahn | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
+
+--- Validation Sum |
 | WM-DIS-1411 | Folgen entzündlicher Krankheiten des Zentralnervensystems | disease | zu wenige Quellen mit Zusammenfassung (1) für 'neuroinflammatory sequelae' |
 | WM-DIS-1412 | Sonstige Krankheiten des peripheren Nervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G64 meint 'Sonstige Krankheiten des peripheren Nervensystems' (nicht näher bezeichnete/sonstige Neuropathien; spezifische Ursachen wie diabe |
 | WM-DIS-1413 | Sonstige Krankheiten des Nervensystems, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G98 ist eine Restkategorie für spezifische, anderenorts nicht klassifizierte Nervensystemerkrankungen. Der Titel „Sonstige neurologische Erk |
@@ -535,6 +539,7 @@ Stand: 02.11.2026 22:25. Warteschlange: duplicate 476, failed 1, merged 29, plan
 | WM-DIS-1455 | Trichuriasis | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Trichinose und Trichuriasis' ist irreführend, da Trichinose (Trichinellose) eine andere Erkrankung ist. Zudem sind 5 Quellen passend  |
 | WM-DIS-1459 | Folgezustände der Poliomyelitis | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel entspricht ICD-10-GM B91. Quellen 1, 3 und 4 behandeln explizit Post-Polio-Syndrom/Folgezustände. Quelle 6 behandelt Polio allgemein, nicht s |
 | WM-DIS-1460 | Folgezustände der Lepra | disease | zu wenige Quellen mit Zusammenfassung (1) für 'leprosy complications' |
+| WM-DIS-1463 | Sonstige Darmkrankheiten durch Protozoen | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (ICD-10-GM A07 umfasst sonstige Darmkrankheiten durch Protozoen (u. a. Giardiasis, Kryptosporidiose, Balantidiasis, Isosporiasis). Der Titel „Darmin |
 | WM-DIS-1465 | Sonstige Krankheiten der Schilddrüse | disease | Bestätigungsquote 23/51 unter 60 % |
 | WM-DIS-1466 | Sonstige Vitaminmangelzustände | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (ICD-10-GM E56 ist eine spezifische Diagnosekategorie für einzelne Vitaminmängel (z.B. B1, B3, B6, C, D, E). Die Quellen behandeln 'vitamin deficien |
 | WM-DIS-1482 | Sonstige und nicht näher bezeichnete Verletzungen des Unterarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S59 umfasst alle Verletzungen (z.B. Prellungen, Luxationen), nicht nur Frakturen. Der Titel 'Sonstige Verletzungen des Unterarms'  |
