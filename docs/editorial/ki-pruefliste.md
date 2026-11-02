@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 02.11.2026 15:25. Warteschlange: claimed 1, duplicate 473, failed 1, merged 24, planned 999, published 1913, ready 25, redirect 394, review 3281.
+Stand: 02.11.2026 16:25. Warteschlange: claimed 1, duplicate 473, failed 1, merged 25, planned 920, published 1936, ready 21, redirect 403, review 3331.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -471,6 +471,9 @@ Stand: 02.11.2026 15:25. Warteschlange: claimed 1, duplicate 473, failed 1, merg
 | WM-DIS-1267 | Sonstige erworbene Deformitäten des Muskel-Skelett-Systems und des Bindegewebes | disease | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Titel passt zu M95. Quellen 2 (Plattfuß), 5 (Hüftdysplasie) und 6 (Torticollis) behandeln erworbene oder im Kontext der Deformitäten-Diagnostik rel |
 | WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
 | WM-DIS-1270 | Venenkrankheiten und Hämorrhoiden als Komplikationen im Wochenbett | disease | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Titel deckt ICD-Code ab. Quellen 1, 2, 5 behandeln postpartale venöse Thromboembolie (VTE), was unter O87 fällt. Quelle 3 und 4 behandeln Placenta  |
+| WM-DIS-1274 | Angeborene Fehlbildung des hinteren Augenabschnittes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'posterior eye malformation' |
+| WM-DIS-1275 | Angeborene Fehlbildungen der Nase | disease | zu wenige Quellen mit Zusammenfassung (2) für 'Nasal anomalies' |
+| WM-DIS-1276 | Angeborene(s) Fehlen, Atresie und Stenose des Dickdarmes | disease | zu wenige Quellen mit Zusammenfassung (3) für 'colonic atresia' |
 | WM-DIS-1280 | Akute Blutungsanämie | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Akute Blutungsanämie“ entspricht D62. Nur Quelle 2 passt: Sie behandelt Patienten, bei denen Transfusionen nicht möglich sind, also vor  |
 | WM-DIS-1285 | Sonstige Verletzungen der Wirbelsäule und des Rumpfes, Höhe nicht näher bezeichnet | disease | Bestätigungsquote 22/53 unter 60 % |
 | WM-DIS-1296 | Krankheiten der Bartholin-Drüsen | disease | zu wenige Quellen mit Zusammenfassung (1) für 'Bartholinitis' |
@@ -3306,6 +3309,53 @@ Stand: 02.11.2026 15:25. Warteschlange: claimed 1, duplicate 473, failed 1, merg
 | WM-DRUG-4061 | Tenonitrozol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tenonidazole' |
 | WM-DRUG-4062 | Dehydroemetin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dehydroemetine' |
 | WM-DRUG-4063 | Fumagillin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Quelle 1 behandelt direkt Fumagillin bei Mikosporidien. Quelle 9 ist eine Übersicht über Mikosporidiose, für die Fumagillin ein Standardtherapeutik |
+| WM-DRUG-4068 | Amodiaquin | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Nur Quellen 3 und 4 behandeln explizit Amodiaquin. Quelle 3 ist eine Übersicht zur Wirksamkeit, Quelle 4 zu kardiovaskulären Effekten. Die anderen  |
+| WM-DRUG-4070 | Proguanil | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln explizit Proguanil bzw. die Kombination Atovaquon/Proguanil zur Malaria-Behandlung/Prophylaxe. Quelle 3 ist zu allgemein  |
+| WM-DRUG-4071 | Cycloguanilembonat | drug | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Quellen 1 und 2 behandeln explizit Proguanil (Wirkstoff von Cycloguanilbenzat) zur Malaria-Prophylaxe/Therapie. Quelle 3 ist zu allgemein (Malaria- |
+| WM-DRUG-4073 | Pyrimethamin | drug | Bestätigungsquote 24/41 unter 60 % |
+| WM-DRUG-4076 | Artemotil | drug | Bestätigungsquote 18/37 unter 60 % |
+| WM-DRUG-4078 | Halofantrin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'halofantrine' |
+| WM-DRUG-4081 | Megluminantimonat | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel „Megluminantimonat“ bezeichnet denselben Wirkstoff wie ATC P01CB01. Nur die Quellen 1 und 4 behandeln Megluminantimonat direkt (Vergleich |
+| WM-DRUG-4082 | Natriumstibogluconat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Natriumstibogluconat; sie behandeln Leishmaniose allgemein oder andere Wirkstoffe.) |
+| WM-DRUG-4083 | Nifurtimox | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Quellen 1, 4 und 7 behandeln explizit den Wirkstoff Nifurtimox. Quelle 2, 5, 6, 9, 10 behandeln Chagas-Krankheit allgemein ohne Fokus auf Nifurtim |
+| WM-DRUG-4084 | Melarsoprol | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel 'Melarsoprol' bezeichnet denselben Wirkstoff wie die Klassifikation (ATC P01CD01). Keine der Quellen behandelt jedoch Melarsoprol als Hau |
+| WM-DRUG-4086 | Suraminnatrium | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Nur zwei Quellen behandeln Suramin direkt. Quelle 1, 2, 4, 5, 7, 8, 9, 10, 11 behandeln andere Themen oder Wirkstoffe. Da weniger als vier Quellen |
+| WM-DRUG-4087 | Praziquantel | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/35 unter 60 % |
+| WM-DRUG-4088 | Oxamniquin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Oxamniquin; sie behandeln allgemeine Schistosomiasis-Therapie oder Wirkstoffentwicklung im Allgemeine |
+| WM-DRUG-4089 | Arpraziquantel | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/16 unter 60 % |
+| WM-DRUG-4090 | Metrifonat | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Metrifonat; alle beziehen sich auf andere Organophosphate (Dichlorvos, Malathion, Chlorpyrifos etc.) oder sind zu |
+| WM-DRUG-4091 | Niridazol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Niridazole' |
+| WM-DRUG-4092 | Stibophen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Stibophen' |
+| WM-DRUG-4093 | Triclabendazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel behandeln Leberegel-Infektionen oder Cholangiozellkarzinom, nicht den Wirkstoff Triclabendazol.) |
+| WM-DRUG-4096 | Ciclobendazol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Ciclobendazol. Die Quellen betreffen Carbendazim als Fungizid in der Pflanzenpathologie (1, 2, 3, 5) bzw. Fenben |
+| WM-DRUG-4097 | Flubendazol | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 2, 4 und 6 behandeln Flubendazol direkt (Antitumorwirkung, Mechanismen). Quelle 3 betrifft Benzimidazole allgemein bei hämatologischen Tumo |
+| WM-DRUG-4098 | Fenbendazol | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 3 und 5 behandeln explizit den Wirkstoff Fenbendazol. Quelle 1 und 7 behandeln Encephalitozoon cuniculi (Ziel von Fenbendazol, aber nic |
+| WM-DRUG-4099 | Piperazin | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Der Titel „Piperazin“ bezeichnet den Wirkstoff (Anthelminthikum, ATC P02CB01). Keine der Quellen behandelt Piperazin als Anthelminthikum. Alle bet |
+| WM-DRUG-4101 | Pyrantel | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel 'Pyrantel' bezeichnet denselben Wirkstoff wie ATC P02CC01. Keine der Quellen behandelt Pyrantel schwerpunktmäßig: Quellen 1–3 betreffen d |
+| WM-DRUG-4102 | Oxantel | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Oxantel' |
+| WM-DRUG-4103 | Pyrvinium | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 3, 4 und 5 behandeln explizit Pyrvinium. Quelle 1 ist zu allgemein (Antiparasitic agents). Quelle 2 und 6 nennen Pyrvinium nicht im Titel/K |
+| WM-DRUG-4104 | Bephenium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bephenium' |
+| WM-DRUG-4107 | Desaspidin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Desaspidin' |
+| WM-DRUG-4108 | Dixanthogen | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Nur Quelle 4 behandelt den Wirkstoff D609 (Tricyclodecan-9-yl-Xanthogenate), der unter ATC P03AA01 fällt. Die anderen Quellen beziehen sich auf che |
+| WM-DRUG-4109 | Kaliumpolysulfid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Kaliumpolysulfid (ATC P03AA02) oder die zugehörige Indikation (Kaliummangel). Quellen 1-4 befassen sich |
+| WM-DRUG-4110 | Thiram | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 2, 4, 5 behandeln verwandte Stoffgruppen (Dithiocarbamate) oder allgemeine Toxizität, nicht spezifisch Thiram als Hauptfokus. Quelle 3,  |
+| WM-DRUG-4111 | Clofenotan | drug | zu wenige Quellen mit Zusammenfassung (0) für 'clofentanil' |
+| WM-DRUG-4112 | Lindan | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 2 Quellen behandeln Lindan spezifisch (Quell 3: Lindan ist Standardtherapie für Krätze; Quell 7: Lindan als HCH-Isomer). Quell 1, 2, 4,  |
+| WM-DRUG-4114 | Phenothrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Phenothrin direkt; Quellen behandeln Scabies, Pediculosis oder Ivermectin.) |
+| WM-DRUG-4116 | Pyrethrum | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Nur Quellen 2 und 7 behandeln explizit Pyrethrins. Die anderen Quellen befassen sich mit Scabies (Krankheitsbild), nicht mit dem Wirkstoff Pyrethr |
+| WM-DRUG-4117 | Quassia | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Quassia' |
+| WM-DRUG-4118 | Benzylbenzoat | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 2 und 4 behandeln explizit den Wirkstoff Benzylbenzoat zur Behandlung von Krätze (Scabies). Quelle 1, 3, 5, 6, 7, 9 behandeln Krätze al |
+| WM-DRUG-4119 | Kupferoleat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'copper chelate' |
+| WM-DRUG-4121 | Benzylalkohol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Benzylalkohol als Arzneimittelwirkstoff (ATC P03AX06) oder dessen spezifische klinische Anwendung. Quellen behandeln  |
+| WM-DRUG-4122 | Abametapir | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 1 behandelt Abametapir explizit. Quelle 3 ist zu allgemein (Kontrollstrategien), Quelle 4 ist zu allgemein (multiple Parasitosen).) |
+| WM-DRUG-4123 | Cyfluthrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 4 behandelt Cyfluthrin explizit. Quelle 5 ist zu allgemein (Pyrethroide), Quelle 1 und 3 beziehen sich auf Resistenzmechanismen i |
+| WM-DRUG-4125 | Decamethrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Decamethrin ist ein cholinerges Arzneimittel (ATC P03BA03), während der Suchbegriff 'neuromuscular blockers' (Neuromuskuläre Blocker, ATC N0 |
+| WM-DRUG-4126 | Tetramethrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Tetramethrin (P03BA04); alle Quellen beziehen sich auf Pyrethroide allgemein, Vektorkontrolle oder Toxizit |
+| WM-DRUG-4127 | Diethyltoluamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Quelle 4 behandelt Insektenabwehrmittel allgemein, nicht spezifisch DEET. Nur 3 von 4 Quellen passen.) |
+| WM-DRUG-4128 | Dimethylphthalat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Dimethylphthalat (ATC P03BX02) oder dessen medizinische Anwendung; alle Quellen fokussieren sich auf Umwel |
+| WM-DRUG-4129 | Dibutylphthalat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle 10 behandelt Phthalate allgemein, nicht spezifisch Dibutylphthalat. Die anderen Quellen behandeln DBP spezifisch.) |
+| WM-DRUG-4130 | Dibutylsuccinat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (DBS steht in allen Quellen für Deep Brain Stimulation (neurochirurgisches Verfahren), nicht für den Wirkstoff Dibutylsuccinat.) |
+| WM-DRUG-4132 | Etohexadiol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Etohexadiol' |
 | WM-DRUG-4254 | Methacholin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt Methacholin bzw. die Methacholin-Provokation direkt. Quelle 1 (Oszillometrie bei Asthma) und Quelle 2 (Screening bei arbeits |
 | WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
 
