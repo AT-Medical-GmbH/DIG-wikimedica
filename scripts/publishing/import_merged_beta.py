@@ -147,6 +147,21 @@ def article_index() -> dict[str, dict]:
     return _ARTICLE_INDEX
 
 
+_EINGRIFFE_VERWANDT: dict | None = None
+
+
+def eingriffe_verwandt() -> dict:
+    """Eingriffsartikel -> kuratierte Indikations-/Begleitartikel (data/editorial/eingriffe.json, 03.11.2026)."""
+    global _EINGRIFFE_VERWANDT
+    if _EINGRIFFE_VERWANDT is None:
+        try:
+            data = json.loads((ROOT / "data/editorial/eingriffe.json").read_text(encoding="utf-8"))
+            _EINGRIFFE_VERWANDT = {s: list(data.get("verwandt", {}).get(s) or []) for s in data.get("slugs") or []}
+        except (OSError, ValueError):
+            _EINGRIFFE_VERWANDT = {}
+    return _EINGRIFFE_VERWANDT
+
+
 def related_articles(slug: str, fm: dict, limit: int = 6) -> list[str]:
     """3 bis 6 fachlich verwandte Artikel: Wirkstoffe derselben ATC-Untergruppe, Krankheiten benachbarter ICD-10-Kodes.
 
@@ -155,6 +170,12 @@ def related_articles(slug: str, fm: dict, limit: int = 6) -> list[str]:
     atc = {str(c).upper() for c in fm.get("atc_codes") or [] if c}
     icd = [m.group(0) for c in fm.get("icd10") or [] if (m := ICD_RE.match(str(c).upper()))]
     own_title = str(fm.get("title", "")).strip()
+    ev = eingriffe_verwandt()
+    if slug in ev:  # Eingriffsartikel (ohne ATC/ICD): Indikations-Erkrankungen (kuratiert) + Eingriffe desselben Fachgebiets
+        rel = [index[s]["title"] for s in ev[slug] if s in index]
+        same = sorted(info["title"] for other, info in index.items() if other != slug and other in ev and info["specialty"] == fm.get("specialty"))
+        titles = (rel + [t for t in same if t not in rel])[:limit]
+        return titles if len(titles) >= 2 else []
 
     def collect(min_common: int, max_dist: int) -> list[str]:
         scored: list[tuple[tuple, str]] = []
