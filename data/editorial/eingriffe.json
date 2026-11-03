@@ -68,5 +68,279 @@
   "verbrennungsescharotomie",
   "vitrektomie",
   "zystektomie"
- ]
+ ],
+ "_hinweis_verwandt": "verwandt: Indikations-/Begleiterkrankungen je Eingriff (Slugs), kuratiert 03.11.2026; der Importer ergänzt Eingriffe desselben Fachgebiets (Siehe auch)",
+ "verwandt": {
+  "adipositaschirurgie": [
+   "adipositas",
+   "diabetes-mellitus-typ-2"
+  ],
+  "amputation": [
+   "periphere-arterielle-verschlusskrankheit",
+   "osteomyelitis",
+   "sepsis"
+  ],
+  "aortenklappenersatz": [
+   "aortenklappenstenose",
+   "herzklappenerkrankungen",
+   "infektioese-endokarditis"
+  ],
+  "appendektomie": [
+   "akute-appendizitis"
+  ],
+  "arthroskopie": [
+   "gonarthrose"
+  ],
+  "beckenbodenrekonstruktion": [
+   "genitalprolaps-bei-der-frau",
+   "harninkontinenz"
+  ],
+  "bronchoskopische-stentimplantation": [
+   "bronchialkarzinom"
+  ],
+  "brustrekonstruktion": [
+   "mammakarzinom"
+  ],
+  "chirurgische-thrombektomie": [
+   "arterielle-embolie-und-thrombose",
+   "periphere-arterielle-verschlusskrankheit",
+   "vorhofflimmern"
+  ],
+  "cholezystektomie": [
+   "cholezystitis",
+   "akute-pankreatitis"
+  ],
+  "cochlea-implantation": [
+   "sonstiger-hoerverlust"
+  ],
+  "dialyseshuntanlage": [
+   "chronische-nierenkrankheit"
+  ],
+  "ecmo-kanuelierung": [
+   "lungenembolie"
+  ],
+  "epilepsiechirurgie": [
+   "epilepsie",
+   "status-epilepticus"
+  ],
+  "evar": [
+   "aortenaneurysma-und-dissektion"
+  ],
+  "gastrektomie": [
+   "boesartige-neubildung-des-magens",
+   "ulkuskrankheit"
+  ],
+  "glaukomoperation": [
+   "glaukom"
+  ],
+  "hauttransplantation": [
+   "verbrennung-oder-veraetzung-des-handgelenkes-und-der-hand",
+   "ulcus-cruris-anderenorts-nicht-klassifiziert",
+   "dekubitalgeschwuer-und-druckzone"
+  ],
+  "hemikolektomie": [
+   "kolorektales-karzinom",
+   "morbus-crohn",
+   "colitis-ulcerosa",
+   "divertikelkrankheit"
+  ],
+  "hernienoperation-leistenhernie": [
+   "hernia-inguinalis",
+   "hernia-ventralis"
+  ],
+  "herztransplantation": [
+   "chronische-herzinsuffizienz",
+   "kardiomyopathie"
+  ],
+  "hirntumorresektion": [
+   "gutartige-neubildung-der-meningen",
+   "boesartige-neubildung-des-gehirns"
+  ],
+  "hypophysenoperation": [
+   "cushing-syndrom",
+   "unterfunktion-und-andere-stoerungen-der-hypophyse"
+  ],
+  "hysterektomie": [
+   "leiomyom-des-uterus",
+   "boesartige-neubildung-des-corpus-uteri",
+   "carcinoma-in-situ-der-cervix-uteri",
+   "endometriose"
+  ],
+  "kaiserschnitt": [
+   "placenta-praevia",
+   "geburtshindernis-durch-lage-haltungs-und-einstellungsanomalien-des-fetus",
+   "gestationsdiabetes"
+  ],
+  "karotisendarteriektomie": [
+   "schlaganfall",
+   "transitorische-ischamische-attacke"
+  ],
+  "kataraktoperation": [],
+  "kieferosteotomie": [
+   "obstruktive-schlafapnoe"
+  ],
+  "koronararterien-bypassoperation": [
+   "koronare-herzkrankheit",
+   "rezidivierender-myokardinfarkt",
+   "chronische-herzinsuffizienz"
+  ],
+  "kraniotomie": [
+   "boesartige-neubildung-des-gehirns",
+   "intrazerebrale-blutung",
+   "subarachnoidalblutung",
+   "fraktur-des-schaedels-und-der-gesichtsschaedelknochen"
+  ],
+  "kreuzbandrekonstruktion": [
+   "gonarthrose"
+  ],
+  "lappenplastik": [
+   "dekubitalgeschwuer-und-druckzone",
+   "verbrennung-oder-veraetzung-des-handgelenkes-und-der-hand",
+   "mammakarzinom"
+  ],
+  "leberresektion": [
+   "leberzirrhose"
+  ],
+  "lebertransplantation": [
+   "leberzirrhose"
+  ],
+  "lidchirurgie": [],
+  "lobektomie-lunge": [
+   "bronchialkarzinom",
+   "bronchiektasen"
+  ],
+  "lungentransplantation": [
+   "chronisch-obstruktive-lungenerkrankung-copd",
+   "idiopathische-lungenfibrose",
+   "zystische-fibrose",
+   "pulmonale-hypertonie"
+  ],
+  "lungenvolumenreduktion": [
+   "emphysem",
+   "chronisch-obstruktive-lungenerkrankung-copd"
+  ],
+  "mechanische-thrombektomie": [
+   "schlaganfall",
+   "verschluss-und-stenose-zerebraler-arterien-ohne-resultierenden-hirninfarkt",
+   "vorhofflimmern"
+  ],
+  "mediastinoskopie": [
+   "bronchialkarzinom",
+   "sarkoidose",
+   "hodgkin-lymphom-lymphogranulomatose"
+  ],
+  "meniskusoperation": [
+   "gonarthrose"
+  ],
+  "mitralklappenrekonstruktion": [
+   "herzklappenerkrankungen",
+   "infektioese-endokarditis",
+   "vorhofflimmern",
+   "rheumatische-mitralklappenkrankheiten"
+  ],
+  "myomektomie": [
+   "leiomyom-des-uterus"
+  ],
+  "nephrektomie": [
+   "nierenzellkarzinom"
+  ],
+  "nierentransplantation": [
+   "chronische-nierenkrankheit",
+   "chronisches-nephritisches-syndrom"
+  ],
+  "oophorektomie": [
+   "boesartige-neubildung-des-ovars",
+   "nichtentzuendliche-krankheiten-des-ovars-der-tuba-uterina-und-des-lig-latum-uteri",
+   "endometriose"
+  ],
+  "osteosynthese": [
+   "fraktur-der-rippe-n-des-sternums-und-der-brustwirbelsaeule",
+   "fraktur-des-femurs",
+   "fraktur-des-unterarmes",
+   "osteoporose"
+  ],
+  "pankreasresektion": [
+   "akute-pankreatitis"
+  ],
+  "pneumonektomie": [
+   "bronchialkarzinom",
+   "mesotheliom"
+  ],
+  "radikale-prostatektomie": [
+   "prostatakarzinom",
+   "harninkontinenz"
+  ],
+  "rektumresektion": [
+   "kolorektales-karzinom",
+   "colitis-ulcerosa"
+  ],
+  "septumplastik": [
+   "chronische-sinusitis",
+   "obstruktive-schlafapnoe"
+  ],
+  "shuntimplantation": [
+   "hydrozephalus",
+   "subarachnoidalblutung",
+   "boesartige-neubildung-des-gehirns"
+  ],
+  "stammzelltransplantation": [
+   "plasmozytom-und-boesartige-plasmazellen-neubildungen",
+   "hodgkin-lymphom-lymphogranulomatose",
+   "sonstige-aplastische-anaemien",
+   "myelodysplastische-syndrome"
+  ],
+  "stomaanlage": [
+   "kolorektales-karzinom",
+   "morbus-crohn",
+   "colitis-ulcerosa",
+   "divertikelkrankheit"
+  ],
+  "tavi": [
+   "aortenklappenstenose",
+   "herzklappenerkrankungen",
+   "chronische-herzinsuffizienz"
+  ],
+  "tevar": [
+   "aortenaneurysma-und-dissektion"
+  ],
+  "tonsillektomie": [
+   "chronische-krankheiten-der-gaumenmandeln-und-der-rachenmandel",
+   "peritonsillarabszess",
+   "obstruktive-schlafapnoe"
+  ],
+  "tracheotomie": [
+   "boesartige-neubildung-des-larynx"
+  ],
+  "turp": [
+   "benigne-prostatahyperplasie",
+   "harnverhaltung",
+   "harnwegsinfektion"
+  ],
+  "tympanoplastik": [
+   "cholesteatom-des-mittelohres",
+   "trommelfellperforation"
+  ],
+  "ureterorenoskopie": [
+   "urolithiasis",
+   "nicht-naeher-bezeichnete-nierenkolik"
+  ],
+  "varizenoperation": [
+   "ulcus-cruris-anderenorts-nicht-klassifiziert"
+  ],
+  "vats": [
+   "pneumothorax",
+   "pleuraerguss-anderenorts-nicht-klassifiziert",
+   "bronchialkarzinom",
+   "abnorme-befunde-bei-der-bildgebenden-diagnostik-der-lunge"
+  ],
+  "verbrennungsescharotomie": [
+   "verbrennung-oder-veraetzung-des-handgelenkes-und-der-hand",
+   "sepsis"
+  ],
+  "vitrektomie": [],
+  "zystektomie": [
+   "boesartige-neubildung-der-harnblase",
+   "harninkontinenz"
+  ]
+ }
 }
