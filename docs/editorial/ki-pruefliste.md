@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 03.11.2026 01:26. Warteschlange: claimed 1, duplicate 476, failed 1, merged 31, planned 824, published 1977, ready 24, redirect 403, review 3374.
+Stand: 03.11.2026 02:26. Warteschlange: claimed 1, duplicate 476, failed 1, merged 33, planned 783, published 1999, ready 12, redirect 403, review 3403.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -449,6 +449,7 @@ Stand: 03.11.2026 01:26. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DIS-1203 | Fremdkörper im Ohr | disease | zu wenige Quellen mit Zusammenfassung (0) für 'foreign body ear' |
 | WM-DIS-1206 | Erstickung | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (T71 umfasst Erstickung durch mechanische Einwirkung (z. B. Erhängen, Strangulation); der Titel „Erstickung“ deckt dies ab. Quellen 1, 2 und 5 behan |
 | WM-DIS-1207 | Nicht näher bezeichnete Schäden durch äußere Ursachen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Schäden durch äußere Ursachen' ist ein allgemeiner Oberbegriff für ICD-10-GM T76 und lässt spezifische Formen/Schweregra |
+| WM-DIS-1209 | Verbrennung oder Verätzung der Schulter und des Armes, ausgenommen Handgelenk und Hand | disease | zu wenige Quellen mit Zusammenfassung (0) für 'burn shoulder arm' |
 | WM-DIS-1211 | Angeborene Fehlbildungen der Herzsepten | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Angeborene Herzseptumdefekte“ entspricht Q21 (angeborene Fehlbildungen der Herzsepten). Nur Quelle 2 behandelt kongenitale Septumdefekte |
 | WM-DIS-1212 | Angeborene Fehlbildungen der Pulmonal- und der Trikuspidalklappe | disease | zu wenige Quellen mit Zusammenfassung (0) für 'congenital right heart valve disease' |
 | WM-DIS-1213 | Angeborene Fehlbildungen der großen Venen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Q26 meint angeborene Fehlbildungen der großen Venen (z. B. V. cava, Lungenvenenfehlmündung). Der Titel ist ein unspezifischer Oberbegriff, u |
@@ -567,6 +568,8 @@ Stand: 03.11.2026 01:26. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DIS-1482 | Sonstige und nicht näher bezeichnete Verletzungen des Unterarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S59 umfasst alle Verletzungen (z.B. Prellungen, Luxationen), nicht nur Frakturen. Der Titel 'Sonstige Verletzungen des Unterarms'  |
 | WM-DIS-1484 | Sonstige und nicht näher bezeichnete Verletzungen der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip and thigh injuries' |
 | WM-DIS-1485 | Sonstige und nicht näher bezeichnete Verletzungen des Unterschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'lower leg injury' |
+| WM-DIS-1487 | Sonstige gutartige Neubildungen des Bindegewebes und anderer Weichteilgewebe | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel passt zu D21. Quelle 1, 5, 6 behandeln gutartige Weichteiltumoren. Quelle 2 (Lesionen allgemein), 3, 4, 7 (Sarcome/bösartig) passen nicht.) |
+| WM-DIS-1488 | Sonstige Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Neubildungen unsicheren Verhaltens...' bezieht sich auf ICD-10 D47 (unsicheres/unbekanntes Verhalten), während die Quell |
 | WM-DIS-1489 | Sonstige Entzündung des Augenlides | disease | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Titel passt zu H01. Quelle 1 behandelt Autoimmunerkrankungen (zu spezifisch/anders), Quelle 3 ist veterinärmedizinisch.) |
 | WM-DIS-1490 | Sonstige Affektionen der Linse | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Sonstige Affektionen der Linse' ist irreführend, da er den Hauptteil der ICD-10-GM H27-Kategorie (Katarakt/Linsentrübung |
 | WM-DIS-1491 | Sonstige Affektionen des Auges und der Augenanhangsgebilde | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
@@ -589,6 +592,7 @@ Stand: 03.11.2026 01:26. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DIS-1591 | Sonstige abnorme Befunde der Blutchemie | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch ICD-10 R79 (abnorme Blutchemie-Befunde). Quelle 2 bezieht sich auf COVID-19-Schweregrade, nicht auf allgemei |
 | WM-DIS-1613 | Sonstige Koordinationsstörungen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM R27 umfasst organische Koordinationsstörungen (z.B. Ataxie), während die Quellen fast ausschließlich 'Developmental Coordination D |
 | WM-DIS-1638 | Nystagmus und sonstige abnorme Augenbewegungen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Titel deckt das ICD-10-GM H55 ab. Alle 15 Quellen behandeln Nystagmus als Hauptthema oder zentrales Symptom im Kontext von Augenbewegung |
+| WM-DIS-1662 | Sonstige ungenau oder nicht näher bezeichnete Todesursachen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'ill-defined causes of death' |
 | WM-DRUG-0106 | Blutgerinnungsfaktor VIII | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Blutgerinnungsfaktor VIII' entspricht dem Wirkstoff Faktor VIII (ATC B02BD02). Die Quellen 1–3 behandeln Faktor VIII als Protein und Wir |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0121 | Bevacizumab | drug | zu viele nur teilweise belegte Sätze (22/35) |
@@ -3411,6 +3415,31 @@ Stand: 03.11.2026 01:26. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DRUG-4129 | Dibutylphthalat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle 10 behandelt Phthalate allgemein, nicht spezifisch Dibutylphthalat. Die anderen Quellen behandeln DBP spezifisch.) |
 | WM-DRUG-4130 | Dibutylsuccinat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (DBS steht in allen Quellen für Deep Brain Stimulation (neurochirurgisches Verfahren), nicht für den Wirkstoff Dibutylsuccinat.) |
 | WM-DRUG-4132 | Etohexadiol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Etohexadiol' |
+| WM-DRUG-4133 | Federn | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Allergenwirkstoff Federn (ATC V01AA01). Die Titel beziehen sich auf Nierenablation, neonatale Entzündungssyn |
+| WM-DRUG-4135 | Hausstaubmilben | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Arzneimittelwirkstoff Hausstaubmilben' ist irreführend, da Hausstaubmilben Allergene sind, keine Arzneimittelwirkstoffe. |
+| WM-DRUG-4136 | Baumpollen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Baumpollen' (ATC V01AA05) ist ein Allergenextrakt zur Immuntherapie. Die Quellen behandeln entweder allgemeine Pollenbelastun |
+| WM-DRUG-4137 | Insekten | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Insekten' bezeichnet keine medizinische Indikation oder einen Wirkstoff im ATC-System. ATC V01AA07 bezieht sich auf Alle |
+| WM-DRUG-4138 | Nahrungsmittel | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Nahrungsmittel' bezeichnet den Wirkstoff 'Nahrungsmittelallergen' (ATC V01AA08) nicht korrekt, sondern ist ein allgemein |
+| WM-DRUG-4139 | Textilien | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff 'Textilien' (Allergen-Immuntherapie). Die Quellen behandeln Nierenkrebs, MIS-N, Aminopeptidase N oder G |
+| WM-DRUG-4140 | Blüten | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf den Allergen 'Blüten' (ATC V01AA10), während die Quellen 'Chamomile' (Kamille) behandeln. Dies ist ein a |
+| WM-DRUG-4141 | Tiere | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Tiere' (ATC V01AA11) ist ein offensichtlicher Tippfehler für 'Allergene' (Allergen extracts). Die Suchbegriffe 'Veterinary' u |
+| WM-DRUG-4142 | Nalorphin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nalorphine' |
+| WM-DRUG-4143 | Edetate | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Edetate (ATC V03AB03). Quellen zu Chelating Agents behandeln Endodontie, Eisenüberladung, Radiopharmaka od |
+| WM-DRUG-4147 | Dimercaprol | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine der Quellen behandelt Dimercaprol spezifisch; alle behandeln allgemeine Schwermetalltoxizität oder andere Toxine.) |
+| WM-DRUG-4148 | Obidoxim | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Obidoxim; Quellen behandeln allgemeine Organophosphat-Vergiftungen oder Oxime im Allgemeinen.) |
+| WM-DRUG-4150 | Kupfersulfat | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 2 und 7 behandeln explizit Kupfersulfat-Vergiftung beim Menschen. Quelle 1 betrifft Algenbekämpfung, 6 betrifft Nutztierernährung, 3/4  |
+| WM-DRUG-4151 | Amylnitrit | drug | zu wenige Quellen mit Zusammenfassung (2) für 'amyl nitrite' |
+| WM-DRUG-4152 | Digitalis-Antitoxin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Digoxin immune fab' |
+| WM-DRUG-4154 | Methionin | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Titel entspricht dem Wirkstoff Methionin. Keine Quelle behandelt Methionin als Arzneimittelwirkstoff (z. B. Paracetamol-Antidot); die Quellen betr |
+| WM-DRUG-4155 | 4-Dimethylaminophenol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Kein INN vorhanden' |
+| WM-DRUG-4156 | Cholinesterase | drug | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Nur Quelle 8 behandelt BChE als therapeutischen Wirkstoff (rekombinantes Enzym als Antidot bei Organophosphatvergiftung). Die übrigen Quellen beha |
+| WM-DRUG-4157 | Eisen(III)hexacyanoferrat(II) | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch die klinische Anwendung von Eisen(III)hexacyanoferrat(II) (Prussian Blue) als Antidot bei Schwermetall- oder |
+| WM-DRUG-4158 | Glutathion | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Titel 'Glutathion' entspricht dem Wirkstoff (ATC V03AB32). Passend sind nur Quellen, die Glutathion selbst als Wirkstoff bzw. Therapie behandeln:  |
+| WM-DRUG-4162 | Toloniumchlorid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Toloniumchlorid (V03AB46) als Antidot; Quellen zu Toluidinblau oder anderen Photosensibilisatoren sind nic |
+| WM-DRUG-4163 | Pentetsäure | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Quellen 2 und 8 behandeln Pentetsäure (DTPA) als Wirkstoff zur Behandlung von Vergiftungen bzw. als Chelatbildner. Quellen 1, 3-6, 9, 10 beziehen  |
+| WM-DRUG-4166 | Polystyrolsulfonat | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 2 (orale Kationenaustauscherharze, u. a. Polystyrolsulfonat) und 4 (Natriumpolystyrolsulfonat und intestinale Nekrose) behandeln den Wi |
+| WM-DRUG-4169 | Calciumacetat | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Calciumacetat“ entspricht dem Wirkstoff der Klassifikation (ATC V03AE07). Keine der vier Quellen behandelt aber speziell Calciumacetat.  |
+| WM-DRUG-4170 | Calciumketoglutarat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'calcium oxoglutarate' |
 | WM-DRUG-4254 | Methacholin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt Methacholin bzw. die Methacholin-Provokation direkt. Quelle 1 (Oszillometrie bei Asthma) und Quelle 2 (Screening bei arbeits |
 | WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
 
