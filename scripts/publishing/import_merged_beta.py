@@ -152,22 +152,31 @@ def related_articles(slug: str, fm: dict, limit: int = 6) -> list[str]:
 
     Gibt eine leere Liste zurück, wenn weniger als drei passende Artikel existieren (dann kein Abschnitt)."""
     index = article_index()
-    scored: list[tuple[tuple, str]] = []
     atc = {str(c).upper() for c in fm.get("atc_codes") or [] if c}
     icd = [m.group(0) for c in fm.get("icd10") or [] if (m := ICD_RE.match(str(c).upper()))]
-    for other, info in index.items():
-        if other == slug or info["title"] == str(fm.get("title", "")).strip() or info.get("type") == "patient":
-            continue
-        if atc and info["atc"]:
-            best = max((len(a) for a in info["atc"] for b in atc for a in [_common(a, b)]), default=0)
-            if best >= 4:  # pharmakologische (4) bzw. chemische (5) Untergruppe
-                scored.append(((-best, info["title"]), info["title"]))
-        elif icd and info["icd"]:
-            dist = min((abs(int(a[1:]) - int(b[1:])) for a in info["icd"] for b in icd if a[0] == b[0]), default=99)
-            if dist <= 9:
-                scored.append(((info["specialty"] != fm.get("specialty"), dist, info["title"]), info["title"]))
-    titles = [t for _, t in sorted(scored)][:limit]
-    return titles if len(titles) >= 3 else []
+    own_title = str(fm.get("title", "")).strip()
+
+    def collect(min_common: int, max_dist: int) -> list[str]:
+        scored: list[tuple[tuple, str]] = []
+        for other, info in index.items():
+            if other == slug or info["title"] == own_title or info.get("type") == "patient":
+                continue
+            if atc and info["atc"]:
+                best = max((len(a) for a in info["atc"] for b in atc for a in [_common(a, b)]), default=0)
+                if best >= min_common:  # 5 chemische, 4 pharmakologische, 3 therapeutische Untergruppe
+                    scored.append(((-best, info["title"]), info["title"]))
+            elif icd and info["icd"]:
+                dist = min((abs(int(a[1:]) - int(b[1:])) for a in info["icd"] for b in icd if a[0] == b[0]), default=99)
+                if dist <= max_dist:
+                    scored.append(((info["specialty"] != fm.get("specialty"), dist, info["title"]), info["title"]))
+        return [t for _, t in sorted(scored)][:limit]
+
+    titles = collect(4, 9)
+    if len(titles) < 3:
+        # 03.11.2026 (SEO-Befund: 333 Artikel ohne ausgehende Verweise): weiter fassen – therapeutische ATC-Untergruppe
+        # (z. B. C03 Diuretika) bzw. ICD-Kodes desselben Kapitels bis Abstand 30 –, damit auch kleine Gruppen verlinkt sind.
+        titles = collect(3, 30)
+    return titles if len(titles) >= 2 else []
 
 
 def _common(a: str, b: str) -> str:
