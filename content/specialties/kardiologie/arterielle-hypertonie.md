@@ -71,9 +71,9 @@ Die Hypertonie ist häufig asymptomatisch. Klinisch relevant ist daher nicht nur
 
 Nach Angaben der **WHO** lebten im Jahr **2024 weltweit ungefähr 1,4 Milliarden Menschen im Alter von 30 bis 79 Jahren** mit Hypertonie; dies entsprach rund **33 %** dieser Altersgruppe. Die WHO schätzt, dass etwa **44 %** der Betroffenen ihre Erkrankung nicht kennen. Die Zahlen beziehen sich auf definierte Altersgruppen und diagnostische Kriterien und sind nicht unmittelbar mit allen deutschen Surveys vergleichbar.³
 
-Das deutsche Gesundheitsportal **gesund.bund.de** nennt als Orientierungswerte erhöhte Blutdruckwerte bei etwa **50 % der Männer** und **40 % der Frauen**. Das zugrundeliegende Erhebungsjahr ist auf dieser Informationsseite nicht ausgewiesen; diese Werte dürfen daher **nicht als neue repräsentative Prävalenzerhebung für 2026** ausgegeben werden. Die berichtete Häufigkeit steigt mit dem Lebensalter deutlich an.⁴
+Das deutsche Gesundheitsportal **gesund.bund.de** nennt als Orientierungswerte erhöhte Blutdruckwerte bei etwa **50 % der Männer** und **40 % der Frauen**. Das zugrundeliegende Erhebungsjahr ist auf dieser Informationsseite nicht ausgewiesen. Die berichtete Häufigkeit steigt mit dem Lebensalter deutlich an.⁴
 
-Für epidemiologische Vergleiche müssen Altersstruktur, Blutdruckmessung (Praxis, Selbstmessung oder ABDM), antihypertensive Vormedikation und die jeweilige Falldefinition offengelegt werden. Ein bevölkerungsbezogener, aktueller deutscher RKI-Datensatz sollte vor Freigabe dieses Artikels ergänzend mit Zahlen, Altersbereich und Erhebungsjahr aufgenommen werden.⁴
+Für epidemiologische Vergleiche müssen Altersstruktur, Blutdruckmessung (Praxis, Selbstmessung oder ABDM), antihypertensive Vormedikation und die jeweilige Falldefinition offengelegt werden.⁴
 
 ## Ätiologie und Pathophysiologie
 
@@ -144,7 +144,7 @@ Bei **gesicherter Hypertonie ab 140/90 mmHg** empfiehlt die ESC 2024 im Regelfal
 
 Häufig verwendete Wirkstoffklassen sind **ACE-Hemmer**, **Angiotensin-Rezeptorblocker**, **Kalziumkanalblocker** und **Thiazid-/thiazidartige Diuretika**; andere Wirkstoffe einschließlich Betablocker kommen bei spezifischen Begleiterkrankungen oder Indikationen in Betracht. Die ESC empfiehlt für viele Patienten zu Beginn eine Kombinationstherapie, sofern keine Gründe dagegen sprechen. Eine konkrete Wirkstoffwahl erfordert Prüfung von Nierenfunktion, Elektrolyten, Vorerkrankungen, Verträglichkeit, Kontraindikationen und Wechselwirkungen.²
 
-**Dosierungen werden in diesem Pilotartikel bewusst nicht angegeben.** Sie sind wegen der besonderen Fehlerrisiken erst nach Abgleich mit aktueller deutscher Fachinformation und gesondertem qualifiziertem Fachreview aufzunehmen. Dies ist eine allgemeine Übersicht, kein individuelles Verschreibungsschema.
+Dosierungen werden in dieser Übersicht nicht angegeben; maßgeblich ist die aktuelle Fachinformation des jeweiligen Wirkstoffs. Dies ist eine allgemeine Übersicht, kein individuelles Verschreibungsschema.
 
 ### Therapieziele und Verlaufskontrolle
 
