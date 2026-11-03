@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 03.11.2026 00:25. Warteschlange: claimed 1, duplicate 476, failed 1, merged 31, planned 862, published 1968, ready 10, redirect 403, review 3359.
+Stand: 03.11.2026 01:26. Warteschlange: claimed 1, duplicate 476, failed 1, merged 31, planned 824, published 1977, ready 24, redirect 403, review 3374.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -242,6 +242,7 @@ Stand: 03.11.2026 00:25. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DIS-0746 | Überfunktion der Hypophyse | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (E22 umfasst die Überfunktion der Hypophyse (hormonaktive Hypophysenadenome, z. B. Akromegalie, Hyperprolaktinämie). Der Titel „Überfunktion der Hyp |
 | WM-DIS-0747 | Krankheiten der Zunge | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (K14 umfasst Glossitis, Landkartenzunge, Makroglossie, Glossodynie, Zungenatrophie u. a.; „Erkrankungen der Zunge“ ist ein passendes Synonym. Passen |
 | WM-DIS-0748 | Sonstige Krankheiten des Darmes | disease | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Titel entspricht K63 (sonstige Darmkrankheiten). Nur Quelle 3 behandelt nichttraumatische Darmperforation bei Erwachsenen; die übrigen betreffen p |
+| WM-DIS-0750 | Sonstige Störungen des Kreislaufsystems bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Titel ist korrekt. Nur Quelle 9 behandelt explizit 'circulatory disorders' (Lebermanifestationen). Quelle 7 ist Thromboangiitis obliterans (I73.1) |
 | WM-DIS-0751 | Keratitis | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
 --- Validation Sum |
@@ -428,6 +429,7 @@ Stand: 03.11.2026 00:25. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DIS-1141 | Beschleunigte Blutkörperchensenkungsreaktion und Veränderungen der Plasmaviskosität | disease | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel entspricht R70 (erhöhte BSG und veränderte Plasmaviskosität). Nur Quelle 7 behandelt die BSG als solche, nämlich ihre klinische Anwendung |
 | WM-DIS-1142 | Abnorme Befunde bei der bildgebenden Diagnostik des Zentralnervensystems | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (R90 umfasst unspezifische abnorme ZNS-Bildgebungsbefunde ohne konkrete Diagnose. Der Titel entspricht dem. Alle zwölf Quellen behandeln jedoch spe |
 | WM-DIS-1144 | Sonstiger plötzlicher Tod unbekannter Ursache | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel „Plötzlicher unerwarteter Tod unbekannter Ursache“ entspricht R96 (sonstiger plötzlicher Tod unbekannter Ursache), ein gebräuchliches Syn |
+| WM-DIS-1147 | Verbrennung oder Verätzung des Rumpfes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'burns trunk' |
 | WM-DIS-1150 | Störungen im Zusammenhang mit langer Schwangerschaftsdauer und hohem Geburtsgewicht | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel deckt ICD-10-GM P08 ab. Nur Quelle 3 behandelt explizit Postterm Pregnancy/Late-Term. Quellen 1 und 2 sind allgemein zur Weheneinleitung, Que |
 | WM-DIS-1151 | Intrauterine Hypoxie | disease | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Titel entspricht ICD-Code P20. Quelle 2 behandelt den Mechanismus direkt, Quelle 4 die Folgen. Quelle 5 ist zu allgemein (Prenatal Hypoxia), 6 bezi |
 | WM-DIS-1153 | Nabelblutung beim Neugeborenen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'umbilical bleeding' |
@@ -472,6 +474,7 @@ Stand: 03.11.2026 00:25. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DIS-1267 | Sonstige erworbene Deformitäten des Muskel-Skelett-Systems und des Bindegewebes | disease | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Titel passt zu M95. Quellen 2 (Plattfuß), 5 (Hüftdysplasie) und 6 (Torticollis) behandeln erworbene oder im Kontext der Deformitäten-Diagnostik rel |
 | WM-DIS-1268 | Sonstige Appendizitis | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (K36 'Sonstige Appendizitis' (z. B. chronische/rezidivierende Appendizitis) wird als Titel 'Sonstige Appendizitis' korrekt wiedergegeben. Quelle 3 b |
 | WM-DIS-1270 | Venenkrankheiten und Hämorrhoiden als Komplikationen im Wochenbett | disease | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Titel deckt ICD-Code ab. Quellen 1, 2, 5 behandeln postpartale venöse Thromboembolie (VTE), was unter O87 fällt. Quelle 3 und 4 behandeln Placenta  |
+| WM-DIS-1271 | Tuberkulose der Atmungsorgane, weder bakteriologisch, molekularbiologisch noch histologisch gesichert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Tuberkulose der Lunge' ist ein Oberbegriff. Die ICD-10-GM A16 bezieht sich spezifisch auf nicht gesicherte Fälle. Da der |
 | WM-DIS-1274 | Angeborene Fehlbildung des hinteren Augenabschnittes | disease | zu wenige Quellen mit Zusammenfassung (0) für 'posterior eye malformation' |
 | WM-DIS-1275 | Angeborene Fehlbildungen der Nase | disease | zu wenige Quellen mit Zusammenfassung (2) für 'Nasal anomalies' |
 | WM-DIS-1276 | Angeborene(s) Fehlen, Atresie und Stenose des Dickdarmes | disease | zu wenige Quellen mit Zusammenfassung (3) für 'colonic atresia' |
@@ -529,6 +532,7 @@ Stand: 03.11.2026 00:25. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DIS-1411 | Folgen entzündlicher Krankheiten des Zentralnervensystems | disease | zu wenige Quellen mit Zusammenfassung (1) für 'neuroinflammatory sequelae' |
 | WM-DIS-1412 | Sonstige Krankheiten des peripheren Nervensystems | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G64 meint 'Sonstige Krankheiten des peripheren Nervensystems' (nicht näher bezeichnete/sonstige Neuropathien; spezifische Ursachen wie diabe |
 | WM-DIS-1413 | Sonstige Krankheiten des Nervensystems, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (G98 ist eine Restkategorie für spezifische, anderenorts nicht klassifizierte Nervensystemerkrankungen. Der Titel „Sonstige neurologische Erk |
+| WM-DIS-1419 | Sonstige Krankheiten des Penis | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM N48 umfasst u.a. Balanitis, Phimose, Paraphimose, Peyronie, Priapismus und Lues genitalis. Der Titel 'Erkrankungen des Penis' ist  |
 | WM-DIS-1424 | Exfoliative Dermatitis | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel entspricht ICD-10-GM L26. Quellen 4, 5, 6 behandeln Exfoliative Dermatitis/Erythroderma beim Menschen. Quelle 1 ist paraneoplastisch, 2/3 sin |
 | WM-DIS-1428 | Sonstige Affektionen der Konjunktiva | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
@@ -553,6 +557,8 @@ Stand: 03.11.2026 00:25. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DIS-1463 | Sonstige Darmkrankheiten durch Protozoen | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (ICD-10-GM A07 umfasst sonstige Darmkrankheiten durch Protozoen (u. a. Giardiasis, Kryptosporidiose, Balantidiasis, Isosporiasis). Der Titel „Darmin |
 | WM-DIS-1465 | Sonstige Krankheiten der Schilddrüse | disease | Bestätigungsquote 23/51 unter 60 % |
 | WM-DIS-1466 | Sonstige Vitaminmangelzustände | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (ICD-10-GM E56 ist eine spezifische Diagnosekategorie für einzelne Vitaminmängel (z.B. B1, B3, B6, C, D, E). Die Quellen behandeln 'vitamin deficien |
+| WM-DIS-1468 | Sonstige Krankheiten der Mutter, die anderenorts klassifizierbar sind, die jedoch Schwangerschaft, Geburt und Wochenbett komplizieren | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Schwangerschaftsbedingte Erkrankungen' ist ein zu allgemeiner Oberbegriff. Die ICD-10-GM O99 bezieht sich spezifisch auf |
+| WM-DIS-1469 | Sonstige Anämien | disease | zu wenige Quellen mit Zusammenfassung (2) für 'other anemias' |
 | WM-DIS-1475 | Sonstige Störungen der Blickbewegungen | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
 --- Validation Sum |
@@ -566,14 +572,23 @@ Stand: 03.11.2026 00:25. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DIS-1491 | Sonstige Affektionen des Auges und der Augenanhangsgebilde | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
 --- Validation Sum |
+| WM-DIS-1507 | Sonstige Krankheiten des äußeren Ohres | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (H61 umfasst sonstige Krankheiten des äußeren Ohres (z. B. Perichondritis, Gehörgangsstenose, Cerumen, Ohrmuschelfehlbildungen). Otitis exter |
+| WM-DIS-1508 | Sonstige Krankheiten des Innenohres | disease | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Der Titel „Sonstige Erkrankungen des Innenohres“ entspricht H83 (Sonstige Krankheiten des Innenohres); Synonym Krankheiten/Erkrankungen ist unprob |
+| WM-DIS-1509 | Sonstige Krankheiten des Ohres, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 1 von 15 Quellen passen zum Thema (ICD-10-GM H93 umfasst Tinnitus. Quelle 13 behandelt Tinnitus direkt. Andere Quellen behandeln spezifischere Unterkategorien (H60-H65, H81-H83) ode |
 | WM-DIS-1510 | Sonstige Symptome, die das Nervensystem und das Muskel-Skelett-System betreffen | disease | Bestätigungsquote 26/76 unter 60 % |
 | WM-DIS-1519 | Sonstige abnorme immunologische Serumbefunde | disease | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Der Suchbegriff 'immune dysregulation' ist zu allgemein und bezieht sich auf pathophysiologische Mechanismen in vielen Erkrankungen (Sepsis, Parki |
 | WM-DIS-1520 | Sonstige Veränderungen der Plasmaproteine | disease | zu wenige Quellen mit Zusammenfassung (0) für 'plasma protein disorders' |
 | WM-DIS-1521 | Entzündliche Krankheit der Cervix uteri | disease | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Titel passt zur ICD-10-GM N72. Nur Quelle 6 (Tuberkulöse Zervizitis) und 9 (Übersicht über Zervizitis) behandeln explizit das Krankheitsbild. Quel |
 | WM-DIS-1529 | Fraktur der oberen Extremität, Höhe nicht näher bezeichnet | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Fraktur der oberen Extremität' ist ein allgemeiner Oberbegriff, der den spezifischen ICD-10-GM-Code T10 ('Höhe nicht näh |
 | WM-DIS-1538 | Sonstige Hautveränderungen | disease | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Titel entspricht der ICD-Bezeichnung (Restkategorie unspezifischer Hautveränderungen). Die meisten Quellen behandeln spezifische Erkrankungen (Pso |
+| WM-DIS-1543 | Sonstige Krankheiten des Trommelfells | disease | zu wenige Quellen mit Zusammenfassung (0) für 'tympanic membrane diseases' |
 | WM-DIS-1554 | Sonstige Symptome, die das Kreislaufsystem und das Atmungssystem betreffen | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Titel entspricht ICD-10-GM R09. Nur Quelle 6 behandelt explizit 'cardiorespiratory symptoms' als Hauptthema. Quelle 2 (Aortenklappenstenose) und 5  |
 | WM-DIS-1556 | Sonstige Symptome, die die Sinneswahrnehmungen und das Wahrnehmungsvermögen betreffen | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine Quelle behandelt ICD-10-GM R44 spezifisch; alle Quellen fokussieren sich auf spezifische neuropathische oder neurologische Erkrankungen (z.B |
+| WM-DIS-1567 | Tod an den Folgen gestationsbedingter Ursachen | disease | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/45 unter 60 % |
+| WM-DIS-1574 | Sonstige Symptome, die das Harnsystem betreffen | disease | Bestätigungsquote 35/70 unter 60 % |
+| WM-DIS-1591 | Sonstige abnorme Befunde der Blutchemie | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch ICD-10 R79 (abnorme Blutchemie-Befunde). Quelle 2 bezieht sich auf COVID-19-Schweregrade, nicht auf allgemei |
+| WM-DIS-1613 | Sonstige Koordinationsstörungen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM R27 umfasst organische Koordinationsstörungen (z.B. Ataxie), während die Quellen fast ausschließlich 'Developmental Coordination D |
+| WM-DIS-1638 | Nystagmus und sonstige abnorme Augenbewegungen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Titel deckt das ICD-10-GM H55 ab. Alle 15 Quellen behandeln Nystagmus als Hauptthema oder zentrales Symptom im Kontext von Augenbewegung |
 | WM-DRUG-0106 | Blutgerinnungsfaktor VIII | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel 'Blutgerinnungsfaktor VIII' entspricht dem Wirkstoff Faktor VIII (ATC B02BD02). Die Quellen 1–3 behandeln Faktor VIII als Protein und Wir |
 | WM-DRUG-0113 | Aripiprazol | drug | Bestätigungsquote 23/44 unter 60 % |
 | WM-DRUG-0121 | Bevacizumab | drug | zu viele nur teilweise belegte Sätze (22/35) |
