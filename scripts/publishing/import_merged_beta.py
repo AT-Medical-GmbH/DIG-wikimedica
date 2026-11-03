@@ -174,7 +174,7 @@ def related_articles(slug: str, fm: dict, limit: int = 6) -> list[str]:
     if slug in ev:  # Eingriffsartikel (ohne ATC/ICD): Indikations-Erkrankungen (kuratiert) + Eingriffe desselben Fachgebiets
         rel = [index[s]["title"] for s in ev[slug] if s in index]
         same = sorted(info["title"] for other, info in index.items() if other != slug and other in ev and info["specialty"] == fm.get("specialty"))
-        titles = (rel + [t for t in same if t not in rel])[:limit]
+        titles = (rel + [t for t in same if t not in rel])[:max(4, min(limit, len(rel)))]  # Fachgebiets-Eingriffe nur auffüllen, Indikationen haben Vorrang
         return titles if len(titles) >= 2 else []
 
     def collect(min_common: int, max_dist: int) -> list[str]:
