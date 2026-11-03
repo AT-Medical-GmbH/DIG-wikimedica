@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, planned 896, published 2123, ready 2, redirect 403, review 3236.
+Stand: 03.11.2026 19:25. Warteschlange: claimed 1, duplicate 489, failed 1, planned 774, published 2125, ready 8, redirect 403, review 3350.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -54,8 +54,11 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DIS-0337 | Persönlichkeits- und Verhaltensstörung aufgrund einer Krankheit, Schädigung oder Funktionsstörung des Gehirns | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel passt zur ICD-10 F07. Quellen 1, 6 und 8 behandeln Persönlichkeits-/Verhaltensänderungen durch organische Hirnschädigungen. Quelle 2 (Stimme) |
 | WM-DIS-0341 | Psychische und Verhaltensstörungen in Verbindung mit der sexuellen Entwicklung und Orientierung | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (F66 umfasst psychische und Verhaltensstörungen im Zusammenhang mit sexueller Entwicklung und Orientierung, und der Titel bezeichnet dasselbe Krankh |
 | WM-DIS-0342 | Störungen sozialer Funktionen mit Beginn in der Kindheit und Jugend | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Störungen sozialer Funktionen im Kindes- und Jugendalter“ entspricht F94 (Störungen sozialer Funktionen mit Beginn in der Kindheit und J |
+| WM-DIS-0347 | Krankheiten des Nervensystems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Titel passt zu G97. Quelle 4 behandelt explizit iatrogene neuropathies. Quelle 5 behandelt iatrogene Neuropathien durch schnelle Glukosekontrolle. |
 | WM-DIS-0348 | Akute Lymphadenitis | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch akute bakterielle Lymphadenitis (L04). Quelle 2 ist zu allgemein (Lymphadenopathie), Quelle 1 betrifft Follikulit |
+| WM-DIS-0352 | Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika | disease | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Titel deckt F13 ab. Quelle 1 (Pflanzenextrakte) und 3 (Methaqualon als Einzelsubstanz/Chemie) passen nicht zum breiten Krankheitsbild der Abhängigk |
 | WM-DIS-0354 | Psychische und Verhaltensstörungen durch andere Stimulanzien, einschließlich Koffein | disease | Bestätigungsquote 19/37 unter 60 % |
+| WM-DIS-0355 | Psychische und Verhaltensstörungen durch Halluzinogene | disease | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Störungen durch Halluzinogene“ nicht: „Zu den betroffenen Wirkstoffen zählen klassische Psychedelika wie Psilocybin, Lysergsäurediamid (LSD), M |
 | WM-DIS-0362 | Pathologische Zustände der Plazenta | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (O43 umfasst Plazentaerkrankungen wie Plazentadysfunktion, Plazenta-Transfusionssyndrom und Placenta accreta. Der Titel „Pathologische Zustände der  |
 | WM-DIS-0373 | Andere neurotische Störungen | disease | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (F48 „Andere neurotische Störungen“ (u. a. Neurasthenie, Depersonalisations-/Derealisationssyndrom) entspricht dem Titel. Nur Quelle 6 behandelt ne |
 | WM-DIS-0375 | Leichte Intelligenzminderung | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Leichte Intelligenzminderung“ entspricht ICD-10-GM F70 (mild intellectual disability). Quelle 4 (zahnmedizinische Versorgung Erwachsener |
@@ -67,14 +70,19 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DIS-0392 | Harnstein bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (N22 meint Harnstein bei anderenorts klassifizierten Krankheiten (z. B. bei Gicht, Hyperparathyreoidismus, Schistosomiasis). Der Titel „Harnsteinle |
 | WM-DIS-0394 | Glomeruläre Krankheiten bei anderenorts klassifizierten Krankheiten | disease | Bestätigungsquote 25/45 unter 60 % |
 | WM-DIS-0402 | Krankheiten der Gallenblase, der Gallenwege und des Pankreas bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM K87 bezeichnet spezifisch Krankheiten der Gallenblase/Gallenwege bei anderenorts klassifizierten Krankheiten (sekundäre Affektione |
+| WM-DIS-0405 | Oberflächliche Verletzung des Kopfes | disease | Themenprüfung: nur 0 von 13 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch ICD-10 S00 (oberflächliche Kopfverletzungen ohne Fraktur/Kontusion). Quelle 6 behandelt Prävention von Gehi |
 | WM-DIS-0409 | Andere Persönlichkeits- und Verhaltensstörungen | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel entspricht der ICD-10-GM-Kategorie F68. Alle Quellen behandeln Persönlichkeitsstörungen allgemein oder F60-Störungen wie Borderline, ant |
 | WM-DIS-0410 | Kombinierte Störung des Sozialverhaltens und der Emotionen | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Keine der 11 Quellen behandelt spezifisch ICD-10 F92 (kombinierte Störung des Sozialverhaltens und der Emotionen). Die Quellen behandeln transdiag |
 | WM-DIS-0414 | Krankheiten des N. facialis VII. Hirnnerv | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel entspricht G51 (Fazialisparese und sonstige Fazialiserkrankungen). Quellen 1–3 behandeln Fazialisparese bzw. deren Diagnostik und Differenzia |
+| WM-DIS-0417 | Polyp des weiblichen Genitaltraktes | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Titel passt zur ICD-10-GM N84. Quelle 1 behandelt direkt das Thema. Quelle 2 ist ein Fallbericht zu einem Vulvapolyp (Teil des weiblichen Genitaltr |
+| WM-DIS-0418 | Komplikationen im Zusammenhang mit künstlicher Befruchtung | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Komplikationen bei künstlicher Befruchtung (ART).) |
 | WM-DIS-0435 | Myeloische Leukämie | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-C92 umfasst akute und chronische myeloische Leukämien. Der Titel 'Myeloische Leukämie' ist ein Oberbegriff, der die spezifische Form  |
 | WM-DIS-0437 | Krankheiten der Harnröhre bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM N37 bezeichnet spezifisch Harnröhrenkrankheiten bei anderenorts klassifizierten Krankheiten (z.B. Tuberkulose, Syphilis, Trachom). |
 | WM-DIS-0438 | Hernia umbilicalis | disease | Bestätigungsquote 25/46 unter 60 % |
+| WM-DIS-0444 | Sonstige erworbene Deformitäten der Extremitäten | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Titel passt zum ICD-Code. Nur Quelle 2 behandelt erworbenen Deformitäten der Extremitäten allgemein. Quelle 1, 4, 5 sind spezifisch (Rickets, Knie, |
 | WM-DIS-0445 | Sonstige näher bezeichnete Gelenkschädigungen | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel entspricht M24. Nur Quelle 1 (Knorpel-/osteochondrale Defekte, M24.1) passt; 2 ist ein Tumor, 3 septische Arthritis (M00), 4 überwiegend Arth |
 | WM-DIS-0448 | Chronische Laryngitis und Laryngotracheitis | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel entspricht J37 (chronische Laryngitis und Laryngotracheitis). Quelle 1 behandelt chronische bakterielle und Sicca-Laryngitis, Quelle 3 ch |
+| WM-DIS-0450 | Komplikationen durch Prothesen, Implantate oder Transplantate im Urogenitaltrakt | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt Komplikationen durch Implantate/Prothesen im Urogenitaltrakt. Alle Quellen beziehen sich auf andere Themenbereiche (On |
 | WM-DIS-0451 | Offene Wunde des Kopfes | disease | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quellen 1–3 behandeln penetrierende/offene Kopfverletzungen; Quelle 4 behandelt paroxysmale sympathische Hyperaktivität bei Schädel-Hirn-Trauma, al |
 | WM-DIS-0452 | Hals- und Brustschmerzen | disease | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Titel passt zum ICD-Code R07. Quelle 2 behandelt Nackenschmerzen (Teil von R07). Quelle 4 behandelt systematisch Nacken- und Brustschmerzen. Ander |
 | WM-DIS-0454 | Bösartige Neubildung der Cervix uteri | disease | zu viele nur teilweise belegte Sätze (16/39) |
@@ -83,9 +91,12 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DIS-0459 | Kompression von Nervenwurzeln und Nervenplexus bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Nur Quelle 12 behandelt explizit Nervenwurzelkompression (G55) bei einer anderenorts klassifizierten Krankheit (Gicht/Tophi). Quelle 8 behandelt D |
 | WM-DIS-0460 | Chronische tubulointerstitielle Nephritis | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel „Chronische interstitielle Nephritis“ ist ein gebräuchliches Synonym für die chronische tubulointerstitielle Nephritis (N11). Passend sin |
 | WM-DIS-0461 | Spontangeburt eines Einlings | disease | Bestätigungsquote 24/51 unter 60 % |
+| WM-DIS-0463 | Gestationsödeme und Gestationsproteinurie schwangerschaftsinduziert ohne Hypertonie | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Gestationsödeme ohne Hypertonie; alle behandeln Preeklampsie (mit Hypertonie), Hydrops fetalis oder andere T |
 | WM-DIS-0464 | Blutung in der Frühschwangerschaft | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Blutungen in der Frühschwangerschaft“ entspricht O20 (Blutung in der Frühschwangerschaft). Quelle 2 behandelt Komplikationen im ersten T |
 | WM-DIS-0466 | Präpartale Blutung, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 1 von 14 Quellen passen zum Thema (Titel ist ein gängiges Synonym für O46. Nur Quelle 3 behandelt antepartale Blutung allgemein; die übrigen betreffen Placenta praevia, Vasa praevia |
+| WM-DIS-0467 | Frustrane Kontraktionen Unnütze Wehen | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Titel ist Synonym für O47. Nur Quelle 6 behandelt direkt die Latenzphase/Wehenaktivität ohne Fortschreiten. Quelle 4 (Zervix) und 5 (Entbindung) si |
 | WM-DIS-0471 | Oberflächliche Verletzung des Thorax | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (S20 meint oberflächliche Verletzungen des Thorax (Prellung, Schürfwunde, Insektenbiss, Blase, oberflächlicher Fremdkörper), also Weichteilverletzu |
+| WM-DIS-0472 | Fraktur im Bereich des Handgelenkes und der Hand | disease | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Frakturen im Handgelenk und an der Hand“ nicht: „Die Diagnosestellung erfolgt primär klinisch und radiologisch, wobei moderne diagnostische Ans |
 | WM-DIS-0478 | Systematrophien, vorwiegend das Zentralnervensystem betreffend, bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10-GM G13 (Systematrophien bei anderenorts klassifizierten Krankheiten). Die Quellen behandeln allgemeine neu |
 | WM-DIS-0484 | Nicht näher bezeichnete affektive Störung | disease | Import ins Wiki fehlgeschlagen: existing page is not owned by this BETA article; refusing overwrite |
 | WM-DIS-0489 | Krankheiten des Muskel-Skelett-Systems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (M96 umfasst nur Muskel-Skelett-Erkrankungen nach medizinischen Maßnahmen, z. B. Postlaminektomie-Syndrom, Pseudarthrose nach Fusion oder Feh |
@@ -95,22 +106,29 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DIS-0498 | Oberflächliche Verletzung des Halses | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (ICD-10-GM S10 umfasst oberflächliche Verletzungen des Halses (Prellung, Schürfwunde, Blasenbildung, oberflächlicher Fremdkörper, Insektenbiss usw. |
 | WM-DIS-0499 | Meningitis bei sonstigen anderenorts klassifizierten infektiösen und parasitären Krankheiten | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (ICD-10-GM G02 bezeichnet spezifisch Meningitis bei anderenorts klassifizierten infektiösen Krankheiten (z.B. Tuberkulose, Syphilis, Brucellose, Va |
 | WM-DIS-0505 | Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen | disease | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Titel entspricht C79 (Metastasen sonstiger Lokalisationen). Keine Quelle behandelt dieses Krankheitsbild; die Quellen betreffen Zweitmalignome (th |
+| WM-DIS-0508 | Verletzung der Nerven und des lumbalen Rückenmarkes in Höhe des Abdomens, der Lumbosakralgegend und des Beckens | disease | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Titel passt zur ICD-10-GM S34. Nur Quelle 4 (Anatomie/Imaging des Plexus) und 6 (Plexopathien) behandeln explizit den lumbosakralen Plexus/Nerven.  |
 | WM-DIS-0509 | Monozytenleukämie | disease | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Der Titel „Monozytenleukämie“ entspricht C93 (Monozytenleukämie, inkl. akute monozytäre Leukämie). Quellen 1 (AML-M5), 2 (AML mit monozytärer Diffe |
 | WM-DIS-0510 | Sonstige Muskelkrankheiten | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Alle Quellen behandeln idiopathische entzündliche bzw. autoimmune Myopathien (Dermatomyositis/Polymyositis, ICD-10 M33/M60), nicht die unter M62 k |
 | WM-DIS-0511 | Sonstige Krankheiten der Synovialis und der Sehnen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (M67 umfasst sonstige Synovial-/Sehnenkrankheiten; der Titel ist ein allgemeinerer Oberbegriff (Kapitelzuschnitt M65–M68). Die meisten Quelle |
 | WM-DIS-0517 | Sonstige Arthritis | disease | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel entspricht M13 (Plural). Nur Quellen 3, 6 und 7 behandeln die undifferenzierte Arthritis; die übrigen betreffen RA, PsA, JIA, Spondyloarthri |
+| WM-DIS-0524 | Leukämie nicht näher bezeichneten Zelltyps | disease | zu wenige Quellen mit Zusammenfassung (0) für 'leukemia of unspecified cell type' |
 | WM-DIS-0525 | Mononeuropathie bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Mononeuropathien bei anderenorts klassifizierten Krankheiten (z.B. diabetisch, amyloidotisch). Alle Quellen bezie |
 | WM-DIS-0526 | Toxische Enzephalopathie | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (G92 entspricht der toxischen Enzephalopathie, der Titel ist passend. Passend sind die Fallberichte zu Quecksilber (3), Abamectin (5) und Capecitabi |
 | WM-DIS-0529 | Verletzung an einer nicht näher bezeichneten Körperregion | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (T14 umfasst unspezifische Verletzungen ohne Angabe der Körperregion. Der Titel zu Diagnostik und Erstversorgung von Verletzungen passt dazu. Allge |
 | WM-DIS-0530 | Bösartige Neubildung des Knochens und des Gelenkknorpels sonstiger und nicht näher bezeichneter Lokalisationen | disease | Bestätigungsquote 33/57 unter 60 % |
 | WM-DIS-0533 | Verletzung sonstiger und nicht näher bezeichneter intrathorakaler Organe | disease | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (S27 umfasst Verletzungen sonstiger intrathorakaler Organe (Lunge/Pleura wie Pneumo-/Hämatothorax, Herz, Zwerchfell, Mediastinum), nicht Rippen- od |
+| WM-DIS-0536 | Fraktur der Lendenwirbelsäule und des Beckens | disease | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 6 behandelt explizit lumbosakrale und sakrale Frakturen (Becken/Wirbelsäule). Quelle 1 betrifft Spondylolysis (keine Fraktur), 2/3/4 sin |
 | WM-DIS-0538 | Sonstige zerebrovaskuläre Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle 16 Quellen behandeln Moyamoya-Krankheit, die in ICD-10-GM unter I67.5 fällt und damit Teil von I67 ist. Der Titel „Sonstige zerebrovask |
 | WM-DIS-0539 | Störungen des Mineralstoffwechsels | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel passt zu ICD-10 E83. Quelle 1, 3 und 6 behandeln Mineralstoffwechselstörungen im Kontext von CKD (chronische Nierenerkrankung), was ein Haupt |
+| WM-DIS-0540 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern in Halshöhe | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt zervikale Verstauchungen/Zerrungen; Quellen 1 und 4 betreffen das Sprunggelenk, Quelle 2 ist zu allgemein, 3 und 5 irre |
 | WM-DIS-0542 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern der Lendenwirbelsäule und des Beckens | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Der Titel „Verstauchung und Zerrung der Lendenwirbelsäule“ entspricht dem Kern von S33 (Zerrung/Verstauchung der LWS) und ist als Zuschnitt in Ord |
 | WM-DIS-0543 | Bestimmte Frühkomplikationen eines Traumas, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (ICD-10-GM T79 umfasst bestimmte Frühkomplikationen eines Traumas (z. B. traumatische Luftembolie, Fettembolie, posttraumatisches Kompartmentsyndrom |
+| WM-DIS-0545 | Verletzung von Blutgefäßen in Halshöhe | disease | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Verletzungen der Halsgefäße“ nicht: „In systematischen Übersichten wurden Fälle von Gefäßläsionen nach zervikalen Wirbelsäuleneingriffen zwisch |
 | WM-DIS-0548 | Status asthmaticus | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel „Status asthmatdisch“ ist ein Tippfehler bzw. keine korrekte Bezeichnung; gemeint ist „Status asthmaticus“ (J46). Das Kra |
 | WM-DIS-0549 | Offene Wunde des Thorax | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel 'Offene Thoraxverletzungen' entspricht ICD-10-GM S21 (offene Wunde des Thorax). Quelle 3 (Chest Seals bei penetrierenden Thoraxverletzung |
+| WM-DIS-0550 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern im Bereich des Thorax | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Luxation/Verstauchung von Thoraxgelenken (z.B. Rippen-Swirbel-Gelenke). Quellen 1-3 behandeln Aortenerkrankungen, |
 | WM-DIS-0556 | Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (C78 umfasst nur sekundäre bösartige Neubildungen der Atmungs- und Verdauungsorgane (z. B. Lungen-, Pleura-, Leber-Metastasen). Der Titel „Se |
+| WM-DIS-0561 | Oberflächliche Verletzung des Abdomens, der Lumbosakralgegend und des Beckens | disease | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch oberflächliche Verletzungen des Abdomens/Beckens (ICD-10 S30). Quelle 1 betrifft Gastritis, 2 postpartale Wu |
 | WM-DIS-0564 | Oberflächliche Verletzung der Knöchelregion und des Fußes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S90 bezeichnet oberflächliche Verletzungen (z.B. Prellungen, Abschürfungen), während 'ankle sprain' (Knöchelbandverletzung/Zerrung |
 | WM-DIS-0565 | Offene Wunde der Knöchelregion und des Fußes | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Suchbegriff 'foot ulcer' bezieht sich primär auf diabetische Ulzera, nicht auf offene Wunden (S91) nach Trauma. Keine Quelle passt zum geplanten T |
 | WM-DIS-0566 | Fraktur des Fußes ausgenommen oberes Sprunggelenk | disease | Bestätigungsquote 24/45 unter 60 % |
@@ -128,16 +146,29 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DIS-0586 | Leberversagen, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (K72 umfasst akutes/fulminantes, subakutes und chronisches Leberversagen. Der Titel „Akutes Leberversagen“ ist ein vertretbarer Zuschnitt. Rein ACL |
 | WM-DIS-0588 | Leberkrankheiten bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (ICD-10-GM K77 bezeichnet Lebererkrankungen als Manifestation andererorts klassifizierter Krankheiten (z.B. Diabetes, Alkoholismus, Tuberkulose). D |
 | WM-DIS-0589 | Sonstige kardiale Erregungsleitungsstörungen | disease | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel „Störungen der Erregungsleitung im Herzen“ entspricht I45 (sonstige kardiale Erregungsleitungsstörungen). Nur die Quellen 3 (progressive  |
+| WM-DIS-0591 | Offene Wunde des Handgelenkes und der Hand | disease | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch offene Wunden des Handgelenkes/der Hand (ICD-10 S61). Quelle 5 erwähnt Handchirurgie im Kontext von Massenka |
 | WM-DIS-0594 | Fraktur im Bereich des Halses | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S12 bezeichnet Frakturen der Halswirbelsäule (Cervical spine), während 'Hüftfraktur' (Hip fracture) die Hüfte betrifft. Titel und  |
+| WM-DIS-0595 | Offene Wunde der Schulter und des Oberarmes | disease | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der Quellen behandelt explizit offene Wunden der Schulter/Oberarm (ICD-10 S41). Quelle 1 betrifft Rehabilitation nach Brustkrebs-OP, 2-4 oper |
 | WM-DIS-0596 | Oberflächliche Verletzung des Unterarmes | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch oberflächliche Verletzungen (S50); alle behandeln Frakturen, Luxationen oder komplexe Weichteilverletzungen.) |
+| WM-DIS-0597 | Offene Wunde des Unterarmes | disease | Themenprüfung: nur 0 von 13 Quellen passen zum Thema (Keine der Quellen behandelt primär die Diagnose 'Offene Wunde des Unterarms' (ICD-10-GM S51). Die Quellen befassen sich mit Rekonstruktion nach Fr |
+| WM-DIS-0598 | Oberflächliche Verletzung der Hüfte und des Oberschenkels | disease | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch oberflächliche Verletzungen der Hüfte/Oberschenkel (ICD-10-GM S70). Quelle 1 ist allgemein, 2 betrifft Knie- |
+| WM-DIS-0599 | Offene Wunde der Hüfte und des Oberschenkels | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine Quelle behandelt primär die Diagnose 'Offene Wunde der Hüfte und des Oberschenkels' (ICD-10-GM S71). Quelle 6 behandelt eine Schusswunde (Tra |
+| WM-DIS-0600 | Oberflächliche Verletzung des Unterschenkels | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Keine Quelle behandelt spezifisch oberflächliche Verletzungen (S80); alle Quellen befassen sich mit tieferen Traumata, Stressfrakturen, Sehnenverl |
+| WM-DIS-0601 | Offene Wunde des Unterschenkels | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch offene Wunden des Unterschenkels (ICD-10-GM S81). Quellen zu peripherer arterieller Verschlusskrankheit, Ven |
 | WM-DIS-0610 | Mangel an sonstigen Spurenelementen | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt ICD-10 E61 spezifisch; alle sind kontextspezifisch (z.B. systemischer Sklerose, Kamele, bariatrische Chirurgie, psychische S |
 | WM-DIS-0616 | Oberflächliche Verletzung der Schulter und des Oberarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S40 bezeichnet oberflächliche Verletzungen (z.B. Prellungen, Abschürfungen). Die Quelle 'shoulder injury' ist zu allgemein und umf |
 | WM-DIS-0617 | Verletzung von Muskeln und Sehnen in Höhe des Handgelenkes und der Hand | disease | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Titel passt zur ICD-10-GM S66. Quelle 1 (Radiocarpal dislocations) und 8 (Spaghetti Wrist Injury, typisch für Sehnenverletzungen) behandeln spezif |
 | WM-DIS-0621 | Schäden durch Hitze und Sonnenlicht | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Hitzeschäden und Sonnenbrand' ist irreführend, da er 'Sonnenbrand' (Hautschädigung) impliziert, ICD-10-GM T67 jedoch sys |
+| WM-DIS-0623 | Induzierte wahnhafte Störung | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch die induzierte wahnhafte Störung (Folie à deux). Titel 1 behandelt psychokutane Effekte von Stimulanzien, Ti |
+| WM-DIS-0624 | Nicht näher bezeichnete nichtorganische Psychose | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10 F29 ist eine spezifische, nicht näher bezeichnete nichtorganische Psychose. Der Suchbegriff 'functional psychosis' wird in der modern |
 | WM-DIS-0627 | Endokrine und Stoffwechselstörungen nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | Bestätigungsquote 24/44 unter 60 % |
+| WM-DIS-0628 | Sonstiges Aneurysma und sonstige Dissektion | disease | Themenprüfung: nur 2 von 13 Quellen passen zum Thema (Titel passt zur ICD-10-GM I72. Nur Quelle 12 (Cervical Artery Dissection) und 13 (Arterial aneurysm and dissection) behandeln explizit Aneurysmen  |
 | WM-DIS-0631 | Bösartige Neubildung des Nasopharynx | disease | zu viele nur teilweise belegte Sätze (19/46) |
 | WM-DIS-0635 | Bösartige Neubildung des Herzens, des Mediastinums und der Pleura | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM C38 umfasst bösartige Neubildungen von Herz, Mediastinum und Pleura. Der Titel entspricht dem weitgehend, daher wäre er grundsätzl |
 | WM-DIS-0643 | Verletzung von Blutgefäßen in Höhe des Handgelenkes und der Hand | disease | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Keine Quelle behandelt spezifisch isolierte Gefäßverletzungen (ICD-10-GM S65). Alle Quellen behandeln allgemeines Handtrauma, Weichteilverletzunge |
+| WM-DIS-0644 | Verletzung von Blutgefäßen in Höhe des Unterschenkels | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch akute Gefäßverletzungen des Unterschenkels; Quellen behandeln Rekonstruktion, chronische venöse Erkrankungen, Hyp |
+| WM-DIS-0645 | Traumatische Amputationen mit Beteiligung mehrerer Körperregionen | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine Quelle behandelt spezifisch traumatische Amputationen mehrerer Körperregionen (ICD-10-GM T05). Quellen fokussieren auf einzelne Gliedmaßen, R |
+| WM-DIS-0648 | Sonstige nichtinfektiöse Gastroenteritis und Kolitis | disease | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch nichtinfektiöse Gastroenteritis/Kolitis beim Menschen; Quelle 3 betrifft Vögel, Quelle 1 Infektionen, Quelle |
 | WM-DIS-0649 | Chronische Hypertonie mit aufgepfropfter Präeklampsie | disease | Themenprüfung: nur 2 von 14 Quellen passen zum Thema (Der Titel „Präeklampsie bei chronischer Hypertonie“ entspricht O11 (aufgepfropfte Präeklampsie). Nur die Quellen 6 und 12 behandeln speziell die a |
 | WM-DIS-0651 | Nicht näher bezeichnete Hypertonie der Mutter | disease | Bestätigungsquote 24/42 unter 60 % |
 | WM-DIS-0654 | Übertragene Schwangerschaft | disease | Bestätigungsquote 16/39 unter 60 % |
@@ -150,7 +181,12 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DIS-0679 | Affektionen des Augapfels | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (H44 umfasst Affektionen des Augapfels (u. a. eitrige Endophthalmitis H44.0, sonstige Endophthalmitis H44.1, degenerative Myopie, Hypotonie, Blutun |
 | WM-DIS-0682 | Verletzung von Blutgefäßen in Höhe der Schulter und des Oberarmes | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel entspricht S45 (Gefäßverletzungen an Schulter und Oberarm) mit kleinem Unterschied im Zuschnitt. Quellen 2 und 3 behandeln stumpfe Verlet |
 | WM-DIS-0683 | Verletzung von Muskeln und Sehnen in Höhe der Schulter und des Oberarmes | disease | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Verletzungen der Rotatorenmanschette“ entspricht S46 (Sehnen und Muskeln der Schulter, v. a. Rotatorenmanschette), Synonym und Mehrzahl  |
+| WM-DIS-0684 | Verletzung von Nerven in Höhe des Unterarmes | disease | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Titel passt zum ICD-Code. Quelle 1 (PIN) und 2 (AIN) behandeln spezifische Unterarmnervenverletzungen. Quelle 6 betrifft das Handgelenk (Carpaltunn |
+| WM-DIS-0685 | Traumatische Amputation an Handgelenk und Hand | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel passt zur ICD-10-GM S68. Quelle 1 behandelt obere Extremität (inkl. Hand), 3 digitale Amputationen der Hand, 6 Amputationen der Hand. Quelle  |
+| WM-DIS-0686 | Verletzung von Muskeln und Sehnen in Höhe des Unterschenkels | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Titel passt zum ICD-10-GM S86. Nur Quelle 7 behandelt spezifisch Wadenmuskulatur (Gastrocnemius, Teil des Unterschenkels). Quelle 5 erwähnt Waden,  |
 | WM-DIS-0688 | Oberflächliche Verletzungen mit Beteiligung mehrerer Körperregionen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quellen behandeln Polytrauma bzw. schwere Mehrfachverletzungen, nicht oberflächliche Verletzungen mehrerer Körperregionen (T00). Der Tit |
+| WM-DIS-0689 | Offene Wunden mit Beteiligung mehrerer Körperregionen | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine der Quellen behandelt explizit das spezifische ICD-10-GM T01 (offene Wunden mehrerer Körperregionen). Quelle 1 betrifft Calcaneusfrakturen, Q |
+| WM-DIS-0690 | Luxationen, Verstauchungen und Zerrungen mit Beteiligung mehrerer Körperregionen | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 T03 (Luxationen/Verstauchungen mehrerer Regionen). Alle Quellen befassen sich mit Polytrauma, multiplen F |
 | WM-DIS-0691 | Schäden durch Luft- und Wasserdruck | disease | Entwurf ohne belegte Sätze |
 | WM-DIS-0694 | Tubulointerstitielle Nephritis, nicht als akut oder chronisch bezeichnet | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel „Tubulointerstitielle Nephritis“ entspricht N12 (Synonym, kleiner Unterschied im Zuschnitt). Nur Quelle 7 behandelt die tubulointerstitie |
 | WM-DIS-0697 | Affektionen des Tränenapparates | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
@@ -162,11 +198,19 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DIS-0699 | Sehstörungen | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
 --- Validation Sum |
+| WM-DIS-0702 | Erosion und Ektropium der Cervix uteri | disease | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Keine der 10 Quellen behandelt das gynäkologische Ektropium/Erosion der Cervix uteri; alle beziehen sich auf zervikale Wirbelsäule, Zähne oder and |
 | WM-DIS-0703 | Neigung zu habituellem Abort | disease | Bestätigungsquote 27/50 unter 60 % |
 | WM-DIS-0708 | Bösartige Neubildung des Mundbodens | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Der Titel „Maligne Tumoren des Mundbodens“ entspricht C04 (Mundboden). Alle zwölf Quellen behandeln jedoch Mundhöhlenkrebs insgesamt (C00–C06), al |
 | WM-DIS-0712 | Bösartige Neubildung sonstiger und ungenau bezeichneter Verdauungsorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM C26 umfasst nur sonstige und ungenau bezeichnete Verdauungsorgane (z. B. Darmtrakt o. n. A., Intestinum, ungenau bezeichnete Lokal |
 | WM-DIS-0714 | Bösartige Neubildung sonstiger und nicht näher bezeichneter Harnorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (C68 umfasst nur sonstige/nicht näher bezeichnete Harnorgane (z. B. Urethra, Harnleiter, Overlap); Niere, Nierenbecken und Blase sind ausgesc |
+| WM-DIS-0718 | Luxation, Verstauchung und Zerrung von Gelenken und Bändern des Kopfes | disease | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Luxationen/Verstauchungen des Kopfes (z.B. Kiefergelenk, Halswirbelsäule). Die Quellen behandeln allgemeine  |
+| WM-DIS-0719 | Verletzung von Blutgefäßen in Höhe des Unterarmes | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Titel deckt ICD-10-GM S55 ab. Nur Quelle 1 behandelt explizit arterielle Verletzungen im Unterarm. Quelle 2 betrifft nur die Ulnaris superficialis  |
+| WM-DIS-0720 | Verletzung von Nerven in Höhe der Hüfte und des Oberschenkels | disease | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel passt zum ICD-Code. Quelle 1 (Hamstring), 4 (Saphenous), 6 (Anatomie) und 7 (Diabetisch) passen nicht zum spezifischen Trauma-Bereich Hüfte/O |
+| WM-DIS-0721 | Verletzung von Blutgefäßen in Höhe der Hüfte und des Oberschenkels | disease | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Titel passt zur ICD-10-GM S75. Nur Quelle 3 behandelt explizit die Femoralarterie (Hüfte/Oberschenkel). Quelle 1 (REBOA) ist zu allgemein (Torso),  |
 | WM-DIS-0723 | Verletzung von Nerven in Höhe des Unterschenkels | disease | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Der Titel „Nervenverletzung am Unterschenkel“ entspricht S84 (Verletzung von Nerven in Höhe des Unterschenkels). Passend sind nur Quellen zu Nerven |
+| WM-DIS-0724 | Verletzung von Blutgefäßen in Höhe des Knöchels und des Fußes | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch Gefäßverletzungen (vascular trauma) des Knöchels/Fußes; Quellen behandeln Prothetik, Weichteildeckung, Stammzelle |
+| WM-DIS-0725 | Verletzung von Muskeln und Sehnen in Höhe des Knöchels und des Fußes | disease | Themenprüfung: nur 3 von 11 Quellen passen zum Thema (Titel passt zur ICD-10-GM S96. Quelle 1 (Athletik allgemein), 4 (Orthesen), 5 (Dance/Heel Rise), 6 (Laufbiomechanik), 7 (Syndesmose/Band), 8 (Kreu |
+| WM-DIS-0726 | Fremdkörper im Urogenitaltrakt | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 4 behandelt Fremdkörper im Urogenitaltrakt. Titel passt zur ICD-10-GM T19.) |
 | WM-DIS-0727 | Schäden durch sonstigen Mangel | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM T73 umfasst Schäden durch Hunger, Durst, Erschöpfung und sonstigen Mangel (z. B. Entbehrung von Nahrung/Wasser, Überanstrengung).  |
 | WM-DIS-0729 | Affektionen der Orbita | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
@@ -207,6 +251,8 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DIS-0783 | Sonstige Veränderungen der Knochendichte und -struktur | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (M85 umfasst sonstige Veränderungen der Knochendichte und -struktur (z. B. fibröse Dysplasie, Knochenzysten, Hyperostose, Skelettfluorose, Os |
 | WM-DIS-0784 | Sonstige Knochenkrankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (M89 umfasst nur 'sonstige' Knochenkrankheiten (z. B. Algodystrophie, Osteolyse, Knochenzysten, Hypertrophie); der Titel 'Knochenerkrankungen |
 | WM-DIS-0785 | Neubildung unsicheren oder unbekannten Verhaltens der Mundhöhle und der Verdauungsorgane | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (D37 umfasst Neubildungen unsicheren oder unbekannten Verhaltens der Mundhöhle und der Verdauungsorgane. Der Titel „Tumoren mit unsicherem bi |
+| WM-DIS-0788 | Zerquetschung des Kopfes | disease | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Titel passt zur ICD-10-GM S07. Nur Quelle 5 behandelt das klinische Bild der Kopfzerquetschung allgemein; die anderen Quellen fokussieren auf Syndr |
+| WM-DIS-0789 | Traumatische Amputation von Teilen des Kopfes | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine Quelle behandelt spezifisch traumatische Amputationen (ICD-10 S08). 'Facial avulsion' ist zu spezifisch/ungängig; Quellen behandeln allgemein |
 | WM-DIS-0791 | Fremdkörper im äußeren Auge | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (T15 meint Fremdkörper im äußeren Auge (Hornhaut, Bindehaut). Die Quellen behandeln intraokulare Fremdkörper bzw. offene Bulbusverletzungen,  |
 | WM-DIS-0794 | Gangrän, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (Titel entspricht R02. Nur die Quellen 6 und 13 behandeln Gangrän allgemein. Die übrigen betreffen diabetische Gangrän, Fournier-Gangrän, gangränös |
 | WM-DIS-0798 | Krankheiten der Atmungsorgane durch Einatmen von chemischen Substanzen, Gasen, Rauch und Dämpfen | disease | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Chemische Pneumonitis durch Inhalation“ entspricht J68 (Atemwegserkrankungen durch Einatmen chemischer Substanzen, Gase, Rauch, Dämpfe). |
@@ -233,6 +279,11 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DIS-0822 | Komplikationen durch sonstige interne Prothesen, Implantate oder Transplantate | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (T85 umfasst alle Komplikationen durch sonstige interne Prothesen, Implantate und Transplantate (mechanisch, infektiös, thrombotisch usw.). D |
 | WM-DIS-0827 | Neubildung unsicheren oder unbekannten Verhaltens an sonstigen und nicht näher bezeichneten Lokalisationen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Titel ist ein Oberbegriff für alle Lokalisationen (D37–D48), D48 umfasst nur sonstige und nicht näher bezeichnete Lokalisationen. Passen |
 | WM-DIS-0828 | Störungen der endokrinen Drüsen bei anderenorts klassifizierten Krankheiten | disease | Bestätigungsquote 41/74 unter 60 % |
+| WM-DIS-0837 | Zerquetschung des Halses | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10-GM S17 (Zerquetschung des Halses). Quelle 2 betrifft Oropharynx, 5 Hängen/Kiefer, andere andere Regionen o |
+| WM-DIS-0838 | Traumatische Amputation an Schulter und Oberarm | disease | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Titel passt zur ICD-10-GM S48. Quelle 1 und 7 behandeln traumatische Amputationen der oberen Extremität (Oberarm/Schulterbereich impliziert durch ' |
+| WM-DIS-0839 | Zerquetschung des Unterarmes | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ICD-10-GM S57 bezeichnet eine mechanische Quetschverletzung (crush injury), während 'compartment syndrome' ein Kompartmentsyndrom (erhöhter  |
+| WM-DIS-0840 | Traumatische Amputation am Unterarm | disease | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch traumatische Unteramputationen (S58). Quelle 2 behandelt Amputationen der oberen Extremität allgemein, Quell |
+| WM-DIS-0841 | Zerquetschung der Hüfte und des Oberschenkels | disease | zu wenige Quellen mit Zusammenfassung (0) für 'hip crush injury' |
 | WM-DIS-0842 | Traumatische Amputation an Hüfte und Oberschenkel | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Der Titel entspricht S78 (traumatische Amputation an Hüfte und Oberschenkel). Quelle 1 und 2 behandeln traumatische Amputationen der unteren Extrem |
 | WM-DIS-0843 | Traumatische Amputation am Unterschenkel | disease | Themenprüfung: nur 2 von 4 Quellen passen zum Thema (Titel entspricht S88. Quellen 1 und 2 behandeln traumatische Amputation der unteren Extremität (Unterschenkel eingeschlossen). Quellen 3 und 4 betr |
 | WM-DIS-0847 | Symptome, die die Stimmung betreffen | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (R45 umfasst unspezifische Stimmungssymptome (z. B. Nervosität, Reizbarkeit, Feindseligkeit, Traurigkeit), keine diagnostizierten Stimmungsst |
@@ -632,6 +683,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-0386 | Naloxegol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Naloxegol' |
 | WM-DRUG-0388 | Naldemedin | drug | zu viele nur teilweise belegte Sätze (19/42) |
 | WM-DRUG-0389 | Linaclotid | drug | zu viele nur teilweise belegte Sätze (21/36) |
+| WM-DRUG-0393 | Insulin glulisin | drug | Bestätigungsquote 31/55 unter 60 % |
 | WM-DRUG-0394 | Insulin detemir | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 3 und 4 behandeln Insulin detemir direkt (vs. NPH bzw. Glargin). Die Quellen 2, 5, 6 und 7 betreffen Basalinsuline bzw. Insulinanaloga a |
 | WM-DRUG-0398 | Saxagliptin | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Der Titel „Saxagliptin“ entspricht dem Wirkstoff der Klassifikation (ATC A10BH03). Keine der Quellen behandelt aber Saxagliptin als Hauptthema. Di |
 | WM-DRUG-0399 | Alogliptin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Alogliptin“ entspricht dem Wirkstoff (ATC A10BH04). Keine der Quellen behandelt jedoch Alogliptin spezifisch. Alle betreffen die Wirksto |
@@ -908,6 +960,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-0870 | Piretanid | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Piretanid“ entspricht dem Wirkstoff ATC C03CA03 (Schleifendiuretikum). Keine der Quellen behandelt jedoch Piretanid. Sie betreffen Schle |
 | WM-DRUG-0872 | Azosemid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Azosemide' |
 | WM-DRUG-0873 | Etacrynsäure | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 5 behandelt Etacrynsäure (ethacrynic acid) direkt. Die Quellen 1–3 betreffen Diuretika bzw. Schleifendiuretika allgemein und damit ein ü |
+| WM-DRUG-0874 | Tienilinsäure | drug | zu wenige Quellen mit Zusammenfassung (1) für 'tienilic acid' |
 | WM-DRUG-0875 | Muzolimin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Muzolimin ist ein Schleifendiuretikum (ATC C03CD01, Pyrazolon-Derivat) und kein kaliumsparendes Diuretikum. Der Titel „Muzolimin“ passt zur Klassif |
 | WM-DRUG-0876 | Etozolin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Etozolin (Schleifendiuretikum, C03CX01) und Etizolam (Thienodiazepin, Benzodiazepin-Analogon) sind verschiedene Wirkstoffe. Der Suchbegriff „Etizol |
 | WM-DRUG-0877 | Kaliumcanrenoat | drug | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Der Titel „Kaliumcanrenoat“ bezeichnet den Wirkstoff (Prodrug von Canrenon, ATC C03DA02) und passt zur Klassifikation. Keine der Quellen behandelt |
@@ -916,14 +969,17 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-0882 | Triamteren | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Triamteren“ bezeichnet denselben Wirkstoff wie ATC C03DB02. Keine der Quellen behandelt jedoch Triamteren als Schwerpunkt. Quelle 1 betr |
 | WM-DRUG-0883 | Conivaptan | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel „Conivaptan“ entspricht dem Wirkstoff der Klassifikation (ATC C03XA02, Vasopressin-Antagonist). Nur die Quellen 1 und 2 behandeln Vaptane |
 | WM-DRUG-0884 | Schachtelhalmkraut | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Schachtelhalmkraut“ (Equisetum arvense herba, ATC C03XP01) bezeichnet denselben Wirkstoff wie die Klassifikation. Nur Quelle 1 behandelt |
+| WM-DRUG-0885 | Birkenblätter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Birkenblätter (Betula pendula) als diuretischen Wirkstoff (ATC C03XP02). Quelle 1 behandelt allgemein |
 | WM-DRUG-0886 | Wacholderbeeren | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Titel „Wacholderbeeren“ (Juniperi pseudo-fructus, ATC C03XP03) entspricht dem Wirkstoff. Nur Quellen 5 und 7 behandeln Juniperus communis bzw. dess |
 | WM-DRUG-0887 | Isoxsuprin | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine der Quellen behandelt Isoxsuprin. Quelle 2 und 5 betreffen Beta-Agonisten allgemein (Tiermast bzw. Rückstandsanalytik), nicht den Wirkstoff I |
 | WM-DRUG-0888 | Buphenin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'buphenine' |
 | WM-DRUG-0889 | Bamethan | drug | zu wenige Quellen mit Zusammenfassung (0) für 'bamethan' |
 | WM-DRUG-0890 | Phentolamin | drug | Themenprüfung: nur 3 von 13 Quellen passen zum Thema (Der Titel 'Phentolamin' entspricht dem Wirkstoff (ATC C04AB01). Eindeutig zu Phentolamin passen nur die Quellen 3 (Phentolaminmesilat zur Aufhebun |
 | WM-DRUG-0891 | Tolazolin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tolazoline' |
+| WM-DRUG-0893 | Nicotinylalkohol (Pyridylcarbinol) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nicotinyl alcohol' |
 | WM-DRUG-0894 | Inositolnicotinat | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine der Quellen behandelt Inositolnicotinat. Es geht um Nicotinsäure allgemein (Gewichtsverlust, Bakterienstoffwechsel, Pflanzenabwehr, Synthese, |
 | WM-DRUG-0895 | Ciclonicat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der ATC-Code C04AC07 steht für Ciclonicat (Nicotinsäure-Derivat, peripherer Vasodilatator). Der Titel „Ciclonicat“ bezeichnet zwar grundsätz |
+| WM-DRUG-0897 | Xantinolnicotinat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Xantinolnicotinat oder dessen direkte klinische Anwendung. Die Titel beziehen sich auf  |
 | WM-DRUG-0900 | Ergoloidmesylat | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Ergoloidmesylat“ bezeichnet denselben Wirkstoff wie ATC C04AE01 (Co-dergocrin-mesilat, Mischung hydrierter Mutterkornalkaloide). Keine d |
 | WM-DRUG-0901 | Nicergolin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Nicergolin“ bezeichnet denselben Wirkstoff wie ATC C04AE02. Nur Quelle 2 behandelt Nicergolin ausdrücklich (α1A-Adrenorezeptor-Blockade) |
 | WM-DRUG-0902 | Dihydroergocristin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'dihydroergocristine' |
@@ -1041,21 +1097,27 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1054 | Cerivastatin | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Cerivastatin. Es geht um Gastroenterologie, Anästhesie, Infektiologie, Dermatologie, Ophthalmologie, Schlaf, Autism |
 | WM-DRUG-1057 | Clofibrat | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Clofibrat“ entspricht dem Wirkstoff (ATC C10AB01). Nur Quelle 6 behandelt Clofibrat direkt (bei Neugeborenengelbsucht). Quelle 1 betriff |
 | WM-DRUG-1058 | Bezafibrat | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Titel und ATC-Code (C10AB02) bezeichnen übereinstimmend den Wirkstoff Bezafibrat. Nur die Quellen 2, 3 und 5 behandeln Bezafibrat explizit im Titel |
+| WM-DRUG-1059 | Aluminiumclofibrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Aluminium clofibrate' |
 | WM-DRUG-1060 | Gemfibrozil | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Titel und ATC-Klassifikation (C10AB04) bezeichnen beide Gemfibrozil. Nur Quelle 6 (neuroprotektive Wirkung von Gemfibrozil) und Quelle 8 (CYP2C8-He |
 | WM-DRUG-1062 | Simfibrat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'clofibric acid' |
 | WM-DRUG-1063 | Ronifibrat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'fibric acid derivatives' |
 | WM-DRUG-1064 | Ciprofibrat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'fibric acid derivatives' |
 | WM-DRUG-1065 | Etofibrat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'fibric acid derivatives' |
 | WM-DRUG-1066 | Clofibrid | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel „Clofibrid“ ist die deutsche Bezeichnung für Clofibrat (ATC C10AB10) und passt zur Klassifikation. Nur Quelle 6 behandelt Clofibrat direk |
+| WM-DRUG-1067 | Cholinfenofibrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'choline fenofibrate' |
+| WM-DRUG-1069 | Etofyllinclofibrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'etofylline clofibrate' |
 | WM-DRUG-1071 | Colestipol | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Colestipol“ entspricht dem Wirkstoff der Klassifikation (ATC C10AC02). Keine der Quellen behandelt jedoch speziell Colestipol: Quelle 1  |
 | WM-DRUG-1072 | Colextran | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Colextran (ATC C10AC03) ist ein Gallensäurebindemittel (Anionenaustauscher-Harz). Keine der Quellen behandelt gezielt Colextran. Die Quellen 1, 3,  |
 | WM-DRUG-1073 | Niceritrol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Niceritrol' |
 | WM-DRUG-1074 | Nicofuranose | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nicofuranose' |
+| WM-DRUG-1075 | Aluminiumnicotinat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Aluminiumnicotinat ist ein Lipidmodulator (ATC C10AD04). Die Quellen behandeln Nicotinsäure/Nicotinamid als NAD+-Vorläufer, in der Mikrobiol |
 | WM-DRUG-1076 | Acipimox | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Acipimox' |
+| WM-DRUG-1077 | alfa-Tocopherolnicotinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tocopheryl nicotinate' |
 | WM-DRUG-1078 | Knoblauchzwiebel | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Titel bezeichnet denselben Wirkstoff (Knoblauchzwiebel, Allium sativum). Quellen 1, 4 und 5 behandeln den Wirkstoff beim Menschen. Quellen 2 und 3  |
 | WM-DRUG-1079 | Dextrothyroxin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dextrothyroxine' |
 | WM-DRUG-1081 | Tiadenol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tiadenol' |
 | WM-DRUG-1082 | Meglutol | drug | zu wenige Quellen mit Zusammenfassung (2) für '3-hydroxy-3-methylglutaric acid' |
+| WM-DRUG-1083 | Magnesiumpyridoxal-5-phosphatglutamat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Magnesiumpyridoxal-5-phosphatglutamat (ATC C10AX07). Die Quelle 11 erwähnt 'MPP' als Membrane Protein P |
 | WM-DRUG-1084 | Policosanol | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Die Quellen 2, 3 und 4 behandeln Policosanol direkt (Meta-Analysen zu Kreatinin, Blutzucker und Leberenzymen). Quelle 1 ist ein allgemeines Positio |
 | WM-DRUG-1086 | Alipogentiparvovec | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Alipogentiparvovec“ entspricht dem Wirkstoff (Glybera, ATC C10AX10, AAV1-Gentherapie bei Lipoproteinlipase-Defizienz). Keine der vier Qu |
 | WM-DRUG-1087 | Mipomersen | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Mipomersen“ (ATC C10AX11, Apolipoprotein-B-Antisense-Oligonukleotid) passt zur Klassifikation. Nur die Quellen 5 und 8 behandeln Mipomer |
@@ -1088,7 +1150,9 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1124 | Pheneticillin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenethicillin' |
 | WM-DRUG-1125 | Penamecillin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Penamecillin' |
 | WM-DRUG-1126 | Clometocillin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'clometocillin' |
+| WM-DRUG-1128 | Benzylpenicillin-Procain | drug | zu wenige Quellen mit Zusammenfassung (2) für 'procaine penicillin' |
 | WM-DRUG-1129 | Phenoxymethylpenicillin-Benzathin | drug | Themenprüfung: nur 3 von 15 Quellen passen zum Thema (J01CE10 ist Benzathin-Phenoxymethylpenicillin (oral), die Quellen betreffen fast nur Benzathin-Penicillin G (i.m., J01CE08). Nur Quellen mit Fokus |
+| WM-DRUG-1130 | Clemizol-Penicillin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'clemizole penicillin' |
 | WM-DRUG-1131 | Dicloxacillin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Dicloxacillin“ bezeichnet denselben Wirkstoff wie ATC J01CF01. Keine der Quellen behandelt aber Dicloxacillin als Wirkstoff. Quelle 1 be |
 | WM-DRUG-1132 | Cloxacillin | drug | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Cloxacillin wird in den Quellen 2, 6 und 7 direkt behandelt: Analytik von Cloxacillin und Oxacillin, ein Fall von Cloxacillin-induziertem Gallengan |
 | WM-DRUG-1133 | Meticillin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Die Quellen behandeln MRSA/MSSA-Infektionen, Epidemiologie und Hygiene, nicht den Wirkstoff Meticillin selbst; der Titel passt zur Klassifikation.) |
@@ -1157,6 +1221,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1212 | Sulfamethoxypyridazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'sulfamethoxypyridazine' |
 | WM-DRUG-1213 | Sulfaperin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'sulfaperine' |
 | WM-DRUG-1214 | Sulfaphenazol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Sulfaphenazole' |
+| WM-DRUG-1215 | Sulfamazon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Sulfamazon' (ein Sulfonamid-Derivat) wird in den Titeln nicht explizit genannt. Die Quellen behandeln entweder die allgemeine |
 | WM-DRUG-1216 | Sulfaclomid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'sulfachloropyridazine' |
 | WM-DRUG-1217 | Spiramycin | drug | zu viele nur teilweise belegte Sätze (20/38) |
 | WM-DRUG-1218 | Midecamycin | drug | zu wenige Quellen mit Zusammenfassung (2) für '16-membered macrolide' |
@@ -1171,8 +1236,10 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1229 | Telithromycin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Keine der Quellen behandelt Telithromycin spezifisch. Die Arbeiten betreffen Antibiotika bei Scrub Typhus, orale Antibiotika bei ambulant erworbene |
 | WM-DRUG-1230 | Solithromycin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Solithromycin' |
 | WM-DRUG-1231 | Nafithromycin | drug | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Nafithromycin ist ein neues Ketolid/Makrolid-Derivat (ATC J01FA17, Lead-Indikation ambulant erworbene Pneumonie). Keine der Quellen behandelt den  |
+| WM-DRUG-1232 | Erythromycinstinoprat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Erythromycin ophthalmic' |
 | WM-DRUG-1233 | Lincomycin | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Nur Quelle 8 behandelt Lincomycin selbst (Umweltverhalten und Wirkungen). Die übrigen Quellen betreffen Clindamycin, andere Antibiotika oder allgem |
 | WM-DRUG-1234 | Pristinamycin | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Der Titel „Pristinamycin“ entspricht dem Wirkstoff der ATC-Klassifikation J01FG01. Nur Quelle 5 (Pristinamycin-Regime bei M. genitalium) und Quelle |
+| WM-DRUG-1235 | Quinupristin/Dalfopristin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Quinupristin/Dalfopristin. Quelle 3 behandelt Streptogramine allgemein, aber nicht den spezifischen Wirkst |
 | WM-DRUG-1236 | Streptoduocin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Streptoduocin (J01GA02, Streptomycin-Kombination, Aminoglykosid-Antibiotikum) ist ein anderer Wirkstoff als Streptozocin/Streptozotocin (Zytostatik |
 | WM-DRUG-1237 | Netilmicin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'netilmicin' |
 | WM-DRUG-1238 | Sisomicin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Sisomicin“ bezeichnet denselben Wirkstoff wie ATC J01GB08. Keine der Quellen behandelt jedoch Sisomicin selbst. Sie betreffen Plazomicin |
@@ -1202,6 +1269,9 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1266 | Lascufloxacin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Lascufloxacin' entspricht dem Wirkstoff (ATC J01MA25). Keine der fünf Quellen behandelt jedoch erkennbar speziell Lascufloxacin. Es hand |
 | WM-DRUG-1267 | Rosoxacin | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Titel bezeichnet denselben Wirkstoff wie die Klassifikation. Keine Quelle behandelt aber Rosoxacin selbst; die Quellen 5, 6 und 8 betreffen nur di |
 | WM-DRUG-1268 | Nalidixinsäure | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Der Titel „Nalidixinsäure“ entspricht dem Wirkstoff (ATC J01MB02). Keine der Quellen behandelt jedoch Nalidixinsäure als Wirkstoff. Die meisten si |
+| WM-DRUG-1269 | Piromidsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'piromic acid' |
+| WM-DRUG-1270 | Pipemidsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'pipemidic acid' |
+| WM-DRUG-1271 | Oxolinsäure | drug | zu wenige Quellen mit Zusammenfassung (1) für 'oxolinic acid' |
 | WM-DRUG-1272 | Cinoxacin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cinoxacin' |
 | WM-DRUG-1273 | Flumequin | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Keine Quelle behandelt Flumequin selbst; die Quinolon-Arbeiten (5, 6, 8) betreffen nur die übergeordnete Wirkstoffklasse, die übrigen sind themati |
 | WM-DRUG-1274 | Nemonoxacin | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel „Nemonoxacin“ entspricht dem Wirkstoff der Klassifikation (ATC J01MB08). Nur die Quellen 3 und 5 behandeln Nemonoxacin direkt. Die übrige |
@@ -1303,6 +1373,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1465 | Ketobemidon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ketobemidone' |
 | WM-DRUG-1466 | Pethidin | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Titel „Pethidin“ entspricht ATC N02AB02. Passend sind nur Quellen, die Pethidin selbst untersuchen: Quelle 10 (intrathekales Pethidin gegen Shiver |
 | WM-DRUG-1467 | Dextromoramid | drug | Themenprüfung: nur 0 von 10 Quellen passen zum Thema (Dextromoramid ist ein synthetisches Opioid der Diphenylpropylamin-Gruppe (Pyrrolidin-Derivat, ATC N02AC01) und kein Morphinan. Keine der Quellen b |
+| WM-DRUG-1468 | Piritramid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'piritramide postoperative analgesia' |
 | WM-DRUG-1469 | Dextropropoxyphen | drug | zu wenige Quellen mit Zusammenfassung (3) für 'propoxyphene' |
 | WM-DRUG-1470 | Bezitramid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bezitramide' |
 | WM-DRUG-1471 | Levomethadon | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel 'Levomethadon' bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N02AC06). Keine der fünf Quellen behandelt Levomethadon spezifi |
@@ -1311,16 +1382,22 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1474 | Butorphanol | drug | Bestätigungsquote 17/33 unter 60 %; zu viele nur teilweise belegte Sätze (8/17) |
 | WM-DRUG-1476 | Tilidin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'tilidine' |
 | WM-DRUG-1479 | Meptazinol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Meptazinol' |
+| WM-DRUG-1482 | Natriumsalicylat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch Natriumsalicylat (ATC N02BA04). Quelle 1 behandelt Ketoazidose, Quelle 2 Beta-Blocker/CCB-Toxizität,  |
 | WM-DRUG-1483 | Salicylamid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Salicylamide' |
 | WM-DRUG-1484 | Salsalat | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Salsalat“ bezeichnet denselben Wirkstoff wie ATC N02BA06. Nur Quelle 5 behandelt Salsalat direkt. Die übrigen Quellen befassen sich mit  |
 | WM-DRUG-1485 | Ethenzamid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'ethenzamide' |
+| WM-DRUG-1486 | Morpholinsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'morpholine salicylate' |
 | WM-DRUG-1487 | Dipyrocetyl | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dipyrocetyl' |
 | WM-DRUG-1488 | Benorilat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'benorylate' |
+| WM-DRUG-1489 | Kaliumsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Potassium salicylate' |
 | WM-DRUG-1490 | Lysin-Acetylsalicylat | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Lysin-Acetylsalicylat“ bezeichnet denselben Wirkstoff wie ATC N02BA13. Keine der vier Quellen behandelt jedoch Lysin-Acetylsalicylat als |
 | WM-DRUG-1491 | Guacetisal | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Guacetisal' |
+| WM-DRUG-1492 | Imidazolsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'imidazole salicylate' |
+| WM-DRUG-1493 | Cholin-Magnesium-Tris-Salicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'choline magnesium trisalicylate' |
 | WM-DRUG-1494 | Phenazon | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Phenazon“ (ATC N02BB01) bezeichnet denselben Wirkstoff wie „antipyrine“. Alle Quellen behandeln jedoch Edaravon (ein Pyrazolon-Derivat,  |
 | WM-DRUG-1496 | Aminophenazon | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Alle Quellen behandeln Metamizol (Dipyron, ATC N02BB02), ein anderer Wirkstoff als Aminophenazon (N02BB03). Der Titel entspricht der Klassifikation |
 | WM-DRUG-1497 | Propyphenazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'propyphenazone' |
+| WM-DRUG-1498 | Phenazonsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phenazone salicylate' |
 | WM-DRUG-1500 | Phenacetin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine der Quellen behandelt Phenacetin als Wirkstoff. Quellen 1 und 4 betreffen Kokain und dessen Streckmittel (Phenacetin wird dort höchstens am R |
 | WM-DRUG-1501 | Bucetin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bucetin' |
 | WM-DRUG-1502 | Propacetamol | drug | zu wenige Quellen mit Zusammenfassung (3) für 'propacetamol' |
@@ -1330,6 +1407,8 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1508 | Viminol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Viminol' |
 | WM-DRUG-1509 | Nefopam | drug | zu viele nur teilweise belegte Sätze (17/33) |
 | WM-DRUG-1510 | Flupirtin | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel „Flupirtin“ entspricht dem Wirkstoff der Klassifikation (ATC N02BG07). Nur Quelle 1 behandelt Flupirtin direkt (Hepatotoxizität). Die Que |
+| WM-DRUG-1515 | Blauer Eisenhut | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Monkshood' |
+| WM-DRUG-1516 | Lindenblüten | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Lime flower' |
 | WM-DRUG-1517 | Dihydroergotamin | drug | Bestätigungsquote 26/48 unter 60 %; zu viele nur teilweise belegte Sätze (15/26) |
 | WM-DRUG-1518 | Ergotamin | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Quellen 4, 5 und 7 behandeln Ergotamin direkt (Rezeptorpharmakologie, Migränetherapie mit Ergotamin/DHE/Triptanen, Ergotismus durch Ergotamin-Inter |
 | WM-DRUG-1519 | Methysergid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Methysergide' |
@@ -1342,6 +1421,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1528 | Galcanezumab | drug | zu viele nur teilweise belegte Sätze (23/33) |
 | WM-DRUG-1531 | Zavegepant | drug | zu viele nur teilweise belegte Sätze (13/32) |
 | WM-DRUG-1532 | Pestwurz | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel 'Pestwurz' entspricht dem Wirkstoff (ATC N02CH01, Petasites). Nur Quelle 2 (Butterbur als Nutraceutical bei Kopfschmerz) und Quelle 4 (Re |
+| WM-DRUG-1533 | Pestwurzwurzel | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Quelle 2 behandelt Butterbur explizit bei Kopfschmerzen/Migräne (ATC N02CP01). Quelle 4 ist eine umfassende Review zu Butterbur (Petasites). Quelle |
 | WM-DRUG-1535 | Mutterkraut | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Mutterkraut“ (Tanacetum parthenium, Feverfew) entspricht dem Wirkstoff der Klassifikation N02CP03. Nur Quelle 1 behandelt Feverfew ausdr |
 | WM-DRUG-1536 | Iprazochrom | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Iprazochrom (ATC N02CX03, Migränemittel, Serotonin-Antagonist) ist ein anderer Wirkstoff als Ipratropium (Anticholinergikum bei Asthma/COPD/ |
 | WM-DRUG-1537 | Dimetotiazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'dimethothiazine' |
@@ -1350,6 +1430,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1541 | Methylphenobarbital | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Mephobarbital' |
 | WM-DRUG-1543 | Primidon | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Der Titel „Primidon“ entspricht dem Wirkstoff ATC N03AA03. Passend sind Quelle 1 (Wechselwirkungen von Phenobarbital und Primidon), Quelle 3 (Primi |
 | WM-DRUG-1544 | Barbexaclon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Barbexaclone' |
+| WM-DRUG-1545 | Cathin-Phenobarbital | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Cathin-Phenobarbital ist ein Barbiturat-Derivat und kein synthetisches Cathinon. Die Quellen behandeln synthetische Cathinone  |
 | WM-DRUG-1546 | Metharbital | drug | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Der Titel 'Metharbital' bezeichnet denselben Wirkstoff wie ATC N03AA30. Keine der Quellen behandelt jedoch Metharbital selbst. Sie betreffen Pheno |
 | WM-DRUG-1547 | Ethotoin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ethotoin' |
 | WM-DRUG-1549 | Amino(diphenylhydantoin)valeriansäure | drug | nur 1 bestätigte Sätze; nur 1 Abschnitte; nur 2 Quellen zitiert; Bestätigungsquote 1/9 unter 60 % |
@@ -1445,6 +1526,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1663 | Chlordiazepoxid | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Titel und ATC-Code N05BA02 bezeichnen beide Chlordiazepoxid. Nur Quelle 3 behandelt Chlordiazepoxid ausdrücklich. Die Quellen 1 und 2 betreffen die |
 | WM-DRUG-1664 | Medazepam | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Medazepam' |
 | WM-DRUG-1665 | Oxazepam | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Oxazepam“ entspricht dem Wirkstoff (ATC N05BA04). Keine der Quellen behandelt jedoch Oxazepam spezifisch. Die Quellen 1, 3, 4, 6 und 7 b |
+| WM-DRUG-1666 | Dikaliumclorazepat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'clorazepate' |
 | WM-DRUG-1668 | Adinazolam | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Adinazolam“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N05BA07). Quelle 1 behandelt Panikstörung allgemein, Adinazolam s |
 | WM-DRUG-1669 | Bromazepam | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Bromazepam' |
 | WM-DRUG-1671 | Ketazolam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ketazolam' |
@@ -1454,6 +1536,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1676 | Camazepam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Camazepam' |
 | WM-DRUG-1677 | Nordazepam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Nordazepam' |
 | WM-DRUG-1678 | Fludiazepam | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Fludiazepam“ passt zum Wirkstoff der Klassifikation (ATC N05BA17). Alle sieben Quellen behandeln jedoch Designer-Benzodiazepine allgemei |
+| WM-DRUG-1679 | Ethylloflazepat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ethyl loflazepate' |
 | WM-DRUG-1680 | Etizolam | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 3 und 6 behandeln Etizolam direkt (Todesfälle in Schottland, Metabolite, Designer-Benzodiazepine einschließlich Etizolam). Quelle 2 (sub |
 | WM-DRUG-1681 | Clotiazepam | drug | zu wenige Quellen mit Zusammenfassung (2) für 'thienodiazepine' |
 | WM-DRUG-1682 | Cloxazolam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Cloxazolam' |
@@ -1492,6 +1575,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1716 | Proxibarbal | drug | zu wenige Quellen mit Zusammenfassung (0) für 'proxibarbal' |
 | WM-DRUG-1717 | Crotylbarbital | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Crotylbarbital' |
 | WM-DRUG-1718 | Propallylonal | drug | zu wenige Quellen mit Zusammenfassung (0) für 'propallylonal' |
+| WM-DRUG-1719 | Bromallylmethylbutylbarbitursäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'bromallylbarbituric acid' |
 | WM-DRUG-1721 | Chloralodol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chloralodol' |
 | WM-DRUG-1722 | Acetylglycinamidchloralhydrat | drug | zu viele nur teilweise belegte Sätze (15/37) |
 | WM-DRUG-1723 | Dichloralphenazon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Dichloralphenazone' |
@@ -1528,12 +1612,16 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1759 | Valnoctamid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Valnoctamide' |
 | WM-DRUG-1760 | Methylpentynol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Methylpentynol' |
 | WM-DRUG-1761 | Niaprazin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'niaprazine' |
+| WM-DRUG-1762 | Magnesiumaspartathydrobromid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff Magnesiumaspartathydrobromid (ATC N05CM25) oder die damit verbundene Indikation (z.B. Schl |
+| WM-DRUG-1763 | Magnesiumglutamathydrobromid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Magnesiumglutamathydrobromid (ATC N05CM26) oder dessen Indikation. Quelle 3 behandelt Magnesium bei prämen |
 | WM-DRUG-1764 | Doxylamin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Doxylamin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N05CM27). Keine der Quellen behandelt Doxylamin als Wirkstoff im S |
 | WM-DRUG-1765 | Baldrianwurzel | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Baldrianwurzel“ bezeichnet denselben Wirkstoff wie ATC N05CP01 (Valeriana officinalis, Radix). Keine der fünf Quellen behandelt jedoch s |
 | WM-DRUG-1768 | Passionsblumenkraut | drug | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (Titel und ATC-Klassifikation (N05CP05, Passionsblumenkraut = Passiflora incarnata) bezeichnen denselben Wirkstoff. Quellen 4 und 5 behandeln Passif |
+| WM-DRUG-1769 | Baldrianöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Baldrian (Valeriana officinalis) bei Angststörungen; Quellen sind zu allgemein (z.B. 'Selected Medicinal P |
 | WM-DRUG-1770 | Hopfen | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel 'Hopfen' entspricht dem Wirkstoff Hopfen (N05CP07, Humulus lupulus als Arzneidroge). Nur Quelle 2 behandelt Hopfen umfassend, einschließl |
 | WM-DRUG-1771 | Desipramin | drug | Themenprüfung: nur 1 von 12 Quellen passen zum Thema (Nur Quelle 2 (CPIC-Leitlinie zu CYP2D6/CYP2C19 und trizyklischen Antidepressiva, u. a. Desipramin mit eigenen Dosierungsempfehlungen) behandelt de |
 | WM-DRUG-1772 | Imipramin | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Titel entspricht dem Wirkstoff Imipramin. Nur Quelle 4 behandelt Imipramin direkt; die übrigen Quellen betreffen andere Wirkstoffe, die gesamte Kla |
+| WM-DRUG-1773 | Imipraminoxid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Imipramine oxide' |
 | WM-DRUG-1774 | Clomipramin | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Der Titel 'Clomipramin' entspricht dem Wirkstoff ATC N06AA04. Nur Quellen 1 (parenterales Clomipramin) und 10 (Clomipramin bei vorzeitigem Samener |
 | WM-DRUG-1775 | Opipramol | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Opipramol. Es geht um Gastroenterologie, Onkologie, Dermatologie, Schlaf und Autismus, aber nie um diesen Wirkstoff |
 | WM-DRUG-1776 | Trimipramin | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Trimipramin“ entspricht dem Wirkstoff (ATC N06AA06). Keine der vier Quellen behandelt jedoch speziell Trimipramin. Es handelt sich um al |
@@ -1608,6 +1696,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1877 | Blarcamesin | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Der Titel „Blarcamesin“ bezeichnet denselben Wirkstoff wie ATC N06DX06. Die Quellen 1–3 behandeln Blarcamesin direkt (Alzheimer-Krankheit, Rett-Syn |
 | WM-DRUG-1878 | Hydromethylthionin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Hydromethylthionine' |
 | WM-DRUG-1879 | Viquidil | drug | zu wenige Quellen mit Zusammenfassung (0) für 'viquidil' |
+| WM-DRUG-1881 | Organextrakte | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Organextrakte (ATC N06DX20) als Arzneimittelwirkstoff zur Behandlung psychischer Störungen; alle Quellen befassen sic |
 | WM-DRUG-1882 | Dihydroergotoxin | drug | Themenprüfung: nur 0 von 14 Quellen passen zum Thema (Dihydroergotoxin (Co-dergocrin, ATC N06DX21) ist ein hydriertes Mutterkornalkaloid-Gemisch, das bei Demenz bzw. kognitiven Störungen eingesetzt wi |
 | WM-DRUG-1885 | Distigmin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Distigmine' |
 | WM-DRUG-1887 | Carbachol | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Carbachol (ATC N07AB01) ist ein Parasympathomimetikum, der Titel passt. Keine der Quellen behandelt jedoch speziell Carbachol: Quelle 1 behandelt P |
@@ -1630,6 +1719,8 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1923 | Mestranol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Mestranol' |
 | WM-DRUG-1924 | Follitropin beta | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Follitropin beta (ATC G03GA06) ist ein rekombinantes FSH. Quelle 1 behandelt Infertilitätsbehandlung bei Epilepsie ganz allgemein, ohne Bezug zu di |
 | WM-DRUG-1925 | Lutropin alfa | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Lutropin alfa“ (rekombinantes LH, ATC G03GA07) passt zur Klassifikation. Nur Quelle 2 behandelt rekombinantes LH direkt. Die Quellen 1,  |
+| WM-DRUG-1926 | Choriongonadotropin alfa | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch recombinant hCG (Choriongonadotropin alfa) als Hauptthema; Quellen behandeln allgemein Fertilität, Hypogon |
+| WM-DRUG-1927 | Corifollitropin alfa | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Corifollitropin alfa. Alle Quellen behandeln allgemeine Gonadotropine, GnRH-Agonisten/Antagonisten oder an |
 | WM-DRUG-1930 | Ospemifen | drug | Themenprüfung: nur 0 von 15 Quellen passen zum Thema (Ospemifen (ATC G03XC05) ist ein SERM zur Behandlung der vulvovaginalen Atrophie bzw. Dyspareunie nach der Menopause. Der Titel entspricht dem Wirk |
 | WM-DRUG-1932 | Darifenacin | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Quelle 1 behandelt Darifenacin direkt. Die Quellen 5 und 6 betrachten einzelne Antimuskarinika, darunter Darifenacin, bei überaktiver Blase und pas |
 | WM-DRUG-1933 | Fesoterodin | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Der Titel 'Fesoterodin' entspricht dem Wirkstoff der Klassifikation (ATC G04BD11). Nur Quelle 10 behandelt Fesoterodin spezifisch. Die übrigen Que |
@@ -1656,6 +1747,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1981 | Adrenalon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Adrenalone' |
 | WM-DRUG-1982 | Amlexanox | drug | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Nur Quelle 7 behandelt Amlexanox direkt; die übrigen betreffen RAS-Therapien allgemein, andere Wirkstoffe oder TBK1/IKKε-Kinasen ohne Fokus auf Am |
 | WM-DRUG-1983 | Becaplermin | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt explizit Becaplermin (rhPDGF-BB) als spezifischen Wirkstoff für Wundheilung; sie behandeln allgemein PDGF, periodontale |
+| WM-DRUG-1984 | Cholinsalicylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'choline salicylate' |
 | WM-DRUG-1985 | Carbenoxolon | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur die Quellen 1 und 2 behandeln Carbenoxolon direkt als Wirkstoff. Die übrigen Quellen betreffen Pannexin-Kanäle, Adipositas, Lungenkrebs oder di |
 | WM-DRUG-1986 | Milchsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Milchsäure (ATC A01AD22) als Arzneimittel. Quellen zu 'Lactic acid' beziehen sich auf Poly-L-Lactic Aci |
 | WM-DRUG-1987 | Speichelersatzlösungen | drug | Themenprüfung: nur 3 von 10 Quellen passen zum Thema (Nur 3 Quellen behandeln explizit 'saliva substitutes' oder 'artificial saliva' als Intervention. Quelle 1, 2, 3, 5, 6, 7, 8 behandeln Xerostomie/D |
@@ -1665,10 +1757,16 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-1993 | Salbeiblätter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Salbeiblätter (ATC A01AP03) sind ein lokaler Wirkstoff für Mund- und Rachenerkrankungen. Die Quellen behandeln systemische Effekte (Hitzewal |
 | WM-DRUG-1994 | Magnesiumcarbonat | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Der Titel „Magnesiumcarbonat“ bezeichnet denselben Wirkstoff wie ATC A02AA01. Keine der Quellen behandelt Magnesiumcarbonat als Wirkstoff. Die Arbe |
 | WM-DRUG-1995 | Magnesiumoxid | drug | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Nur Quelle 12 behandelt Magnesiumoxid als Arzneimittelwirkstoff (Obstipation). Die übrigen Quellen betreffen Nanopartikel/Materialwissenschaft, al |
+| WM-DRUG-1996 | Magnesiumperoxid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Magnesiumperoxid (ATC A02AA03) zur Behandlung von Magen-Darm-Erkrankungen; alle beziehen sich auf  |
 | WM-DRUG-1997 | Magnesiumhydroxid | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Magnesiumhydroxid“ entspricht dem Wirkstoff der Klassifikation (ATC A02AA04). Keine der Quellen behandelt aber den Wirkstoff als Arzneim |
+| WM-DRUG-1998 | Magnesiumsilikat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Magnesiumsilikat als Arzneimittelwirkstoff (ATC A02AA05) zur Behandlung von Magengeschwüren/Sodbrennen. Qu |
 | WM-DRUG-1999 | Aluminiumhydroxid | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Aluminiumhydroxid“ entspricht dem Wirkstoff (ATC A02AB01, Antazidum). Keine der Quellen behandelt Aluminiumhydroxid als Antazidum. Quell |
 | WM-DRUG-2000 | Algeldrat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Algeldrat ist Aluminiumhydroxid (ATC A02AB02), also ein Antazidum. Hydrotalcit (Aluminium-Magnesium-Carbonat-Hydroxid, ATC A02AD04) ist ein  |
+| WM-DRUG-2001 | Aluminiumphosphat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 3 behandelt explizit 'Aluminum Phosphate Adjuvants'. Quelle 2 ist zu allgemein ('Aluminum Adjuvants'), Quelle 1 zu allgemein ('No |
+| WM-DRUG-2002 | Dihydroxyaluminiumnatriumcarbonat (Carbaldrat) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'dihydroxyaluminium sodium carbonate' |
+| WM-DRUG-2003 | Aluminiumacetoacetat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Aluminium acetoacetate' |
 | WM-DRUG-2004 | Aloglutamol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'aluminum antacid' |
+| WM-DRUG-2005 | Aluminiumglycinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Aluminium glycinate' |
 | WM-DRUG-2006 | Calciumcarbonat | drug | zu viele nur teilweise belegte Sätze (20/29) |
 | WM-DRUG-2007 | Calciumsilikat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC A02AC02 bezeichnet Calciumsilikat als Antazidum (Magen-Darm-Arzneimittel). Alle zwölf Quellen behandeln dagegen Calciumsilikat-Zemente u |
 | WM-DRUG-2008 | Magaldrat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'magaldrate' |
@@ -1681,6 +1779,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-2017 | Nizatidin | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nizatidin (ATC A02BA04) ist ein H2-Antagonist, der Titel passt zum Wirkstoff. Nur Quelle 8 behandelt Nizatidin ausdrücklich (Nitrosamin-Verunreinig |
 | WM-DRUG-2018 | Niperotidin | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Niperotidin ist ein H2-Rezeptorantagonist, der Titel passt zur Klassifikation. Keine Quelle behandelt aber Niperotidin selbst; alle betreffen H2-Bl |
 | WM-DRUG-2019 | Roxatidin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Roxatidine' |
+| WM-DRUG-2020 | Ranitidinbismutcitrat | drug | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Nur Quellen 4 und 6 behandeln explizit Bismuth-Quadruplet-Therapie oder den Effekt von Bismuth bei der Eradikation, was Ranitidinbismutcitrat (ein |
 | WM-DRUG-2021 | Lafutidin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Lafutidine' |
 | WM-DRUG-2023 | Enprostil | drug | zu wenige Quellen mit Zusammenfassung (1) für 'prostaglandin E2 analogue' |
 | WM-DRUG-2026 | Rabeprazol | drug | Themenprüfung: nur 2 von 12 Quellen passen zum Thema (Der Titel „Rabeprazol“ (ATC A02BC04) bezeichnet den Wirkstoff korrekt. Nur Quelle 5 (Esomeprazol und Rabeprazol bei H. pylori) und Quelle 9 (neue  |
@@ -1696,11 +1795,14 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-2040 | Acetoxolon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Acetoxolone' |
 | WM-DRUG-2041 | Zolimidin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Zolimidine' |
 | WM-DRUG-2042 | Troxipid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'gastroprotective agent' |
+| WM-DRUG-2043 | Bismutsubnitrat | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 4 und 5 behandeln die medizinische/toxikologische Anwendung von Bismutverbindungen. Quelle 2, 3 und 6 beziehen sich auf Materialwissensc |
 | WM-DRUG-2044 | Alginsäure | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Der Titel „Alginsäure“ bezeichnet denselben Wirkstoff wie ATC A02BX13 (Alginsäure, Antirefluxmittel bzw. Antazidum-Kombination). Nur Quelle 4 behan |
 | WM-DRUG-2046 | Teprenon | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Teprenon“ bezeichnet denselben Wirkstoff wie ATC A02BX15. Nur Quelle 3 behandelt Teprenon direkt (Prävention NSAR-induzierter Magen-Darm |
 | WM-DRUG-2047 | Irsogladin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'irsogladine' |
 | WM-DRUG-2048 | Bismut(III)-citrat-hydroxid-Komplex | drug | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel (Bismut(III)-citrat-hydroxid-Komplex = Bismutsubcitrat, ATC A02BX17) bezeichnet denselben Wirkstoff. Keine der Quellen behandelt jedoch s |
+| WM-DRUG-2049 | Dibismut-tris(tetraoxodialuminat) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bismuth aluminate' |
 | WM-DRUG-2050 | Bismutsubsalicylat | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Bismutsubsalicylat“ entspricht dem Wirkstoff der Klassifikation (ATC A02BX22). Nur die Quellen 2 und 4 behandeln Bismutsubsalicylat dire |
+| WM-DRUG-2051 | Silbereiweiß-Acetyltannat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'silver protein acetyltannate' |
 | WM-DRUG-2052 | Kälberblutextrakt | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Kälberblutextrakt“ (ATC A02XA01, deproteinisierter Kälberblutextrakt, z. B. Actovegin/Solcoseryl) bezeichnet denselben Wirkstoff wie die |
 | WM-DRUG-2053 | Guajazulen | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 5 behandelt Guajazulen (Guaiazulene) direkt. Quellen 4 und 7 betreffen Azulen und Derivate allgemein, Quelle 1 Mukosaprotektiva bei GERD |
 | WM-DRUG-2055 | Oxyphencyclimin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxyphenbutazone' |
@@ -1898,6 +2000,8 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-2308 | Salzsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Salzsäure (ATC A09AB03) als Arzneimittel zur Behandlung von Verdauungsstörungen. Quelle 6 behandelt Sal |
 | WM-DRUG-2309 | Zitronensäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Citric Acid als systemischen Arzneimittelwirkstoff (ATC A09AB04) zur Behandlung von Verdauungsstörungen. Alle Quellen |
 | WM-DRUG-2310 | Wermutkraut | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Wermutkraut (Artemisia absinthium) als Arzneimittelwirkstoff ATC A09AP02. Quelle 2 behandelt Artemisia ann |
+| WM-DRUG-2312 | Insulin (Rind) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff Insulin (Rind) als therapeutischen oder pharmakologischen Fokus. Quelle 4 behandelt zwar I |
+| WM-DRUG-2313 | Insulin (Schwein) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch 'porcine insulin'. Quelle 1 behandelt allgemein oral insulin delivery, Quelle 2 topische Proteinabgabe, Qu |
 | WM-DRUG-2314 | Phenformin | drug | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Der Titel „Phenformin“ entspricht dem Wirkstoff mit ATC A10BA01. Nur Quelle 3 behandelt Phenformin direkt und im Schwerpunkt. Die übrigen Quellen b |
 | WM-DRUG-2316 | Buformin | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der 16 Quellen behandelt Buformin. Es geht um Themen wie Zirrhose, Nierenzellkarzinom, Erythromelalgie, Pankreasinsuffizienz, GERD, Dengue u |
 | WM-DRUG-2317 | Chlorpropamid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'chlorpropamide' |
@@ -1929,6 +2033,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-2353 | Carfloglitazar | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Keine Quelle behandelt Carfloglitazar (dualer PPAR-α/γ-Agonist) selbst; die Quellen betreffen Pioglitazon, die PPAR-γ-Klasse allgemein oder andere  |
 | WM-DRUG-2355 | Tolrestat | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Der Titel „Tolrestat“ entspricht dem Wirkstoff (ATC A10XA01, Aldose-Reduktase-Hemmer). Keine der Quellen behandelt jedoch Tolrestat selbst. Die Que |
 | WM-DRUG-2356 | Guar-Mehl | drug | Bestätigungsquote 15/62 unter 60 %; zu viele nur teilweise belegte Sätze (10/15) |
+| WM-DRUG-2357 | Copalchirindenextrakt | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Copalchi bark extract' |
 | WM-DRUG-2358 | Donislecel | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Donislecel (Lantidra) ist ein allogenes, aus Spenderpankreas gewonnenes Inselzellpräparat für Typ-1-Diabetes, und der Titel bezeichnet denselben Wi |
 | WM-DRUG-2361 | Ergocalciferol | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Nur Quellen 5, 7 und 13 behandeln explizit Ergocalciferol (Vitamin D2) oder vergleichen es direkt mit anderen Formen im Kontext seiner Wirkung. Qu |
 | WM-DRUG-2362 | Dihydrotachysterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Dihydrotachysterol; alle beziehen sich auf Vitamin-D-Analoga allgemein oder andere Indikationen.) |
@@ -1992,6 +2097,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-2479 | Phenindion | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Phenindione' |
 | WM-DRUG-2481 | Phenprocoumon | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 1 behandelt Phenprocoumon explizit und zentral (DOAK vs. Phenprocoumon). Die übrigen Quellen betreffen allgemein Antikoagulanzien, Vitam |
 | WM-DRUG-2482 | Acenocoumarol | drug | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Der Titel 'Acenocoumarol' entspricht dem Wirkstoff (ATC B01AA07). Nur Quelle 10 behandelt Acenocoumarol direkt. Die übrigen Quellen betreffen Anti |
+| WM-DRUG-2483 | Ethylbiscoumacetat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'dicoumarol' |
 | WM-DRUG-2484 | Clorindion | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Artikeltitel „Clorindion“ ist ein Antikoagulans (Indandion-Derivat, ATC B01AA09), während die Suchbegriff- und Quellenbasis „Clindamycin |
 | WM-DRUG-2485 | Diphenadion | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Diphenadione' |
 | WM-DRUG-2486 | Tioclomarol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tioclomarol' |
@@ -2006,6 +2112,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-2498 | Ditazol | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt Ditazol. Es handelt sich um Übersichtsarbeiten zu Gastroenterologie, Onkologie, Dermatologie, Schlaf und anderen Theme |
 | WM-DRUG-2499 | Cloricromen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Cloricromen' |
 | WM-DRUG-2500 | Ticlopidin | drug | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (Der Titel „Ticlopidin“ entspricht dem Wirkstoff der Klassifikation (ATC B01AC05). Keine der Quellen behandelt aber Ticlopidin. Sie befassen sich mi |
+| WM-DRUG-2502 | Carbasalat calcium | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Carbasalate calcium' |
 | WM-DRUG-2505 | Sulfinpyrazon | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Sulfinpyrazone' |
 | WM-DRUG-2506 | Abciximab | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „Abciximab“ entspricht dem Wirkstoff der Klassifikation (ATC B01AC13). Quelle 2 (Meta-Analyse zu Abciximab bei STEMI) und Quelle 5 (verzö |
 | WM-DRUG-2507 | Aloxiprin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Aloxiprin' |
@@ -2263,6 +2370,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-2942 | Motixafortid | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 2, 5 und 6 behandeln Motixafortid (Aphexda) direkt. Quelle 1 ist eine allgemeine Leitlinie zu Wachstumsfaktoren, Quelle 3 behandelt CXCR4 b |
 | WM-DRUG-2943 | Thymuspeptide | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Quellen 1 und 2 behandeln explizit Thymic peptides als Wirkstoff/Therapeutikum. Quelle 3 und 4 behandeln Thymus-Endokrinologie (allgemein/physiolog |
 | WM-DRUG-2946 | Histaglobin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Histaglobin' |
+| WM-DRUG-2947 | Antilymphozytäres Immunglobulin (Pferd) | drug | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Antilymphozytäres Immunglobulin (Pferd)“ nicht: „Es gehört zur Gruppe der anti-thymozytären Globuline (ATG) und wird häufig als Alternative zu  |
 | WM-DRUG-2948 | Antithymozytäres Immunglobulin (Kaninchen) | drug | Bestätigungsquote 25/68 unter 60 %; zu viele nur teilweise belegte Sätze (15/25) |
 | WM-DRUG-2949 | Alefacept | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt Alefacept spezifisch. Es handelt sich um allgemeine Arbeiten zu Biologika bei Psoriasis, Vitiligo, Diabetes oder Naturs |
 | WM-DRUG-2950 | Gusperimus | drug | zu wenige Quellen mit Zusammenfassung (1) für 'deoxyspergualin' |
@@ -2292,6 +2400,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-2989 | Avacopan | drug | zu viele nur teilweise belegte Sätze (22/41) |
 | WM-DRUG-2990 | Iptacopan | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Nur Quellen 8 und 9 behandeln Iptacopan gezielt. Die übrigen sind breite Übersichten zu IgA-Nephropathie, Komplementtherapien, C3-Glomerulopathie o |
 | WM-DRUG-2993 | Darvadstrocel | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 2, 3 und 5 behandeln Darvadstrocel bzw. allogene Stammzelltherapie (adipose-derived MSC) bei komplexen perianalen Fisteln bei Morbus Crohn. |
+| WM-DRUG-2994 | Diroximelfumarat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Diroximelfumarat (ATC L04AX09) ist ein Fumaratderivat zur Behandlung der multiplen Sklerose. Die Quelle verwendet den Suchbegr |
 | WM-DRUG-2995 | Humane allogene mesenchymale Stromazellen | drug | Themenprüfung: nur 1 von 14 Quellen passen zum Thema (ATC L04AX18 = Darvadstrocel (allogene MSC aus Fettgewebe) bei perianalen Fisteln bei Morbus Crohn; nur Quelle 7 behandelt diese Indikation. Die üb |
 | WM-DRUG-2997 | Afamelanotid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Afamelanotide' |
 | WM-DRUG-2998 | Beremagen geperpavec | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Beremagen geperpavec (ATC D03AX16, Wundheilungsförderer) oder dessen spezifische Indikation. Al |
@@ -2373,6 +2482,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-3119 | Pirprofen | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Pirprofen' |
 | WM-DRUG-3120 | Flurbiprofen | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Flurbiprofen' |
 | WM-DRUG-3121 | Indoprofen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'indoprofen' |
+| WM-DRUG-3122 | Tiaprofensäure | drug | zu wenige Quellen mit Zusammenfassung (2) für 'tiaprofenic acid' |
 | WM-DRUG-3123 | Oxaprozin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxaprozin' |
 | WM-DRUG-3124 | Ibuproxam | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ibuproxam' |
 | WM-DRUG-3125 | Dexibuprofen | drug | zu wenige Quellen mit Zusammenfassung (2) für 'dexibuprofen' |
@@ -2403,6 +2513,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-3153 | Tenidap | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tenidap' |
 | WM-DRUG-3155 | Oxycinchophen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Oxycinchophen' |
 | WM-DRUG-3156 | Natriumaurothiomalat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Natriumaurothiomalat oder Goldsalze als Arzneimittel; Quellen behandeln Gold-Nanopartikel oder Rheumatoide Arthritis  |
+| WM-DRUG-3157 | Natriumaurothiosulfat | drug | zu wenige Quellen mit Zusammenfassung (3) für 'gold sodium thiosulfate' |
 | WM-DRUG-3159 | Aurothioglucose | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Aurothioglucose (Gold-Salze) als Arzneimittel; Quellen 1, 2 und 4 behandeln Gold-Nanopartikel, Quelle 3 Rheumatoide A |
 | WM-DRUG-3160 | Aurotioprol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Aurotioprol oder Goldsalze als Arzneimittel; Quellen behandeln Gold-Nanopartikel oder Rheuma ohne spezifischen Wirkst |
 | WM-DRUG-3161 | Aurothiopolypeptid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Aurothiopolypeptid (ATC M01CB06) ist ein Goldarzneimittel zur Behandlung der rheumatoiden Arthritis. Die Quellen behandeln ent |
@@ -2526,12 +2637,14 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-3323 | Reproterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Reproterol; alle beziehen sich auf die allgemeine Klasse der Beta-2-Agonisten oder andere Substanzen.) |
 | WM-DRUG-3324 | Procaterol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Procaterol' |
 | WM-DRUG-3325 | Bitolterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bitolterol' |
+| WM-DRUG-3327 | Oxitropiumbromid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxitropium' |
 | WM-DRUG-3331 | Revefenacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Revefenacin (R03BB08) oder dessen Indikation COPD/Asthma. Alle Quellen befassen sich mit andere |
 | WM-DRUG-3332 | Fenspirid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fenspiride' |
 | WM-DRUG-3333 | Ensifentrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Ensifentrin oder dessen Indikation COPD/Asthma; alle behandeln andere Fachgebiete (Gastroentero |
 | WM-DRUG-3334 | Methoxyphenamin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'methoxyphenamine' |
 | WM-DRUG-3335 | Bambuterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bambuterol' |
 | WM-DRUG-3336 | Diprophyllin | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/53 unter 60 % |
+| WM-DRUG-3337 | Cholintheophyllinat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Choline theophyllinate' |
 | WM-DRUG-3338 | Proxyphyllin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt 'Proxyphyllin' (ATC R03DA03, ein Bronchodilatator). Die Quelle verwendet den Suchbegriff 'Pentoxifylline' (ei |
 | WM-DRUG-3340 | Etamiphyllin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Etamiphylline' |
 | WM-DRUG-3341 | Bamifyllin | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Bamifylline' |
@@ -3287,6 +3400,7 @@ Stand: 03.11.2026 18:26. Warteschlange: claimed 1, duplicate 489, failed 1, plan
 | WM-DRUG-4475 | Abrechnung von Morphin (Take-Home) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch die 'Abrechnung' oder das 'Take-Home'-Management von Morphin. Alle Quellen befassen sich mit klinischer An |
 | WM-DRUG-4476 | Abrechnung von Cannabinoid-haltigen Stoffen oder | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf die 'Abrechnung' (Reimbursement/Billing) von Cannabinoid-haltigen Stoffen (ATC V90RA02), nicht auf deren |
 | WM-PAT-0103 | Kyphose und Lordose | patient | Bestätigungsquote 30/53 unter 60 % |
+| WM-PAT-0161 | Bestimmte akute Komplikationen nach akutem Myokardinfarkt | patient | Artikelgegenstand: erster Satz nennt „Komplikationen nach Herzinfarkt“ nicht: „Ein Herzinfarkt (Fachbegriff: Myokardinfarkt) ist eine lebensbedrohliche Erkrankung der Herzkranzgefäße.[3]“ |
 | WM-PAT-0162 | Alkoholische Leberkrankheit | patient | Bestätigungsquote 46/83 unter 60 % |
 | WM-PAT-0174 | Rezidivierende depressive Störung | patient | Truncated: stop_reason=max_tokens (claude-haiku-5-5) |
 | WM-PAT-0201 | Manische Episode | patient | Bestätigungsquote 37/68 unter 60 % |
