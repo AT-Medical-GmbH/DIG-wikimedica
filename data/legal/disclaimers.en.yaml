@@ -1,0 +1,128 @@
+# WikiMedica – English legal and notice texts (E16 multilingual, en.wikimedica.info)
+# =============================================================================
+# Translation of data/legal/disclaimers.yaml. Decision Andreas Tremml 03.11.2026 (Atlas, Auftragsbuch #363, via
+# wikimedica-seo): transparency notice without the claim of a completed professional review; emergency notice
+# 112 (EU) plus the local emergency number, no German-only number. The German file is NOT changed by this decision
+# (its ai_assisted text belongs to the E2 approval). Same structure as the German file (blocks, profiles, rules);
+# the importer loads it per language. Changing any text below is a reviewed change and resets review_status.
+# =============================================================================
+
+version: "1.0-en"
+review_status: approved
+approved_by: "Andreas Tremml (decision 03.11.2026, Auftragsbuch #363, relayed by wikimedica-seo)"
+approved_on: "2026-11-03"
+language: en
+translation_of: data/legal/disclaimers.yaml
+
+beta_header: >-
+  WIKIMEDICA BETA – preliminary medical article. This content is published as part of the ongoing
+  WikiMedica BETA. It does not replace individual diagnosis or treatment. In a medical emergency,
+  call 112 (EU) or your local emergency number.
+
+beta_note: >-
+  BETA notice: Translated from the German WikiMedica article (BETA); the German article is the
+  authoritative source and is linked under “Deutsch” in the sidebar. The translation was checked for
+  structure, citation markers, numbers and fidelity to the German source; medical review of the
+  translation is pending.
+
+blocks:
+
+  emergency:
+    title: "In an emergency"
+    css_class: wm-emergency
+    text: >-
+      In a medical emergency, call 112 (EU) or your local emergency number immediately.
+
+  general:
+    title: "Important notice"
+    css_class: wm-disclaimer
+    text: >-
+      This page is for general information only. It does not replace a medical examination, diagnosis
+      or treatment, nor individual medical advice. Despite careful editorial review, content may be
+      incomplete or no longer up to date; the date given in the article is authoritative.
+
+  patient:
+    title: "Notice for patients"
+    css_class: wm-disclaimer
+    text: >-
+      This information is general and does not take your personal situation into account. Never change
+      your treatment or medication without consulting your doctor.
+
+  professional:
+    title: "Notice for healthcare professionals"
+    css_class: wm-disclaimer
+    text: >-
+      This article is intended for healthcare professionals. It replaces neither your own clinical
+      judgement nor a review of the current summary of product characteristics and applicable guidelines.
+      Application in the individual case is the responsibility of the treating professional.
+
+  dosing:
+    title: "Notice on dosing and instructions for use"
+    css_class: wm-disclaimer
+    text: >-
+      Dosing and application information is given with its source and date. Check it against the current
+      summary of product characteristics before every use. Marketing authorisation status, dosing and
+      warnings may change.
+
+  consent:
+    title: "Notice on the informed-consent module"
+    css_class: wm-disclaimer
+    text: >-
+      This module is a basis for information. It does not replace the personal informed-consent
+      discussion with the treating physician and is supplemented by the consent procedure of the
+      respective institution.
+
+  discharge:
+    title: "Notice on discharge information"
+    css_class: wm-disclaimer
+    text: >-
+      This information supplements the individual instructions of your treatment team. In case of
+      discrepancies, the instructions of your treatment team apply.
+
+  guideline_summary:
+    title: "Notice on the guideline summary"
+    css_class: wm-disclaimer
+    text: >-
+      This is our own summary of the guideline named. Only the wording of the original guideline is
+      authoritative.
+
+  media:
+    title: "Notice on the linked medium"
+    css_class: wm-disclaimer
+    text: >-
+      The linked medium supplements the text and does not replace medical advice. It is provided at an
+      external address; data may be transmitted to the provider when it is accessed.
+
+  ai_assisted:
+    title: "Transparency notice on creation"
+    css_class: wm-disclaimer
+    text: >-
+      AI-assisted tools were used to create this article. Each article passes automated structure, citation
+      and fact checks against the cited sources; the medical review status is shown in the article.
+
+# Categories (English), as used in the staging wiki:
+categories:
+  article_type:
+    professional: "Article type: Professional article"
+    pharmaka: "Article type: Drug"
+    patient: "Article type: Patient information"
+    procedure: "Article type: Procedure"
+    therapy: "Article type: Therapy protocol"
+  risk_high: "Risk class: high"
+
+profiles:
+  professional: [general, professional]
+  pharmaka:     [general, professional, dosing]
+  therapy:      [general, professional, dosing]
+  patient:      [emergency, general, patient]
+  consent:      [emergency, general, consent]
+  discharge:    [emergency, general, discharge]
+
+rules:
+  by_content_kind:
+    guideline-summary: [guideline_summary]
+    qr-media-reference: [media]
+  by_risk_level:
+    high: [dosing]
+  by_ai_assisted:
+    true: [ai_assisted]
