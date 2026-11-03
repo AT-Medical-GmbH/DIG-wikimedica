@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 03.11.2026 04:25. Warteschlange: claimed 1, duplicate 476, failed 1, merged 33, planned 602, published 2027, ready 8, redirect 403, review 3560.
+Stand: 03.11.2026 05:26. Warteschlange: claimed 1, duplicate 476, failed 1, merged 33, planned 484, published 2035, ready 9, redirect 403, review 3669.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3598,6 +3598,115 @@ Stand: 03.11.2026 04:25. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DRUG-4353 | (99mTc)Technetiummedronat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m medronate' |
 | WM-DRUG-4354 | (99mTc)Technetiumpyrophosphat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Tc-99m PYP' |
 | WM-DRUG-4355 | (99mTc)Technetiumbutedronat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m medronate' |
+| WM-DRUG-4356 | (99mTc)Technetiumpentetat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Technetium Tc 99m pentetate' |
+| WM-DRUG-4357 | (99mTc)Technetiumsuccimer | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'MAG3' (Mercaptoacetyltriglycine) ist falsch für den Wirkstoff Technetium-99m-Succimer (DMSA). DMSA wird primär zur renalen  |
+| WM-DRUG-4358 | (99mTc)Technetiummertiatid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Technetium-99m-MAG3 als Wirkstoff oder dessen spezifische klinische Indikationen; Quellen sind zu allgemei |
+| WM-DRUG-4359 | (99mTc)Technetiumglucoheptonat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m glucoheptonate' |
+| WM-DRUG-4360 | (99mTc)Technetiumgluconat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium 99mTc gluconate' |
+| WM-DRUG-4361 | (99mTc)Technetiumethylendicystein | drug | zu wenige Quellen mit Zusammenfassung (1) für 'ethylenedicysteine' |
+| WM-DRUG-4362 | Natriumiodhippurat(123I) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'sodium iodohippurate 123I' |
+| WM-DRUG-4363 | Natriumiodhippurat(131I) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iothalamate I-131' |
+| WM-DRUG-4364 | Natriumiodtalamat(125I) | drug | zu wenige Quellen mit Zusammenfassung (1) für 'iothalamate GFR' |
+| WM-DRUG-4365 | (51Cr)Chromedetat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chromium 51Cr edetate' |
+| WM-DRUG-4366 | (99mTc)Technetiumdisofenin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium 99mTc disofenin' |
+| WM-DRUG-4367 | (99mTc)Technetiumetifenin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium 99mTc etifenin' |
+| WM-DRUG-4368 | (99mTc)Technetiumlidofenin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m lidofenin' |
+| WM-DRUG-4369 | (99mTc)Technetiummebrofenin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium 99mTc mebrofenin' |
+| WM-DRUG-4370 | (99mTc)Technetiumgaltifenin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt speziell Technetiumgaltifenin. Die Quellen befassen sich mit Mebrofenin bzw. allgemein mit der hepatobiliären Sz |
+| WM-DRUG-4371 | (99mTc)Technetium Nanokolloid | drug | zu wenige Quellen mit Zusammenfassung (2) für '99mTc nanocolloid' |
+| WM-DRUG-4372 | (99mTc)Technetium Mikrokolloid | drug | zu wenige Quellen mit Zusammenfassung (1) für '99mTc sulfur colloid' |
+| WM-DRUG-4373 | (99mTc)Technetium Millimikrosphären | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m Sulfur Colloid' |
+| WM-DRUG-4374 | (99mTc)Technetiumzinnkolloid | drug | zu wenige Quellen mit Zusammenfassung (1) für '99mTc-sulfur colloid' |
+| WM-DRUG-4375 | (99mTc)Technetiumschwefelkolloid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m Sulfur Colloid' |
+| WM-DRUG-4376 | (99mTc)Technetiumrheniumsulfidkolloid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m Rhenosulfide' |
+| WM-DRUG-4377 | (99mTc)Technetiumphytat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m Phytate' |
+| WM-DRUG-4378 | (75Se)Seleniumtauroselcholinat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff (75Se)Seleniumtauroselcholinat oder dessen diagnostische Anwendung (Szintigraphie). Alle Q |
+| WM-DRUG-4379 | (99mTc)Technetium Macrosalb | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m Macroalb' |
+| WM-DRUG-4380 | (99mTc)Technetium Mikrosphären | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m Microspheres' |
+| WM-DRUG-4381 | (81mKr)Kryptongas | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Krypton 81m' |
+| WM-DRUG-4382 | (127Xe)Xenongas | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Xenon-127' |
+| WM-DRUG-4383 | (133Xe)Xenongas | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Xenon 133' |
+| WM-DRUG-4384 | (99mTc)Technetiumpertechnetat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m pertechnetate' |
+| WM-DRUG-4385 | (123I)Natriumiodid | drug | nur 2 Quellen zitiert; Bestätigungsquote 18/36 unter 60 % |
+| WM-DRUG-4387 | (124I)Natriumiodid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Iodine-124 PET' |
+| WM-DRUG-4388 | (99mTc)Technetiumsestamibi | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Tc-99m MIBI' |
+| WM-DRUG-4389 | (99mTc)Technetiumtetrofosmin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium 99mTc tetrofosmin' |
+| WM-DRUG-4390 | (99mTc)Technetiumteboroxim | drug | zu wenige Quellen mit Zusammenfassung (0) für 'technetium 99mTc teboroxime' |
+| WM-DRUG-4391 | (99mTc)Technetium Humanalbumin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m Human Serum Albumin' |
+| WM-DRUG-4392 | (99mTc)Technetiumfurifosmin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium 99mTc furifosmin' |
+| WM-DRUG-4393 | (99mTc)Technetium Zinn markierte Zellen | drug | zu wenige Quellen mit Zusammenfassung (1) für '99mTc-sulfur colloid' |
+| WM-DRUG-4394 | (99mTc)Technetiumapcitid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium 99mTc apcitide' |
+| WM-DRUG-4395 | (125I)Fibrinogen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iodinated 125I fibrinogen' |
+| WM-DRUG-4396 | (125I)Iod Humanalbumin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iodine I-125 Human Serum Albumin' |
+| WM-DRUG-4397 | (201Tl)Thallium(I)chlorid | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel „(201Tl)Thallium(I)chlorid“ bezeichnet denselben Wirkstoff wie die Klassifikation V09GX01. Quellen 1 und 4 behandeln Thallium-201 direkt. |
+| WM-DRUG-4398 | (111In)Indiumimciromab | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Indium 111In imciromab' |
+| WM-DRUG-4399 | (51Cr)Chromchromat markierte Zellen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Chromium Cr 51' |
+| WM-DRUG-4400 | (82Rb)Rubidiumchlorid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'rubidium-82 PET' |
+| WM-DRUG-4401 | (13N)Ammoniak | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Nitrogen-13 ammonia' |
+| WM-DRUG-4402 | (99mTc)Technetium Humanimmunglobulin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m human immunoglobulin' |
+| WM-DRUG-4403 | (99mTc)Technetiumexametazim markierte Zellen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium 99mTc exametazime-labelled leukocytes' |
+| WM-DRUG-4404 | (99mTc)Technetiumsulesomab | drug | zu wenige Quellen mit Zusammenfassung (0) für 'technetium 99mTc sulesomab' |
+| WM-DRUG-4405 | (111In)Indiumoxinat markierte Zellen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Indium-111 oxyquinoline labelled cells' |
+| WM-DRUG-4406 | (111In)Indiumtropolonat markierte Zellen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Indium In 111 oxine' |
+| WM-DRUG-4407 | Gallium(67Ga)citrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Gallium citrate 67Ga' |
+| WM-DRUG-4409 | (99mTc)Technetium Antimelanomantikörper | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium 99mTc antimelanoma antibody' |
+| WM-DRUG-4410 | (99mTc)Technetiumvotumumab | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Immunoscintigraphy' |
+| WM-DRUG-4411 | (99mTc)Technetiumdepreotid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'technetium 99mTc depreotide' |
+| WM-DRUG-4412 | (99mTc)Technetiumarcitumomab | drug | zu wenige Quellen mit Zusammenfassung (0) für 'technetium 99mTc arcitumomab' |
+| WM-DRUG-4413 | (99mTc)Technetiumhynicoctreotid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikeltitel ist nicht angegeben, daher kann nicht bestätigt werden, dass er denselben Wirkstoff wie die Klassifikation bezeich |
+| WM-DRUG-4414 | (99mTc)Technetiumetarfolatid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Technetium-99m-etarfolatid (18F-DCFPyL ist ein anderer PSMA-Ligand; 68Ga-PSMA ist ein anderer Radionuklid-Ligand). Die Quellen |
+| WM-DRUG-4415 | (99mTc)Technetiumtilmanocept | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Lymphoseek' |
+| WM-DRUG-4416 | (99mTc)Technetiumtrofolastatchlorid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'technetium 99mTc trofolastat chloride' |
+| WM-DRUG-4417 | (111In)Indiumpentetreotid | drug | zu wenige Quellen mit Zusammenfassung (2) für '111In-octreotide' |
+| WM-DRUG-4418 | (111In)Indiumsatumomabpendetid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Indium 111In satumomab pendetide' |
+| WM-DRUG-4419 | (111In)Indium Antiovariumkarzinomantikörper | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt (111In)Indium-Antikörper gegen Ovarialkarzinom (ATC V09IB03). Alle 16 Quellen behandeln PSMA (Prostate-Specif |
+| WM-DRUG-4420 | (111In)Indiumcapromabpendetid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Indium 111In capromab pendetide' |
+| WM-DRUG-4421 | Iobenguan(123I) | drug | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel Iobenguan(123I) bezeichnet denselben Wirkstoff wie die Klassifikation (ATC V09IX01). Quellen 2 (MIBG-Bildgebung beim Neuroblastom) und 5  |
+| WM-DRUG-4423 | (125I)Iod-CC49 monoklonaler Antikörper | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff (125I)Iod-CC49 (Target: TAG-72). Alle Quellen behandeln andere Targets (CD20, DLL3) oder all |
+| WM-DRUG-4424 | Fludeoxyglucose(18F) | drug | Bestätigungsquote 29/53 unter 60 % |
+| WM-DRUG-4425 | Fluorodopa(18F) | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Quelle 1 behandelt dopaminerge Bildgebung (inkl. Fluorodopa) bei Parkinson-Syndromen. Quelle 6 behandelt Fluorodopa-PET bei dopaminresponsiver Dyst |
+| WM-DRUG-4427 | Fluorocholin(18F) | drug | Bestätigungsquote 22/46 unter 60 % |
+| WM-DRUG-4428 | Fluoroethylcholin(18F) | drug | zu wenige Quellen mit Zusammenfassung (3) für 'Fluoroethylcholine' |
+| WM-DRUG-4430 | Fluoroethyl-L-tyrosin(18F) | drug | Entwurf ohne belegte Sätze |
+| WM-DRUG-4432 | Methionin(11C) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Methionine C-11' |
+| WM-DRUG-4433 | Gallium(68Ga)gozetotid | drug | nur 9 bestätigte Sätze; Bestätigungsquote 9/39 unter 60 % |
+| WM-DRUG-4434 | Kupfer(64Cu)dotatat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch 64Cu-DOTATATE oder NETs mit Fokus auf diesen Wirkstoff; Quellen sind zu allgemein oder betreffen andere Tu |
+| WM-DRUG-4436 | Fluor(18F)PSMA-1007 | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quellen behandeln allgemein PSMA-PET (meist 68Ga oder 18F-DCFPyL) oder Prostatakarzinom, aber nicht spezifisch den Wirkstoff Fluor(18F)P |
+| WM-DRUG-4437 | Flotufolastat(18F) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die Quelle 'Flotufolastat(18F)' ist ein spezifischer PSMA-targeted Radiotracer. Die Suchbegriffe 'PSMA PET' und die Titel der Quellen bezieh |
+| WM-DRUG-4438 | Vidoflufolastat(18F) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den spezifischen Wirkstoff Vidoflufolastat(18F) oder dessen spezifische Indikation (Amyloid-PET). Die Quellen be |
+| WM-DRUG-4439 | (131I)Iodonorcholesterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'iodocholesterol' |
+| WM-DRUG-4440 | (131I)Iodocholesterol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'NP-59' |
+| WM-DRUG-4441 | (131I)Iod Humanalbumin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Radioiodinated human serum albumin' |
+| WM-DRUG-4442 | (57Co)Cobaltcyanocobalamin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf den radiopharmazeutischen Diagnostikum '(57Co)Cobaltcyanocobalamin' (ATC V09XX01). Die Quellen behandeln |
+| WM-DRUG-4443 | (58Co)Cobaltcyanocobalamin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Vitamin B12' ist zu allgemein. Der geplante Artikel behandelt den spezifischen diagnostischen Radiopharmazeutikum '(58Co)Co |
+| WM-DRUG-4444 | (75Se)Selennorcholesterol | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Selenium 75' |
+| WM-DRUG-4445 | (59Fe)Eisen(III)citrat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iron 59 citrate' |
+| WM-DRUG-4446 | (90Y)Yttriumcitratkolloid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Yttrium Y 90 citrate colloid' |
+| WM-DRUG-4447 | (90Y)Yttrium-Eisen(III)hydroxidkolloid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Yttrium Y 90 hydroxide colloid' |
+| WM-DRUG-4448 | (90Y)Yttriumsilicatkolloid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Yttrium Y 90 Silicate Colloid' |
+| WM-DRUG-4449 | Chrom(III)-(32P)phosphatkolloid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ChromiumIII phosphate' |
+| WM-DRUG-4450 | (153Sm)Samariumhydroxyapatitkolloid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Samarium Sm-153 lexidronam' |
+| WM-DRUG-4451 | (165Dy)Dysprosiumkolloid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den radiopharmazeutischen Wirkstoff (165Dy)Dysprosiumkolloid oder dessen medizinische Anwendung. Alle Treffer be |
+| WM-DRUG-4452 | (169Er)Erbiumcitratkolloid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Erbium citrate colloid' |
+| WM-DRUG-4453 | (186Re)Rheniumsulfidkolloid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Rhenium-186 sulfide colloid' |
+| WM-DRUG-4454 | (198Au)Goldkolloid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'radioactive gold' |
+| WM-DRUG-4455 | (89Sr)Strontiumchlorid | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Quellen 1-5 behandeln primär Prostatakrebs oder allgemeine Schmerzlast, nicht spezifisch Strontium-89. Quellen 6 und 7 behandeln systemische Radion |
+| WM-DRUG-4456 | (186Re)Rheniumetidronat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Rhenium-186-Etidronat oder dessen Indikation (Radiosynovektomie bei Arthritis). Quelle 4 behandelt Radiosy |
+| WM-DRUG-4458 | (131I)Iodapamistamab | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff (131I)Iodapamistamab oder die damit behandelte Schilddrüsenerkrankung. Alle Titel beziehen sich |
+| WM-DRUG-4459 | Tositumomab/(131I)Iodtositumomab | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Quellen 1, 4 und 5 behandeln Radioimmuntherapie (RIT) bei Lymphomen, wobei Tositumomab der prototypische Wirkstoff für CD20-RIT ist. Quelle 2 und 3 |
+| WM-DRUG-4460 | Natriumphosphat(32P) | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Phosphorus P 32' |
+| WM-DRUG-4461 | (90Y)Ibritumomabtiuxetan | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Quellen 2 und 5 behandeln explizit Radioimmuntherapie (inkl. Anti-CD20) für Lymphome, was Ibritumomab tiuxetan entspricht. Quelle 1 ist zu allgemei |
+| WM-DRUG-4466 | Stoffe ohne PZN | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Phenazopyridin. Titel 1, 4, 5 behandeln LUTS/UTI allgemein. Titel 6, 7 behandeln Azo-Farbstoffe allgemein/ |
+| WM-DRUG-4467 | Abrechnungsfähige Beschaffungskosten | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Abrechnungsfähige Beschaffungskosten (ATC V90FG01) oder dessen spezifische pharmakoökonomische Asp |
+| WM-DRUG-4468 | Lieferengpass | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Lieferengpass (ATC V90FG02) oder dessen spezifische Versorgungsproblematik. Die Titel beziehen sic |
+| WM-DRUG-4469 | Pharmazeutische Dienstleistung | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den ATC-Code V90FI01 (Pharmazeutische Dienstleistung). Die Quellen behandeln Nierenablation/-resektion, pädiatri |
+| WM-DRUG-4470 | Weitere Serviceleistung | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC V90FI02 ist ein Code für 'Weitere Serviceleistung' (Versorgungsstruktur), kein pharmakologischer Wirkstoff oder Krankheitsbild. Keine de |
+| WM-DRUG-4471 | Auseinzelung | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Auseinzelung' (ATC V90LA01) existiert nicht; 'Aminophylline' ist ein Bronchodilatator (ATC R03), während V90LA01 für lokale S |
+| WM-DRUG-4472 | Teilmengenabgabe im Rahmen der SARS-CoV-2- AMVersVO | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur Quelle 7 behandelt explizit die Dosisaufteilung (fractionation/dose fractionation) der SARS-CoV-2-Impfstoffe, was dem Thema 'Teilmengena |
+| WM-DRUG-4473 | Abrechnung von Buprenorphin- oder Subutex-Einzeldosen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Das Thema bezieht sich spezifisch auf die Abrechnung von Einzeldosen (pharmakoökonomisch/administrativ), während die Quellen klinische Wirks |
+| WM-DRUG-4474 | Abrechnung von Buprenorphin-/Naloxon-Einzeldosen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf die 'Abrechnung' (administrativ/ökonomisch), während die Quellen klinische/pharmakologische Aspekte beha |
+| WM-DRUG-4475 | Abrechnung von Morphin (Take-Home) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch die 'Abrechnung' oder das 'Take-Home'-Management von Morphin. Alle Quellen befassen sich mit klinischer An |
+| WM-DRUG-4476 | Abrechnung von Cannabinoid-haltigen Stoffen oder | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf die 'Abrechnung' (Reimbursement/Billing) von Cannabinoid-haltigen Stoffen (ATC V90RA02), nicht auf deren |
 | WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
 
 --- Validation Summary ---
