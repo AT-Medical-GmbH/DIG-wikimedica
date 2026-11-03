@@ -237,11 +237,30 @@ def render_versionbox(fm: dict) -> str:
     ])
 
 
+_EINGRIFFE: set[str] | None = None
+
+
+def eingriffe() -> set[str]:
+    """Slugs der Eingriffs-/Operationsartikel (data/editorial/eingriffe.json; SEO E9b, 03.11.2026)."""
+    global _EINGRIFFE
+    if _EINGRIFFE is None:
+        try:
+            import json
+            from pathlib import Path
+            data = json.loads((Path(__file__).resolve().parents[2] / "data/editorial/eingriffe.json").read_text(encoding="utf-8"))
+            _EINGRIFFE = set(data.get("slugs") or [])
+        except (OSError, ValueError):
+            _EINGRIFFE = set()
+    return _EINGRIFFE
+
+
 def categories(fm: dict) -> list[str]:
     cats = [fm["specialty"], *(fm.get("secondary_specialties") or [])]
     cats.append("Artikeltyp: " + TYPE_LABEL.get(fm["article_type"], fm["article_type"]))
     if fm.get("content_kind") in KIND_LABEL:
         cats.append("Artikeltyp: " + KIND_LABEL[fm["content_kind"]])
+    if fm.get("article_type") == "professional" and (fm.get("ops") or str(fm.get("slug") or "") in eingriffe()):
+        cats.append("Artikeltyp: Eingriff")  # Eingriffs-/Operationsartikel: OPS-Code im Frontmatter oder Liste (SEO E9b, 03.11.2026)
     if fm.get("sex_gender_relevance") == "relevant" and "Gender-Medizin" not in cats:
         cats.append("Gender-Medizin")  # cross-cutting flagship category
     if fm.get("risk_level") == "high":
