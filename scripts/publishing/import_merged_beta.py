@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import subprocess
 import sys
@@ -255,7 +256,8 @@ def interwiki_titles(slug: str) -> dict[str, str]:
     global _INTERWIKI
     if _INTERWIKI is None:
         _INTERWIKI = {}
-        for f in sorted((ROOT / "data/editorial").glob("interwiki-*.json")):
+        # WIKIMEDICA_INTERWIKI_DIR: abweichendes Verzeichnis für Trockenläufe im Staging (Standard: Repo data/editorial)
+        for f in sorted(Path(os.environ.get("WIKIMEDICA_INTERWIKI_DIR") or (ROOT / "data/editorial")).glob("interwiki-*.json")):
             lang = f.stem.split("-", 1)[1]
             try:
                 _INTERWIKI[lang] = dict(json.loads(f.read_text(encoding="utf-8")).get("titles") or {})
