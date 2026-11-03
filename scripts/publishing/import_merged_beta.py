@@ -239,7 +239,29 @@ def page_extras(slug: str, fm: dict, body: str) -> tuple[str, str]:
         c = SPECIALTY_ALIAS.get(c, c)
         if c not in merged:
             merged.append(c)
-    return see, "\n".join(f"[[Kategorie:{c}]]" for c in merged)
+    tail = "\n".join(f"[[Kategorie:{c}]]" for c in merged)
+    # Sprachlinks zu Übersetzungen (E16): data/editorial/interwiki-<lang>.json wird erst zum Live-Gang nach Freigabe Andreas
+    # angelegt (wm_translate.py --live-backlinks); ohne Datei ändert sich nichts.
+    for lang, title in interwiki_titles(slug).items():
+        tail += f"\n[[{lang}:{title}]]"
+    return see, tail
+
+
+_INTERWIKI: dict[str, dict] | None = None
+
+
+def interwiki_titles(slug: str) -> dict[str, str]:
+    """{sprache: Seitentitel} aus data/editorial/interwiki-*.json (E16)."""
+    global _INTERWIKI
+    if _INTERWIKI is None:
+        _INTERWIKI = {}
+        for f in sorted((ROOT / "data/editorial").glob("interwiki-*.json")):
+            lang = f.stem.split("-", 1)[1]
+            try:
+                _INTERWIKI[lang] = dict(json.loads(f.read_text(encoding="utf-8")).get("titles") or {})
+            except (OSError, ValueError):
+                continue
+    return {lang: titles[slug] for lang, titles in _INTERWIKI.items() if slug in titles and not any(c in titles[slug] for c in "#<>[]|{}")}
 
 
 def build_page(path: Path, revision: str) -> tuple[str, str, str]:
