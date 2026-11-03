@@ -1,7 +1,7 @@
 ---
 title: "Uterusmyom"
 slug: "leiomyom-des-uterus"
-specialty: "Hämatologie/Onkologie"
+specialty: Gynäkologie/Geburtshilfe
 secondary_specialties: []
 article_type: "professional"
 content_kind: "article"

@@ -1,7 +1,7 @@
 ---
 title: "Gutartige Prostatavergrößerung"
 slug: "gutartige-neubildung-der-maennlichen-genitalorgane"
-specialty: "Hämatologie/Onkologie"
+specialty: Urologie
 secondary_specialties: []
 article_type: "professional"
 content_kind: "article"
@@ -19,7 +19,7 @@ sex_gender_notes: ""
 safety_hold: false
 language: "de"
 language_level: "professional"
-icd10: ["D29"]
+icd10: ["N40"]
 ops: []
 pubmed_ids: ["42095481", "34384237", "35361280", "34885733", "39013719", "38934050", "42095477", "42095468", "26966724", "38750153", "38429006", "37561537", "39423101", "35864746", "36794408"]
 guidelines: [{"title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part I: Presentation and Evaluation", "issuer": "", "year": 2026, "url": "https://pubmed.ncbi.nlm.nih.gov/42095481/"}, {"title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA GUIDELINE PART I-Initial Work-up and Medical Management", "issuer": "", "year": 2021, "url": "https://pubmed.ncbi.nlm.nih.gov/34384237/"}, {"title": "Clinical practice guideline for transurethral plasmakinetic resection of prostate for benign prostatic hyperplasia (2021 Edition)", "issuer": "", "year": 2022, "url": "https://pubmed.ncbi.nlm.nih.gov/35361280/"}, {"title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part II: Medical Management", "issuer": "", "year": 2026, "url": "https://pubmed.ncbi.nlm.nih.gov/42095477/"}, {"title": "Management of Lower Urinary Tract Symptoms Attributed to Benign Prostatic Hyperplasia: AUA Guideline (2026) Part III: Procedural/Surgical Management", "issuer": "", "year": 2026, "url": "https://pubmed.ncbi.nlm.nih.gov/42095468/"}, {"title": "Korean clinical practice guideline for benign prostatic hyperplasia", "issuer": "", "year": 2016, "url": "https://pubmed.ncbi.nlm.nih.gov/26966724/"}]
@@ -33,7 +33,7 @@ corrections: []
 
 # Gutartige Prostatavergrößerung
 
-**Klassifikation:** ICD-10-GM: D29.-; ICD-11: 2F34
+**Klassifikation:** ICD-10-GM: N40; ICD-11: GA90
 
 ## Übersicht
 

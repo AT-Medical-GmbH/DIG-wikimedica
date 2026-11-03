@@ -1,7 +1,7 @@
 ---
 title: "Erkrankungen der Kniescheibe"
 slug: "krankheiten-der-patella"
-specialty: "Rheumatologie"
+specialty: Orthopädie/Unfallchirurgie
 secondary_specialties: []
 article_type: "professional"
 content_kind: "article"
