@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 03.11.2026 03:25. Warteschlange: claimed 1, duplicate 476, failed 1, merged 33, planned 701, published 2011, ready 16, redirect 403, review 3469.
+Stand: 03.11.2026 04:25. Warteschlange: claimed 1, duplicate 476, failed 1, merged 33, planned 602, published 2027, ready 8, redirect 403, review 3560.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3506,7 +3506,98 @@ Stand: 03.11.2026 03:25. Warteschlange: claimed 1, duplicate 476, failed 1, merg
 | WM-DRUG-4250 | N-terminal-pro BNP-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'N-terminal-pro BNP-Testzone' (ATC V04CO02) ist ein diagnostischer Test, keine therapeutische Substanz. Die Quellen behandeln  |
 | WM-DRUG-4251 | pro BNP-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff 'pro BNP-Testzone' (ATC V04CO03). Die Quellen befassen sich mit BNP/NT-proBNP als Biomarke |
 | WM-DRUG-4252 | CK-MB-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den CK-MB-Test als diagnostischen Marker für akutes Myokardinfarkt oder kardiale Schädigung im Kontext des |
+| WM-DRUG-4253 | Indocyaningrün | drug | zu viele nur teilweise belegte Sätze (16/32) |
 | WM-DRUG-4254 | Methacholin | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt Methacholin bzw. die Methacholin-Provokation direkt. Quelle 1 (Oszillometrie bei Asthma) und Quelle 2 (Screening bei arbeits |
+| WM-DRUG-4255 | C-Harnstoff | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt den diagnostischen Wirkstoff Urea (ATC V04CX05). Die Quellen beziehen sich auf Harnstoffstoffwechselstörungen (Krankhe |
+| WM-DRUG-4256 | Hexaminolevulinat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Levulinsäure als chemischen Rohstoff für die Biotechnologie oder Katalyse, nicht als Arzneimittelwirkstoff (Hexaminol |
+| WM-DRUG-4257 | Edrophonium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Edrophonium spezifisch; Quellen zu Neostigmin oder Myasthenia Gravis allgemein sind zu allgemein oder betreffen ander |
+| WM-DRUG-4259 | Patentblau V | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Patentblau V (Brilliant Blue FCF) als diagnostischen Wirkstoff (ATC V04CX09); alle sind allgemeine Übersic |
+| WM-DRUG-4260 | Pafolacianin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf Pafolacianin (ATC V04CX10), ein spezifisches diagnostisches Mittel für neuroendokrine Tumore. Die Quelle |
+| WM-DRUG-4261 | Lithiumchlorid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC V04CX11 bezeichnet Lithiumchlorid als diagnostischen Wirkstoff (Test, z. B. Indikatorverdünnung zur Herzzeitvolumenmessung). Der Titel „ |
+| WM-DRUG-4262 | Pegulicianin | drug | zu wenige Quellen mit Zusammenfassung (3) für 'pegylated arginine' |
+| WM-DRUG-4263 | Harnsäure-Testzone | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Die Klassifikation V04CY02 ist ein diagnostisches Testmittel (Harnsäure-Testzone). Alle Quellen behandeln therapeutische Uricasen (Rasburicase, Peg |
+| WM-DRUG-4266 | Imciromab | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Imciromab' |
+| WM-DRUG-4267 | Cholesterin-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Cholesterin-Testzone' (ATC V04CY07) bezeichnet ein diagnostisches Testverfahren (Cholesterin-Testzone), nicht den Wirkst |
+| WM-DRUG-4268 | HDL-Cholesterin-Testzone | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Kein INN vorhanden' |
+| WM-DRUG-4269 | Troponin-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt Troponin-Schnelltests (kardiales Troponin, Lateral-Flow). Alle Quellen betreffen andere Analyten (CD4, Galactoma |
+| WM-DRUG-4270 | Chlamydien-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Chlamydien-Testzone' (ATC V04CY11) ist ein diagnostischer Marker (Testzone), während die Quellen sich auf die Infektion 'Chla |
+| WM-DRUG-4271 | Streptokokken-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC V04CY12 bezeichnet Bacitracin-Streptokokken-Testscheiben (Diagnostikum zur Differenzierung von Streptokokken der Gruppe A). Der Titel „S |
+| WM-DRUG-4272 | Gonorrhoeae-neisseria-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (ATC V04CY13 ist ein Diagnostikum (Testzone/Testreagenz für Neisseria gonorrhoeae), kein Therapeutikum. Der Titel „Gonorrhoeae-neisseria-Test |
+| WM-DRUG-4273 | Blut-Testzone (Stuhl) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Blut-Testzone (Stuhl)' (ATC V04CY14) ist ein diagnostischer Test zur Detektion von okkultem Blut im Stuhl. Die Quellen behand |
+| WM-DRUG-4274 | Mononucleose-Testzone | drug | zu wenige Quellen mit Zusammenfassung (2) für 'heterophile antibody test' |
+| WM-DRUG-4275 | Myoglobin-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Myoglobin-Testzone' (ATC V04CY16) ist ein diagnostisches Testsystem (In-vitro-Diagnostikum) zur Myoglobinbestimmung. Die Quel |
+| WM-DRUG-4277 | Gerinnungsparameter | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt den spezifischen diagnostischen Wirkstoff 'Gerinnungsparameter' (ATC V04CY18, z.B. D-Dimere, Thrombinzeit). D |
+| WM-DRUG-4278 | Influenza-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Influenza-Test (Influenza-Testzone). Alle Quellen beziehen sich auf 'Unknown Primary' (Krebs), 'Unknown Origin' ( |
+| WM-DRUG-4279 | Protein-C-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel 'Protein-C-Testzone' (ATC V04CY21) bezeichnet einen spezifischen diagnostischen Test (Protein C-Antigen/Aktivität zur Thr |
+| WM-DRUG-4280 | Plaque-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff Plaque-Testzone (V04CY23) oder dessen diagnostische Anwendung; alle Quellen befassen sich  |
+| WM-DRUG-4281 | Treponema pallidum-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Artikel behandelt einen diagnostischen Test (ATC V04CY24), die Quellen behandeln jedoch die Epidemiologie, Pathogenese, Immunol |
+| WM-DRUG-4282 | Lactat-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff Lactat-Testzone (ATC V04CY25) ist ein spezifisches Diagnostikum zur Diagnose von Vergiftungen. Alle 14 Quellen behandeln Lakta |
+| WM-DRUG-4283 | Triglycerid-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen diagnostischen Wirkstoff Triglycerid-Testzone (ATC V04CY26). Die Quellen befassen sich mit allgemein |
+| WM-DRUG-4284 | Gaxilose | drug | Themenprüfung: nur 3 von 4 Quellen passen zum Thema (Quelle 1 behandelt Gatifloxacin direkt. Quellen 3 und 4 sind Reviews zu Gatifloxacin (Nachweis/Analytik). Quelle 2 ist zu allgemein (Vibrio cholera |
+| WM-DRUG-4285 | Sennesfrüchteextrakt | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Sennesfrüchteextrakt (Sennoside) als primären Fokus; Quellen behandeln allgemeine Verstopfung, andere Laxa |
+| WM-DRUG-4286 | Wasser | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Wasser (ATC V07AB01) als Arzneimittel zur lokalen Anwendung (z.B. Wundreinigung, Laxans). Quellen zu Tr |
+| WM-DRUG-4287 | Ophthalmologische Spüllösungen | drug | zu wenige Quellen mit Zusammenfassung (0) für 'ophthalmic irrigating solutions' |
+| WM-DRUG-4289 | Kontroll-Lösungen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den pharmazeutischen Wirkstoff 'Kontroll-Lösungen' (ATC V07AD01) zur Diagnostik. Die Quellen verwenden 'Control Solut |
+| WM-DRUG-4290 | Kältepackungen (Kompressen) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Kältepackungen (ATC V07AY02) als primäres Thema; Quellen behandeln Cryotherapie allgemein, Schmerzmanageme |
+| WM-DRUG-4291 | Amidotrizoesäure | drug | nur 0 bestätigte Sätze; nur 0 Abschnitte; nur 0 Quellen zitiert; Bestätigungsquote 0/45 unter 60 % |
+| WM-DRUG-4292 | Metrizoesäure | drug | zu wenige Quellen mit Zusammenfassung (2) für 'metrifonate' |
+| WM-DRUG-4293 | Iodamid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iodamide' |
+| WM-DRUG-4294 | Iotalaminsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iotalamic acid' |
+| WM-DRUG-4295 | Ioxitalaminsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iotalamic acid' |
+| WM-DRUG-4296 | Ioglicinsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ioglicic acid' |
+| WM-DRUG-4297 | Acetrizoinsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Acetrizoinsäure ist ein Röntgenkontrastmittel (ATC V08AA07). Der Suchbegriff 'Triazoles' bezieht sich auf eine chemische Strukturklasse, die |
+| WM-DRUG-4298 | Iocarminsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Iocarminsäure' (ATC V08AA08) ist ein radioaktives Kontrastmittel für die Zisternographie. Der Suchbegriff 'Icariside' bezieht |
+| WM-DRUG-4299 | Methiodal | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Methiodal ist ein spezifisches radioopakes Mittel (Diethylamid-Derivat), während 'diatrizoate' eine andere chemische Klasse (Diatriazoat) re |
+| WM-DRUG-4300 | Diodon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Diodon (Röntgenkontrastmittel) oder damit verbundene Themen. Alle Quellen befassen sich mit andere |
+| WM-DRUG-4301 | Iomeglaminsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iomeglumine' |
+| WM-DRUG-4302 | Metrizamid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Metrizamid ist ein Nitroimidazol, kein Organophosphat. Die Quelle 'organophosphate' ist fachlich falsch und passt nicht.) |
+| WM-DRUG-4304 | Ioxaglinsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'iohexol' (ATC V08AB02) ist ein anderer Wirkstoff als 'Ioxaglinsäure' (ATC V08AB03). Alle Quellen behandeln Iohexol oder all |
+| WM-DRUG-4307 | Iotrolan | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den radiologischen Kontrastmittelwirkstoff Iotrolan (ATC V08AB06). Alle Titel beziehen sich auf andere medizi |
+| WM-DRUG-4308 | Ioversol | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 2, 4 und 5 behandeln explizit den Wirkstoff Ioversol. Quelle 1 behandelt AGEP/ALEP durch jodhaltige Kontrastmittel, ist aber spezifisch gen |
+| WM-DRUG-4309 | Iopentol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'iopentol' |
+| WM-DRUG-4310 | Iodixanol | drug | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Nur Quelle 1 und 4 behandeln explizit Iodixanol. Quelle 2 ist allgemein zu Nierenschäden, 3 zu Viren, 5 zu Mitochondrien. Weniger als 4 passende Qu |
+| WM-DRUG-4311 | Iomeprol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Iomeprol; alle beziehen sich auf allgemeine iodhaltige Kontrastmittel oder andere Wirkstoffklassen.) |
+| WM-DRUG-4312 | Iobitridol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Iobitridol; alle beziehen sich auf nicht-ionische jodhaltige Kontrastmittel allgemein.) |
+| WM-DRUG-4313 | Ioxilan | drug | zu wenige Quellen mit Zusammenfassung (1) für 'ioxaglate' |
+| WM-DRUG-4314 | Iosarcol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Wirkstoff 'Iosarcol' (ATC V08AB13) ist ein radiopharmazeutisches Kontrastmittel für die Szintigraphie. Der Suchbegriff 'Irbesartan' beze |
+| WM-DRUG-4315 | Iodoxaminsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iodoxamic acid' |
+| WM-DRUG-4316 | Iotroxinsäure | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Ioxaglate' |
+| WM-DRUG-4317 | Ioglycaminsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Ioglycamide' |
+| WM-DRUG-4318 | Adipiodon | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Adipiodone' |
+| WM-DRUG-4319 | Iobenzaminsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iobenzamic acid' |
+| WM-DRUG-4320 | Iopansäure | drug | zu wenige Quellen mit Zusammenfassung (1) für 'iopanoic acid' |
+| WM-DRUG-4321 | Iocetaminsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iocetamic acid' |
+| WM-DRUG-4322 | Natriumiopodat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'iopodate' |
+| WM-DRUG-4323 | Tyropansäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Tyropanoic acid' |
+| WM-DRUG-4324 | Calciumiopodat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Calcium iodate' |
+| WM-DRUG-4325 | Ethylester iodierter Fettsäuren | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Iodized fatty acid ethyl esters' |
+| WM-DRUG-4326 | Iopydol | drug | zu viele nur teilweise belegte Sätze (21/50) |
+| WM-DRUG-4327 | Propyliodon | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Titel 'Propyliodon' ist falsch; gesuchter Wirkstoff ist Propylthiouracil. Quellen 1, 5, 6, 7 behandeln Antithyroida allgemein oder nicht spe |
+| WM-DRUG-4328 | Iofendylat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'iofenidate' |
+| WM-DRUG-4330 | Gadopentetsäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Gadopentetat-Dimeglumin als Wirkstoff; alle behandeln Gadolinium-Chelate allgemein oder spezifische Nebenw |
+| WM-DRUG-4331 | Gadotersäure | drug | zu wenige Quellen mit Zusammenfassung (2) für 'gadoterate meglumine' |
+| WM-DRUG-4332 | Gadodiamid | drug | zu wenige Quellen mit Zusammenfassung (3) für 'gadodiamide' |
+| WM-DRUG-4333 | Gadoteridol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt den Wirkstoff Gadoteridol oder ein damit zusammenhängendes Krankheitsbild.) |
+| WM-DRUG-4334 | Mangafodipir | drug | zu wenige Quellen mit Zusammenfassung (1) für 'mangafodipir trisodium' |
+| WM-DRUG-4335 | Gadoversetamid | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Magnevist' |
+| WM-DRUG-4336 | Ammoniumeisen(III)citrat | drug | zu wenige Quellen mit Zusammenfassung (1) für 'ferric ammonium citrate' |
+| WM-DRUG-4337 | Gadobensäure | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der Quellen behandelt spezifisch den Wirkstoff Gadobensäure (Gadobenate). Die Quellen behandeln allgemein Gadolinium-basierte Kontrast |
+| WM-DRUG-4338 | Gadobutrol | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 4 und 5 behandeln explizit Gadobutrol. Quelle 3 behandelt GBCA im Kontext von MRI, was Gadobutrol einschließt, aber weniger spezifisch ist  |
+| WM-DRUG-4340 | Gadofosveset | drug | zu wenige Quellen mit Zusammenfassung (1) für 'gadofosveset trisodium' |
+| WM-DRUG-4341 | Ferumoxsil | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Ferumoxsil (ATC V08CB01) oder dessen Indikation (MRT-Kontrastmittel). Alle Quellen behandeln |
+| WM-DRUG-4342 | Ferristen | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der Suchbegriff 'Ferrosoferric oxide' ist chemisch nicht spezifisch für den ATC-Wirkstoff Ferumoxytol (V08CB02), der ein superparamagnetisch |
+| WM-DRUG-4343 | Perflubron | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Perflubron oder Liquid Ventilation als primäres Thema; Titel sind zu allgemein oder behandeln andere Indik |
+| WM-DRUG-4344 | Galactose-Mikropartikel | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Galactose microparticles' |
+| WM-DRUG-4345 | Perflenapent | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Perflenapent (V08DA03) als diagnostischen Kontrastmittel-Wirkstoff; alle Quellen beziehen sich auf Perfluo |
+| WM-DRUG-4346 | (99mTc)Technetiumexametazim | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Wirkstoff Technetiumexametazim (HMPAO) als primäres Thema; Quellen behandeln allgemeine Nuklearmedizin |
+| WM-DRUG-4347 | (99mTc)Technetiumbicisat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m bicisate' |
+| WM-DRUG-4348 | (123I)Iodiofetamin | drug | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Quellen 1, 2 und 5 behandeln allgemeine Parkinson-Syndrome oder Demenz, nicht spezifisch den Wirkstoff Ioflupane als Hauptfokus. Quelle 3, 4 und 6  |
+| WM-DRUG-4349 | (123I)Iodioloprid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Iopanoic acid' |
+| WM-DRUG-4350 | (111In)Indium(III)pentetat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Indium In 111 pentetate' |
+| WM-DRUG-4352 | (99mTc)Technetiumoxidronat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m medronate' |
+| WM-DRUG-4353 | (99mTc)Technetiummedronat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m medronate' |
+| WM-DRUG-4354 | (99mTc)Technetiumpyrophosphat | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Tc-99m PYP' |
+| WM-DRUG-4355 | (99mTc)Technetiumbutedronat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Technetium Tc 99m medronate' |
 | WM-DRUG-4477 | Eisencarboxymaltose | drug | Metadatenprüfung: ERROR  /var/lib/wikimedica-editorial-agent/outbox/eisencarboxymaltose.md:23  [atc_codes]  'B03AC' is not a valid 7-character ATC code.
 
 --- Validation Summary ---
