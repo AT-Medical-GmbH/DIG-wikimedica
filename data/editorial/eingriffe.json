@@ -199,10 +199,14 @@
    "mammakarzinom"
   ],
   "leberresektion": [
+   "boesartige-neubildung-der-leber-und-der-intrahepatischen-gallengaenge",
    "leberzirrhose"
   ],
   "lebertransplantation": [
-   "leberzirrhose"
+   "leberzirrhose",
+   "boesartige-neubildung-der-leber-und-der-intrahepatischen-gallengaenge",
+   "chronische-virushepatitis",
+   "alkoholische-leberkrankheit"
   ],
   "lidchirurgie": [],
   "lobektomie-lunge": [
