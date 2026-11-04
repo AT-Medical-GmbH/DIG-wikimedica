@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 04.11.2026 10:25. Warteschlange: duplicate 490, failed 1, planned 309, published 2177, ready 2, redirect 409, review 3764.
+Stand: 04.11.2026 11:38. Warteschlange: duplicate 490, failed 1, planned 306, published 2179, ready 1, redirect 409, review 3766.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3822,3 +3822,5 @@ Files validated:    |
 | WM-PAT-0201 | Manische Episode | patient | Bestätigungsquote 37/68 unter 60 % |
 | WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
 | WM-PAT-0215 | Rheumatische Mitralklappenkrankheiten | patient | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Mitralklappenfehler“ nicht: „Bei der rheumatischen Herzerkrankung ist diese Klappe am häufigsten betroffen.[1]“ |
+| WM-PAT-0216 | Rheumatische Aortenklappenkrankheiten | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Man nennt das Sekundärprophylaxe, also Vorbeugung nach einer ersten Erkrankung.[5]“ |
+| WM-PAT-0246 | Akute Perikarditis | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu gehören neue oder stärker gewordene Flüssigkeit im Herzbeutel (Fachbegriff: Perikarderguss), ty“ |
