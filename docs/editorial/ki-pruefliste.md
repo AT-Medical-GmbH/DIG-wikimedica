@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 04.11.2026 15:25. Warteschlange: duplicate 490, failed 1, planned 320, published 2164, ready 1, redirect 409, review 3767.
+Stand: 04.11.2026 18:26. Warteschlange: duplicate 490, failed 1, planned 313, published 2170, ready 1, redirect 409, review 3768.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3819,6 +3819,7 @@ Files validated:    |
 | WM-PAT-0162 | Alkoholische Leberkrankheit | patient | Bestätigungsquote 46/83 unter 60 % |
 | WM-PAT-0173 | Krankheiten des Verdauungssystems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | patient | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Verdauungsprobleme nach Operation“ nicht: „Nach Operationen treten Komplikationen in bis zu 20 Prozent der Fälle auf.[1]“ |
 | WM-PAT-0174 | Rezidivierende depressive Störung | patient | Truncated: stop_reason=max_tokens (claude-haiku-5-5) |
+| WM-PAT-0190 | Gefäßkrankheiten des Darmes | patient | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Darminfarkt“ nicht: „Dabei fließt zu wenig Blut in den Dünn- oder Dickdarm.[1]“ |
 | WM-PAT-0199 | Krankheiten mehrerer Herzklappen | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu gehören die Echokardiografie (Ultraschall des Herzens) und der Doppler (Messung der Blutströmun“ |
 | WM-PAT-0201 | Manische Episode | patient | Bestätigungsquote 37/68 unter 60 % |
 | WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
