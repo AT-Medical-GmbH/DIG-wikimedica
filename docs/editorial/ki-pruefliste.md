@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 04.11.2026 06:25. Warteschlange: duplicate 490, failed 1, planned 334, published 2170, redirect 405, review 3752.
+Stand: 04.11.2026 07:25. Warteschlange: duplicate 490, failed 1, planned 329, published 2170, ready 3, redirect 406, review 3753.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1076,6 +1076,7 @@ Stand: 04.11.2026 06:25. Warteschlange: duplicate 490, failed 1, planned 334, pu
 | WM-DRUG-0877 | Kaliumcanrenoat | drug | Themenprüfung: nur 0 von 11 Quellen passen zum Thema (Der Titel „Kaliumcanrenoat“ bezeichnet den Wirkstoff (Prodrug von Canrenon, ATC C03DA02) und passt zur Klassifikation. Keine der Quellen behandelt |
 | WM-DRUG-0878 | Canrenon | drug | Themenprüfung: nur 0 von 9 Quellen passen zum Thema (Der Titel Canrenon bezeichnet den Wirkstoff (ATC C03DA03) korrekt. Keine der Quellen behandelt jedoch speziell Canrenon. Die Quellen 1, 2, 4, 5, 6  |
 | WM-DRUG-0879 | Eplerenon | drug | Bestätigungsquote 22/40 unter 60 %; zu viele nur teilweise belegte Sätze (17/22) |
+| WM-DRUG-0881 | Amilorid | drug | Themenprüfung: nur 1 von 5 Quellen passen zum Thema (Nur Quelle 2 behandelt Amilorid als Wirkstoff gezielt. Quelle 1 (Primärer Hyperaldosteronismus), 3 und 4 (therapieresistente Hypertonie) sowie 5 (n |
 | WM-DRUG-0882 | Triamteren | drug | Themenprüfung: nur 0 von 4 Quellen passen zum Thema (Der Titel „Triamteren“ bezeichnet denselben Wirkstoff wie ATC C03DB02. Keine der Quellen behandelt jedoch Triamteren als Schwerpunkt. Quelle 1 betr |
 | WM-DRUG-0883 | Conivaptan | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Der Titel „Conivaptan“ entspricht dem Wirkstoff der Klassifikation (ATC C03XA02, Vasopressin-Antagonist). Nur die Quellen 1 und 2 behandeln Vaptane |
 | WM-DRUG-0884 | Schachtelhalmkraut | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Der Titel „Schachtelhalmkraut“ (Equisetum arvense herba, ATC C03XP01) bezeichnet denselben Wirkstoff wie die Klassifikation. Nur Quelle 1 behandelt |
