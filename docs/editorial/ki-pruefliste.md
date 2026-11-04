@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 04.11.2026 00:26. Warteschlange: duplicate 490, failed 1, planned 344, published 2158, ready 6, redirect 405, review 3748.
+Stand: 04.11.2026 01:25. Warteschlange: duplicate 490, failed 1, planned 343, published 2164, redirect 405, review 3749.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -2110,6 +2110,7 @@ Stand: 04.11.2026 00:26. Warteschlange: duplicate 490, failed 1, planned 344, pu
 | WM-DRUG-2255 | Huminsäuren | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den Arzneimittelwirkstoff Huminsäuren (ATC A07BC08) für medizinische Indikationen; Quellen behandeln Umwel |
 | WM-DRUG-2256 | Kaffeekohle | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Aktivkohle als Adsorbens in Umwelttechnik, Materialwissenschaft oder Biotechnologie, nicht als Arzneimittel zur Gastr |
 | WM-DRUG-2257 | Diphenoxylat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Diphenoxylat. Quelle 1 behandelt Antimotilitätsmittel allgemein, Quelle 3 Opiumtinktur, Quelle 4 Opioide a |
+| WM-DRUG-2259 | Loperamid | drug | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine Quelle behandelt Loperamid als Hauptthema. Quelle 1 (RDS-Pharmakotherapie), 4 (Opioidrezeptor-Modulatoren bei RDS) und 6 (LARS) erwähnen Lope |
 | WM-DRUG-2260 | Difenoxin | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Difenoxin' |
 | WM-DRUG-2261 | Loperamidoxid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'loperamide N-oxide' |
 | WM-DRUG-2262 | Eluxadolin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Eluxadolin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC A07DA06). Nur Quelle 6 behandelt Eluxadolin direkt. Quelle 3 unte |
