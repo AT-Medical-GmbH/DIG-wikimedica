@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 04.11.2026 18:26. Warteschlange: duplicate 490, failed 1, planned 313, published 2170, ready 1, redirect 409, review 3768.
+Stand: 04.11.2026 19:25. Warteschlange: duplicate 490, failed 1, planned 309, published 2171, ready 2, redirect 409, review 3770.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3825,4 +3825,6 @@ Files validated:    |
 | WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
 | WM-PAT-0215 | Rheumatische Mitralklappenkrankheiten | patient | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Mitralklappenfehler“ nicht: „Bei der rheumatischen Herzerkrankung ist diese Klappe am häufigsten betroffen.[1]“ |
 | WM-PAT-0216 | Rheumatische Aortenklappenkrankheiten | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Man nennt das Sekundärprophylaxe, also Vorbeugung nach einer ersten Erkrankung.[5]“ |
+| WM-PAT-0236 | Fissur und Fistel in der Anal- und Rektalregion | patient | Artikelgegenstand: erster Satz nennt „Afterleiden“ nicht: „Ein Einriss in der Haut am After (Fachbegriff: Analfissur) gehört zu den häufigsten Erkrankungen rund um den After.[4]“ |
 | WM-PAT-0246 | Akute Perikarditis | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu gehören neue oder stärker gewordene Flüssigkeit im Herzbeutel (Fachbegriff: Perikarderguss), ty“ |
+| WM-PAT-0487 | Funktionelle Dyspepsie | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu gehören Aufklärung über die Erkrankung (Fachbegriff: Psychoedukation), Ernährungsberatung, Körp“ |
