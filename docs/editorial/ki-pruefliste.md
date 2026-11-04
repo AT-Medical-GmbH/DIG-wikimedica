@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 04.11.2026 07:25. Warteschlange: duplicate 490, failed 1, planned 329, published 2170, ready 3, redirect 406, review 3753.
+Stand: 04.11.2026 08:25. Warteschlange: duplicate 490, failed 1, planned 321, published 2173, ready 2, redirect 406, review 3759.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -1836,6 +1836,7 @@ Stand: 04.11.2026 07:25. Warteschlange: duplicate 490, failed 1, planned 329, pu
 | WM-DRUG-1889 | Acetylcholin | drug | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (ATC N07AB03 ist Acetylcholin als Arzneimittelwirkstoff (Parasympathomimetikum, z. B. Provokationstest bei Koronarspasmus). Nur die Quellen 12 und  |
 | WM-DRUG-1891 | Cholinalfoscerat | drug | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Der Titel 'Cholinalfoscerat' bezeichnet denselben Wirkstoff wie die Klassifikation (ATC N07AX02, Cholinalfoscerat = Cholin-Alfoscerat = Gliatilin). |
 | WM-DRUG-1892 | Cevimelin | drug | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Nur Quellen 3 und 4 behandeln Cevimelin selbst; die übrigen betreffen andere Wirkstoffe oder allgemeine Sjögren-/Xerostomie- bzw. Muskarinagonisten |
+| WM-DRUG-1894 | Cytisiniclin | drug | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Cytisiniclin ist Schreibvariante von Cytisinicline (=Cytisin). Quellen 1, 3 und 5 behandeln den Wirkstoff; 2 und 4 sind allgemeine Übersichten zur  |
 | WM-DRUG-1896 | Calciumcarbimid | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den Wirkstoff Calciumcarbimid (ATC N07BB02) oder die zugehörige Indikation. Quellen 1-3 behandeln Alkohol in der Schw |
 | WM-DRUG-1897 | Acamprosat | drug | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel 'Acamprosat' entspricht dem Wirkstoff (ATC N07BB03). Nur Quelle 2 behandelt Acamprosat spezifisch. Die übrigen Quellen sind allgemeine Üb |
 | WM-DRUG-1899 | Ondelopran | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Ondelopran' |
@@ -2118,6 +2119,7 @@ Stand: 04.11.2026 07:25. Warteschlange: duplicate 490, failed 1, planned 329, pu
 | WM-DRUG-2262 | Eluxadolin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Eluxadolin“ bezeichnet denselben Wirkstoff wie die Klassifikation (ATC A07DA06). Nur Quelle 6 behandelt Eluxadolin direkt. Quelle 3 unte |
 | WM-DRUG-2263 | Prednison | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Die ATC-Klassifikation A07EA03 bezeichnet Prednison zur lokalen Anwendung bei Darmerkrankungen (intestinale Antiphlogistika, Kortikosteroide |
 | WM-DRUG-2264 | Tixocortol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Tixocortol' |
+| WM-DRUG-2265 | Beclometason | drug | Themenprüfung: nur 3 von 12 Quellen passen zum Thema (Nur Quellen 2, 8 und 10 behandeln Beclometason(dipropionat) spezifisch; die übrigen betreffen andere Wirkstoffe, Kortikosteroide allgemein oder al |
 | WM-DRUG-2266 | Cromoglicinsäure | drug | Themenprüfung: nur 2 von 10 Quellen passen zum Thema (Titel 'Cromoglicinsäure' entspricht dem Wirkstoff Cromoglicat (ATC A07EB01, oral bei Mastzellerkrankungen/Nahrungsmittelallergie). Nur Quelle 5 (W |
 | WM-DRUG-2267 | Sulfasalazin | drug | Themenprüfung: nur 2 von 9 Quellen passen zum Thema (Der Titel „Sulfasalazin“ entspricht dem Wirkstoff der Klassifikation (ATC A07EC01). Nur die Quellen 1 und 2 behandeln Sulfasalazin direkt (Hypersen |
 | WM-DRUG-2269 | Olsalazin | drug | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Das Thema ist der Wirkstoff Olsalazin, ein 5-ASA-Prodrug. Nur Quelle 15 behandelt 5-Aminosalicylate bei Colitis ulcerosa und damit die Wirkstoffkl |
@@ -2194,6 +2196,7 @@ Stand: 04.11.2026 07:25. Warteschlange: duplicate 490, failed 1, planned 329, pu
 | WM-DRUG-2358 | Donislecel | drug | Themenprüfung: nur 0 von 6 Quellen passen zum Thema (Donislecel (Lantidra) ist ein allogenes, aus Spenderpankreas gewonnenes Inselzellpräparat für Typ-1-Diabetes, und der Titel bezeichnet denselben Wi |
 | WM-DRUG-2361 | Ergocalciferol | drug | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (Nur Quellen 5, 7 und 13 behandeln explizit Ergocalciferol (Vitamin D2) oder vergleichen es direkt mit anderen Formen im Kontext seiner Wirkung. Qu |
 | WM-DRUG-2362 | Dihydrotachysterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Dihydrotachysterol; alle beziehen sich auf Vitamin-D-Analoga allgemein oder andere Indikationen.) |
+| WM-DRUG-2363 | Alfacalcidol | drug | Themenprüfung: nur 1 von 12 Quellen passen zum Thema (Nur Quelle 9 behandelt Alfacalcidol ausdrücklich (zusammen mit Eldecalcitol). Die Quellen 1 und 2 betreffen Eldecalcitol, einen anderen Wirkstoff. |
 | WM-DRUG-2369 | Sulbutiamin | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Sulbutiamine' |
 | WM-DRUG-2372 | Thiaminpyrophosphat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Nur 3 Quellen behandeln Thiamin/Thiaminpyrophosphat direkt im klinischen Kontext. Quelle 3 ist evolutionär, 1 ist Sepsis-nutritionell, 5 ist |
 | WM-DRUG-2376 | Pyridoxin (Vitamin B6) | drug | Bestätigungsquote 22/68 unter 60 % |
@@ -2845,6 +2848,7 @@ Stand: 04.11.2026 07:25. Warteschlange: duplicate 490, failed 1, planned 329, pu
 | WM-DRUG-3281 | Spagluminsäure | drug | zu wenige Quellen mit Zusammenfassung (0) für 'spaglumic acid' |
 | WM-DRUG-3282 | Nedocromil | drug | zu wenige Quellen mit Zusammenfassung (3) für 'nedocromil' |
 | WM-DRUG-3283 | Flunisolid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'flunisolide' |
+| WM-DRUG-3284 | Ciclesonid | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel „Ciclesonid“ bezeichnet denselben Wirkstoff wie ATC R01AD13. Quellen 2, 6 und 7 behandeln Ciclesonid direkt. Quellen 1, 3, 4 und 5 betref |
 | WM-DRUG-3285 | Luffa operculata | drug | zu wenige Quellen mit Zusammenfassung (2) für 'Luffa acutangula' |
 | WM-DRUG-3286 | Niauliöl | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Niauliöl (ATC R01AP03) ist ein Nasenspray zur Behandlung der Rhinitis. Die Quellen behandeln Akne, Kosmetik, Neuroprotektion oder allgemeine |
 | WM-DRUG-3287 | Calciumhexaminthiocyanat | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Calcium hexammine thiocyanate' |
@@ -2881,7 +2885,9 @@ Stand: 04.11.2026 07:25. Warteschlange: duplicate 490, failed 1, planned 329, pu
 | WM-DRUG-3323 | Reproterol | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch Reproterol; alle beziehen sich auf die allgemeine Klasse der Beta-2-Agonisten oder andere Substanzen.) |
 | WM-DRUG-3324 | Procaterol | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Procaterol' |
 | WM-DRUG-3325 | Bitolterol | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Bitolterol' |
+| WM-DRUG-3326 | Olodaterol | drug | Themenprüfung: nur 3 von 7 Quellen passen zum Thema (Der Titel 'Olodaterol' entspricht dem Wirkstoff (ATC R03AC19). Quellen 1, 6 und 7 behandeln explizit Tiotropium/Olodaterol. Quellen 2, 3, 4 und 5 b |
 | WM-DRUG-3327 | Oxitropiumbromid | drug | zu wenige Quellen mit Zusammenfassung (1) für 'Oxitropium' |
+| WM-DRUG-3330 | Aclidiniumbromid | drug | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Nur Quelle 8 behandelt Aclidiniumbromid (in Kombination mit Formoterol) direkt. Die Quellen 1–7 betreffen COPD-Therapie, LAMA-Klasse oder andere Wi |
 | WM-DRUG-3331 | Revefenacin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Revefenacin (R03BB08) oder dessen Indikation COPD/Asthma. Alle Quellen befassen sich mit andere |
 | WM-DRUG-3332 | Fenspirid | drug | zu wenige Quellen mit Zusammenfassung (0) für 'Fenspiride' |
 | WM-DRUG-3333 | Ensifentrin | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine der 16 Quellen behandelt den Wirkstoff Ensifentrin oder dessen Indikation COPD/Asthma; alle behandeln andere Fachgebiete (Gastroentero |
