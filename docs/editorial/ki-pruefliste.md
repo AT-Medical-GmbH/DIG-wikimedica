@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 04.11.2026 09:25. Warteschlange: duplicate 490, failed 1, planned 314, published 2175, ready 2, redirect 408, review 3762.
+Stand: 04.11.2026 10:25. Warteschlange: duplicate 490, failed 1, planned 309, published 2177, ready 2, redirect 409, review 3764.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3818,5 +3818,7 @@ Files validated:    |
 | WM-PAT-0161 | Bestimmte akute Komplikationen nach akutem Myokardinfarkt | patient | Artikelgegenstand: erster Satz nennt „Komplikationen nach Herzinfarkt“ nicht: „Ein Herzinfarkt (Fachbegriff: Myokardinfarkt) ist eine lebensbedrohliche Erkrankung der Herzkranzgefäße.[3]“ |
 | WM-PAT-0162 | Alkoholische Leberkrankheit | patient | Bestätigungsquote 46/83 unter 60 % |
 | WM-PAT-0174 | Rezidivierende depressive Störung | patient | Truncated: stop_reason=max_tokens (claude-haiku-5-5) |
+| WM-PAT-0199 | Krankheiten mehrerer Herzklappen | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu gehören die Echokardiografie (Ultraschall des Herzens) und der Doppler (Messung der Blutströmun“ |
 | WM-PAT-0201 | Manische Episode | patient | Bestätigungsquote 37/68 unter 60 % |
 | WM-PAT-0204 | Rezidivierender Myokardinfarkt | patient | Bestätigungsquote 31/55 unter 60 % |
+| WM-PAT-0215 | Rheumatische Mitralklappenkrankheiten | patient | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Mitralklappenfehler“ nicht: „Bei der rheumatischen Herzerkrankung ist diese Klappe am häufigsten betroffen.[1]“ |
