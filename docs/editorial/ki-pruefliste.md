@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 04.11.2026 08:25. Warteschlange: duplicate 490, failed 1, planned 321, published 2173, ready 2, redirect 406, review 3759.
+Stand: 04.11.2026 09:25. Warteschlange: duplicate 490, failed 1, planned 314, published 2175, ready 2, redirect 408, review 3762.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3607,6 +3607,7 @@ Stand: 04.11.2026 08:25. Warteschlange: duplicate 490, failed 1, planned 321, pu
 | WM-DRUG-4251 | pro BNP-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt den spezifischen Wirkstoff 'pro BNP-Testzone' (ATC V04CO03). Die Quellen befassen sich mit BNP/NT-proBNP als Biomarke |
 | WM-DRUG-4252 | CK-MB-Testzone | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch den CK-MB-Test als diagnostischen Marker für akutes Myokardinfarkt oder kardiale Schädigung im Kontext des |
 | WM-DRUG-4253 | Indocyaningrün | drug | zu viele nur teilweise belegte Sätze (16/32) |
+| WM-DRUG-4254 | Methacholin | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel 'Methacholin' entspricht dem Wirkstoff der Klassifikation. Nur Quelle 5 behandelt Methacholin bzw. den Methacholin-Provokationstest direk |
 | WM-DRUG-4255 | C-Harnstoff | drug | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine der Quellen behandelt den diagnostischen Wirkstoff Urea (ATC V04CX05). Die Quellen beziehen sich auf Harnstoffstoffwechselstörungen (Krankhe |
 | WM-DRUG-4256 | Hexaminolevulinat | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle Quellen behandeln Levulinsäure als chemischen Rohstoff für die Biotechnologie oder Katalyse, nicht als Arzneimittelwirkstoff (Hexaminol |
 | WM-DRUG-4257 | Edrophonium | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt Edrophonium spezifisch; Quellen zu Neostigmin oder Myasthenia Gravis allgemein sind zu allgemein oder betreffen ander |
@@ -3808,6 +3809,8 @@ Stand: 04.11.2026 08:25. Warteschlange: duplicate 490, failed 1, planned 321, pu
 
 --- Validation Summary ---
 Files validated:    |
+| WM-DRUG-4479 | Omega-3-Säureethylester | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Omega-3-Säureethylester“ entspricht dem Wirkstoff der Klassifikation (ATC C10AX06). Nur Quelle 1 behandelt explizit das Präparat aus Ome |
+| WM-DRUG-4482 | Vilanterol | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt ultra-lang wirksame LABA inkl. Vilanterol; die übrigen Quellen betreffen allgemeine COPD/Asthma-Ziele, Budesonid-Kinetik bzw |
 | WM-PAT-0103 | Kyphose und Lordose | patient | Bestätigungsquote 30/53 unter 60 % |
 | WM-PAT-0127 | Osteochondrose der Wirbelsäule | patient | Artikelgegenstand: erster Satz nennt „Osteochondrose der Wirbelsäule“ nicht: „Die Scheuermann-Krankheit (Fachbegriff: Scheuermann-Kyphose) ist eine starre, verstärkte Rundrückenkrümmung im Brustbere“ |
 | WM-PAT-0131 | Kreislaufkomplikationen nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | patient | Bestätigungsquote 22/37 unter 60 % |
