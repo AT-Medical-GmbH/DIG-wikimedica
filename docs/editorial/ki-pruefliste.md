@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 04.11.2026 01:25. Warteschlange: duplicate 490, failed 1, planned 343, published 2164, redirect 405, review 3749.
+Stand: 04.11.2026 04:25. Warteschlange: duplicate 490, failed 1, planned 337, published 2167, ready 2, redirect 405, review 3750.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3797,6 +3797,7 @@ Stand: 04.11.2026 01:25. Warteschlange: duplicate 490, failed 1, planned 343, pu
 | WM-DRUG-4475 | Abrechnung von Morphin (Take-Home) | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Keine Quelle behandelt spezifisch die 'Abrechnung' oder das 'Take-Home'-Management von Morphin. Alle Quellen befassen sich mit klinischer An |
 | WM-DRUG-4476 | Abrechnung von Cannabinoid-haltigen Stoffen oder | drug | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Der geplante Titel bezieht sich auf die 'Abrechnung' (Reimbursement/Billing) von Cannabinoid-haltigen Stoffen (ATC V90RA02), nicht auf deren |
 | WM-PAT-0103 | Kyphose und Lordose | patient | Bestätigungsquote 30/53 unter 60 % |
+| WM-PAT-0127 | Osteochondrose der Wirbelsäule | patient | Artikelgegenstand: erster Satz nennt „Osteochondrose der Wirbelsäule“ nicht: „Die Scheuermann-Krankheit (Fachbegriff: Scheuermann-Kyphose) ist eine starre, verstärkte Rundrückenkrümmung im Brustbere“ |
 | WM-PAT-0131 | Kreislaufkomplikationen nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | patient | Bestätigungsquote 22/37 unter 60 % |
 | WM-PAT-0157 | Subarachnoidalblutung | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu zählen ein Hydrocephalus (Wasseransammlung im Gehirn), verzögerte Durchblutungsstörungen und Ge“ |
 | WM-PAT-0161 | Bestimmte akute Komplikationen nach akutem Myokardinfarkt | patient | Artikelgegenstand: erster Satz nennt „Komplikationen nach Herzinfarkt“ nicht: „Ein Herzinfarkt (Fachbegriff: Myokardinfarkt) ist eine lebensbedrohliche Erkrankung der Herzkranzgefäße.[3]“ |
