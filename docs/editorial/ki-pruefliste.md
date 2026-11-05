@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 05.11.2026 03:25. Warteschlange: duplicate 491, failed 1, planned 294, published 2183, ready 1, redirect 409, review 3773.
+Stand: 05.11.2026 05:26. Warteschlange: duplicate 491, failed 2, planned 289, published 2186, ready 2, redirect 409, review 3773.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -35,6 +35,7 @@ Stand: 05.11.2026 03:25. Warteschlange: duplicate 491, failed 1, planned 294, pu
 | WM-DIS-0251 | Krankheiten der Arterien, Arteriolen und Kapillaren bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 I79 (Vaskulopathie bei anderenorts klassifizierten Krankheiten). Quellen zu primärer Vaskulitis (2, 8, 10 |
 | WM-DIS-0253 | Osteoporose mit pathologischer Fraktur | disease | Themenprüfung: nur 3 von 9 Quellen passen zum Thema (Titel entspricht M80 (Osteoporose mit aktueller pathologischer Fraktur). Nur Quellen zu Frakturen bzw. deren Versorgung passen; die übrigen behande |
 | WM-DIS-0255 | Osteomalazie im Erwachsenenalter | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Der Titel „Osteomalazie beim Erwachsenen“ entspricht M83 (Osteomalazie im Erwachsenenalter). Keine der Quellen behandelt Osteomalazie als Krankhei |
+| WM-DIS-0261 | Herzstillstand | disease | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DIS-0262 | Betreuung der Mutter bei festgestellter oder vermuteter Anomalie der Beckenorgane | disease | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (O34 umfasst die mütterliche Betreuung bei Anomalien der Beckenorgane (u. a. Uterusfehlbildungen, Uterusnarbe, Zervixinsuffizienz) in der Schwangers |
 | WM-DIS-0265 | Schädlicher Gebrauch von nichtabhängigkeitserzeugenden Substanzen | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 F55 (schädlicher Gebrauch nichtabhängigkeitserzeugender Substanzen). Quelle 7 erwähnt 'Non-substance Rela |
 | WM-DIS-0280 | Perikarditis bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (I32 meint Perikarditis als Begleiterkrankung bei anderenorts klassifizierten Krankheiten (z. B. bakterielle Perikarditis bei Tuberkulose, Perikard |
