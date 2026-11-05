@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 05.11.2026 05:26. Warteschlange: duplicate 491, failed 2, planned 289, published 2186, ready 2, redirect 409, review 3773.
+Stand: 05.11.2026 06:25. Warteschlange: duplicate 491, failed 2, planned 283, published 2188, ready 3, redirect 409, review 3776.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -38,6 +38,7 @@ Stand: 05.11.2026 05:26. Warteschlange: duplicate 491, failed 2, planned 289, pu
 | WM-DIS-0261 | Herzstillstand | disease | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DIS-0262 | Betreuung der Mutter bei festgestellter oder vermuteter Anomalie der Beckenorgane | disease | Themenprüfung: nur 2 von 8 Quellen passen zum Thema (O34 umfasst die mütterliche Betreuung bei Anomalien der Beckenorgane (u. a. Uterusfehlbildungen, Uterusnarbe, Zervixinsuffizienz) in der Schwangers |
 | WM-DIS-0265 | Schädlicher Gebrauch von nichtabhängigkeitserzeugenden Substanzen | disease | Themenprüfung: nur 0 von 12 Quellen passen zum Thema (Keine Quelle behandelt spezifisch ICD-10 F55 (schädlicher Gebrauch nichtabhängigkeitserzeugender Substanzen). Quelle 7 erwähnt 'Non-substance Rela |
+| WM-DIS-0276 | Tief greifende Entwicklungsstörungen | disease | zu wenige Quellen mit Zusammenfassung (0) für 'autism spectrum disorder' |
 | WM-DIS-0280 | Perikarditis bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 3 von 16 Quellen passen zum Thema (I32 meint Perikarditis als Begleiterkrankung bei anderenorts klassifizierten Krankheiten (z. B. bakterielle Perikarditis bei Tuberkulose, Perikard |
 | WM-DIS-0283 | Krankheiten des Weichteilgewebes im Zusammenhang mit Beanspruchung, Überbeanspruchung und Druck | disease | Themenprüfung: nur 2 von 16 Quellen passen zum Thema (ICD-10-GM M70 umfasst Weichteilerkrankungen durch Überbeanspruchung und Druck (z. B. chronische Tendinopathie/Bursitis, Überlastungssyndrome). Der |
 | WM-DIS-0284 | Enthesopathien der unteren Extremität mit Ausnahme des Fußes | disease | zu wenige Quellen mit Zusammenfassung (3) für 'lower limb enthesitis' |
@@ -55,6 +56,7 @@ Stand: 05.11.2026 05:26. Warteschlange: duplicate 491, failed 2, planned 289, pu
 | WM-DIS-0328 | Hereditäre Nephropathie, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (Der Titel entspricht dem Sammelbegriff N07. Nur Quelle 4 behandelt hereditäre Nephropathien allgemein. Die übrigen Quellen betreffen spezifische, a |
 | WM-DIS-0330 | Venenkrankheiten und Hämorrhoiden als Komplikationen in der Schwangerschaft | disease | Themenprüfung: nur 0 von 8 Quellen passen zum Thema (Keine der Quellen behandelt spezifisch Venenerkrankungen oder Hämorrhoiden als Komplikation der Schwangerschaft; Titel und ICD passen überein.) |
 | WM-DIS-0331 | Abnorme Befunde bei der Screeninguntersuchung der Mutter zur pränatalen Diagnostik | disease | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (Titel passt zum ICD-Code O28. Nur Quelle 1 behandelt explizit abnorme mütterliche Screening-Marker (serologische Marker), was direkt zu O28 gehört |
+| WM-DIS-0332 | Ösophagitis | disease | zu wenige Quellen mit Zusammenfassung (0) für 'esophagitis' |
 | WM-DIS-0337 | Persönlichkeits- und Verhaltensstörung aufgrund einer Krankheit, Schädigung oder Funktionsstörung des Gehirns | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel passt zur ICD-10 F07. Quellen 1, 6 und 8 behandeln Persönlichkeits-/Verhaltensänderungen durch organische Hirnschädigungen. Quelle 2 (Stimme) |
 | WM-DIS-0341 | Psychische und Verhaltensstörungen in Verbindung mit der sexuellen Entwicklung und Orientierung | disease | Themenprüfung: nur 1 von 9 Quellen passen zum Thema (F66 umfasst psychische und Verhaltensstörungen im Zusammenhang mit sexueller Entwicklung und Orientierung, und der Titel bezeichnet dasselbe Krankh |
 | WM-DIS-0342 | Störungen sozialer Funktionen mit Beginn in der Kindheit und Jugend | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Störungen sozialer Funktionen im Kindes- und Jugendalter“ entspricht F94 (Störungen sozialer Funktionen mit Beginn in der Kindheit und J |
@@ -3829,6 +3831,7 @@ Files validated:    |
 | WM-PAT-0216 | Rheumatische Aortenklappenkrankheiten | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Man nennt das Sekundärprophylaxe, also Vorbeugung nach einer ersten Erkrankung.[5]“ |
 | WM-PAT-0230 | Intestinale Malabsorption | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu gehören Wachstumskurve, körperliche Untersuchung und Knochenalter.[5]“ |
 | WM-PAT-0236 | Fissur und Fistel in der Anal- und Rektalregion | patient | Artikelgegenstand: erster Satz nennt „Afterleiden“ nicht: „Ein Einriss in der Haut am After (Fachbegriff: Analfissur) gehört zu den häufigsten Erkrankungen rund um den After.[4]“ |
+| WM-PAT-0242 | Geburtshindernis durch Lage-, Haltungs- und Einstellungsanomalien des Fetus | patient | Artikelgegenstand: erster Satz nennt „Querlage des Babys“ nicht: „Eine Fehllage des Kopfes Ihres Babys (Fachbegriff: fetale Malposition) liegt vor, wenn der Kopf nicht in der günstigsten“ |
 | WM-PAT-0246 | Akute Perikarditis | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu gehören neue oder stärker gewordene Flüssigkeit im Herzbeutel (Fachbegriff: Perikarderguss), ty“ |
 | WM-PAT-0287 | Stein in den unteren Harnwegen | patient | Artikelgegenstand: erster Satz nennt „Nierensteine“ nicht: „*Hinweis: Die Quellen dieser Übersicht behandeln ausschließlich Blasensteine (Steine in der Harnblase).“ |
 | WM-PAT-0487 | Funktionelle Dyspepsie | patient | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu gehören Aufklärung über die Erkrankung (Fachbegriff: Psychoedukation), Ernährungsberatung, Körp“ |
