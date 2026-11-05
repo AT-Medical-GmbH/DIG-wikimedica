@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 05.11.2026 06:25. Warteschlange: duplicate 491, failed 2, planned 283, published 2188, ready 3, redirect 409, review 3776.
+Stand: 05.11.2026 07:25. Warteschlange: duplicate 491, failed 5, planned 276, published 2191, ready 3, redirect 409, review 3777.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -62,9 +62,11 @@ Stand: 05.11.2026 06:25. Warteschlange: duplicate 491, failed 2, planned 283, pu
 | WM-DIS-0342 | Störungen sozialer Funktionen mit Beginn in der Kindheit und Jugend | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Der Titel „Störungen sozialer Funktionen im Kindes- und Jugendalter“ entspricht F94 (Störungen sozialer Funktionen mit Beginn in der Kindheit und J |
 | WM-DIS-0347 | Krankheiten des Nervensystems nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 2 von 11 Quellen passen zum Thema (Titel passt zu G97. Quelle 4 behandelt explizit iatrogene neuropathies. Quelle 5 behandelt iatrogene Neuropathien durch schnelle Glukosekontrolle. |
 | WM-DIS-0348 | Akute Lymphadenitis | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (Keine Quelle behandelt spezifisch akute bakterielle Lymphadenitis (L04). Quelle 2 ist zu allgemein (Lymphadenopathie), Quelle 1 betrifft Follikulit |
+| WM-DIS-0350 | Psychische und Verhaltensstörungen durch Opioide | disease | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DIS-0352 | Psychische und Verhaltensstörungen durch Sedativa oder Hypnotika | disease | Themenprüfung: nur 3 von 5 Quellen passen zum Thema (Titel deckt F13 ab. Quelle 1 (Pflanzenextrakte) und 3 (Methaqualon als Einzelsubstanz/Chemie) passen nicht zum breiten Krankheitsbild der Abhängigk |
 | WM-DIS-0354 | Psychische und Verhaltensstörungen durch andere Stimulanzien, einschließlich Koffein | disease | Bestätigungsquote 19/37 unter 60 % |
 | WM-DIS-0355 | Psychische und Verhaltensstörungen durch Halluzinogene | disease | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Störungen durch Halluzinogene“ nicht: „Zu den betroffenen Wirkstoffen zählen klassische Psychedelika wie Psilocybin, Lysergsäurediamid (LSD), M |
+| WM-DIS-0359 | Cholezystitis | disease | zu wenige Quellen mit Zusammenfassung (0) für 'cholecystitis' |
 | WM-DIS-0362 | Pathologische Zustände der Plazenta | disease | Themenprüfung: nur 0 von 5 Quellen passen zum Thema (O43 umfasst Plazentaerkrankungen wie Plazentadysfunktion, Plazenta-Transfusionssyndrom und Placenta accreta. Der Titel „Pathologische Zustände der  |
 | WM-DIS-0373 | Andere neurotische Störungen | disease | Themenprüfung: nur 1 von 10 Quellen passen zum Thema (F48 „Andere neurotische Störungen“ (u. a. Neurasthenie, Depersonalisations-/Derealisationssyndrom) entspricht dem Titel. Nur Quelle 6 behandelt ne |
 | WM-DIS-0375 | Leichte Intelligenzminderung | disease | Themenprüfung: nur 2 von 5 Quellen passen zum Thema (Der Titel „Leichte Intelligenzminderung“ entspricht ICD-10-GM F70 (mild intellectual disability). Quelle 4 (zahnmedizinische Versorgung Erwachsener |
@@ -238,6 +240,7 @@ Stand: 05.11.2026 06:25. Warteschlange: duplicate 491, failed 2, planned 283, pu
 | WM-DIS-0746 | Überfunktion der Hypophyse | disease | Themenprüfung: nur 0 von 7 Quellen passen zum Thema (E22 umfasst die Überfunktion der Hypophyse (hormonaktive Hypophysenadenome, z. B. Akromegalie, Hyperprolaktinämie). Der Titel „Überfunktion der Hyp |
 | WM-DIS-0747 | Krankheiten der Zunge | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (K14 umfasst Glossitis, Landkartenzunge, Makroglossie, Glossodynie, Zungenatrophie u. a.; „Erkrankungen der Zunge“ ist ein passendes Synonym. Passen |
 | WM-DIS-0748 | Sonstige Krankheiten des Darmes | disease | Themenprüfung: nur 1 von 13 Quellen passen zum Thema (Titel entspricht K63 (sonstige Darmkrankheiten). Nur Quelle 3 behandelt nichttraumatische Darmperforation bei Erwachsenen; die übrigen betreffen p |
+| WM-DIS-0749 | Sonstige rheumatische Herzkrankheiten | disease | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DIS-0750 | Sonstige Störungen des Kreislaufsystems bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 1 von 11 Quellen passen zum Thema (Titel ist korrekt. Nur Quelle 9 behandelt explizit 'circulatory disorders' (Lebermanifestationen). Quelle 7 ist Thromboangiitis obliterans (I73.1) |
 | WM-DIS-0751 | Keratitis | disease | Metadatenprüfung: otfallmedizin', 'Chirurgie', 'Radiologie', 'Labormedizin', 'Pharmakologie', 'Palliativmedizin', 'Prävention/Public Health', 'Ernährungsmedizin', 'Gender-Medizin']
 
@@ -419,6 +422,7 @@ Stand: 05.11.2026 06:25. Warteschlange: duplicate 491, failed 2, planned 283, pu
 | WM-DIS-1051 | Störungen des Muskeltonus beim Neugeborenen | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Titel entspricht ICD-10-GM P94. Quelle 3 und 5 behandeln explizit neonatale Hypotonie. Quelle 1, 2, 4 und 6 behandeln spezifische Syndrome (Xia-Gib |
 | WM-DIS-1056 | Frühsyphilis | disease | Themenprüfung: nur 1 von 7 Quellen passen zum Thema (Nur Quelle 5 behandelt explizit 'Early Syphilis'. Quelle 6 ist eine allgemeine Übersicht. Die anderen Quellen behandeln Syphilis allgemein, Partner |
 | WM-DIS-1057 | Spätsyphilis | disease | Themenprüfung: nur 2 von 7 Quellen passen zum Thema (Titel passt zu ICD-10-GM A52. Quelle 2 behandelt explizit 'late syphilis'. Quelle 5 behandelt 'Tertiary Syphilis', was klinisch synonym zu Spätsyph |
+| WM-DIS-1065 | Dysphagie | disease | HTTPError: HTTP Error 500: Internal Server Error |
 | WM-DIS-1066 | Hepatomegalie und Splenomegalie, anderenorts nicht klassifiziert | disease | Themenprüfung: nur 1 von 16 Quellen passen zum Thema (Der Titel entspricht R16 (Hepatomegalie und Splenomegalie als Symptom). Nur Quelle 10 behandelt Hepatosplenomegalie als Symptom bzw. diagnostische |
 | WM-DIS-1067 | Schmerzen beim Wasserlassen | disease | Themenprüfung: nur 1 von 8 Quellen passen zum Thema (Der Titel entspricht R30 (Schmerzen beim Wasserlassen, Dysurie). Nur Quelle 4 behandelt Dysurie direkt (Abklärung und Differenzialdiagnose). Quelle |
 | WM-DIS-1071 | Malaise und Fatigue | disease | Themenprüfung: nur 0 von 16 Quellen passen zum Thema (R53 meint Malaise und Fatigue als unspezifisches Symptom; der Titel „Fatigue und Malaise“ entspricht dem. Die Quellen behandeln jedoch jeweils spe |
