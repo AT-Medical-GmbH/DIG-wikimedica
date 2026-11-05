@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 05.11.2026 00:26. Warteschlange: duplicate 490, failed 1, planned 299, published 2179, ready 2, redirect 409, review 3772.
+Stand: 05.11.2026 03:25. Warteschlange: duplicate 491, failed 1, planned 294, published 2183, ready 1, redirect 409, review 3773.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -16,6 +16,7 @@ Stand: 05.11.2026 00:26. Warteschlange: duplicate 490, failed 1, planned 299, pu
 | WM-DIS-0158 | Krankheiten des Weichteilgewebes bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 3 von 8 Quellen passen zum Thema (Titel passt zur ICD-10-GM M73. Quelle 2 ist zu allgemein (Muskel-Skelett), 4 fokussiert auf Schmerz/Primärversorgung, 5 auf Nanomaterialien, 6 auf  |
 | WM-DIS-0163 | Gutartige Neubildung des Kolons, des Rektums, des Analkanals und des Anus | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Titel passt zur ICD-10-GM D12. Quelle 2 behandelt kolorektale Polypen (inkl. benign). Quelle 5 behandelt kolorektale Polypen (benign bis maligne).  |
 | WM-DIS-0188 | Krankheiten der Synovialis und der Sehnen bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: nur 3 von 6 Quellen passen zum Thema (Titel deckt Synovialis/Sehnen ab. Quelle 1 (Sehnenpathologie), 4 (Tenosynoviale Tumore) und 6 (Sehnen und Sehnenscheiden) passen thematisch. Quelle |
+| WM-DIS-0190 | Gefäßkrankheiten des Darmes | disease | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu zählen Embolektomie, transkatheterale Thrombolyse sowie Angioplastie mit oder ohne Stentimplant“ |
 | WM-DIS-0194 | Pneumonie bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (Alle 13 Quellen behandeln Pneumocystis-Pneumonie, also genau das gesuchte Krankheitsbild. J17 (Pneumonie bei anderenorts klassifizierten Kra |
 | WM-DIS-0200 | Endokarditis und Herzklappenkrankheiten bei anderenorts klassifizierten Krankheiten | disease | Themenprüfung: Artikeltitel passt nicht zur Klassifikation (I39 umfasst Endokarditis und Herzklappenkrankheiten bei anderenorts klassifizierten Krankheiten (z. B. syphilitische Endokarditis, Endokardi |
 | WM-DIS-0205 | Krankheiten des autonomen Nervensystems | disease | Themenprüfung: nur 2 von 6 Quellen passen zum Thema (Der Titel entspricht G90 (Krankheiten des autonomen Nervensystems). Passend sind nur Quelle 1 (Elektrophysiologie peripherer und zentraler autonome |
