@@ -28,7 +28,7 @@ TITLE_MAX = 255
 
 
 def execute(script: str, *args: str, input_text: str | None = None) -> subprocess.CompletedProcess:
-    command = ["docker", "exec"]
+    command = ["docker", "exec", "-u", "www-data"]  # Dateien im Wiki gehören www-data (nicht root)
     if input_text is not None:
         command.append("-i")
     command.extend([CONTAINER, *MAINTENANCE, script, *args])
@@ -55,8 +55,37 @@ def figure_files(path: Path) -> list[Path]:
     return out
 
 
+def _sha1_base36(path: Path) -> str:
+    """MediaWiki-Format (Base36, 31 Zeichen) des SHA-1 einer lokalen Datei."""
+    n = int(hashlib.sha1(path.read_bytes()).hexdigest(), 16)
+    digits, out = "0123456789abcdefghijklmnopqrstuvwxyz", ""
+    while n:
+        n, r = divmod(n, 36)
+        out = digits[r] + out
+    return out.rjust(31, "0")
+
+
+def changed_figures(files: list[Path]) -> list[Path]:
+    """Nur Zeichnungen, deren Inhalt von der Wiki-Datei abweicht (oder die fehlen). Unveränderte erneut hochzuladen
+    scheitert in recordUpload und erzeugt bei jedem Lauf Archivkopien (Befund 07.11.2026)."""
+    names = {f: f.name[0].upper() + f.name[1:] for f in files}
+    # eval liest zeilenweise (lange Einzelzeilen werden abgeschnitten): eine Anweisung je Zeile
+    php = ("$g=MediaWiki\\MediaWikiServices::getInstance()->getRepoGroup();\n"
+           + "".join(f'$x=$g->findFile({json.dumps(n)});echo {json.dumps(n)}."\\t".($x?$x->getSha1():"-")."\\n";\n' for n in names.values()))
+    result = execute("eval", input_text=php + "\nexit\n")
+    remote = {}
+    for line in decode(result.stdout).splitlines():
+        if "\t" in line:
+            k, _, v = line.partition("\t")
+            remote[k.strip()] = v.strip()
+    if result.returncode != 0 or len(remote) != len(names):  # Abfrage unklar: wie bisher alles hochladen
+        return files
+    return [f for f, n in names.items() if remote.get(n) != _sha1_base36(f)]
+
+
 def upload_figures(files: list[Path]) -> None:
     """Lädt SVG-Zeichnungen über maintenance/importImages hoch (idempotent: --skip-dupes, --overwrite bei geändertem Inhalt)."""
+    files = changed_figures(files) if files else files
     if not files:
         return
     tmp = f"/tmp/wm-figs-{os.getpid()}"
