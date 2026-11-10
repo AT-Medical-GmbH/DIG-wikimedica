@@ -36,6 +36,10 @@ TYPE_LABEL = {
     "consent": "Aufklärungsmodul", "discharge": "Entlassinformation",
     "pharmaka": "Arzneimittel (Pharmaka)", "therapy": "Therapieprotokoll",
 }
+CONCEPT_LABEL = {
+    "pharmakologie": "Pharmakologie-Grundlage", "diagnostik": "Diagnostik-Begriff", "physiologie": "Physiologie",
+    "pathomechanismus": "Pathomechanismus", "anatomie": "Anatomie", "klinisches-konzept": "Klinisches Konzept",
+}
 KIND_LABEL = {"guideline-summary": "Leitlinien-Zusammenfassung", "qr-media-reference": "Medienverweis"}
 AUDIENCE_LABEL = {
     "physicians": "Ärztinnen und Ärzte", "nursing": "Pflegefachpersonen",
@@ -261,6 +265,11 @@ def categories(fm: dict) -> list[str]:
         cats.append("Artikeltyp: " + KIND_LABEL[fm["content_kind"]])
     if fm.get("article_type") == "professional" and (fm.get("ops") or str(fm.get("slug") or "") in eingriffe()):
         cats.append("Artikeltyp: Eingriff")  # Eingriffs-/Operationsartikel: OPS-Code im Frontmatter oder Liste (SEO E9b, 03.11.2026)
+    if fm.get("concept_kind"):  # Begriffsartikel (#728): eigene Kategorie, bis zur Fachabnahme zusaetzlich "Fachlich ungeprueft"
+        cats.append("Artikeltyp: Begriffsartikel")
+        cats.append("Begriffsartikel: " + CONCEPT_LABEL.get(fm["concept_kind"], str(fm["concept_kind"])))
+        if fm.get("review_status", "ungeprueft") != "geprueft":
+            cats.append("Fachlich ungeprüft")
     if fm.get("sex_gender_relevance") == "relevant" and "Gender-Medizin" not in cats:
         cats.append("Gender-Medizin")  # cross-cutting flagship category
     if fm.get("risk_level") == "high":

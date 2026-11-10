@@ -525,6 +525,32 @@ fields:
     required: false
     description: Optional slug of the corresponding professional article (patient articles).
 
+  concept_kind:
+    type: str
+    required: false
+    description: >
+      Begriffsartikel der KI-Pipeline (Auftrag Andreas 10.11.2026, #728): Pharmakologie-Grundlage, Diagnostik-Begriff,
+      Physiologie, Pathomechanismus, Anatomie, klinisches Konzept. Solche Artikel zeigen bis zur Fachabnahme einen
+      verschaerften, nicht wegklappbaren Hinweis und die Kategorie "Fachlich ungeprueft".
+    values:
+      - pharmakologie
+      - diagnostik
+      - physiologie
+      - pathomechanismus
+      - anatomie
+      - klinisches-konzept
+
+  review_status:
+    type: str
+    required: false
+    description: >
+      Fachlicher Pruefstatus eines Begriffsartikels. "ungeprueft" (Standard) zeigt den verschaerften Hinweis,
+      "geprueft" (nach Fachabnahme durch Andreas, gesetzt mit scripts/editorial/concept_review.py) entfernt ihn.
+    default: ungeprueft
+    values:
+      - ungeprueft
+      - geprueft
+
   # ---------------------------------------------------------------------------
   # Retraction and correction history
   # ---------------------------------------------------------------------------
