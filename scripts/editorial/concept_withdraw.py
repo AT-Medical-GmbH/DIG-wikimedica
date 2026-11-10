@@ -13,6 +13,7 @@ Ohne ``--ausfuehren`` nur Probelauf (zeigt, was passieren würde).
 from __future__ import annotations
 
 import argparse
+import os
 import re
 import sqlite3
 import subprocess
@@ -30,9 +31,19 @@ def title_of(fm: str) -> str:
 
 
 def wiki_delete(container: str, titles: list[str], reason: str) -> subprocess.CompletedProcess:
-    listing = "\n".join(titles) + "\n"
-    return subprocess.run(["docker", "exec", "-u", "www-data", "-i", container, "php", "maintenance/run.php", "deleteBatch",
-                           "-u", "Andreas.Tremml", "-r", reason, "/dev/stdin"], input=listing.encode(), capture_output=True, timeout=300)
+    """Titelliste in eine Temp-Datei im Container schreiben (deleteBatch liest keine Standardeingabe), löschen, aufräumen."""
+    tmp = f"/tmp/wm-withdraw-{os.getpid()}.txt"
+    subprocess.run(["docker", "exec", "-i", container, "sh", "-c", f"cat > {tmp}"], input=("\n".join(titles) + "\n").encode(),
+                   check=True, capture_output=True, timeout=60)
+    try:
+        r = subprocess.run(["docker", "exec", "-u", "www-data", container, "php", "maintenance/run.php", "deleteBatch",
+                            "-u", "Andreas.Tremml", "-r", reason, tmp], capture_output=True, timeout=300)
+        out = (r.stdout + r.stderr).decode(errors="replace")
+        if r.returncode == 0 and ("Unable to read" in out or any(f"{t}" in out and "Failed" in out for t in titles)):
+            r.returncode = 1
+        return r
+    finally:
+        subprocess.run(["docker", "exec", container, "rm", "-f", tmp], capture_output=True, timeout=30)
 
 
 def main() -> int:
