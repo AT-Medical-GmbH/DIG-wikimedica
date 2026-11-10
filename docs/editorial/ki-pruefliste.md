@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 05.11.2026 07:25. Warteschlange: duplicate 491, failed 5, planned 276, published 2191, ready 3, redirect 409, review 3777.
+Stand: 10.11.2026 23:25. Warteschlange: claimed 1, duplicate 491, failed 5, planned 629, published 2195, ready 45, redirect 409, review 3786.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3819,6 +3819,15 @@ Stand: 05.11.2026 07:25. Warteschlange: duplicate 491, failed 5, planned 276, pu
 Files validated:    |
 | WM-DRUG-4479 | Omega-3-Säureethylester | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Omega-3-Säureethylester“ entspricht dem Wirkstoff der Klassifikation (ATC C10AX06). Nur Quelle 1 behandelt explizit das Präparat aus Ome |
 | WM-DRUG-4482 | Vilanterol | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt ultra-lang wirksame LABA inkl. Vilanterol; die übrigen Quellen betreffen allgemeine COPD/Asthma-Ziele, Budesonid-Kinetik bzw |
+| WM-KON-PHARM-0004 | Halbwertszeit | konz_pharm | Stichprobe 10.11.: kein Definitionssatz am Anfang (Text beginnt mit Biologika) |
+| WM-KON-PHARM-0009 | Antagonist | konz_pharm | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Antagonist“ nicht: „Ein spezifisches Beispiel für dieses Prinzip ist die Interaktion von Naloxon mit Opioidrezeptoren.[1]“ |
+| WM-KON-PHARM-0011 | Selektivität | konz_pharm | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Selektivität“ nicht: „In der modernen Pharmakotherapie stellt die Erreichung einer hohen Spezifität eine zentrale Herausforderung dar, da eine“ |
+| WM-KON-PHARM-0019 | Kalziumkanalblocker | konz_pharm | Stichprobe 10.11.: Abschnitt „Funktion“ beginnt mit Bezugswort ohne Vorgängersatz |
+| WM-KON-PHARM-0024 | Verteilungsvolumen | konz_pharm | nur 1 Quellen zitiert (Quellenpflicht) |
+| WM-KON-PHARM-0030 | mTOR | konz_pharm | Artikelgegenstand nach Faktenprüfung: Satzfragment: „mTOR-Signalweg ist eine hochkonservierte Signaltransduktionskaskade in eukaryotischen Zellen, die da“ |
+| WM-KON-PHARM-0040 | SGLT2 | konz_pharm | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Ursprünglich für die Behandlung des Typ-2-Diabetes entwickelt, haben sie sich als zentrale Therapieoption bei “ |
+| WM-KON-PHARM-0042 | mRNA | konz_pharm | Artikelgegenstand nach Faktenprüfung: Satzfragment: „mRNA-Impfstoffe zeigen eine hohe Wirksamkeit bei der Prävention schwerer Krankheitsverläufe, insbeso“ |
+| WM-KON-PHARM-0052 | Toll-like-Rezeptor | konz_pharm | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang ohne Bezug: „Dazu gehören transkriptionelle und post-transkriptionelle Regulation, Proteinabbau sowie die Rekruti“ |
 | WM-PAT-0103 | Kyphose und Lordose | patient | Bestätigungsquote 30/53 unter 60 % |
 | WM-PAT-0127 | Osteochondrose der Wirbelsäule | patient | Artikelgegenstand: erster Satz nennt „Osteochondrose der Wirbelsäule“ nicht: „Die Scheuermann-Krankheit (Fachbegriff: Scheuermann-Kyphose) ist eine starre, verstärkte Rundrückenkrümmung im Brustbere“ |
 | WM-PAT-0131 | Kreislaufkomplikationen nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | patient | Bestätigungsquote 22/37 unter 60 % |
