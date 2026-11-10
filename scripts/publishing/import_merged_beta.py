@@ -22,6 +22,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "scripts" / "publishing"))
 import md2wiki
+import autolink
 from wikipage import categories
 from import_to_mediawiki import WikiClient, WikiError, GateError, wiki_credentials
 
@@ -148,6 +149,25 @@ def article_index() -> dict[str, dict]:
     return _ARTICLE_INDEX
 
 
+_LINKER: "autolink.Linker | None" = None
+
+
+def autolinker() -> "autolink.Linker":
+    """Automatische Querverweise (Auftrag Andreas 10.11.2026): Ziele = Artikel des Quellbestands + Wiki-Artikel/Weiterleitungen
+    aus data/editorial/link-aliases.json (``python3 scripts/publishing/autolink.py --refresh-aliases``)."""
+    global _LINKER
+    if _LINKER is None:
+        alias_titles, redirects = autolink.load_alias_file()
+        titles = {info["title"] for info in article_index().values()} | set(alias_titles)
+        redirects = {a: t for a, t in redirects.items() if a not in titles}
+        _LINKER = autolink.Linker(autolink.build_targets(titles, redirects))
+    return _LINKER
+
+
+def autolink_enabled() -> bool:
+    return os.environ.get("WIKIMEDICA_AUTOLINK", "1") != "0"  # Notbremse: WIKIMEDICA_AUTOLINK=0
+
+
 _EINGRIFFE_VERWANDT: dict | None = None
 
 
@@ -163,7 +183,7 @@ def eingriffe_verwandt() -> dict:
     return _EINGRIFFE_VERWANDT
 
 
-def related_articles(slug: str, fm: dict, limit: int = 6) -> list[str]:
+def _related_forward(slug: str, fm: dict, limit: int = 6) -> list[str]:
     """3 bis 6 fachlich verwandte Artikel: Wirkstoffe derselben ATC-Untergruppe, Krankheiten benachbarter ICD-10-Kodes.
 
     Gibt eine leere Liste zurück, wenn weniger als drei passende Artikel existieren (dann kein Abschnitt)."""
@@ -199,6 +219,34 @@ def related_articles(slug: str, fm: dict, limit: int = 6) -> list[str]:
         # (z. B. C03 Diuretika) bzw. ICD-Kodes desselben Kapitels bis Abstand 30 –, damit auch kleine Gruppen verlinkt sind.
         titles = collect(3, 30)
     return titles if len(titles) >= 2 else []
+
+
+_REVERSE_RELATED: dict[str, list[str]] | None = None
+REVERSE_LIMIT = 4
+
+
+def reverse_related() -> dict[str, list[str]]:
+    """Titel -> Titel der Artikel, die ihn in ihrem „Siehe auch“ nennen (Rückverweise, symmetrische Ergänzung)."""
+    global _REVERSE_RELATED
+    if _REVERSE_RELATED is None:
+        rev: dict[str, list[str]] = {}
+        for other, info in sorted(article_index().items()):
+            if info.get("type") == "patient":
+                continue
+            pseudo = {"title": info["title"], "specialty": info["specialty"], "icd10": info["icd"], "atc_codes": info["atc"]}
+            for target in _related_forward(other, pseudo):
+                rev.setdefault(target, []).append(info["title"])
+        _REVERSE_RELATED = rev
+    return _REVERSE_RELATED
+
+
+def related_articles(slug: str, fm: dict, limit: int = 6) -> list[str]:
+    """Vorwärtsverweise (fachlich verwandt) plus Rückverweise auf Artikel, die diesen Artikel in „Siehe auch“ nennen."""
+    forward = _related_forward(slug, fm, limit)
+    own_title = str(fm.get("title", "")).strip()
+    back = [t for t in reverse_related().get(own_title, []) if t != own_title and t not in forward][:REVERSE_LIMIT]
+    combined = forward + back
+    return combined if len(combined) >= 2 else []
 
 
 def _common(a: str, b: str) -> str:
@@ -298,6 +346,8 @@ def build_page(path: Path, revision: str) -> tuple[str, str, str]:
         f"Stand: {md2wiki.esc(str(fm.get('updated', '')))}; "
         f"Commit: <code>{revision}</code>.\n"
     )
+    if autolink_enabled():  # feste Pipeline-Regel: erstes Vorkommen jedes Begriffs mit Artikel verlinken
+        converted, _ = autolinker().link(converted, title)
     see_also, cats = page_extras(slug, fm, body)
     converted = converted.rstrip()
     if see_also:  # „Siehe auch“ vor die Einzelnachweise, sonst ans Ende des Artikeltexts

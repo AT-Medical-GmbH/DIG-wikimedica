@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import re
+
 from conftest import load_script
 
 
@@ -82,3 +84,53 @@ def test_page_extras_links_patient_information(monkeypatch):
     see, _ = imp.page_extras("arterielle-hypertonie", fm, "Text.")
     assert "== Für Patientinnen und Patienten ==" in see
     assert "[[Bluthochdruck – Patienteninformation]]" in see
+
+
+# --- Automatische Querverweise und Rückverweise (Auftrag Andreas 10.11.2026, #712) ---------------------------------
+
+def _fake_index(n=9):
+    return {f"wirkstoff-{i}": {"title": f"Wirkstoff{i}x", "specialty": "Kardiologie", "type": "pharmaka", "icd": [],
+                               "atc": [f"C03CA0{i}"], "related": ""} for i in range(n)}
+
+
+def test_rueckverweise_ergaenzen_das_siehe_auch(monkeypatch):
+    index = _fake_index()
+    monkeypatch.setattr(imp, "article_index", lambda: index)
+    monkeypatch.setattr(imp, "_REVERSE_RELATED", None)
+    monkeypatch.setattr(imp, "eingriffe_verwandt", lambda: {})
+    fm = {"title": "Wirkstoff8x", "atc_codes": ["C03CA08"], "specialty": "Kardiologie"}
+    forward = imp._related_forward("wirkstoff-8", fm)
+    both = imp.related_articles("wirkstoff-8", fm)
+    assert set(forward) <= set(both) and len(both) <= len(forward) + imp.REVERSE_LIMIT
+    assert "Wirkstoff8x" not in both  # nie sich selbst
+
+
+def test_rueckverweis_nur_wenn_der_andere_artikel_den_titel_nennt(monkeypatch):
+    index = _fake_index()
+    monkeypatch.setattr(imp, "article_index", lambda: index)
+    monkeypatch.setattr(imp, "_REVERSE_RELATED", None)
+    monkeypatch.setattr(imp, "eingriffe_verwandt", lambda: {})
+    rev = imp.reverse_related()
+    for target, sources in rev.items():
+        for source in sources:
+            info = next(i for i in index.values() if i["title"] == source)
+            fm = {"title": source, "atc_codes": info["atc"], "specialty": info["specialty"]}
+            assert target in imp._related_forward(next(s for s, i in index.items() if i["title"] == source), fm)
+
+
+def test_build_page_verlinkt_und_notbremse(monkeypatch):
+    import autolink
+    word = path = None
+    for p in sorted((imp.ROOT / "content" / "pharmaka").glob("*.md"))[:400]:
+        text = p.read_text(encoding="utf-8")
+        w = next((w for w in ("Niere", "Leber", "Herz", "Schmerz") if re.search(rf"(?m)^[^#>|\n].*\b{w}\b", text)), None)
+        if w:
+            word, path = w, p
+            break
+    assert path is not None, "kein geeigneter Artikel für den Test im Quellbestand"
+    monkeypatch.setattr(imp, "_LINKER", autolink.Linker({word: "Zielseite"}))
+    monkeypatch.setenv("WIKIMEDICA_AUTOLINK", "1")
+    _, on, _ = imp.build_page(path, "0" * 40)
+    monkeypatch.setenv("WIKIMEDICA_AUTOLINK", "0")
+    _, off, _ = imp.build_page(path, "0" * 40)
+    assert "Zielseite" in on and "[[Zielseite" not in off
