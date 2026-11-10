@@ -1,4 +1,4 @@
 {
- "noindex": true,
- "_hinweis": "Begriffsartikel (#728) bis zur Fachabnahme mit __NOINDEX__. Auf false stellen, wenn Andreas die Indexierung freigibt; wirkt beim naechsten Import."
+ "noindex": false,
+ "_hinweis": "Notschalter: true setzt __NOINDEX__ auf Begriffsartikel bis zur Fachabnahme (braucht wgExemptFromUserRobotsControl = [] in der LocalSettings). Standard laut Andreas 10.11.2026: false, sofort indexieren."
 }

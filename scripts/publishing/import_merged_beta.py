@@ -81,7 +81,7 @@ def public_beta_body(body: str) -> str:
 
 
 def concept_settings() -> dict:
-    """data/editorial/concept-settings.json: {"noindex": true|false}. Standard: noindex (Indexierung entscheidet Andreas separat)."""
+    """data/editorial/concept-settings.json: {"noindex": true|false}. Standard: false (Andreas 10.11.2026 22:20: Begriffsartikel werden sofort indexiert); true = Notschalter, braucht $wgExemptFromUserRobotsControl = []."""
     try:
         return json.loads((ROOT / "data" / "editorial" / "concept-settings.json").read_text(encoding="utf-8"))
     except (OSError, ValueError):
@@ -326,7 +326,7 @@ def build_page(path: Path, revision: str) -> tuple[str, str, str]:
     if fm.get("concept_kind") and fm.get("review_status", "ungeprueft") != "geprueft":
         # Begriffsartikel bis zur Fachabnahme: verschärfter Hinweis; Suchmaschinen-Sperre per data/editorial/concept-settings.json
         header = CONCEPT_HEADER
-        if concept_settings().get("noindex", True):
+        if concept_settings().get("noindex", False):
             header = "__NOINDEX__\n" + header
     content = header + "\n\n" + converted + note + ("\n" + cats if cats else "")
     digest = hashlib.sha256(content.encode("utf-8")).hexdigest()

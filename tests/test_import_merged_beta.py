@@ -105,7 +105,7 @@ Kreatinin ist ein Abbauprodukt des Muskelstoffwechsels.[1]
 """
 
 
-def _concept_page(tmp_path, monkeypatch, status, noindex=True):
+def _concept_page(tmp_path, monkeypatch, status, noindex=False):
     root = tmp_path
     (root / "content" / "articles").mkdir(parents=True)
     (root / "data" / "editorial").mkdir(parents=True)
@@ -119,16 +119,16 @@ def _concept_page(tmp_path, monkeypatch, status, noindex=True):
     return imp.build_page(f, "0" * 40)[1]
 
 
-def test_begriffsartikel_ungeprueft_hat_verschaerften_hinweis_noindex_und_kategorie(tmp_path, monkeypatch):
+def test_begriffsartikel_ungeprueft_hat_verschaerften_hinweis_und_kategorie_ohne_noindex(tmp_path, monkeypatch):
     text = _concept_page(tmp_path, monkeypatch, "ungeprueft")
-    assert "__NOINDEX__" in text
+    assert "__NOINDEX__" not in text  # Standard: indexierbar (Andreas 10.11.2026)
     assert "Fachlich noch nicht geprüft (BETA)" in text and "kein Ersatz für ärztliche Beratung" in text
     assert "mw-collapsible" not in text
     assert "[[Kategorie:Fachlich ungeprüft]]" in text and "[[Kategorie:Artikeltyp: Begriffsartikel]]" in text
 
 
-def test_begriffsartikel_noindex_umschaltbar(tmp_path, monkeypatch):
-    assert "__NOINDEX__" not in _concept_page(tmp_path, monkeypatch, "ungeprueft", noindex=False)
+def test_begriffsartikel_noindex_notschalter(tmp_path, monkeypatch):
+    assert "__NOINDEX__" in _concept_page(tmp_path, monkeypatch, "ungeprueft", noindex=True)
 
 
 def test_begriffsartikel_nach_abnahme_ohne_hinweis(tmp_path, monkeypatch):
