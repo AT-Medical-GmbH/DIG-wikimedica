@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 11.11.2026 09:26. Warteschlange: duplicate 494, failed 5, planned 399, published 2426, ready 1, redirect 409, review 3827.
+Stand: 11.11.2026 11:26. Warteschlange: duplicate 494, failed 5, planned 394, published 2428, ready 1, redirect 409, review 3830.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3823,6 +3823,9 @@ Files validated:    |
 | WM-KON-ANAT-0011 | Zentralnervensystem | konz_anat | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Im Fötus können Anomalien des zentralen Nervensystems isoliert oder im Rahmen multisystemischer Erkrankungen a“ |
 | WM-KON-ANAT-0013 | Gebärmutter | konz_anat | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Diagnose und Charakterisierung uteriner Pathologien erfolgt häufig mittels Ultraschall, wobei standardisie“ |
 | WM-KON-ANAT-0016 | Pankreas | konz_anat | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der Intraduktalen onkozytischen papillären Neoplasie (IOPN) ist der Pankreaskopf mit 55,3 % der häufigste “ |
+| WM-KON-ANAT-0020 | Prostata | konz_anat | Bestätigungsquote 17/47 unter 60 % |
+| WM-KON-ANAT-0021 | Ösophagus | konz_anat | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die hochauflösende Ösophagus-Manometrie (HRM) stellt die Referenzmethode zur detaillierten Bewertung der ösoph“ |
+| WM-KON-ANAT-0022 | Harnwege | konz_anat | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei Katzen können untere Harnwegssymptome wie Dysurie, Hämaturie, Periurie, Pollakisurie und Strangurie auftre“ |
 | WM-KON-DIAG-0001 | Anamnese | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Anamnese bildet zusammen mit der körperlichen Untersuchung die Grundlage der klinischen Diagnostik, bevor “ |
 | WM-KON-DIAG-0004 | Computertomographie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der klinischen Praxis hat sich die Computertomographie zu einem unverzichtbaren Werkzeug für die Diagnostik“ |
 | WM-KON-DIAG-0012 | Histologie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der Gastroenterologie und Hepatologie wird die Histologie oft mit nicht-invasiven Tests verglichen, um Fibr“ |
