@@ -1,0 +1,70 @@
+---
+title: "Neoplasie"
+slug: "neoplasie"
+specialty: "Innere Medizin"
+secondary_specialties: []
+article_type: "professional"
+content_kind: "article"
+status: "draft"
+version: "0.1.0"
+change_summary: "Automatisch erstellter, quellenbasierter Begriffsartikel (Pathomechanismus) mit maschineller Faktenprüfung gegen PubMed-Quellen; fachliche Prüfung steht aus (Prüfstatus ungeprüft)."
+authors: [{name: "WikiMedica-Redaktion"}]
+reviewers: []
+created: "2026-11-11"
+updated: "2026-11-11"
+risk_level: "moderate"
+target_audience: ["medical-professionals"]
+sex_gender_relevance: "not_assessed"
+sex_gender_notes: ""
+safety_hold: false
+language: "de"
+language_level: "professional"
+icd10: []
+ops: []
+pubmed_ids: ["37286893", "34757143", "39684425", "40980975", "42822273", "36381592", "40711506", "34454714", "34526356", "32989899", "36399769"]
+guidelines: [{"title": "AGA Clinical Practice Update on the Diagnosis and Management of Atrophic Gastritis: Expert Review", "issuer": "", "year": 2021, "url": "https://pubmed.ncbi.nlm.nih.gov/34454714/"}]
+references: [{"citation": "Winge MCG, Kellman LN, Guo K et al.. Advances in cutaneous squamous cell carcinoma. Nat Rev Cancer. 2023;23:430-449.", "pmid": "37286893", "doi": "10.1038/s41568-023-00583-5", "url": "https://pubmed.ncbi.nlm.nih.gov/37286893/"}, {"citation": "Shah SC, Itzkowitz SH. Colorectal Cancer in Inflammatory Bowel Disease: Mechanisms and Management. Gastroenterology. 2022;162:715-730.e3.", "pmid": "34757143", "doi": "10.1053/j.gastro.2021.10.035", "url": "https://pubmed.ncbi.nlm.nih.gov/34757143/"}, {"citation": "Pulliero A, Cassatella G, Astuni P et al.. The Role of microRNA Expression and DNA Methylation in HPV-Related Cervical Cancer: A Systematic Review. Int J Mol Sci. 2024;25.", "pmid": "39684425", "doi": "10.3390/ijms252312714", "url": "https://pubmed.ncbi.nlm.nih.gov/39684425/"}, {"citation": "Feddersen UR, Hendel SK, Berner-Hansen VH et al.. Colorectal Neoplasia Pathogenesis in Normal Appearing Colonic Mucosa -A Perspective With Focus on Eicosanoid Signaling Pathways. Cancer Med. 2025;14:e71168.", "pmid": "40980975", "doi": "10.1002/cam4.71168", "url": "https://pubmed.ncbi.nlm.nih.gov/40980975/"}, {"citation": "Krishna R, Basu SN, S M et al.. Oral peri-implant tissue as a neoplastic bed: a systematic review of clinicopathology, pathogenesis, and survival outcomes. J Craniomaxillofac Surg. 2026;54:109892.", "pmid": "42822273", "doi": "10.1016/j.jcms.2026.109892", "url": "https://pubmed.ncbi.nlm.nih.gov/42822273/"}, {"citation": "Chaux A, Sanchez DF, Fernández-Nestosa MJ et al.. The dual pathogenesis of penile neoplasia: The heterogeneous morphology of human papillomavirus-related tumors. Asian J Urol. 2022;9:349-358.", "pmid": "36381592", "doi": "10.1016/j.ajur.2022.02.009", "url": "https://pubmed.ncbi.nlm.nih.gov/36381592/"}, {"citation": "Kounatidou NE, Tzavara C, Aikaterini A et al.. Ocular Surface Squamous Neoplasia: A Cohort Study and Updates in the Pathogenesis, Diagnosis, and Medical Management. Semin Ophthalmol. 2026;41:277-287.", "pmid": "40711506", "doi": "10.1080/08820538.2025.2536229", "url": "https://pubmed.ncbi.nlm.nih.gov/40711506/"}, {"citation": "Shah SC, Piazuelo MB, Kuipers EJ et al.. AGA Clinical Practice Update on the Diagnosis and Management of Atrophic Gastritis: Expert Review. Gastroenterology. 2021;161:1325-1332.e7.", "pmid": "34454714", "doi": "10.1053/j.gastro.2021.06.078", "url": "https://pubmed.ncbi.nlm.nih.gov/34454714/"}, {"citation": "Kanth P, Inadomi JM. Screening and prevention of colorectal cancer. BMJ. 2021;374:n1855.", "pmid": "34526356", "doi": "10.1136/bmj.n1855", "url": "https://pubmed.ncbi.nlm.nih.gov/34526356/"}, {"citation": "Wagner G, Back W, Sachse MM et al.. Clear cell acanthoma. J Dtsch Dermatol Ges. 2021;19:31-36.", "pmid": "32989899", "doi": "10.1111/ddg.14270", "url": "https://pubmed.ncbi.nlm.nih.gov/32989899/"}, {"citation": "Hembree AE, Scherl E. Diagnosis and Management of Cuffitis: A Systematic Review. Dis Colon Rectum. 2022;65:S85-S91.", "pmid": "36399769", "doi": "10.1097/DCR.0000000000002593", "url": "https://pubmed.ncbi.nlm.nih.gov/36399769/"}]
+source_notes: "Eigene Zusammenfassung von PubMed-Zusammenfassungen und, wo Creative-Commons-Lizenz vorliegt, PubMed-Central-Volltextauszügen; keine wörtliche Übernahme. Alle zitierten PMIDs wurden gegen PubMed aufgelöst."
+concept_kind: "pathomechanismus"
+review_status: "ungeprueft"
+ai_assisted: true
+ai_assistance_description: "Entwurf und satzweise Faktenprüfung auf Grundlage automatisch abgerufener PubMed-Quellen (Suchbegriff, Entwurf, Faktenprüfung, Lektorat: Qwen/Qwen3.6-35B-A3B-FP8 über das AT-AI-Gateway (Hetzner)). Maschinelle Faktenprüfung: 35 von 43 Sätzen bestätigt, 8 nicht belegte Sätze entfernt. Keine menschliche fachliche Prüfung."
+wikimedica_credit: true
+corrections: []
+---
+
+# Neoplasie
+
+## Übersicht
+
+Neoplasie ist eine durch unkontrollierte Zellproliferation und gestörte Apoptose gekennzeichnete Erkrankung, die auf einer schrittweisen Transformation von gesundem Epithelgewebe zu prämaligner Dysplasie und schließlich zu invasivem malignem Wachstum beruht.[1] Diese Neoplasien entstehen durch die kumulative Ansammlung genetischer Mutationen und chromosomaler Deletionen, die essentielle biologische Netzwerke stören, welche die Homöostase des Epithels regulieren.[1] Human malignancies arise predominantly in tissues of epithelial origin, where the stepwise transformation from healthy epithelium to premalignant dysplasia to invasive neoplasia involves sequential dysregulation of biological networks that govern essential functions of epithelial homeostasis.[1] Die Pathogenese wird dabei maßgeblich durch das Zusammenspiel von somatischen Mutationen, Keimbahnveränderungen und Interaktionen mit der Tumormikroumgebung sowie lokalen immunmodulatorischen Prozessen getrieben.[1]
+
+## Entstehung
+
+Chronische Entzündungen stellen einen zentralen Treiber der neoplastischen Progression dar, wobei die kumulative entzündliche Belastung über die Zeit ein wesentlicher Risikofaktor für die Entwicklung von Neoplasien ist.[2] Bei chronisch-entzündlichen Darmerkrankungen führt diese Entzündung zur Bildung dysplastischer Präkursorläsionen, die durch einen Prozess der Feldkanzerisierung in mehreren Arealen des Kolons entstehen können.[2] Die Integration der HPV-DNA in das Wirtsgenom kann zu Veränderungen der DNA-Methylierungsmuster und der microRNA-Expression führen, was den Fortschritt von normalem Epithel über zervikale intraepitheliale Neoplasien hin zum invasiven Zervixkarzinom begünstigt.[3] Epigenetische Modifikationen, darunter DNA-Methylierung und Histonmodifikationen, regulieren die Genexpression, ohne die DNA-Sequenz selbst zu verändern, und tragen zur genomischen Instabilität bei.[3] Durch die Aktivierung von Onkogenen, das Stummschalten von Tumorsuppressorgenen und die Verschlechterung von Defekten in DNA-Reparaturwegen können epigenetische Veränderungen eine entscheidende Rolle in Krebszellen spielen.[3] Die Metabolisierung von Arachidonsäure durch Enzyme wie Cyclooxygenasen (COX) führt zur Bildung von Prostaglandinen, die Zellproliferation, Migration und Überleben fördern können.[4] Eine erhöhte Expression von COX-2 und erhöhte PGE2-Spiegel sind mit einem höheren Risiko für die Entwicklung von kolorektalen Neoplasien verbunden.[4] Auch COX-1 wird als wichtiger Treiber in der frühen Progression von kolorektalen Karzinomen identifiziert.[4]
+
+## Folgen und Klinik
+
+Maligne epitheliale Neoplasien dominieren das Spektrum periimplantärer Neoplasien, wobei das Plattenepithelkarzinom der Mundhöhle am häufigsten vorkommt.[5] Diese Neoplasien treten oft innerhalb von 1 bis 5 Jahren nach der Implantation auf und können klinisch häufig als Periimplantitis fehlinterpretiert werden.[5] Die Prognose hängt von verschiedenen Faktoren ab, wobei maligne Verläufe wie Sarkome oder Metastasen mit schlechteren Überlebensraten verbunden sind.[5] Bei HPV-assoziierten Neoplasien, wie dem Peniskarzinom, wird eine duale Pathogenese unterschieden: HPV-abhängige und HPV-unabhängige Tumoren weisen unterschiedliche morphologische und klinische Merkmale auf.[6] HPV-assoziierte Tumoren treten tendenziell bei jüngeren Patienten auf und umfassen Varianten wie das basaloide und das warzige Karzinom.[6] Die Progression von Neoplasien kann zu invasivem Wachstum führen, das durch die Interaktion mit der Tumormikroumgebung ermöglicht wird.[1] Bei okulären Neoplasien des Plattenepithels ist das Verständnis der molekularen Mechanismen begrenzt, was die Risikoeinschätzung erschwert.[7] In der Gastroenterologie stellt die atrophische Gastritis ein wichtiges präneoplastisches Stadium dar, das durch den Verlust der Magendrüsen gekennzeichnet ist und in einen mehrstufigen Kaskadenprozess der Magenkrebspathogenese eingebunden ist.[8]
+
+## Diagnostik
+
+Die Diagnose einer atrophischen Gastritis, eines wichtigen präneoplastischen Zustands, sollte durch die Histopathologie bestätigt werden.[8] Das Vorhandensein einer intestinalen Metaplasie in der Magenhistologie impliziert fast immer die Diagnose einer atrophischen Gastritis.[8] Bei der Diagnose von HPV-assoziierten Neoplasien können Surrogatmarker wie p16-Immunhistochemie oder molekulare Methoden wie In-situ-Hybridisierung oder Polymerase-Kettenreaktion (PCR) zum Einsatz kommen.[6] p16 ist ein nützlicher Surrogatmarker für den HPV-Nachweis bei Peniskarzinomen.[6] Bei zervikalen Neoplasien können epigenetische Marker wie die Methylierung von hsa-miR-124-2, SOX1, TERT und LMX1A als potenzielle Biomarker für Präkanzerosen dienen, unabhängig vom HPV-Status.[3] In der Koloskopie hat die Betonung der Untersuchungsqualität die Effektivität der Früherkennung verbessert, und neue Technologien wie künstliche Intelligenz spielen eine zunehmend wichtige Rolle bei der Erkennung von Neoplasien.[9] Bei periimplantären Läsionen sollte bei nicht heilenden Läsionen zeitnah eine Biopsie erfolgen, um eine Fehldiagnose als Periimplantitis zu vermeiden.[5]
+
+## Abgrenzung
+
+Clear cell acanthoma ist ein selten diagnostizierter Tumor mit variabler klinischer Morphologie, dessen Ätiologie und Pathogenese unklar sind.[10] Es besteht eine anhaltende Debatte darüber, ob es sich um eine kutane Neoplasie oder eine reaktive entzündliche Dermatose handelt.[10] Histopathologisch zeichnet es sich durch eine typische, kompakte, gut abgegrenzte Akanthose aus, die aus blass färbenden, PAS-reaktiven Keratinozyten besteht.[10] Bei der Abgrenzung von Neoplasien im Darm ist die Unterscheidung zwischen klassischer Cuffitis (eine Form der remanenten Colitis ulcerosa) und nicht-klassischer Cuffitis (verursacht durch andere Faktoren) wichtig.[11] Cuffitis kann mit einem erhöhten Risiko für Pouch-Neoplasien einhergehen.[11] Während HPV-assoziierte Tumoren oft basaloide oder warzige Merkmale aufweisen, sind nicht-HPV-assoziierte Tumoren oft keratinisierend.[6] Diese Unterscheidung hat prognostische und therapeutische Implikationen.[6] Bei der Abgrenzung von Neoplasien im Magen ist die atrophische Gastritis als präneoplastisches Stadium von der intestinalen Metaplasie abzugrenzen, wobei die Metaplasie in der Regel auf einer atrophischen Mukosa auftritt.[8] Die Heterogenität in den Definitionen von atrophischer Gastritis, autoimmuner Gastritis und gastric Neoplasia hat in der Vergangenheit zu Verwirrung in der klinischen Praxis geführt.[8]
+
+## Literatur
+
+1. Winge MCG, Kellman LN, Guo K et al.. Advances in cutaneous squamous cell carcinoma. Nat Rev Cancer. 2023;23:430-449. PMID: 37286893. DOI: 10.1038/s41568-023-00583-5. https://pubmed.ncbi.nlm.nih.gov/37286893/
+2. Shah SC, Itzkowitz SH. Colorectal Cancer in Inflammatory Bowel Disease: Mechanisms and Management. Gastroenterology. 2022;162:715-730.e3. PMID: 34757143. DOI: 10.1053/j.gastro.2021.10.035. https://pubmed.ncbi.nlm.nih.gov/34757143/
+3. Pulliero A, Cassatella G, Astuni P et al.. The Role of microRNA Expression and DNA Methylation in HPV-Related Cervical Cancer: A Systematic Review. Int J Mol Sci. 2024;25. PMID: 39684425. DOI: 10.3390/ijms252312714. https://pubmed.ncbi.nlm.nih.gov/39684425/
+4. Feddersen UR, Hendel SK, Berner-Hansen VH et al.. Colorectal Neoplasia Pathogenesis in Normal Appearing Colonic Mucosa -A Perspective With Focus on Eicosanoid Signaling Pathways. Cancer Med. 2025;14:e71168. PMID: 40980975. DOI: 10.1002/cam4.71168. https://pubmed.ncbi.nlm.nih.gov/40980975/
+5. Krishna R, Basu SN, S M et al.. Oral peri-implant tissue as a neoplastic bed: a systematic review of clinicopathology, pathogenesis, and survival outcomes. J Craniomaxillofac Surg. 2026;54:109892. PMID: 42822273. DOI: 10.1016/j.jcms.2026.109892. https://pubmed.ncbi.nlm.nih.gov/42822273/
+6. Chaux A, Sanchez DF, Fernández-Nestosa MJ et al.. The dual pathogenesis of penile neoplasia: The heterogeneous morphology of human papillomavirus-related tumors. Asian J Urol. 2022;9:349-358. PMID: 36381592. DOI: 10.1016/j.ajur.2022.02.009. https://pubmed.ncbi.nlm.nih.gov/36381592/
+7. Kounatidou NE, Tzavara C, Aikaterini A et al.. Ocular Surface Squamous Neoplasia: A Cohort Study and Updates in the Pathogenesis, Diagnosis, and Medical Management. Semin Ophthalmol. 2026;41:277-287. PMID: 40711506. DOI: 10.1080/08820538.2025.2536229. https://pubmed.ncbi.nlm.nih.gov/40711506/
+8. Shah SC, Piazuelo MB, Kuipers EJ et al.. AGA Clinical Practice Update on the Diagnosis and Management of Atrophic Gastritis: Expert Review. Gastroenterology. 2021;161:1325-1332.e7. PMID: 34454714. DOI: 10.1053/j.gastro.2021.06.078. https://pubmed.ncbi.nlm.nih.gov/34454714/
+9. Kanth P, Inadomi JM. Screening and prevention of colorectal cancer. BMJ. 2021;374:n1855. PMID: 34526356. DOI: 10.1136/bmj.n1855. https://pubmed.ncbi.nlm.nih.gov/34526356/
+10. Wagner G, Back W, Sachse MM et al.. Clear cell acanthoma. J Dtsch Dermatol Ges. 2021;19:31-36. PMID: 32989899. DOI: 10.1111/ddg.14270. https://pubmed.ncbi.nlm.nih.gov/32989899/
+11. Hembree AE, Scherl E. Diagnosis and Management of Cuffitis: A Systematic Review. Dis Colon Rectum. 2022;65:S85-S91. PMID: 36399769. DOI: 10.1097/DCR.0000000000002593. https://pubmed.ncbi.nlm.nih.gov/36399769/

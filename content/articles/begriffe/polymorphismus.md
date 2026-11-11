@@ -1,0 +1,71 @@
+---
+title: "Polymorphismus"
+slug: "polymorphismus"
+specialty: "Innere Medizin"
+secondary_specialties: []
+article_type: "professional"
+content_kind: "article"
+status: "draft"
+version: "0.1.0"
+change_summary: "Automatisch erstellter, quellenbasierter Begriffsartikel (Pathomechanismus) mit maschineller Faktenprüfung gegen PubMed-Quellen; fachliche Prüfung steht aus (Prüfstatus ungeprüft)."
+authors: [{name: "WikiMedica-Redaktion"}]
+reviewers: []
+created: "2026-11-11"
+updated: "2026-11-11"
+risk_level: "moderate"
+target_audience: ["medical-professionals"]
+sex_gender_relevance: "not_assessed"
+sex_gender_notes: ""
+safety_hold: false
+language: "de"
+language_level: "professional"
+icd10: []
+ops: []
+pubmed_ids: ["39748810", "33258398", "34599631", "36749126", "35695987", "33874826", "33604259", "42375880", "31891275", "35046930", "37813108", "35441612"]
+guidelines: []
+references: [{"citation": "Shams SE, Dastgheib SA, Mousavi-Beni SA et al.. Association of TNF-α genetic variants with neonatal bronchopulmonary dysplasia: consolidated results. Front Pediatr. 2024;12:1511355.", "pmid": "39748810", "doi": "10.3389/fped.2024.1511355", "url": "https://pubmed.ncbi.nlm.nih.gov/39748810/"}, {"citation": "Mahmoudi M, Aslani S, Meguro A et al.. A comprehensive overview on the genetics of Behçet's disease. Int Rev Immunol. 2022;41:84-106.", "pmid": "33258398", "doi": "10.1080/08830185.2020.1851372", "url": "https://pubmed.ncbi.nlm.nih.gov/33258398/"}, {"citation": "Guan C, Zhao F, Yang Z et al.. A review of key cytokines based on gene polymorphism in the pathogenesis of pre-eclampsia. Am J Reprod Immunol. 2022;87:e13503.", "pmid": "34599631", "doi": "10.1111/aji.13503", "url": "https://pubmed.ncbi.nlm.nih.gov/34599631/"}, {"citation": "Zhou XJ, Su T, Xie J et al.. Genome-Wide Association Study in Acute Tubulointerstitial Nephritis. J Am Soc Nephrol. 2023;34:895-908.", "pmid": "36749126", "doi": "10.1681/ASN.0000000000000091", "url": "https://pubmed.ncbi.nlm.nih.gov/36749126/"}, {"citation": "Li J, Yi M, Li B et al.. Polymorphism of neurodegeneration-related genes associated with Parkinson's disease risk. Neurol Sci. 2022;43:5301-5312.", "pmid": "35695987", "doi": "10.1007/s10072-022-06192-8", "url": "https://pubmed.ncbi.nlm.nih.gov/35695987/"}, {"citation": "Abyadeh M, Gupta V, Chitranshi N et al.. Mitochondrial dysfunction in Alzheimer's disease - a proteomics perspective. Expert Rev Proteomics. 2021;18:295-304.", "pmid": "33874826", "doi": "10.1080/14789450.2021.1918550", "url": "https://pubmed.ncbi.nlm.nih.gov/33874826/"}, {"citation": "Wang Q, Chang B, Li X et al.. Role of ALDH2 in Hepatic Disorders: Gene Polymorphism and Disease Pathogenesis. J Clin Transl Hepatol. 2021;9:90-98.", "pmid": "33604259", "doi": "10.14218/JCTH.2020.00104", "url": "https://pubmed.ncbi.nlm.nih.gov/33604259/"}, {"citation": "Sarangi R, Singh S, Sahoo JP et al.. Advanced Glycation End Products and Genetic Polymorphism in the Pathogenesis of Microvascular Complications in Type 2 Diabetes Mellitus: A Narrative Review. Cureus. 2026;18:e109935.", "pmid": "42375880", "doi": "10.7759/cureus.109935", "url": "https://pubmed.ncbi.nlm.nih.gov/42375880/"}, {"citation": "Wang J, Shen H, Liang H et al.. Meta-analysis of the association between MBD4 Glu346Lys polymorphism and cancer risk. J Int Med Res. 2024;52:300060519895667.", "pmid": "31891275", "doi": "10.1177/0300060519895667", "url": "https://pubmed.ncbi.nlm.nih.gov/31891275/"}, {"citation": "Liu X, Li H. A Systematic Review and Meta-Analysis on Multiple Cytokine Gene Polymorphisms in the Pathogenesis of Periodontitis. Front Immunol. 2021;12:713198.", "pmid": "35046930", "doi": "10.3389/fimmu.2021.713198", "url": "https://pubmed.ncbi.nlm.nih.gov/35046930/"}, {"citation": "Qiu M, Zhou X, Zippi M et al.. Comprehensive review on the pathogenesis of hypertriglyceridaemia-associated acute pancreatitis. Ann Med. 2023;55:2265939.", "pmid": "37813108", "doi": "10.1080/07853890.2023.2265939", "url": "https://pubmed.ncbi.nlm.nih.gov/37813108/"}, {"citation": "Giotta Lucifero A, Baldoncini M, Foiadelli T et al.. Gene Polymorphisms Increasing the Risk of Intracranial Aneurysms: Interleukin-1β -511C>T (Part I). Acta Biomed. 2022;92:e2021419.", "pmid": "35441612", "doi": "10.23750/abm.v92iS4.12668", "url": "https://pubmed.ncbi.nlm.nih.gov/35441612/"}]
+source_notes: "Eigene Zusammenfassung von PubMed-Zusammenfassungen und, wo Creative-Commons-Lizenz vorliegt, PubMed-Central-Volltextauszügen; keine wörtliche Übernahme. Alle zitierten PMIDs wurden gegen PubMed aufgelöst."
+concept_kind: "pathomechanismus"
+review_status: "ungeprueft"
+ai_assisted: true
+ai_assistance_description: "Entwurf und satzweise Faktenprüfung auf Grundlage automatisch abgerufener PubMed-Quellen (Suchbegriff, Entwurf, Faktenprüfung, Lektorat: Qwen/Qwen3.6-35B-A3B-FP8 über das AT-AI-Gateway (Hetzner)). Maschinelle Faktenprüfung: 29 von 39 Sätzen bestätigt, 10 nicht belegte Sätze entfernt. Keine menschliche fachliche Prüfung."
+wikimedica_credit: true
+corrections: []
+---
+
+# Polymorphismus
+
+## Übersicht
+
+Polymorphismus ist eine genetische Variation, bei der im Genom einer Population an einer bestimmten Stelle unterschiedliche Nukleotidsequenzen vorkommen, die zu einer veränderten Proteinstruktur, -funktion oder -expression führen können und somit die individuelle Suszeptibilität für verschiedene Erkrankungen beeinflussen.[1] Solche genetischen Varianten, darunter einzelne Nukleotid-Polymorphismen (SNPs), spielen eine zentrale Rolle in der Pathogenese zahlreicher Krankheiten, indem sie die Regulation von Entzündungsprozessen, die Immunantwort und zelluläre Homöostase modulieren.[2] Die Untersuchung dieser Polymorphismen ermöglicht es, molekulare Mechanismen aufzuklären, die der Krankheitsentstehung zugrunde liegen, und trägt zum Verständnis bei, warum Individuen unterschiedlich auf Umweltfaktoren und pathogene Stimuli reagieren.[3]
+
+## Entstehung
+
+Genetische Varianten in Genen, die für Zytokine kodieren, können zu einer übermäßigen oder unangemessenen Produktion pro- und antiinflammatorischer Mediatoren führen.[1] So wurde beispielsweise eine signifikante Assoziation zwischen dem TNF-α-Polymorphismus -238G/A und der Anfälligkeit für neonatale bronchopulmonale Dysplasie nachgewiesen, wobei dieser Polymorphismus die Entzündungsreaktion in der Lunge beeinflusst.[1] TNF-α ist ein wichtiger Mediator, der Entzündungsreaktionen auslöst und gleichzeitig die Fibrosebildung hemmen kann, wobei ein Ungleichgewicht zwischen TNF-α und anderen Signalwegen wie TGF-β die Lungendentwicklung stören kann.[1] Auch bei Autoimmunerkrankungen wie dem Morbus Behçet tragen Polymorphismen in HLA-Genen sowie in Genen, die an der Immunregulation beteiligt sind (z. B. IL10, IL23R, STAT4), zur Krankheitsanfälligkeit bei.[2] HLA-B51 gilt als stärkster genetischer Risikofaktor, während andere HLA-Allele wie HLA-B*49 schützend wirken können.[2] Ähnliche Mechanismen finden sich bei der akuten tubulointerstitiellen Nephritis, wo spezifische HLA-Risikohaplotypen (z. B. DRB1*14) eine genetisch bedingte Immundysregulation vermitteln, die zur Nierenschädigung führt.[4] Bei neurodegenerativen Erkrankungen wie der Parkinson-Krankheit sind Polymorphismen in Genen, die für Enzyme des Dopaminstoffwechsels oder neuroprotektive Faktoren kodieren, mit einem erhöhten Risiko assoziiert.[5] Varianten in Genen wie SLC6A4, BDNF und MAPT wurden als signifikante Risikofaktoren identifiziert, während andere untersuchte Gene keinen Zusammenhang zeigten.[5] Auch bei der Alzheimer-Krankheit spielt die mitochondriale Dysfunktion eine Rolle, wobei genetische Polymorphismen des Apolipoprotein E (ApoE) mit Veränderungen im mitochondrialen Proteom und der mitochondrialen Funktion in Verbindung gebracht werden.[6] So führt der ALDH2-Polymorphismus zu einer eingeschränkten Enzymaktivität und einer Akkumulation von Acetaldehyd, was die Progression von Lebererkrankungen wie der alkoholischen oder nicht-alkoholischen Fettlebererkrankung fördert.[7] Bei der diabetischen Mikroangiopathie beeinflussen genetische Varianten die Anfälligkeit für Schäden durch fortgeschrittene Glykierungsendprodukte (AGEs), indem sie die Signalwege der AGE-Rezeptoren und die oxidative Stressantwort modulieren.[8]
+
+## Folgen und Klinik
+
+Bei der bronchopulmonalen Dysplasie führt die genetisch bedingte Entzündungsneigung zu einer gestörten Alveolarisation und chronischer Lungenschädigung bei Frühgeborenen.[1] Im Bereich der Onkologie wurde gezeigt, dass der MBD4-Glu346Lys-Polymorphismus in der chinesischen Population mit einem erhöhten Krebsrisiko assoziiert ist, insbesondere unter dem rezessiven Modell, wo Träger des Lys/Lys-Genotyps eine höhere Anfälligkeit aufweisen.[9] Ähnliche entzündungsvermittelte Mechanismen spielen bei der Periodontitis eine Rolle, wobei Polymorphismen in IL-1β als Biomarker für das Erkrankungsrisiko dienen.[10] Bei der Präeklampsie tragen genetische Varianten in Zytokin-Genen zur Störung der mütterlichen immunologischen Toleranz und zu endothelialen Dysfunktionen bei, was zu schweren maternalen und fetalen Komplikationen führen kann.[3] In der Gastroenterologie wird der Zusammenhang zwischen genetischen Polymorphismen und der akuten Pankreatitis bei Hypertriglyceridämie diskutiert, wobei genetische Faktoren die Entzündungsreaktion und die Mikrozirkulationsstörung verstärken können.[11]
+
+## Diagnostik
+
+Bei der akuten tubulointerstitiellen Nephritis können genomweite Assoziationsstudien (GWAS) signifikante Loci wie rs35087390 im HLA-DQA1-Gen aufdecken, die mit der Krankheitsanfälligkeit korrelieren.[4] Die Analyse von HLA-Allelen ist auch beim Morbus Behçet von diagnostischer Relevanz, da das Vorhandensein von HLA-B51 das Erkrankungsrisiko signifikant erhöht.[2] In der Onkologie dienen genetische Tests auf spezifische Polymorphismen, wie den MBD4-Glu346Lys-Varianten, der Risikobewertung, insbesondere in Populationen mit nachgewiesener Assoziation.[9] Bei der Alzheimer-Krankheit kann die Genotypisierung des ApoE-Status Aufschluss über das mitochondriale Risiko und die Krankheitsprogression geben.[6]
+
+## Abgrenzung
+
+So zeigte die Metaanalyse zum MBD4-Polymorphismus nur in der chinesischen Population eine signifikante Assoziation mit dem Krebsrisiko, während in anderen Populationen keine Verbindung bestand.[9] Ähnlich variiert die Assoziation von TNF-α-Polymorphismen mit der bronchopulmonalen Dysplasie je nach ethnischer Zugehörigkeit und Studienpopulation.[1] Bei der Alzheimer-Krankheit ist die mitochondriale Dysfunktion nicht ausschließlich genetisch determiniert, sondern wird auch durch die Akkumulation von Amyloid-beta und Tau-Proteinen beeinflusst.[6] Bei der diabetischen Mikroangiopathie interagieren genetische Polymorphismen mit metabolischen Stressfaktoren wie der Bildung von AGEs, wobei beide Komponenten zur Pathogenese beitragen.[8] So wurden für viele Gene, die am Dopaminstoffwechsel beteiligt sind, keine signifikanten Zusammenhänge mit der Parkinson-Krankheit gefunden, obwohl andere Varianten signifikant waren.[5] Auch bei der intrakraniellen Aneurysma-Bildung sind die Datenlage und die Heterogenität der Studien begrenzt, was eine definitive kausale Zuordnung erschwert.[12]
+
+## Literatur
+
+1. Shams SE, Dastgheib SA, Mousavi-Beni SA et al.. Association of TNF-α genetic variants with neonatal bronchopulmonary dysplasia: consolidated results. Front Pediatr. 2024;12:1511355. PMID: 39748810. DOI: 10.3389/fped.2024.1511355. https://pubmed.ncbi.nlm.nih.gov/39748810/
+2. Mahmoudi M, Aslani S, Meguro A et al.. A comprehensive overview on the genetics of Behçet's disease. Int Rev Immunol. 2022;41:84-106. PMID: 33258398. DOI: 10.1080/08830185.2020.1851372. https://pubmed.ncbi.nlm.nih.gov/33258398/
+3. Guan C, Zhao F, Yang Z et al.. A review of key cytokines based on gene polymorphism in the pathogenesis of pre-eclampsia. Am J Reprod Immunol. 2022;87:e13503. PMID: 34599631. DOI: 10.1111/aji.13503. https://pubmed.ncbi.nlm.nih.gov/34599631/
+4. Zhou XJ, Su T, Xie J et al.. Genome-Wide Association Study in Acute Tubulointerstitial Nephritis. J Am Soc Nephrol. 2023;34:895-908. PMID: 36749126. DOI: 10.1681/ASN.0000000000000091. https://pubmed.ncbi.nlm.nih.gov/36749126/
+5. Li J, Yi M, Li B et al.. Polymorphism of neurodegeneration-related genes associated with Parkinson's disease risk. Neurol Sci. 2022;43:5301-5312. PMID: 35695987. DOI: 10.1007/s10072-022-06192-8. https://pubmed.ncbi.nlm.nih.gov/35695987/
+6. Abyadeh M, Gupta V, Chitranshi N et al.. Mitochondrial dysfunction in Alzheimer's disease - a proteomics perspective. Expert Rev Proteomics. 2021;18:295-304. PMID: 33874826. DOI: 10.1080/14789450.2021.1918550. https://pubmed.ncbi.nlm.nih.gov/33874826/
+7. Wang Q, Chang B, Li X et al.. Role of ALDH2 in Hepatic Disorders: Gene Polymorphism and Disease Pathogenesis. J Clin Transl Hepatol. 2021;9:90-98. PMID: 33604259. DOI: 10.14218/JCTH.2020.00104. https://pubmed.ncbi.nlm.nih.gov/33604259/
+8. Sarangi R, Singh S, Sahoo JP et al.. Advanced Glycation End Products and Genetic Polymorphism in the Pathogenesis of Microvascular Complications in Type 2 Diabetes Mellitus: A Narrative Review. Cureus. 2026;18:e109935. PMID: 42375880. DOI: 10.7759/cureus.109935. https://pubmed.ncbi.nlm.nih.gov/42375880/
+9. Wang J, Shen H, Liang H et al.. Meta-analysis of the association between MBD4 Glu346Lys polymorphism and cancer risk. J Int Med Res. 2024;52:300060519895667. PMID: 31891275. DOI: 10.1177/0300060519895667. https://pubmed.ncbi.nlm.nih.gov/31891275/
+10. Liu X, Li H. A Systematic Review and Meta-Analysis on Multiple Cytokine Gene Polymorphisms in the Pathogenesis of Periodontitis. Front Immunol. 2021;12:713198. PMID: 35046930. DOI: 10.3389/fimmu.2021.713198. https://pubmed.ncbi.nlm.nih.gov/35046930/
+11. Qiu M, Zhou X, Zippi M et al.. Comprehensive review on the pathogenesis of hypertriglyceridaemia-associated acute pancreatitis. Ann Med. 2023;55:2265939. PMID: 37813108. DOI: 10.1080/07853890.2023.2265939. https://pubmed.ncbi.nlm.nih.gov/37813108/
+12. Giotta Lucifero A, Baldoncini M, Foiadelli T et al.. Gene Polymorphisms Increasing the Risk of Intracranial Aneurysms: Interleukin-1β -511C>T (Part I). Acta Biomed. 2022;92:e2021419. PMID: 35441612. DOI: 10.23750/abm.v92iS4.12668. https://pubmed.ncbi.nlm.nih.gov/35441612/
