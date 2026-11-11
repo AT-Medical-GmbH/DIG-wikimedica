@@ -134,3 +134,56 @@ def test_build_page_verlinkt_und_notbremse(monkeypatch):
     monkeypatch.setenv("WIKIMEDICA_AUTOLINK", "0")
     _, off, _ = imp.build_page(path, "0" * 40)
     assert "Zielseite" in on and "[[Zielseite" not in off
+
+
+# --- Begriffsartikel: verschärfter Hinweis, noindex, Prüfstatus (#728) ----------------------------------------------
+
+CONCEPT_MD = """---
+title: "Kreatinin (Diagnostik)"
+slug: "kreatinin-test"
+specialty: "Innere Medizin"
+article_type: "professional"
+content_kind: "article"
+status: "draft"
+version: "0.1.0"
+updated: "2026-11-10"
+risk_level: "moderate"
+concept_kind: "diagnostik"
+review_status: "{status}"
+---
+## Übersicht
+
+Kreatinin ist ein Abbauprodukt des Muskelstoffwechsels.[1]
+"""
+
+
+def _concept_page(tmp_path, monkeypatch, status, noindex=False):
+    root = tmp_path
+    (root / "content" / "articles").mkdir(parents=True)
+    (root / "data" / "editorial").mkdir(parents=True)
+    (root / "data" / "editorial" / "concept-settings.json").write_text('{"noindex": %s}' % str(noindex).lower())
+    f = root / "content" / "articles" / "kreatinin-test.md"
+    f.write_text(CONCEPT_MD.format(status=status), encoding="utf-8")
+    monkeypatch.setattr(imp, "ROOT", root)
+    monkeypatch.setattr(imp, "_INTERNAL_PAGES", {})
+    monkeypatch.setattr(imp, "_ARTICLE_INDEX", {})
+    monkeypatch.setattr(imp, "git_revision", lambda: "0" * 40)
+    return imp.build_page(f, "0" * 40)[1]
+
+
+def test_begriffsartikel_ungeprueft_hat_verschaerften_hinweis_und_kategorie_ohne_noindex(tmp_path, monkeypatch):
+    text = _concept_page(tmp_path, monkeypatch, "ungeprueft")
+    assert "__NOINDEX__" not in text  # Standard: indexierbar (Andreas 10.11.2026)
+    assert "Fachlich noch nicht geprüft (BETA)" in text and "kein Ersatz für ärztliche Beratung" in text
+    assert "mw-collapsible" not in text
+    assert "[[Kategorie:Fachlich ungeprüft]]" in text and "[[Kategorie:Artikeltyp: Begriffsartikel]]" in text
+
+
+def test_begriffsartikel_noindex_notschalter(tmp_path, monkeypatch):
+    assert "__NOINDEX__" in _concept_page(tmp_path, monkeypatch, "ungeprueft", noindex=True)
+
+
+def test_begriffsartikel_nach_abnahme_ohne_hinweis(tmp_path, monkeypatch):
+    text = _concept_page(tmp_path, monkeypatch, "geprueft")
+    assert "Fachlich noch nicht geprüft" not in text and "__NOINDEX__" not in text and "Fachlich ungeprüft" not in text
+    assert "WIKIMEDICA BETA" in text  # normaler BETA-Kasten bleibt wie bei allen Artikeln
