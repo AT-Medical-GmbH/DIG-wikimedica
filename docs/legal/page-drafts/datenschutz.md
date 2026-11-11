@@ -7,6 +7,8 @@
 > Stand der live veröffentlichten Seite Wikimedica:Datenschutz (Revision nach Freigabe Andreas 11.11.2026, Abschnitt 4 Matomo, #806).
 > Diese Datei ist die Vorlage der Pipeline (render_system_pages.py); Änderungen am Seitentext hier machen, sonst werden sie überschrieben.
 
+Diese Datenschutzerklärung gilt für WikiMedica unter wikimedica.info einschließlich der Mediensammlung WikiMedica Media unter media.wikimedica.info. Für WikiMedica Media gilt sie entsprechend, mit drei Abweichungen: Benutzerkonten gibt es dort nur für die Verwaltung, das Medienwiki selbst versendet keine E-Mails, und dort findet keine Reichweitenmessung statt.
+
 ## 1. Verantwortlicher
 
 AT Medical GmbH, Bergheimer Straße 116, 69115 Heidelberg, Deutschland
