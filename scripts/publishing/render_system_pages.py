@@ -140,8 +140,9 @@ def _main_page(specialties: list[str], disclaimers: dict) -> str:
 = Wikimedica =
 
 '''Medizinisches Wissen. Strukturiert. Geprüft.''' Wikimedica ist eine modulare, evidenzbewusste
-Wissensplattform für medizinisches Fachpersonal und für Patientinnen und Patienten. Alle Artikel
-werden vor der Veröffentlichung von qualifizierten Fachpersonen geprüft.
+Wissensplattform für medizinisches Fachpersonal und für Patientinnen und Patienten. Die Artikel
+werden von qualifizierten Fachpersonen geprüft. Es gibt auch Begriffsartikel, die noch nicht fachlich geprüft sind;
+sie sind deutlich als „Fachlich noch nicht geprüft (BETA)“ gekennzeichnet.
 
 == Fachgebiete ==
 
