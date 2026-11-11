@@ -1,0 +1,71 @@
+---
+title: "Protonenpumpe"
+slug: "protonenpumpe"
+specialty: "Pharmakologie"
+secondary_specialties: []
+article_type: "professional"
+content_kind: "article"
+status: "draft"
+version: "0.1.0"
+change_summary: "Automatisch erstellter, quellenbasierter Begriffsartikel (Pharmakologie-Grundlage) mit maschineller Faktenprüfung gegen PubMed-Quellen; fachliche Prüfung steht aus (Prüfstatus ungeprüft)."
+authors: [{name: "WikiMedica-Redaktion"}]
+reviewers: []
+created: "2026-11-10"
+updated: "2026-11-10"
+risk_level: "moderate"
+target_audience: ["medical-professionals"]
+sex_gender_relevance: "not_assessed"
+sex_gender_notes: ""
+safety_hold: false
+language: "de"
+language_level: "professional"
+icd10: []
+ops: []
+pubmed_ids: ["41010960", "35183361", "36142643", "38345252", "37698821", "40089255", "38796481", "38874580", "39294424", "37060552", "35830032", "28233274"]
+guidelines: [{"title": "AGA Clinical Practice Update on De-Prescribing of Proton Pump Inhibitors: Expert Review", "issuer": "", "year": 2022, "url": "https://pubmed.ncbi.nlm.nih.gov/35183361/"}, {"title": "Guidelines on optimizing the use of proton pump inhibitors: PPI stewardship", "issuer": "", "year": 2023, "url": "https://pubmed.ncbi.nlm.nih.gov/37698821/"}, {"title": "The Safety of Appropriate Use of Over-the-Counter Proton Pump Inhibitors: An Evidence-Based Review and Delphi Consensus", "issuer": "", "year": 2017, "url": "https://pubmed.ncbi.nlm.nih.gov/28233274/"}]
+references: [{"citation": "Andrawes M, Andrawes W, Das A et al.. Proton Pump Inhibitors (PPIs)-An Evidence-Based Review of Indications, Efficacy, Harms, and Deprescribing. Medicina (Kaunas). 2025;61.", "pmid": "41010960", "doi": "10.3390/medicina61091569", "url": "https://pubmed.ncbi.nlm.nih.gov/41010960/"}, {"citation": "Targownik LE, Fisher DA, Saini SD et al.. AGA Clinical Practice Update on De-Prescribing of Proton Pump Inhibitors: Expert Review. Gastroenterology. 2022;162:1334-1342.", "pmid": "35183361", "doi": "10.1053/j.gastro.2021.12.247", "url": "https://pubmed.ncbi.nlm.nih.gov/35183361/"}, {"citation": "Lespessailles E, Toumi H. Proton Pump Inhibitors and Bone Health: An Update Narrative Review. Int J Mol Sci. 2022;23.", "pmid": "36142643", "doi": "10.3390/ijms231810733", "url": "https://pubmed.ncbi.nlm.nih.gov/36142643/"}, {"citation": "Zhuang Q, Chen S, Zhou X et al.. Comparative Efficacy of P-CAB vs Proton Pump Inhibitors for Grade C/D Esophagitis: A Systematic Review and Network Meta-analysis. Am J Gastroenterol. 2024;119:803-813.", "pmid": "38345252", "doi": "10.14309/ajg.0000000000002714", "url": "https://pubmed.ncbi.nlm.nih.gov/38345252/"}, {"citation": "Dutta AK, Jain A, Jearth V et al.. Guidelines on optimizing the use of proton pump inhibitors: PPI stewardship. Indian J Gastroenterol. 2023;42:601-628.", "pmid": "37698821", "doi": "10.1007/s12664-023-01428-7", "url": "https://pubmed.ncbi.nlm.nih.gov/37698821/"}, {"citation": "Lucendo AJ, Gutiérrez-Ramírez L, Tejera-Muñoz A et al.. Proton Pump Inhibitors for Inducing and Maintaining Remission in Eosinophilic Esophagitis: An Updated Systematic Review and Meta-Analysis. Clin Gastroenterol Hepatol. 2025;23:2115-2127.e21.", "pmid": "40089255", "doi": "10.1016/j.cgh.2025.01.016", "url": "https://pubmed.ncbi.nlm.nih.gov/40089255/"}, {"citation": "Floria DE, Obeidat M, Kávási SB et al.. Systematic review and meta-analysis: proton pump inhibitors slightly decrease the severity of chronic cough. Sci Rep. 2024;14:11956.", "pmid": "38796481", "doi": "10.1038/s41598-024-62640-9", "url": "https://pubmed.ncbi.nlm.nih.gov/38796481/"}, {"citation": "Wang Y, Parpia S, Ge L et al.. Proton-Pump Inhibitors to Prevent Gastrointestinal Bleeding - An Updated Meta-Analysis. NEJM Evid. 2024;3:EVIDoa2400134.", "pmid": "38874580", "doi": "10.1056/EVIDoa2400134", "url": "https://pubmed.ncbi.nlm.nih.gov/38874580/"}, {"citation": "Simadibrata DM, Lesmana E, Pratama MIA et al.. Vonoprazan vs. Proton Pump Inhibitors for Treatment and Prevention of Gastric and/or Duodenal Ulcers: A Systematic Review with Meta-Analysis. Dig Dis Sci. 2024;69:3863-3874.", "pmid": "39294424", "doi": "10.1007/s10620-024-08593-5", "url": "https://pubmed.ncbi.nlm.nih.gov/39294424/"}, {"citation": "Choudhury A, Jena A, Jearth V et al.. Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis. Expert Rev Gastroenterol Hepatol. 2023;17:479-487.", "pmid": "37060552", "doi": "10.1080/17474124.2023.2204229", "url": "https://pubmed.ncbi.nlm.nih.gov/37060552/"}, {"citation": "Chinzon D, Domingues G, Tosetto N et al.. SAFETY OF LONG-TERM PROTON PUMP INHIBITORS: FACTS AND MYTHS. Arq Gastroenterol. 2022;59:219-225.", "pmid": "35830032", "doi": "10.1590/S0004-2803.202202000-40", "url": "https://pubmed.ncbi.nlm.nih.gov/35830032/"}, {"citation": "Johnson DA, Katz PO, Armstrong D et al.. The Safety of Appropriate Use of Over-the-Counter Proton Pump Inhibitors: An Evidence-Based Review and Delphi Consensus. Drugs. 2017;77:547-561.", "pmid": "28233274", "doi": "10.1007/s40265-017-0712-6", "url": "https://pubmed.ncbi.nlm.nih.gov/28233274/"}]
+source_notes: "Eigene Zusammenfassung von PubMed-Zusammenfassungen und, wo Creative-Commons-Lizenz vorliegt, PubMed-Central-Volltextauszügen; keine wörtliche Übernahme. Alle zitierten PMIDs wurden gegen PubMed aufgelöst."
+concept_kind: "pharmakologie"
+review_status: "ungeprueft"
+ai_assisted: true
+ai_assistance_description: "Entwurf und satzweise Faktenprüfung auf Grundlage automatisch abgerufener PubMed-Quellen (Suchbegriff, Entwurf, Faktenprüfung, Lektorat: Qwen/Qwen3.6-35B-A3B-FP8 über das AT-AI-Gateway (Hetzner)). Maschinelle Faktenprüfung: 35 von 35 Sätzen bestätigt, 0 nicht belegte Sätze entfernt. Keine menschliche fachliche Prüfung."
+wikimedica_credit: true
+corrections: []
+---
+
+# Protonenpumpe
+
+## Übersicht
+
+Die Protonenpumpe ist das Enzym H+/K+-ATPase, das den letzten Schritt der säuresekretorischen Kaskade in den parietalen Zellen des Magens katalysiert.[1] Protonenpumpenhemmer (PPI) blockieren dieses Enzym und unterdrücken dadurch die Magensäureproduktion potenter und nachhaltiger als Histamin-2-Rezeptorantagonisten.[1] Diese Wirkstoffklasse ist seit ihrer Markteinführung 1989 zu einem der am häufigsten verschriebenen Arzneimittel weltweit geworden.[1] PPI werden zur Behandlung und Vorbeugung säuremittelter Erkrankungen des oberen Gastrointestinaltrakts eingesetzt.[2]
+
+## Funktion und Wirkprinzip
+
+Die Protonenpumpe (H+/K+-ATPase) ist das Schlüsselenzym für die finale Säuresekretion im Magen.[1] Durch die Hemmung dieser Pumpe wird die Produktion von Magensäure effektiv unterdrückt.[1] Dieser Mechanismus führt zu einer potenteren und länger anhaltenden Säuresuppression im Vergleich zu anderen Antazida-Klassen.[1] Die Wirksamkeit dieser Hemmung ermöglicht die Kontrolle von Symptomen und die Heilung der Schleimhaut bei verschiedenen säurebedingten Erkrankungen.[1]
+
+## Beispiele und beteiligte Wirkstoffe
+
+Zu den zugelassenen Protonenpumpenhemmern zählen Omeprazol, Esomeprazol, Lansoprazol, Dexlansoprazol, Pantoprazol und Rabeprazol.[3] Diese Substanzen gehören zu den am häufigsten verschriebenen Medikamenten in der Allgemeinversorgung.[1] In klinischen Studien und Metaanalysen werden häufig Lansoprazol, Esomeprazol, Pantoprazol, Rabeprazol und Dexlansoprazol untersucht.[4]
+
+## Klinische Bedeutung
+
+PPI sind wirksam bei der Behandlung verschiedener säurebedingter Magen-Darm-Erkrankungen.[5] Sie werden zur Therapie und Prävention von säurevermittelten Erkrankungen des oberen Gastrointestinaltrakts eingesetzt.[2] Bei Patienten mit eosinophiler Ösophagitis führt eine PPI-Therapie bei etwa der Hälfte der Patienten zu einer klinischen und histologischen Remission.[6] Die Therapie induziert eine Remission bei Kindern und Erwachsenen ähnlich häufig, wobei die Wirksamkeit in westpazifischen Regionen signifikant höher sein kann.[6] Bei Patienten mit chronischem Husten, der als extraösophageale Manifestation einer gastroösophagealen Refluxkrankheit gilt, können PPI die Hustenschwere leicht verringern.[7] Diese Wirkung ist unabhängig von der Behandlungsdauer und tritt sowohl bei unspezifischem chronischem Husten als auch bei Laryngopharynxreflux auf.[7] In der Intensivmedizin reduzieren PPI die Inzidenz klinisch relevanter oberer gastrointestinaler Blutungen bei kritisch kranken Patienten.[8] Der Einfluss auf die Mortalität ist jedoch gering oder nicht vorhanden, wobei Unterschiede je nach Schwere der Erkrankung möglich sind.[8] Bei der Behandlung von Ulcus gastricum und/oder duodeni zeigen PPI ähnliche Heilungsraten wie neuere Kalium-kompetitive Säureblocker (P-CAB) wie Vonoprazan.[9] Bei schwerer erosiver Ösophagitis nach Los-Angeles-Klassifikation C oder D ist Vonoprazan in der initialen und aufrechterhaltenen Heilung möglicherweise überlegen, weist aber ein ähnliches Sicherheitsprofil auf.[4]
+
+## Wechselwirkungen und Besonderheiten
+
+Die langfristige Anwendung von PPI steht im Fokus der Sicherheitsdiskussion, da Beobachtungsstudien Assoziationen mit verschiedenen unerwünschten Ereignissen zeigen.[1] Dazu gehören Darminfektionen wie Clostridioides-difficile-Infektionen, Mangelerscheinungen bei Mikronährstoffen sowie osteoporotische Frakturen.[1] Es gibt Hinweise auf ein erhöhtes Risiko für Vitamin-B12-Mangel bei PPI-Nutzern, wobei die Evidenz aufgrund von Heterogenität nicht eindeutig kausal ist.[10] Auch ein möglicher Zusammenhang mit chronischen Nierenerkrankungen, Demenz und Magenkrebs wird diskutiert, wobei die Kausalität oft nicht abschließend geklärt ist.[11] Die plötzliche Einstellung der PPI-Therapie kann zu einer erhöhten Magensäureproduktion über das Vorbehandlungslevel hinaus führen, ein Phänomen, das als Azid-Rebound bekannt ist.[11] Aufgrund dieser potenziellen Risiken und der häufigen Inappropriät von Langzeitverschreibungen wird ein rationales Management („PPI Stewardship“) empfohlen.[5] Viele Verschreibungen erfolgen ohne gültige Indikation oder über einen unnötig langen Zeitraum.[1] Daher wird eine regelmäßige Überprüfung der Indikation und eine schrittweise Reduktion oder das Absetzen („Deprescribing“) bei geeigneten Patienten empfohlen.[2] Dies umfasst die Dosisreduktion, den Wechsel zu bedarfsweiser Einnahme oder die Umstellung auf H2-Rezeptorantagonisten.[1] Patienten sollten über mögliche Rebound-Symptome aufgeklärt werden, um den Erfolg von Deprescribing-Programmen zu unterstützen.[1] Bei Patienten mit spezifischen Hochrisikobedingungen wie Barrett-Ösophagus, schwerer erosiver Ösophagitis oder hohem Blutungsrisiko sollte die Langzeittherapie jedoch fortgesetzt werden.[1] Die Verfügbarkeit von rezeptfreien PPI hat zugenommen, wobei Experten betonen, dass die Einhaltung der Packungsbeilage das Risiko schwerwiegender unerwünschter Ereignisse minimiert.[12] Die Selbstmedikation führt selten dazu, dass Symptome von Magen- oder Speiseröhrenkrebs maskiert werden, wenn die Anweisungen befolgt werden.[12] Dennoch ist eine ärztliche Beratung bei anhaltenden oder sich verschlimmernden Symptomen ratsam.[12]
+
+## Literatur
+
+1. Andrawes M, Andrawes W, Das A et al.. Proton Pump Inhibitors (PPIs)-An Evidence-Based Review of Indications, Efficacy, Harms, and Deprescribing. Medicina (Kaunas). 2025;61. PMID: 41010960. DOI: 10.3390/medicina61091569. https://pubmed.ncbi.nlm.nih.gov/41010960/
+2. Targownik LE, Fisher DA, Saini SD et al.. AGA Clinical Practice Update on De-Prescribing of Proton Pump Inhibitors: Expert Review. Gastroenterology. 2022;162:1334-1342. PMID: 35183361. DOI: 10.1053/j.gastro.2021.12.247. https://pubmed.ncbi.nlm.nih.gov/35183361/
+3. Lespessailles E, Toumi H. Proton Pump Inhibitors and Bone Health: An Update Narrative Review. Int J Mol Sci. 2022;23. PMID: 36142643. DOI: 10.3390/ijms231810733. https://pubmed.ncbi.nlm.nih.gov/36142643/
+4. Zhuang Q, Chen S, Zhou X et al.. Comparative Efficacy of P-CAB vs Proton Pump Inhibitors for Grade C/D Esophagitis: A Systematic Review and Network Meta-analysis. Am J Gastroenterol. 2024;119:803-813. PMID: 38345252. DOI: 10.14309/ajg.0000000000002714. https://pubmed.ncbi.nlm.nih.gov/38345252/
+5. Dutta AK, Jain A, Jearth V et al.. Guidelines on optimizing the use of proton pump inhibitors: PPI stewardship. Indian J Gastroenterol. 2023;42:601-628. PMID: 37698821. DOI: 10.1007/s12664-023-01428-7. https://pubmed.ncbi.nlm.nih.gov/37698821/
+6. Lucendo AJ, Gutiérrez-Ramírez L, Tejera-Muñoz A et al.. Proton Pump Inhibitors for Inducing and Maintaining Remission in Eosinophilic Esophagitis: An Updated Systematic Review and Meta-Analysis. Clin Gastroenterol Hepatol. 2025;23:2115-2127.e21. PMID: 40089255. DOI: 10.1016/j.cgh.2025.01.016. https://pubmed.ncbi.nlm.nih.gov/40089255/
+7. Floria DE, Obeidat M, Kávási SB et al.. Systematic review and meta-analysis: proton pump inhibitors slightly decrease the severity of chronic cough. Sci Rep. 2024;14:11956. PMID: 38796481. DOI: 10.1038/s41598-024-62640-9. https://pubmed.ncbi.nlm.nih.gov/38796481/
+8. Wang Y, Parpia S, Ge L et al.. Proton-Pump Inhibitors to Prevent Gastrointestinal Bleeding - An Updated Meta-Analysis. NEJM Evid. 2024;3:EVIDoa2400134. PMID: 38874580. DOI: 10.1056/EVIDoa2400134. https://pubmed.ncbi.nlm.nih.gov/38874580/
+9. Simadibrata DM, Lesmana E, Pratama MIA et al.. Vonoprazan vs. Proton Pump Inhibitors for Treatment and Prevention of Gastric and/or Duodenal Ulcers: A Systematic Review with Meta-Analysis. Dig Dis Sci. 2024;69:3863-3874. PMID: 39294424. DOI: 10.1007/s10620-024-08593-5. https://pubmed.ncbi.nlm.nih.gov/39294424/
+10. Choudhury A, Jena A, Jearth V et al.. Vitamin B12 deficiency and use of proton pump inhibitors: a systematic review and meta-analysis. Expert Rev Gastroenterol Hepatol. 2023;17:479-487. PMID: 37060552. DOI: 10.1080/17474124.2023.2204229. https://pubmed.ncbi.nlm.nih.gov/37060552/
+11. Chinzon D, Domingues G, Tosetto N et al.. SAFETY OF LONG-TERM PROTON PUMP INHIBITORS: FACTS AND MYTHS. Arq Gastroenterol. 2022;59:219-225. PMID: 35830032. DOI: 10.1590/S0004-2803.202202000-40. https://pubmed.ncbi.nlm.nih.gov/35830032/
+12. Johnson DA, Katz PO, Armstrong D et al.. The Safety of Appropriate Use of Over-the-Counter Proton Pump Inhibitors: An Evidence-Based Review and Delphi Consensus. Drugs. 2017;77:547-561. PMID: 28233274. DOI: 10.1007/s40265-017-0712-6. https://pubmed.ncbi.nlm.nih.gov/28233274/
