@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 11.11.2026 04:25. Warteschlange: duplicate 494, failed 5, planned 408, published 2195, ready 226, redirect 409, review 3824.
+Stand: 11.11.2026 06:26. Warteschlange: duplicate 494, failed 5, planned 404, published 2423, ready 1, redirect 409, review 3825.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3820,6 +3820,7 @@ Files validated:    |
 | WM-DRUG-4479 | Omega-3-Säureethylester | drug | Themenprüfung: nur 1 von 6 Quellen passen zum Thema (Der Titel „Omega-3-Säureethylester“ entspricht dem Wirkstoff der Klassifikation (ATC C10AX06). Nur Quelle 1 behandelt explizit das Präparat aus Ome |
 | WM-DRUG-4482 | Vilanterol | drug | Themenprüfung: nur 1 von 4 Quellen passen zum Thema (Nur Quelle 4 behandelt ultra-lang wirksame LABA inkl. Vilanterol; die übrigen Quellen betreffen allgemeine COPD/Asthma-Ziele, Budesonid-Kinetik bzw |
 | WM-KON-ANAT-0001 | Leber | konz_anat | Bestätigungsquote 15/43 unter 60 % |
+| WM-KON-ANAT-0011 | Zentralnervensystem | konz_anat | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Im Fötus können Anomalien des zentralen Nervensystems isoliert oder im Rahmen multisystemischer Erkrankungen a“ |
 | WM-KON-DIAG-0001 | Anamnese | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Anamnese bildet zusammen mit der körperlichen Untersuchung die Grundlage der klinischen Diagnostik, bevor “ |
 | WM-KON-DIAG-0004 | Computertomographie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der klinischen Praxis hat sich die Computertomographie zu einem unverzichtbaren Werkzeug für die Diagnostik“ |
 | WM-KON-DIAG-0012 | Histologie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der Gastroenterologie und Hepatologie wird die Histologie oft mit nicht-invasiven Tests verglichen, um Fibr“ |
