@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 11.11.2026 14:26. Warteschlange: duplicate 494, failed 5, planned 382, published 2434, ready 5, redirect 409, review 3832.
+Stand: 11.11.2026 15:26. Warteschlange: duplicate 494, failed 5, planned 377, published 2439, ready 2, redirect 409, review 3835.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3828,6 +3828,8 @@ Files validated:    |
 | WM-KON-ANAT-0022 | Harnwege | konz_anat | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei Katzen können untere Harnwegssymptome wie Dysurie, Hämaturie, Periurie, Pollakisurie und Strangurie auftre“ |
 | WM-KON-ANAT-0027 | Herzmuskel | konz_anat | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Der Herzmuskel unterliegt dynamischen Anpassungsprozessen, bei denen genetische Faktoren, zelluläre Signalwege“ |
 | WM-KON-ANAT-0031 | Myokard | konz_anat | zu wenige Quellen mit Zusammenfassung (1) für 'Myocard' |
+| WM-KON-ANAT-0035 | Venen | konz_anat | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Effizienz des venösen Rückflusses ist entscheidend für die Aufrechterhaltung des Herzzeitvolumens, da Verä“ |
+| WM-KON-ANAT-0036 | Endometrium | konz_anat | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der Endometriose handelt es sich um eine komplexe entzündliche Erkrankung, bei der endometriumähnliches Ge“ |
 | WM-KON-DIAG-0001 | Anamnese | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Anamnese bildet zusammen mit der körperlichen Untersuchung die Grundlage der klinischen Diagnostik, bevor “ |
 | WM-KON-DIAG-0004 | Computertomographie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der klinischen Praxis hat sich die Computertomographie zu einem unverzichtbaren Werkzeug für die Diagnostik“ |
 | WM-KON-DIAG-0012 | Histologie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der Gastroenterologie und Hepatologie wird die Histologie oft mit nicht-invasiven Tests verglichen, um Fibr“ |
@@ -3835,6 +3837,7 @@ Files validated:    |
 | WM-KON-DIAG-0022 | Echokardiographie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Methode ist ein grundlegender Bestandteil der pädiatrischen Kardiologie und wird bei Verdacht auf angebore“ |
 | WM-KON-DIAG-0027 | Endoskopie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der Diagnostik von Fremdkörpern im Magen-Darm-Trakt bei Kindern und Jugendlichen ist die Endoskopie ein en“ |
 | WM-KON-DIAG-0028 | Gesamtcholesterin | konz_diag | Bestätigungsquote 26/46 unter 60 % |
+| WM-KON-KLIN-0001 | Metaanalyse | konz_klin | Bestätigungsquote 13/24 unter 60 % |
 | WM-KON-PATHO-0006 | Neutropenie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Neutropenie stellt eine der drei Komponenten des Evans-Syndroms dar, einer seltenen erworbenen Autoimmunerkran“ |
 | WM-KON-PATHO-0027 | Enzephalopathie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Pathogenese ist heterogen und hängt stark von der zugrunde liegenden Ätiologie ab, wobei bei der hypoxisch“ |
 | WM-KON-PATHO-0030 | Meningitis | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der tuberkulösen Meningitis kann *Mycobacterium tuberculosis* die Blut-Hirn-Schranke (BHS) durch Umstruktu“ |
