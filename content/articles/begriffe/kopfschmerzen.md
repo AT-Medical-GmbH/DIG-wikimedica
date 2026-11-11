@@ -1,0 +1,69 @@
+---
+title: "Kopfschmerz"
+slug: "kopfschmerzen"
+specialty: "Innere Medizin"
+secondary_specialties: []
+article_type: "professional"
+content_kind: "article"
+status: "draft"
+version: "0.1.0"
+change_summary: "Automatisch erstellter, quellenbasierter Begriffsartikel (Klinisches Konzept) mit maschineller Faktenprüfung gegen PubMed-Quellen; fachliche Prüfung steht aus (Prüfstatus ungeprüft)."
+authors: [{name: "WikiMedica-Redaktion"}]
+reviewers: []
+created: "2026-11-11"
+updated: "2026-11-11"
+risk_level: "moderate"
+target_audience: ["medical-professionals"]
+sex_gender_relevance: "not_assessed"
+sex_gender_notes: ""
+safety_hold: false
+language: "de"
+language_level: "professional"
+icd10: []
+ops: []
+pubmed_ids: ["41240916", "36782182", "37582578", "39801093", "35576364", "31413171", "35690723", "35056352", "38585645", "34537167"]
+guidelines: [{"title": "Evidence-based clinical practice guidelines on postdural puncture headache: a consensus report from a multisociety international working group", "issuer": "", "year": 2024, "url": "https://pubmed.ncbi.nlm.nih.gov/37582578/"}, {"title": "Headaches in Pregnancy and Postpartum: ACOG Clinical Practice Guideline No. 3", "issuer": "", "year": 2022, "url": "https://pubmed.ncbi.nlm.nih.gov/35576364/"}, {"title": "Practice guideline update summary: Acute treatment of migraine in children and adolescents: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology and the American Headache Society", "issuer": "", "year": 2019, "url": "https://pubmed.ncbi.nlm.nih.gov/31413171/"}, {"title": "European Headache Federation guideline on the use of monoclonal antibodies targeting the calcitonin gene related peptide pathway for migraine prevention - 2022 update", "issuer": "", "year": 2022, "url": "https://pubmed.ncbi.nlm.nih.gov/35690723/"}]
+references: [{"citation": "Global, regional, and national burden of headache disorders, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023. Lancet Neurol. 2025;24:1005-1015.", "pmid": "41240916", "doi": "10.1016/S1474-4422(25)00402-8", "url": "https://pubmed.ncbi.nlm.nih.gov/41240916/"}, {"citation": "Onofri A, Pensato U, Rosignoli C et al.. Primary headache epidemiology in children and adolescents: a systematic review and meta-analysis. J Headache Pain. 2023;24:8.", "pmid": "36782182", "doi": "10.1186/s10194-023-01541-0", "url": "https://pubmed.ncbi.nlm.nih.gov/36782182/"}, {"citation": "Uppal V, Russell R, Sondekoppam RV et al.. Evidence-based clinical practice guidelines on postdural puncture headache: a consensus report from a multisociety international working group. Reg Anesth Pain Med. 2024;49:471-501.", "pmid": "37582578", "doi": "10.1136/rapm-2023-104817", "url": "https://pubmed.ncbi.nlm.nih.gov/37582578/"}, {"citation": "Bizzarri P, Manfredini D, Koutris M et al.. Temporomandibular disorders in migraine and tension-type headache patients: a systematic review with meta-analysis. J Oral Facial Pain Headache. 2024;38:11-24.", "pmid": "39801093", "doi": "10.22514/jofph.2024.011", "url": "https://pubmed.ncbi.nlm.nih.gov/39801093/"}, {"citation": "Headaches in Pregnancy and Postpartum: ACOG Clinical Practice Guideline No. 3. Obstet Gynecol. 2022;139:944-972.", "pmid": "35576364", "doi": "10.1097/AOG.0000000000004766", "url": "https://pubmed.ncbi.nlm.nih.gov/35576364/"}, {"citation": "Oskoui M, Pringsheim T, Holler-Managan Y et al.. Practice guideline update summary: Acute treatment of migraine in children and adolescents: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology and the American Headache Society. Neurology. 2019;93:487-499.", "pmid": "31413171", "doi": "10.1212/WNL.0000000000008095", "url": "https://pubmed.ncbi.nlm.nih.gov/31413171/"}, {"citation": "Sacco S, Amin FM, Ashina M et al.. European Headache Federation guideline on the use of monoclonal antibodies targeting the calcitonin gene related peptide pathway for migraine prevention - 2022 update. J Headache Pain. 2022;23:67.", "pmid": "35690723", "doi": "10.1186/s10194-022-01431-x", "url": "https://pubmed.ncbi.nlm.nih.gov/35690723/"}, {"citation": "Bae JY, Sung HK, Kwon NY et al.. Cognitive Behavioral Therapy for Migraine Headache: A Systematic Review and Meta-Analysis. Medicina (Kaunas). 2021;58.", "pmid": "35056352", "doi": "10.3390/medicina58010044", "url": "https://pubmed.ncbi.nlm.nih.gov/35056352/"}, {"citation": "Lu Z, Zou H, Zhao P et al.. Myofascial Release for the Treatment of Tension-Type, Cervicogenic Headache or Migraine: A Systematic Review and Meta-Analysis. Pain Res Manag. 2024;2024:2042069.", "pmid": "38585645", "doi": "10.1155/2024/2042069", "url": "https://pubmed.ncbi.nlm.nih.gov/38585645/"}, {"citation": "Cumplido-Trasmonte C, Fernández-González P, Alguacil-Diego IM et al.. Manual therapy in adults with tension-type headache: A systematic review. Neurologia (Engl Ed). 2021;36:537-547.", "pmid": "34537167", "doi": "10.1016/j.nrleng.2017.12.005", "url": "https://pubmed.ncbi.nlm.nih.gov/34537167/"}]
+source_notes: "Eigene Zusammenfassung von PubMed-Zusammenfassungen und, wo Creative-Commons-Lizenz vorliegt, PubMed-Central-Volltextauszügen; keine wörtliche Übernahme. Alle zitierten PMIDs wurden gegen PubMed aufgelöst."
+concept_kind: "klinisches-konzept"
+review_status: "ungeprueft"
+ai_assisted: true
+ai_assistance_description: "Entwurf und satzweise Faktenprüfung auf Grundlage automatisch abgerufener PubMed-Quellen (Suchbegriff, Entwurf, Faktenprüfung, Lektorat: Qwen/Qwen3.6-35B-A3B-FP8 über das AT-AI-Gateway (Hetzner)). Maschinelle Faktenprüfung: 28 von 38 Sätzen bestätigt, 10 nicht belegte Sätze entfernt. Keine menschliche fachliche Prüfung."
+wikimedica_credit: true
+corrections: []
+---
+
+# Kopfschmerz
+
+## Übersicht
+
+Kopfschmerz ist ein klinisches Konzept, das primäre und sekundäre Kopfschmerzstörungen umfasst, welche weltweit zu den häufigsten neurologischen Manifestationen zählen und eine erhebliche globale Krankheitslast verursachen.[1] Zu den häufigsten primären Kopfschmerzformen gehören Migräne, Spannungskopfschmerz und trigeminale autonomezephalgie, wobei Migräne und Spannungskopfschmerz die höchste Prävalenz aufweisen.[1] Die globale altersstandardisierte Prävalenz von Kopfschmerzstörungen liegt bei etwa 34,6 %, wobei Frauen häufiger betroffen sind als Männer.[1] Kopfschmerzstörungen sind eine der führenden Ursachen für Jahre, die mit Behinderung gelebt werden, wobei die Rate bei Frauen mehr als doppelt so hoch ist wie bei Männern.[1]
+
+## Ursachen und Bedeutung
+
+Bei Kindern und Jugendlichen ist die Prävalenz primärer Kopfschmerzen mit 62 % sehr hoch, wobei Spannungskopfschmerz mit 17 % und Migräne mit 11 % die häufigsten Formen darstellen.[2] Die Prävalenz von Migräne ohne Aura beträgt 8 %, während Migräne mit Aura bei 3 % liegt.[2] Bei Erwachsenen bleibt die Prävalenz von Kopfschmerzstörungen über drei Jahrzehnte stabil, wobei die Krankheitslast durch Migräne signifikant zur globalen Behinderung beiträgt.[1] Ein wichtiger sekundärer Kopfschmerz ist der postdurale Punktionsschmerz, der nach unbeabsichtigter Dura-Punktion bei epiduralen Techniken oder beabsichtigter Punktion bei neuraxialen Verfahren wie der Lumbalpunktion oder Spinalanästhesie auftreten kann.[3] Patienten mit Migräne und Spannungskopfschmerz haben ein statistisch signifikant höheres Risiko für temporomandibuläre Dysfunktionen (TMD) im Vergleich zu Personen ohne Kopfschmerzen.[4] Dieses erhöhte Risiko betrifft insbesondere schmerzhafte, muskuläre und kombinierte Formen der TMD, während arthrogene TMDs kein erhöhtes Risiko aufweisen.[4] Chronische Migräne ist mit einem noch höheren Odds Ratio für das Auftreten von TMDs assoziiert als episodische Migräne.[4]
+
+## Abklärung
+
+Bei der Evaluation von Kopfschmerzen in der Schwangerschaft und in der postpartalen Phase müssen primäre und sekundäre Kopfschmerzursachen berücksichtigt werden, da sich die Pathophysiologie und das Risikoprofil in dieser Lebensphase ändern können.[5] Für die Diagnose des postduralen Punktionsschmerzes sind die klinische Symptomatik und die Vorgeschichte einer neuraxialen Intervention entscheidend.[3] Es bestehen jedoch Unsicherheiten bezüglich der besten diagnostischen Praxis für die Mehrheit der Managementansätze, da die Evidenzlage für viele Aspekte der Diagnose und des Managements begrenzt ist.[3] Bei der Beurteilung von Kopfschmerzen im Kindes- und Jugendalter ist die frühe Behandlung und die Auswahl der geeigneten Verabreichungsroute basierend auf den Merkmalen des einzelnen Migräneanfalls von Bedeutung.[6] Die Akutbehandlung bei Kindern und Jugendlichen konzentriert sich auf die Vermeidung von Auslösern und die Aufklärung über die Übernutzung von Medikamenten.[6]
+
+## Warnzeichen
+
+Ein Warnzeichen für eine mögliche Übernutzung von Medikamenten ist die Entwicklung eines medikamenteninduzierten Kopfschmerzes, der als Folge einer Fehlbehandlung eines primären Kopfschmerzes durch übermäßigen Medikamentengebrauch entsteht.[1] Der medikamenteninduzierte Kopfschmerz trägt erheblich zur Krankheitslast bei, insbesondere beim Spannungskopfschmerz und bei der Migräne.[1] Bei Kindern und Jugendlichen kann die hohe Prävalenz von Kopfschmerzen erhebliche Auswirkungen auf die körperliche und psychische Gesundheit haben, was als Warnzeichen für den Bedarf an spezifischen öffentlichen Gesundheitsinterventionen gilt.[2]
+
+## Risiken und Besonderheiten
+
+Die globale Krankheitslast durch Migräne ist hoch, und ein Großteil dieser Last könnte durch die Vermeidung der Übernutzung von Medikamenten, einschließlich rezeptfreier Medikamente, vermieden oder eliminiert werden.[1] Dies unterstreicht die Bedeutung der öffentlichen Aufklärung über sichere Behandlungspraktiken.[1] Bei Erwachsenen mit Migräne können monoklonale Antikörper, die den CGRP-Pfad hemmen, zur Vorbeugung eingesetzt werden, wobei die Langzeitsicherheit und Wirksamkeit als hoch bewertet werden.[7] Bei der Anwendung dieser Therapien sind jedoch Unsicherheiten bezüglich bestimmter klinischer Fragen vorhanden, die auf Expertenmeinungen zurückgreifen.[7] Die Evidenzbasis für einige Empfehlungen ist jedoch unzureichend, was zu ungraduierten Good-Practice-Points führt.[5] Die Evidenz für die Wirksamkeit bestimmter Akutbehandlungen variiert zwischen den einzelnen Wirkstoffen, was die Auswahl der Therapie erschwert.[6] Nicht-pharmakologische Interventionen wie kognitive Verhaltenstherapie können bei Migräne die Häufigkeit und Intensität der Kopfschmerzen reduzieren, wobei nur wenige Nebenwirkungen berichtet wurden.[8] Manualtherapie und myofasziale Freisetzungstechniken können die Schmerzintensität und Behinderung bei Spannungskopfschmerz und zervikogenen Kopfschmerzen signifikant reduzieren, wobei die Evidenzqualität für Migräne jedoch inkonsistent ist.[9] Die Kombination verschiedener nicht-pharmakologischer Techniken scheint bei Spannungskopfschmerz am effektivsten zu sein.[10]
+
+## Literatur
+
+1. Global, regional, and national burden of headache disorders, 1990-2023: a systematic analysis for the Global Burden of Disease Study 2023. Lancet Neurol. 2025;24:1005-1015. PMID: 41240916. DOI: 10.1016/S1474-4422(25)00402-8. https://pubmed.ncbi.nlm.nih.gov/41240916/
+2. Onofri A, Pensato U, Rosignoli C et al.. Primary headache epidemiology in children and adolescents: a systematic review and meta-analysis. J Headache Pain. 2023;24:8. PMID: 36782182. DOI: 10.1186/s10194-023-01541-0. https://pubmed.ncbi.nlm.nih.gov/36782182/
+3. Uppal V, Russell R, Sondekoppam RV et al.. Evidence-based clinical practice guidelines on postdural puncture headache: a consensus report from a multisociety international working group. Reg Anesth Pain Med. 2024;49:471-501. PMID: 37582578. DOI: 10.1136/rapm-2023-104817. https://pubmed.ncbi.nlm.nih.gov/37582578/
+4. Bizzarri P, Manfredini D, Koutris M et al.. Temporomandibular disorders in migraine and tension-type headache patients: a systematic review with meta-analysis. J Oral Facial Pain Headache. 2024;38:11-24. PMID: 39801093. DOI: 10.22514/jofph.2024.011. https://pubmed.ncbi.nlm.nih.gov/39801093/
+5. Headaches in Pregnancy and Postpartum: ACOG Clinical Practice Guideline No. 3. Obstet Gynecol. 2022;139:944-972. PMID: 35576364. DOI: 10.1097/AOG.0000000000004766. https://pubmed.ncbi.nlm.nih.gov/35576364/
+6. Oskoui M, Pringsheim T, Holler-Managan Y et al.. Practice guideline update summary: Acute treatment of migraine in children and adolescents: Report of the Guideline Development, Dissemination, and Implementation Subcommittee of the American Academy of Neurology and the American Headache Society. Neurology. 2019;93:487-499. PMID: 31413171. DOI: 10.1212/WNL.0000000000008095. https://pubmed.ncbi.nlm.nih.gov/31413171/
+7. Sacco S, Amin FM, Ashina M et al.. European Headache Federation guideline on the use of monoclonal antibodies targeting the calcitonin gene related peptide pathway for migraine prevention - 2022 update. J Headache Pain. 2022;23:67. PMID: 35690723. DOI: 10.1186/s10194-022-01431-x. https://pubmed.ncbi.nlm.nih.gov/35690723/
+8. Bae JY, Sung HK, Kwon NY et al.. Cognitive Behavioral Therapy for Migraine Headache: A Systematic Review and Meta-Analysis. Medicina (Kaunas). 2021;58. PMID: 35056352. DOI: 10.3390/medicina58010044. https://pubmed.ncbi.nlm.nih.gov/35056352/
+9. Lu Z, Zou H, Zhao P et al.. Myofascial Release for the Treatment of Tension-Type, Cervicogenic Headache or Migraine: A Systematic Review and Meta-Analysis. Pain Res Manag. 2024;2024:2042069. PMID: 38585645. DOI: 10.1155/2024/2042069. https://pubmed.ncbi.nlm.nih.gov/38585645/
+10. Cumplido-Trasmonte C, Fernández-González P, Alguacil-Diego IM et al.. Manual therapy in adults with tension-type headache: A systematic review. Neurologia (Engl Ed). 2021;36:537-547. PMID: 34537167. DOI: 10.1016/j.nrleng.2017.12.005. https://pubmed.ncbi.nlm.nih.gov/34537167/

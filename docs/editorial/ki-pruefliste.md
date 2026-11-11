@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 11.11.2026 18:26. Warteschlange: duplicate 494, failed 5, planned 368, published 2444, ready 2, redirect 409, review 3839.
+Stand: 11.11.2026 19:26. Warteschlange: claimed 1, duplicate 494, failed 5, planned 360, published 2446, ready 3, redirect 409, review 3843.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3842,6 +3842,10 @@ Files validated:    |
 | WM-KON-KLIN-0003 | Inzidenz | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei seltenen neurodegenerativen Erkrankungen wie der Amyotrophen Lateralsklerose (ALS) liegen die Inzidenzschä“ |
 | WM-KON-KLIN-0004 | Mortalität | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der Schwangerschaft und im Wochenbett stellen kardiovaskuläre Erkrankungen eine der führenden Ursachen für “ |
 | WM-KON-KLIN-0009 | Morbidität | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Eine unzureichende Versorgung mit essentiellen Nährstoffen, wie Vitaminen und Mineralstoffen, kann die Vulnera“ |
+| WM-KON-KLIN-0011 | Fieber | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Pathogenese umfasst oft eine komplexe Interaktion zwischen dem Erreger und dem Immunsystem des Wirts, wobe“ |
+| WM-KON-KLIN-0012 | Erbrechen | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Schwere des Erbrechens variiert stark und kann von gelegentlichen Episoden bis hin zu chronischen, belaste“ |
+| WM-KON-KLIN-0014 | randomisierte kontrollierte Studie | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Qualität der Berichterstattung über solche Studien hat sich im Laufe der Zeit verbessert, bleibt jedoch in“ |
+| WM-KON-KLIN-0015 | Rezidiv | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der Onkologie wird das Rezidiv oft durch den Nachweis minimaler residueller Erkrankung (MRD) oder bildgeben“ |
 | WM-KON-PATHO-0006 | Neutropenie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Neutropenie stellt eine der drei Komponenten des Evans-Syndroms dar, einer seltenen erworbenen Autoimmunerkran“ |
 | WM-KON-PATHO-0027 | Enzephalopathie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Pathogenese ist heterogen und hängt stark von der zugrunde liegenden Ätiologie ab, wobei bei der hypoxisch“ |
 | WM-KON-PATHO-0030 | Meningitis | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der tuberkulösen Meningitis kann *Mycobacterium tuberculosis* die Blut-Hirn-Schranke (BHS) durch Umstruktu“ |
