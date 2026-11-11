@@ -10,6 +10,8 @@
 
 ## Anbieter
 
+Diese Angaben gelten für WikiMedica unter wikimedica.info einschließlich der Mediensammlung WikiMedica Media unter media.wikimedica.info.
+
 AT Medical GmbH
 [[STRASSE UND HAUSNUMMER]]
 [[PLZ ORT]]
