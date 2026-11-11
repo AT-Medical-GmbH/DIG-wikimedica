@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 11.11.2026 00:25. Warteschlange: claimed 1, duplicate 492, failed 5, planned 569, published 2195, ready 93, redirect 409, review 3797.
+Stand: 11.11.2026 01:25. Warteschlange: claimed 1, duplicate 492, failed 5, planned 511, published 2195, ready 141, redirect 409, review 3807.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3826,6 +3826,7 @@ Files validated:    |
 | WM-KON-DIAG-0022 | Echokardiographie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Methode ist ein grundlegender Bestandteil der pädiatrischen Kardiologie und wird bei Verdacht auf angebore“ |
 | WM-KON-DIAG-0027 | Endoskopie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der Diagnostik von Fremdkörpern im Magen-Darm-Trakt bei Kindern und Jugendlichen ist die Endoskopie ein en“ |
 | WM-KON-DIAG-0028 | Gesamtcholesterin | konz_diag | Bestätigungsquote 26/46 unter 60 % |
+| WM-KON-PATHO-0006 | Neutropenie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Neutropenie stellt eine der drei Komponenten des Evans-Syndroms dar, einer seltenen erworbenen Autoimmunerkran“ |
 | WM-KON-PHARM-0004 | Halbwertszeit | konz_pharm | Stichprobe 10.11.: kein Definitionssatz am Anfang (Text beginnt mit Biologika) |
 | WM-KON-PHARM-0009 | Antagonist | konz_pharm | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Antagonist“ nicht: „Ein spezifisches Beispiel für dieses Prinzip ist die Interaktion von Naloxon mit Opioidrezeptoren.[1]“ |
 | WM-KON-PHARM-0011 | Selektivität | konz_pharm | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Selektivität“ nicht: „In der modernen Pharmakotherapie stellt die Erreichung einer hohen Spezifität eine zentrale Herausforderung dar, da eine“ |
@@ -3839,6 +3840,15 @@ Files validated:    |
 | WM-KON-PHYSIO-0005 | T-Zellen | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Peripheral T-cell lymphomas (PTCLs) sind eine heterogene Gruppe von lymphoproliferativen Erkrankungen, die aus“ |
 | WM-KON-PHYSIO-0008 | Makrophagen | konz_physio | Artikelgegenstand nach Faktenprüfung: Abschnittsanfang mit Bezugswort ohne Vorgängersatz: „Durch diesen Prozess tragen sie zur Gewebereparatur und zur Beseitigung von Schädigungen bei, was in“ |
 | WM-KON-PHYSIO-0009 | Immunität | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Zu den grundlegenden Störungen der Immunitaet zählen angeborene Immundefekte, die als monogene Erkrankungen da“ |
+| WM-KON-PHYSIO-0015 | Antigene | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Im Kontext der Transfusionsmedizin dienen rote Blutkörperchenantigene als entscheidende Determinanten für die “ |
+| WM-KON-PHYSIO-0024 | Stammzellen | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Satz im Entwurf |
+| WM-KON-PHYSIO-0025 | Laktation | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Ein entscheidender Bestandteil der Muttermilch ist Cholin, ein essentieller Nährstoff, der für die Entwicklung“ |
+| WM-KON-PHYSIO-0027 | Immunglobuline | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „IgE ist an allergischen Reaktionen und der Abwehr von Parasiten beteiligt.[1]“ |
+| WM-KON-PHYSIO-0029 | Hämodynamik | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der klinischen Praxis dient die Hämodynamik als Grundlage für die Beurteilung des Kreislaufzustands und die“ |
+| WM-KON-PHYSIO-0033 | glomeruläre Filtrationsrate | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die eGFR dient als essenzieller Biomarker zur Diagnose, Stadieneinteilung und Verlaufsbeobachtung der chronisc“ |
+| WM-KON-PHYSIO-0034 | Lymphozyten | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Lymphozyten erfüllen eine essentielle Rolle bei der Erkennung und Elimination intrazellulärer Pathogene sowie “ |
+| WM-KON-PHYSIO-0046 | Proteinsynthese | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Im Kontext der Skelettmuskulatur bezeichnet der Begriff spezifisch die Muskelproteinsynthese (MPS), welche für“ |
+| WM-KON-PHYSIO-0059 | Monozyten | konz_physio | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Aktivierung dieser Zellen erfolgt unabhängig vom spezifischen einfallenden Erreger, wodurch sie eine breit“ |
 | WM-PAT-0103 | Kyphose und Lordose | patient | Bestätigungsquote 30/53 unter 60 % |
 | WM-PAT-0127 | Osteochondrose der Wirbelsäule | patient | Artikelgegenstand: erster Satz nennt „Osteochondrose der Wirbelsäule“ nicht: „Die Scheuermann-Krankheit (Fachbegriff: Scheuermann-Kyphose) ist eine starre, verstärkte Rundrückenkrümmung im Brustbere“ |
 | WM-PAT-0131 | Kreislaufkomplikationen nach medizinischen Maßnahmen, anderenorts nicht klassifiziert | patient | Bestätigungsquote 22/37 unter 60 % |
