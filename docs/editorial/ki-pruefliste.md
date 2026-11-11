@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 11.11.2026 02:25. Warteschlange: claimed 1, duplicate 492, failed 5, planned 452, published 2195, ready 191, redirect 409, review 3816.
+Stand: 11.11.2026 03:25. Warteschlange: claimed 1, duplicate 494, failed 5, planned 420, published 2195, ready 214, redirect 409, review 3823.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3836,6 +3836,13 @@ Files validated:    |
 | WM-KON-PATHO-0050 | Nasopharyngitis | konz_patho | zu wenige Quellen mit Zusammenfassung (0) für 'Acute nasopharyngitis' |
 | WM-KON-PATHO-0058 | oxidativer Stress | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Satz im Entwurf |
 | WM-KON-PATHO-0067 | Hypertrophie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Im Kontext der Kardiologie bezeichnet der Begriff häufig die linksventrikuläre Hypertrophie, eine adaptive Rea“ |
+| WM-KON-PATHO-0071 | Zyste | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die klinische Bedeutung variiert stark; viele Zysten verlaufen asymptomatisch und werden zufällig bei bildgebe“ |
+| WM-KON-PATHO-0072 | Ataxie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die klinische Präsentation variiert je nach zugrunde liegender Ätiologie, reicht von progressiven neurodegener“ |
+| WM-KON-PATHO-0080 | Embolie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der pulmonalen Embolie (PE) handelt es sich um eine potenziell lebensbedrohliche Manifestation der venösen“ |
+| WM-KON-PATHO-0084 | Polyneuropathie | konz_patho | Bestätigungsquote 27/49 unter 60 % |
+| WM-KON-PATHO-0085 | Psychosen | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Ätiologie und Entwicklung psychotischer Erkrankungen, insbesondere der Schizophrenie, gelten als neurodeve“ |
+| WM-KON-PATHO-0087 | Dehydratation | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In klinischen Kontexten wird Dehydratation häufig als Komplikation bei Erkrankungen wie der postoperativen Übe“ |
+| WM-KON-PATHO-0091 | Hyperplasie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Im klinischen Kontext wird der Begriff häufig mit der benignen prostaticen Hyperplasie (BPH) assoziiert, die a“ |
 | WM-KON-PHARM-0004 | Halbwertszeit | konz_pharm | Stichprobe 10.11.: kein Definitionssatz am Anfang (Text beginnt mit Biologika) |
 | WM-KON-PHARM-0009 | Antagonist | konz_pharm | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Antagonist“ nicht: „Ein spezifisches Beispiel für dieses Prinzip ist die Interaktion von Naloxon mit Opioidrezeptoren.[1]“ |
 | WM-KON-PHARM-0011 | Selektivität | konz_pharm | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Selektivität“ nicht: „In der modernen Pharmakotherapie stellt die Erreichung einer hohen Spezifität eine zentrale Herausforderung dar, da eine“ |
