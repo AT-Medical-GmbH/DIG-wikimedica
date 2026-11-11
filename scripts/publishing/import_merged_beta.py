@@ -39,6 +39,17 @@ BETA_HEADER = (
     "Bei einem medizinischen Notfall die 112 wählen."
     "</div>"
 )
+# Verschärfter Hinweis nur für Begriffsartikel (#728, Andreas 10.11.2026 22:10): sichtbar, nicht wegklappbar (kein mw-collapsible),
+# bis die Fachabnahme review_status "geprueft" gesetzt hat (scripts/editorial/concept_review.py).
+CONCEPT_HEADER = (
+    '<div class="mw-message-box mw-message-box-error wm-concept-notice" id="wm-concept-notice" '
+    'style="border:3px solid #b32424;padding:0.8em 1em;margin:0 0 1em 0;display:block !important;">'
+    "'''Fachlich noch nicht geprüft (BETA) – kein Ersatz für ärztliche Beratung.''' "
+    "Dieser Artikel wurde automatisiert aus Literatur erstellt und noch nicht von einer Fachperson geprüft. "
+    "Er kann Fehler enthalten und ersetzt keine individuelle Diagnostik, Beratung oder Behandlung. "
+    "Bei einem medizinischen Notfall die 112 wählen."
+    "</div>"
+)
 PUBLIC_BETA_INTERNAL_SECTIONS = {
     "Hinweise und Haftungsausschluss",
     "Review-Historie",
@@ -67,6 +78,14 @@ def public_beta_body(body: str) -> str:
         return "" if match.group("title").strip() in PUBLIC_BETA_INTERNAL_SECTIONS else match.group(0)
 
     return pattern.sub(keep_or_remove, body)
+
+
+def concept_settings() -> dict:
+    """data/editorial/concept-settings.json: {"noindex": true|false}. Standard: false (Andreas 10.11.2026 22:20: Begriffsartikel werden sofort indexiert); true = Notschalter, braucht $wgExemptFromUserRobotsControl = []."""
+    try:
+        return json.loads((ROOT / "data" / "editorial" / "concept-settings.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
 
 
 def git_revision() -> str:
@@ -303,7 +322,13 @@ def build_page(path: Path, revision: str) -> tuple[str, str, str]:
     if see_also:  # „Siehe auch“ vor die Einzelnachweise, sonst ans Ende des Artikeltexts
         refs = converted.find("\n== Einzelnachweise ==")
         converted = (converted[:refs].rstrip() + "\n\n" + see_also + "\n" + converted[refs:]) if refs >= 0 else converted + "\n\n" + see_also
-    content = BETA_HEADER + "\n\n" + converted + note + ("\n" + cats if cats else "")
+    header = BETA_HEADER
+    if fm.get("concept_kind") and fm.get("review_status", "ungeprueft") != "geprueft":
+        # Begriffsartikel bis zur Fachabnahme: verschärfter Hinweis; Suchmaschinen-Sperre per data/editorial/concept-settings.json
+        header = CONCEPT_HEADER
+        if concept_settings().get("noindex", False):
+            header = "__NOINDEX__\n" + header
+    content = header + "\n\n" + converted + note + ("\n" + cats if cats else "")
     digest = hashlib.sha256(content.encode("utf-8")).hexdigest()
     marker = f'<!-- wikimedica-beta-managed slug="{slug}" sha256="{digest}" -->'
     return title, marker + "\n" + content, digest
