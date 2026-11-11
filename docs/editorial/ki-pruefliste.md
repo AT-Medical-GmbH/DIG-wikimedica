@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 11.11.2026 01:25. Warteschlange: claimed 1, duplicate 492, failed 5, planned 511, published 2195, ready 141, redirect 409, review 3807.
+Stand: 11.11.2026 02:25. Warteschlange: claimed 1, duplicate 492, failed 5, planned 452, published 2195, ready 191, redirect 409, review 3816.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3827,6 +3827,15 @@ Files validated:    |
 | WM-KON-DIAG-0027 | Endoskopie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der Diagnostik von Fremdkörpern im Magen-Darm-Trakt bei Kindern und Jugendlichen ist die Endoskopie ein en“ |
 | WM-KON-DIAG-0028 | Gesamtcholesterin | konz_diag | Bestätigungsquote 26/46 unter 60 % |
 | WM-KON-PATHO-0006 | Neutropenie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Neutropenie stellt eine der drei Komponenten des Evans-Syndroms dar, einer seltenen erworbenen Autoimmunerkran“ |
+| WM-KON-PATHO-0027 | Enzephalopathie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Pathogenese ist heterogen und hängt stark von der zugrunde liegenden Ätiologie ab, wobei bei der hypoxisch“ |
+| WM-KON-PATHO-0030 | Meningitis | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der tuberkulösen Meningitis kann *Mycobacterium tuberculosis* die Blut-Hirn-Schranke (BHS) durch Umstruktu“ |
+| WM-KON-PATHO-0031 | Nekrose | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der avikulären Nekrose des Femurkopfes wird der Zelltod durch eine Unterbrechung der Blutversorgung eingel“ |
+| WM-KON-PATHO-0037 | Perforation | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der nekrotisierenden Enterokolitis (NEC) kommt es zu einer Entzündung und Nekrose des Dünndarms und des Ko“ |
+| WM-KON-PATHO-0038 | Vasodilatation | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Unter physiologischen Bedingungen wird NO durch die endotheliale Stickstoffmonoxid-Synthase (eNOS) produziert “ |
+| WM-KON-PATHO-0047 | Neurotoxizität | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die klinische Manifestation reicht von akuten neurokognitiven Störungen bis hin zu chronischen neurodegenerati“ |
+| WM-KON-PATHO-0050 | Nasopharyngitis | konz_patho | zu wenige Quellen mit Zusammenfassung (0) für 'Acute nasopharyngitis' |
+| WM-KON-PATHO-0058 | oxidativer Stress | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Satz im Entwurf |
+| WM-KON-PATHO-0067 | Hypertrophie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Im Kontext der Kardiologie bezeichnet der Begriff häufig die linksventrikuläre Hypertrophie, eine adaptive Rea“ |
 | WM-KON-PHARM-0004 | Halbwertszeit | konz_pharm | Stichprobe 10.11.: kein Definitionssatz am Anfang (Text beginnt mit Biologika) |
 | WM-KON-PHARM-0009 | Antagonist | konz_pharm | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Antagonist“ nicht: „Ein spezifisches Beispiel für dieses Prinzip ist die Interaktion von Naloxon mit Opioidrezeptoren.[1]“ |
 | WM-KON-PHARM-0011 | Selektivität | konz_pharm | Artikelgegenstand nach Faktenprüfung: erster Satz nennt „Selektivität“ nicht: „In der modernen Pharmakotherapie stellt die Erreichung einer hohen Spezifität eine zentrale Herausforderung dar, da eine“ |
