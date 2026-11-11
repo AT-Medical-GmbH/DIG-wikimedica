@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 11.11.2026 19:26. Warteschlange: claimed 1, duplicate 494, failed 5, planned 360, published 2446, ready 3, redirect 409, review 3843.
+Stand: 11.11.2026 20:25. Warteschlange: duplicate 494, failed 5, planned 344, published 2449, redirect 409, review 3860.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3846,6 +3846,23 @@ Files validated:    |
 | WM-KON-KLIN-0012 | Erbrechen | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Schwere des Erbrechens variiert stark und kann von gelegentlichen Episoden bis hin zu chronischen, belaste“ |
 | WM-KON-KLIN-0014 | randomisierte kontrollierte Studie | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Qualität der Berichterstattung über solche Studien hat sich im Laufe der Zeit verbessert, bleibt jedoch in“ |
 | WM-KON-KLIN-0015 | Rezidiv | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der Onkologie wird das Rezidiv oft durch den Nachweis minimaler residueller Erkrankung (MRD) oder bildgeben“ |
+| WM-KON-KLIN-0018 | Komorbidität | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0019 | Chemotherapie | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei bestimmten soliden Tumoren wie dem ovarialen Karzinom wird eine Platin-Taxol-Doppeltherapie als Standard f“ |
+| WM-KON-KLIN-0020 | Sensitivität | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0021 | Adhärenz | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0022 | Spezifität | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Bedeutung der Spezifität variiert je nach dem klinischen oder wissenschaftlichen Ziel der Untersuchung, se“ |
+| WM-KON-KLIN-0023 | Müdigkeit | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0024 | Verzerrungsrisiko | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Bewertung des Verzerrungsrisikos erfolgt in der Regel durch standardisierte Instrumente, die spezifische D“ |
+| WM-KON-KLIN-0025 | Schwindel | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0026 | Remission | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0027 | Atemnot | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0028 | Strahlentherapie | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0029 | Gesamtüberleben | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0030 | Konfidenzintervall | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0031 | Resektion | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0032 | Bauchschmerz | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0033 | Off-Label-Use | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
+| WM-KON-KLIN-0034 | Kohortenstudie | konz_klin | zurückgehalten 11.11.: Vorlage Klinisches Konzept wird überarbeitet (Befund wikimedica-seo, Entscheidung AT) |
 | WM-KON-PATHO-0006 | Neutropenie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Neutropenie stellt eine der drei Komponenten des Evans-Syndroms dar, einer seltenen erworbenen Autoimmunerkran“ |
 | WM-KON-PATHO-0027 | Enzephalopathie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Pathogenese ist heterogen und hängt stark von der zugrunde liegenden Ätiologie ab, wobei bei der hypoxisch“ |
 | WM-KON-PATHO-0030 | Meningitis | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der tuberkulösen Meningitis kann *Mycobacterium tuberculosis* die Blut-Hirn-Schranke (BHS) durch Umstruktu“ |
