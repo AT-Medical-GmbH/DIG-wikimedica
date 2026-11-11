@@ -2,7 +2,7 @@
 
 Automatisch erzeugt von `scripts/editorial/wm_publisher.py`. Einträge haben die maschinelle Faktenprüfung oder die formale Prüfung nicht bestanden und werden **nicht** veröffentlicht. Sie warten auf redaktionelle Entscheidung.
 
-Stand: 11.11.2026 15:26. Warteschlange: duplicate 494, failed 5, planned 377, published 2439, ready 2, redirect 409, review 3835.
+Stand: 11.11.2026 16:25. Warteschlange: duplicate 494, failed 5, planned 374, published 2441, redirect 409, review 3838.
 
 | ID | Thema | Art | Grund |
 |---|---|---|---|
@@ -3838,6 +3838,9 @@ Files validated:    |
 | WM-KON-DIAG-0027 | Endoskopie | konz_diag | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der Diagnostik von Fremdkörpern im Magen-Darm-Trakt bei Kindern und Jugendlichen ist die Endoskopie ein en“ |
 | WM-KON-DIAG-0028 | Gesamtcholesterin | konz_diag | Bestätigungsquote 26/46 unter 60 % |
 | WM-KON-KLIN-0001 | Metaanalyse | konz_klin | Bestätigungsquote 13/24 unter 60 % |
+| WM-KON-KLIN-0002 | Nebenwirkung | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Schwere der Reaktionen reicht von leichten, selbstlimitierenden Symptomen bis hin zu lebensbedrohlichen Zu“ |
+| WM-KON-KLIN-0003 | Inzidenz | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei seltenen neurodegenerativen Erkrankungen wie der Amyotrophen Lateralsklerose (ALS) liegen die Inzidenzschä“ |
+| WM-KON-KLIN-0004 | Mortalität | konz_klin | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „In der Schwangerschaft und im Wochenbett stellen kardiovaskuläre Erkrankungen eine der führenden Ursachen für “ |
 | WM-KON-PATHO-0006 | Neutropenie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Neutropenie stellt eine der drei Komponenten des Evans-Syndroms dar, einer seltenen erworbenen Autoimmunerkran“ |
 | WM-KON-PATHO-0027 | Enzephalopathie | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Die Pathogenese ist heterogen und hängt stark von der zugrunde liegenden Ätiologie ab, wobei bei der hypoxisch“ |
 | WM-KON-PATHO-0030 | Meningitis | konz_patho | Artikelgegenstand nach Faktenprüfung: kein Definitionssatz am Anfang: „Bei der tuberkulösen Meningitis kann *Mycobacterium tuberculosis* die Blut-Hirn-Schranke (BHS) durch Umstruktu“ |
