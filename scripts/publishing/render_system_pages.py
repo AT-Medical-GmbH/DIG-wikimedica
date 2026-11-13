@@ -108,6 +108,8 @@ def build_pages(env: str, schema: dict, disclaimers: dict) -> dict[str, str]:
         pages[title] = _convert_draft((drafts / name).read_text(encoding="utf-8"))
 
     pages["Wikimedica:Haftungsausschluss"] = _disclaimer_page(disclaimers)
+    # E2 (approved by Andreas Tremml 04.11.2026): editorial principles, kept as finished wikitext
+    pages["Wikimedica:Redaktionelle Grundsätze"] = (drafts / "redaktionelle-grundsaetze.wiki").read_text(encoding="utf-8")
     pages["Hauptseite"] = _main_page(specialties, disclaimers)
     return pages
 

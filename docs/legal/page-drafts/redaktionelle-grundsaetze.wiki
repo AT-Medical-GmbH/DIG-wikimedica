@@ -1,0 +1,40 @@
+WikiMedica ist ein medizinisches Nachschlagewerk der AT Medical GmbH, Heidelberg. Es richtet sich an Ärztinnen und Ärzte, Pflegefachpersonen, Studierende und medizinisch interessierte Patientinnen und Patienten. Quellsprache ist Deutsch; Übersetzungen (zuerst Englisch) entstehen aus den deutschen Artikeln, maßgeblich ist die deutsche Fassung. WikiMedica befindet sich in der BETA-Phase: Die Artikel werden fortlaufend ergänzt, geprüft und überarbeitet.
+
+== Wofür WikiMedica steht ==
+
+* Verständliches, quellengestütztes medizinisches Wissen zu Krankheiten, Arzneimitteln und Eingriffen.
+* Fachartikel enthalten in der Regel einen allgemein verständlichen Abschnitt für Patientinnen und Patienten; zu häufigen Themen gibt es eigene Patienteninformationen.
+* WikiMedica ersetzt keine ärztliche Beratung, Diagnostik oder Behandlung. In einem medizinischen Notfall gilt die 112.
+
+== Quellen ==
+
+* Grundlage sind Leitlinien nationaler und internationaler Fachgesellschaften, systematische Übersichtsarbeiten und Metaanalysen sowie Zulassungs- und Fachinformationen; bevorzugt werden aktuelle Quellen.
+* Aussagen, die über Lehrbuchwissen hinausgehen, sind mit einem Einzelnachweis belegt (Autorinnen und Autoren, Jahr, Zeitschrift, DOI oder PubMed-ID). Der Stand des Artikels ergibt sich aus der Versionsgeschichte.
+* Themen werden nach der Internationalen Klassifikation der Krankheiten (ICD-10-GM/ICD-11) und der Wirkstoffklassifikation (ATC) ausgewählt; Handelsnamen verweisen auf den Wirkstoffartikel. Ergänzend gibt es Begriffsartikel zu Grundlagen wie Anatomie, Physiologie, Laborwerten und Untersuchungsverfahren.
+
+== Entstehung der Artikel und Einsatz von KI ==
+
+* Artikel werden mit Unterstützung von KI-Systemen aus den genannten Quellen erstellt. Jeder Artikel durchläuft vor der Veröffentlichung automatische Prüfungen auf Struktur, Quellenbezug und Übereinstimmung der Aussagen mit den zitierten Quellen.
+* Die Artikel tragen einen BETA-Hinweis. Von Dr. med. Andreas Tremml geprüfte Artikel tragen zusätzlich einen Prüfvermerk („Fachlich geprüft von …“) mit Prüfdatum. Nur geprüfte Artikel führen diesen Vermerk; wird ein geprüfter Artikel inhaltlich geändert, entfällt der Vermerk bis zur erneuten Prüfung.
+* Begriffsartikel, die noch nicht fachlich geprüft sind, sind deutlich als „Fachlich noch nicht geprüft (BETA)“ gekennzeichnet.
+* Inhalte ohne Quellenbezug werden nicht veröffentlicht.
+
+== Fachliche Prüfung ==
+
+* Verantwortlich für die fachliche Prüfung ist Dr. med. Andreas Tremml, AT Medical GmbH. Prüfer und Prüfdatum stehen im Prüfvermerk des jeweiligen Artikels.
+* Geprüft werden zuerst die umfangreichen Fachartikel zu häufigen Krankheitsbildern.
+* Neue Leitlinien werden bei der Überarbeitung berücksichtigt. Maßgeblich ist der im Artikel angegebene Stand.
+
+== Korrekturen und Hinweise ==
+
+* Fehler, Unklarheiten oder veraltete Angaben bitte an [mailto:info@at-medical.de info@at-medical.de] melden. Hinweise werden geprüft; berechtigte Korrekturen werden in der Regel zeitnah eingearbeitet.
+* Leserinnen und Leser können die Artikel nicht direkt bearbeiten; die Artikel werden zentral gepflegt, damit Quellen und Prüfstand nachvollziehbar bleiben. Fachpersonen können auf Anfrage mitschreiben ([[WikiMedica:Autor werden|Autor:in werden]]).
+
+== Unabhängigkeit und Werbung ==
+
+* WikiMedica enthält keine Werbung von Arzneimittelherstellern. Handelsnamen werden ausschließlich zur Zuordnung zum Wirkstoff genannt.
+* Verweise auf Fortbildungen und Lernangebote der AT Medical GmbH (Kurse, medicATe, Pharma Cards) sind als eigene Angebote gekennzeichnet.
+
+== Datenschutz, Impressum, Haftung ==
+
+* Es gelten die Seiten [[WikiMedica:Datenschutz|Datenschutz]], [[WikiMedica:Impressum|Impressum]] und [[WikiMedica:Haftungsausschluss|Haftungsausschluss]].

@@ -101,8 +101,8 @@ blocks:
     css_class: wm-disclaimer
     text: >-
       Bei der Erstellung dieses Artikels wurden KI-gestützte Werkzeuge
-      unterstützend eingesetzt. Der Inhalt wurde vollständig durch qualifizierte
-      Fachpersonen geprüft und freigegeben.
+      unterstützend eingesetzt. Von Dr. med. Andreas Tremml geprüfte Artikel
+      tragen einen Prüfvermerk mit Prüfdatum.
 
 # Blocks per article_type, in display order.
 profiles:
