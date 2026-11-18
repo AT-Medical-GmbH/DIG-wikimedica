@@ -62,6 +62,7 @@ def main() -> int:
     a = ap.parse_args()
     from fachhash_seo import fach_hash, fach_text
     import import_merged_beta_local as L
+    import import_merged_beta as B
     L.CONTAINER = a.container
     L.upload_figures = lambda f: None  # Abbildungen sind live, nicht erneut hochladen
     if "def autolinker" not in (SRC / "scripts/publishing/import_merged_beta.py").read_text(encoding="utf-8"):
@@ -71,8 +72,8 @@ def main() -> int:
     g = json.loads(GEPRUEFT.read_text(encoding="utf-8"))
     done = set(json.loads(Path(a.state).read_text()) if Path(a.state).exists() else [])
     plan, skipped, new = [], [], 0
-    for folder in sorted(L.ALLOWED_FOLDERS):
-        for f in sorted((L.ROOT / "content" / folder).rglob("*.md")):
+    for folder in sorted(B.ALLOWED_FOLDERS):
+        for f in sorted((B.ROOT / "content" / folder).rglob("*.md")):
             if f.name.lower() == "readme.md" or "templates" in f.parts:
                 continue
             try:
